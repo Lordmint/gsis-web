@@ -1,6 +1,6 @@
 GSIS Run — 2026-09-17
 Status: OK
-API calls used: 64
+API calls used: 68
 Competitions:
   eng-premier-league: ok | entities=20 events=40
   eng-championship: ok | entities=24 events=83
@@ -26,18 +26,18 @@ Competitions:
   sui-super-league: ok | entities=12 events=0
   isr-premier-league: ok | entities=6 events=0
   aut-bundesliga: ok | entities=6 events=195
-  den-superliga: ok | entities=6 events=193
+  den-superliga: data-low (no standings returned by source) | entities=0 events=0
   swe-allsvenskan: ok | entities=16 events=0
   nor-eliteserien: ok | entities=16 events=0
   pol-ekstraklasa: ok | entities=18 events=0
-  gre-super-league: ok | entities=4 events=236
+  gre-super-league: data-low (no standings returned by source) | entities=0 events=0
   ukr-premier-league: ok | entities=16 events=0
-  cze-first-league: ok | entities=6 events=280
-  rou-liga-1: ok | entities=6 events=319
-  cro-hnl: ok | entities=10 events=180
-  hun-nb1: ok | entities=12 events=198
-  fin-veikkausliiga: data-low (HTTP Error 429: Too Many Requests) | entities=0 events=0
-  por-segunda-liga: data-low (HTTP Error 429: Too Many Requests) | entities=0 events=0
+  cze-first-league: data-low (no standings returned by source) | entities=0 events=0
+  rou-liga-1: data-low (no standings returned by source) | entities=0 events=0
+  cro-hnl: data-low (no standings returned by source) | entities=0 events=0
+  hun-nb1: data-low (no standings returned by source) | entities=0 events=0
+  fin-veikkausliiga: data-low (no standings returned by source) | entities=0 events=0
+  por-segunda-liga: data-low (no standings returned by source) | entities=0 events=0
   bel-challenger-pro-league: data-low (no standings returned by source) | entities=0 events=0
   rus-premier-league: ok | entities=16 events=0
   cyp-first-division: ok | entities=6 events=0
@@ -67,7 +67,7 @@ Competitions:
   mys-super-league: ok | entities=13 events=0
   sgp-premier-league: ok | entities=8 events=0
   kor-k-league: ok | entities=12 events=0
-  kaz-premier-league: ok | entities=16 events=240
+  kaz-premier-league: data-low (no standings returned by source) | entities=0 events=0
   chn-csl: ok | entities=16 events=0
   tha-league-1: ok | entities=16 events=0
   idn-super-league: ok | entities=18 events=0
@@ -83,8 +83,8 @@ Competitions:
   usa-mls: ok | entities=15 events=0
   usa-usl: ok | entities=13 events=0
   usa-usl-league-one: ok | entities=17 events=0
-  mex-liga-mx: ok | entities=18 events=340
-  mex-expansion: ok | entities=15 events=240
+  mex-liga-mx: data-low (no standings returned by source) | entities=0 events=0
+  mex-expansion: data-low (no standings returned by source) | entities=0 events=0
   slv-primera: ok | entities=12 events=0
   crc-primera: data-low (below min_events_for_score=10 — trying next source) | entities=10 events=0
   gua-liga-nacional: data-low (below min_events_for_score=10 — trying next source) | entities=12 events=0
@@ -95,9 +95,9 @@ Competitions:
   arg-primera-nacional: ok | entities=18 events=0
   col-primera: data-low (below min_events_for_score=10 — trying next source) | entities=20 events=0
   chi-primera: ok | entities=16 events=0
-  ecu-liga-pro: ok | entities=16 events=242
+  ecu-liga-pro: data-low (no standings returned by source) | entities=0 events=0
   par-primera: ok | entities=12 events=0
-  uru-primera: ok | entities=16 events=177
+  uru-primera: data-low (no standings returned by source) | entities=0 events=0
   per-liga-1: data-low (below min_events_for_score=10 — trying next source) | entities=18 events=0
   bol-liga-1: ok | entities=16 events=0
   ven-liga-futve: ok | entities=14 events=0
