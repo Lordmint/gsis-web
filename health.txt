@@ -1,6 +1,6 @@
 GSIS Run — 2026-09-18
 Status: OK
-API calls used: 32
+API calls used: 28
 Competitions:
   eng-premier-league: ok | entities=20 events=40
   eng-championship: ok | entities=24 events=83
@@ -47,11 +47,11 @@ Competitions:
   ukr-premier-league: ok | entities=16 events=0
   cze-first-league: ok | entities=16 events=0
   rou-liga-1: ok | entities=16 events=0
-  cro-hnl: ok | entities=10 events=180
+  cro-hnl: data-low (HTTP Error 429: Too Many Requests) | entities=0 events=0
   hun-nb1: ok | entities=12 events=0
   fin-veikkausliiga: ok | entities=12 events=0
   por-segunda-liga: ok | entities=18 events=0
-  bel-challenger-pro-league: ok | entities=16 events=246
+  bel-challenger-pro-league: data-low (HTTP Error 429: Too Many Requests) | entities=15 events=0
   rus-premier-league: ok | entities=16 events=0
   rus-first-league: ok | entities=18 events=0
   cyp-first-division: ok | entities=6 events=0
@@ -236,7 +236,6 @@ Wikipedia data validation (results grid vs standings table):
       Lusitânia Lourosa: grid(P5 W4 D1 L0 GF9 GA3) vs standings (P6 W5 D1 L0 GF11 GA4)
       Vizela: grid(P5 W2 D2 L1 GF6 GA4) vs standings (P6 W3 D2 L1 GF7 GA4)
       União de Leiria: grid(P3 W2 D0 L1 GF4 GA2) vs standings (P6 W3 D1 L2 GF10 GA7)
-  bel-challenger-pro-league: no validation data
   rus-premier-league: OK | teams=16 matches=240 checked=16 issues=0
   rus-first-league: OK | teams=18 matches=98 checked=18 issues=0
   cyp-first-division: MISMATCH | teams=14 matches=19 checked=14 issues=3

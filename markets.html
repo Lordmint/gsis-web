@@ -19,6 +19,7 @@ nav{display:flex;gap:.35rem}nav a{color:var(--dim);text-decoration:none;padding:
 .hero{display:flex;align-items:flex-end;justify-content:space-between;gap:1rem;padding:2rem 0 1.25rem;flex-wrap:wrap}
 .hero h1{font-size:1.9rem;font-weight:800;letter-spacing:-.5px;margin-bottom:.35rem;background:linear-gradient(90deg,#f8fafc,var(--accent));-webkit-background-clip:text;background-clip:text;color:transparent}
 .hero-sub{color:var(--dim);font-size:.95rem}
+.hero-sub a{color:var(--accent);text-decoration:none}.hero-sub a:hover{text-decoration:underline}
 .bar{display:flex;flex-wrap:wrap;gap:.5rem;margin:.25rem 0 1.5rem;align-items:center}
 .chip{background:var(--bg2);border:1px solid var(--border);color:var(--text);padding:.4rem .8rem;border-radius:999px;font-size:.8rem;cursor:pointer;transition:.15s}
 .chip:hover{border-color:var(--accent)}
@@ -27,6 +28,9 @@ nav{display:flex;gap:.35rem}nav a{color:var(--dim);text-decoration:none;padding:
 .stat{font-size:.82rem;color:var(--dim)}
 .sec{margin-bottom:2rem}
 .sec-hd{display:flex;align-items:center;justify-content:space-between;padding:1.1rem 1.25rem;border-radius:14px 14px 0 0;background:rgba(56,189,248,.12);border:1px solid rgba(56,189,248,.4)}
+.sec-d{background:rgba(34,197,94,.12);border-color:rgba(34,197,94,.4)}
+.sec-e{background:rgba(245,158,11,.12);border-color:rgba(245,158,11,.4)}
+.sec-g{background:rgba(148,163,184,.12);border-color:rgba(148,163,184,.4)}
 .sec-t{font-size:1.15rem;font-weight:800}
 .sec-s{color:var(--dim);font-size:.85rem}
 .sec-b{background:var(--bg2);border:1px solid var(--border);border-top:0;border-radius:0 0 14px 14px;padding:1.1rem 1.25rem;display:grid;grid-template-columns:repeat(auto-fill,minmax(390px,1fr));gap:1.1rem}
@@ -74,12 +78,13 @@ nav{display:flex;gap:.35rem}nav a{color:var(--dim);text-decoration:none;padding:
 .spn5{border-color:var(--green)} .spn4{border-color:#4ade80} .spn3{border-color:var(--amber)} .spn2{border-color:var(--orange)} .spn1{border-color:var(--red)}
 .empty{grid-column:1/-1;color:var(--dim);text-align:center;padding:1.5rem}
 .foot{border-top:1px solid var(--border);padding:1.4rem 0;color:var(--dim);font-size:.8rem;text-align:center}.d-links{margin-bottom:.5rem;color:var(--text);font-weight:600}.foot a{color:var(--accent);text-decoration:none}
+@media(max-width:640px){.hero h1{font-size:1.4rem}.cd-b .vc{grid-template-columns:1fr}}
+
 .methods{margin:0 0 2rem;background:#1e293b;border:1px solid var(--border);border-radius:14px;padding:1.1rem 1.25rem}
 .methods h3{font-size:.95rem;margin-bottom:.6rem}
 .methods ul{display:grid;grid-template-columns:repeat(auto-fill,minmax(330px,1fr));gap:.4rem .9rem;list-style:none}
 .methods li{font-size:.78rem;color:var(--dim)}
 .methods b{color:var(--text)}
-@media(max-width:640px){.hero h1{font-size:1.4rem}.cd-b .vc{grid-template-columns:1fr}}
 </style>
 </head>
 <body>
@@ -92,7 +97,8 @@ nav{display:flex;gap:.35rem}nav a{color:var(--dim);text-decoration:none;padding:
 <section class="hero"><div class="hero-info">
   <h1>🎯 Betting Markets — Best Fit For Our Teams</h1>
   <p class="hero-sub">Best-suited market to back our strong teams, picked from the full model grid.
-  <br>Snapshot: <strong>2026-09-18</strong> · 31 picks · 15 high-confidence</p>
+  <br>Snapshot: <strong>2026-09-18</strong> · 31 picks · 15 high-confidence ·
+  <a href="premium.html">🏅 Premium picks</a></p>
 </div>
 <div class="stat">
   <div class="bar" id="chips"><button class="chip" data-mkt="1X2 Home · 2UP" onclick="filt('1X2 Home · 2UP')">1X2 Home · 2UP <b>10</b></button><button class="chip" data-mkt="Double Chance · 1UP" onclick="filt('Double Chance · 1UP')">Double Chance · 1UP <b>8</b></button><button class="chip" data-mkt="Away or GG" onclick="filt('Away or GG')">Away or GG <b>6</b></button><button class="chip" data-mkt="1X2 Away · 2UP" onclick="filt('1X2 Away · 2UP')">1X2 Away · 2UP <b>6</b></button><button class="chip" data-mkt="Home or GG" onclick="filt('Home or GG')">Home or GG <b>1</b></button></div>
@@ -136,16 +142,16 @@ nav{display:flex;gap:.35rem}nav a{color:var(--dim);text-decoration:none;padding:
   </div>
   <table class="mt">
     <tr><td class="mname">1X2 · Full Time</td><td><b><span class="pb">77.0%</span></b> <span class="dim">X</span> <span class="pb">15.7%</span> <b><span class="pb">7.3%</span></b> <span class="dim">(H · X · A)</span></td></tr><tr><td class="mname">1X2 · 1UP</td><td>84.4% <span class="fair">fair 1.18</span> <span class="dim">— pays the moment Home take a 1-goal lead</span></td></tr><tr><td class="mname">1X2 · 2UP</td><td>60.2% <span class="fair">fair 1.66</span> <span class="dim">— pays the moment Home lead by 2</span></td></tr><tr><td class="mname">Double Chance</td><td>92.7% <span class="fair">fair 1.08</span> <span class="dim">(1X · Home win or draw)</span></td></tr><tr><td class="mname">Double Chance · 1UP</td><td>94.0% <span class="fair">fair 1.06</span> <span class="dim">— draws covered, any 1-goal lead pays early</span></td></tr><tr><td class="mname">Home or GG</td><td>91.6% <span class="fair">fair 1.09</span> <span class="dim">— home win or both teams score (BTTS 44.2%)</span></td></tr>
-        <tr><td class="mname">Over / Under <i>(supporting)</i></td><td>
-          <div class="ou">
-            <span class="ou-i">O1.5 82.3%</span>
-            <span class="ou-i">U1.5 17.7%</span>
-            <span class="ou-i">O2.5 60.5%</span>
-            <span class="ou-i">U2.5 39.5%</span>
-            <span class="ou-i">O3.5 38.1%</span>
-            <span class="ou-i">U3.5 61.9%</span>
-          </div>
-        </td></tr>
+    <tr><td class="mname">Over / Under <i>(supporting)</i></td><td>
+      <div class="ou">
+        <span class="ou-i">O1.5 82.3%</span>
+        <span class="ou-i">U1.5 17.7%</span>
+        <span class="ou-i">O2.5 60.5%</span>
+        <span class="ou-i">U2.5 39.5%</span>
+        <span class="ou-i">O3.5 38.1%</span>
+        <span class="ou-i">U3.5 61.9%</span>
+      </div>
+    </td></tr>
   </table>
 </div>
 <div class="cd" data-mkt="Double Chance · 1UP" data-conf="high" data-spot="sp5">
@@ -165,16 +171,16 @@ nav{display:flex;gap:.35rem}nav a{color:var(--dim);text-decoration:none;padding:
   </div>
   <table class="mt">
     <tr><td class="mname">1X2 · Full Time</td><td><b><span class="pb">76.7%</span></b> <span class="dim">X</span> <span class="pb">15.9%</span> <b><span class="pb">7.4%</span></b> <span class="dim">(H · X · A)</span></td></tr><tr><td class="mname">1X2 · 1UP</td><td>84.2% <span class="fair">fair 1.19</span> <span class="dim">— pays the moment Home take a 1-goal lead</span></td></tr><tr><td class="mname">1X2 · 2UP</td><td>59.8% <span class="fair">fair 1.67</span> <span class="dim">— pays the moment Home lead by 2</span></td></tr><tr><td class="mname">Double Chance</td><td>92.6% <span class="fair">fair 1.08</span> <span class="dim">(1X · Home win or draw)</span></td></tr><tr><td class="mname">Double Chance · 1UP</td><td>93.9% <span class="fair">fair 1.06</span> <span class="dim">— draws covered, any 1-goal lead pays early</span></td></tr><tr><td class="mname">Home or GG</td><td>91.5% <span class="fair">fair 1.09</span> <span class="dim">— home win or both teams score (BTTS 44.3%)</span></td></tr>
-        <tr><td class="mname">Over / Under <i>(supporting)</i></td><td>
-          <div class="ou">
-            <span class="ou-i">O1.5 82.2%</span>
-            <span class="ou-i">U1.5 17.8%</span>
-            <span class="ou-i">O2.5 60.2%</span>
-            <span class="ou-i">U2.5 39.8%</span>
-            <span class="ou-i">O3.5 37.9%</span>
-            <span class="ou-i">U3.5 62.1%</span>
-          </div>
-        </td></tr>
+    <tr><td class="mname">Over / Under <i>(supporting)</i></td><td>
+      <div class="ou">
+        <span class="ou-i">O1.5 82.2%</span>
+        <span class="ou-i">U1.5 17.8%</span>
+        <span class="ou-i">O2.5 60.2%</span>
+        <span class="ou-i">U2.5 39.8%</span>
+        <span class="ou-i">O3.5 37.9%</span>
+        <span class="ou-i">U3.5 62.1%</span>
+      </div>
+    </td></tr>
   </table>
 </div>
 <div class="cd" data-mkt="Double Chance · 1UP" data-conf="high" data-spot="sp5">
@@ -194,16 +200,16 @@ nav{display:flex;gap:.35rem}nav a{color:var(--dim);text-decoration:none;padding:
   </div>
   <table class="mt">
     <tr><td class="mname">1X2 · Full Time</td><td><b><span class="pb">7.5%</span></b> <span class="dim">X</span> <span class="pb">16.0%</span> <b><span class="pb">76.5%</span></b> <span class="dim">(H · X · A)</span></td></tr><tr><td class="mname">1X2 · 1UP</td><td>84.0% <span class="fair">fair 1.19</span> <span class="dim">— pays the moment Away take a 1-goal lead</span></td></tr><tr><td class="mname">1X2 · 2UP</td><td>59.6% <span class="fair">fair 1.68</span> <span class="dim">— pays the moment Away lead by 2</span></td></tr><tr><td class="mname">Double Chance</td><td>92.5% <span class="fair">fair 1.08</span> <span class="dim">(X2 · Away win or draw)</span></td></tr><tr><td class="mname">Double Chance · 1UP</td><td>93.8% <span class="fair">fair 1.07</span> <span class="dim">— draws covered, any 1-goal lead pays early</span></td></tr><tr><td class="mname">Away or GG</td><td>91.4% <span class="fair">fair 1.09</span> <span class="dim">— away win or both teams score (BTTS 44.4%)</span></td></tr>
-        <tr><td class="mname">Over / Under <i>(supporting)</i></td><td>
-          <div class="ou">
-            <span class="ou-i">O1.5 82.1%</span>
-            <span class="ou-i">U1.5 17.9%</span>
-            <span class="ou-i">O2.5 60.1%</span>
-            <span class="ou-i">U2.5 39.9%</span>
-            <span class="ou-i">O3.5 37.8%</span>
-            <span class="ou-i">U3.5 62.2%</span>
-          </div>
-        </td></tr>
+    <tr><td class="mname">Over / Under <i>(supporting)</i></td><td>
+      <div class="ou">
+        <span class="ou-i">O1.5 82.1%</span>
+        <span class="ou-i">U1.5 17.9%</span>
+        <span class="ou-i">O2.5 60.1%</span>
+        <span class="ou-i">U2.5 39.9%</span>
+        <span class="ou-i">O3.5 37.8%</span>
+        <span class="ou-i">U3.5 62.2%</span>
+      </div>
+    </td></tr>
   </table>
 </div>
 <div class="cd" data-mkt="Double Chance · 1UP" data-conf="high" data-spot="sp5">
@@ -223,16 +229,16 @@ nav{display:flex;gap:.35rem}nav a{color:var(--dim);text-decoration:none;padding:
   </div>
   <table class="mt">
     <tr><td class="mname">1X2 · Full Time</td><td><b><span class="pb">7.7%</span></b> <span class="dim">X</span> <span class="pb">16.2%</span> <b><span class="pb">76.0%</span></b> <span class="dim">(H · X · A)</span></td></tr><tr><td class="mname">1X2 · 1UP</td><td>83.7% <span class="fair">fair 1.19</span> <span class="dim">— pays the moment Away take a 1-goal lead</span></td></tr><tr><td class="mname">1X2 · 2UP</td><td>59.0% <span class="fair">fair 1.70</span> <span class="dim">— pays the moment Away lead by 2</span></td></tr><tr><td class="mname">Double Chance</td><td>92.3% <span class="fair">fair 1.08</span> <span class="dim">(X2 · Away win or draw)</span></td></tr><tr><td class="mname">Double Chance · 1UP</td><td>93.7% <span class="fair">fair 1.07</span> <span class="dim">— draws covered, any 1-goal lead pays early</span></td></tr><tr><td class="mname">Away or GG</td><td>91.2% <span class="fair">fair 1.10</span> <span class="dim">— away win or both teams score (BTTS 44.6%)</span></td></tr>
-        <tr><td class="mname">Over / Under <i>(supporting)</i></td><td>
-          <div class="ou">
-            <span class="ou-i">O1.5 81.9%</span>
-            <span class="ou-i">U1.5 18.1%</span>
-            <span class="ou-i">O2.5 59.8%</span>
-            <span class="ou-i">U2.5 40.2%</span>
-            <span class="ou-i">O3.5 37.4%</span>
-            <span class="ou-i">U3.5 62.6%</span>
-          </div>
-        </td></tr>
+    <tr><td class="mname">Over / Under <i>(supporting)</i></td><td>
+      <div class="ou">
+        <span class="ou-i">O1.5 81.9%</span>
+        <span class="ou-i">U1.5 18.1%</span>
+        <span class="ou-i">O2.5 59.8%</span>
+        <span class="ou-i">U2.5 40.2%</span>
+        <span class="ou-i">O3.5 37.4%</span>
+        <span class="ou-i">U3.5 62.6%</span>
+      </div>
+    </td></tr>
   </table>
 </div>
 <div class="cd" data-mkt="Double Chance · 1UP" data-conf="high" data-spot="sp5">
@@ -252,16 +258,16 @@ nav{display:flex;gap:.35rem}nav a{color:var(--dim);text-decoration:none;padding:
   </div>
   <table class="mt">
     <tr><td class="mname">1X2 · Full Time</td><td><b><span class="pb">8.0%</span></b> <span class="dim">X</span> <span class="pb">16.5%</span> <b><span class="pb">75.5%</span></b> <span class="dim">(H · X · A)</span></td></tr><tr><td class="mname">1X2 · 1UP</td><td>83.3% <span class="fair">fair 1.20</span> <span class="dim">— pays the moment Away take a 1-goal lead</span></td></tr><tr><td class="mname">1X2 · 2UP</td><td>58.3% <span class="fair">fair 1.72</span> <span class="dim">— pays the moment Away lead by 2</span></td></tr><tr><td class="mname">Double Chance</td><td>92.0% <span class="fair">fair 1.09</span> <span class="dim">(X2 · Away win or draw)</span></td></tr><tr><td class="mname">Double Chance · 1UP</td><td>93.4% <span class="fair">fair 1.07</span> <span class="dim">— draws covered, any 1-goal lead pays early</span></td></tr><tr><td class="mname">Away or GG</td><td>91.0% <span class="fair">fair 1.10</span> <span class="dim">— away win or both teams score (BTTS 44.8%)</span></td></tr>
-        <tr><td class="mname">Over / Under <i>(supporting)</i></td><td>
-          <div class="ou">
-            <span class="ou-i">O1.5 81.6%</span>
-            <span class="ou-i">U1.5 18.4%</span>
-            <span class="ou-i">O2.5 59.4%</span>
-            <span class="ou-i">U2.5 40.6%</span>
-            <span class="ou-i">O3.5 37.0%</span>
-            <span class="ou-i">U3.5 63.0%</span>
-          </div>
-        </td></tr>
+    <tr><td class="mname">Over / Under <i>(supporting)</i></td><td>
+      <div class="ou">
+        <span class="ou-i">O1.5 81.6%</span>
+        <span class="ou-i">U1.5 18.4%</span>
+        <span class="ou-i">O2.5 59.4%</span>
+        <span class="ou-i">U2.5 40.6%</span>
+        <span class="ou-i">O3.5 37.0%</span>
+        <span class="ou-i">U3.5 63.0%</span>
+      </div>
+    </td></tr>
   </table>
 </div>
 <div class="cd" data-mkt="Double Chance · 1UP" data-conf="high" data-spot="sp5">
@@ -281,16 +287,16 @@ nav{display:flex;gap:.35rem}nav a{color:var(--dim);text-decoration:none;padding:
   </div>
   <table class="mt">
     <tr><td class="mname">1X2 · Full Time</td><td><b><span class="pb">8.2%</span></b> <span class="dim">X</span> <span class="pb">16.7%</span> <b><span class="pb">75.1%</span></b> <span class="dim">(H · X · A)</span></td></tr><tr><td class="mname">1X2 · 1UP</td><td>83.0% <span class="fair">fair 1.20</span> <span class="dim">— pays the moment Away take a 1-goal lead</span></td></tr><tr><td class="mname">1X2 · 2UP</td><td>57.8% <span class="fair">fair 1.73</span> <span class="dim">— pays the moment Away lead by 2</span></td></tr><tr><td class="mname">Double Chance</td><td>91.8% <span class="fair">fair 1.09</span> <span class="dim">(X2 · Away win or draw)</span></td></tr><tr><td class="mname">Double Chance · 1UP</td><td>93.3% <span class="fair">fair 1.07</span> <span class="dim">— draws covered, any 1-goal lead pays early</span></td></tr><tr><td class="mname">Away or GG</td><td>90.8% <span class="fair">fair 1.10</span> <span class="dim">— away win or both teams score (BTTS 45.0%)</span></td></tr>
-        <tr><td class="mname">Over / Under <i>(supporting)</i></td><td>
-          <div class="ou">
-            <span class="ou-i">O1.5 81.5%</span>
-            <span class="ou-i">U1.5 18.5%</span>
-            <span class="ou-i">O2.5 59.1%</span>
-            <span class="ou-i">U2.5 40.9%</span>
-            <span class="ou-i">O3.5 36.7%</span>
-            <span class="ou-i">U3.5 63.3%</span>
-          </div>
-        </td></tr>
+    <tr><td class="mname">Over / Under <i>(supporting)</i></td><td>
+      <div class="ou">
+        <span class="ou-i">O1.5 81.5%</span>
+        <span class="ou-i">U1.5 18.5%</span>
+        <span class="ou-i">O2.5 59.1%</span>
+        <span class="ou-i">U2.5 40.9%</span>
+        <span class="ou-i">O3.5 36.7%</span>
+        <span class="ou-i">U3.5 63.3%</span>
+      </div>
+    </td></tr>
   </table>
 </div>
 <div class="cd" data-mkt="Double Chance · 1UP" data-conf="high" data-spot="sp5">
@@ -310,16 +316,16 @@ nav{display:flex;gap:.35rem}nav a{color:var(--dim);text-decoration:none;padding:
   </div>
   <table class="mt">
     <tr><td class="mname">1X2 · Full Time</td><td><b><span class="pb">8.5%</span></b> <span class="dim">X</span> <span class="pb">17.1%</span> <b><span class="pb">74.3%</span></b> <span class="dim">(H · X · A)</span></td></tr><tr><td class="mname">1X2 · 1UP</td><td>82.5% <span class="fair">fair 1.21</span> <span class="dim">— pays the moment Away take a 1-goal lead</span></td></tr><tr><td class="mname">1X2 · 2UP</td><td>56.9% <span class="fair">fair 1.76</span> <span class="dim">— pays the moment Away lead by 2</span></td></tr><tr><td class="mname">Double Chance</td><td>91.5% <span class="fair">fair 1.09</span> <span class="dim">(X2 · Away win or draw)</span></td></tr><tr><td class="mname">Double Chance · 1UP</td><td>93.0% <span class="fair">fair 1.08</span> <span class="dim">— draws covered, any 1-goal lead pays early</span></td></tr><tr><td class="mname">Away or GG</td><td>90.5% <span class="fair">fair 1.10</span> <span class="dim">— away win or both teams score (BTTS 45.3%)</span></td></tr>
-        <tr><td class="mname">Over / Under <i>(supporting)</i></td><td>
-          <div class="ou">
-            <span class="ou-i">O1.5 81.1%</span>
-            <span class="ou-i">U1.5 18.9%</span>
-            <span class="ou-i">O2.5 58.6%</span>
-            <span class="ou-i">U2.5 41.4%</span>
-            <span class="ou-i">O3.5 36.2%</span>
-            <span class="ou-i">U3.5 63.8%</span>
-          </div>
-        </td></tr>
+    <tr><td class="mname">Over / Under <i>(supporting)</i></td><td>
+      <div class="ou">
+        <span class="ou-i">O1.5 81.1%</span>
+        <span class="ou-i">U1.5 18.9%</span>
+        <span class="ou-i">O2.5 58.6%</span>
+        <span class="ou-i">U2.5 41.4%</span>
+        <span class="ou-i">O3.5 36.2%</span>
+        <span class="ou-i">U3.5 63.8%</span>
+      </div>
+    </td></tr>
   </table>
 </div>
 <div class="cd" data-mkt="Double Chance · 1UP" data-conf="high" data-spot="sp5">
@@ -339,16 +345,16 @@ nav{display:flex;gap:.35rem}nav a{color:var(--dim);text-decoration:none;padding:
   </div>
   <table class="mt">
     <tr><td class="mname">1X2 · Full Time</td><td><b><span class="pb">73.3%</span></b> <span class="dim">X</span> <span class="pb">17.7%</span> <b><span class="pb">9.0%</span></b> <span class="dim">(H · X · A)</span></td></tr><tr><td class="mname">1X2 · 1UP</td><td>81.7% <span class="fair">fair 1.22</span> <span class="dim">— pays the moment Home take a 1-goal lead</span></td></tr><tr><td class="mname">1X2 · 2UP</td><td>55.7% <span class="fair">fair 1.79</span> <span class="dim">— pays the moment Home lead by 2</span></td></tr><tr><td class="mname">Double Chance</td><td>91.0% <span class="fair">fair 1.10</span> <span class="dim">(1X · Home win or draw)</span></td></tr><tr><td class="mname">Double Chance · 1UP</td><td>92.6% <span class="fair">fair 1.08</span> <span class="dim">— draws covered, any 1-goal lead pays early</span></td></tr><tr><td class="mname">Home or GG</td><td>90.1% <span class="fair">fair 1.11</span> <span class="dim">— home win or both teams score (BTTS 45.6%)</span></td></tr>
-        <tr><td class="mname">Over / Under <i>(supporting)</i></td><td>
-          <div class="ou">
-            <span class="ou-i">O1.5 80.7%</span>
-            <span class="ou-i">U1.5 19.3%</span>
-            <span class="ou-i">O2.5 57.9%</span>
-            <span class="ou-i">U2.5 42.1%</span>
-            <span class="ou-i">O3.5 35.5%</span>
-            <span class="ou-i">U3.5 64.5%</span>
-          </div>
-        </td></tr>
+    <tr><td class="mname">Over / Under <i>(supporting)</i></td><td>
+      <div class="ou">
+        <span class="ou-i">O1.5 80.7%</span>
+        <span class="ou-i">U1.5 19.3%</span>
+        <span class="ou-i">O2.5 57.9%</span>
+        <span class="ou-i">U2.5 42.1%</span>
+        <span class="ou-i">O3.5 35.5%</span>
+        <span class="ou-i">U3.5 64.5%</span>
+      </div>
+    </td></tr>
   </table>
 </div>
 <div class="cd" data-mkt="Away or GG" data-conf="good" data-spot="sp4">
@@ -368,16 +374,16 @@ nav{display:flex;gap:.35rem}nav a{color:var(--dim);text-decoration:none;padding:
   </div>
   <table class="mt">
     <tr><td class="mname">1X2 · Full Time</td><td><b><span class="pb">9.8%</span></b> <span class="dim">X</span> <span class="pb">18.4%</span> <b><span class="pb">71.9%</span></b> <span class="dim">(H · X · A)</span></td></tr><tr><td class="mname">1X2 · 1UP</td><td>80.7% <span class="fair">fair 1.24</span> <span class="dim">— pays the moment Away take a 1-goal lead</span></td></tr><tr><td class="mname">1X2 · 2UP</td><td>54.0% <span class="fair">fair 1.85</span> <span class="dim">— pays the moment Away lead by 2</span></td></tr><tr><td class="mname">Double Chance</td><td>90.2% <span class="fair">fair 1.11</span> <span class="dim">(X2 · Away win or draw)</span></td></tr><tr><td class="mname">Double Chance · 1UP</td><td>92.0% <span class="fair">fair 1.09</span> <span class="dim">— draws covered, any 1-goal lead pays early</span></td></tr><tr><td class="mname">Away or GG</td><td>89.5% <span class="fair">fair 1.12</span> <span class="dim">— away win or both teams score (BTTS 46.2%)</span></td></tr>
-        <tr><td class="mname">Over / Under <i>(supporting)</i></td><td>
-          <div class="ou">
-            <span class="ou-i">O1.5 80.1%</span>
-            <span class="ou-i">U1.5 19.9%</span>
-            <span class="ou-i">O2.5 57.0%</span>
-            <span class="ou-i">U2.5 43.0%</span>
-            <span class="ou-i">O3.5 34.6%</span>
-            <span class="ou-i">U3.5 65.4%</span>
-          </div>
-        </td></tr>
+    <tr><td class="mname">Over / Under <i>(supporting)</i></td><td>
+      <div class="ou">
+        <span class="ou-i">O1.5 80.1%</span>
+        <span class="ou-i">U1.5 19.9%</span>
+        <span class="ou-i">O2.5 57.0%</span>
+        <span class="ou-i">U2.5 43.0%</span>
+        <span class="ou-i">O3.5 34.6%</span>
+        <span class="ou-i">U3.5 65.4%</span>
+      </div>
+    </td></tr>
   </table>
 </div>
 <div class="cd" data-mkt="Away or GG" data-conf="good" data-spot="sp4">
@@ -397,16 +403,16 @@ nav{display:flex;gap:.35rem}nav a{color:var(--dim);text-decoration:none;padding:
   </div>
   <table class="mt">
     <tr><td class="mname">1X2 · Full Time</td><td><b><span class="pb">10.5%</span></b> <span class="dim">X</span> <span class="pb">19.1%</span> <b><span class="pb">70.4%</span></b> <span class="dim">(H · X · A)</span></td></tr><tr><td class="mname">1X2 · 1UP</td><td>79.6% <span class="fair">fair 1.26</span> <span class="dim">— pays the moment Away take a 1-goal lead</span></td></tr><tr><td class="mname">1X2 · 2UP</td><td>52.4% <span class="fair">fair 1.91</span> <span class="dim">— pays the moment Away lead by 2</span></td></tr><tr><td class="mname">Double Chance</td><td>89.5% <span class="fair">fair 1.12</span> <span class="dim">(X2 · Away win or draw)</span></td></tr><tr><td class="mname">Double Chance · 1UP</td><td>91.3% <span class="fair">fair 1.09</span> <span class="dim">— draws covered, any 1-goal lead pays early</span></td></tr><tr><td class="mname">Away or GG</td><td>88.9% <span class="fair">fair 1.12</span> <span class="dim">— away win or both teams score (BTTS 46.7%)</span></td></tr>
-        <tr><td class="mname">Over / Under <i>(supporting)</i></td><td>
-          <div class="ou">
-            <span class="ou-i">O1.5 79.5%</span>
-            <span class="ou-i">U1.5 20.5%</span>
-            <span class="ou-i">O2.5 56.1%</span>
-            <span class="ou-i">U2.5 43.9%</span>
-            <span class="ou-i">O3.5 33.7%</span>
-            <span class="ou-i">U3.5 66.3%</span>
-          </div>
-        </td></tr>
+    <tr><td class="mname">Over / Under <i>(supporting)</i></td><td>
+      <div class="ou">
+        <span class="ou-i">O1.5 79.5%</span>
+        <span class="ou-i">U1.5 20.5%</span>
+        <span class="ou-i">O2.5 56.1%</span>
+        <span class="ou-i">U2.5 43.9%</span>
+        <span class="ou-i">O3.5 33.7%</span>
+        <span class="ou-i">U3.5 66.3%</span>
+      </div>
+    </td></tr>
   </table>
 </div>
 <div class="cd" data-mkt="Away or GG" data-conf="good" data-spot="sp4">
@@ -426,16 +432,16 @@ nav{display:flex;gap:.35rem}nav a{color:var(--dim);text-decoration:none;padding:
   </div>
   <table class="mt">
     <tr><td class="mname">1X2 · Full Time</td><td><b><span class="pb">10.6%</span></b> <span class="dim">X</span> <span class="pb">19.2%</span> <b><span class="pb">70.2%</span></b> <span class="dim">(H · X · A)</span></td></tr><tr><td class="mname">1X2 · 1UP</td><td>79.5% <span class="fair">fair 1.26</span> <span class="dim">— pays the moment Away take a 1-goal lead</span></td></tr><tr><td class="mname">1X2 · 2UP</td><td>52.1% <span class="fair">fair 1.92</span> <span class="dim">— pays the moment Away lead by 2</span></td></tr><tr><td class="mname">Double Chance</td><td>89.4% <span class="fair">fair 1.12</span> <span class="dim">(X2 · Away win or draw)</span></td></tr><tr><td class="mname">Double Chance · 1UP</td><td>91.2% <span class="fair">fair 1.10</span> <span class="dim">— draws covered, any 1-goal lead pays early</span></td></tr><tr><td class="mname">Away or GG</td><td>88.8% <span class="fair">fair 1.13</span> <span class="dim">— away win or both teams score (BTTS 46.8%)</span></td></tr>
-        <tr><td class="mname">Over / Under <i>(supporting)</i></td><td>
-          <div class="ou">
-            <span class="ou-i">O1.5 79.5%</span>
-            <span class="ou-i">U1.5 20.5%</span>
-            <span class="ou-i">O2.5 56.0%</span>
-            <span class="ou-i">U2.5 44.0%</span>
-            <span class="ou-i">O3.5 33.6%</span>
-            <span class="ou-i">U3.5 66.4%</span>
-          </div>
-        </td></tr>
+    <tr><td class="mname">Over / Under <i>(supporting)</i></td><td>
+      <div class="ou">
+        <span class="ou-i">O1.5 79.5%</span>
+        <span class="ou-i">U1.5 20.5%</span>
+        <span class="ou-i">O2.5 56.0%</span>
+        <span class="ou-i">U2.5 44.0%</span>
+        <span class="ou-i">O3.5 33.6%</span>
+        <span class="ou-i">U3.5 66.4%</span>
+      </div>
+    </td></tr>
   </table>
 </div>
 <div class="cd" data-mkt="Away or GG" data-conf="good" data-spot="sp4">
@@ -455,16 +461,16 @@ nav{display:flex;gap:.35rem}nav a{color:var(--dim);text-decoration:none;padding:
   </div>
   <table class="mt">
     <tr><td class="mname">1X2 · Full Time</td><td><b><span class="pb">10.8%</span></b> <span class="dim">X</span> <span class="pb">19.4%</span> <b><span class="pb">69.8%</span></b> <span class="dim">(H · X · A)</span></td></tr><tr><td class="mname">1X2 · 1UP</td><td>79.2% <span class="fair">fair 1.26</span> <span class="dim">— pays the moment Away take a 1-goal lead</span></td></tr><tr><td class="mname">1X2 · 2UP</td><td>51.8% <span class="fair">fair 1.93</span> <span class="dim">— pays the moment Away lead by 2</span></td></tr><tr><td class="mname">Double Chance</td><td>89.2% <span class="fair">fair 1.12</span> <span class="dim">(X2 · Away win or draw)</span></td></tr><tr><td class="mname">Double Chance · 1UP</td><td>91.1% <span class="fair">fair 1.10</span> <span class="dim">— draws covered, any 1-goal lead pays early</span></td></tr><tr><td class="mname">Away or GG</td><td>88.7% <span class="fair">fair 1.13</span> <span class="dim">— away win or both teams score (BTTS 46.9%)</span></td></tr>
-        <tr><td class="mname">Over / Under <i>(supporting)</i></td><td>
-          <div class="ou">
-            <span class="ou-i">O1.5 79.3%</span>
-            <span class="ou-i">U1.5 20.7%</span>
-            <span class="ou-i">O2.5 55.8%</span>
-            <span class="ou-i">U2.5 44.2%</span>
-            <span class="ou-i">O3.5 33.4%</span>
-            <span class="ou-i">U3.5 66.6%</span>
-          </div>
-        </td></tr>
+    <tr><td class="mname">Over / Under <i>(supporting)</i></td><td>
+      <div class="ou">
+        <span class="ou-i">O1.5 79.3%</span>
+        <span class="ou-i">U1.5 20.7%</span>
+        <span class="ou-i">O2.5 55.8%</span>
+        <span class="ou-i">U2.5 44.2%</span>
+        <span class="ou-i">O3.5 33.4%</span>
+        <span class="ou-i">U3.5 66.6%</span>
+      </div>
+    </td></tr>
   </table>
 </div>
 <div class="cd" data-mkt="Away or GG" data-conf="good" data-spot="sp4">
@@ -484,16 +490,16 @@ nav{display:flex;gap:.35rem}nav a{color:var(--dim);text-decoration:none;padding:
   </div>
   <table class="mt">
     <tr><td class="mname">1X2 · Full Time</td><td><b><span class="pb">10.8%</span></b> <span class="dim">X</span> <span class="pb">19.4%</span> <b><span class="pb">69.7%</span></b> <span class="dim">(H · X · A)</span></td></tr><tr><td class="mname">1X2 · 1UP</td><td>79.1% <span class="fair">fair 1.26</span> <span class="dim">— pays the moment Away take a 1-goal lead</span></td></tr><tr><td class="mname">1X2 · 2UP</td><td>51.6% <span class="fair">fair 1.94</span> <span class="dim">— pays the moment Away lead by 2</span></td></tr><tr><td class="mname">Double Chance</td><td>89.2% <span class="fair">fair 1.12</span> <span class="dim">(X2 · Away win or draw)</span></td></tr><tr><td class="mname">Double Chance · 1UP</td><td>91.1% <span class="fair">fair 1.10</span> <span class="dim">— draws covered, any 1-goal lead pays early</span></td></tr><tr><td class="mname">Away or GG</td><td>88.6% <span class="fair">fair 1.13</span> <span class="dim">— away win or both teams score (BTTS 46.9%)</span></td></tr>
-        <tr><td class="mname">Over / Under <i>(supporting)</i></td><td>
-          <div class="ou">
-            <span class="ou-i">O1.5 79.3%</span>
-            <span class="ou-i">U1.5 20.7%</span>
-            <span class="ou-i">O2.5 55.7%</span>
-            <span class="ou-i">U2.5 44.3%</span>
-            <span class="ou-i">O3.5 33.4%</span>
-            <span class="ou-i">U3.5 66.6%</span>
-          </div>
-        </td></tr>
+    <tr><td class="mname">Over / Under <i>(supporting)</i></td><td>
+      <div class="ou">
+        <span class="ou-i">O1.5 79.3%</span>
+        <span class="ou-i">U1.5 20.7%</span>
+        <span class="ou-i">O2.5 55.7%</span>
+        <span class="ou-i">U2.5 44.3%</span>
+        <span class="ou-i">O3.5 33.4%</span>
+        <span class="ou-i">U3.5 66.6%</span>
+      </div>
+    </td></tr>
   </table>
 </div>
 <div class="cd" data-mkt="Away or GG" data-conf="good" data-spot="sp4">
@@ -513,16 +519,16 @@ nav{display:flex;gap:.35rem}nav a{color:var(--dim);text-decoration:none;padding:
   </div>
   <table class="mt">
     <tr><td class="mname">1X2 · Full Time</td><td><b><span class="pb">12.0%</span></b> <span class="dim">X</span> <span class="pb">20.4%</span> <b><span class="pb">67.6%</span></b> <span class="dim">(H · X · A)</span></td></tr><tr><td class="mname">1X2 · 1UP</td><td>77.6% <span class="fair">fair 1.29</span> <span class="dim">— pays the moment Away take a 1-goal lead</span></td></tr><tr><td class="mname">1X2 · 2UP</td><td>49.4% <span class="fair">fair 2.03</span> <span class="dim">— pays the moment Away lead by 2</span></td></tr><tr><td class="mname">Double Chance</td><td>88.0% <span class="fair">fair 1.14</span> <span class="dim">(X2 · Away win or draw)</span></td></tr><tr><td class="mname">Double Chance · 1UP</td><td>90.1% <span class="fair">fair 1.11</span> <span class="dim">— draws covered, any 1-goal lead pays early</span></td></tr><tr><td class="mname">Away or GG</td><td>87.7% <span class="fair">fair 1.14</span> <span class="dim">— away win or both teams score (BTTS 47.6%)</span></td></tr>
-        <tr><td class="mname">Over / Under <i>(supporting)</i></td><td>
-          <div class="ou">
-            <span class="ou-i">O1.5 78.5%</span>
-            <span class="ou-i">U1.5 21.5%</span>
-            <span class="ou-i">O2.5 54.6%</span>
-            <span class="ou-i">U2.5 45.4%</span>
-            <span class="ou-i">O3.5 32.3%</span>
-            <span class="ou-i">U3.5 67.7%</span>
-          </div>
-        </td></tr>
+    <tr><td class="mname">Over / Under <i>(supporting)</i></td><td>
+      <div class="ou">
+        <span class="ou-i">O1.5 78.5%</span>
+        <span class="ou-i">U1.5 21.5%</span>
+        <span class="ou-i">O2.5 54.6%</span>
+        <span class="ou-i">U2.5 45.4%</span>
+        <span class="ou-i">O3.5 32.3%</span>
+        <span class="ou-i">U3.5 67.7%</span>
+      </div>
+    </td></tr>
   </table>
 </div>
 <div class="cd" data-mkt="Home or GG" data-conf="good" data-spot="sp4">
@@ -542,16 +548,16 @@ nav{display:flex;gap:.35rem}nav a{color:var(--dim);text-decoration:none;padding:
   </div>
   <table class="mt">
     <tr><td class="mname">1X2 · Full Time</td><td><b><span class="pb">67.1%</span></b> <span class="dim">X</span> <span class="pb">20.6%</span> <b><span class="pb">12.3%</span></b> <span class="dim">(H · X · A)</span></td></tr><tr><td class="mname">1X2 · 1UP</td><td>77.2% <span class="fair">fair 1.30</span> <span class="dim">— pays the moment Home take a 1-goal lead</span></td></tr><tr><td class="mname">1X2 · 2UP</td><td>48.8% <span class="fair">fair 2.05</span> <span class="dim">— pays the moment Home lead by 2</span></td></tr><tr><td class="mname">Double Chance</td><td>87.7% <span class="fair">fair 1.14</span> <span class="dim">(1X · Home win or draw)</span></td></tr><tr><td class="mname">Double Chance · 1UP</td><td>89.9% <span class="fair">fair 1.11</span> <span class="dim">— draws covered, any 1-goal lead pays early</span></td></tr><tr><td class="mname">Home or GG</td><td>87.5% <span class="fair">fair 1.14</span> <span class="dim">— home win or both teams score (BTTS 47.7%)</span></td></tr>
-        <tr><td class="mname">Over / Under <i>(supporting)</i></td><td>
-          <div class="ou">
-            <span class="ou-i">O1.5 78.3%</span>
-            <span class="ou-i">U1.5 21.7%</span>
-            <span class="ou-i">O2.5 54.3%</span>
-            <span class="ou-i">U2.5 45.7%</span>
-            <span class="ou-i">O3.5 32.0%</span>
-            <span class="ou-i">U3.5 68.0%</span>
-          </div>
-        </td></tr>
+    <tr><td class="mname">Over / Under <i>(supporting)</i></td><td>
+      <div class="ou">
+        <span class="ou-i">O1.5 78.3%</span>
+        <span class="ou-i">U1.5 21.7%</span>
+        <span class="ou-i">O2.5 54.3%</span>
+        <span class="ou-i">U2.5 45.7%</span>
+        <span class="ou-i">O3.5 32.0%</span>
+        <span class="ou-i">U3.5 68.0%</span>
+      </div>
+    </td></tr>
   </table>
 </div>
 <div class="cd" data-mkt="1X2 Home · 2UP" data-conf="good" data-spot="sp3">
@@ -571,16 +577,16 @@ nav{display:flex;gap:.35rem}nav a{color:var(--dim);text-decoration:none;padding:
   </div>
   <table class="mt">
     <tr><td class="mname">1X2 · Full Time</td><td><b><span class="pb">91.3%</span></b> <span class="dim">X</span> <span class="pb">6.7%</span> <b><span class="pb">2.0%</span></b> <span class="dim">(H · X · A)</span></td></tr><tr><td class="mname">1X2 · 1UP</td><td>94.3% <span class="fair">fair 1.06</span> <span class="dim">— pays the moment Home take a 1-goal lead</span></td></tr><tr><td class="mname">1X2 · 2UP</td><td>80.9% <span class="fair">fair 1.24</span> <span class="dim">— pays the moment Home lead by 2</span></td></tr><tr><td class="mname">Double Chance</td><td>98.0% <span class="fair">fair 1.02</span> <span class="dim">(1X · Home win or draw)</span></td></tr><tr><td class="mname">Double Chance · 1UP</td><td>98.4% <span class="fair">fair 1.02</span> <span class="dim">— draws covered, any 1-goal lead pays early</span></td></tr><tr><td class="mname">Home or GG</td><td>97.0% <span class="fair">fair 1.03</span> <span class="dim">— home win or both teams score (BTTS 35.8%)</span></td></tr>
-        <tr><td class="mname">Over / Under <i>(supporting)</i></td><td>
-          <div class="ou">
-            <span class="ou-i">O1.5 90.8%</span>
-            <span class="ou-i">U1.5 9.2%</span>
-            <span class="ou-i">O2.5 75.8%</span>
-            <span class="ou-i">U2.5 24.2%</span>
-            <span class="ou-i">O3.5 56.2%</span>
-            <span class="ou-i">U3.5 43.8%</span>
-          </div>
-        </td></tr>
+    <tr><td class="mname">Over / Under <i>(supporting)</i></td><td>
+      <div class="ou">
+        <span class="ou-i">O1.5 90.8%</span>
+        <span class="ou-i">U1.5 9.2%</span>
+        <span class="ou-i">O2.5 75.8%</span>
+        <span class="ou-i">U2.5 24.2%</span>
+        <span class="ou-i">O3.5 56.2%</span>
+        <span class="ou-i">U3.5 43.8%</span>
+      </div>
+    </td></tr>
   </table>
 </div>
 <div class="cd" data-mkt="1X2 Home · 2UP" data-conf="medium" data-spot="sp2">
@@ -600,16 +606,16 @@ nav{display:flex;gap:.35rem}nav a{color:var(--dim);text-decoration:none;padding:
   </div>
   <table class="mt">
     <tr><td class="mname">1X2 · Full Time</td><td><b><span class="pb">86.9%</span></b> <span class="dim">X</span> <span class="pb">9.7%</span> <b><span class="pb">3.4%</span></b> <span class="dim">(H · X · A)</span></td></tr><tr><td class="mname">1X2 · 1UP</td><td>91.3% <span class="fair">fair 1.10</span> <span class="dim">— pays the moment Home take a 1-goal lead</span></td></tr><tr><td class="mname">1X2 · 2UP</td><td>73.7% <span class="fair">fair 1.36</span> <span class="dim">— pays the moment Home lead by 2</span></td></tr><tr><td class="mname">Double Chance</td><td>96.6% <span class="fair">fair 1.03</span> <span class="dim">(1X · Home win or draw)</span></td></tr><tr><td class="mname">Double Chance · 1UP</td><td>97.3% <span class="fair">fair 1.03</span> <span class="dim">— draws covered, any 1-goal lead pays early</span></td></tr><tr><td class="mname">Home or GG</td><td>95.4% <span class="fair">fair 1.05</span> <span class="dim">— home win or both teams score (BTTS 39.1%)</span></td></tr>
-        <tr><td class="mname">Over / Under <i>(supporting)</i></td><td>
-          <div class="ou">
-            <span class="ou-i">O1.5 87.8%</span>
-            <span class="ou-i">U1.5 12.2%</span>
-            <span class="ou-i">O2.5 69.8%</span>
-            <span class="ou-i">U2.5 30.2%</span>
-            <span class="ou-i">O3.5 48.6%</span>
-            <span class="ou-i">U3.5 51.4%</span>
-          </div>
-        </td></tr>
+    <tr><td class="mname">Over / Under <i>(supporting)</i></td><td>
+      <div class="ou">
+        <span class="ou-i">O1.5 87.8%</span>
+        <span class="ou-i">U1.5 12.2%</span>
+        <span class="ou-i">O2.5 69.8%</span>
+        <span class="ou-i">U2.5 30.2%</span>
+        <span class="ou-i">O3.5 48.6%</span>
+        <span class="ou-i">U3.5 51.4%</span>
+      </div>
+    </td></tr>
   </table>
 </div>
 <div class="cd" data-mkt="1X2 Home · 2UP" data-conf="medium" data-spot="sp2">
@@ -629,16 +635,16 @@ nav{display:flex;gap:.35rem}nav a{color:var(--dim);text-decoration:none;padding:
   </div>
   <table class="mt">
     <tr><td class="mname">1X2 · Full Time</td><td><b><span class="pb">86.3%</span></b> <span class="dim">X</span> <span class="pb">10.1%</span> <b><span class="pb">3.6%</span></b> <span class="dim">(H · X · A)</span></td></tr><tr><td class="mname">1X2 · 1UP</td><td>90.9% <span class="fair">fair 1.10</span> <span class="dim">— pays the moment Home take a 1-goal lead</span></td></tr><tr><td class="mname">1X2 · 2UP</td><td>72.8% <span class="fair">fair 1.37</span> <span class="dim">— pays the moment Home lead by 2</span></td></tr><tr><td class="mname">Double Chance</td><td>96.4% <span class="fair">fair 1.04</span> <span class="dim">(1X · Home win or draw)</span></td></tr><tr><td class="mname">Double Chance · 1UP</td><td>97.1% <span class="fair">fair 1.03</span> <span class="dim">— draws covered, any 1-goal lead pays early</span></td></tr><tr><td class="mname">Home or GG</td><td>95.2% <span class="fair">fair 1.05</span> <span class="dim">— home win or both teams score (BTTS 39.4%)</span></td></tr>
-        <tr><td class="mname">Over / Under <i>(supporting)</i></td><td>
-          <div class="ou">
-            <span class="ou-i">O1.5 87.4%</span>
-            <span class="ou-i">U1.5 12.6%</span>
-            <span class="ou-i">O2.5 69.1%</span>
-            <span class="ou-i">U2.5 30.9%</span>
-            <span class="ou-i">O3.5 47.8%</span>
-            <span class="ou-i">U3.5 52.2%</span>
-          </div>
-        </td></tr>
+    <tr><td class="mname">Over / Under <i>(supporting)</i></td><td>
+      <div class="ou">
+        <span class="ou-i">O1.5 87.4%</span>
+        <span class="ou-i">U1.5 12.6%</span>
+        <span class="ou-i">O2.5 69.1%</span>
+        <span class="ou-i">U2.5 30.9%</span>
+        <span class="ou-i">O3.5 47.8%</span>
+        <span class="ou-i">U3.5 52.2%</span>
+      </div>
+    </td></tr>
   </table>
 </div>
 <div class="cd" data-mkt="1X2 Home · 2UP" data-conf="medium" data-spot="sp2">
@@ -658,16 +664,16 @@ nav{display:flex;gap:.35rem}nav a{color:var(--dim);text-decoration:none;padding:
   </div>
   <table class="mt">
     <tr><td class="mname">1X2 · Full Time</td><td><b><span class="pb">85.8%</span></b> <span class="dim">X</span> <span class="pb">10.4%</span> <b><span class="pb">3.7%</span></b> <span class="dim">(H · X · A)</span></td></tr><tr><td class="mname">1X2 · 1UP</td><td>90.6% <span class="fair">fair 1.10</span> <span class="dim">— pays the moment Home take a 1-goal lead</span></td></tr><tr><td class="mname">1X2 · 2UP</td><td>72.1% <span class="fair">fair 1.39</span> <span class="dim">— pays the moment Home lead by 2</span></td></tr><tr><td class="mname">Double Chance</td><td>96.3% <span class="fair">fair 1.04</span> <span class="dim">(1X · Home win or draw)</span></td></tr><tr><td class="mname">Double Chance · 1UP</td><td>97.0% <span class="fair">fair 1.03</span> <span class="dim">— draws covered, any 1-goal lead pays early</span></td></tr><tr><td class="mname">Home or GG</td><td>95.0% <span class="fair">fair 1.05</span> <span class="dim">— home win or both teams score (BTTS 39.7%)</span></td></tr>
-        <tr><td class="mname">Over / Under <i>(supporting)</i></td><td>
-          <div class="ou">
-            <span class="ou-i">O1.5 87.1%</span>
-            <span class="ou-i">U1.5 12.9%</span>
-            <span class="ou-i">O2.5 68.6%</span>
-            <span class="ou-i">U2.5 31.4%</span>
-            <span class="ou-i">O3.5 47.1%</span>
-            <span class="ou-i">U3.5 52.9%</span>
-          </div>
-        </td></tr>
+    <tr><td class="mname">Over / Under <i>(supporting)</i></td><td>
+      <div class="ou">
+        <span class="ou-i">O1.5 87.1%</span>
+        <span class="ou-i">U1.5 12.9%</span>
+        <span class="ou-i">O2.5 68.6%</span>
+        <span class="ou-i">U2.5 31.4%</span>
+        <span class="ou-i">O3.5 47.1%</span>
+        <span class="ou-i">U3.5 52.9%</span>
+      </div>
+    </td></tr>
   </table>
 </div>
 <div class="cd" data-mkt="1X2 Home · 2UP" data-conf="medium" data-spot="sp2">
@@ -687,16 +693,16 @@ nav{display:flex;gap:.35rem}nav a{color:var(--dim);text-decoration:none;padding:
   </div>
   <table class="mt">
     <tr><td class="mname">1X2 · Full Time</td><td><b><span class="pb">85.1%</span></b> <span class="dim">X</span> <span class="pb">10.9%</span> <b><span class="pb">4.0%</span></b> <span class="dim">(H · X · A)</span></td></tr><tr><td class="mname">1X2 · 1UP</td><td>90.0% <span class="fair">fair 1.11</span> <span class="dim">— pays the moment Home take a 1-goal lead</span></td></tr><tr><td class="mname">1X2 · 2UP</td><td>71.0% <span class="fair">fair 1.41</span> <span class="dim">— pays the moment Home lead by 2</span></td></tr><tr><td class="mname">Double Chance</td><td>96.0% <span class="fair">fair 1.04</span> <span class="dim">(1X · Home win or draw)</span></td></tr><tr><td class="mname">Double Chance · 1UP</td><td>96.7% <span class="fair">fair 1.03</span> <span class="dim">— draws covered, any 1-goal lead pays early</span></td></tr><tr><td class="mname">Home or GG</td><td>94.7% <span class="fair">fair 1.06</span> <span class="dim">— home win or both teams score (BTTS 40.2%)</span></td></tr>
-        <tr><td class="mname">Over / Under <i>(supporting)</i></td><td>
-          <div class="ou">
-            <span class="ou-i">O1.5 86.6%</span>
-            <span class="ou-i">U1.5 13.4%</span>
-            <span class="ou-i">O2.5 67.7%</span>
-            <span class="ou-i">U2.5 32.3%</span>
-            <span class="ou-i">O3.5 46.1%</span>
-            <span class="ou-i">U3.5 53.9%</span>
-          </div>
-        </td></tr>
+    <tr><td class="mname">Over / Under <i>(supporting)</i></td><td>
+      <div class="ou">
+        <span class="ou-i">O1.5 86.6%</span>
+        <span class="ou-i">U1.5 13.4%</span>
+        <span class="ou-i">O2.5 67.7%</span>
+        <span class="ou-i">U2.5 32.3%</span>
+        <span class="ou-i">O3.5 46.1%</span>
+        <span class="ou-i">U3.5 53.9%</span>
+      </div>
+    </td></tr>
   </table>
 </div>
 <div class="cd" data-mkt="1X2 Home · 2UP" data-conf="medium" data-spot="sp2">
@@ -716,16 +722,16 @@ nav{display:flex;gap:.35rem}nav a{color:var(--dim);text-decoration:none;padding:
   </div>
   <table class="mt">
     <tr><td class="mname">1X2 · Full Time</td><td><b><span class="pb">84.9%</span></b> <span class="dim">X</span> <span class="pb">11.0%</span> <b><span class="pb">4.1%</span></b> <span class="dim">(H · X · A)</span></td></tr><tr><td class="mname">1X2 · 1UP</td><td>89.9% <span class="fair">fair 1.11</span> <span class="dim">— pays the moment Home take a 1-goal lead</span></td></tr><tr><td class="mname">1X2 · 2UP</td><td>70.7% <span class="fair">fair 1.41</span> <span class="dim">— pays the moment Home lead by 2</span></td></tr><tr><td class="mname">Double Chance</td><td>95.9% <span class="fair">fair 1.04</span> <span class="dim">(1X · Home win or draw)</span></td></tr><tr><td class="mname">Double Chance · 1UP</td><td>96.7% <span class="fair">fair 1.03</span> <span class="dim">— draws covered, any 1-goal lead pays early</span></td></tr><tr><td class="mname">Home or GG</td><td>94.7% <span class="fair">fair 1.06</span> <span class="dim">— home win or both teams score (BTTS 40.3%)</span></td></tr>
-        <tr><td class="mname">Over / Under <i>(supporting)</i></td><td>
-          <div class="ou">
-            <span class="ou-i">O1.5 86.5%</span>
-            <span class="ou-i">U1.5 13.5%</span>
-            <span class="ou-i">O2.5 67.5%</span>
-            <span class="ou-i">U2.5 32.5%</span>
-            <span class="ou-i">O3.5 45.9%</span>
-            <span class="ou-i">U3.5 54.1%</span>
-          </div>
-        </td></tr>
+    <tr><td class="mname">Over / Under <i>(supporting)</i></td><td>
+      <div class="ou">
+        <span class="ou-i">O1.5 86.5%</span>
+        <span class="ou-i">U1.5 13.5%</span>
+        <span class="ou-i">O2.5 67.5%</span>
+        <span class="ou-i">U2.5 32.5%</span>
+        <span class="ou-i">O3.5 45.9%</span>
+        <span class="ou-i">U3.5 54.1%</span>
+      </div>
+    </td></tr>
   </table>
 </div>
 <div class="cd" data-mkt="1X2 Home · 2UP" data-conf="low" data-spot="sp2">
@@ -745,16 +751,16 @@ nav{display:flex;gap:.35rem}nav a{color:var(--dim);text-decoration:none;padding:
   </div>
   <table class="mt">
     <tr><td class="mname">1X2 · Full Time</td><td><b><span class="pb">83.4%</span></b> <span class="dim">X</span> <span class="pb">12.0%</span> <b><span class="pb">4.7%</span></b> <span class="dim">(H · X · A)</span></td></tr><tr><td class="mname">1X2 · 1UP</td><td>88.9% <span class="fair">fair 1.13</span> <span class="dim">— pays the moment Home take a 1-goal lead</span></td></tr><tr><td class="mname">1X2 · 2UP</td><td>68.6% <span class="fair">fair 1.46</span> <span class="dim">— pays the moment Home lead by 2</span></td></tr><tr><td class="mname">Double Chance</td><td>95.3% <span class="fair">fair 1.05</span> <span class="dim">(1X · Home win or draw)</span></td></tr><tr><td class="mname">Double Chance · 1UP</td><td>96.2% <span class="fair">fair 1.04</span> <span class="dim">— draws covered, any 1-goal lead pays early</span></td></tr><tr><td class="mname">Home or GG</td><td>94.1% <span class="fair">fair 1.06</span> <span class="dim">— home win or both teams score (BTTS 41.1%)</span></td></tr>
-        <tr><td class="mname">Over / Under <i>(supporting)</i></td><td>
-          <div class="ou">
-            <span class="ou-i">O1.5 85.6%</span>
-            <span class="ou-i">U1.5 14.4%</span>
-            <span class="ou-i">O2.5 66.0%</span>
-            <span class="ou-i">U2.5 34.0%</span>
-            <span class="ou-i">O3.5 44.1%</span>
-            <span class="ou-i">U3.5 55.9%</span>
-          </div>
-        </td></tr>
+    <tr><td class="mname">Over / Under <i>(supporting)</i></td><td>
+      <div class="ou">
+        <span class="ou-i">O1.5 85.6%</span>
+        <span class="ou-i">U1.5 14.4%</span>
+        <span class="ou-i">O2.5 66.0%</span>
+        <span class="ou-i">U2.5 34.0%</span>
+        <span class="ou-i">O3.5 44.1%</span>
+        <span class="ou-i">U3.5 55.9%</span>
+      </div>
+    </td></tr>
   </table>
 </div>
 <div class="cd" data-mkt="1X2 Away · 2UP" data-conf="low" data-spot="sp2">
@@ -774,16 +780,16 @@ nav{display:flex;gap:.35rem}nav a{color:var(--dim);text-decoration:none;padding:
   </div>
   <table class="mt">
     <tr><td class="mname">1X2 · Full Time</td><td><b><span class="pb">5.4%</span></b> <span class="dim">X</span> <span class="pb">13.1%</span> <b><span class="pb">81.6%</span></b> <span class="dim">(H · X · A)</span></td></tr><tr><td class="mname">1X2 · 1UP</td><td>87.6% <span class="fair">fair 1.14</span> <span class="dim">— pays the moment Away take a 1-goal lead</span></td></tr><tr><td class="mname">1X2 · 2UP</td><td>66.1% <span class="fair">fair 1.51</span> <span class="dim">— pays the moment Away lead by 2</span></td></tr><tr><td class="mname">Double Chance</td><td>94.6% <span class="fair">fair 1.06</span> <span class="dim">(X2 · Away win or draw)</span></td></tr><tr><td class="mname">Double Chance · 1UP</td><td>95.6% <span class="fair">fair 1.05</span> <span class="dim">— draws covered, any 1-goal lead pays early</span></td></tr><tr><td class="mname">Away or GG</td><td>93.4% <span class="fair">fair 1.07</span> <span class="dim">— away win or both teams score (BTTS 42.1%)</span></td></tr>
-        <tr><td class="mname">Over / Under <i>(supporting)</i></td><td>
-          <div class="ou">
-            <span class="ou-i">O1.5 84.6%</span>
-            <span class="ou-i">U1.5 15.4%</span>
-            <span class="ou-i">O2.5 64.3%</span>
-            <span class="ou-i">U2.5 35.7%</span>
-            <span class="ou-i">O3.5 42.2%</span>
-            <span class="ou-i">U3.5 57.8%</span>
-          </div>
-        </td></tr>
+    <tr><td class="mname">Over / Under <i>(supporting)</i></td><td>
+      <div class="ou">
+        <span class="ou-i">O1.5 84.6%</span>
+        <span class="ou-i">U1.5 15.4%</span>
+        <span class="ou-i">O2.5 64.3%</span>
+        <span class="ou-i">U2.5 35.7%</span>
+        <span class="ou-i">O3.5 42.2%</span>
+        <span class="ou-i">U3.5 57.8%</span>
+      </div>
+    </td></tr>
   </table>
 </div>
 <div class="cd" data-mkt="1X2 Away · 2UP" data-conf="low" data-spot="sp2">
@@ -803,16 +809,16 @@ nav{display:flex;gap:.35rem}nav a{color:var(--dim);text-decoration:none;padding:
   </div>
   <table class="mt">
     <tr><td class="mname">1X2 · Full Time</td><td><b><span class="pb">5.4%</span></b> <span class="dim">X</span> <span class="pb">13.1%</span> <b><span class="pb">81.4%</span></b> <span class="dim">(H · X · A)</span></td></tr><tr><td class="mname">1X2 · 1UP</td><td>87.5% <span class="fair">fair 1.14</span> <span class="dim">— pays the moment Away take a 1-goal lead</span></td></tr><tr><td class="mname">1X2 · 2UP</td><td>65.9% <span class="fair">fair 1.52</span> <span class="dim">— pays the moment Away lead by 2</span></td></tr><tr><td class="mname">Double Chance</td><td>94.6% <span class="fair">fair 1.06</span> <span class="dim">(X2 · Away win or draw)</span></td></tr><tr><td class="mname">Double Chance · 1UP</td><td>95.6% <span class="fair">fair 1.05</span> <span class="dim">— draws covered, any 1-goal lead pays early</span></td></tr><tr><td class="mname">Away or GG</td><td>93.3% <span class="fair">fair 1.07</span> <span class="dim">— away win or both teams score (BTTS 42.2%)</span></td></tr>
-        <tr><td class="mname">Over / Under <i>(supporting)</i></td><td>
-          <div class="ou">
-            <span class="ou-i">O1.5 84.5%</span>
-            <span class="ou-i">U1.5 15.4%</span>
-            <span class="ou-i">O2.5 64.1%</span>
-            <span class="ou-i">U2.5 35.9%</span>
-            <span class="ou-i">O3.5 42.1%</span>
-            <span class="ou-i">U3.5 57.9%</span>
-          </div>
-        </td></tr>
+    <tr><td class="mname">Over / Under <i>(supporting)</i></td><td>
+      <div class="ou">
+        <span class="ou-i">O1.5 84.5%</span>
+        <span class="ou-i">U1.5 15.4%</span>
+        <span class="ou-i">O2.5 64.1%</span>
+        <span class="ou-i">U2.5 35.9%</span>
+        <span class="ou-i">O3.5 42.1%</span>
+        <span class="ou-i">U3.5 57.9%</span>
+      </div>
+    </td></tr>
   </table>
 </div>
 <div class="cd" data-mkt="1X2 Home · 2UP" data-conf="low" data-spot="sp2">
@@ -832,16 +838,16 @@ nav{display:flex;gap:.35rem}nav a{color:var(--dim);text-decoration:none;padding:
   </div>
   <table class="mt">
     <tr><td class="mname">1X2 · Full Time</td><td><b><span class="pb">80.8%</span></b> <span class="dim">X</span> <span class="pb">13.5%</span> <b><span class="pb">5.7%</span></b> <span class="dim">(H · X · A)</span></td></tr><tr><td class="mname">1X2 · 1UP</td><td>87.1% <span class="fair">fair 1.15</span> <span class="dim">— pays the moment Home take a 1-goal lead</span></td></tr><tr><td class="mname">1X2 · 2UP</td><td>65.0% <span class="fair">fair 1.54</span> <span class="dim">— pays the moment Home lead by 2</span></td></tr><tr><td class="mname">Double Chance</td><td>94.3% <span class="fair">fair 1.06</span> <span class="dim">(1X · Home win or draw)</span></td></tr><tr><td class="mname">Double Chance · 1UP</td><td>95.4% <span class="fair">fair 1.05</span> <span class="dim">— draws covered, any 1-goal lead pays early</span></td></tr><tr><td class="mname">Home or GG</td><td>93.1% <span class="fair">fair 1.07</span> <span class="dim">— home win or both teams score (BTTS 42.5%)</span></td></tr>
-        <tr><td class="mname">Over / Under <i>(supporting)</i></td><td>
-          <div class="ou">
-            <span class="ou-i">O1.5 84.2%</span>
-            <span class="ou-i">U1.5 15.8%</span>
-            <span class="ou-i">O2.5 63.6%</span>
-            <span class="ou-i">U2.5 36.4%</span>
-            <span class="ou-i">O3.5 41.4%</span>
-            <span class="ou-i">U3.5 58.6%</span>
-          </div>
-        </td></tr>
+    <tr><td class="mname">Over / Under <i>(supporting)</i></td><td>
+      <div class="ou">
+        <span class="ou-i">O1.5 84.2%</span>
+        <span class="ou-i">U1.5 15.8%</span>
+        <span class="ou-i">O2.5 63.6%</span>
+        <span class="ou-i">U2.5 36.4%</span>
+        <span class="ou-i">O3.5 41.4%</span>
+        <span class="ou-i">U3.5 58.6%</span>
+      </div>
+    </td></tr>
   </table>
 </div>
 <div class="cd" data-mkt="1X2 Home · 2UP" data-conf="low" data-spot="sp2">
@@ -861,16 +867,16 @@ nav{display:flex;gap:.35rem}nav a{color:var(--dim);text-decoration:none;padding:
   </div>
   <table class="mt">
     <tr><td class="mname">1X2 · Full Time</td><td><b><span class="pb">80.8%</span></b> <span class="dim">X</span> <span class="pb">13.5%</span> <b><span class="pb">5.7%</span></b> <span class="dim">(H · X · A)</span></td></tr><tr><td class="mname">1X2 · 1UP</td><td>87.1% <span class="fair">fair 1.15</span> <span class="dim">— pays the moment Home take a 1-goal lead</span></td></tr><tr><td class="mname">1X2 · 2UP</td><td>65.0% <span class="fair">fair 1.54</span> <span class="dim">— pays the moment Home lead by 2</span></td></tr><tr><td class="mname">Double Chance</td><td>94.3% <span class="fair">fair 1.06</span> <span class="dim">(1X · Home win or draw)</span></td></tr><tr><td class="mname">Double Chance · 1UP</td><td>95.4% <span class="fair">fair 1.05</span> <span class="dim">— draws covered, any 1-goal lead pays early</span></td></tr><tr><td class="mname">Home or GG</td><td>93.1% <span class="fair">fair 1.07</span> <span class="dim">— home win or both teams score (BTTS 42.5%)</span></td></tr>
-        <tr><td class="mname">Over / Under <i>(supporting)</i></td><td>
-          <div class="ou">
-            <span class="ou-i">O1.5 84.2%</span>
-            <span class="ou-i">U1.5 15.8%</span>
-            <span class="ou-i">O2.5 63.5%</span>
-            <span class="ou-i">U2.5 36.4%</span>
-            <span class="ou-i">O3.5 41.4%</span>
-            <span class="ou-i">U3.5 58.6%</span>
-          </div>
-        </td></tr>
+    <tr><td class="mname">Over / Under <i>(supporting)</i></td><td>
+      <div class="ou">
+        <span class="ou-i">O1.5 84.2%</span>
+        <span class="ou-i">U1.5 15.8%</span>
+        <span class="ou-i">O2.5 63.5%</span>
+        <span class="ou-i">U2.5 36.4%</span>
+        <span class="ou-i">O3.5 41.4%</span>
+        <span class="ou-i">U3.5 58.6%</span>
+      </div>
+    </td></tr>
   </table>
 </div>
 <div class="cd" data-mkt="1X2 Away · 2UP" data-conf="low" data-spot="sp1">
@@ -890,16 +896,16 @@ nav{display:flex;gap:.35rem}nav a{color:var(--dim);text-decoration:none;padding:
   </div>
   <table class="mt">
     <tr><td class="mname">1X2 · Full Time</td><td><b><span class="pb">5.8%</span></b> <span class="dim">X</span> <span class="pb">13.7%</span> <b><span class="pb">80.4%</span></b> <span class="dim">(H · X · A)</span></td></tr><tr><td class="mname">1X2 · 1UP</td><td>86.8% <span class="fair">fair 1.15</span> <span class="dim">— pays the moment Away take a 1-goal lead</span></td></tr><tr><td class="mname">1X2 · 2UP</td><td>64.6% <span class="fair">fair 1.55</span> <span class="dim">— pays the moment Away lead by 2</span></td></tr><tr><td class="mname">Double Chance</td><td>94.2% <span class="fair">fair 1.06</span> <span class="dim">(X2 · Away win or draw)</span></td></tr><tr><td class="mname">Double Chance · 1UP</td><td>95.2% <span class="fair">fair 1.05</span> <span class="dim">— draws covered, any 1-goal lead pays early</span></td></tr><tr><td class="mname">Away or GG</td><td>93.0% <span class="fair">fair 1.08</span> <span class="dim">— away win or both teams score (BTTS 42.7%)</span></td></tr>
-        <tr><td class="mname">Over / Under <i>(supporting)</i></td><td>
-          <div class="ou">
-            <span class="ou-i">O1.5 84.0%</span>
-            <span class="ou-i">U1.5 16.0%</span>
-            <span class="ou-i">O2.5 63.2%</span>
-            <span class="ou-i">U2.5 36.8%</span>
-            <span class="ou-i">O3.5 41.1%</span>
-            <span class="ou-i">U3.5 58.9%</span>
-          </div>
-        </td></tr>
+    <tr><td class="mname">Over / Under <i>(supporting)</i></td><td>
+      <div class="ou">
+        <span class="ou-i">O1.5 84.0%</span>
+        <span class="ou-i">U1.5 16.0%</span>
+        <span class="ou-i">O2.5 63.2%</span>
+        <span class="ou-i">U2.5 36.8%</span>
+        <span class="ou-i">O3.5 41.1%</span>
+        <span class="ou-i">U3.5 58.9%</span>
+      </div>
+    </td></tr>
   </table>
 </div>
 <div class="cd" data-mkt="1X2 Away · 2UP" data-conf="low" data-spot="sp1">
@@ -919,16 +925,16 @@ nav{display:flex;gap:.35rem}nav a{color:var(--dim);text-decoration:none;padding:
   </div>
   <table class="mt">
     <tr><td class="mname">1X2 · Full Time</td><td><b><span class="pb">5.9%</span></b> <span class="dim">X</span> <span class="pb">13.9%</span> <b><span class="pb">80.2%</span></b> <span class="dim">(H · X · A)</span></td></tr><tr><td class="mname">1X2 · 1UP</td><td>86.6% <span class="fair">fair 1.15</span> <span class="dim">— pays the moment Away take a 1-goal lead</span></td></tr><tr><td class="mname">1X2 · 2UP</td><td>64.2% <span class="fair">fair 1.56</span> <span class="dim">— pays the moment Away lead by 2</span></td></tr><tr><td class="mname">Double Chance</td><td>94.1% <span class="fair">fair 1.06</span> <span class="dim">(X2 · Away win or draw)</span></td></tr><tr><td class="mname">Double Chance · 1UP</td><td>95.2% <span class="fair">fair 1.05</span> <span class="dim">— draws covered, any 1-goal lead pays early</span></td></tr><tr><td class="mname">Away or GG</td><td>92.9% <span class="fair">fair 1.08</span> <span class="dim">— away win or both teams score (BTTS 42.8%)</span></td></tr>
-        <tr><td class="mname">Over / Under <i>(supporting)</i></td><td>
-          <div class="ou">
-            <span class="ou-i">O1.5 83.9%</span>
-            <span class="ou-i">U1.5 16.1%</span>
-            <span class="ou-i">O2.5 63.0%</span>
-            <span class="ou-i">U2.5 37.0%</span>
-            <span class="ou-i">O3.5 40.8%</span>
-            <span class="ou-i">U3.5 59.2%</span>
-          </div>
-        </td></tr>
+    <tr><td class="mname">Over / Under <i>(supporting)</i></td><td>
+      <div class="ou">
+        <span class="ou-i">O1.5 83.9%</span>
+        <span class="ou-i">U1.5 16.1%</span>
+        <span class="ou-i">O2.5 63.0%</span>
+        <span class="ou-i">U2.5 37.0%</span>
+        <span class="ou-i">O3.5 40.8%</span>
+        <span class="ou-i">U3.5 59.2%</span>
+      </div>
+    </td></tr>
   </table>
 </div>
 <div class="cd" data-mkt="1X2 Away · 2UP" data-conf="low" data-spot="sp1">
@@ -948,16 +954,16 @@ nav{display:flex;gap:.35rem}nav a{color:var(--dim);text-decoration:none;padding:
   </div>
   <table class="mt">
     <tr><td class="mname">1X2 · Full Time</td><td><b><span class="pb">6.5%</span></b> <span class="dim">X</span> <span class="pb">14.7%</span> <b><span class="pb">78.8%</span></b> <span class="dim">(H · X · A)</span></td></tr><tr><td class="mname">1X2 · 1UP</td><td>85.7% <span class="fair">fair 1.17</span> <span class="dim">— pays the moment Away take a 1-goal lead</span></td></tr><tr><td class="mname">1X2 · 2UP</td><td>62.5% <span class="fair">fair 1.60</span> <span class="dim">— pays the moment Away lead by 2</span></td></tr><tr><td class="mname">Double Chance</td><td>93.5% <span class="fair">fair 1.07</span> <span class="dim">(X2 · Away win or draw)</span></td></tr><tr><td class="mname">Double Chance · 1UP</td><td>94.7% <span class="fair">fair 1.06</span> <span class="dim">— draws covered, any 1-goal lead pays early</span></td></tr><tr><td class="mname">Away or GG</td><td>92.3% <span class="fair">fair 1.08</span> <span class="dim">— away win or both teams score (BTTS 43.4%)</span></td></tr>
-        <tr><td class="mname">Over / Under <i>(supporting)</i></td><td>
-          <div class="ou">
-            <span class="ou-i">O1.5 83.2%</span>
-            <span class="ou-i">U1.5 16.8%</span>
-            <span class="ou-i">O2.5 61.9%</span>
-            <span class="ou-i">U2.5 38.1%</span>
-            <span class="ou-i">O3.5 39.6%</span>
-            <span class="ou-i">U3.5 60.4%</span>
-          </div>
-        </td></tr>
+    <tr><td class="mname">Over / Under <i>(supporting)</i></td><td>
+      <div class="ou">
+        <span class="ou-i">O1.5 83.2%</span>
+        <span class="ou-i">U1.5 16.8%</span>
+        <span class="ou-i">O2.5 61.9%</span>
+        <span class="ou-i">U2.5 38.1%</span>
+        <span class="ou-i">O3.5 39.6%</span>
+        <span class="ou-i">U3.5 60.4%</span>
+      </div>
+    </td></tr>
   </table>
 </div>
 <div class="cd" data-mkt="1X2 Home · 2UP" data-conf="low" data-spot="sp1">
@@ -977,16 +983,16 @@ nav{display:flex;gap:.35rem}nav a{color:var(--dim);text-decoration:none;padding:
   </div>
   <table class="mt">
     <tr><td class="mname">1X2 · Full Time</td><td><b><span class="pb">78.7%</span></b> <span class="dim">X</span> <span class="pb">14.7%</span> <b><span class="pb">6.5%</span></b> <span class="dim">(H · X · A)</span></td></tr><tr><td class="mname">1X2 · 1UP</td><td>85.6% <span class="fair">fair 1.17</span> <span class="dim">— pays the moment Home take a 1-goal lead</span></td></tr><tr><td class="mname">1X2 · 2UP</td><td>62.4% <span class="fair">fair 1.60</span> <span class="dim">— pays the moment Home lead by 2</span></td></tr><tr><td class="mname">Double Chance</td><td>93.5% <span class="fair">fair 1.07</span> <span class="dim">(1X · Home win or draw)</span></td></tr><tr><td class="mname">Double Chance · 1UP</td><td>94.7% <span class="fair">fair 1.06</span> <span class="dim">— draws covered, any 1-goal lead pays early</span></td></tr><tr><td class="mname">Home or GG</td><td>92.3% <span class="fair">fair 1.08</span> <span class="dim">— home win or both teams score (BTTS 43.4%)</span></td></tr>
-        <tr><td class="mname">Over / Under <i>(supporting)</i></td><td>
-          <div class="ou">
-            <span class="ou-i">O1.5 83.2%</span>
-            <span class="ou-i">U1.5 16.8%</span>
-            <span class="ou-i">O2.5 61.8%</span>
-            <span class="ou-i">U2.5 38.2%</span>
-            <span class="ou-i">O3.5 39.6%</span>
-            <span class="ou-i">U3.5 60.5%</span>
-          </div>
-        </td></tr>
+    <tr><td class="mname">Over / Under <i>(supporting)</i></td><td>
+      <div class="ou">
+        <span class="ou-i">O1.5 83.2%</span>
+        <span class="ou-i">U1.5 16.8%</span>
+        <span class="ou-i">O2.5 61.8%</span>
+        <span class="ou-i">U2.5 38.2%</span>
+        <span class="ou-i">O3.5 39.6%</span>
+        <span class="ou-i">U3.5 60.5%</span>
+      </div>
+    </td></tr>
   </table>
 </div>
 <div class="cd" data-mkt="1X2 Away · 2UP" data-conf="low" data-spot="sp1">
@@ -1006,16 +1012,16 @@ nav{display:flex;gap:.35rem}nav a{color:var(--dim);text-decoration:none;padding:
   </div>
   <table class="mt">
     <tr><td class="mname">1X2 · Full Time</td><td><b><span class="pb">6.7%</span></b> <span class="dim">X</span> <span class="pb">14.9%</span> <b><span class="pb">78.5%</span></b> <span class="dim">(H · X · A)</span></td></tr><tr><td class="mname">1X2 · 1UP</td><td>85.4% <span class="fair">fair 1.17</span> <span class="dim">— pays the moment Away take a 1-goal lead</span></td></tr><tr><td class="mname">1X2 · 2UP</td><td>62.0% <span class="fair">fair 1.61</span> <span class="dim">— pays the moment Away lead by 2</span></td></tr><tr><td class="mname">Double Chance</td><td>93.3% <span class="fair">fair 1.07</span> <span class="dim">(X2 · Away win or draw)</span></td></tr><tr><td class="mname">Double Chance · 1UP</td><td>94.5% <span class="fair">fair 1.06</span> <span class="dim">— draws covered, any 1-goal lead pays early</span></td></tr><tr><td class="mname">Away or GG</td><td>92.2% <span class="fair">fair 1.08</span> <span class="dim">— away win or both teams score (BTTS 43.6%)</span></td></tr>
-        <tr><td class="mname">Over / Under <i>(supporting)</i></td><td>
-          <div class="ou">
-            <span class="ou-i">O1.5 83.0%</span>
-            <span class="ou-i">U1.5 17.0%</span>
-            <span class="ou-i">O2.5 61.6%</span>
-            <span class="ou-i">U2.5 38.4%</span>
-            <span class="ou-i">O3.5 39.3%</span>
-            <span class="ou-i">U3.5 60.7%</span>
-          </div>
-        </td></tr>
+    <tr><td class="mname">Over / Under <i>(supporting)</i></td><td>
+      <div class="ou">
+        <span class="ou-i">O1.5 83.0%</span>
+        <span class="ou-i">U1.5 17.0%</span>
+        <span class="ou-i">O2.5 61.6%</span>
+        <span class="ou-i">U2.5 38.4%</span>
+        <span class="ou-i">O3.5 39.3%</span>
+        <span class="ou-i">U3.5 60.7%</span>
+      </div>
+    </td></tr>
   </table>
 </div>
   </div>
