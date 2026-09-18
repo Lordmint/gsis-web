@@ -8,7 +8,7 @@
 :root{--bg:#0f172a;--bg2:#1e293b;--border:#334155;--text:#f1f5f9;--dim:#94a3b8;
 --accent:#38bdf8;--green:#22c55e;--amber:#f59e0b;--orange:#f97316;--red:#ef4444;--r:14px}
 *{box-sizing:border-box;margin:0;padding:0}
-body{font-family:"Segoe UI",system-ui,sans-serif;background:linear-gradient(180deg,#0b1220,var(--bg) 40%);color:var(--text);min-height:100vh;line-height:1.5}
+body{font-family:"Segoe UI",system-ui,sans-serif;background:linear-gradient(180deg,#0b1220,var(--bg) 40%);color:var(--text);min-height:100vh;line-height:1.5;-webkit-font-smoothing:antialiased;text-rendering:optimizeLegibility}
 .W{max-width:1180px;margin:0 auto;padding:0 1.25rem}
 .hdr{border-bottom:1px solid var(--border);background:rgba(15,23,42,.88);backdrop-filter:blur(10px);position:sticky;top:0;z-index:50}
 .hdr-r{display:flex;align-items:center;justify-content:space-between;padding:.9rem 1.25rem;flex-wrap:wrap;gap:.75rem}
@@ -18,7 +18,7 @@ body{font-family:"Segoe UI",system-ui,sans-serif;background:linear-gradient(180d
 nav{display:flex;gap:.35rem;flex-wrap:wrap}nav a{color:var(--dim);text-decoration:none;padding:.45rem .9rem;border-radius:9px;font-size:.92rem;transition:.15s}nav a:hover{background:var(--bg2);color:var(--text)}nav a.a{color:var(--accent);font-weight:600}
 .back{display:inline-block;color:var(--accent);text-decoration:none;font-size:.9rem;margin-bottom:.4rem}.back:hover{text-decoration:underline}
 .hero{display:flex;align-items:flex-end;justify-content:space-between;gap:1rem;padding:2.25rem 0 1.5rem;flex-wrap:wrap}
-.hero h1{font-size:1.9rem;font-weight:800;letter-spacing:-.5px;margin-bottom:.35rem}
+.hero h1{font-size:1.9rem;font-weight:800;letter-spacing:-.5px;margin-bottom:.35rem;background:linear-gradient(90deg,#f8fafc,var(--accent));-webkit-background-clip:text;background-clip:text;color:transparent}
 .hero-sub{color:var(--dim);font-size:.95rem}
 .panel{background:var(--bg2);border:1px solid var(--border);border-radius:var(--r);padding:1rem 1.25rem;margin-bottom:1.75rem;overflow-x:auto}
 .panel h2{font-size:1.05rem;font-weight:700;margin-bottom:.85rem}
@@ -59,7 +59,7 @@ tr.hl-row{background:rgba(56,189,248,.18)}
 <section class="hero"><div class="hero-info">
   <a class="back" href="../dashboard.html">← Strength Lists</a>
   <h1>Kategoria Superiore</h1>
-  <p class="hero-sub">Albania · Football · Europe · snapshot <strong>2026-09-18</strong> (Today) · generated 2026-09-18 09:20 UTC <span class="b be">H/A</span></p>
+  <p class="hero-sub">Albania · Football · snapshot <strong>2026-09-18</strong> (Today)</p>
 </div><div>
   <span class="b bu">DATA-LOW</span>
 </div></section>
@@ -79,7 +79,7 @@ tr.hl-row{background:rgba(56,189,248,.18)}
   <div class="fcards"><div class="empty">No factor data available.</div></div>
 </section>
 
-<footer class="foot"><div class="d-links">Dashboards: <a href="../dashboard.html">Strength Lists</a> · <a href="../fixtures.html">Fixtures</a> · <a href="../opportunities.html">Opportunities</a> · <a href="../markets.html">Markets</a></div>GSIS — a living sports strength database · deep-link target for Opportunities · generated with <code>python scripts/generate_dashboard.py</code></footer>
+<footer class="foot"><div class="d-links">Dashboards: <a href="../dashboard.html">Strength Lists</a> · <a href="../fixtures.html">Fixtures</a> · <a href="../opportunities.html">Opportunities</a> · <a href="../markets.html">Markets</a></div>Global Sports Intelligence System</footer>
 </div>
 <script>
 (function(){
