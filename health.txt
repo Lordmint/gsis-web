@@ -53,7 +53,7 @@ Competitions:
   por-segunda-liga: ok | entities=18 events=47
   bel-challenger-pro-league: data-low (no standings returned by source) | entities=0 events=0
   rus-premier-league: ok | entities=16 events=0
-  rus-first-league: ok | entities=18 events=98
+  rus-first-league: ok | entities=18 events=103
   cyp-first-division: ok | entities=6 events=0
   wal-cymru-premier: ok | entities=6 events=0
   mlt-premier-league: ok | entities=6 events=0
@@ -73,7 +73,7 @@ Competitions:
   ngr-npfl: ok | entities=20 events=0
   ken-premier-league: ok | entities=18 events=0
   rsa-national-first-division: ok | entities=16 events=0
-  alg-ligue-1: ok | entities=16 events=17
+  alg-ligue-1: ok | entities=16 events=18
   tun-ligue-1: ok | entities=16 events=24
   jpn-j1-league: ok | entities=20 events=0
   jpn-j2-league: ok | entities=20 events=60
@@ -242,20 +242,20 @@ Wikipedia data validation (results grid vs standings table):
       Vizela: grid(P5 W2 D2 L1 GF6 GA4) vs standings (P6 W3 D2 L1 GF7 GA4)
       União de Leiria: grid(P3 W2 D0 L1 GF4 GA2) vs standings (P6 W3 D1 L2 GF10 GA7)
   rus-premier-league: OK | teams=16 matches=240 checked=16 issues=0
-  rus-first-league: OK | teams=18 matches=98 checked=18 issues=0
+  rus-first-league: OK | teams=18 matches=103 checked=18 issues=0
   cyp-first-division: MISMATCH | teams=14 matches=19 checked=14 issues=3
       Omonia 29M: grid(P1 W0 D1 L0 GF2 GA2) vs standings (P3 W1 D2 L0 GF8 GA5)
       Olympiakos Nicosia: grid(P2 W0 D2 L0 GF3 GA3) vs standings (P3 W0 D3 L0 GF6 GA6)
       Krasava: grid(P2 W0 D0 L2 GF1 GA3) vs standings (P3 W0 D0 L3 GF1 GA6)
-  wal-cymru-premier: MISMATCH | teams=16 matches=67 checked=16 issues=5
-      Connah's Quay Nomads: grid(P8 W5 D1 L2 GF16 GA7) vs standings (P9 W6 D1 L2 GF22 GA7)
-      Colwyn Bay: grid(P8 W4 D1 L3 GF13 GA12) vs standings (P9 W5 D1 L3 GF15 GA12)
-      Haverfordwest County: grid(P7 W1 D1 L5 GF4 GA13) vs standings (P8 W2 D1 L5 GF6 GA14)
+  wal-cymru-premier: MISMATCH | teams=16 matches=73 checked=16 issues=6
+      Connah's Quay Nomads: grid(P9 W6 D1 L2 GF17 GA7) vs standings (P10 W7 D1 L2 GF23 GA7)
+      Colwyn Bay: grid(P9 W5 D1 L3 GF18 GA14) vs standings (P10 W6 D1 L3 GF20 GA14)
+      Haverfordwest County: grid(P8 W2 D1 L5 GF5 GA13) vs standings (P9 W3 D1 L5 GF7 GA14)
   mlt-premier-league: no validation data
   irl-premier: MISMATCH | teams=10 matches=89 checked=10 issues=10
+      Shamrock Rovers: grid(P18 W10 D4 L4 GF28 GA16) vs standings (P31 W17 D8 L6 GF49 GA31)
+      Bohemians: grid(P18 W8 D7 L3 GF27 GA18) vs standings (P31 W16 D8 L7 GF55 GA37)
       St Patrick's Athletic: grid(P18 W9 D5 L4 GF31 GA16) vs standings (P31 W16 D8 L7 GF51 GA25)
-      Shamrock Rovers: grid(P18 W10 D4 L4 GF28 GA16) vs standings (P30 W16 D8 L6 GF46 GA29)
-      Bohemians: grid(P18 W8 D7 L3 GF27 GA18) vs standings (P30 W15 D8 L7 GF53 GA36)
   irl-first-division: MISMATCH | teams=10 matches=81 checked=10 issues=10
       Cork City: grid(P17 W12 D3 L2 GF31 GA10) vs standings (P31 W21 D5 L5 GF64 GA29)
       UCD: grid(P9 W6 D1 L2 GF16 GA7) vs standings (P31 W14 D7 L10 GF55 GA40)
@@ -295,7 +295,7 @@ Wikipedia data validation (results grid vs standings table):
       Real Native: grid(P2 W2 D0 L0 GF3 GA1) vs standings (P4 W3 D0 L1 GF5 GA3)
       Highbury: grid(P3 W2 D0 L1 GF3 GA2) vs standings (P4 W3 D0 L1 GF4 GA2)
       Leicesterford City: grid(P4 W2 D1 L1 GF7 GA6) vs standings (P4 W2 D1 L1 GF7 GA5)
-  alg-ligue-1: OK | teams=16 matches=17 checked=16 issues=0
+  alg-ligue-1: OK | teams=16 matches=18 checked=16 issues=0
   tun-ligue-1: MISMATCH | teams=16 matches=24 checked=16 issues=5
       Espérance de Tunis: grid(P1 W1 D0 L0 GF2 GA1) vs standings (P4 W3 D0 L1 GF7 GA6)
       JS El Omrane: grid(P3 W1 D1 L1 GF2 GA3) vs standings (P4 W2 D1 L1 GF5 GA4)
@@ -384,7 +384,7 @@ Wikipedia data validation (results grid vs standings table):
       Cobreloa: grid(P23 W10 D9 L4 GF40 GA27) vs standings (P24 W11 D9 L4 GF42 GA27)
       San Luis: grid(P23 W10 D8 L5 GF36 GA28) vs standings (P24 W11 D8 L5 GF38 GA29)
   ecu-liga-pro: OK | teams=16 matches=240 checked=16 issues=0
-  per-liga-1: MISMATCH | teams=18 matches=221 checked=18 issues=18
+  per-liga-1: MISMATCH | teams=18 matches=222 checked=18 issues=18
       Alianza Lima: grid(P26 W15 D8 L3 GF42 GA18) vs standings (P17 W12 D4 L1 GF30 GA8)
       Los Chankas: grid(P26 W12 D5 L9 GF35 GA44) vs standings (P17 W10 D4 L3 GF25 GA21)
       Cienciano: grid(P24 W11 D4 L9 GF41 GA35) vs standings (P17 W10 D3 L4 GF34 GA22)
