@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>2. Liga — GSIS</title>
+<style>
+:root{--bg:#0f172a;--bg2:#1e293b;--border:#334155;--text:#f1f5f9;--dim:#94a3b8;
+--accent:#38bdf8;--green:#22c55e;--amber:#f59e0b;--orange:#f97316;--red:#ef4444;--r:14px}
+*{box-sizing:border-box;margin:0;padding:0}
+body{font-family:"Segoe UI",system-ui,sans-serif;background:linear-gradient(180deg,#0b1220,var(--bg) 40%);color:var(--text);min-height:100vh;line-height:1.5}
+.W{max-width:1180px;margin:0 auto;padding:0 1.25rem}
+.hdr{border-bottom:1px solid var(--border);background:rgba(15,23,42,.88);backdrop-filter:blur(10px);position:sticky;top:0;z-index:50}
+.hdr-r{display:flex;align-items:center;justify-content:space-between;padding:.9rem 1.25rem;flex-wrap:wrap;gap:.75rem}
+.brd{display:flex;align-items:center;gap:.75rem;text-decoration:none;color:var(--text)}
+.brd-m{background:linear-gradient(135deg,var(--accent),#818cf8);color:#0b1220;font-weight:800;font-size:1.05rem;border-radius:12px;width:42px;height:42px;display:grid;place-items:center}
+.brd-t{display:flex;flex-direction:column;line-height:1.2}.brd-t strong{font-size:1rem}.brd-t small{color:var(--dim);font-size:.75rem}
+nav{display:flex;gap:.35rem;flex-wrap:wrap}nav a{color:var(--dim);text-decoration:none;padding:.45rem .9rem;border-radius:9px;font-size:.92rem;transition:.15s}nav a:hover{background:var(--bg2);color:var(--text)}nav a.a{color:var(--accent);font-weight:600}
+.back{display:inline-block;color:var(--accent);text-decoration:none;font-size:.9rem;margin-bottom:.4rem}.back:hover{text-decoration:underline}
+.hero{display:flex;align-items:flex-end;justify-content:space-between;gap:1rem;padding:2.25rem 0 1.5rem;flex-wrap:wrap}
+.hero h1{font-size:1.9rem;font-weight:800;letter-spacing:-.5px;margin-bottom:.35rem}
+.hero-sub{color:var(--dim);font-size:.95rem}
+.panel{background:var(--bg2);border:1px solid var(--border);border-radius:var(--r);padding:1rem 1.25rem;margin-bottom:1.75rem;overflow-x:auto}
+.panel h2{font-size:1.05rem;font-weight:700;margin-bottom:.85rem}
+table{width:100%;border-collapse:collapse;font-size:.88rem}
+th{text-align:left;color:var(--dim);font-weight:600;font-size:.78rem;text-transform:uppercase;letter-spacing:.05em;padding:.6rem .7rem;border-bottom:1px solid var(--border);white-space:nowrap}
+td{padding:.6rem .7rem;border-bottom:1px solid rgba(51,65,85,.4);white-space:nowrap}
+tbody tr:hover{background:rgba(51,65,85,.2)}
+tr.hl-row{background:rgba(56,189,248,.18)}
+.tc{font-weight:600}.sc{font-weight:700;color:var(--accent);font-variant-numeric:tabular-nums}
+.dim{color:var(--dim)}
+.fd{display:inline-grid;place-items:center;width:20px;height:20px;border-radius:6px;font-size:.7rem;font-weight:700}
+.fw{background:rgba(34,197,94,.22);color:var(--green)}.fD{background:rgba(148,163,184,.22);color:var(--dim)}.fl{background:rgba(239,68,68,.22);color:var(--red)}
+.b{display:inline-block;padding:.25rem .6rem;border-radius:999px;font-size:.75rem;font-weight:600;white-space:nowrap}
+.be{background:rgba(34,197,94,.15);color:var(--green);border:1px solid rgba(34,197,94,.35)}
+.br{background:rgba(245,158,11,.15);color:var(--amber);border:1px solid rgba(245,158,11,.35)}
+.bf{background:rgba(249,115,22,.15);color:var(--orange);border:1px solid rgba(249,115,22,.35)}
+.bu{background:rgba(148,163,184,.15);color:var(--dim);border:1px solid rgba(148,163,184,.35)}
+.fcards{display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:1.25rem}
+.fcard{background:var(--bg);border:1px solid var(--border);border-radius:12px;padding:1rem 1.1rem}
+.fhead{display:flex;align-items:center;justify-content:space-between;gap:.6rem;margin-bottom:.7rem}
+.fb{display:flex;align-items:center;gap:.6rem;font-size:.8rem;margin:.4rem 0}
+.fb-l{color:var(--dim);flex:0 0 118px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.fb-b{flex:1;height:8px;background:var(--border);border-radius:999px;overflow:hidden}
+.fb-f{display:block;height:100%;background:linear-gradient(90deg,var(--accent),#818cf8);border-radius:999px}
+.fb-v{width:2rem;text-align:right;font-variant-numeric:tabular-nums}
+.empty{color:var(--dim);text-align:center;padding:1.5rem}
+.foot{border-top:1px solid var(--border);padding:1.25rem 0;color:var(--dim);font-size:.85rem;text-align:center}.d-links{margin-bottom:.5rem;color:var(--text);font-weight:600}.foot a{color:var(--accent);text-decoration:none}
+@media(max-width:640px){.hero h1{font-size:1.4rem}}
+</style>
+</head>
+<body>
+<div class="W">
+<header class="hdr"><div class="hdr-r">
+  <a class="brd" href="../dashboard.html"><span class="brd-m">GS</span><span class="brd-t"><strong>Global Sports Intelligence</strong><small>Strength Lists</small></span></a>
+  <nav><a href="../dashboard.html" class="a">Strength Lists</a><a href="../fixtures.html">Fixtures</a><a href="../opportunities.html">Opportunities</a><a href="../markets.html">Markets</a></nav>
+</div></header>
+
+<section class="hero"><div class="hero-info">
+  <a class="back" href="../dashboard.html">← Strength Lists</a>
+  <h1>2. Liga</h1>
+  <p class="hero-sub">Austria · Football · Europe · snapshot <strong>2026-09-18</strong> (Today) · generated 2026-09-18 09:07 UTC <span class="b bf">⚠ Grid</span></p>
+</div><div>
+  <span class="b br">Live</span>
+</div></section>
+
+<section class="panel">
+  <h2>Full standings</h2>
+
+  <table>
+  <thead><tr><th>#</th><th>Team</th><th>Pos</th><th>P</th><th>W</th><th>D</th><th>L</th><th>Pts</th><th>Δ</th><th>H / A</th><th>Form</th><th>Str</th><th>Reliability</th></tr></thead>
+  <tbody><tr id="team-fc-blau-wei-linz"><td>1</td><td class="tc">FC Blau-Weiß Linz</td><td>1</td><td>6</td><td>5</td><td>0</td><td>1</td><td>15.0</td><td>13</td><td style="white-space:nowrap">3/0/0 / 2/0/1</td><td><span class="dim">—</span></td><td class="sc">89.37</td><td><span class="b be">🟢 Elite</span></td></tr><tr id="team-first-vienna-fc-1894"><td>2</td><td class="tc">First Vienna FC 1894</td><td>2</td><td>6</td><td>4</td><td>1</td><td>1</td><td>13.0</td><td>5</td><td style="white-space:nowrap">—</td><td><span class="dim">—</span></td><td class="sc">80.43</td><td><span class="b be">🟢 Elite</span></td></tr><tr id="team-fc-wacker-innsbruck"><td>3</td><td class="tc">FC Wacker Innsbruck</td><td>3</td><td>6</td><td>3</td><td>1</td><td>2</td><td>10.0</td><td>2</td><td style="white-space:nowrap">2/1/0 / 1/0/2</td><td><span class="dim">—</span></td><td class="sc">67.84</td><td><span class="b br">🟡 Reliable</span></td></tr><tr id="team-schwarz-wei-bregenz"><td>4</td><td class="tc">Schwarz-Weiß Bregenz</td><td>4</td><td>6</td><td>3</td><td>1</td><td>2</td><td>10.0</td><td>0</td><td style="white-space:nowrap">—</td><td><span class="dim">—</span></td><td class="sc">66.23</td><td><span class="b br">🟡 Reliable</span></td></tr><tr id="team-fac-wien"><td>5</td><td class="tc">FAC Wien</td><td>5</td><td>6</td><td>3</td><td>1</td><td>2</td><td>10.0</td><td>-1</td><td style="white-space:nowrap">—</td><td><span class="dim">—</span></td><td class="sc">62.88</td><td><span class="b bf">🟠 Form-dependent</span></td></tr><tr id="team-fc-liefering"><td>6</td><td class="tc">FC Liefering</td><td>6</td><td>6</td><td>3</td><td>1</td><td>2</td><td>10.0</td><td>3</td><td style="white-space:nowrap">—</td><td><span class="dim">—</span></td><td class="sc">62.05</td><td><span class="b bf">🟠 Form-dependent</span></td></tr><tr id="team-austria-salzburg"><td>7</td><td class="tc">Austria Salzburg</td><td>7</td><td>6</td><td>3</td><td>1</td><td>2</td><td>10.0</td><td>3</td><td style="white-space:nowrap">2/1/0 / 1/0/2</td><td><span class="dim">—</span></td><td class="sc">58.64</td><td><span class="b bf">🟠 Form-dependent</span></td></tr><tr id="team-ertl-glas-amstetten"><td>8</td><td class="tc">Ertl Glas Amstetten</td><td>8</td><td>6</td><td>2</td><td>3</td><td>1</td><td>9.0</td><td>2</td><td style="white-space:nowrap">—</td><td><span class="dim">—</span></td><td class="sc">53.85</td><td><span class="b bf">🟠 Form-dependent</span></td></tr><tr id="team-admira-wacker"><td>9</td><td class="tc">Admira Wacker</td><td>9</td><td>6</td><td>3</td><td>0</td><td>3</td><td>9.0</td><td>2</td><td style="white-space:nowrap">—</td><td><span class="dim">—</span></td><td class="sc">51.01</td><td><span class="b bf">🟠 Form-dependent</span></td></tr><tr id="team-austria-wien-ii"><td>10</td><td class="tc">Austria Wien II</td><td>10</td><td>6</td><td>3</td><td>0</td><td>3</td><td>9.0</td><td>-1</td><td style="white-space:nowrap">2/0/1 / 1/0/2</td><td><span class="dim">—</span></td><td class="sc">47.17</td><td><span class="b bu">⚪ Unranked</span></td></tr><tr id="team-sk-sturm-graz-ii"><td>11</td><td class="tc">SK Sturm Graz II</td><td>11</td><td>6</td><td>2</td><td>1</td><td>3</td><td>7.0</td><td>-3</td><td style="white-space:nowrap">—</td><td><span class="dim">—</span></td><td class="sc">38.78</td><td><span class="b bu">⚪ Unranked</span></td></tr><tr id="team-ask-voitsberg"><td>12</td><td class="tc">ASK Voitsberg</td><td>12</td><td>6</td><td>1</td><td>3</td><td>2</td><td>6.0</td><td>-3</td><td style="white-space:nowrap">—</td><td><span class="dim">—</span></td><td class="sc">33.91</td><td><span class="b bu">⚪ Unranked</span></td></tr><tr id="team-skn-st-p-lten"><td>13</td><td class="tc">SKN St. Pölten</td><td>13</td><td>6</td><td>2</td><td>0</td><td>4</td><td>6.0</td><td>-1</td><td style="white-space:nowrap">—</td><td><span class="dim">—</span></td><td class="sc">32.07</td><td><span class="b bu">⚪ Unranked</span></td></tr><tr id="team-sk-rapid-ii"><td>14</td><td class="tc">SK Rapid II</td><td>14</td><td>6</td><td>2</td><td>0</td><td>4</td><td>6.0</td><td>-7</td><td style="white-space:nowrap">—</td><td><span class="dim">—</span></td><td class="sc">26.37</td><td><span class="b bu">⚪ Unranked</span></td></tr><tr id="team-fc-hogo-hertha-wels"><td>15</td><td class="tc">FC HOGO Hertha Wels</td><td>15</td><td>6</td><td>1</td><td>1</td><td>4</td><td>4.0</td><td>-7</td><td style="white-space:nowrap">—</td><td><span class="dim">—</span></td><td class="sc">19.49</td><td><span class="b bu">⚪ Unranked</span></td></tr><tr id="team-kapfenberger-sv"><td>16</td><td class="tc">Kapfenberger SV</td><td>16</td><td>6</td><td>1</td><td>0</td><td>5</td><td>3.0</td><td>-7</td><td style="white-space:nowrap">1/0/2 / 0/0/3</td><td><span class="dim">—</span></td><td class="sc">14.94</td><td><span class="b bu">⚪ Unranked</span></td></tr></tbody>
+  </table>
+  
+</section>
+
+<section class="panel">
+  <h2>Factor breakdown — top 3</h2>
+  <div class="fcards"><div class="fcard"><div class="fhead"><strong>#1 FC Blau-Weiß Linz</strong><span class="b be">🟢 Elite</span></div><div class="fb"><span class="fb-l">position</span><span class="fb-b"><span class="fb-f" style="width:100%"></span></span><span class="fb-v">100</span></div><div class="fb"><span class="fb-l">wdl_rate</span><span class="fb-b"><span class="fb-f" style="width:83%"></span></span><span class="fb-v">83</span></div><div class="fb"><span class="fb-l">home_away</span><span class="fb-b"><span class="fb-f" style="width:83%"></span></span><span class="fb-v">83</span></div><div class="fb"><span class="fb-l">goal_diff</span><span class="fb-b"><span class="fb-f" style="width:80%"></span></span><span class="fb-v">80</span></div></div><div class="fcard"><div class="fhead"><strong>#2 First Vienna FC 1894</strong><span class="b be">🟢 Elite</span></div><div class="fb"><span class="fb-l">position</span><span class="fb-b"><span class="fb-f" style="width:93%"></span></span><span class="fb-v">93</span></div><div class="fb"><span class="fb-l">wdl_rate</span><span class="fb-b"><span class="fb-f" style="width:72%"></span></span><span class="fb-v">72</span></div><div class="fb"><span class="fb-l">goal_diff</span><span class="fb-b"><span class="fb-f" style="width:63%"></span></span><span class="fb-v">63</span></div></div><div class="fcard"><div class="fhead"><strong>#3 FC Wacker Innsbruck</strong><span class="b br">🟡 Reliable</span></div><div class="fb"><span class="fb-l">position</span><span class="fb-b"><span class="fb-f" style="width:87%"></span></span><span class="fb-v">87</span></div><div class="fb"><span class="fb-l">wdl_rate</span><span class="fb-b"><span class="fb-f" style="width:55%"></span></span><span class="fb-v">55</span></div><div class="fb"><span class="fb-l">home_away</span><span class="fb-b"><span class="fb-f" style="width:55%"></span></span><span class="fb-v">55</span></div><div class="fb"><span class="fb-l">goal_diff</span><span class="fb-b"><span class="fb-f" style="width:55%"></span></span><span class="fb-v">55</span></div></div></div>
+</section>
+
+<footer class="foot"><div class="d-links">Dashboards: <a href="../dashboard.html">Strength Lists</a> · <a href="../fixtures.html">Fixtures</a> · <a href="../opportunities.html">Opportunities</a> · <a href="../markets.html">Markets</a></div>GSIS — a living sports strength database · deep-link target for Opportunities · generated with <code>python scripts/generate_dashboard.py</code></footer>
+</div>
+<script>
+(function(){
+  var prev=null,timer=null;
+  function go(){
+    var anchor=location.hash.replace(/^#/,"");
+    if(timer){clearTimeout(timer);timer=null;}
+    if(prev){
+      var old=document.getElementById(prev);
+      if(old)old.classList.remove("hl-row");
+      prev=null;
+    }
+    if(!anchor)return;
+    var el=document.getElementById(anchor);
+    if(!el)return;
+    prev=anchor;
+    timer=setTimeout(function(){
+      if(!el.classList.contains("hl-row"))el.classList.add("hl-row");
+      el.scrollIntoView({behavior:"smooth",block:"center"});
+    },60);
+  }
+  window.addEventListener("hashchange",go);
+  go();
+})();
+</script>
+</body>
+</html>
