@@ -208,7 +208,9 @@ Wikipedia data validation (results grid vs standings table):
       RFS: grid(P27 W22 D3 L2 GF66 GA18) vs standings (P29 W23 D4 L2 GF70 GA21)
       Riga: grid(P29 W21 D6 L2 GF82 GA27) vs standings (P30 W21 D7 L2 GF85 GA30)
       Liepāja: grid(P29 W11 D6 L12 GF39 GA42) vs standings (P30 W12 D6 L12 GF41 GA43)
-  ukr-premier-league: OK | teams=16 matches=45 checked=16 issues=0
+  ukr-premier-league: MISMATCH | teams=16 matches=46 checked=16 issues=2
+      Polissya Zhytomyr: grid(P7 W6 D0 L1 GF15 GA5) vs standings (P6 W5 D0 L1 GF14 GA5)
+      Kryvbas Kryvyi Rih: grid(P6 W1 D2 L3 GF7 GA10) vs standings (P5 W1 D2 L2 GF7 GA9)
   cze-first-league: OK | teams=16 matches=63 checked=16 issues=0
   rou-liga-1: MISMATCH | teams=16 matches=16 checked=16 issues=16
       Dinamo București: grid(P2 W1 D0 L1 GF5 GA2) vs standings (P9 W6 D2 L1 GF19 GA7)
@@ -296,7 +298,7 @@ Wikipedia data validation (results grid vs standings table):
       Chengdu Rongcheng: grid(P25 W14 D7 L4 GF47 GA30) vs standings (P26 W15 D7 L4 GF51 GA30)
       Dalian Yingbo: grid(P25 W11 D4 L10 GF35 GA42) vs standings (P26 W12 D4 L10 GF38 GA42)
       Beijing Guoan: grid(P25 W10 D10 L5 GF47 GA32) vs standings (P26 W11 D10 L5 GF49 GA33)
-  tha-league-1: OK | teams=16 matches=16 checked=16 issues=0
+  tha-league-1: OK | teams=16 matches=17 checked=16 issues=0
   idn-super-league: GRID-LAG (1 round(s) behind) | teams=18 matches=17 checked=17 issues=4
       Madura United: grid(P1 W1 D0 L0 GF3 GA1) vs standings (P2 W2 D0 L0 GF5 GA1)
       Arema: grid(P2 W1 D1 L0 GF7 GA3) vs standings (P3 W1 D2 L0 GF8 GA4)
