@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>GSIS — Weekly Card Settlements</title>
+<style>
+:root{--bg:#0f1621;--panel:#16202e;--panel2:#1e293b;--border:#2a3a52;--text:#e6edf6;--dim:#9fb3c8;--accent:#4da6ff;--green:#2dd4a0;--red:#ff6b6b;--amber:#ffb84d;--purple:#b388ff}
+*{box-sizing:border-box;margin:0;padding:0}
+body{background:var(--bg);color:var(--text);font-family:Segoe UI,system-ui,-apple-system,sans-serif;font-size:15px;line-height:1.5}
+.W{max-width:1200px;margin:0 auto;padding:1.2rem 1.4rem 2rem}
+.hdr{border-bottom:1px solid var(--border);padding-bottom:.9rem;margin-bottom:1.4rem}
+.hdr-r{display:flex;justify-content:space-between;align-items:center;gap:1rem;flex-wrap:wrap}
+.brd{display:flex;align-items:center;gap:.6rem;text-decoration:none;color:var(--text)}
+.brd-m{width:38px;height:38px;border-radius:10px;background:linear-gradient(135deg,#2dd4a0,#4da6ff);display:grid;place-items:center;font-weight:800;font-size:.92rem;color:#04121f}
+.brd-t strong{display:block;font-size:.95rem;line-height:1.05}
+.brd-t small{color:var(--dim);font-size:.72rem}
+nav{display:flex;gap:.4rem;flex-wrap:wrap}
+nav a{color:var(--dim);text-decoration:none;padding:.32rem .65rem;border-radius:8px;font-size:.82rem}
+nav a:hover{color:var(--text)}
+nav a.a{background:var(--panel2);color:var(--accent);font-weight:700}
+.hero{margin:1.6rem 0;background:linear-gradient(135deg,#17243a,#101b2b);border:1px solid var(--border);border-radius:14px;padding:1.3rem 1.5rem}
+.hero h1{font-size:1.35rem;margin-bottom:.4rem}
+.hero-sub{color:var(--dim);font-size:.88rem}
+.hero-sub a{color:var(--accent)}
+.stat{display:flex;gap:1.4rem;align-items:center;margin-top:1rem;flex-wrap:wrap}
+.stat b{color:var(--green)}
+.kpis{display:flex;flex-wrap:wrap;gap:.6rem}
+.kpi{background:var(--panel2);border:1px solid var(--border);border-radius:10px;padding:.5rem .85rem;font-size:.8rem}
+.kpi b{font-size:1.1rem;display:block}
+.sec{margin-top:1.8rem}
+.sec-hd{display:flex;justify-content:space-between;font-size:.9rem;margin-bottom:.7rem;color:var(--dim);flex-wrap:wrap;gap:.4rem}
+.sec-hd b{color:var(--text)}
+.sec-b{display:flex;flex-direction:column;gap:.8rem}
+.wk{border:1px solid var(--border);border-radius:12px;background:var(--panel);overflow:hidden}
+.wk-h{display:flex;justify-content:space-between;align-items:center;padding:.7rem 1rem;background:var(--panel2);font-size:.85rem;flex-wrap:wrap;gap:.4rem}
+.wk-h b{color:var(--accent)}
+.wk-h .wk-sum{color:var(--dim);font-size:.78rem}
+table{width:100%;border-collapse:collapse;font-size:.82rem}
+th{color:var(--dim);text-align:left;padding:.5rem .8rem;border-bottom:1px solid var(--border);white-space:nowrap}
+td{padding:.5rem .8rem;border-bottom:1px solid var(--border);vertical-align:middle}
+tr:last-child td{border-bottom:none}
+.v{font-weight:800}
+.v.W{color:var(--green)}
+.v.L{color:var(--red)}
+.v.PUSH{color:var(--amber)}
+.v.PENDING{color:var(--dim)}
+.prof.pos{color:var(--green)}.prof.neg{color:var(--red)}.prof.zero{color:var(--amber)}
+.agg{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:.8rem;margin-top:1.4rem}
+.agg .box{background:var(--panel2);border:1px solid var(--border);border-radius:10px;padding:.8rem .95rem;font-size:.82rem}
+.agg .box h4{font-size:.85rem;margin-bottom:.5rem;color:var(--text)}
+.agg .box ul{list-style:none}
+.agg .box li{display:flex;justify-content:space-between;gap:1rem;padding:.2rem 0;color:var(--dim);border-bottom:1px dashed var(--border)}
+.agg .box li:last-child{border-bottom:none}
+.agg .box li b{color:var(--text);font-weight:700}
+.meth{background:var(--panel2);border:1px solid var(--border);border-radius:12px;padding:.9rem 1.1rem;font-size:.78rem;color:var(--dim);margin-top:1.6rem;line-height:1.6}
+.meth h3{color:var(--text);font-size:.85rem;margin-bottom:.3rem}
+.empty{color:var(--dim);padding:1.2rem;text-align:center}
+.foot{border-top:1px solid var(--border);padding:1.25rem 0;color:var(--dim);font-size:.8rem;text-align:center;margin-top:2rem}
+.d-links{margin-bottom:.4rem;color:var(--text);font-weight:600}
+.foot a{color:var(--accent);text-decoration:none}
+</style>
+</head>
+<body>
+<div class="W">
+<header class="hdr"><div class="hdr-r">
+  <a class="brd" href="dashboard.html"><span class="brd-m">GS</span><span class="brd-t"><strong>Global Sports Intelligence</strong><small>Card Settlements</small></span></a>
+  <nav><a href="dashboard.html">Strength Lists</a><a href="fixtures.html">Fixtures</a><a href="opportunities.html">Opportunities</a><a href="markets.html">Markets</a><a href="card_results.html" class="a">Results</a></nav>
+</div></header>
+
+<section class="hero"><div class="hero-info">
+  <h1>🧾 Weekly Win Card — Settlements &amp; ROI</h1>
+  <p class="hero-sub">Every frozen pick settled against the real final result, at flat £1 stake.
+  Snap: <strong>2026-09-19 22:59 UTC</strong></p>
+  <div class="kpis">
+    <div class="kpi">Settled picks<b>3</b></div>
+    <div class="kpi">Hit rate<b>100%</b></div>
+    <div class="kpi">W/L/P<b>3 / 0 / 0</b></div>
+    <div class="kpi">ROI <span style="color:var(--green)"><b>79%</b></span></div>
+  </div>
+</div></section>
+
+<section class="sec">
+  <div class="sec-hd"><span class="sec-t">🔍 Settled picks per week</span><span class="sec-s">PENDING = not yet played / no timeline</span></div>
+  <div class="sec-b"><div class="wk">
+  <div class="wk-h"><span><b>Week 2026-09-14</b> · 3W · 0L · 0P · 2 pending</span><span class="wk-sum">3W 0L 0P · sco-championship..sco-premiership · ROI 79%</span></div>
+  <table>
+    <thead><tr><th>Pick</th><th>Market</th><th>Model prob</th><th>Odds</th><th>Final</th><th>Settlement</th><th>Profit</th></tr></thead>
+    <tbody><tr>
+          <td><b>Tampa Bay Rowdies</b> <span class="vs">vs</span> Birmingham Legion FC</td>
+          <td>AH Home (0)</td>
+          <td>77%</td>
+          <td>1.32</td>
+          <td>—</td>
+          <td><span class="v PENDING">PENDING</span> <small style="color:var(--dim)">no result yet</small></td>
+          <td>—</td>
+        </tr>
+          <tr>
+          <td><b>Union St.-Gilloise</b> <span class="vs">vs</span> Antwerp</td>
+          <td>Away or GG</td>
+          <td>94%</td>
+          <td>1.61</td>
+          <td>—</td>
+          <td><span class="v PENDING">PENDING</span> <small style="color:var(--dim)">no result yet</small></td>
+          <td>—</td>
+        </tr>
+          <tr>
+          <td><b>Stenhousemuir</b> <span class="vs">vs</span> Arbroath</td>
+          <td>Double Chance · 1UP</td>
+          <td>92%</td>
+          <td>2.10</td>
+          <td>1–0</td>
+          <td><span class="v W">W</span> <small style="color:var(--dim)">strong side led by 1 at some point</small></td>
+          <td><span class="prof pos">++1.10£</span></td>
+        </tr>
+          <tr>
+          <td><b>AFC Fylde</b> <span class="vs">vs</span> Altrincham</td>
+          <td>Home or GG</td>
+          <td>88%</td>
+          <td>1.54</td>
+          <td>1–2</td>
+          <td><span class="v W">W</span> <small style="color:var(--dim)">both teams scored → GG leg covered</small></td>
+          <td><span class="prof pos">++0.54£</span></td>
+        </tr>
+          <tr>
+          <td><b>Heart of Midlothian</b> <span class="vs">vs</span> Kilmarnock</td>
+          <td>Away or GG</td>
+          <td>89%</td>
+          <td>1.74</td>
+          <td>1–1</td>
+          <td><span class="v W">W</span> <small style="color:var(--dim)">both teams scored → GG leg covered</small></td>
+          <td><span class="prof pos">++0.74£</span></td>
+        </tr></tbody>
+  </table>
+</div></div>
+</section>
+
+<div class="agg">
+  <div class="box"><h4>By market</h4><ul><li><span>Double Chance · 1UP</span><b>1 · <span class="prof pos">+110%</span></b></li><li><span>Home or GG</span><b>1 · <span class="prof pos">+54%</span></b></li><li><span>Away or GG</span><b>1 · <span class="prof pos">+74%</span></b></li></ul></div>
+  <div class="box"><h4>By tier</h4><ul><li><span>Elite</span><b>2 · <span class="prof pos">+82%</span></b></li><li><span>Reliable</span><b>1 · <span class="prof pos">+74%</span></b></li></ul></div>
+  <div class="box"><h4>By league</h4><ul><li><span>Scottish Championship</span><b>1 · <span class="prof pos">+110%</span></b></li><li><span>National League</span><b>1 · <span class="prof pos">+54%</span></b></li><li><span>Scottish Premiership</span><b>1 · <span class="prof pos">+74%</span></b></li></ul></div>
+  <div class="box"><h4>Per week</h4><ul><li><span>2026-09-14</span><b>3 · <span class="prof pos">+79%</span></b></li></ul></div>
+</div>
+
+<div class="meth"><h3>How pick settlement works</h3>
+  Results come from the ESPN scoreboard for the picked competition/week (final + goal detail timeline) with a local
+  DB fallback. Settled at a flat £1 stake using the card's published price: W = +odds−1, L = −1, push AH = 0.
+  1UP/2UP are settled from the actual goal sequence; when no timeline exists they stay PENDING rather than guess.
+  Hit-rate counts only settled picks. Data in <a href="api/card_results.json">api/card_results.json</a>.</div>
+
+<footer class="foot"><div class="d-links">Dashboards: <a href="dashboard.html">Strength Lists</a> · <a href="fixtures.html">Fixtures</a> · <a href="opportunities.html">Opportunities</a> · <a href="markets.html">Markets</a> · <a href="card_results.html">Results</a></div>Global Sports Intelligence System</footer>
+</div>
+</body>
+</html>
