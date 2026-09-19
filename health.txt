@@ -44,7 +44,7 @@ Competitions:
   lva-virsliga: ok | entities=10 events=142
   azr-premier-league: ok | entities=12 events=30
   gre-super-league: ok | entities=14 events=28
-  ukr-premier-league: ok | entities=16 events=46
+  ukr-premier-league: ok | entities=16 events=47
   cze-first-league: ok | entities=16 events=63
   rou-liga-1: ok | entities=16 events=16
   cro-hnl: ok | entities=10 events=180
@@ -90,8 +90,8 @@ Competitions:
   ind-i-league: ok | entities=6 events=0
   mys-super-league: ok | entities=13 events=0
   sgp-premier-league: ok | entities=8 events=0
-  kor-k-league: ok | entities=12 events=171
-  kor-k-league-2: ok | entities=17 events=208
+  kor-k-league: ok | entities=12 events=172
+  kor-k-league-2: ok | entities=17 events=212
   kaz-premier-league: ok | entities=16 events=193
   chn-csl: ok | entities=16 events=0
   tha-league-1: ok | entities=16 events=0
@@ -231,7 +231,7 @@ Wikipedia data validation (results grid vs standings table):
       Liepāja: grid(P29 W11 D6 L12 GF39 GA42) vs standings (P30 W12 D6 L12 GF41 GA43)
   azr-premier-league: OK | teams=12 matches=30 checked=12 issues=0
   gre-super-league: OK | teams=14 matches=28 checked=14 issues=0
-  ukr-premier-league: OK | teams=16 matches=46 checked=16 issues=0
+  ukr-premier-league: OK | teams=16 matches=47 checked=16 issues=0
   cze-first-league: OK | teams=16 matches=63 checked=16 issues=0
   rou-liga-1: MISMATCH | teams=16 matches=16 checked=16 issues=16
       Rapid București: grid(P2 W1 D1 L0 GF2 GA1) vs standings (P10 W6 D3 L1 GF14 GA6)
@@ -342,11 +342,11 @@ Wikipedia data validation (results grid vs standings table):
   ind-isl: grid empty (season not started) | teams=14
   mys-super-league: OK | teams=12 matches=26 checked=12 issues=0
   sgp-premier-league: grid empty (season not started) | teams=8
-  kor-k-league: GRID-LAG (1 round(s) behind) | teams=12 matches=171 checked=12 issues=6
+  kor-k-league: GRID-LAG (1 round(s) behind) | teams=12 matches=172 checked=12 issues=6
       FC Seoul: grid(P28 W18 D5 L5 GF54 GA23) vs standings (P29 W19 D5 L5 GF55 GA23)
       Jeonbuk Hyundai Motors: grid(P28 W11 D9 L8 GF35 GA25) vs standings (P29 W11 D10 L8 GF36 GA26)
       Gangwon FC: grid(P27 W10 D11 L6 GF35 GA26) vs standings (P28 W10 D12 L6 GF36 GA27)
-  kor-k-league-2: OK | teams=17 matches=208 checked=17 issues=0
+  kor-k-league-2: OK | teams=17 matches=212 checked=17 issues=0
   kaz-premier-league: MISMATCH | teams=16 matches=193 checked=16 issues=14
       Ordabasy: grid(P25 W18 D4 L3 GF49 GA18) vs standings (P26 W19 D4 L3 GF51 GA18)
       Kairat: grid(P25 W16 D6 L3 GF49 GA20) vs standings (P26 W17 D6 L3 GF51 GA20)
