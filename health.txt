@@ -1,6 +1,6 @@
 GSIS Run — 2026-09-19
 Status: OK
-API calls used: 21
+API calls used: 22
 Competitions:
   eng-premier-league: ok | entities=20 events=41
   eng-championship: ok | entities=24 events=84
@@ -13,7 +13,7 @@ Competitions:
   ita-serie-a: ok | entities=20 events=41
   ita-serie-b: ok | entities=20 events=37
   ita-serie-c: data-low (below min_events_for_score=6 — trying next source) | entities=20 events=0
-  ger-bundesliga: ok | entities=10 events=45
+  ger-bundesliga: ok | entities=18 events=28
   ger-2-bundesliga: ok | entities=18 events=0
   ger-3-liga: ok | entities=20 events=58
   fra-ligue-1: ok | entities=18 events=37
@@ -38,7 +38,7 @@ Competitions:
   nor-eliteserien: ok | entities=16 events=0
   nor-1-divisjon: ok | entities=16 events=168
   pol-ekstraklasa: ok | entities=18 events=71
-  pol-1-liga: ok | entities=18 events=71
+  pol-1-liga: ok | entities=18 events=73
   isl-besta-deild: ok | entities=12 events=103
   est-meistriliiga: ok | entities=10 events=90
   lva-virsliga: ok | entities=10 events=142
@@ -66,6 +66,12 @@ Competitions:
   blr-premier-league: ok | entities=16 events=173
   alb-superiore: ok | entities=10 events=20
   geo-erovnuli: ok | entities=10 events=125
+  ltu-toplyga: ok | entities=10 events=72
+  mkd-first-league: ok | entities=10 events=37
+  mkd-second-league: ok | entities=14 events=23
+  kos-superleague: ok | entities=10 events=30
+  lux-national-division: ok | entities=16 events=56
+  lux-division-of-honour: ok | entities=16 events=38
   gha-premier-league: ok | entities=18 events=0
   egy-premier-league: ok | entities=10 events=45
   mar-botola: ok | entities=10 events=45
@@ -208,7 +214,7 @@ Wikipedia data validation (results grid vs standings table):
       Odd: grid(P21 W9 D6 L6 GF41 GA33) vs standings (P21 W9 D6 L6 GF41 GA36)
       Sandnes Ulf: grid(P21 W7 D3 L11 GF30 GA36) vs standings (P21 W7 D3 L11 GF26 GA34)
   pol-ekstraklasa: OK | teams=18 matches=71 checked=18 issues=0
-  pol-1-liga: OK | teams=18 matches=71 checked=18 issues=0
+  pol-1-liga: OK | teams=18 matches=73 checked=18 issues=0
   isl-besta-deild: MISMATCH | teams=12 matches=103 checked=12 issues=12
       Víkingur Reykjavík: grid(P8 W6 D2 L0 GF24 GA7) vs standings (P22 W16 D5 L1 GF67 GA21)
       Fram: grid(P10 W5 D2 L3 GF26 GA23) vs standings (P22 W13 D6 L3 GF56 GA42)
@@ -244,8 +250,8 @@ Wikipedia data validation (results grid vs standings table):
   bel-challenger-pro-league: no validation data
   rus-premier-league: OK | teams=16 matches=240 checked=16 issues=0
   rus-first-league: OK | teams=18 matches=103 checked=18 issues=0
-  cyp-first-division: MISMATCH | teams=14 matches=19 checked=14 issues=3
-      Omonia 29M: grid(P1 W0 D1 L0 GF2 GA2) vs standings (P3 W1 D2 L0 GF8 GA5)
+  cyp-first-division: MISMATCH | teams=14 matches=21 checked=14 issues=3
+      Omonia 29M: grid(P2 W0 D1 L1 GF3 GA4) vs standings (P4 W1 D2 L1 GF9 GA7)
       Olympiakos Nicosia: grid(P2 W0 D2 L0 GF3 GA3) vs standings (P3 W0 D3 L0 GF6 GA6)
       Krasava: grid(P2 W0 D0 L2 GF1 GA3) vs standings (P3 W0 D0 L3 GF1 GA6)
   wal-cymru-premier: MISMATCH | teams=16 matches=73 checked=16 issues=6
@@ -281,6 +287,26 @@ Wikipedia data validation (results grid vs standings table):
       Rustavi: grid(P24 W12 D6 L6 GF30 GA20) vs standings (P26 W13 D7 L6 GF32 GA21)
       Iberia 1999: grid(P24 W12 D4 L8 GF33 GA27) vs standings (P25 W13 D4 L8 GF35 GA28)
       Dinamo Tbilisi: grid(P24 W10 D9 L5 GF38 GA26) vs standings (P25 W11 D9 L5 GF40 GA27)
+  ltu-toplyga: MISMATCH | teams=10 matches=72 checked=9 issues=9
+      Sūduva: grid(P16 W5 D8 L3 GF17 GA14) vs standings (P27 W13 D10 L4 GF38 GA24)
+      Kauno Žalgiris: grid(P16 W7 D6 L3 GF31 GA14) vs standings (P27 W13 D9 L5 GF54 GA20)
+      Žalgiris: grid(P16 W6 D3 L7 GF21 GA21) vs standings (P27 W13 D5 L9 GF41 GA31)
+  mkd-first-league: MISMATCH | teams=10 matches=37 checked=10 issues=2
+      Shkëndija: grid(P12 W9 D1 L2 GF24 GA12) vs standings (P8 W6 D1 L1 GF20 GA8)
+      Shkëndija 77: grid(P3 W1 D1 L1 GF2 GA3) vs standings (P7 W4 D1 L2 GF6 GA7)
+  mkd-second-league: MISMATCH | teams=14 matches=23 checked=14 issues=10
+      Ohrid: grid(P2 W2 D0 L0 GF5 GA1) vs standings (P4 W4 D0 L0 GF12 GA3)
+      Brera: grid(P3 W2 D1 L0 GF3 GA1) vs standings (P4 W3 D1 L0 GF5 GA1)
+      Belasica: grid(P4 W2 D2 L0 GF6 GA4) vs standings (P5 W2 D3 L0 GF7 GA5)
+  kos-superleague: OK | teams=10 matches=30 checked=10 issues=0
+  lux-national-division: MISMATCH | teams=16 matches=56 checked=16 issues=10
+      Differdange 03: grid(P6 W5 D0 L1 GF12 GA4) vs standings (P8 W7 D0 L1 GF19 GA5)
+      Racing Union: grid(P3 W2 D1 L0 GF12 GA3) vs standings (P8 W5 D2 L1 GF21 GA8)
+      Progrès Niederkorn: grid(P7 W4 D0 L3 GF10 GA8) vs standings (P8 W5 D1 L2 GF13 GA5)
+  lux-division-of-honour: MISMATCH | teams=16 matches=38 checked=16 issues=3
+      The Belval Belvaux: grid(P4 W2 D1 L1 GF5 GA6) vs standings (P5 W3 D1 L1 GF7 GA6)
+      Luxembourg City: grid(P4 W1 D3 L0 GF6 GA5) vs standings (P5 W1 D3 L1 GF6 GA6)
+      URB: grid(P3 W0 D1 L2 GF2 GA8) vs standings (P5 W1 D1 L3 GF3 GA10)
   gha-premier-league: GRID-LAG (1 round(s) behind) | teams=18 matches=11 checked=15 issues=7
       Ashantigold SC 04: grid(P1 W1 D0 L0 GF3 GA1) vs standings (P2 W1 D1 L0 GF4 GA2)
       Vision: grid(P1 W0 D0 L1 GF1 GA3) vs standings (P2 W1 D0 L1 GF4 GA3)
