@@ -72,6 +72,8 @@ Competitions:
   kos-superleague: ok | entities=10 events=30
   lux-national-division: ok | entities=16 events=56
   lux-division-of-honour: ok | entities=16 events=38
+  bih-premijer: ok | entities=10 events=33
+  mda-liga-1: ok | entities=6 events=23
   gha-premier-league: ok | entities=18 events=0
   egy-premier-league: ok | entities=10 events=45
   mar-botola: ok | entities=10 events=45
@@ -307,6 +309,11 @@ Wikipedia data validation (results grid vs standings table):
       The Belval Belvaux: grid(P4 W2 D1 L1 GF5 GA6) vs standings (P5 W3 D1 L1 GF7 GA6)
       Luxembourg City: grid(P4 W1 D3 L0 GF6 GA5) vs standings (P5 W1 D3 L1 GF6 GA6)
       URB: grid(P3 W0 D1 L2 GF2 GA8) vs standings (P5 W1 D1 L3 GF3 GA10)
+  bih-premijer: MISMATCH | teams=10 matches=33 checked=10 issues=4
+      Zrinjski Mostar: grid(P6 W5 D0 L1 GF13 GA5) vs standings (P7 W6 D0 L1 GF15 GA5)
+      Borac Banja Luka: grid(P6 W4 D1 L1 GF10 GA5) vs standings (P7 W5 D1 L1 GF12 GA5)
+      Željezničar: grid(P5 W3 D2 L0 GF9 GA4) vs standings (P8 W3 D3 L2 GF10 GA9)
+  mda-liga-1: OK | teams=6 matches=23 checked=6 issues=0
   gha-premier-league: GRID-LAG (1 round(s) behind) | teams=18 matches=11 checked=15 issues=7
       Ashantigold SC 04: grid(P1 W1 D0 L0 GF3 GA1) vs standings (P2 W1 D1 L0 GF4 GA2)
       Vision: grid(P1 W0 D0 L1 GF1 GA3) vs standings (P2 W1 D0 L1 GF4 GA3)
@@ -335,7 +342,7 @@ Wikipedia data validation (results grid vs standings table):
   ind-isl: grid empty (season not started) | teams=14
   mys-super-league: OK | teams=12 matches=26 checked=12 issues=0
   sgp-premier-league: grid empty (season not started) | teams=8
-  kor-k-league: GRID-LAG (1 round(s) behind) | teams=12 matches=171 checked=12 issues=4
+  kor-k-league: GRID-LAG (1 round(s) behind) | teams=12 matches=171 checked=12 issues=6
       FC Seoul: grid(P28 W18 D5 L5 GF54 GA23) vs standings (P29 W19 D5 L5 GF55 GA23)
       Jeonbuk Hyundai Motors: grid(P28 W11 D9 L8 GF35 GA25) vs standings (P29 W11 D10 L8 GF36 GA26)
       Gangwon FC: grid(P27 W10 D11 L6 GF35 GA26) vs standings (P28 W10 D12 L6 GF36 GA27)
