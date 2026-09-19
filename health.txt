@@ -9,7 +9,7 @@ Competitions:
   eng-national-league: ok | entities=24 events=0
   esp-la-liga: ok | entities=20 events=60
   esp-la-liga-2: ok | entities=22 events=55
-  esp-primera-rfef: ok | entities=20 events=25
+  esp-primera-rfef: ok | entities=20 events=26
   ita-serie-a: ok | entities=20 events=41
   ita-serie-b: ok | entities=20 events=37
   ita-serie-c: data-low (below min_events_for_score=6 — trying next source) | entities=20 events=0
@@ -131,8 +131,8 @@ Competitions:
   nzl-national-league: ok | entities=12 events=132
 
 Wikipedia data validation (results grid vs standings table):
-  eng-premier-league: OK | teams=20 matches=41 checked=20 issues=0
-  eng-championship: OK | teams=24 matches=84 checked=24 issues=0
+  eng-premier-league: OK | teams=20 matches=42 checked=20 issues=0
+  eng-championship: OK | teams=24 matches=87 checked=24 issues=0
   eng-league-one: OK | teams=24 matches=72 checked=24 issues=0
   eng-league-two: OK | teams=24 matches=72 checked=24 issues=0
   eng-national-league: OK | teams=24 matches=97 checked=24 issues=0
@@ -143,7 +143,7 @@ Wikipedia data validation (results grid vs standings table):
   esp-la-liga-2: GRID-LAG (1 round(s) behind) | teams=22 matches=55 checked=22 issues=2
       Tenerife: grid(P4 W3 D1 L0 GF7 GA2) vs standings (P5 W3 D1 L1 GF7 GA3)
       Sporting Gijón: grid(P4 W1 D1 L2 GF1 GA3) vs standings (P5 W2 D1 L2 GF2 GA3)
-  esp-primera-rfef: MISMATCH | teams=20 matches=25 checked=20 issues=9
+  esp-primera-rfef: MISMATCH | teams=20 matches=26 checked=20 issues=9
       Bilbao Athletic: grid(P1 W1 D0 L0 GF2 GA1) vs standings (P3 W2 D1 L0 GF6 GA3)
       Pontevedra: grid(P3 W2 D1 L0 GF6 GA2) vs standings (P4 W2 D1 L1 GF7 GA5)
       Cacereño: grid(P2 W1 D1 L0 GF2 GA1) vs standings (P3 W2 D1 L0 GF3 GA1)
