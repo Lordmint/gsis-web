@@ -2,20 +2,20 @@ GSIS Run — 2026-09-19
 Status: OK
 API calls used: 22
 Competitions:
-  eng-premier-league: ok | entities=20 events=41
-  eng-championship: ok | entities=24 events=84
+  eng-premier-league: ok | entities=20 events=42
+  eng-championship: ok | entities=24 events=87
   eng-league-one: ok | entities=24 events=0
   eng-league-two: ok | entities=24 events=0
   eng-national-league: ok | entities=24 events=0
-  esp-la-liga: ok | entities=20 events=60
-  esp-la-liga-2: ok | entities=22 events=55
+  esp-la-liga: ok | entities=20 events=61
+  esp-la-liga-2: ok | entities=22 events=0
   esp-primera-rfef: ok | entities=20 events=26
   ita-serie-a: ok | entities=20 events=41
   ita-serie-b: ok | entities=20 events=37
   ita-serie-c: data-low (below min_events_for_score=6 — trying next source) | entities=20 events=0
   ger-bundesliga: ok | entities=18 events=28
   ger-2-bundesliga: ok | entities=18 events=0
-  ger-3-liga: ok | entities=20 events=58
+  ger-3-liga: ok | entities=20 events=62
   fra-ligue-1: ok | entities=18 events=37
   fra-ligue-2: ok | entities=18 events=0
   ned-eredivisie: ok | entities=18 events=55
@@ -133,13 +133,13 @@ Competitions:
 Wikipedia data validation (results grid vs standings table):
   eng-premier-league: OK | teams=20 matches=42 checked=20 issues=0
   eng-championship: OK | teams=24 matches=87 checked=24 issues=0
-  eng-league-one: OK | teams=24 matches=72 checked=24 issues=0
-  eng-league-two: OK | teams=24 matches=72 checked=24 issues=0
-  eng-national-league: OK | teams=24 matches=97 checked=24 issues=0
-  esp-la-liga: MISMATCH | teams=20 matches=51 checked=20 issues=10
+  eng-league-one: OK | teams=24 matches=74 checked=24 issues=0
+  eng-league-two: OK | teams=24 matches=74 checked=24 issues=0
+  eng-national-league: OK | teams=24 matches=99 checked=24 issues=0
+  esp-la-liga: MISMATCH | teams=20 matches=52 checked=20 issues=10
       Barcelona: grid(P5 W5 D0 L0 GF21 GA4) vs standings (P6 W6 D0 L0 GF28 GA6)
       Deportivo A Coruña: grid(P3 W1 D1 L1 GF4 GA3) vs standings (P6 W2 D3 L1 GF9 GA7)
-      Racing Santander: grid(P3 W2 D1 L0 GF7 GA5) vs standings (P6 W2 D1 L3 GF11 GA16)
+      Rayo Vallecano: grid(P6 W1 D2 L3 GF8 GA14) vs standings (P7 W2 D2 L3 GF11 GA16)
   esp-la-liga-2: GRID-LAG (1 round(s) behind) | teams=22 matches=55 checked=22 issues=2
       Tenerife: grid(P4 W3 D1 L0 GF7 GA2) vs standings (P5 W3 D1 L1 GF7 GA3)
       Sporting Gijón: grid(P4 W1 D1 L2 GF1 GA3) vs standings (P5 W2 D1 L2 GF2 GA3)
@@ -154,10 +154,10 @@ Wikipedia data validation (results grid vs standings table):
       SV Elversberg: grid(P2 W1 D0 L1 GF5 GA5) vs standings (P3 W2 D0 L1 GF8 GA7)
       Bayer Leverkusen: grid(P1 W1 D0 L0 GF4 GA0) vs standings (P3 W1 D1 L1 GF8 GA5)
   ger-2-bundesliga: OK | teams=18 matches=50 checked=18 issues=0
-  ger-3-liga: MISMATCH | teams=20 matches=58 checked=20 issues=4
-      TSG Hoffenheim II: grid(P3 W1 D1 L1 GF9 GA6) vs standings (P6 W3 D1 L2 GF13 GA8)
-      Fortuna Düsseldorf: grid(P5 W3 D1 L1 GF6 GA4) vs standings (P6 W3 D1 L2 GF6 GA6)
-      FC Ingolstadt: grid(P5 W2 D2 L1 GF6 GA6) vs standings (P6 W2 D2 L2 GF7 GA8)
+  ger-3-liga: MISMATCH | teams=20 matches=62 checked=20 issues=4
+      TSG Hoffenheim II: grid(P4 W2 D1 L1 GF10 GA6) vs standings (P7 W4 D1 L2 GF14 GA8)
+      Fortuna Düsseldorf: grid(P6 W3 D1 L2 GF6 GA5) vs standings (P7 W3 D1 L3 GF6 GA7)
+      Sonnenhof Großaspach: grid(P5 W1 D2 L2 GF4 GA7) vs standings (P6 W2 D2 L2 GF5 GA7)
   fra-ligue-1: GRID-LAG (1 round(s) behind) | teams=18 matches=36 checked=18 issues=2
       Rennes: grid(P3 W2 D1 L0 GF6 GA4) vs standings (P4 W3 D1 L0 GF8 GA5)
       Angers: grid(P3 W1 D1 L1 GF3 GA3) vs standings (P4 W1 D1 L2 GF4 GA5)
@@ -391,7 +391,7 @@ Wikipedia data validation (results grid vs standings table):
       Toluca: grid(P7 W5 D1 L1 GF13 GA4) vs standings (P8 W6 D1 L1 GF18 GA6)
       Atlas: grid(P7 W4 D1 L2 GF10 GA9) vs standings (P8 W4 D1 L3 GF12 GA14)
       Monterrey: grid(P6 W3 D0 L3 GF13 GA10) vs standings (P7 W3 D1 L3 GF13 GA10)
-  mex-expansion: OK | teams=16 matches=65 checked=16 issues=0
+  mex-expansion: OK | teams=16 matches=68 checked=16 issues=0
   slv-primera: MISMATCH | teams=12 matches=43 checked=11 issues=11
       Inter Santa Tecla: grid(P9 W4 D4 L1 GF13 GA8) vs standings (P10 W5 D4 L1 GF16 GA8)
       FAS: grid(P7 W4 D2 L1 GF13 GA6) vs standings (P9 W5 D2 L2 GF16 GA9)
@@ -424,8 +424,8 @@ Wikipedia data validation (results grid vs standings table):
       Cienciano: grid(P24 W11 D4 L9 GF41 GA35) vs standings (P17 W10 D3 L4 GF34 GA22)
   nzl-national-league: OK | teams=12 matches=132 checked=12 issues=0
 
-Prediction validation (top-3 vs next-5):
-  No data yet. As daily snapshots age, hit rates accumulate.
+Prediction validation (top-3 vs next-5, mature≥3 matches):
+  No mature snapshots yet — hit rates will appear after ≥3 future matches per evaluated slot.
 
 Recipe tuning:
   No adjustments needed — insufficient mature data or all leagues performing well.
