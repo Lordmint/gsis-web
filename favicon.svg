@@ -1,12 +1,15 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 96 96">
   <defs>
     <linearGradient id="gs-ring" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0" stop-color="#38bdf8"/>
-      <stop offset="1" stop-color="#818cf8"/>
+      <stop offset="0" stop-color="#f14c52"/>
+      <stop offset="0.33" stop-color="#f5b544"/>
+      <stop offset="0.66" stop-color="#2fd26f"/>
+      <stop offset="1" stop-color="#38bdf8"/>
     </linearGradient>
     <linearGradient id="gs-spark" x1="0" y1="1" x2="1" y2="0">
-      <stop offset="0" stop-color="#2fd26f"/>
-      <stop offset="1" stop-color="#38bdf8"/>
+      <stop offset="0" stop-color="#38bdf8"/>
+      <stop offset="0.5" stop-color="#2fd26f"/>
+      <stop offset="1" stop-color="#f5b544"/>
     </linearGradient>
     <linearGradient id="gs-plate" x1="0.5" y1="0" x2="0.5" y2="1">
       <stop offset="0" stop-color="#1b2839"/>
@@ -14,8 +17,13 @@
     </linearGradient>
     <radialGradient id="gs-ball" cx="0.35" cy="0.3" r="1">
       <stop offset="0" stop-color="#ffffff"/>
-      <stop offset="0.7" stop-color="#dceafa"/>
-      <stop offset="1" stop-color="#bcd8f2"/>
+      <stop offset="0.6" stop-color="#ffe9b8"/>
+      <stop offset="1" stop-color="#f5b544"/>
+    </radialGradient>
+    <radialGradient id="gs-halo" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#f14c52" stop-opacity="0.8"/>
+      <stop offset="0.65" stop-color="#f14c52" stop-opacity="0.28"/>
+      <stop offset="1" stop-color="#f14c52" stop-opacity="0"/>
     </radialGradient>
     <filter id="gs-glow" x="-60%" y="-60%" width="220%" height="220%">
       <feGaussianBlur stdDeviation="1.6" result="blur"/>
@@ -38,16 +46,17 @@
     <line x1="62" y1="30" x2="62" y2="66"/>
     <line x1="74" y1="34" x2="74" y2="62"/>
   </g>
-  <!-- hexagon ring -->
+  <!-- four-colour hexagon ring -->
   <path d="M48 8 L82.64 28 L82.64 68 L48 88 L13.36 68 L13.36 28 Z" fill="none" stroke="url(#gs-ring)" stroke-width="4" stroke-linejoin="round" filter="url(#gs-glow)"/>
 
   <!-- win-edge trend -->
   <path d="M24 56 L34.5 47 L44 51.5 L55 37.5 L62.5 27.5" fill="none" stroke="url(#gs-spark)" stroke-width="3.4" stroke-linecap="round" stroke-linejoin="round" filter="url(#gs-glow)"/>
   <!-- data points along the trend -->
   <circle cx="34.5" cy="47" r="1.9" fill="#2fd26f"/>
-  <circle cx="55" cy="37.5" r="1.9" fill="#38bdf8"/>
+  <circle cx="55" cy="37.5" r="1.9" fill="#f5b544"/>
 
-  <!-- ball at the peak -->
+  <!-- heat halo + ball at the peak -->
+  <circle cx="63.5" cy="26" r="11" fill="url(#gs-halo)"/>
   <circle cx="63.5" cy="26" r="6" fill="url(#gs-ball)" filter="url(#gs-glow)"/>
-  <path d="M63.5 22.5 L67.1 25 L65.4 29 L61.6 29 L59.9 25 Z" fill="none" stroke="#38bdf8" stroke-width="1" opacity="0.9"/>
+  <path d="M63.5 22.5 L67.1 25 L65.4 29 L61.6 29 L59.9 25 Z" fill="none" stroke="#f14c52" stroke-width="1" opacity="0.95"/>
 </svg>
