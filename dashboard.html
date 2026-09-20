@@ -126,6 +126,7 @@ tr.hl-row{background:rgba(56,189,248,.16);box-shadow:inset 3px 0 0 var(--accent)
 .sec-t{font-size:1.14rem;font-weight:800;letter-spacing:-.01em}
 .sec-s{color:var(--dim);font-size:.85rem}
 .sec-b{background:var(--panel);border:1px solid var(--border);border-top:0;border-radius:0 0 14px 14px;padding:1.35rem 1.4rem;display:grid;grid-template-columns:repeat(auto-fill,minmax(330px,1fr));gap:1.15rem;box-shadow:var(--shadow-1)}
+.sec-b>.wk,.sec-b>.empty{grid-column:1/-1}
 
 /* ---------- fixture / opportunity / market cards ---------- */
 .fx,.oc,.cd{background:var(--panel);border:1px solid var(--border);border-radius:14px;padding:1.15rem 1.25rem;box-shadow:var(--shadow-1);transition:transform .15s,border-color .15s,box-shadow .15s}
@@ -153,6 +154,8 @@ tr.hl-row{background:rgba(56,189,248,.16);box-shadow:inset 3px 0 0 var(--accent)
 
 /* ---------- opportunities ---------- */
 .sec-b>*{min-width:0}
+.oc-hd{display:flex;align-items:center;gap:.7rem;justify-content:space-between;margin-bottom:.9rem;flex-wrap:wrap}
+.oc-b,.cd-b{display:block;min-width:0}
 .oc-team{display:grid;grid-template-columns:auto 1fr auto;grid-template-rows:auto auto;gap:.2rem .7rem;align-items:center;text-decoration:none;color:var(--text);padding:.65rem .75rem;border-radius:10px;transition:.15s;min-width:0}
 .oc-team:hover{background:rgba(56,189,248,.1);border:1px solid rgba(56,189,248,.3);margin:-1px}
 .oc-team:nth-child(odd){border:1px solid var(--border)}
@@ -204,8 +207,11 @@ tr.hl-row{background:rgba(56,189,248,.16);box-shadow:inset 3px 0 0 var(--accent)
 .kpis{display:flex;flex-wrap:wrap;gap:.75rem}
 .kpi{background:var(--panel);border:1px solid var(--border);border-radius:10px;padding:.7rem 1.1rem;font-size:.78rem;color:var(--dim);box-shadow:var(--shadow-1)}
 .kpi b{font-size:1.15rem;display:block;color:var(--text);font-variant-numeric:tabular-nums}
-.wk{border:1px solid var(--border);border-radius:14px;background:var(--panel);overflow:hidden;box-shadow:var(--shadow-1)}
+.wk{border:1px solid var(--border);border-radius:14px;background:var(--panel);overflow:auto;box-shadow:var(--shadow-1)}
 .wk-h{display:flex;justify-content:space-between;align-items:center;padding:.9rem 1.15rem;background:rgba(129,140,248,.08);font-size:.85rem;flex-wrap:wrap;gap:.5rem}
+.wk table{table-layout:fixed;width:100%}
+.wk table td{white-space:normal}
+.wk table th{white-space:nowrap}
 .wk-h b{color:var(--accent)}
 .wk-h .wk-sum{color:var(--dim);font-size:.78rem}
 .v{font-weight:800}
