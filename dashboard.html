@@ -421,7 +421,7 @@ function fillCompare(){
   s1.innerHTML=s2.innerHTML="";
   D.competitions.forEach(function(c){
     var o=document.createElement("option");o.value=c.code;o.textContent=c.name+((c.region)?" · "+c.region:"");
-    s1.appendChild(o);s2.appendChild(o.cloneNode());
+    s1.appendChild(o);s2.appendChild(o.cloneNode(true));
   });
   if(D.competitions.length>=2)s2.selectedIndex=1;
 }
