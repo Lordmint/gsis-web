@@ -38,6 +38,10 @@ nav a.a{background:rgba(56,189,248,.14);color:var(--accent);font-weight:700;bord
 .hero h1{font-size:2rem;font-weight:800;letter-spacing:-.03em;margin-bottom:.5rem;color:var(--text);line-height:1.2}
 .hero-sub{color:var(--dim);font-size:.95rem}
 .hero-sub a{color:var(--accent);text-decoration:none}.hero-sub a:hover{text-decoration:underline}
+/* ---------- kickoff alert strip ---------- */
+.k-strip{display:flex;align-items:center;gap:1rem;flex-wrap:wrap;padding:.7rem 1rem;margin:-1rem 0 1.2rem;background:linear-gradient(90deg,rgba(255,163,38,.14),rgba(255,163,38,.02));border:1px solid rgba(255,163,38,.4);border-radius:10px;font-size:.9rem}
+.k-strip .k-alarm{display:inline-flex;align-items:center;gap:.4rem}
+.k-strip .k-alarm b{color:var(--text)}
 .back{display:inline-block;color:var(--accent);text-decoration:none;font-size:.88rem;margin-bottom:.5rem;font-weight:600;transition:.15s}.back:hover{color:#7dd3fc;text-decoration:underline}
 
 /* ---------- status pills ---------- */
@@ -98,6 +102,11 @@ td{padding:.75rem .85rem;border-bottom:1px solid rgba(46,63,86,.45);white-space:
 tbody tr:hover{background:rgba(46,63,86,.22)}
 tr.hl-row{background:rgba(56,189,248,.16);box-shadow:inset 3px 0 0 var(--accent)}
 .tc{font-weight:600}
+.tc-vs{width:34px}
+.vs-btn{cursor:pointer;color:var(--accent);opacity:.55;font-size:.9rem;-webkit-user-select:none;user-select:none}
+.vs-btn:hover{opacity:1}
+tr.tc-a td{background:rgba(56,189,248,.18)}
+tr.tc-b td{background:rgba(251,191,36,.16)}
 .sc{font-weight:700;color:var(--accent);font-variant-numeric:tabular-nums}
 .dim{color:var(--dim);font-weight:400}
 .panel{background:var(--panel);border:1px solid var(--border);border-radius:var(--r);padding:1.15rem 1.35rem;margin-bottom:2.1rem;overflow-x:auto;box-shadow:var(--shadow-1)}
@@ -248,7 +257,7 @@ nav{justify-content:flex-start;width:100%}nav a{flex:1 1 auto;text-align:center}
 </head>
 <body>
 <div class="W">
-<header class="hdr"><div class="hdr-r"><a class="brd" href="../dashboard.html"><span class="brd-m">GS</span><span class="brd-t"><strong>Global Sports Intelligence</strong><small>Strength Lists</small></span></a><nav><a href="../dashboard.html" class="a">Strength Lists</a><a href="../fixtures.html">Fixtures</a><a href="../opportunities.html">Opportunities</a><a href="../markets.html">Markets</a><a href="../premium.html">Picks</a><a href="../card_results.html">Results</a></nav></div></header>
+<header class="hdr"><div class="hdr-r"><a class="brd" href="../dashboard.html"><span class="brd-m">GS</span><span class="brd-t"><strong>Global Sports Intelligence</strong><small>Strength Lists</small></span></a><nav><a href="../dashboard.html" class="a">Strength Lists</a><a href="../fixtures.html">Fixtures</a><a href="../opportunities.html">Opportunities</a><a href="../markets.html">Markets</a><a href="../premium.html">Picks</a><a href="../card_results.html">Results</a><a href="../backtest.html">Backtest</a></nav></div></header>
 
 <section class="hero"><div class="hero-info">
   <a class="back" href="../dashboard.html">← Strength Lists</a>
@@ -273,7 +282,7 @@ nav{justify-content:flex-start;width:100%}nav a{flex:1 1 auto;text-align:center}
   <div class="fcards"><div class="fcard"><div class="fhead"><strong>#1 Unión Comercio</strong><span class="b be">🟢 Elite</span></div><div class="fb"><span class="fb-l">position</span><span class="fb-b"><span class="fb-f" style="width:100%"></span></span><span class="fb-v">100</span></div><div class="fb"><span class="fb-l">wdl_rate</span><span class="fb-b"><span class="fb-f" style="width:66%"></span></span><span class="fb-v">66</span></div><div class="fb"><span class="fb-l">goal_diff</span><span class="fb-b"><span class="fb-f" style="width:64%"></span></span><span class="fb-v">64</span></div></div><div class="fcard"><div class="fhead"><strong>#2 Carlos A. Mannucci</strong><span class="b br">🟡 Reliable</span></div><div class="fb"><span class="fb-l">position</span><span class="fb-b"><span class="fb-f" style="width:88%"></span></span><span class="fb-v">88</span></div><div class="fb"><span class="fb-l">wdl_rate</span><span class="fb-b"><span class="fb-f" style="width:62%"></span></span><span class="fb-v">62</span></div><div class="fb"><span class="fb-l">goal_diff</span><span class="fb-b"><span class="fb-f" style="width:60%"></span></span><span class="fb-v">60</span></div></div><div class="fcard"><div class="fhead"><strong>#3 Deportivo Llacuabamba</strong><span class="b br">🟡 Reliable</span></div><div class="fb"><span class="fb-l">position</span><span class="fb-b"><span class="fb-f" style="width:77%"></span></span><span class="fb-v">77</span></div><div class="fb"><span class="fb-l">wdl_rate</span><span class="fb-b"><span class="fb-f" style="width:58%"></span></span><span class="fb-v">58</span></div><div class="fb"><span class="fb-l">goal_diff</span><span class="fb-b"><span class="fb-f" style="width:63%"></span></span><span class="fb-v">63</span></div></div></div>
 </section>
 
-<footer class="foot"><div class="d-links">Dashboards: <a href="../dashboard.html">Strength Lists</a> · <a href="../fixtures.html">Fixtures</a> · <a href="../opportunities.html">Opportunities</a> · <a href="../markets.html">Markets</a> · <a href="../card_results.html">Results</a></div>Global Sports Intelligence System · <a href="../api/tables.json" target="_blank" rel="noopener">API data</a></footer>
+<footer class="foot"><div class="d-links">Dashboards: <a href="../dashboard.html">Strength Lists</a> · <a href="../fixtures.html">Fixtures</a> · <a href="../opportunities.html">Opportunities</a> · <a href="../markets.html">Markets</a> · <a href="../card_results.html">Results</a> · <a href="../backtest.html">Backtest</a></div>Global Sports Intelligence System · <a href="../api/tables.json" target="_blank" rel="noopener">API data</a></footer>
 </div>
 <script>
 (function(){
