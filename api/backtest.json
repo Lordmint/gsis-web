@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-20T13:30:11.737084+00:00",
+  "generated_at": "2026-09-20T14:44:42.511676+00:00",
   "weeks": [
     "2026-09-14"
   ],
@@ -18,11 +18,21 @@
     {
       "bucket": "70%+",
       "n": 5,
-      "model": null,
+      "model": 0.75,
       "realized": 1.0,
-      "roi": 0.6620000000000001
+      "roi": 0.6620000000000001,
+      "ci_lo": 0.6069622310029172,
+      "ci_hi": 0.991487555389154,
+      "bayes_mean": 0.8571428571428571,
+      "verdict": "under-implied"
     }
   ],
+  "health": {
+    "on_track": 0,
+    "over_implied": 0,
+    "under_implied": 1,
+    "checked": 1
+  },
   "by_market": [
     {
       "key": "Away or GG",
@@ -127,6 +137,381 @@
       "roi": 0.6620000000000001
     }
   ],
+  "concentration": [],
+  "drift": [
+    {
+      "league": "ecu-liga-pro",
+      "n_recent": 60,
+      "recent_avg": 2.75,
+      "baseline_avg": 2.08125,
+      "delta": 0.6687500000000002,
+      "z_plain": 3.686481523805976,
+      "z_ewma": 4.257836442770563,
+      "z": 4.257836442770563,
+      "status": "drift",
+      "name": "ecu-liga-pro"
+    },
+    {
+      "league": "uae-pro-league",
+      "n_recent": 60,
+      "recent_avg": 3.0,
+      "baseline_avg": 2.7295081967213113,
+      "delta": 0.2704918032786887,
+      "z_plain": 1.348578218679402,
+      "z_ewma": 2.3161188206553316,
+      "z": 2.3161188206553316,
+      "status": "watch",
+      "name": "uae-pro-league"
+    },
+    {
+      "league": "blr-premier-league",
+      "n_recent": 60,
+      "recent_avg": 2.1333333333333333,
+      "baseline_avg": 2.6379310344827585,
+      "delta": -0.5045977011494251,
+      "z_plain": -2.4495673881815185,
+      "z_ewma": -2.2887167546051916,
+      "z": -2.2887167546051916,
+      "status": "watch",
+      "name": "blr-premier-league"
+    },
+    {
+      "league": "chi-primera-b",
+      "n_recent": 60,
+      "recent_avg": 2.45,
+      "baseline_avg": 2.7016129032258065,
+      "delta": -0.2516129032258063,
+      "z_plain": -1.1002468209604623,
+      "z_ewma": -2.1327009065620266,
+      "z": -2.1327009065620266,
+      "status": "watch",
+      "name": "chi-primera-b"
+    },
+    {
+      "league": "bra-serie-a",
+      "n_recent": 60,
+      "recent_avg": 2.9,
+      "baseline_avg": 2.54375,
+      "delta": 0.35624999999999973,
+      "z_plain": 1.9583759557740543,
+      "z_ewma": 1.9219579911232498,
+      "z": 1.9219579911232498,
+      "status": "watch",
+      "name": "bra-serie-a"
+    },
+    {
+      "league": "usa-usl-league-one",
+      "n_recent": 60,
+      "recent_avg": 2.9833333333333334,
+      "baseline_avg": 2.9791666666666665,
+      "delta": 0.004166666666666874,
+      "z_plain": 0.018856356649307085,
+      "z_ewma": 1.891532114903685,
+      "z": 1.891532114903685,
+      "status": "watch",
+      "name": "usa-usl-league-one"
+    },
+    {
+      "league": "geo-erovnuli",
+      "n_recent": 60,
+      "recent_avg": 2.8833333333333333,
+      "baseline_avg": 2.4242424242424243,
+      "delta": 0.459090909090909,
+      "z_plain": 2.0903168060876696,
+      "z_ewma": 1.8283900035590641,
+      "z": 1.8283900035590641,
+      "status": "watch",
+      "name": "geo-erovnuli"
+    },
+    {
+      "league": "bol-liga-1",
+      "n_recent": 60,
+      "recent_avg": 3.1,
+      "baseline_avg": 3.27027027027027,
+      "delta": -0.17027027027027009,
+      "z_plain": -0.9646436047951709,
+      "z_ewma": 1.710854568211243,
+      "z": 1.710854568211243,
+      "status": "watch",
+      "name": "bol-liga-1"
+    },
+    {
+      "league": "arg-primera",
+      "n_recent": 60,
+      "recent_avg": 2.3666666666666667,
+      "baseline_avg": 2.0657894736842106,
+      "delta": 0.3008771929824561,
+      "z_plain": 1.793316051789932,
+      "z_ewma": 1.709668277465805,
+      "z": 1.709668277465805,
+      "status": "watch",
+      "name": "arg-primera"
+    },
+    {
+      "league": "lva-virsliga",
+      "n_recent": 60,
+      "recent_avg": 3.45,
+      "baseline_avg": 2.488095238095238,
+      "delta": 0.961904761904762,
+      "z_plain": 4.428165210419644,
+      "z_ewma": 1.6786645586167757,
+      "z": 1.6786645586167757,
+      "status": "watch",
+      "name": "lva-virsliga"
+    },
+    {
+      "league": "swe-superettan",
+      "n_recent": 60,
+      "recent_avg": 2.6,
+      "baseline_avg": 3.036231884057971,
+      "delta": -0.4362318840579711,
+      "z_plain": -2.010941812104777,
+      "z_ewma": -1.6582658561091008,
+      "z": -1.6582658561091008,
+      "status": "watch",
+      "name": "swe-superettan"
+    },
+    {
+      "league": "ger-bundesliga",
+      "n_recent": 60,
+      "recent_avg": 3.5,
+      "baseline_avg": 3.255813953488372,
+      "delta": 0.2441860465116279,
+      "z_plain": 1.1677713429399001,
+      "z_ewma": 1.5589538592190935,
+      "z": 1.5589538592190935,
+      "status": "watch",
+      "name": "ger-bundesliga"
+    },
+    {
+      "league": "est-meistriliiga",
+      "n_recent": 60,
+      "recent_avg": 2.966666666666667,
+      "baseline_avg": 3.466666666666667,
+      "delta": -0.5,
+      "z_plain": -2.6180129099449942,
+      "z_ewma": -1.5244544319556756,
+      "z": -1.5244544319556756,
+      "status": "watch",
+      "name": "est-meistriliiga"
+    },
+    {
+      "league": "chn-league-one",
+      "n_recent": 60,
+      "recent_avg": 2.316666666666667,
+      "baseline_avg": 3.0,
+      "delta": -0.6833333333333331,
+      "z_plain": -2.9125288108573395,
+      "z_ewma": -1.4674027785113133,
+      "z": -1.4674027785113133,
+      "status": "stable",
+      "name": "chn-league-one"
+    },
+    {
+      "league": "chn-csl",
+      "n_recent": 60,
+      "recent_avg": 3.033333333333333,
+      "baseline_avg": 3.215686274509804,
+      "delta": -0.18235294117647083,
+      "z_plain": -0.8138068413066479,
+      "z_ewma": -1.3175064033148416,
+      "z": -1.3175064033148416,
+      "status": "stable",
+      "name": "chn-csl"
+    },
+    {
+      "league": "kor-k-league",
+      "n_recent": 60,
+      "recent_avg": 2.933333333333333,
+      "baseline_avg": 2.2327586206896552,
+      "delta": 0.7005747126436779,
+      "z_plain": 3.66069080236654,
+      "z_ewma": 1.2550850405157943,
+      "z": 1.2550850405157943,
+      "status": "stable",
+      "name": "kor-k-league"
+    },
+    {
+      "league": "swe-allsvenskan",
+      "n_recent": 60,
+      "recent_avg": 2.7,
+      "baseline_avg": 3.2222222222222223,
+      "delta": -0.5222222222222221,
+      "z_plain": -2.0472638688887335,
+      "z_ewma": -1.1919770056561703,
+      "z": -1.1919770056561703,
+      "status": "stable",
+      "name": "swe-allsvenskan"
+    },
+    {
+      "league": "nzl-national-league",
+      "n_recent": 60,
+      "recent_avg": 3.533333333333333,
+      "baseline_avg": 3.263888888888889,
+      "delta": 0.2694444444444444,
+      "z_plain": 1.0624530778534993,
+      "z_ewma": 1.110867823928539,
+      "z": 1.110867823928539,
+      "status": "stable",
+      "name": "nzl-national-league"
+    },
+    {
+      "league": "kor-k-league-2",
+      "n_recent": 60,
+      "recent_avg": 2.6,
+      "baseline_avg": 2.7051282051282053,
+      "delta": -0.1051282051282052,
+      "z_plain": -0.53253127813189,
+      "z_ewma": -1.0510564582477722,
+      "z": -1.0510564582477722,
+      "status": "stable",
+      "name": "kor-k-league-2"
+    },
+    {
+      "league": "jpn-j1-league",
+      "n_recent": 60,
+      "recent_avg": 2.8666666666666667,
+      "baseline_avg": 3.282051282051282,
+      "delta": -0.41538461538461524,
+      "z_plain": -1.5784480475102383,
+      "z_ewma": -0.968500238566385,
+      "z": -0.968500238566385,
+      "status": "stable",
+      "name": "jpn-j1-league"
+    },
+    {
+      "league": "bra-serie-b",
+      "n_recent": 60,
+      "recent_avg": 2.6333333333333333,
+      "baseline_avg": 2.452830188679245,
+      "delta": 0.18050314465408812,
+      "z_plain": 0.8609789725011008,
+      "z_ewma": 0.9221595072782005,
+      "z": 0.9221595072782005,
+      "status": "stable",
+      "name": "bra-serie-b"
+    },
+    {
+      "league": "ita-serie-a",
+      "n_recent": 60,
+      "recent_avg": 2.9166666666666665,
+      "baseline_avg": 2.7746478873239435,
+      "delta": 0.142018779342723,
+      "z_plain": 0.7135117211571015,
+      "z_ewma": 0.8777587731390407,
+      "z": 0.8777587731390407,
+      "status": "stable",
+      "name": "ita-serie-a"
+    },
+    {
+      "league": "rus-first-league",
+      "n_recent": 60,
+      "recent_avg": 2.5833333333333335,
+      "baseline_avg": 2.813953488372093,
+      "delta": -0.23062015503875966,
+      "z_plain": -1.0459450641159689,
+      "z_ewma": -0.6782926078650517,
+      "z": -0.6782926078650517,
+      "status": "stable",
+      "name": "rus-first-league"
+    },
+    {
+      "league": "qat-stars-league",
+      "n_recent": 60,
+      "recent_avg": 3.25,
+      "baseline_avg": 3.4027777777777777,
+      "delta": -0.15277777777777768,
+      "z_plain": -0.692540171376916,
+      "z_ewma": 0.6018427480332444,
+      "z": 0.6018427480332444,
+      "status": "stable",
+      "name": "qat-stars-league"
+    },
+    {
+      "league": "per-liga-1",
+      "n_recent": 60,
+      "recent_avg": 3.033333333333333,
+      "baseline_avg": 2.6842105263157894,
+      "delta": 0.34912280701754383,
+      "z_plain": 1.7925509853523607,
+      "z_ewma": 0.5814332901076036,
+      "z": 0.5814332901076036,
+      "status": "stable",
+      "name": "per-liga-1"
+    },
+    {
+      "league": "kaz-premier-league",
+      "n_recent": 60,
+      "recent_avg": 2.5,
+      "baseline_avg": 2.5488721804511276,
+      "delta": -0.04887218045112762,
+      "z_plain": -0.24665581879297313,
+      "z_ewma": -0.5474735985979344,
+      "z": -0.5474735985979344,
+      "status": "stable",
+      "name": "kaz-premier-league"
+    },
+    {
+      "league": "nor-1-divisjon",
+      "n_recent": 60,
+      "recent_avg": 3.816666666666667,
+      "baseline_avg": 3.8796296296296298,
+      "delta": -0.06296296296296289,
+      "z_plain": -0.2328438932992245,
+      "z_ewma": 0.23624322083023586,
+      "z": 0.23624322083023586,
+      "status": "stable",
+      "name": "nor-1-divisjon"
+    },
+    {
+      "league": "fin-veikkausliiga",
+      "n_recent": 60,
+      "recent_avg": 2.7,
+      "baseline_avg": 2.5294117647058822,
+      "delta": 0.17058823529411793,
+      "z_plain": 0.7222014206145039,
+      "z_ewma": 0.18257473210139966,
+      "z": 0.18257473210139966,
+      "status": "stable",
+      "name": "fin-veikkausliiga"
+    },
+    {
+      "league": "isl-besta-deild",
+      "n_recent": 60,
+      "recent_avg": 4.0,
+      "baseline_avg": 3.5681818181818183,
+      "delta": 0.43181818181818166,
+      "z_plain": 1.4437671357826551,
+      "z_ewma": -0.18121389705878926,
+      "z": -0.18121389705878926,
+      "status": "stable",
+      "name": "isl-besta-deild"
+    },
+    {
+      "league": "eng-premier-league",
+      "n_recent": 60,
+      "recent_avg": 2.783333333333333,
+      "baseline_avg": 2.7260273972602738,
+      "delta": 0.05730593607305945,
+      "z_plain": 0.2673244929615445,
+      "z_ewma": -0.1222645043288549,
+      "z": -0.1222645043288549,
+      "status": "stable",
+      "name": "eng-premier-league"
+    },
+    {
+      "league": "usa-mls",
+      "n_recent": 60,
+      "recent_avg": 3.0,
+      "baseline_avg": 2.9935483870967743,
+      "delta": 0.006451612903225712,
+      "z_plain": 0.027380938878934603,
+      "z_ewma": 0.09997781176062173,
+      "z": 0.09997781176062173,
+      "status": "stable",
+      "name": "usa-mls"
+    }
+  ],
   "bankroll": {
     "flat": [
       100.0,
@@ -143,6 +528,13 @@
       139.37064786550854,
       151.8701741046506,
       172.7189875408241
+    ],
+    "bayes_kelly": [
+      100.0,
+      111.6436,
+      135.675443118,
+      146.27651170374648,
+      164.44851589095876
     ],
     "start": 100.0
   }
