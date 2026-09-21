@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-20T20:18:23.053017+00:00",
+  "generated_at": "2026-09-21T03:35:21.287788+00:00",
   "weeks": [
     "2026-09-14",
     "2026-09-21"
@@ -153,6 +153,18 @@
       "name": "ecu-liga-pro"
     },
     {
+      "league": "egy-premier-league",
+      "n_recent": 60,
+      "recent_avg": 2.1,
+      "baseline_avg": 2.774193548387097,
+      "delta": -0.6741935483870969,
+      "z_plain": -4.340893808503412,
+      "z_ewma": -3.506305025320747,
+      "z": -3.506305025320747,
+      "status": "drift",
+      "name": "egy-premier-league"
+    },
+    {
       "league": "uae-pro-league",
       "n_recent": 60,
       "recent_avg": 3.0,
@@ -163,18 +175,6 @@
       "z": 2.3161188206553316,
       "status": "watch",
       "name": "uae-pro-league"
-    },
-    {
-      "league": "blr-premier-league",
-      "n_recent": 60,
-      "recent_avg": 2.1333333333333333,
-      "baseline_avg": 2.6379310344827585,
-      "delta": -0.5045977011494251,
-      "z_plain": -2.4495673881815185,
-      "z_ewma": -2.2887167546051916,
-      "z": -2.2887167546051916,
-      "status": "watch",
-      "name": "blr-premier-league"
     },
     {
       "league": "chi-primera-b",
@@ -215,12 +215,12 @@
     {
       "league": "geo-erovnuli",
       "n_recent": 60,
-      "recent_avg": 2.8833333333333333,
-      "baseline_avg": 2.4242424242424243,
-      "delta": 0.459090909090909,
-      "z_plain": 2.0903168060876696,
-      "z_ewma": 1.8283900035590641,
-      "z": 1.8283900035590641,
+      "recent_avg": 2.933333333333333,
+      "baseline_avg": 2.417910447761194,
+      "delta": 0.5154228855721392,
+      "z_plain": 2.3636754916946914,
+      "z_ewma": 1.8735001321345266,
+      "z": 1.8735001321345266,
       "status": "watch",
       "name": "geo-erovnuli"
     },
@@ -249,28 +249,28 @@
       "name": "arg-primera"
     },
     {
-      "league": "lva-virsliga",
-      "n_recent": 60,
-      "recent_avg": 3.45,
-      "baseline_avg": 2.488095238095238,
-      "delta": 0.961904761904762,
-      "z_plain": 4.428165210419644,
-      "z_ewma": 1.6786645586167757,
-      "z": 1.6786645586167757,
-      "status": "watch",
-      "name": "lva-virsliga"
-    },
-    {
       "league": "swe-superettan",
       "n_recent": 60,
       "recent_avg": 2.6,
-      "baseline_avg": 3.036231884057971,
-      "delta": -0.4362318840579711,
-      "z_plain": -2.010941812104777,
-      "z_ewma": -1.6582658561091008,
-      "z": -1.6582658561091008,
+      "baseline_avg": 3.0285714285714285,
+      "delta": -0.4285714285714284,
+      "z_plain": -1.957213917419347,
+      "z_ewma": -1.6249410988087167,
+      "z": -1.6249410988087167,
       "status": "watch",
       "name": "swe-superettan"
+    },
+    {
+      "league": "lva-virsliga",
+      "n_recent": 60,
+      "recent_avg": 3.3833333333333333,
+      "baseline_avg": 2.511627906976744,
+      "delta": 0.8717054263565891,
+      "z_plain": 4.005961080020571,
+      "z_ewma": 1.6193363219823953,
+      "z": 1.6193363219823953,
+      "status": "watch",
+      "name": "lva-virsliga"
     },
     {
       "league": "ger-bundesliga",
@@ -343,6 +343,18 @@
       "z": -1.1919770056561703,
       "status": "stable",
       "name": "swe-allsvenskan"
+    },
+    {
+      "league": "blr-premier-league",
+      "n_recent": 60,
+      "recent_avg": 2.1333333333333333,
+      "baseline_avg": 2.689075630252101,
+      "delta": -0.5557422969187678,
+      "z_plain": -2.632651002444816,
+      "z_ewma": -1.1129906837881511,
+      "z": -1.1129906837881511,
+      "status": "stable",
+      "name": "blr-premier-league"
     },
     {
       "league": "nzl-national-league",
@@ -467,12 +479,12 @@
     {
       "league": "isl-besta-deild",
       "n_recent": 60,
-      "recent_avg": 4.0,
-      "baseline_avg": 3.5681818181818183,
-      "delta": 0.43181818181818166,
-      "z_plain": 1.4437671357826551,
-      "z_ewma": -0.18121389705878926,
-      "z": -0.18121389705878926,
+      "recent_avg": 3.966666666666667,
+      "baseline_avg": 3.6666666666666665,
+      "delta": 0.30000000000000027,
+      "z_plain": 0.9982969791794151,
+      "z_ewma": -0.13736227141766244,
+      "z": -0.13736227141766244,
       "status": "stable",
       "name": "isl-besta-deild"
     },
