@@ -291,6 +291,8 @@ table.mt.deep tr:first-child td{border-top:0}
 .fw{color:#4ade80}
 .fd{color:#94a3b8}
 .fl{color:var(--red)}
+.hp-hid{display:none}
+body.md-all .hp-hid{display:block}
 
 </style>
 </head>
@@ -300,11 +302,12 @@ table.mt.deep tr:first-child td{border-top:0}
   <div class="hero-info">
     <h1>⚽ Matchday — 2026-09-23 → 2026-09-29</h1>
     <p class="hero-sub">
-      Every fixture across the span, each run through the same Dixon-Coles market
-      chain as the Markets board, with <b>full market grid</b>, <b>bookmaker
-      odds + EV</b> and team context. Live / settled games show their scoreline.
-      <b>Zero picks</b> — pure analysis, never actionable. Pick counts and the
-      weekly card are untouched.
+      By default only <b>highly probable</b> fixtures are shown — a strong side at model win
+      probability ≥ 70% — everything run through the same
+      Dixon-Coles market chain as the Markets board. Weekly picks and settled/live games
+      always stay visible. Toggle <b>🎯 High-prob only</b> to see every kickoff.
+      <b>Zero picks</b> — pure analysis, never actionable. Pick counts and the weekly card
+      are untouched.
     </p>
   </div>
 </section>
@@ -315,6 +318,7 @@ table.mt.deep tr:first-child td{border-top:0}
   <button class="chip" data-days="2026-09-24" onclick="mdset(this,'2026-09-24')">Next day</button>
   <button class="chip" data-days="2026-09-26,2026-09-27" onclick="mdset(this,'2026-09-26,2026-09-27')">This weekend</button>
   <button class="chip on" data-days="2026-09-23,2026-09-24,2026-09-25,2026-09-26,2026-09-27,2026-09-28,2026-09-29" onclick="mdset(this,'2026-09-23,2026-09-24,2026-09-25,2026-09-26,2026-09-27,2026-09-28,2026-09-29')">All 7 days</button>
+  <button class="chip on" id="mdhp" onclick="mdhp(this)" title="Hide any scheduled fixture whose strong side is under 70% model win probability (weekly picks and settled/live games always stay)">🎯 High-prob only (≥70%)</button>
   <span style="display:flex;gap:.4rem;align-items:center;margin-left:auto">
     <input type="date" id="mdfrom" value="2026-09-23" class="pk">
     <span class="dim">→</span>
@@ -325,16 +329,16 @@ table.mt.deep tr:first-child td{border-top:0}
 <section class="sec">
   <div class="sec-hd sec-o">
     <span class="sec-t">📅 Kickoffs in span</span>
-    <span class="sec-s">201 fixtures · 194 scheduled · 0 live · 0 settled · 7 off</span>
+    <span class="sec-s">14 of 201 fixtures · 7 scheduled · 0 live · 0 settled · 7 off · 187 under 70% hidden</span>
   </div>
   
 <div class="mdg" data-date="2026-09-23">
   <div class="sec-hd md-hd">
     <span class="sec-t">📅 Wednesday 23 September 2026</span>
-    <span class="sec-s"><b>7</b> kickoffs</span>
+    <span class="sec-s"><b>1</b> kickoffs · <b>6</b> under 70% hidden</span>
   </div>
   <div class="sec-b oc-b">
-<div class="cd" data-spot="sp1">
+<div class="cd hp-hid" data-spot="sp1">
   <div class="fx-hd">
     <span class="flg">USL Championship</span>
     <span class="fdt">Wed 23 Sep 16:00 UTC</span>
@@ -377,7 +381,7 @@ table.mt.deep tr:first-child td{border-top:0}
     <tr><td class="mname">Dynamics</td><td>fatigue <span class='mm'>0</span>/14d (🏠) · <span class='mm'>0</span>/14d (✈️)</td></tr>
     </table>
 </div>
-<div class="cd" data-spot="sp4">
+<div class="cd hp-hid" data-spot="sp4">
   <div class="fx-hd">
     <span class="flg">Liga 1</span>
     <span class="fdt">Wed 23 Sep 20:00 UTC</span>
@@ -463,7 +467,7 @@ table.mt.deep tr:first-child td{border-top:0}
     <tr><td class="mname">Dynamics</td><td>fatigue <span class='mm'>1</span>/14d (🏠) · <span class='mm'>1</span>/14d (✈️) · att <span class='mm'>1.24</span>/def <span class='mm'>0.78</span> (🏠, time-decayed) · att <span class='mm'>0.99</span>/def <span class='mm'>1.08</span> (✈️)</td></tr>
     <tr><td class="mname">📋 Week card</td><td>backs <b>América de Cali</b> (vet 2026-09-22) · prob 70% · EV +12.8% · @1.62 · this board joint prob 60.5% · ✓ same side</td></tr></table>
 </div>
-<div class="cd" data-spot="sp3">
+<div class="cd hp-hid" data-spot="sp3">
   <div class="fx-hd">
     <span class="flg">Salvadoran Primera División</span>
     <span class="fdt">Thu 24 Sep 01:00 UTC</span>
@@ -506,7 +510,7 @@ table.mt.deep tr:first-child td{border-top:0}
     <tr><td class="mname">Dynamics</td><td>fatigue <span class='mm'>0</span>/14d (🏠) · <span class='mm'>1</span>/14d (✈️) · att <span class='mm'>0.98</span>/def <span class='mm'>1.04</span> (🏠, time-decayed) · att <span class='mm'>0.73</span>/def <span class='mm'>1.12</span> (✈️)</td></tr>
     </table>
 </div>
-<div class="cd" data-spot="sp3">
+<div class="cd hp-hid" data-spot="sp3">
   <div class="fx-hd">
     <span class="flg">Salvadoran Primera División</span>
     <span class="fdt">Thu 24 Sep 01:00 UTC</span>
@@ -549,7 +553,7 @@ table.mt.deep tr:first-child td{border-top:0}
     <tr><td class="mname">Dynamics</td><td>fatigue <span class='mm'>1</span>/14d (🏠) · <span class='mm'>1</span>/14d (✈️) · att <span class='mm'>1.05</span>/def <span class='mm'>0.92</span> (🏠, time-decayed) · att <span class='mm'>0.80</span>/def <span class='mm'>1.11</span> (✈️)</td></tr>
     </table>
 </div>
-<div class="cd" data-spot="sp1">
+<div class="cd hp-hid" data-spot="sp1">
   <div class="fx-hd">
     <span class="flg">Major League Soccer</span>
     <span class="fdt">Thu 24 Sep 01:30 UTC</span>
@@ -592,7 +596,7 @@ table.mt.deep tr:first-child td{border-top:0}
     <tr><td class="mname">Dynamics</td><td>fatigue <span class='mm'>1</span>/14d (🏠) · <span class='mm'>1</span>/14d (✈️) · att <span class='mm'>0.78</span>/def <span class='mm'>0.89</span> (🏠, time-decayed) · att <span class='mm'>0.86</span>/def <span class='mm'>1.17</span> (✈️) · league goals Δ <span class='mm'>+0.01</span> (z 0.1) △</td></tr>
     </table>
 </div>
-<div class="cd" data-spot="sp1">
+<div class="cd hp-hid" data-spot="sp1">
   <div class="fx-hd">
     <span class="flg">Liga Nacional de Guatemala</span>
     <span class="fdt">Thu 24 Sep 02:00 UTC</span>
@@ -639,10 +643,10 @@ table.mt.deep tr:first-child td{border-top:0}
 <div class="mdg" data-date="2026-09-24">
   <div class="sec-hd md-hd">
     <span class="sec-t">📅 Thursday 24 September 2026</span>
-    <span class="sec-s"><b>4</b> kickoffs</span>
+    <span class="sec-s"><b>0</b> kickoffs · <b>4</b> under 70% hidden</span>
   </div>
   <div class="sec-b oc-b">
-<div class="cd" data-spot="sp3">
+<div class="cd hp-hid" data-spot="sp3">
   <div class="fx-hd">
     <span class="flg">Categoría Primera A</span>
     <span class="fdt">Fri 25 Sep 00:30 UTC</span>
@@ -685,7 +689,7 @@ table.mt.deep tr:first-child td{border-top:0}
     <tr><td class="mname">Dynamics</td><td>fatigue <span class='mm'>1</span>/14d (🏠) · <span class='mm'>2</span>/14d (✈️) · att <span class='mm'>1.31</span>/def <span class='mm'>0.80</span> (🏠, time-decayed) · att <span class='mm'>0.98</span>/def <span class='mm'>0.83</span> (✈️)</td></tr>
     </table>
 </div>
-<div class="cd" data-spot="sp4">
+<div class="cd hp-hid" data-spot="sp4">
   <div class="fx-hd">
     <span class="flg">Liga de Expansión MX</span>
     <span class="fdt">Fri 25 Sep 01:00 UTC</span>
@@ -728,7 +732,7 @@ table.mt.deep tr:first-child td{border-top:0}
     <tr><td class="mname">Dynamics</td><td>fatigue <span class='mm'>0</span>/14d (🏠) · <span class='mm'>0</span>/14d (✈️)</td></tr>
     </table>
 </div>
-<div class="cd" data-spot="sp1">
+<div class="cd hp-hid" data-spot="sp1">
   <div class="fx-hd">
     <span class="flg">Liga de Expansión MX</span>
     <span class="fdt">Fri 25 Sep 01:00 UTC</span>
@@ -771,7 +775,7 @@ table.mt.deep tr:first-child td{border-top:0}
     <tr><td class="mname">Dynamics</td><td>fatigue <span class='mm'>0</span>/14d (🏠) · <span class='mm'>0</span>/14d (✈️)</td></tr>
     </table>
 </div>
-<div class="cd" data-spot="sp4">
+<div class="cd hp-hid" data-spot="sp4">
   <div class="fx-hd">
     <span class="flg">Liga Nacional de Guatemala</span>
     <span class="fdt">Fri 25 Sep 02:00 UTC</span>
@@ -818,10 +822,10 @@ table.mt.deep tr:first-child td{border-top:0}
 <div class="mdg" data-date="2026-09-25">
   <div class="sec-hd md-hd">
     <span class="sec-t">📅 Friday 25 September 2026</span>
-    <span class="sec-s"><b>18</b> kickoffs</span>
+    <span class="sec-s"><b>1</b> kickoffs · <b>17</b> under 70% hidden</span>
   </div>
   <div class="sec-b oc-b">
-<div class="cd" data-spot="sp4">
+<div class="cd hp-hid" data-spot="sp4">
   <div class="fx-hd">
     <span class="flg">La Liga 2</span>
     <span class="fdt">Fri 25 Sep 18:30 UTC</span>
@@ -864,7 +868,7 @@ table.mt.deep tr:first-child td{border-top:0}
     <tr><td class="mname">Dynamics</td><td>fatigue <span class='mm'>1</span>/14d (🏠) · <span class='mm'>1</span>/14d (✈️) · att <span class='mm'>1.27</span>/def <span class='mm'>1.07</span> (🏠, time-decayed) · att <span class='mm'>0.81</span>/def <span class='mm'>1.12</span> (✈️)</td></tr>
     </table>
 </div>
-<div class="cd" data-spot="sp1">
+<div class="cd hp-hid" data-spot="sp1">
   <div class="fx-hd">
     <span class="flg">Scottish Championship</span>
     <span class="fdt">Fri 25 Sep 18:45 UTC</span>
@@ -907,7 +911,7 @@ table.mt.deep tr:first-child td{border-top:0}
     <tr><td class="mname">Dynamics</td><td>fatigue <span class='mm'>0</span>/14d (🏠) · <span class='mm'>0</span>/14d (✈️) · att <span class='mm'>0.86</span>/def <span class='mm'>1.23</span> (🏠, time-decayed) · att <span class='mm'>0.80</span>/def <span class='mm'>1.19</span> (✈️)</td></tr>
     </table>
 </div>
-<div class="cd" data-spot="sp4">
+<div class="cd hp-hid" data-spot="sp4">
   <div class="fx-hd">
     <span class="flg">Scottish Championship</span>
     <span class="fdt">Fri 25 Sep 18:45 UTC</span>
@@ -950,7 +954,7 @@ table.mt.deep tr:first-child td{border-top:0}
     <tr><td class="mname">Dynamics</td><td>fatigue <span class='mm'>0</span>/14d (🏠) · <span class='mm'>4</span>/14d (✈️) · att <span class='mm'>0.87</span>/def <span class='mm'>1.14</span> (🏠, time-decayed) · att <span class='mm'>1.32</span>/def <span class='mm'>0.68</span> (✈️)</td></tr>
     </table>
 </div>
-<div class="cd" data-spot="sp1">
+<div class="cd hp-hid" data-spot="sp1">
   <div class="fx-hd">
     <span class="flg">Scottish Championship</span>
     <span class="fdt">Fri 25 Sep 18:45 UTC</span>
@@ -993,7 +997,7 @@ table.mt.deep tr:first-child td{border-top:0}
     <tr><td class="mname">Dynamics</td><td>fatigue <span class='mm'>1</span>/14d (🏠) · <span class='mm'>1</span>/14d (✈️) · att <span class='mm'>0.92</span>/def <span class='mm'>1.15</span> (🏠, time-decayed) · att <span class='mm'>0.84</span>/def <span class='mm'>1.39</span> (✈️)</td></tr>
     </table>
 </div>
-<div class="cd" data-spot="sp3">
+<div class="cd hp-hid" data-spot="sp3">
   <div class="fx-hd">
     <span class="flg">Scottish Championship</span>
     <span class="fdt">Fri 25 Sep 18:45 UTC</span>
@@ -1079,7 +1083,7 @@ table.mt.deep tr:first-child td{border-top:0}
     <tr><td class="mname">Dynamics</td><td>fatigue <span class='mm'>1</span>/14d (🏠) · <span class='mm'>0</span>/14d (✈️) · att <span class='mm'>0.92</span>/def <span class='mm'>1.28</span> (🏠, time-decayed) · att <span class='mm'>1.16</span>/def <span class='mm'>0.75</span> (✈️)</td></tr>
     <tr><td class="mname">📋 Week card</td><td>backs <b>Almere City</b> (vet 2026-09-20) · prob 66% · EV +39.2% · @2.10 · this board joint prob 64.8% · ✓ same side</td></tr></table>
 </div>
-<div class="cd" data-spot="sp1">
+<div class="cd hp-hid" data-spot="sp1">
   <div class="fx-hd">
     <span class="flg">Primera División</span>
     <span class="fdt">Fri 25 Sep 19:30 UTC</span>
@@ -1122,7 +1126,7 @@ table.mt.deep tr:first-child td{border-top:0}
     <tr><td class="mname">Dynamics</td><td>fatigue <span class='mm'>0</span>/14d (🏠) · <span class='mm'>0</span>/14d (✈️)</td></tr>
     </table>
 </div>
-<div class="cd" data-spot="sp4">
+<div class="cd hp-hid" data-spot="sp4">
   <div class="fx-hd">
     <span class="flg">Primera División</span>
     <span class="fdt">Fri 25 Sep 22:00 UTC</span>
@@ -1165,7 +1169,7 @@ table.mt.deep tr:first-child td{border-top:0}
     <tr><td class="mname">Dynamics</td><td>fatigue <span class='mm'>0</span>/14d (🏠) · <span class='mm'>0</span>/14d (✈️)</td></tr>
     </table>
 </div>
-<div class="cd" data-spot="sp1">
+<div class="cd hp-hid" data-spot="sp1">
   <div class="fx-hd">
     <span class="flg">Campeonato Brasileiro Série B</span>
     <span class="fdt">Fri 25 Sep 22:30 UTC</span>
@@ -1208,7 +1212,7 @@ table.mt.deep tr:first-child td{border-top:0}
     <tr><td class="mname">Dynamics</td><td>fatigue <span class='mm'>0</span>/14d (🏠) · <span class='mm'>1</span>/14d (✈️) · att <span class='mm'>1.14</span>/def <span class='mm'>0.84</span> (🏠, time-decayed) · att <span class='mm'>1.11</span>/def <span class='mm'>0.79</span> (✈️) · league goals Δ <span class='mm'>+0.18</span> (z 0.9) △</td></tr>
     </table>
 </div>
-<div class="cd" data-spot="sp1">
+<div class="cd hp-hid" data-spot="sp1">
   <div class="fx-hd">
     <span class="flg">USL Championship</span>
     <span class="fdt">Fri 25 Sep 23:00 UTC</span>
@@ -1251,7 +1255,7 @@ table.mt.deep tr:first-child td{border-top:0}
     <tr><td class="mname">Dynamics</td><td>fatigue <span class='mm'>0</span>/14d (🏠) · <span class='mm'>0</span>/14d (✈️)</td></tr>
     </table>
 </div>
-<div class="cd" data-spot="sp1">
+<div class="cd hp-hid" data-spot="sp1">
   <div class="fx-hd">
     <span class="flg">Categoría Primera A</span>
     <span class="fdt">Fri 25 Sep 23:10 UTC</span>
@@ -1294,7 +1298,7 @@ table.mt.deep tr:first-child td{border-top:0}
     <tr><td class="mname">Dynamics</td><td>fatigue <span class='mm'>1</span>/14d (🏠) · <span class='mm'>1</span>/14d (✈️) · att <span class='mm'>0.92</span>/def <span class='mm'>1.04</span> (🏠, time-decayed) · att <span class='mm'>0.86</span>/def <span class='mm'>1.04</span> (✈️)</td></tr>
     </table>
 </div>
-<div class="cd" data-spot="sp1">
+<div class="cd hp-hid" data-spot="sp1">
   <div class="fx-hd">
     <span class="flg">USL Championship</span>
     <span class="fdt">Fri 25 Sep 23:30 UTC</span>
@@ -1337,7 +1341,7 @@ table.mt.deep tr:first-child td{border-top:0}
     <tr><td class="mname">Dynamics</td><td>fatigue <span class='mm'>0</span>/14d (🏠) · <span class='mm'>0</span>/14d (✈️)</td></tr>
     </table>
 </div>
-<div class="cd" data-spot="sp4">
+<div class="cd hp-hid" data-spot="sp4">
   <div class="fx-hd">
     <span class="flg">Campeonato Brasileiro Série B</span>
     <span class="fdt">Fri 25 Sep 23:30 UTC</span>
@@ -1380,7 +1384,7 @@ table.mt.deep tr:first-child td{border-top:0}
     <tr><td class="mname">Dynamics</td><td>fatigue <span class='mm'>5</span>/14d (🏠) · <span class='mm'>0</span>/14d (✈️) · att <span class='mm'>1.18</span>/def <span class='mm'>0.84</span> (🏠, time-decayed) · att <span class='mm'>1.16</span>/def <span class='mm'>1.10</span> (✈️) · league goals Δ <span class='mm'>+0.18</span> (z 0.9) △</td></tr>
     </table>
 </div>
-<div class="cd" data-spot="sp4">
+<div class="cd hp-hid" data-spot="sp4">
   <div class="fx-hd">
     <span class="flg">USL Championship</span>
     <span class="fdt">Sat 26 Sep 01:00 UTC</span>
@@ -1423,7 +1427,7 @@ table.mt.deep tr:first-child td{border-top:0}
     <tr><td class="mname">Dynamics</td><td>fatigue <span class='mm'>0</span>/14d (🏠) · <span class='mm'>0</span>/14d (✈️)</td></tr>
     </table>
 </div>
-<div class="cd" data-spot="sp1">
+<div class="cd hp-hid" data-spot="sp1">
   <div class="fx-hd">
     <span class="flg">Liga MX</span>
     <span class="fdt">Sat 26 Sep 01:00 UTC</span>
@@ -1466,7 +1470,7 @@ table.mt.deep tr:first-child td{border-top:0}
     <tr><td class="mname">Dynamics</td><td>fatigue <span class='mm'>1</span>/14d (🏠) · <span class='mm'>1</span>/14d (✈️) · att <span class='mm'>0.79</span>/def <span class='mm'>1.05</span> (🏠, time-decayed) · att <span class='mm'>1.03</span>/def <span class='mm'>0.98</span> (✈️)</td></tr>
     </table>
 </div>
-<div class="cd" data-spot="sp1">
+<div class="cd hp-hid" data-spot="sp1">
   <div class="fx-hd">
     <span class="flg">Liga de Expansión MX</span>
     <span class="fdt">Sat 26 Sep 01:00 UTC</span>
@@ -1509,7 +1513,7 @@ table.mt.deep tr:first-child td{border-top:0}
     <tr><td class="mname">Dynamics</td><td>fatigue <span class='mm'>0</span>/14d (🏠) · <span class='mm'>0</span>/14d (✈️)</td></tr>
     </table>
 </div>
-<div class="cd" data-spot="sp1">
+<div class="cd hp-hid" data-spot="sp1">
   <div class="fx-hd">
     <span class="flg">Categoría Primera A</span>
     <span class="fdt">Sat 26 Sep 01:15 UTC</span>
@@ -1552,7 +1556,7 @@ table.mt.deep tr:first-child td{border-top:0}
     <tr><td class="mname">Dynamics</td><td>fatigue <span class='mm'>1</span>/14d (🏠) · <span class='mm'>1</span>/14d (✈️) · att <span class='mm'>0.98</span>/def <span class='mm'>1.05</span> (🏠, time-decayed) · att <span class='mm'>1.08</span>/def <span class='mm'>0.87</span> (✈️)</td></tr>
     </table>
 </div>
-<div class="cd" data-spot="sp4">
+<div class="cd hp-hid" data-spot="sp4">
   <div class="fx-hd">
     <span class="flg">Liga MX</span>
     <span class="fdt">Sat 26 Sep 03:00 UTC</span>
@@ -1599,7 +1603,7 @@ table.mt.deep tr:first-child td{border-top:0}
 <div class="mdg" data-date="2026-09-26">
   <div class="sec-hd md-hd">
     <span class="sec-t">📅 Saturday 26 September 2026</span>
-    <span class="sec-s"><b>115</b> kickoffs · <b>7</b> off</span>
+    <span class="sec-s"><b>11</b> kickoffs · <b>104</b> under 70% hidden · <b>7</b> off</span>
   </div>
   <div class="sec-b oc-b">
 <div class="cd">
@@ -1618,7 +1622,7 @@ table.mt.deep tr:first-child td{border-top:0}
     <div class="rec-w">Match is not on — no model preview while postponed.</div>
   </div>
 </div>
-<div class="cd" data-spot="sp4">
+<div class="cd hp-hid" data-spot="sp4">
   <div class="fx-hd">
     <span class="flg">La Liga 2</span>
     <span class="fdt">Sat 26 Sep 12:00 UTC</span>
@@ -1677,7 +1681,7 @@ table.mt.deep tr:first-child td{border-top:0}
     <div class="rec-w">Match is not on — no model preview while postponed.</div>
   </div>
 </div>
-<div class="cd" data-spot="sp3">
+<div class="cd hp-hid" data-spot="sp3">
   <div class="fx-hd">
     <span class="flg">English League One</span>
     <span class="fdt">Sat 26 Sep 14:00 UTC</span>
@@ -1768,7 +1772,7 @@ table.mt.deep tr:first-child td{border-top:0}
     <div class="rec-w">Match is not on — no model preview while postponed.</div>
   </div>
 </div>
-<div class="cd" data-spot="sp4">
+<div class="cd hp-hid" data-spot="sp4">
   <div class="fx-hd">
     <span class="flg">English League One</span>
     <span class="fdt">Sat 26 Sep 14:00 UTC</span>
@@ -1827,7 +1831,7 @@ table.mt.deep tr:first-child td{border-top:0}
     <div class="rec-w">Match is not on — no model preview while postponed.</div>
   </div>
 </div>
-<div class="cd" data-spot="sp4">
+<div class="cd hp-hid" data-spot="sp4">
   <div class="fx-hd">
     <span class="flg">English League One</span>
     <span class="fdt">Sat 26 Sep 14:00 UTC</span>
@@ -1870,7 +1874,7 @@ table.mt.deep tr:first-child td{border-top:0}
     <tr><td class="mname">Dynamics</td><td>fatigue <span class='mm'>3</span>/14d (🏠) · <span class='mm'>0</span>/14d (✈️) · att <span class='mm'>1.37</span>/def <span class='mm'>1.01</span> (🏠, time-decayed) · att <span class='mm'>0.80</span>/def <span class='mm'>0.96</span> (✈️)</td></tr>
     </table>
 </div>
-<div class="cd" data-spot="sp5">
+<div class="cd hp-hid" data-spot="sp5">
   <div class="fx-hd">
     <span class="flg">English League One</span>
     <span class="fdt">Sat 26 Sep 14:00 UTC</span>
@@ -1913,7 +1917,7 @@ table.mt.deep tr:first-child td{border-top:0}
     <tr><td class="mname">Dynamics</td><td>fatigue <span class='mm'>4</span>/14d (🏠) · <span class='mm'>0</span>/14d (✈️) · att <span class='mm'>1.01</span>/def <span class='mm'>1.26</span> (🏠, time-decayed) · att <span class='mm'>1.29</span>/def <span class='mm'>0.98</span> (✈️)</td></tr>
     </table>
 </div>
-<div class="cd" data-spot="sp4">
+<div class="cd hp-hid" data-spot="sp4">
   <div class="fx-hd">
     <span class="flg">English League Two</span>
     <span class="fdt">Sat 26 Sep 14:00 UTC</span>
@@ -1956,7 +1960,7 @@ table.mt.deep tr:first-child td{border-top:0}
     <tr><td class="mname">Dynamics</td><td>fatigue <span class='mm'>0</span>/14d (🏠) · <span class='mm'>0</span>/14d (✈️)</td></tr>
     </table>
 </div>
-<div class="cd" data-spot="sp1">
+<div class="cd hp-hid" data-spot="sp1">
   <div class="fx-hd">
     <span class="flg">English League Two</span>
     <span class="fdt">Sat 26 Sep 14:00 UTC</span>
@@ -1999,7 +2003,7 @@ table.mt.deep tr:first-child td{border-top:0}
     <tr><td class="mname">Dynamics</td><td>fatigue <span class='mm'>0</span>/14d (🏠) · <span class='mm'>0</span>/14d (✈️)</td></tr>
     </table>
 </div>
-<div class="cd" data-spot="sp3">
+<div class="cd hp-hid" data-spot="sp3">
   <div class="fx-hd">
     <span class="flg">English League Two</span>
     <span class="fdt">Sat 26 Sep 14:00 UTC</span>
@@ -2042,7 +2046,7 @@ table.mt.deep tr:first-child td{border-top:0}
     <tr><td class="mname">Dynamics</td><td>fatigue <span class='mm'>0</span>/14d (🏠) · <span class='mm'>0</span>/14d (✈️)</td></tr>
     </table>
 </div>
-<div class="cd" data-spot="sp4">
+<div class="cd hp-hid" data-spot="sp4">
   <div class="fx-hd">
     <span class="flg">English League Two</span>
     <span class="fdt">Sat 26 Sep 14:00 UTC</span>
@@ -2101,7 +2105,7 @@ table.mt.deep tr:first-child td{border-top:0}
     <div class="rec-w">Match is not on — no model preview while postponed.</div>
   </div>
 </div>
-<div class="cd" data-spot="sp1">
+<div class="cd hp-hid" data-spot="sp1">
   <div class="fx-hd">
     <span class="flg">English League Two</span>
     <span class="fdt">Sat 26 Sep 14:00 UTC</span>
@@ -2144,7 +2148,7 @@ table.mt.deep tr:first-child td{border-top:0}
     <tr><td class="mname">Dynamics</td><td>fatigue <span class='mm'>0</span>/14d (🏠) · <span class='mm'>0</span>/14d (✈️)</td></tr>
     </table>
 </div>
-<div class="cd" data-spot="sp1">
+<div class="cd hp-hid" data-spot="sp1">
   <div class="fx-hd">
     <span class="flg">English League Two</span>
     <span class="fdt">Sat 26 Sep 14:00 UTC</span>
@@ -2187,7 +2191,7 @@ table.mt.deep tr:first-child td{border-top:0}
     <tr><td class="mname">Dynamics</td><td>fatigue <span class='mm'>0</span>/14d (🏠) · <span class='mm'>0</span>/14d (✈️)</td></tr>
     </table>
 </div>
-<div class="cd" data-spot="sp3">
+<div class="cd hp-hid" data-spot="sp3">
   <div class="fx-hd">
     <span class="flg">English League Two</span>
     <span class="fdt">Sat 26 Sep 14:00 UTC</span>
@@ -2230,7 +2234,7 @@ table.mt.deep tr:first-child td{border-top:0}
     <tr><td class="mname">Dynamics</td><td>fatigue <span class='mm'>0</span>/14d (🏠) · <span class='mm'>0</span>/14d (✈️)</td></tr>
     </table>
 </div>
-<div class="cd" data-spot="sp1">
+<div class="cd hp-hid" data-spot="sp1">
   <div class="fx-hd">
     <span class="flg">English League Two</span>
     <span class="fdt">Sat 26 Sep 14:00 UTC</span>
@@ -2273,7 +2277,7 @@ table.mt.deep tr:first-child td{border-top:0}
     <tr><td class="mname">Dynamics</td><td>fatigue <span class='mm'>0</span>/14d (🏠) · <span class='mm'>0</span>/14d (✈️)</td></tr>
     </table>
 </div>
-<div class="cd" data-spot="sp1">
+<div class="cd hp-hid" data-spot="sp1">
   <div class="fx-hd">
     <span class="flg">English League Two</span>
     <span class="fdt">Sat 26 Sep 14:00 UTC</span>
@@ -2316,7 +2320,7 @@ table.mt.deep tr:first-child td{border-top:0}
     <tr><td class="mname">Dynamics</td><td>fatigue <span class='mm'>0</span>/14d (🏠) · <span class='mm'>0</span>/14d (✈️)</td></tr>
     </table>
 </div>
-<div class="cd" data-spot="sp4">
+<div class="cd hp-hid" data-spot="sp4">
   <div class="fx-hd">
     <span class="flg">National League</span>
     <span class="fdt">Sat 26 Sep 14:00 UTC</span>
@@ -2359,7 +2363,7 @@ table.mt.deep tr:first-child td{border-top:0}
     <tr><td class="mname">Dynamics</td><td>fatigue <span class='mm'>0</span>/14d (🏠) · <span class='mm'>0</span>/14d (✈️)</td></tr>
     </table>
 </div>
-<div class="cd" data-spot="sp1">
+<div class="cd hp-hid" data-spot="sp1">
   <div class="fx-hd">
     <span class="flg">National League</span>
     <span class="fdt">Sat 26 Sep 14:00 UTC</span>
@@ -2402,7 +2406,7 @@ table.mt.deep tr:first-child td{border-top:0}
     <tr><td class="mname">Dynamics</td><td>fatigue <span class='mm'>0</span>/14d (🏠) · <span class='mm'>0</span>/14d (✈️)</td></tr>
     </table>
 </div>
-<div class="cd" data-spot="sp3">
+<div class="cd hp-hid" data-spot="sp3">
   <div class="fx-hd">
     <span class="flg">National League</span>
     <span class="fdt">Sat 26 Sep 14:00 UTC</span>
@@ -2445,7 +2449,7 @@ table.mt.deep tr:first-child td{border-top:0}
     <tr><td class="mname">Dynamics</td><td>fatigue <span class='mm'>0</span>/14d (🏠) · <span class='mm'>0</span>/14d (✈️)</td></tr>
     </table>
 </div>
-<div class="cd" data-spot="sp1">
+<div class="cd hp-hid" data-spot="sp1">
   <div class="fx-hd">
     <span class="flg">National League</span>
     <span class="fdt">Sat 26 Sep 14:00 UTC</span>
@@ -2488,7 +2492,7 @@ table.mt.deep tr:first-child td{border-top:0}
     <tr><td class="mname">Dynamics</td><td>fatigue <span class='mm'>0</span>/14d (🏠) · <span class='mm'>0</span>/14d (✈️)</td></tr>
     </table>
 </div>
-<div class="cd" data-spot="sp3">
+<div class="cd hp-hid" data-spot="sp3">
   <div class="fx-hd">
     <span class="flg">National League</span>
     <span class="fdt">Sat 26 Sep 14:00 UTC</span>
@@ -2531,7 +2535,7 @@ table.mt.deep tr:first-child td{border-top:0}
     <tr><td class="mname">Dynamics</td><td>fatigue <span class='mm'>0</span>/14d (🏠) · <span class='mm'>0</span>/14d (✈️)</td></tr>
     </table>
 </div>
-<div class="cd" data-spot="sp3">
+<div class="cd hp-hid" data-spot="sp3">
   <div class="fx-hd">
     <span class="flg">National League</span>
     <span class="fdt">Sat 26 Sep 14:00 UTC</span>
@@ -2574,7 +2578,7 @@ table.mt.deep tr:first-child td{border-top:0}
     <tr><td class="mname">Dynamics</td><td>fatigue <span class='mm'>0</span>/14d (🏠) · <span class='mm'>0</span>/14d (✈️)</td></tr>
     </table>
 </div>
-<div class="cd" data-spot="sp1">
+<div class="cd hp-hid" data-spot="sp1">
   <div class="fx-hd">
     <span class="flg">National League</span>
     <span class="fdt">Sat 26 Sep 14:00 UTC</span>
@@ -2703,7 +2707,7 @@ table.mt.deep tr:first-child td{border-top:0}
     <tr><td class="mname">Dynamics</td><td>fatigue <span class='mm'>0</span>/14d (🏠) · <span class='mm'>0</span>/14d (✈️)</td></tr>
     <tr><td class="mname">📋 Week card</td><td>backs <b>Southend United</b> (vet 2026-09-20) · prob 77% · EV +24.4% · @1.62 · this board joint prob 76.7% · ✓ same side</td></tr></table>
 </div>
-<div class="cd" data-spot="sp3">
+<div class="cd hp-hid" data-spot="sp3">
   <div class="fx-hd">
     <span class="flg">National League</span>
     <span class="fdt">Sat 26 Sep 14:00 UTC</span>
@@ -2746,7 +2750,7 @@ table.mt.deep tr:first-child td{border-top:0}
     <tr><td class="mname">Dynamics</td><td>fatigue <span class='mm'>0</span>/14d (🏠) · <span class='mm'>0</span>/14d (✈️)</td></tr>
     </table>
 </div>
-<div class="cd" data-spot="sp3">
+<div class="cd hp-hid" data-spot="sp3">
   <div class="fx-hd">
     <span class="flg">National League</span>
     <span class="fdt">Sat 26 Sep 14:00 UTC</span>
@@ -2789,7 +2793,7 @@ table.mt.deep tr:first-child td{border-top:0}
     <tr><td class="mname">Dynamics</td><td>fatigue <span class='mm'>0</span>/14d (🏠) · <span class='mm'>0</span>/14d (✈️)</td></tr>
     </table>
 </div>
-<div class="cd" data-spot="sp1">
+<div class="cd hp-hid" data-spot="sp1">
   <div class="fx-hd">
     <span class="flg">National League</span>
     <span class="fdt">Sat 26 Sep 14:00 UTC</span>
@@ -2832,7 +2836,7 @@ table.mt.deep tr:first-child td{border-top:0}
     <tr><td class="mname">Dynamics</td><td>fatigue <span class='mm'>0</span>/14d (🏠) · <span class='mm'>0</span>/14d (✈️)</td></tr>
     </table>
 </div>
-<div class="cd" data-spot="sp3">
+<div class="cd hp-hid" data-spot="sp3">
   <div class="fx-hd">
     <span class="flg">Primera División</span>
     <span class="fdt">Sat 26 Sep 14:00 UTC</span>
@@ -2875,7 +2879,7 @@ table.mt.deep tr:first-child td{border-top:0}
     <tr><td class="mname">Dynamics</td><td>fatigue <span class='mm'>0</span>/14d (🏠) · <span class='mm'>0</span>/14d (✈️)</td></tr>
     </table>
 </div>
-<div class="cd" data-spot="sp3">
+<div class="cd hp-hid" data-spot="sp3">
   <div class="fx-hd">
     <span class="flg">La Liga 2</span>
     <span class="fdt">Sat 26 Sep 14:15 UTC</span>
@@ -2918,7 +2922,7 @@ table.mt.deep tr:first-child td{border-top:0}
     <tr><td class="mname">Dynamics</td><td>fatigue <span class='mm'>1</span>/14d (🏠) · <span class='mm'>0</span>/14d (✈️) · att <span class='mm'>1.01</span>/def <span class='mm'>0.99</span> (🏠, time-decayed) · att <span class='mm'>1.05</span>/def <span class='mm'>1.28</span> (✈️)</td></tr>
     </table>
 </div>
-<div class="cd" data-spot="sp5">
+<div class="cd hp-hid" data-spot="sp5">
   <div class="fx-hd">
     <span class="flg">Eerste Divisie</span>
     <span class="fdt">Sat 26 Sep 14:30 UTC</span>
@@ -2961,7 +2965,7 @@ table.mt.deep tr:first-child td{border-top:0}
     <tr><td class="mname">Dynamics</td><td>fatigue <span class='mm'>1</span>/14d (🏠) · <span class='mm'>0</span>/14d (✈️) · att <span class='mm'>1.43</span>/def <span class='mm'>0.97</span> (🏠, time-decayed) · att <span class='mm'>0.87</span>/def <span class='mm'>0.89</span> (✈️)</td></tr>
     </table>
 </div>
-<div class="cd" data-spot="sp1">
+<div class="cd hp-hid" data-spot="sp1">
   <div class="fx-hd">
     <span class="flg">English League Two</span>
     <span class="fdt">Sat 26 Sep 16:30 UTC</span>
@@ -3004,7 +3008,7 @@ table.mt.deep tr:first-child td{border-top:0}
     <tr><td class="mname">Dynamics</td><td>fatigue <span class='mm'>0</span>/14d (🏠) · <span class='mm'>0</span>/14d (✈️)</td></tr>
     </table>
 </div>
-<div class="cd" data-spot="sp1">
+<div class="cd hp-hid" data-spot="sp1">
   <div class="fx-hd">
     <span class="flg">La Liga 2</span>
     <span class="fdt">Sat 26 Sep 16:30 UTC</span>
@@ -3047,7 +3051,7 @@ table.mt.deep tr:first-child td{border-top:0}
     <tr><td class="mname">Dynamics</td><td>fatigue <span class='mm'>1</span>/14d (🏠) · <span class='mm'>1</span>/14d (✈️) · att <span class='mm'>1.05</span>/def <span class='mm'>1.21</span> (🏠, time-decayed) · att <span class='mm'>0.91</span>/def <span class='mm'>0.94</span> (✈️)</td></tr>
     </table>
 </div>
-<div class="cd" data-spot="sp3">
+<div class="cd hp-hid" data-spot="sp3">
   <div class="fx-hd">
     <span class="flg">La Liga 2</span>
     <span class="fdt">Sat 26 Sep 16:30 UTC</span>
@@ -3090,7 +3094,7 @@ table.mt.deep tr:first-child td{border-top:0}
     <tr><td class="mname">Dynamics</td><td>fatigue <span class='mm'>1</span>/14d (🏠) · <span class='mm'>0</span>/14d (✈️) · att <span class='mm'>1.06</span>/def <span class='mm'>0.80</span> (🏠, time-decayed) · att <span class='mm'>0.94</span>/def <span class='mm'>1.10</span> (✈️)</td></tr>
     </table>
 </div>
-<div class="cd" data-spot="sp4">
+<div class="cd hp-hid" data-spot="sp4">
   <div class="fx-hd">
     <span class="flg">Eerste Divisie</span>
     <span class="fdt">Sat 26 Sep 18:00 UTC</span>
@@ -3133,7 +3137,7 @@ table.mt.deep tr:first-child td{border-top:0}
     <tr><td class="mname">Dynamics</td><td>fatigue <span class='mm'>1</span>/14d (🏠) · <span class='mm'>2</span>/14d (✈️) · att <span class='mm'>1.07</span>/def <span class='mm'>1.15</span> (🏠, time-decayed) · att <span class='mm'>0.75</span>/def <span class='mm'>1.06</span> (✈️)</td></tr>
     </table>
 </div>
-<div class="cd" data-spot="sp4">
+<div class="cd hp-hid" data-spot="sp4">
   <div class="fx-hd">
     <span class="flg">Eerste Divisie</span>
     <span class="fdt">Sat 26 Sep 18:00 UTC</span>
@@ -3176,7 +3180,7 @@ table.mt.deep tr:first-child td{border-top:0}
     <tr><td class="mname">Dynamics</td><td>fatigue <span class='mm'>1</span>/14d (🏠) · <span class='mm'>4</span>/14d (✈️) · att <span class='mm'>1.22</span>/def <span class='mm'>0.84</span> (🏠, time-decayed) · att <span class='mm'>1.22</span>/def <span class='mm'>0.91</span> (✈️)</td></tr>
     </table>
 </div>
-<div class="cd" data-spot="sp4">
+<div class="cd hp-hid" data-spot="sp4">
   <div class="fx-hd">
     <span class="flg">Eerste Divisie</span>
     <span class="fdt">Sat 26 Sep 18:00 UTC</span>
@@ -3219,7 +3223,7 @@ table.mt.deep tr:first-child td{border-top:0}
     <tr><td class="mname">Dynamics</td><td>fatigue <span class='mm'>0</span>/14d (🏠) · <span class='mm'>0</span>/14d (✈️) · att <span class='mm'>0.89</span>/def <span class='mm'>0.91</span> (🏠, time-decayed) · att <span class='mm'>1.00</span>/def <span class='mm'>0.97</span> (✈️)</td></tr>
     </table>
 </div>
-<div class="cd" data-spot="sp4">
+<div class="cd hp-hid" data-spot="sp4">
   <div class="fx-hd">
     <span class="flg">Eerste Divisie</span>
     <span class="fdt">Sat 26 Sep 18:00 UTC</span>
@@ -3237,7 +3241,7 @@ table.mt.deep tr:first-child td{border-top:0}
     <div class="rec-w">Open fixture (BTTS 75%) — GG sits within a whisker of the safest market (85%) and pays distinctly more, so treatment is 'Away wins OR both teams score'.</div>
     <div class="rec-ou">Supporting: <b>Over 3.5</b> (57%)
       · ≈4.0 expected goals</div>
-    <div class="rec-ev"><span class="confidence-hi">EV +128.0%</span> · <b>@6.50</b> <span class="dim">(DraftKings 1X2 · strong side)</span></div>
+    <div class="rec-ev"><span class="confidence-hi">EV +163.0%</span> · <b>@7.50</b> <span class="dim">(DraftKings 1X2 · strong side)</span></div>
     
   </div>
   <table class="mt"><tr><td class="mname">1X2 · Full Time</td><td><b><span class="pb">43.5%</span></b> <span class="dim">X</span> <span class="pb">21.4%</span> <b><span class="pb">35.1%</span></b> <span class="dim">(H · X · A)</span></td></tr><tr><td class="mname">1X2 · 1UP</td><td>57.9% <span class="fair">fair 1.73</span> <span class="dim">— pays the moment Away take a 1-goal lead</span></td></tr><tr><td class="mname">1X2 · 2UP</td><td>28.5% <span class="fair">fair 3.51</span> <span class="dim">— pays the moment Away lead by 2</span></td></tr><tr><td class="mname">Double Chance</td><td>56.5% <span class="fair">fair 1.77</span> <span class="dim">(X2 · Away win or draw)</span></td></tr><tr><td class="mname">Double Chance · 1UP</td><td>67.4% <span class="fair">fair 1.48</span> <span class="dim">— draws covered, any 1-goal lead pays early</span></td></tr><tr class="hl-row"><td class="mname">Away or GG</td><td>85.0% <span class="fair">fair 1.18</span> <span class="dim">— away win or both teams score (BTTS 75.3%)</span></td></tr>
@@ -3258,11 +3262,11 @@ table.mt.deep tr:first-child td{border-top:0}
     <tr><td class="mname">Margin / result</td><td>strong +1 <span class='mm'>16%</span> · +2+ <span class='mm'>19%</span> · draw <span class='mm'>21%</span> · away 35% (strong-lose)</td></tr>
     <tr><td class="mname">Clean sheets</td><td>home CS <span class='mm'>12%</span> · away CS <span class='mm'>15%</span> · BTTS <span class='mm'>75%</span></td></tr>
     <tr><td class="mname">Totals distribution</td><td>mean 4.02 · median 4 <span class="ou-i">O1.5 91%</span> <span class="ou-i">O2.5 76%</span> <span class="ou-i">O3.5 57%</span> <span class="ou-i">O4.5 38%</span></td></tr>
-    <tr><td class="mname">Trust (Bayesian)</td><td>model <span class='mm'>35%</span> vs season 90% CI 19–71% → consistent · <span class="confidence-hi">Bayesian EV +25.6%</span> (σ 15.7%) · stake <span class='mm'>1.2%</span> (¼-Kelly, prob uncertainty shrunk)</td></tr>
+    <tr><td class="mname">Trust (Bayesian)</td><td>model <span class='mm'>35%</span> vs season 90% CI 19–71% → consistent · <span class="confidence-hi">Bayesian EV +45.0%</span> (σ 15.7%) · stake <span class='mm'>1.7%</span> (¼-Kelly, prob uncertainty shrunk)</td></tr>
     <tr><td class="mname">Dynamics</td><td>fatigue <span class='mm'>0</span>/14d (🏠) · <span class='mm'>0</span>/14d (✈️) · att <span class='mm'>0.99</span>/def <span class='mm'>1.10</span> (🏠, time-decayed) · att <span class='mm'>0.89</span>/def <span class='mm'>0.96</span> (✈️)</td></tr>
     </table>
 </div>
-<div class="cd" data-spot="sp1">
+<div class="cd hp-hid" data-spot="sp1">
   <div class="fx-hd">
     <span class="flg">Eerste Divisie</span>
     <span class="fdt">Sat 26 Sep 18:00 UTC</span>
@@ -3305,7 +3309,7 @@ table.mt.deep tr:first-child td{border-top:0}
     <tr><td class="mname">Dynamics</td><td>fatigue <span class='mm'>0</span>/14d (🏠) · <span class='mm'>0</span>/14d (✈️) · att <span class='mm'>0.88</span>/def <span class='mm'>0.80</span> (🏠, time-decayed) · att <span class='mm'>1.04</span>/def <span class='mm'>0.90</span> (✈️)</td></tr>
     </table>
 </div>
-<div class="cd" data-spot="sp3">
+<div class="cd hp-hid" data-spot="sp3">
   <div class="fx-hd">
     <span class="flg">USL League One</span>
     <span class="fdt">Sat 26 Sep 18:00 UTC</span>
@@ -3348,7 +3352,7 @@ table.mt.deep tr:first-child td{border-top:0}
     <tr><td class="mname">Dynamics</td><td>fatigue <span class='mm'>0</span>/14d (🏠) · <span class='mm'>0</span>/14d (✈️) · att <span class='mm'>1.08</span>/def <span class='mm'>1.02</span> (🏠, time-decayed) · att <span class='mm'>1.04</span>/def <span class='mm'>0.95</span> (✈️) · league goals Δ <span class='mm'>+0.00</span> (z 1.9) △</td></tr>
     </table>
 </div>
-<div class="cd" data-spot="sp4">
+<div class="cd hp-hid" data-spot="sp4">
   <div class="fx-hd">
     <span class="flg">Liga de Expansión MX</span>
     <span class="fdt">Sat 26 Sep 18:00 UTC</span>
@@ -3391,7 +3395,7 @@ table.mt.deep tr:first-child td{border-top:0}
     <tr><td class="mname">Dynamics</td><td>fatigue <span class='mm'>0</span>/14d (🏠) · <span class='mm'>0</span>/14d (✈️)</td></tr>
     </table>
 </div>
-<div class="cd" data-spot="sp3">
+<div class="cd hp-hid" data-spot="sp3">
   <div class="fx-hd">
     <span class="flg">Primera División</span>
     <span class="fdt">Sat 26 Sep 18:00 UTC</span>
@@ -3434,7 +3438,7 @@ table.mt.deep tr:first-child td{border-top:0}
     <tr><td class="mname">Dynamics</td><td>fatigue <span class='mm'>0</span>/14d (🏠) · <span class='mm'>0</span>/14d (✈️)</td></tr>
     </table>
 </div>
-<div class="cd" data-spot="sp1">
+<div class="cd hp-hid" data-spot="sp1">
   <div class="fx-hd">
     <span class="flg">Primera B Metropolitana</span>
     <span class="fdt">Sat 26 Sep 18:00 UTC</span>
@@ -3477,7 +3481,7 @@ table.mt.deep tr:first-child td{border-top:0}
     <tr><td class="mname">Dynamics</td><td>fatigue <span class='mm'>0</span>/14d (🏠) · <span class='mm'>0</span>/14d (✈️)</td></tr>
     </table>
 </div>
-<div class="cd" data-spot="sp1">
+<div class="cd hp-hid" data-spot="sp1">
   <div class="fx-hd">
     <span class="flg">Primera B Metropolitana</span>
     <span class="fdt">Sat 26 Sep 18:00 UTC</span>
@@ -3563,7 +3567,7 @@ table.mt.deep tr:first-child td{border-top:0}
     <tr><td class="mname">Dynamics</td><td>fatigue <span class='mm'>0</span>/14d (🏠) · <span class='mm'>0</span>/14d (✈️)</td></tr>
     </table>
 </div>
-<div class="cd" data-spot="sp4">
+<div class="cd hp-hid" data-spot="sp4">
   <div class="fx-hd">
     <span class="flg">Primera B Metropolitana</span>
     <span class="fdt">Sat 26 Sep 18:00 UTC</span>
@@ -3606,7 +3610,7 @@ table.mt.deep tr:first-child td{border-top:0}
     <tr><td class="mname">Dynamics</td><td>fatigue <span class='mm'>0</span>/14d (🏠) · <span class='mm'>0</span>/14d (✈️)</td></tr>
     </table>
 </div>
-<div class="cd" data-spot="sp1">
+<div class="cd hp-hid" data-spot="sp1">
   <div class="fx-hd">
     <span class="flg">Primera B Metropolitana</span>
     <span class="fdt">Sat 26 Sep 18:00 UTC</span>
@@ -3649,7 +3653,7 @@ table.mt.deep tr:first-child td{border-top:0}
     <tr><td class="mname">Dynamics</td><td>fatigue <span class='mm'>0</span>/14d (🏠) · <span class='mm'>0</span>/14d (✈️)</td></tr>
     </table>
 </div>
-<div class="cd" data-spot="sp1">
+<div class="cd hp-hid" data-spot="sp1">
   <div class="fx-hd">
     <span class="flg">Primera B Metropolitana</span>
     <span class="fdt">Sat 26 Sep 18:00 UTC</span>
@@ -3692,7 +3696,7 @@ table.mt.deep tr:first-child td{border-top:0}
     <tr><td class="mname">Dynamics</td><td>fatigue <span class='mm'>0</span>/14d (🏠) · <span class='mm'>0</span>/14d (✈️)</td></tr>
     </table>
 </div>
-<div class="cd" data-spot="sp3">
+<div class="cd hp-hid" data-spot="sp3">
   <div class="fx-hd">
     <span class="flg">Primera B Metropolitana</span>
     <span class="fdt">Sat 26 Sep 18:00 UTC</span>
@@ -3735,7 +3739,7 @@ table.mt.deep tr:first-child td{border-top:0}
     <tr><td class="mname">Dynamics</td><td>fatigue <span class='mm'>0</span>/14d (🏠) · <span class='mm'>0</span>/14d (✈️)</td></tr>
     </table>
 </div>
-<div class="cd" data-spot="sp1">
+<div class="cd hp-hid" data-spot="sp1">
   <div class="fx-hd">
     <span class="flg">Primera B Metropolitana</span>
     <span class="fdt">Sat 26 Sep 18:00 UTC</span>
@@ -3778,7 +3782,7 @@ table.mt.deep tr:first-child td{border-top:0}
     <tr><td class="mname">Dynamics</td><td>fatigue <span class='mm'>0</span>/14d (🏠) · <span class='mm'>0</span>/14d (✈️)</td></tr>
     </table>
 </div>
-<div class="cd" data-spot="sp1">
+<div class="cd hp-hid" data-spot="sp1">
   <div class="fx-hd">
     <span class="flg">Primera B Metropolitana</span>
     <span class="fdt">Sat 26 Sep 18:00 UTC</span>
@@ -3821,7 +3825,7 @@ table.mt.deep tr:first-child td{border-top:0}
     <tr><td class="mname">Dynamics</td><td>fatigue <span class='mm'>0</span>/14d (🏠) · <span class='mm'>0</span>/14d (✈️)</td></tr>
     </table>
 </div>
-<div class="cd" data-spot="sp4">
+<div class="cd hp-hid" data-spot="sp4">
   <div class="fx-hd">
     <span class="flg">Primera B Metropolitana</span>
     <span class="fdt">Sat 26 Sep 18:00 UTC</span>
@@ -3864,7 +3868,7 @@ table.mt.deep tr:first-child td{border-top:0}
     <tr><td class="mname">Dynamics</td><td>fatigue <span class='mm'>0</span>/14d (🏠) · <span class='mm'>0</span>/14d (✈️)</td></tr>
     </table>
 </div>
-<div class="cd" data-spot="sp4">
+<div class="cd hp-hid" data-spot="sp4">
   <div class="fx-hd">
     <span class="flg">Primera B Metropolitana</span>
     <span class="fdt">Sat 26 Sep 18:00 UTC</span>
@@ -3907,7 +3911,7 @@ table.mt.deep tr:first-child td{border-top:0}
     <tr><td class="mname">Dynamics</td><td>fatigue <span class='mm'>0</span>/14d (🏠) · <span class='mm'>0</span>/14d (✈️)</td></tr>
     </table>
 </div>
-<div class="cd" data-spot="sp3">
+<div class="cd hp-hid" data-spot="sp3">
   <div class="fx-hd">
     <span class="flg">Primera Nacional</span>
     <span class="fdt">Sat 26 Sep 18:30 UTC</span>
@@ -3950,7 +3954,7 @@ table.mt.deep tr:first-child td{border-top:0}
     <tr><td class="mname">Dynamics</td><td>fatigue <span class='mm'>0</span>/14d (🏠) · <span class='mm'>0</span>/14d (✈️)</td></tr>
     </table>
 </div>
-<div class="cd" data-spot="sp3">
+<div class="cd hp-hid" data-spot="sp3">
   <div class="fx-hd">
     <span class="flg">Primera Nacional</span>
     <span class="fdt">Sat 26 Sep 19:00 UTC</span>
@@ -3993,7 +3997,7 @@ table.mt.deep tr:first-child td{border-top:0}
     <tr><td class="mname">Dynamics</td><td>fatigue <span class='mm'>0</span>/14d (🏠) · <span class='mm'>0</span>/14d (✈️)</td></tr>
     </table>
 </div>
-<div class="cd" data-spot="sp1">
+<div class="cd hp-hid" data-spot="sp1">
   <div class="fx-hd">
     <span class="flg">Primera Nacional</span>
     <span class="fdt">Sat 26 Sep 19:00 UTC</span>
@@ -4036,7 +4040,7 @@ table.mt.deep tr:first-child td{border-top:0}
     <tr><td class="mname">Dynamics</td><td>fatigue <span class='mm'>0</span>/14d (🏠) · <span class='mm'>0</span>/14d (✈️)</td></tr>
     </table>
 </div>
-<div class="cd" data-spot="sp3">
+<div class="cd hp-hid" data-spot="sp3">
   <div class="fx-hd">
     <span class="flg">Primera Nacional</span>
     <span class="fdt">Sat 26 Sep 19:00 UTC</span>
@@ -4079,7 +4083,7 @@ table.mt.deep tr:first-child td{border-top:0}
     <tr><td class="mname">Dynamics</td><td>fatigue <span class='mm'>0</span>/14d (🏠) · <span class='mm'>0</span>/14d (✈️)</td></tr>
     </table>
 </div>
-<div class="cd" data-spot="sp1">
+<div class="cd hp-hid" data-spot="sp1">
   <div class="fx-hd">
     <span class="flg">Campeonato Brasileiro Série B</span>
     <span class="fdt">Sat 26 Sep 19:30 UTC</span>
@@ -4122,7 +4126,7 @@ table.mt.deep tr:first-child td{border-top:0}
     <tr><td class="mname">Dynamics</td><td>fatigue <span class='mm'>1</span>/14d (🏠) · <span class='mm'>1</span>/14d (✈️) · att <span class='mm'>1.11</span>/def <span class='mm'>1.20</span> (🏠, time-decayed) · att <span class='mm'>0.99</span>/def <span class='mm'>0.71</span> (✈️) · league goals Δ <span class='mm'>+0.18</span> (z 0.9) △</td></tr>
     </table>
 </div>
-<div class="cd" data-spot="sp1">
+<div class="cd hp-hid" data-spot="sp1">
   <div class="fx-hd">
     <span class="flg">Campeonato Brasileiro Série B</span>
     <span class="fdt">Sat 26 Sep 19:30 UTC</span>
@@ -4165,7 +4169,7 @@ table.mt.deep tr:first-child td{border-top:0}
     <tr><td class="mname">Dynamics</td><td>fatigue <span class='mm'>0</span>/14d (🏠) · <span class='mm'>0</span>/14d (✈️) · att <span class='mm'>1.04</span>/def <span class='mm'>0.95</span> (✈️) · league goals Δ <span class='mm'>+0.18</span> (z 0.9) △</td></tr>
     </table>
 </div>
-<div class="cd" data-spot="sp3">
+<div class="cd hp-hid" data-spot="sp3">
   <div class="fx-hd">
     <span class="flg">Primera División</span>
     <span class="fdt">Sat 26 Sep 19:30 UTC</span>
@@ -4208,7 +4212,7 @@ table.mt.deep tr:first-child td{border-top:0}
     <tr><td class="mname">Dynamics</td><td>fatigue <span class='mm'>0</span>/14d (🏠) · <span class='mm'>0</span>/14d (✈️)</td></tr>
     </table>
 </div>
-<div class="cd" data-spot="sp1">
+<div class="cd hp-hid" data-spot="sp1">
   <div class="fx-hd">
     <span class="flg">USL League One</span>
     <span class="fdt">Sat 26 Sep 21:00 UTC</span>
@@ -4251,7 +4255,7 @@ table.mt.deep tr:first-child td{border-top:0}
     <tr><td class="mname">Dynamics</td><td>fatigue <span class='mm'>1</span>/14d (🏠) · <span class='mm'>1</span>/14d (✈️) · att <span class='mm'>0.95</span>/def <span class='mm'>1.12</span> (🏠, time-decayed) · att <span class='mm'>0.79</span>/def <span class='mm'>0.94</span> (✈️) · league goals Δ <span class='mm'>+0.00</span> (z 1.9) △</td></tr>
     </table>
 </div>
-<div class="cd" data-spot="sp1">
+<div class="cd hp-hid" data-spot="sp1">
   <div class="fx-hd">
     <span class="flg">Liga Nacional de Guatemala</span>
     <span class="fdt">Sat 26 Sep 21:00 UTC</span>
@@ -4294,7 +4298,7 @@ table.mt.deep tr:first-child td{border-top:0}
     <tr><td class="mname">Dynamics</td><td>fatigue <span class='mm'>0</span>/14d (🏠) · <span class='mm'>2</span>/14d (✈️) · att <span class='mm'>0.85</span>/def <span class='mm'>0.70</span> (✈️)</td></tr>
     </table>
 </div>
-<div class="cd" data-spot="sp1">
+<div class="cd hp-hid" data-spot="sp1">
   <div class="fx-hd">
     <span class="flg">Categoría Primera A</span>
     <span class="fdt">Sat 26 Sep 21:00 UTC</span>
@@ -4337,7 +4341,7 @@ table.mt.deep tr:first-child td{border-top:0}
     <tr><td class="mname">Dynamics</td><td>fatigue <span class='mm'>1</span>/14d (🏠) · <span class='mm'>1</span>/14d (✈️) · att <span class='mm'>0.80</span>/def <span class='mm'>1.08</span> (🏠, time-decayed) · att <span class='mm'>1.03</span>/def <span class='mm'>1.02</span> (✈️)</td></tr>
     </table>
 </div>
-<div class="cd" data-spot="sp1">
+<div class="cd hp-hid" data-spot="sp1">
   <div class="fx-hd">
     <span class="flg">Campeonato Brasileiro Série B</span>
     <span class="fdt">Sat 26 Sep 21:30 UTC</span>
@@ -4423,7 +4427,7 @@ table.mt.deep tr:first-child td{border-top:0}
     <tr><td class="mname">Dynamics</td><td>fatigue <span class='mm'>0</span>/14d (🏠) · <span class='mm'>0</span>/14d (✈️)</td></tr>
     </table>
 </div>
-<div class="cd" data-spot="sp3">
+<div class="cd hp-hid" data-spot="sp3">
   <div class="fx-hd">
     <span class="flg">USL League One</span>
     <span class="fdt">Sat 26 Sep 22:00 UTC</span>
@@ -4466,7 +4470,7 @@ table.mt.deep tr:first-child td{border-top:0}
     <tr><td class="mname">Dynamics</td><td>fatigue <span class='mm'>0</span>/14d (🏠) · <span class='mm'>1</span>/14d (✈️) · att <span class='mm'>1.16</span>/def <span class='mm'>0.73</span> (🏠, time-decayed) · att <span class='mm'>1.14</span>/def <span class='mm'>0.85</span> (✈️) · league goals Δ <span class='mm'>+0.00</span> (z 1.9) △</td></tr>
     </table>
 </div>
-<div class="cd" data-spot="sp3">
+<div class="cd hp-hid" data-spot="sp3">
   <div class="fx-hd">
     <span class="flg">Liga de Expansión MX</span>
     <span class="fdt">Sat 26 Sep 22:00 UTC</span>
@@ -4509,7 +4513,7 @@ table.mt.deep tr:first-child td{border-top:0}
     <tr><td class="mname">Dynamics</td><td>fatigue <span class='mm'>0</span>/14d (🏠) · <span class='mm'>0</span>/14d (✈️)</td></tr>
     </table>
 </div>
-<div class="cd" data-spot="sp3">
+<div class="cd hp-hid" data-spot="sp3">
   <div class="fx-hd">
     <span class="flg">Primera Nacional</span>
     <span class="fdt">Sat 26 Sep 22:00 UTC</span>
@@ -4552,7 +4556,7 @@ table.mt.deep tr:first-child td{border-top:0}
     <tr><td class="mname">Dynamics</td><td>fatigue <span class='mm'>0</span>/14d (🏠) · <span class='mm'>0</span>/14d (✈️)</td></tr>
     </table>
 </div>
-<div class="cd" data-spot="sp1">
+<div class="cd hp-hid" data-spot="sp1">
   <div class="fx-hd">
     <span class="flg">Primera División</span>
     <span class="fdt">Sat 26 Sep 22:00 UTC</span>
@@ -4595,7 +4599,7 @@ table.mt.deep tr:first-child td{border-top:0}
     <tr><td class="mname">Dynamics</td><td>fatigue <span class='mm'>0</span>/14d (🏠) · <span class='mm'>0</span>/14d (✈️)</td></tr>
     </table>
 </div>
-<div class="cd" data-spot="sp4">
+<div class="cd hp-hid" data-spot="sp4">
   <div class="fx-hd">
     <span class="flg">Liga MX</span>
     <span class="fdt">Sat 26 Sep 22:50 UTC</span>
@@ -4638,7 +4642,7 @@ table.mt.deep tr:first-child td{border-top:0}
     <tr><td class="mname">Dynamics</td><td>fatigue <span class='mm'>1</span>/14d (🏠) · <span class='mm'>1</span>/14d (✈️) · att <span class='mm'>1.20</span>/def <span class='mm'>1.09</span> (🏠, time-decayed) · att <span class='mm'>1.40</span>/def <span class='mm'>0.87</span> (✈️)</td></tr>
     </table>
 </div>
-<div class="cd" data-spot="sp3">
+<div class="cd hp-hid" data-spot="sp3">
   <div class="fx-hd">
     <span class="flg">USL Championship</span>
     <span class="fdt">Sat 26 Sep 23:00 UTC</span>
@@ -4681,7 +4685,7 @@ table.mt.deep tr:first-child td{border-top:0}
     <tr><td class="mname">Dynamics</td><td>fatigue <span class='mm'>0</span>/14d (🏠) · <span class='mm'>0</span>/14d (✈️)</td></tr>
     </table>
 </div>
-<div class="cd" data-spot="sp4">
+<div class="cd hp-hid" data-spot="sp4">
   <div class="fx-hd">
     <span class="flg">USL Championship</span>
     <span class="fdt">Sat 26 Sep 23:00 UTC</span>
@@ -4724,7 +4728,7 @@ table.mt.deep tr:first-child td{border-top:0}
     <tr><td class="mname">Dynamics</td><td>fatigue <span class='mm'>0</span>/14d (🏠) · <span class='mm'>0</span>/14d (✈️)</td></tr>
     </table>
 </div>
-<div class="cd" data-spot="sp1">
+<div class="cd hp-hid" data-spot="sp1">
   <div class="fx-hd">
     <span class="flg">USL Championship</span>
     <span class="fdt">Sat 26 Sep 23:00 UTC</span>
@@ -4767,7 +4771,7 @@ table.mt.deep tr:first-child td{border-top:0}
     <tr><td class="mname">Dynamics</td><td>fatigue <span class='mm'>0</span>/14d (🏠) · <span class='mm'>0</span>/14d (✈️)</td></tr>
     </table>
 </div>
-<div class="cd" data-spot="sp3">
+<div class="cd hp-hid" data-spot="sp3">
   <div class="fx-hd">
     <span class="flg">USL League One</span>
     <span class="fdt">Sat 26 Sep 23:00 UTC</span>
@@ -4810,7 +4814,7 @@ table.mt.deep tr:first-child td{border-top:0}
     <tr><td class="mname">Dynamics</td><td>fatigue <span class='mm'>1</span>/14d (🏠) · <span class='mm'>0</span>/14d (✈️) · att <span class='mm'>0.87</span>/def <span class='mm'>1.06</span> (🏠, time-decayed) · att <span class='mm'>1.04</span>/def <span class='mm'>0.98</span> (✈️) · league goals Δ <span class='mm'>+0.00</span> (z 1.9) △</td></tr>
     </table>
 </div>
-<div class="cd" data-spot="sp4">
+<div class="cd hp-hid" data-spot="sp4">
   <div class="fx-hd">
     <span class="flg">USL League One</span>
     <span class="fdt">Sat 26 Sep 23:00 UTC</span>
@@ -4853,7 +4857,7 @@ table.mt.deep tr:first-child td{border-top:0}
     <tr><td class="mname">Dynamics</td><td>fatigue <span class='mm'>1</span>/14d (🏠) · <span class='mm'>0</span>/14d (✈️) · att <span class='mm'>0.79</span>/def <span class='mm'>1.16</span> (🏠, time-decayed) · att <span class='mm'>1.07</span>/def <span class='mm'>0.84</span> (✈️) · league goals Δ <span class='mm'>+0.00</span> (z 1.9) △</td></tr>
     </table>
 </div>
-<div class="cd" data-spot="sp3">
+<div class="cd hp-hid" data-spot="sp3">
   <div class="fx-hd">
     <span class="flg">USL League One</span>
     <span class="fdt">Sat 26 Sep 23:00 UTC</span>
@@ -4896,7 +4900,7 @@ table.mt.deep tr:first-child td{border-top:0}
     <tr><td class="mname">Dynamics</td><td>fatigue <span class='mm'>1</span>/14d (🏠) · <span class='mm'>1</span>/14d (✈️) · att <span class='mm'>0.81</span>/def <span class='mm'>1.32</span> (🏠, time-decayed) · att <span class='mm'>0.81</span>/def <span class='mm'>1.25</span> (✈️) · league goals Δ <span class='mm'>+0.00</span> (z 1.9) △</td></tr>
     </table>
 </div>
-<div class="cd" data-spot="sp4">
+<div class="cd hp-hid" data-spot="sp4">
   <div class="fx-hd">
     <span class="flg">Liga de Expansión MX</span>
     <span class="fdt">Sat 26 Sep 23:00 UTC</span>
@@ -4939,7 +4943,7 @@ table.mt.deep tr:first-child td{border-top:0}
     <tr><td class="mname">Dynamics</td><td>fatigue <span class='mm'>0</span>/14d (🏠) · <span class='mm'>0</span>/14d (✈️)</td></tr>
     </table>
 </div>
-<div class="cd" data-spot="sp3">
+<div class="cd hp-hid" data-spot="sp3">
   <div class="fx-hd">
     <span class="flg">Primera Nacional</span>
     <span class="fdt">Sat 26 Sep 23:00 UTC</span>
@@ -4982,7 +4986,7 @@ table.mt.deep tr:first-child td{border-top:0}
     <tr><td class="mname">Dynamics</td><td>fatigue <span class='mm'>0</span>/14d (🏠) · <span class='mm'>0</span>/14d (✈️)</td></tr>
     </table>
 </div>
-<div class="cd" data-spot="sp3">
+<div class="cd hp-hid" data-spot="sp3">
   <div class="fx-hd">
     <span class="flg">Liga MX</span>
     <span class="fdt">Sat 26 Sep 23:07 UTC</span>
@@ -5025,7 +5029,7 @@ table.mt.deep tr:first-child td{border-top:0}
     <tr><td class="mname">Dynamics</td><td>fatigue <span class='mm'>1</span>/14d (🏠) · <span class='mm'>0</span>/14d (✈️) · att <span class='mm'>1.26</span>/def <span class='mm'>0.75</span> (🏠, time-decayed) · att <span class='mm'>1.01</span>/def <span class='mm'>0.85</span> (✈️)</td></tr>
     </table>
 </div>
-<div class="cd" data-spot="sp1">
+<div class="cd hp-hid" data-spot="sp1">
   <div class="fx-hd">
     <span class="flg">Categoría Primera A</span>
     <span class="fdt">Sat 26 Sep 23:15 UTC</span>
@@ -5068,7 +5072,7 @@ table.mt.deep tr:first-child td{border-top:0}
     <tr><td class="mname">Dynamics</td><td>fatigue <span class='mm'>1</span>/14d (🏠) · <span class='mm'>0</span>/14d (✈️) · att <span class='mm'>0.91</span>/def <span class='mm'>1.08</span> (🏠, time-decayed) · att <span class='mm'>0.96</span>/def <span class='mm'>1.10</span> (✈️)</td></tr>
     </table>
 </div>
-<div class="cd" data-spot="sp3">
+<div class="cd hp-hid" data-spot="sp3">
   <div class="fx-hd">
     <span class="flg">Major League Soccer</span>
     <span class="fdt">Sat 26 Sep 23:30 UTC</span>
@@ -5111,7 +5115,7 @@ table.mt.deep tr:first-child td{border-top:0}
     <tr><td class="mname">Dynamics</td><td>fatigue <span class='mm'>1</span>/14d (🏠) · <span class='mm'>1</span>/14d (✈️) · att <span class='mm'>0.97</span>/def <span class='mm'>1.17</span> (🏠, time-decayed) · att <span class='mm'>0.93</span>/def <span class='mm'>0.89</span> (✈️) · league goals Δ <span class='mm'>+0.01</span> (z 0.1) △</td></tr>
     </table>
 </div>
-<div class="cd" data-spot="sp3">
+<div class="cd hp-hid" data-spot="sp3">
   <div class="fx-hd">
     <span class="flg">Major League Soccer</span>
     <span class="fdt">Sat 26 Sep 23:30 UTC</span>
@@ -5154,7 +5158,7 @@ table.mt.deep tr:first-child td{border-top:0}
     <tr><td class="mname">Dynamics</td><td>fatigue <span class='mm'>1</span>/14d (🏠) · <span class='mm'>1</span>/14d (✈️) · att <span class='mm'>0.79</span>/def <span class='mm'>1.22</span> (🏠, time-decayed) · att <span class='mm'>0.97</span>/def <span class='mm'>1.30</span> (✈️) · league goals Δ <span class='mm'>+0.01</span> (z 0.1) △</td></tr>
     </table>
 </div>
-<div class="cd" data-spot="sp4">
+<div class="cd hp-hid" data-spot="sp4">
   <div class="fx-hd">
     <span class="flg">Major League Soccer</span>
     <span class="fdt">Sat 26 Sep 23:30 UTC</span>
@@ -5197,7 +5201,7 @@ table.mt.deep tr:first-child td{border-top:0}
     <tr><td class="mname">Dynamics</td><td>fatigue <span class='mm'>1</span>/14d (🏠) · <span class='mm'>1</span>/14d (✈️) · att <span class='mm'>1.22</span>/def <span class='mm'>0.94</span> (🏠, time-decayed) · att <span class='mm'>1.12</span>/def <span class='mm'>1.14</span> (✈️) · league goals Δ <span class='mm'>+0.01</span> (z 0.1) △</td></tr>
     </table>
 </div>
-<div class="cd" data-spot="sp4">
+<div class="cd hp-hid" data-spot="sp4">
   <div class="fx-hd">
     <span class="flg">Major League Soccer</span>
     <span class="fdt">Sat 26 Sep 23:30 UTC</span>
@@ -5240,7 +5244,7 @@ table.mt.deep tr:first-child td{border-top:0}
     <tr><td class="mname">Dynamics</td><td>fatigue <span class='mm'>1</span>/14d (🏠) · <span class='mm'>1</span>/14d (✈️) · att <span class='mm'>1.20</span>/def <span class='mm'>0.74</span> (🏠, time-decayed) · att <span class='mm'>1.24</span>/def <span class='mm'>0.93</span> (✈️) · league goals Δ <span class='mm'>+0.01</span> (z 0.1) △</td></tr>
     </table>
 </div>
-<div class="cd" data-spot="sp4">
+<div class="cd hp-hid" data-spot="sp4">
   <div class="fx-hd">
     <span class="flg">Major League Soccer</span>
     <span class="fdt">Sat 26 Sep 23:30 UTC</span>
@@ -5283,7 +5287,7 @@ table.mt.deep tr:first-child td{border-top:0}
     <tr><td class="mname">Dynamics</td><td>fatigue <span class='mm'>1</span>/14d (🏠) · <span class='mm'>1</span>/14d (✈️) · att <span class='mm'>0.74</span>/def <span class='mm'>0.97</span> (🏠, time-decayed) · att <span class='mm'>1.38</span>/def <span class='mm'>1.01</span> (✈️) · league goals Δ <span class='mm'>+0.01</span> (z 0.1) △</td></tr>
     </table>
 </div>
-<div class="cd" data-spot="sp3">
+<div class="cd hp-hid" data-spot="sp3">
   <div class="fx-hd">
     <span class="flg">Salvadoran Primera División</span>
     <span class="fdt">Sun 27 Sep 00:00 UTC</span>
@@ -5326,7 +5330,7 @@ table.mt.deep tr:first-child td{border-top:0}
     <tr><td class="mname">Dynamics</td><td>fatigue <span class='mm'>1</span>/14d (🏠) · <span class='mm'>0</span>/14d (✈️) · att <span class='mm'>1.24</span>/def <span class='mm'>0.88</span> (🏠, time-decayed) · att <span class='mm'>0.96</span>/def <span class='mm'>0.99</span> (✈️)</td></tr>
     </table>
 </div>
-<div class="cd" data-spot="sp3">
+<div class="cd hp-hid" data-spot="sp3">
   <div class="fx-hd">
     <span class="flg">Salvadoran Primera División</span>
     <span class="fdt">Sun 27 Sep 00:00 UTC</span>
@@ -5369,7 +5373,7 @@ table.mt.deep tr:first-child td{border-top:0}
     <tr><td class="mname">Dynamics</td><td>fatigue <span class='mm'>1</span>/14d (🏠) · <span class='mm'>0</span>/14d (✈️) · att <span class='mm'>1.05</span>/def <span class='mm'>0.92</span> (🏠, time-decayed) · att <span class='mm'>1.22</span>/def <span class='mm'>1.08</span> (✈️)</td></tr>
     </table>
 </div>
-<div class="cd" data-spot="sp1">
+<div class="cd hp-hid" data-spot="sp1">
   <div class="fx-hd">
     <span class="flg">Liga Nacional de Guatemala</span>
     <span class="fdt">Sun 27 Sep 00:00 UTC</span>
@@ -5412,7 +5416,7 @@ table.mt.deep tr:first-child td{border-top:0}
     <tr><td class="mname">Dynamics</td><td>fatigue <span class='mm'>2</span>/14d (🏠) · <span class='mm'>0</span>/14d (✈️) · att <span class='mm'>0.76</span>/def <span class='mm'>1.00</span> (🏠, time-decayed)</td></tr>
     </table>
 </div>
-<div class="cd" data-spot="sp4">
+<div class="cd hp-hid" data-spot="sp4">
   <div class="fx-hd">
     <span class="flg">Major League Soccer</span>
     <span class="fdt">Sun 27 Sep 00:30 UTC</span>
@@ -5455,7 +5459,7 @@ table.mt.deep tr:first-child td{border-top:0}
     <tr><td class="mname">Dynamics</td><td>fatigue <span class='mm'>1</span>/14d (🏠) · <span class='mm'>1</span>/14d (✈️) · att <span class='mm'>0.96</span>/def <span class='mm'>0.91</span> (🏠, time-decayed) · att <span class='mm'>0.92</span>/def <span class='mm'>1.16</span> (✈️) · league goals Δ <span class='mm'>+0.01</span> (z 0.1) △</td></tr>
     </table>
 </div>
-<div class="cd" data-spot="sp3">
+<div class="cd hp-hid" data-spot="sp3">
   <div class="fx-hd">
     <span class="flg">Major League Soccer</span>
     <span class="fdt">Sun 27 Sep 00:30 UTC</span>
@@ -5498,7 +5502,7 @@ table.mt.deep tr:first-child td{border-top:0}
     <tr><td class="mname">Dynamics</td><td>fatigue <span class='mm'>1</span>/14d (🏠) · <span class='mm'>1</span>/14d (✈️) · att <span class='mm'>1.24</span>/def <span class='mm'>1.21</span> (🏠, time-decayed) · att <span class='mm'>1.02</span>/def <span class='mm'>0.80</span> (✈️) · league goals Δ <span class='mm'>+0.01</span> (z 0.1) △</td></tr>
     </table>
 </div>
-<div class="cd" data-spot="sp3">
+<div class="cd hp-hid" data-spot="sp3">
   <div class="fx-hd">
     <span class="flg">Major League Soccer</span>
     <span class="fdt">Sun 27 Sep 00:30 UTC</span>
@@ -5541,7 +5545,7 @@ table.mt.deep tr:first-child td{border-top:0}
     <tr><td class="mname">Dynamics</td><td>fatigue <span class='mm'>1</span>/14d (🏠) · <span class='mm'>1</span>/14d (✈️) · att <span class='mm'>0.83</span>/def <span class='mm'>0.66</span> (🏠, time-decayed) · att <span class='mm'>0.98</span>/def <span class='mm'>1.26</span> (✈️) · league goals Δ <span class='mm'>+0.01</span> (z 0.1) △</td></tr>
     </table>
 </div>
-<div class="cd" data-spot="sp4">
+<div class="cd hp-hid" data-spot="sp4">
   <div class="fx-hd">
     <span class="flg">Major League Soccer</span>
     <span class="fdt">Sun 27 Sep 00:30 UTC</span>
@@ -5584,7 +5588,7 @@ table.mt.deep tr:first-child td{border-top:0}
     <tr><td class="mname">Dynamics</td><td>fatigue <span class='mm'>0</span>/14d (🏠) · <span class='mm'>0</span>/14d (✈️) · att <span class='mm'>1.12</span>/def <span class='mm'>0.85</span> (🏠, time-decayed) · att <span class='mm'>1.06</span>/def <span class='mm'>1.13</span> (✈️) · league goals Δ <span class='mm'>+0.01</span> (z 0.1) △</td></tr>
     </table>
 </div>
-<div class="cd" data-spot="sp3">
+<div class="cd hp-hid" data-spot="sp3">
   <div class="fx-hd">
     <span class="flg">Major League Soccer</span>
     <span class="fdt">Sun 27 Sep 00:30 UTC</span>
@@ -5627,7 +5631,7 @@ table.mt.deep tr:first-child td{border-top:0}
     <tr><td class="mname">Dynamics</td><td>fatigue <span class='mm'>1</span>/14d (🏠) · <span class='mm'>1</span>/14d (✈️) · att <span class='mm'>0.78</span>/def <span class='mm'>0.89</span> (🏠, time-decayed) · att <span class='mm'>1.23</span>/def <span class='mm'>1.35</span> (✈️) · league goals Δ <span class='mm'>+0.01</span> (z 0.1) △</td></tr>
     </table>
 </div>
-<div class="cd" data-spot="sp1">
+<div class="cd hp-hid" data-spot="sp1">
   <div class="fx-hd">
     <span class="flg">USL Championship</span>
     <span class="fdt">Sun 27 Sep 00:30 UTC</span>
@@ -5670,7 +5674,7 @@ table.mt.deep tr:first-child td{border-top:0}
     <tr><td class="mname">Dynamics</td><td>fatigue <span class='mm'>0</span>/14d (🏠) · <span class='mm'>0</span>/14d (✈️)</td></tr>
     </table>
 </div>
-<div class="cd" data-spot="sp3">
+<div class="cd hp-hid" data-spot="sp3">
   <div class="fx-hd">
     <span class="flg">USL League One</span>
     <span class="fdt">Sun 27 Sep 00:30 UTC</span>
@@ -5713,7 +5717,7 @@ table.mt.deep tr:first-child td{border-top:0}
     <tr><td class="mname">Dynamics</td><td>fatigue <span class='mm'>0</span>/14d (🏠) · <span class='mm'>0</span>/14d (✈️) · att <span class='mm'>0.94</span>/def <span class='mm'>1.15</span> (🏠, time-decayed) · league goals Δ <span class='mm'>+0.00</span> (z 1.9) △</td></tr>
     </table>
 </div>
-<div class="cd" data-spot="sp1">
+<div class="cd hp-hid" data-spot="sp1">
   <div class="fx-hd">
     <span class="flg">Primera División</span>
     <span class="fdt">Sun 27 Sep 00:30 UTC</span>
@@ -5756,7 +5760,7 @@ table.mt.deep tr:first-child td{border-top:0}
     <tr><td class="mname">Dynamics</td><td>fatigue <span class='mm'>0</span>/14d (🏠) · <span class='mm'>0</span>/14d (✈️)</td></tr>
     </table>
 </div>
-<div class="cd" data-spot="sp3">
+<div class="cd hp-hid" data-spot="sp3">
   <div class="fx-hd">
     <span class="flg">USL Championship</span>
     <span class="fdt">Sun 27 Sep 01:00 UTC</span>
@@ -5799,7 +5803,7 @@ table.mt.deep tr:first-child td{border-top:0}
     <tr><td class="mname">Dynamics</td><td>fatigue <span class='mm'>0</span>/14d (🏠) · <span class='mm'>0</span>/14d (✈️)</td></tr>
     </table>
 </div>
-<div class="cd" data-spot="sp3">
+<div class="cd hp-hid" data-spot="sp3">
   <div class="fx-hd">
     <span class="flg">Liga de Expansión MX</span>
     <span class="fdt">Sun 27 Sep 01:00 UTC</span>
@@ -5842,7 +5846,7 @@ table.mt.deep tr:first-child td{border-top:0}
     <tr><td class="mname">Dynamics</td><td>fatigue <span class='mm'>0</span>/14d (🏠) · <span class='mm'>0</span>/14d (✈️)</td></tr>
     </table>
 </div>
-<div class="cd" data-spot="sp3">
+<div class="cd hp-hid" data-spot="sp3">
   <div class="fx-hd">
     <span class="flg">Categoría Primera A</span>
     <span class="fdt">Sun 27 Sep 01:20 UTC</span>
@@ -5885,7 +5889,7 @@ table.mt.deep tr:first-child td{border-top:0}
     <tr><td class="mname">Dynamics</td><td>fatigue <span class='mm'>1</span>/14d (🏠) · <span class='mm'>0</span>/14d (✈️) · att <span class='mm'>0.97</span>/def <span class='mm'>1.16</span> (🏠, time-decayed) · att <span class='mm'>1.13</span>/def <span class='mm'>0.94</span> (✈️)</td></tr>
     </table>
 </div>
-<div class="cd" data-spot="sp4">
+<div class="cd hp-hid" data-spot="sp4">
   <div class="fx-hd">
     <span class="flg">Major League Soccer</span>
     <span class="fdt">Sun 27 Sep 01:30 UTC</span>
@@ -5903,7 +5907,7 @@ table.mt.deep tr:first-child td{border-top:0}
     <div class="rec-w">Open fixture (BTTS 64%) — GG sits within a whisker of the safest market (86%) and pays distinctly more, so treatment is 'Away wins OR both teams score'.</div>
     <div class="rec-ou">Supporting: <b>Over 2.5</b> (64%)
       · ≈3.3 expected goals</div>
-    <div class="rec-ev"><span class="confidence-hi">EV +50.8%</span> · <b>@2.95</b> <span class="dim">(DraftKings 1X2 · strong side)</span></div>
+    <div class="rec-ev"><span class="confidence-hi">EV +48.2%</span> · <b>@2.90</b> <span class="dim">(DraftKings 1X2 · strong side)</span></div>
     
   </div>
   <table class="mt"><tr><td class="mname">1X2 · Full Time</td><td><b><span class="pb">25.7%</span></b> <span class="dim">X</span> <span class="pb">23.2%</span> <b><span class="pb">51.1%</span></b> <span class="dim">(H · X · A)</span></td></tr><tr><td class="mname">1X2 · 1UP</td><td>67.8% <span class="fair">fair 1.48</span> <span class="dim">— pays the moment Away take a 1-goal lead</span></td></tr><tr><td class="mname">1X2 · 2UP</td><td>37.9% <span class="fair">fair 2.64</span> <span class="dim">— pays the moment Away lead by 2</span></td></tr><tr><td class="mname">Double Chance</td><td>74.3% <span class="fair">fair 1.35</span> <span class="dim">(X2 · Away win or draw)</span></td></tr><tr><td class="mname">Double Chance · 1UP</td><td>79.9% <span class="fair">fair 1.25</span> <span class="dim">— draws covered, any 1-goal lead pays early</span></td></tr><tr class="hl-row"><td class="mname">Away or GG</td><td>85.8% <span class="fair">fair 1.17</span> <span class="dim">— away win or both teams score (BTTS 63.9%)</span></td></tr>
@@ -5924,11 +5928,11 @@ table.mt.deep tr:first-child td{border-top:0}
     <tr><td class="mname">Margin / result</td><td>strong +1 <span class='mm'>21%</span> · +2+ <span class='mm'>30%</span> · draw <span class='mm'>23%</span> · away 51% (strong-lose)</td></tr>
     <tr><td class="mname">Clean sheets</td><td>home CS <span class='mm'>26%</span> · away CS <span class='mm'>14%</span> · BTTS <span class='mm'>64%</span></td></tr>
     <tr><td class="mname">Totals distribution</td><td>mean 3.29 · median 3 <span class="ou-i">O1.5 85%</span> <span class="ou-i">O2.5 64%</span> <span class="ou-i">O3.5 42%</span> <span class="ou-i">O4.5 24%</span></td></tr>
-    <tr><td class="mname">Trust (Bayesian)</td><td>model <span class='mm'>51%</span> vs season 90% CI 38–69% → consistent · <span class="confidence-hi">Bayesian EV +23.4%</span> (σ 9.3%) · stake <span class='mm'>3.0%</span> (¼-Kelly, prob uncertainty shrunk)</td></tr>
+    <tr><td class="mname">Trust (Bayesian)</td><td>model <span class='mm'>51%</span> vs season 90% CI 38–69% → consistent · <span class="confidence-hi">Bayesian EV +21.3%</span> (σ 9.3%) · stake <span class='mm'>2.8%</span> (¼-Kelly, prob uncertainty shrunk)</td></tr>
     <tr><td class="mname">Dynamics</td><td>fatigue <span class='mm'>1</span>/14d (🏠) · <span class='mm'>1</span>/14d (✈️) · att <span class='mm'>0.86</span>/def <span class='mm'>1.17</span> (🏠, time-decayed) · att <span class='mm'>1.10</span>/def <span class='mm'>0.90</span> (✈️) · league goals Δ <span class='mm'>+0.01</span> (z 0.1) △</td></tr>
     </table>
 </div>
-<div class="cd" data-spot="sp3">
+<div class="cd hp-hid" data-spot="sp3">
   <div class="fx-hd">
     <span class="flg">USL Championship</span>
     <span class="fdt">Sun 27 Sep 02:00 UTC</span>
@@ -5971,7 +5975,7 @@ table.mt.deep tr:first-child td{border-top:0}
     <tr><td class="mname">Dynamics</td><td>fatigue <span class='mm'>0</span>/14d (🏠) · <span class='mm'>0</span>/14d (✈️)</td></tr>
     </table>
 </div>
-<div class="cd" data-spot="sp1">
+<div class="cd hp-hid" data-spot="sp1">
   <div class="fx-hd">
     <span class="flg">USL Championship</span>
     <span class="fdt">Sun 27 Sep 02:00 UTC</span>
@@ -5989,7 +5993,7 @@ table.mt.deep tr:first-child td{border-top:0}
     <div class="rec-w">No market dominates, but Away are still the better side (34% straight) — the outright pick has the best odds in a tight match.</div>
     <div class="rec-ou">Supporting: <b>Under 2.5</b> (53%)
       · ≈2.5 expected goals</div>
-    <div class="rec-ev"><span class="confidence-hi">EV +0.2%</span> · <b>@2.95</b> <span class="dim">(DraftKings 1X2 · strong side)</span></div>
+    <div class="rec-ev"><span class="confidence-lo">EV −8.2%</span> · <b>@2.70</b> <span class="dim">(DraftKings 1X2 · strong side)</span></div>
     
   </div>
   <table class="mt"><tr class="hl-row"><td class="mname">1X2 · Full Time</td><td><b><span class="pb">37.8%</span></b> <span class="dim">X</span> <span class="pb">28.3%</span> <b><span class="pb">34.0%</span></b> <span class="dim">(H · X · A)</span></td></tr><tr><td class="mname">1X2 · 1UP</td><td>50.6% <span class="fair">fair 1.98</span> <span class="dim">— pays the moment Away take a 1-goal lead</span></td></tr><tr><td class="mname">1X2 · 2UP</td><td>20.2% <span class="fair">fair 4.95</span> <span class="dim">— pays the moment Away lead by 2</span></td></tr><tr><td class="mname">Double Chance</td><td>62.2% <span class="fair">fair 1.61</span> <span class="dim">(X2 · Away win or draw)</span></td></tr><tr><td class="mname">Double Chance · 1UP</td><td>68.0% <span class="fair">fair 1.47</span> <span class="dim">— draws covered, any 1-goal lead pays early</span></td></tr><tr><td class="mname">Away or GG</td><td>70.8% <span class="fair">fair 1.41</span> <span class="dim">— away win or both teams score (BTTS 52.4%)</span></td></tr>
@@ -6010,11 +6014,11 @@ table.mt.deep tr:first-child td{border-top:0}
     <tr><td class="mname">Margin / result</td><td>strong +1 <span class='mm'>19%</span> · +2+ <span class='mm'>15%</span> · draw <span class='mm'>28%</span> · away 34% (strong-lose)</td></tr>
     <tr><td class="mname">Clean sheets</td><td>home CS <span class='mm'>27%</span> · away CS <span class='mm'>29%</span> · BTTS <span class='mm'>52%</span></td></tr>
     <tr><td class="mname">Totals distribution</td><td>mean 2.54 · median 2 <span class="ou-i">O1.5 73%</span> <span class="ou-i">O2.5 47%</span> <span class="ou-i">O3.5 25%</span> <span class="ou-i">O4.5 11%</span></td></tr>
-    <tr><td class="mname">Trust (Bayesian)</td><td>model <span class='mm'>34%</span> vs season 90% CI 19–49% → consistent · <span class="confidence-lo">Bayesian EV −26.0%</span> (σ 8.9%)</td></tr>
+    <tr><td class="mname">Trust (Bayesian)</td><td>model <span class='mm'>34%</span> vs season 90% CI 19–49% → consistent · <span class="confidence-lo">Bayesian EV −32.3%</span> (σ 8.9%)</td></tr>
     <tr><td class="mname">Dynamics</td><td>fatigue <span class='mm'>0</span>/14d (🏠) · <span class='mm'>0</span>/14d (✈️)</td></tr>
     </table>
 </div>
-<div class="cd" data-spot="sp1">
+<div class="cd hp-hid" data-spot="sp1">
   <div class="fx-hd">
     <span class="flg">USL Championship</span>
     <span class="fdt">Sun 27 Sep 02:00 UTC</span>
@@ -6057,7 +6061,7 @@ table.mt.deep tr:first-child td{border-top:0}
     <tr><td class="mname">Dynamics</td><td>fatigue <span class='mm'>0</span>/14d (🏠) · <span class='mm'>0</span>/14d (✈️)</td></tr>
     </table>
 </div>
-<div class="cd" data-spot="sp3">
+<div class="cd hp-hid" data-spot="sp3">
   <div class="fx-hd">
     <span class="flg">Salvadoran Primera División</span>
     <span class="fdt">Sun 27 Sep 02:00 UTC</span>
@@ -6100,7 +6104,7 @@ table.mt.deep tr:first-child td{border-top:0}
     <tr><td class="mname">Dynamics</td><td>fatigue <span class='mm'>1</span>/14d (🏠) · <span class='mm'>1</span>/14d (✈️) · att <span class='mm'>1.00</span>/def <span class='mm'>0.94</span> (🏠, time-decayed) · att <span class='mm'>0.80</span>/def <span class='mm'>1.11</span> (✈️)</td></tr>
     </table>
 </div>
-<div class="cd" data-spot="sp4">
+<div class="cd hp-hid" data-spot="sp4">
   <div class="fx-hd">
     <span class="flg">Liga Nacional de Guatemala</span>
     <span class="fdt">Sun 27 Sep 02:10 UTC</span>
@@ -6143,7 +6147,7 @@ table.mt.deep tr:first-child td{border-top:0}
     <tr><td class="mname">Dynamics</td><td>fatigue <span class='mm'>0</span>/14d (🏠) · <span class='mm'>2</span>/14d (✈️) · att <span class='mm'>0.94</span>/def <span class='mm'>1.18</span> (✈️)</td></tr>
     </table>
 </div>
-<div class="cd" data-spot="sp1">
+<div class="cd hp-hid" data-spot="sp1">
   <div class="fx-hd">
     <span class="flg">Major League Soccer</span>
     <span class="fdt">Sun 27 Sep 02:30 UTC</span>
@@ -6186,7 +6190,7 @@ table.mt.deep tr:first-child td{border-top:0}
     <tr><td class="mname">Dynamics</td><td>fatigue <span class='mm'>1</span>/14d (🏠) · <span class='mm'>0</span>/14d (✈️) · att <span class='mm'>0.84</span>/def <span class='mm'>0.97</span> (🏠, time-decayed) · att <span class='mm'>0.77</span>/def <span class='mm'>0.81</span> (✈️) · league goals Δ <span class='mm'>+0.01</span> (z 0.1) △</td></tr>
     </table>
 </div>
-<div class="cd" data-spot="sp3">
+<div class="cd hp-hid" data-spot="sp3">
   <div class="fx-hd">
     <span class="flg">Major League Soccer</span>
     <span class="fdt">Sun 27 Sep 02:30 UTC</span>
@@ -6229,7 +6233,7 @@ table.mt.deep tr:first-child td{border-top:0}
     <tr><td class="mname">Dynamics</td><td>fatigue <span class='mm'>1</span>/14d (🏠) · <span class='mm'>0</span>/14d (✈️) · att <span class='mm'>0.88</span>/def <span class='mm'>1.11</span> (🏠, time-decayed) · att <span class='mm'>1.24</span>/def <span class='mm'>1.17</span> (✈️) · league goals Δ <span class='mm'>+0.01</span> (z 0.1) △</td></tr>
     </table>
 </div>
-<div class="cd" data-spot="sp4">
+<div class="cd hp-hid" data-spot="sp4">
   <div class="fx-hd">
     <span class="flg">Major League Soccer</span>
     <span class="fdt">Sun 27 Sep 02:30 UTC</span>
@@ -6272,7 +6276,7 @@ table.mt.deep tr:first-child td{border-top:0}
     <tr><td class="mname">Dynamics</td><td>fatigue <span class='mm'>1</span>/14d (🏠) · <span class='mm'>0</span>/14d (✈️) · att <span class='mm'>1.18</span>/def <span class='mm'>0.87</span> (🏠, time-decayed) · att <span class='mm'>0.65</span>/def <span class='mm'>0.95</span> (✈️) · league goals Δ <span class='mm'>+0.01</span> (z 0.1) △</td></tr>
     </table>
 </div>
-<div class="cd" data-spot="sp1">
+<div class="cd hp-hid" data-spot="sp1">
   <div class="fx-hd">
     <span class="flg">Liga MX</span>
     <span class="fdt">Sun 27 Sep 03:05 UTC</span>
@@ -6315,7 +6319,7 @@ table.mt.deep tr:first-child td{border-top:0}
     <tr><td class="mname">Dynamics</td><td>fatigue <span class='mm'>1</span>/14d (🏠) · <span class='mm'>0</span>/14d (✈️) · att <span class='mm'>0.81</span>/def <span class='mm'>0.99</span> (🏠, time-decayed) · att <span class='mm'>1.10</span>/def <span class='mm'>0.83</span> (✈️)</td></tr>
     </table>
 </div>
-<div class="cd" data-spot="sp1">
+<div class="cd hp-hid" data-spot="sp1">
   <div class="fx-hd">
     <span class="flg">Liga MX</span>
     <span class="fdt">Sun 27 Sep 03:10 UTC</span>
@@ -6362,10 +6366,10 @@ table.mt.deep tr:first-child td{border-top:0}
 <div class="mdg" data-date="2026-09-27">
   <div class="sec-hd md-hd">
     <span class="sec-t">📅 Sunday 27 September 2026</span>
-    <span class="sec-s"><b>37</b> kickoffs</span>
+    <span class="sec-s"><b>0</b> kickoffs · <b>37</b> under 70% hidden</span>
   </div>
   <div class="sec-b oc-b">
-<div class="cd" data-spot="sp1">
+<div class="cd hp-hid" data-spot="sp1">
   <div class="fx-hd">
     <span class="flg">La Liga 2</span>
     <span class="fdt">Sun 27 Sep 12:00 UTC</span>
@@ -6408,7 +6412,7 @@ table.mt.deep tr:first-child td{border-top:0}
     <tr><td class="mname">Dynamics</td><td>fatigue <span class='mm'>1</span>/14d (🏠) · <span class='mm'>0</span>/14d (✈️) · att <span class='mm'>0.76</span>/def <span class='mm'>1.09</span> (🏠, time-decayed) · att <span class='mm'>1.03</span>/def <span class='mm'>1.40</span> (✈️)</td></tr>
     </table>
 </div>
-<div class="cd" data-spot="sp4">
+<div class="cd hp-hid" data-spot="sp4">
   <div class="fx-hd">
     <span class="flg">Eerste Divisie</span>
     <span class="fdt">Sun 27 Sep 12:30 UTC</span>
@@ -6451,7 +6455,7 @@ table.mt.deep tr:first-child td{border-top:0}
     <tr><td class="mname">Dynamics</td><td>fatigue <span class='mm'>1</span>/14d (🏠) · <span class='mm'>0</span>/14d (✈️) · att <span class='mm'>0.86</span>/def <span class='mm'>1.18</span> (🏠, time-decayed) · att <span class='mm'>0.90</span>/def <span class='mm'>1.10</span> (✈️)</td></tr>
     </table>
 </div>
-<div class="cd" data-spot="sp3">
+<div class="cd hp-hid" data-spot="sp3">
   <div class="fx-hd">
     <span class="flg">Campeonato Brasileiro Série B</span>
     <span class="fdt">Sun 27 Sep 14:00 UTC</span>
@@ -6494,7 +6498,7 @@ table.mt.deep tr:first-child td{border-top:0}
     <tr><td class="mname">Dynamics</td><td>fatigue <span class='mm'>0</span>/14d (🏠) · <span class='mm'>0</span>/14d (✈️) · att <span class='mm'>0.97</span>/def <span class='mm'>0.87</span> (🏠, time-decayed) · att <span class='mm'>0.95</span>/def <span class='mm'>1.09</span> (✈️) · league goals Δ <span class='mm'>+0.18</span> (z 0.9) △</td></tr>
     </table>
 </div>
-<div class="cd" data-spot="sp4">
+<div class="cd hp-hid" data-spot="sp4">
   <div class="fx-hd">
     <span class="flg">Primera División</span>
     <span class="fdt">Sun 27 Sep 14:00 UTC</span>
@@ -6537,7 +6541,7 @@ table.mt.deep tr:first-child td{border-top:0}
     <tr><td class="mname">Dynamics</td><td>fatigue <span class='mm'>0</span>/14d (🏠) · <span class='mm'>0</span>/14d (✈️)</td></tr>
     </table>
 </div>
-<div class="cd" data-spot="sp1">
+<div class="cd hp-hid" data-spot="sp1">
   <div class="fx-hd">
     <span class="flg">La Liga 2</span>
     <span class="fdt">Sun 27 Sep 14:15 UTC</span>
@@ -6580,7 +6584,7 @@ table.mt.deep tr:first-child td{border-top:0}
     <tr><td class="mname">Dynamics</td><td>fatigue <span class='mm'>1</span>/14d (🏠) · <span class='mm'>0</span>/14d (✈️) · att <span class='mm'>1.08</span>/def <span class='mm'>0.73</span> (🏠, time-decayed) · att <span class='mm'>1.16</span>/def <span class='mm'>0.89</span> (✈️)</td></tr>
     </table>
 </div>
-<div class="cd" data-spot="sp1">
+<div class="cd hp-hid" data-spot="sp1">
   <div class="fx-hd">
     <span class="flg">La Liga 2</span>
     <span class="fdt">Sun 27 Sep 16:30 UTC</span>
@@ -6623,7 +6627,7 @@ table.mt.deep tr:first-child td{border-top:0}
     <tr><td class="mname">Dynamics</td><td>fatigue <span class='mm'>0</span>/14d (🏠) · <span class='mm'>0</span>/14d (✈️) · att <span class='mm'>1.14</span>/def <span class='mm'>0.98</span> (🏠, time-decayed) · att <span class='mm'>0.82</span>/def <span class='mm'>0.93</span> (✈️)</td></tr>
     </table>
 </div>
-<div class="cd" data-spot="sp3">
+<div class="cd hp-hid" data-spot="sp3">
   <div class="fx-hd">
     <span class="flg">La Liga 2</span>
     <span class="fdt">Sun 27 Sep 16:30 UTC</span>
@@ -6666,7 +6670,7 @@ table.mt.deep tr:first-child td{border-top:0}
     <tr><td class="mname">Dynamics</td><td>fatigue <span class='mm'>1</span>/14d (🏠) · <span class='mm'>0</span>/14d (✈️) · att <span class='mm'>1.36</span>/def <span class='mm'>0.76</span> (🏠, time-decayed) · att <span class='mm'>1.04</span>/def <span class='mm'>0.99</span> (✈️)</td></tr>
     </table>
 </div>
-<div class="cd" data-spot="sp3">
+<div class="cd hp-hid" data-spot="sp3">
   <div class="fx-hd">
     <span class="flg">Liga MX</span>
     <span class="fdt">Sun 27 Sep 18:00 UTC</span>
@@ -6709,7 +6713,7 @@ table.mt.deep tr:first-child td{border-top:0}
     <tr><td class="mname">Dynamics</td><td>fatigue <span class='mm'>1</span>/14d (🏠) · <span class='mm'>1</span>/14d (✈️) · att <span class='mm'>0.95</span>/def <span class='mm'>1.05</span> (🏠, time-decayed) · att <span class='mm'>0.83</span>/def <span class='mm'>1.15</span> (✈️)</td></tr>
     </table>
 </div>
-<div class="cd" data-spot="sp1">
+<div class="cd hp-hid" data-spot="sp1">
   <div class="fx-hd">
     <span class="flg">Primera División</span>
     <span class="fdt">Sun 27 Sep 18:00 UTC</span>
@@ -6752,7 +6756,7 @@ table.mt.deep tr:first-child td{border-top:0}
     <tr><td class="mname">Dynamics</td><td>fatigue <span class='mm'>0</span>/14d (🏠) · <span class='mm'>0</span>/14d (✈️)</td></tr>
     </table>
 </div>
-<div class="cd" data-spot="sp1">
+<div class="cd hp-hid" data-spot="sp1">
   <div class="fx-hd">
     <span class="flg">Primera Nacional</span>
     <span class="fdt">Sun 27 Sep 18:30 UTC</span>
@@ -6795,7 +6799,7 @@ table.mt.deep tr:first-child td{border-top:0}
     <tr><td class="mname">Dynamics</td><td>fatigue <span class='mm'>0</span>/14d (🏠) · <span class='mm'>0</span>/14d (✈️)</td></tr>
     </table>
 </div>
-<div class="cd" data-spot="sp4">
+<div class="cd hp-hid" data-spot="sp4">
   <div class="fx-hd">
     <span class="flg">Primera Nacional</span>
     <span class="fdt">Sun 27 Sep 18:30 UTC</span>
@@ -6838,7 +6842,7 @@ table.mt.deep tr:first-child td{border-top:0}
     <tr><td class="mname">Dynamics</td><td>fatigue <span class='mm'>0</span>/14d (🏠) · <span class='mm'>0</span>/14d (✈️)</td></tr>
     </table>
 </div>
-<div class="cd" data-spot="sp1">
+<div class="cd hp-hid" data-spot="sp1">
   <div class="fx-hd">
     <span class="flg">Primera Nacional</span>
     <span class="fdt">Sun 27 Sep 18:30 UTC</span>
@@ -6881,7 +6885,7 @@ table.mt.deep tr:first-child td{border-top:0}
     <tr><td class="mname">Dynamics</td><td>fatigue <span class='mm'>0</span>/14d (🏠) · <span class='mm'>0</span>/14d (✈️)</td></tr>
     </table>
 </div>
-<div class="cd" data-spot="sp3">
+<div class="cd hp-hid" data-spot="sp3">
   <div class="fx-hd">
     <span class="flg">Primera Nacional</span>
     <span class="fdt">Sun 27 Sep 18:30 UTC</span>
@@ -6924,7 +6928,7 @@ table.mt.deep tr:first-child td{border-top:0}
     <tr><td class="mname">Dynamics</td><td>fatigue <span class='mm'>0</span>/14d (🏠) · <span class='mm'>0</span>/14d (✈️)</td></tr>
     </table>
 </div>
-<div class="cd" data-spot="sp1">
+<div class="cd hp-hid" data-spot="sp1">
   <div class="fx-hd">
     <span class="flg">Primera Nacional</span>
     <span class="fdt">Sun 27 Sep 18:30 UTC</span>
@@ -6967,7 +6971,7 @@ table.mt.deep tr:first-child td{border-top:0}
     <tr><td class="mname">Dynamics</td><td>fatigue <span class='mm'>0</span>/14d (🏠) · <span class='mm'>0</span>/14d (✈️)</td></tr>
     </table>
 </div>
-<div class="cd" data-spot="sp1">
+<div class="cd hp-hid" data-spot="sp1">
   <div class="fx-hd">
     <span class="flg">La Liga 2</span>
     <span class="fdt">Sun 27 Sep 19:00 UTC</span>
@@ -7010,7 +7014,7 @@ table.mt.deep tr:first-child td{border-top:0}
     <tr><td class="mname">Dynamics</td><td>fatigue <span class='mm'>0</span>/14d (🏠) · <span class='mm'>0</span>/14d (✈️) · att <span class='mm'>0.95</span>/def <span class='mm'>0.68</span> (🏠, time-decayed) · att <span class='mm'>0.74</span>/def <span class='mm'>0.85</span> (✈️)</td></tr>
     </table>
 </div>
-<div class="cd" data-spot="sp1">
+<div class="cd hp-hid" data-spot="sp1">
   <div class="fx-hd">
     <span class="flg">Liga Nacional de Guatemala</span>
     <span class="fdt">Sun 27 Sep 19:00 UTC</span>
@@ -7053,7 +7057,7 @@ table.mt.deep tr:first-child td{border-top:0}
     <tr><td class="mname">Dynamics</td><td>fatigue <span class='mm'>2</span>/14d (🏠) · <span class='mm'>1</span>/14d (✈️) · att <span class='mm'>0.87</span>/def <span class='mm'>0.94</span> (🏠, time-decayed) · att <span class='mm'>1.01</span>/def <span class='mm'>1.15</span> (✈️)</td></tr>
     </table>
 </div>
-<div class="cd" data-spot="sp1">
+<div class="cd hp-hid" data-spot="sp1">
   <div class="fx-hd">
     <span class="flg">Campeonato Brasileiro Série B</span>
     <span class="fdt">Sun 27 Sep 19:00 UTC</span>
@@ -7096,7 +7100,7 @@ table.mt.deep tr:first-child td{border-top:0}
     <tr><td class="mname">Dynamics</td><td>fatigue <span class='mm'>0</span>/14d (🏠) · <span class='mm'>0</span>/14d (✈️) · att <span class='mm'>1.07</span>/def <span class='mm'>1.01</span> (🏠, time-decayed) · att <span class='mm'>0.96</span>/def <span class='mm'>0.86</span> (✈️) · league goals Δ <span class='mm'>+0.18</span> (z 0.9) △</td></tr>
     </table>
 </div>
-<div class="cd" data-spot="sp4">
+<div class="cd hp-hid" data-spot="sp4">
   <div class="fx-hd">
     <span class="flg">Primera Nacional</span>
     <span class="fdt">Sun 27 Sep 19:00 UTC</span>
@@ -7139,7 +7143,7 @@ table.mt.deep tr:first-child td{border-top:0}
     <tr><td class="mname">Dynamics</td><td>fatigue <span class='mm'>0</span>/14d (🏠) · <span class='mm'>0</span>/14d (✈️)</td></tr>
     </table>
 </div>
-<div class="cd" data-spot="sp3">
+<div class="cd hp-hid" data-spot="sp3">
   <div class="fx-hd">
     <span class="flg">Primera Nacional</span>
     <span class="fdt">Sun 27 Sep 19:00 UTC</span>
@@ -7182,7 +7186,7 @@ table.mt.deep tr:first-child td{border-top:0}
     <tr><td class="mname">Dynamics</td><td>fatigue <span class='mm'>0</span>/14d (🏠) · <span class='mm'>0</span>/14d (✈️)</td></tr>
     </table>
 </div>
-<div class="cd" data-spot="sp3">
+<div class="cd hp-hid" data-spot="sp3">
   <div class="fx-hd">
     <span class="flg">Primera Nacional</span>
     <span class="fdt">Sun 27 Sep 19:00 UTC</span>
@@ -7225,7 +7229,7 @@ table.mt.deep tr:first-child td{border-top:0}
     <tr><td class="mname">Dynamics</td><td>fatigue <span class='mm'>0</span>/14d (🏠) · <span class='mm'>0</span>/14d (✈️)</td></tr>
     </table>
 </div>
-<div class="cd" data-spot="sp1">
+<div class="cd hp-hid" data-spot="sp1">
   <div class="fx-hd">
     <span class="flg">Primera Nacional</span>
     <span class="fdt">Sun 27 Sep 19:30 UTC</span>
@@ -7268,7 +7272,7 @@ table.mt.deep tr:first-child td{border-top:0}
     <tr><td class="mname">Dynamics</td><td>fatigue <span class='mm'>0</span>/14d (🏠) · <span class='mm'>0</span>/14d (✈️)</td></tr>
     </table>
 </div>
-<div class="cd" data-spot="sp1">
+<div class="cd hp-hid" data-spot="sp1">
   <div class="fx-hd">
     <span class="flg">Primera Nacional</span>
     <span class="fdt">Sun 27 Sep 19:30 UTC</span>
@@ -7311,7 +7315,7 @@ table.mt.deep tr:first-child td{border-top:0}
     <tr><td class="mname">Dynamics</td><td>fatigue <span class='mm'>0</span>/14d (🏠) · <span class='mm'>0</span>/14d (✈️)</td></tr>
     </table>
 </div>
-<div class="cd" data-spot="sp3">
+<div class="cd hp-hid" data-spot="sp3">
   <div class="fx-hd">
     <span class="flg">Primera Nacional</span>
     <span class="fdt">Sun 27 Sep 20:00 UTC</span>
@@ -7354,7 +7358,7 @@ table.mt.deep tr:first-child td{border-top:0}
     <tr><td class="mname">Dynamics</td><td>fatigue <span class='mm'>0</span>/14d (🏠) · <span class='mm'>0</span>/14d (✈️)</td></tr>
     </table>
 </div>
-<div class="cd" data-spot="sp3">
+<div class="cd hp-hid" data-spot="sp3">
   <div class="fx-hd">
     <span class="flg">Salvadoran Primera División</span>
     <span class="fdt">Sun 27 Sep 21:00 UTC</span>
@@ -7397,7 +7401,7 @@ table.mt.deep tr:first-child td{border-top:0}
     <tr><td class="mname">Dynamics</td><td>fatigue <span class='mm'>0</span>/14d (🏠) · <span class='mm'>0</span>/14d (✈️) · att <span class='mm'>0.98</span>/def <span class='mm'>1.04</span> (🏠, time-decayed) · att <span class='mm'>0.81</span>/def <span class='mm'>1.13</span> (✈️)</td></tr>
     </table>
 </div>
-<div class="cd" data-spot="sp1">
+<div class="cd hp-hid" data-spot="sp1">
   <div class="fx-hd">
     <span class="flg">Salvadoran Primera División</span>
     <span class="fdt">Sun 27 Sep 21:00 UTC</span>
@@ -7440,7 +7444,7 @@ table.mt.deep tr:first-child td{border-top:0}
     <tr><td class="mname">Dynamics</td><td>fatigue <span class='mm'>0</span>/14d (🏠) · <span class='mm'>1</span>/14d (✈️) · att <span class='mm'>0.98</span>/def <span class='mm'>1.21</span> (🏠, time-decayed) · att <span class='mm'>0.73</span>/def <span class='mm'>1.12</span> (✈️)</td></tr>
     </table>
 </div>
-<div class="cd" data-spot="sp3">
+<div class="cd hp-hid" data-spot="sp3">
   <div class="fx-hd">
     <span class="flg">Liga Nacional de Guatemala</span>
     <span class="fdt">Sun 27 Sep 21:00 UTC</span>
@@ -7483,7 +7487,7 @@ table.mt.deep tr:first-child td{border-top:0}
     <tr><td class="mname">Dynamics</td><td>fatigue <span class='mm'>1</span>/14d (🏠) · <span class='mm'>1</span>/14d (✈️) · att <span class='mm'>0.92</span>/def <span class='mm'>1.11</span> (🏠, time-decayed) · att <span class='mm'>1.29</span>/def <span class='mm'>0.96</span> (✈️)</td></tr>
     </table>
 </div>
-<div class="cd" data-spot="sp1">
+<div class="cd hp-hid" data-spot="sp1">
   <div class="fx-hd">
     <span class="flg">Primera Nacional</span>
     <span class="fdt">Sun 27 Sep 21:00 UTC</span>
@@ -7526,7 +7530,7 @@ table.mt.deep tr:first-child td{border-top:0}
     <tr><td class="mname">Dynamics</td><td>fatigue <span class='mm'>0</span>/14d (🏠) · <span class='mm'>0</span>/14d (✈️)</td></tr>
     </table>
 </div>
-<div class="cd" data-spot="sp4">
+<div class="cd hp-hid" data-spot="sp4">
   <div class="fx-hd">
     <span class="flg">Categoría Primera A</span>
     <span class="fdt">Sun 27 Sep 21:00 UTC</span>
@@ -7569,7 +7573,7 @@ table.mt.deep tr:first-child td{border-top:0}
     <tr><td class="mname">Dynamics</td><td>fatigue <span class='mm'>0</span>/14d (🏠) · <span class='mm'>0</span>/14d (✈️) · att <span class='mm'>1.05</span>/def <span class='mm'>1.16</span> (🏠, time-decayed) · att <span class='mm'>0.78</span>/def <span class='mm'>1.18</span> (✈️)</td></tr>
     </table>
 </div>
-<div class="cd" data-spot="sp1">
+<div class="cd hp-hid" data-spot="sp1">
   <div class="fx-hd">
     <span class="flg">Primera División</span>
     <span class="fdt">Sun 27 Sep 21:00 UTC</span>
@@ -7612,7 +7616,7 @@ table.mt.deep tr:first-child td{border-top:0}
     <tr><td class="mname">Dynamics</td><td>fatigue <span class='mm'>0</span>/14d (🏠) · <span class='mm'>0</span>/14d (✈️)</td></tr>
     </table>
 </div>
-<div class="cd" data-spot="sp1">
+<div class="cd hp-hid" data-spot="sp1">
   <div class="fx-hd">
     <span class="flg">Campeonato Brasileiro Série B</span>
     <span class="fdt">Sun 27 Sep 21:30 UTC</span>
@@ -7655,7 +7659,7 @@ table.mt.deep tr:first-child td{border-top:0}
     <tr><td class="mname">Dynamics</td><td>fatigue <span class='mm'>0</span>/14d (🏠) · <span class='mm'>0</span>/14d (✈️) · att <span class='mm'>1.01</span>/def <span class='mm'>0.87</span> (🏠, time-decayed) · att <span class='mm'>0.93</span>/def <span class='mm'>0.98</span> (✈️) · league goals Δ <span class='mm'>+0.18</span> (z 0.9) △</td></tr>
     </table>
 </div>
-<div class="cd" data-spot="sp3">
+<div class="cd hp-hid" data-spot="sp3">
   <div class="fx-hd">
     <span class="flg">Major League Soccer</span>
     <span class="fdt">Sun 27 Sep 23:00 UTC</span>
@@ -7698,7 +7702,7 @@ table.mt.deep tr:first-child td{border-top:0}
     <tr><td class="mname">Dynamics</td><td>fatigue <span class='mm'>0</span>/14d (🏠) · <span class='mm'>0</span>/14d (✈️) · att <span class='mm'>1.02</span>/def <span class='mm'>0.98</span> (🏠, time-decayed) · att <span class='mm'>1.15</span>/def <span class='mm'>0.87</span> (✈️) · league goals Δ <span class='mm'>+0.01</span> (z 0.1) △</td></tr>
     </table>
 </div>
-<div class="cd" data-spot="sp4">
+<div class="cd hp-hid" data-spot="sp4">
   <div class="fx-hd">
     <span class="flg">USL League One</span>
     <span class="fdt">Sun 27 Sep 23:00 UTC</span>
@@ -7741,7 +7745,7 @@ table.mt.deep tr:first-child td{border-top:0}
     <tr><td class="mname">Dynamics</td><td>fatigue <span class='mm'>0</span>/14d (🏠) · <span class='mm'>6</span>/14d (✈️) · att <span class='mm'>1.15</span>/def <span class='mm'>0.81</span> (🏠, time-decayed) · att <span class='mm'>1.28</span>/def <span class='mm'>0.95</span> (✈️) · league goals Δ <span class='mm'>+0.00</span> (z 1.9) △</td></tr>
     </table>
 </div>
-<div class="cd" data-spot="sp1">
+<div class="cd hp-hid" data-spot="sp1">
   <div class="fx-hd">
     <span class="flg">Salvadoran Primera División</span>
     <span class="fdt">Sun 27 Sep 23:00 UTC</span>
@@ -7784,7 +7788,7 @@ table.mt.deep tr:first-child td{border-top:0}
     <tr><td class="mname">Dynamics</td><td>fatigue <span class='mm'>0</span>/14d (🏠) · <span class='mm'>0</span>/14d (✈️) · att <span class='mm'>1.09</span>/def <span class='mm'>0.75</span> (🏠, time-decayed) · att <span class='mm'>1.15</span>/def <span class='mm'>0.82</span> (✈️)</td></tr>
     </table>
 </div>
-<div class="cd" data-spot="sp1">
+<div class="cd hp-hid" data-spot="sp1">
   <div class="fx-hd">
     <span class="flg">Categoría Primera A</span>
     <span class="fdt">Sun 27 Sep 23:05 UTC</span>
@@ -7827,7 +7831,7 @@ table.mt.deep tr:first-child td{border-top:0}
     <tr><td class="mname">Dynamics</td><td>fatigue <span class='mm'>0</span>/14d (🏠) · <span class='mm'>0</span>/14d (✈️) · att <span class='mm'>0.96</span>/def <span class='mm'>1.05</span> (🏠, time-decayed) · att <span class='mm'>1.00</span>/def <span class='mm'>0.92</span> (✈️)</td></tr>
     </table>
 </div>
-<div class="cd" data-spot="sp4">
+<div class="cd hp-hid" data-spot="sp4">
   <div class="fx-hd">
     <span class="flg">Liga MX</span>
     <span class="fdt">Mon 28 Sep 01:00 UTC</span>
@@ -7870,7 +7874,7 @@ table.mt.deep tr:first-child td{border-top:0}
     <tr><td class="mname">Dynamics</td><td>fatigue <span class='mm'>1</span>/14d (🏠) · <span class='mm'>1</span>/14d (✈️) · att <span class='mm'>1.01</span>/def <span class='mm'>0.90</span> (🏠, time-decayed) · att <span class='mm'>0.73</span>/def <span class='mm'>1.45</span> (✈️)</td></tr>
     </table>
 </div>
-<div class="cd" data-spot="sp3">
+<div class="cd hp-hid" data-spot="sp3">
   <div class="fx-hd">
     <span class="flg">Categoría Primera A</span>
     <span class="fdt">Mon 28 Sep 01:10 UTC</span>
@@ -7913,7 +7917,7 @@ table.mt.deep tr:first-child td{border-top:0}
     <tr><td class="mname">Dynamics</td><td>fatigue <span class='mm'>0</span>/14d (🏠) · <span class='mm'>0</span>/14d (✈️) · att <span class='mm'>1.02</span>/def <span class='mm'>0.92</span> (🏠, time-decayed) · att <span class='mm'>0.99</span>/def <span class='mm'>1.08</span> (✈️)</td></tr>
     </table>
 </div>
-<div class="cd" data-spot="sp4">
+<div class="cd hp-hid" data-spot="sp4">
   <div class="fx-hd">
     <span class="flg">Liga MX</span>
     <span class="fdt">Mon 28 Sep 03:00 UTC</span>
@@ -7960,10 +7964,10 @@ table.mt.deep tr:first-child td{border-top:0}
 <div class="mdg" data-date="2026-09-28">
   <div class="sec-hd md-hd">
     <span class="sec-t">📅 Monday 28 September 2026</span>
-    <span class="sec-s"><b>5</b> kickoffs</span>
+    <span class="sec-s"><b>0</b> kickoffs · <b>5</b> under 70% hidden</span>
   </div>
   <div class="sec-b oc-b">
-<div class="cd" data-spot="sp1">
+<div class="cd hp-hid" data-spot="sp1">
   <div class="fx-hd">
     <span class="flg">La Liga 2</span>
     <span class="fdt">Mon 28 Sep 18:30 UTC</span>
@@ -8006,7 +8010,7 @@ table.mt.deep tr:first-child td{border-top:0}
     <tr><td class="mname">Dynamics</td><td>fatigue <span class='mm'>0</span>/14d (🏠) · <span class='mm'>0</span>/14d (✈️) · att <span class='mm'>0.79</span>/def <span class='mm'>0.85</span> (🏠, time-decayed) · att <span class='mm'>1.11</span>/def <span class='mm'>0.77</span> (✈️)</td></tr>
     </table>
 </div>
-<div class="cd" data-spot="sp1">
+<div class="cd hp-hid" data-spot="sp1">
   <div class="fx-hd">
     <span class="flg">Primera División</span>
     <span class="fdt">Mon 28 Sep 19:30 UTC</span>
@@ -8049,7 +8053,7 @@ table.mt.deep tr:first-child td{border-top:0}
     <tr><td class="mname">Dynamics</td><td>fatigue <span class='mm'>0</span>/14d (🏠) · <span class='mm'>0</span>/14d (✈️)</td></tr>
     </table>
 </div>
-<div class="cd" data-spot="sp1">
+<div class="cd hp-hid" data-spot="sp1">
   <div class="fx-hd">
     <span class="flg">Primera División</span>
     <span class="fdt">Mon 28 Sep 22:00 UTC</span>
@@ -8092,7 +8096,7 @@ table.mt.deep tr:first-child td{border-top:0}
     <tr><td class="mname">Dynamics</td><td>fatigue <span class='mm'>0</span>/14d (🏠) · <span class='mm'>0</span>/14d (✈️)</td></tr>
     </table>
 </div>
-<div class="cd" data-spot="sp4">
+<div class="cd hp-hid" data-spot="sp4">
   <div class="fx-hd">
     <span class="flg">Campeonato Brasileiro Série B</span>
     <span class="fdt">Mon 28 Sep 22:30 UTC</span>
@@ -8135,7 +8139,7 @@ table.mt.deep tr:first-child td{border-top:0}
     <tr><td class="mname">Dynamics</td><td>fatigue <span class='mm'>0</span>/14d (🏠) · <span class='mm'>0</span>/14d (✈️) · att <span class='mm'>0.91</span>/def <span class='mm'>0.84</span> (✈️) · league goals Δ <span class='mm'>+0.18</span> (z 0.9) △</td></tr>
     </table>
 </div>
-<div class="cd" data-spot="sp4">
+<div class="cd hp-hid" data-spot="sp4">
   <div class="fx-hd">
     <span class="flg">Primera División</span>
     <span class="fdt">Mon 28 Sep 23:00 UTC</span>
@@ -8182,10 +8186,10 @@ table.mt.deep tr:first-child td{border-top:0}
 <div class="mdg" data-date="2026-09-29">
   <div class="sec-hd md-hd">
     <span class="sec-t">📅 Tuesday 29 September 2026</span>
-    <span class="sec-s"><b>15</b> kickoffs</span>
+    <span class="sec-s"><b>1</b> kickoffs · <b>14</b> under 70% hidden</span>
   </div>
   <div class="sec-b oc-b">
-<div class="cd" data-spot="sp3">
+<div class="cd hp-hid" data-spot="sp3">
   <div class="fx-hd">
     <span class="flg">National League</span>
     <span class="fdt">Tue 29 Sep 18:00 UTC</span>
@@ -8228,7 +8232,7 @@ table.mt.deep tr:first-child td{border-top:0}
     <tr><td class="mname">Dynamics</td><td>fatigue <span class='mm'>0</span>/14d (🏠) · <span class='mm'>0</span>/14d (✈️)</td></tr>
     </table>
 </div>
-<div class="cd" data-spot="sp4">
+<div class="cd hp-hid" data-spot="sp4">
   <div class="fx-hd">
     <span class="flg">National League</span>
     <span class="fdt">Tue 29 Sep 18:45 UTC</span>
@@ -8271,7 +8275,7 @@ table.mt.deep tr:first-child td{border-top:0}
     <tr><td class="mname">Dynamics</td><td>fatigue <span class='mm'>0</span>/14d (🏠) · <span class='mm'>0</span>/14d (✈️)</td></tr>
     </table>
 </div>
-<div class="cd" data-spot="sp1">
+<div class="cd hp-hid" data-spot="sp1">
   <div class="fx-hd">
     <span class="flg">National League</span>
     <span class="fdt">Tue 29 Sep 18:45 UTC</span>
@@ -8314,7 +8318,7 @@ table.mt.deep tr:first-child td{border-top:0}
     <tr><td class="mname">Dynamics</td><td>fatigue <span class='mm'>0</span>/14d (🏠) · <span class='mm'>0</span>/14d (✈️)</td></tr>
     </table>
 </div>
-<div class="cd" data-spot="sp3">
+<div class="cd hp-hid" data-spot="sp3">
   <div class="fx-hd">
     <span class="flg">National League</span>
     <span class="fdt">Tue 29 Sep 18:45 UTC</span>
@@ -8357,7 +8361,7 @@ table.mt.deep tr:first-child td{border-top:0}
     <tr><td class="mname">Dynamics</td><td>fatigue <span class='mm'>0</span>/14d (🏠) · <span class='mm'>0</span>/14d (✈️)</td></tr>
     </table>
 </div>
-<div class="cd" data-spot="sp1">
+<div class="cd hp-hid" data-spot="sp1">
   <div class="fx-hd">
     <span class="flg">National League</span>
     <span class="fdt">Tue 29 Sep 18:45 UTC</span>
@@ -8400,7 +8404,7 @@ table.mt.deep tr:first-child td{border-top:0}
     <tr><td class="mname">Dynamics</td><td>fatigue <span class='mm'>0</span>/14d (🏠) · <span class='mm'>0</span>/14d (✈️)</td></tr>
     </table>
 </div>
-<div class="cd" data-spot="sp3">
+<div class="cd hp-hid" data-spot="sp3">
   <div class="fx-hd">
     <span class="flg">National League</span>
     <span class="fdt">Tue 29 Sep 18:45 UTC</span>
@@ -8443,7 +8447,7 @@ table.mt.deep tr:first-child td{border-top:0}
     <tr><td class="mname">Dynamics</td><td>fatigue <span class='mm'>0</span>/14d (🏠) · <span class='mm'>0</span>/14d (✈️)</td></tr>
     </table>
 </div>
-<div class="cd" data-spot="sp3">
+<div class="cd hp-hid" data-spot="sp3">
   <div class="fx-hd">
     <span class="flg">National League</span>
     <span class="fdt">Tue 29 Sep 18:45 UTC</span>
@@ -8486,7 +8490,7 @@ table.mt.deep tr:first-child td{border-top:0}
     <tr><td class="mname">Dynamics</td><td>fatigue <span class='mm'>0</span>/14d (🏠) · <span class='mm'>0</span>/14d (✈️)</td></tr>
     </table>
 </div>
-<div class="cd" data-spot="sp3">
+<div class="cd hp-hid" data-spot="sp3">
   <div class="fx-hd">
     <span class="flg">National League</span>
     <span class="fdt">Tue 29 Sep 18:45 UTC</span>
@@ -8529,7 +8533,7 @@ table.mt.deep tr:first-child td{border-top:0}
     <tr><td class="mname">Dynamics</td><td>fatigue <span class='mm'>0</span>/14d (🏠) · <span class='mm'>0</span>/14d (✈️)</td></tr>
     </table>
 </div>
-<div class="cd" data-spot="sp3">
+<div class="cd hp-hid" data-spot="sp3">
   <div class="fx-hd">
     <span class="flg">National League</span>
     <span class="fdt">Tue 29 Sep 18:45 UTC</span>
@@ -8572,7 +8576,7 @@ table.mt.deep tr:first-child td{border-top:0}
     <tr><td class="mname">Dynamics</td><td>fatigue <span class='mm'>0</span>/14d (🏠) · <span class='mm'>0</span>/14d (✈️)</td></tr>
     </table>
 </div>
-<div class="cd" data-spot="sp1">
+<div class="cd hp-hid" data-spot="sp1">
   <div class="fx-hd">
     <span class="flg">National League</span>
     <span class="fdt">Tue 29 Sep 18:45 UTC</span>
@@ -8615,7 +8619,7 @@ table.mt.deep tr:first-child td{border-top:0}
     <tr><td class="mname">Dynamics</td><td>fatigue <span class='mm'>0</span>/14d (🏠) · <span class='mm'>0</span>/14d (✈️)</td></tr>
     </table>
 </div>
-<div class="cd" data-spot="sp1">
+<div class="cd hp-hid" data-spot="sp1">
   <div class="fx-hd">
     <span class="flg">Categoría Primera A</span>
     <span class="fdt">Tue 29 Sep 20:30 UTC</span>
@@ -8658,7 +8662,7 @@ table.mt.deep tr:first-child td{border-top:0}
     <tr><td class="mname">Dynamics</td><td>fatigue <span class='mm'>0</span>/14d (🏠) · <span class='mm'>0</span>/14d (✈️) · att <span class='mm'>0.80</span>/def <span class='mm'>1.08</span> (🏠, time-decayed) · att <span class='mm'>1.07</span>/def <span class='mm'>0.91</span> (✈️)</td></tr>
     </table>
 </div>
-<div class="cd" data-spot="sp3">
+<div class="cd hp-hid" data-spot="sp3">
   <div class="fx-hd">
     <span class="flg">Salvadoran Primera División</span>
     <span class="fdt">Tue 29 Sep 21:30 UTC</span>
@@ -8701,7 +8705,7 @@ table.mt.deep tr:first-child td{border-top:0}
     <tr><td class="mname">Dynamics</td><td>fatigue <span class='mm'>0</span>/14d (🏠) · <span class='mm'>0</span>/14d (✈️) · att <span class='mm'>1.22</span>/def <span class='mm'>1.08</span> (🏠, time-decayed) · att <span class='mm'>1.24</span>/def <span class='mm'>0.88</span> (✈️)</td></tr>
     </table>
 </div>
-<div class="cd" data-spot="sp3">
+<div class="cd hp-hid" data-spot="sp3">
   <div class="fx-hd">
     <span class="flg">Salvadoran Primera División</span>
     <span class="fdt">Tue 29 Sep 21:30 UTC</span>
@@ -8787,7 +8791,7 @@ table.mt.deep tr:first-child td{border-top:0}
     <tr><td class="mname">Dynamics</td><td>fatigue <span class='mm'>0</span>/14d (🏠) · <span class='mm'>0</span>/14d (✈️) · att <span class='mm'>1.01</span>/def <span class='mm'>1.04</span> (🏠, time-decayed) · att <span class='mm'>0.56</span>/def <span class='mm'>1.61</span> (✈️) · league goals Δ <span class='mm'>+0.18</span> (z 0.9) △</td></tr>
     </table>
 </div>
-<div class="cd" data-spot="sp1">
+<div class="cd hp-hid" data-spot="sp1">
   <div class="fx-hd">
     <span class="flg">Categoría Primera A</span>
     <span class="fdt">Wed 30 Sep 01:05 UTC</span>
@@ -8854,6 +8858,10 @@ function mdrange(){
     if(!((a && d < a) || (b && d > b))) days.push(d);
   });
   document.querySelectorAll('#mdctl .chip').forEach(function(c){ c.classList.remove('on'); });
+}
+function mdhp(btn){
+  var all = document.body.classList.toggle('md-all');
+  btn.classList.toggle('on', !all);
 }
 </script>
 </body>
