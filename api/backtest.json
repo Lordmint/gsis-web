@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-24T09:25:10.758606+00:00",
+  "generated_at": "2026-09-24T16:28:48.921642+00:00",
   "weeks": [
     "2026-09-14",
     "2026-09-21"
@@ -217,18 +217,6 @@
       "name": "geo-erovnuli"
     },
     {
-      "league": "bra-serie-a",
-      "n_recent": 60,
-      "recent_avg": 2.9,
-      "baseline_avg": 2.54375,
-      "delta": 0.35624999999999973,
-      "z_plain": 1.9583759557740543,
-      "z_ewma": 1.9219579911232498,
-      "z": 1.9219579911232498,
-      "status": "watch",
-      "name": "bra-serie-a"
-    },
-    {
       "league": "usa-usl-league-one",
       "n_recent": 60,
       "recent_avg": 2.9833333333333334,
@@ -263,18 +251,6 @@
       "z": 1.710854568211243,
       "status": "watch",
       "name": "bol-liga-1"
-    },
-    {
-      "league": "arg-primera",
-      "n_recent": 60,
-      "recent_avg": 2.3666666666666667,
-      "baseline_avg": 2.0657894736842106,
-      "delta": 0.3008771929824561,
-      "z_plain": 1.793316051789932,
-      "z_ewma": 1.709668277465805,
-      "z": 1.709668277465805,
-      "status": "watch",
-      "name": "arg-primera"
     },
     {
       "league": "swe-superettan",
@@ -325,6 +301,18 @@
       "name": "est-meistriliiga"
     },
     {
+      "league": "bra-serie-a",
+      "n_recent": 60,
+      "recent_avg": 2.566666666666667,
+      "baseline_avg": 2.60625,
+      "delta": -0.039583333333333304,
+      "z_plain": -0.21023439152741435,
+      "z_ewma": 1.4144786276757717,
+      "z": 1.4144786276757717,
+      "status": "stable",
+      "name": "bra-serie-a"
+    },
+    {
       "league": "chn-league-one",
       "n_recent": 60,
       "recent_avg": 2.2,
@@ -347,6 +335,18 @@
       "z": -1.3175064033148416,
       "status": "stable",
       "name": "chn-csl"
+    },
+    {
+      "league": "arg-primera",
+      "n_recent": 60,
+      "recent_avg": 2.4166666666666665,
+      "baseline_avg": 2.1487603305785123,
+      "delta": 0.2679063360881542,
+      "z_plain": 1.50115686063969,
+      "z_ewma": 1.3071231566805352,
+      "z": 1.3071231566805352,
+      "status": "stable",
+      "name": "arg-primera"
     },
     {
       "league": "kor-k-league",
@@ -421,18 +421,6 @@
       "name": "kor-k-league-2"
     },
     {
-      "league": "jpn-j1-league",
-      "n_recent": 60,
-      "recent_avg": 2.8666666666666667,
-      "baseline_avg": 3.282051282051282,
-      "delta": -0.41538461538461524,
-      "z_plain": -1.5784480475102383,
-      "z_ewma": -0.968500238566385,
-      "z": -0.968500238566385,
-      "status": "stable",
-      "name": "jpn-j1-league"
-    },
-    {
       "league": "bra-serie-b",
       "n_recent": 60,
       "recent_avg": 2.6333333333333333,
@@ -455,6 +443,18 @@
       "z": 0.8777587731390407,
       "status": "stable",
       "name": "ita-serie-a"
+    },
+    {
+      "league": "jpn-j1-league",
+      "n_recent": 60,
+      "recent_avg": 2.816666666666667,
+      "baseline_avg": 3.119047619047619,
+      "delta": -0.3023809523809522,
+      "z_plain": -1.3113007263334857,
+      "z_ewma": -0.735257783551871,
+      "z": -0.735257783551871,
+      "status": "stable",
+      "name": "jpn-j1-league"
     },
     {
       "league": "rus-first-league",
@@ -597,7 +597,7 @@
   },
   "model_state": {
     "version": 1,
-    "generated_at": "2026-09-24T08:37:06+00:00",
+    "generated_at": "2026-09-24T15:25:25+00:00",
     "note": "1 active calibration bucket(s) from 6 settled picks \u00b7 2 drifted league(s)",
     "calibration": [
       {
