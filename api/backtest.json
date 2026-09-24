@@ -1,30 +1,30 @@
 {
-  "generated_at": "2026-09-23T14:13:05.573991+00:00",
+  "generated_at": "2026-09-24T08:51:06.657528+00:00",
   "weeks": [
     "2026-09-14",
     "2026-09-21"
   ],
-  "picks": 9,
-  "settled": 5,
+  "picks": 10,
+  "settled": 6,
   "pending": 4,
-  "wins": 5,
+  "wins": 6,
   "losses": 0,
   "pushes": 0,
   "hit_rate": 1.0,
-  "overall_roi": 0.6620000000000001,
-  "modelled_edge": 0.4717792,
-  "realized_edge": 0.6620000000000001,
-  "realized_net_profit": 3.3100000000000005,
+  "overall_roi": 0.6550000000000001,
+  "modelled_edge": 0.5516150000000001,
+  "realized_edge": 0.6550000000000001,
+  "realized_net_profit": 3.9300000000000006,
   "calibration": [
     {
       "bucket": "70%+",
-      "n": 5,
+      "n": 6,
       "model": 0.75,
       "realized": 1.0,
-      "roi": 0.6620000000000001,
-      "ci_lo": 0.6069622310029172,
-      "ci_hi": 0.991487555389154,
-      "bayes_mean": 0.8571428571428571,
+      "roi": 0.6550000000000001,
+      "ci_lo": 0.6518363448688391,
+      "ci_hi": 0.9926991680209862,
+      "bayes_mean": 0.875,
       "verdict": "under-implied"
     }
   ],
@@ -44,6 +44,14 @@
       "roi": 0.675
     },
     {
+      "key": "Home or GG",
+      "n": 2,
+      "wins": 2,
+      "losses": 0,
+      "hit": 1.0,
+      "roi": 0.5800000000000001
+    },
+    {
       "key": "AH Home (0)",
       "n": 1,
       "wins": 1,
@@ -58,14 +66,6 @@
       "losses": 0,
       "hit": 1.0,
       "roi": 1.1
-    },
-    {
-      "key": "Home or GG",
-      "n": 1,
-      "wins": 1,
-      "losses": 0,
-      "hit": 1.0,
-      "roi": 0.54
     }
   ],
   "by_tier": [
@@ -79,11 +79,11 @@
     },
     {
       "key": "Reliable",
-      "n": 1,
-      "wins": 1,
+      "n": 2,
+      "wins": 2,
       "losses": 0,
       "hit": 1.0,
-      "roi": 0.74
+      "roi": 0.68
     }
   ],
   "by_league": [
@@ -126,6 +126,14 @@
       "losses": 0,
       "hit": 1.0,
       "roi": 0.74
+    },
+    {
+      "key": "Categor\u00eda Primera A",
+      "n": 1,
+      "wins": 1,
+      "losses": 0,
+      "hit": 1.0,
+      "roi": 0.6200000000000001
     }
   ],
   "by_week": [
@@ -136,6 +144,14 @@
       "losses": 0,
       "hit": 1.0,
       "roi": 0.6620000000000001
+    },
+    {
+      "key": "2026-09-21",
+      "n": 1,
+      "wins": 1,
+      "losses": 0,
+      "hit": 1.0,
+      "roi": 0.6200000000000001
     }
   ],
   "concentration": [],
@@ -311,12 +327,12 @@
     {
       "league": "chn-league-one",
       "n_recent": 60,
-      "recent_avg": 2.316666666666667,
-      "baseline_avg": 3.0,
-      "delta": -0.6833333333333331,
-      "z_plain": -2.9125288108573395,
-      "z_ewma": -1.4674027785113133,
-      "z": -1.4674027785113133,
+      "recent_avg": 2.2,
+      "baseline_avg": 2.725,
+      "delta": -0.5249999999999999,
+      "z_plain": -2.41755016258602,
+      "z_ewma": -1.3907306747364978,
+      "z": -1.3907306747364978,
       "status": "stable",
       "name": "chn-league-one"
     },
@@ -556,23 +572,109 @@
       100.92999999999999,
       102.02999999999999,
       102.57,
-      103.30999999999999
+      103.30999999999999,
+      103.92999999999999
     ],
     "quarter_kelly": [
       100.0,
-      100.3242,
-      113.21696326620001,
-      139.37064786550854,
-      151.8701741046506,
-      172.7189875408241
+      102.2085,
+      116.5611286125,
+      146.77960120529062,
+      163.17033249228422,
+      189.62334362560085,
+      214.62982725455515
     ],
     "bayes_kelly": [
       100.0,
-      111.6436,
-      135.675443118,
-      146.27651170374648,
-      164.44851589095876
+      101.2185,
+      114.20989447500001,
+      142.02000377966252,
+      156.23890453807854,
+      179.52928179866538,
+      201.0233352973697
     ],
     "start": 100.0
+  },
+  "model_state": {
+    "version": 1,
+    "generated_at": "2026-09-24T08:37:06+00:00",
+    "note": "1 active calibration bucket(s) from 6 settled picks \u00b7 2 drifted league(s)",
+    "calibration": [
+      {
+        "lo": 0.5,
+        "hi": 0.55,
+        "n": 0,
+        "wins": 0,
+        "pushes": 0,
+        "realized": null,
+        "model_mid": 0.525,
+        "delta": 0.0,
+        "delta_shrunk": 0.0,
+        "sigma": 0.0,
+        "active": false
+      },
+      {
+        "lo": 0.55,
+        "hi": 0.6,
+        "n": 0,
+        "wins": 0,
+        "pushes": 0,
+        "realized": null,
+        "model_mid": 0.575,
+        "delta": 0.0,
+        "delta_shrunk": 0.0,
+        "sigma": 0.0,
+        "active": false
+      },
+      {
+        "lo": 0.6,
+        "hi": 0.65,
+        "n": 0,
+        "wins": 0,
+        "pushes": 0,
+        "realized": null,
+        "model_mid": 0.625,
+        "delta": 0.0,
+        "delta_shrunk": 0.0,
+        "sigma": 0.0,
+        "active": false
+      },
+      {
+        "lo": 0.65,
+        "hi": 0.7,
+        "n": 0,
+        "wins": 0,
+        "pushes": 0,
+        "realized": null,
+        "model_mid": 0.675,
+        "delta": 0.0,
+        "delta_shrunk": 0.0,
+        "sigma": 0.0,
+        "active": false
+      },
+      {
+        "lo": 0.7,
+        "hi": 1.01,
+        "n": 6,
+        "wins": 6,
+        "pushes": 0,
+        "realized": 1.0,
+        "model_mid": 0.8,
+        "delta": 0.2,
+        "delta_shrunk": 0.0571,
+        "sigma": 0.0571,
+        "active": true
+      }
+    ],
+    "drift": {
+      "ecu-liga-pro": 1.25,
+      "egy-premier-league": 0.85
+    },
+    "weights": {}
+  },
+  "reactive": {
+    "calibration_active": 1,
+    "drift_leagues": 2,
+    "tuned_recipes": 0
   }
 }
