@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-09-24T16:28:48.921642+00:00",
+  "generated_at": "2026-09-25T08:44:23.421954+00:00",
   "weeks": [
     "2026-09-14",
     "2026-09-21"
   ],
-  "picks": 10,
+  "picks": 11,
   "settled": 6,
-  "pending": 4,
+  "pending": 5,
   "wins": 6,
   "losses": 0,
   "pushes": 0,
@@ -171,13 +171,13 @@
     {
       "league": "egy-premier-league",
       "n_recent": 60,
-      "recent_avg": 2.1,
-      "baseline_avg": 2.774193548387097,
-      "delta": -0.6741935483870969,
-      "z_plain": -4.340893808503412,
-      "z_ewma": -3.506305025320747,
-      "z": -3.506305025320747,
-      "status": "drift",
+      "recent_avg": 2.183333333333333,
+      "baseline_avg": 2.731707317073171,
+      "delta": -0.5483739837398378,
+      "z_plain": -3.2566590265591846,
+      "z_ewma": -2.496111184151614,
+      "z": -2.496111184151614,
+      "status": "watch",
       "name": "egy-premier-league"
     },
     {
@@ -597,8 +597,8 @@
   },
   "model_state": {
     "version": 1,
-    "generated_at": "2026-09-24T15:25:25+00:00",
-    "note": "1 active calibration bucket(s) from 6 settled picks \u00b7 2 drifted league(s)",
+    "generated_at": "2026-09-25T08:39:09+00:00",
+    "note": "1 active calibration bucket(s) from 6 settled picks \u00b7 1 drifted league(s)",
     "calibration": [
       {
         "lo": 0.5,
@@ -667,14 +667,13 @@
       }
     ],
     "drift": {
-      "ecu-liga-pro": 1.25,
-      "egy-premier-league": 0.85
+      "ecu-liga-pro": 1.25
     },
     "weights": {}
   },
   "reactive": {
     "calibration_active": 1,
-    "drift_leagues": 2,
+    "drift_leagues": 1,
     "tuned_recipes": 0
   }
 }

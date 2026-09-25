@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-24T16:28:48.853009+00:00",
+  "generated_at": "2026-09-25T08:44:23.320599+00:00",
   "ledger": "card_results",
   "weeks": [
     {
@@ -109,11 +109,11 @@
     },
     {
       "week": "2026-09-21",
-      "picks": 5,
+      "picks": 6,
       "settled": 1,
       "wins": 1,
       "losses": 0,
-      "notes": "1W \u00b7 0L \u00b7 0P \u00b7 4 pending",
+      "notes": "1W \u00b7 0L \u00b7 0P \u00b7 5 pending",
       "rows": [
         {
           "code": "col-primera",
@@ -133,6 +133,25 @@
           "league": "Categor\u00eda Primera A",
           "lam_h": 2.17,
           "lam_a": 0.74
+        },
+        {
+          "code": "sco-championship",
+          "week": "2026-09-21",
+          "strong": "Stenhousemuir",
+          "weak": "Ayr United",
+          "is_home": false,
+          "market": "Away or GG",
+          "prob": 0.9394,
+          "prob_model": 0.8823,
+          "odds": 3.15,
+          "verdict": "PENDING",
+          "note": "no result yet",
+          "score": null,
+          "profit": null,
+          "tier": "Elite",
+          "league": "Scottish Championship",
+          "lam_h": 0.75,
+          "lam_a": 2.14
         },
         {
           "code": "ned-eerste-divisie",
