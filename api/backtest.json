@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-26T07:53:20.901276+00:00",
+  "generated_at": "2026-09-26T08:23:26.901208+00:00",
   "weeks": [
     "2026-09-14",
     "2026-09-21"
@@ -2180,8 +2180,8 @@
   },
   "model_state": {
     "version": 1,
-    "generated_at": "2026-09-26T07:45:33+00:00",
-    "note": "1 active calibration bucket(s) from 8 settled picks \u00b7 1 drifted league(s) \u00b7 58 league(s) with adaptive gate factors \u00b7 118 league(s) with a recursive strength model",
+    "generated_at": "2026-09-26T08:11:58+00:00",
+    "note": "1 active calibration bucket(s) from 8 settled picks \u00b7 1 drifted league(s) \u00b7 58 league(s) with adaptive gate factors \u00b7 120 league(s) with a recursive strength model",
     "calibration": [
       {
         "lo": 0.5,
@@ -21871,6 +21871,514 @@
             "z": -1.46,
             "prior": 48.9,
             "resid_std": 0.201
+          }
+        }
+      },
+      "hon-liga-ascenso": {
+        "league": {
+          "matches": 30,
+          "teams": 34,
+          "mu": 1.0296,
+          "home_adv": -0.1741,
+          "avg_goals": 2.8
+        },
+        "teams": {
+          "48": {
+            "n": 2,
+            "att": -0.209,
+            "def": 0.129,
+            "strength_est": -0.337,
+            "z": -0.54,
+            "prior": 49.8,
+            "resid_std": 0.268
+          },
+          "2750": {
+            "n": 2,
+            "att": -0.435,
+            "def": -0.044,
+            "strength_est": -0.391,
+            "z": -0.63,
+            "prior": 49.8,
+            "resid_std": 0.047
+          },
+          "3026": {
+            "n": 2,
+            "att": 0.32,
+            "def": 0.037,
+            "strength_est": 0.283,
+            "z": 0.46,
+            "prior": 50.2,
+            "resid_std": 1.11
+          },
+          "3027": {
+            "n": 2,
+            "att": 0.403,
+            "def": -0.22,
+            "strength_est": 0.623,
+            "z": 1.0,
+            "prior": 50.4,
+            "resid_std": 0.045
+          },
+          "3028": {
+            "n": 1,
+            "att": -0.101,
+            "def": -0.509,
+            "strength_est": 0.408,
+            "z": 0.66,
+            "prior": 50.1,
+            "resid_std": 0.0
+          },
+          "3029": {
+            "n": 1,
+            "att": 0.206,
+            "def": -0.244,
+            "strength_est": 0.451,
+            "z": 0.73,
+            "prior": 50.1,
+            "resid_std": 0.0
+          },
+          "3030": {
+            "n": 2,
+            "att": -0.534,
+            "def": 0.141,
+            "strength_est": -0.674,
+            "z": -1.09,
+            "prior": 49.6,
+            "resid_std": 0.153
+          },
+          "3031": {
+            "n": 2,
+            "att": 0.24,
+            "def": 0.268,
+            "strength_est": -0.028,
+            "z": -0.05,
+            "prior": 50.0,
+            "resid_std": 0.049
+          },
+          "3032": {
+            "n": 2,
+            "att": -0.312,
+            "def": -0.68,
+            "strength_est": 0.368,
+            "z": 0.59,
+            "prior": 50.2,
+            "resid_std": 0.454
+          },
+          "3033": {
+            "n": 1,
+            "att": 0.397,
+            "def": 0.503,
+            "strength_est": -0.107,
+            "z": -0.17,
+            "prior": 50.0,
+            "resid_std": 0.0
+          },
+          "3034": {
+            "n": 2,
+            "att": -0.344,
+            "def": 0.679,
+            "strength_est": -1.023,
+            "z": -1.65,
+            "prior": 49.4,
+            "resid_std": 0.936
+          },
+          "3035": {
+            "n": 2,
+            "att": -0.035,
+            "def": -0.079,
+            "strength_est": 0.044,
+            "z": 0.07,
+            "prior": 50.0,
+            "resid_std": 0.161
+          },
+          "3036": {
+            "n": 1,
+            "att": 0.245,
+            "def": -0.205,
+            "strength_est": 0.451,
+            "z": 0.73,
+            "prior": 50.1,
+            "resid_std": 0.0
+          },
+          "3037": {
+            "n": 2,
+            "att": -0.383,
+            "def": 0.365,
+            "strength_est": -0.749,
+            "z": -1.21,
+            "prior": 49.5,
+            "resid_std": 0.007
+          },
+          "3038": {
+            "n": 2,
+            "att": 0.541,
+            "def": 0.538,
+            "strength_est": 0.003,
+            "z": 0.0,
+            "prior": 50.0,
+            "resid_std": 1.23
+          },
+          "3039": {
+            "n": 2,
+            "att": -0.567,
+            "def": 0.771,
+            "strength_est": -1.337,
+            "z": -2.16,
+            "prior": 49.2,
+            "resid_std": 0.168
+          },
+          "3040": {
+            "n": 2,
+            "att": 0.263,
+            "def": 0.112,
+            "strength_est": 0.151,
+            "z": 0.24,
+            "prior": 50.1,
+            "resid_std": 0.454
+          },
+          "3041": {
+            "n": 1,
+            "att": -0.077,
+            "def": 0.15,
+            "strength_est": -0.227,
+            "z": -0.37,
+            "prior": 49.9,
+            "resid_std": 0.0
+          },
+          "3042": {
+            "n": 2,
+            "att": 0.728,
+            "def": -0.435,
+            "strength_est": 1.163,
+            "z": 1.87,
+            "prior": 50.7,
+            "resid_std": 1.665
+          },
+          "3043": {
+            "n": 2,
+            "att": 0.138,
+            "def": 0.055,
+            "strength_est": 0.084,
+            "z": 0.13,
+            "prior": 50.1,
+            "resid_std": 0.191
+          },
+          "3044": {
+            "n": 1,
+            "att": -0.562,
+            "def": 0.542,
+            "strength_est": -1.104,
+            "z": -1.78,
+            "prior": 49.7,
+            "resid_std": 0.0
+          },
+          "3045": {
+            "n": 2,
+            "att": -0.481,
+            "def": 0.247,
+            "strength_est": -0.728,
+            "z": -1.17,
+            "prior": 49.6,
+            "resid_std": 0.559
+          },
+          "3046": {
+            "n": 2,
+            "att": -0.248,
+            "def": -0.765,
+            "strength_est": 0.516,
+            "z": 0.83,
+            "prior": 50.3,
+            "resid_std": 0.182
+          },
+          "3047": {
+            "n": 2,
+            "att": 0.161,
+            "def": -0.419,
+            "strength_est": 0.58,
+            "z": 0.94,
+            "prior": 50.4,
+            "resid_std": 0.178
+          },
+          "3048": {
+            "n": 2,
+            "att": 0.046,
+            "def": -0.701,
+            "strength_est": 0.748,
+            "z": 1.2,
+            "prior": 50.5,
+            "resid_std": 0.142
+          },
+          "3049": {
+            "n": 2,
+            "att": 0.276,
+            "def": 0.06,
+            "strength_est": 0.216,
+            "z": 0.35,
+            "prior": 50.1,
+            "resid_std": 0.246
+          },
+          "3050": {
+            "n": 1,
+            "att": -0.633,
+            "def": 0.209,
+            "strength_est": -0.843,
+            "z": -1.36,
+            "prior": 49.7,
+            "resid_std": 0.0
+          },
+          "3051": {
+            "n": 2,
+            "att": 0.072,
+            "def": 0.132,
+            "strength_est": -0.06,
+            "z": -0.1,
+            "prior": 50.0,
+            "resid_std": 0.477
+          },
+          "3052": {
+            "n": 2,
+            "att": 0.085,
+            "def": -0.069,
+            "strength_est": 0.153,
+            "z": 0.25,
+            "prior": 50.1,
+            "resid_std": 0.284
+          },
+          "3053": {
+            "n": 2,
+            "att": 0.157,
+            "def": -0.479,
+            "strength_est": 0.636,
+            "z": 1.03,
+            "prior": 50.4,
+            "resid_std": 0.394
+          },
+          "3054": {
+            "n": 2,
+            "att": -0.33,
+            "def": 0.38,
+            "strength_est": -0.71,
+            "z": -1.14,
+            "prior": 49.6,
+            "resid_std": 0.306
+          },
+          "3055": {
+            "n": 2,
+            "att": -0.009,
+            "def": 0.346,
+            "strength_est": -0.355,
+            "z": -0.57,
+            "prior": 49.8,
+            "resid_std": 0.224
+          },
+          "3056": {
+            "n": 1,
+            "att": 0.436,
+            "def": -0.42,
+            "strength_est": 0.856,
+            "z": 1.38,
+            "prior": 50.3,
+            "resid_std": 0.0
+          },
+          "3057": {
+            "n": 2,
+            "att": 0.547,
+            "def": -0.394,
+            "strength_est": 0.941,
+            "z": 1.52,
+            "prior": 50.6,
+            "resid_std": 0.554
+          }
+        }
+      },
+      "gua-primera-ascenso": {
+        "league": {
+          "matches": 30,
+          "teams": 20,
+          "mu": 0.9933,
+          "home_adv": 0.1092,
+          "avg_goals": 2.7
+        },
+        "teams": {
+          "2748": {
+            "n": 3,
+            "att": 0.726,
+            "def": -0.113,
+            "strength_est": 0.838,
+            "z": 2.01,
+            "prior": 51.1,
+            "resid_std": 0.303
+          },
+          "2749": {
+            "n": 3,
+            "att": -0.474,
+            "def": -0.315,
+            "strength_est": -0.159,
+            "z": -0.38,
+            "prior": 49.8,
+            "resid_std": 0.387
+          },
+          "3058": {
+            "n": 3,
+            "att": 0.114,
+            "def": 0.239,
+            "strength_est": -0.125,
+            "z": -0.3,
+            "prior": 49.8,
+            "resid_std": 1.058
+          },
+          "3059": {
+            "n": 3,
+            "att": 0.706,
+            "def": -0.194,
+            "strength_est": 0.9,
+            "z": 2.16,
+            "prior": 51.2,
+            "resid_std": 0.709
+          },
+          "3060": {
+            "n": 3,
+            "att": -0.133,
+            "def": -0.053,
+            "strength_est": -0.08,
+            "z": -0.19,
+            "prior": 49.9,
+            "resid_std": 0.319
+          },
+          "3061": {
+            "n": 3,
+            "att": -0.005,
+            "def": 0.392,
+            "strength_est": -0.398,
+            "z": -0.95,
+            "prior": 49.5,
+            "resid_std": 0.876
+          },
+          "3062": {
+            "n": 3,
+            "att": -0.09,
+            "def": 0.087,
+            "strength_est": -0.176,
+            "z": -0.42,
+            "prior": 49.8,
+            "resid_std": 0.452
+          },
+          "3063": {
+            "n": 3,
+            "att": -0.256,
+            "def": -0.179,
+            "strength_est": -0.077,
+            "z": -0.18,
+            "prior": 49.9,
+            "resid_std": 0.981
+          },
+          "3064": {
+            "n": 3,
+            "att": -0.23,
+            "def": -0.202,
+            "strength_est": -0.027,
+            "z": -0.07,
+            "prior": 50.0,
+            "resid_std": 1.084
+          },
+          "3065": {
+            "n": 3,
+            "att": -0.013,
+            "def": -0.037,
+            "strength_est": 0.024,
+            "z": 0.06,
+            "prior": 50.0,
+            "resid_std": 0.631
+          },
+          "3066": {
+            "n": 3,
+            "att": 0.051,
+            "def": -0.142,
+            "strength_est": 0.193,
+            "z": 0.46,
+            "prior": 50.3,
+            "resid_std": 0.854
+          },
+          "3067": {
+            "n": 3,
+            "att": 0.14,
+            "def": -0.195,
+            "strength_est": 0.335,
+            "z": 0.8,
+            "prior": 50.4,
+            "resid_std": 1.221
+          },
+          "3068": {
+            "n": 3,
+            "att": -0.636,
+            "def": 0.226,
+            "strength_est": -0.862,
+            "z": -2.07,
+            "prior": 48.8,
+            "resid_std": 0.516
+          },
+          "3069": {
+            "n": 3,
+            "att": 0.526,
+            "def": 0.234,
+            "strength_est": 0.293,
+            "z": 0.7,
+            "prior": 50.4,
+            "resid_std": 0.689
+          },
+          "3070": {
+            "n": 3,
+            "att": -0.417,
+            "def": -0.365,
+            "strength_est": -0.052,
+            "z": -0.13,
+            "prior": 49.9,
+            "resid_std": 0.077
+          },
+          "3071": {
+            "n": 3,
+            "att": 0.196,
+            "def": 0.299,
+            "strength_est": -0.103,
+            "z": -0.25,
+            "prior": 49.9,
+            "resid_std": 0.351
+          },
+          "3072": {
+            "n": 3,
+            "att": -0.228,
+            "def": 0.391,
+            "strength_est": -0.619,
+            "z": -1.49,
+            "prior": 49.2,
+            "resid_std": 0.287
+          },
+          "3073": {
+            "n": 3,
+            "att": -0.451,
+            "def": -0.112,
+            "strength_est": -0.34,
+            "z": -0.82,
+            "prior": 49.5,
+            "resid_std": 0.796
+          },
+          "3074": {
+            "n": 3,
+            "att": 0.185,
+            "def": 0.218,
+            "strength_est": -0.034,
+            "z": -0.08,
+            "prior": 50.0,
+            "resid_std": 0.343
+          },
+          "3075": {
+            "n": 3,
+            "att": 0.289,
+            "def": -0.18,
+            "strength_est": 0.469,
+            "z": 1.13,
+            "prior": 50.6,
+            "resid_std": 0.261
           }
         }
       }
