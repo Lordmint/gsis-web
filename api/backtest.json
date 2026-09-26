@@ -1,37 +1,37 @@
 {
-  "generated_at": "2026-09-26T15:39:04.683923+00:00",
+  "generated_at": "2026-09-26T18:07:21.686521+00:00",
   "weeks": [
     "2026-09-14",
     "2026-09-21"
   ],
   "picks": 12,
-  "settled": 8,
-  "pending": 4,
-  "wins": 8,
-  "losses": 0,
+  "settled": 10,
+  "pending": 2,
+  "wins": 9,
+  "losses": 1,
   "pushes": 0,
-  "hit_rate": 1.0,
-  "overall_roi": 0.8975000000000001,
-  "modelled_edge": 0.8028656249999999,
-  "realized_edge": 0.8975000000000001,
-  "realized_net_profit": 7.180000000000001,
+  "hit_rate": 0.9,
+  "overall_roi": 0.674,
+  "modelled_edge": 0.6751919000000001,
+  "realized_edge": 0.674,
+  "realized_net_profit": 6.74,
   "calibration": [
     {
       "bucket": "70%+",
-      "n": 8,
+      "n": 10,
       "model": 0.75,
-      "realized": 1.0,
-      "roi": 0.8975000000000001,
-      "ci_lo": 0.7168711644368866,
-      "ci_hi": 0.9943169550119528,
-      "bayes_mean": 0.9,
-      "verdict": "under-implied"
+      "realized": 0.9,
+      "roi": 0.674,
+      "ci_lo": 0.6356405107527572,
+      "ci_hi": 0.9666807823687626,
+      "bayes_mean": 0.8333333333333334,
+      "verdict": "on-track"
     }
   ],
   "health": {
-    "on_track": 0,
+    "on_track": 1,
     "over_implied": 0,
-    "under_implied": 1,
+    "under_implied": 0,
     "checked": 1
   },
   "by_market": [
@@ -44,6 +44,14 @@
       "roi": 1.15
     },
     {
+      "key": "AH Home (0)",
+      "n": 2,
+      "wins": 1,
+      "losses": 1,
+      "hit": 0.5,
+      "roi": -0.33999999999999997
+    },
+    {
       "key": "Home or GG",
       "n": 2,
       "wins": 2,
@@ -52,30 +60,30 @@
       "roi": 0.5800000000000001
     },
     {
-      "key": "AH Home (0)",
-      "n": 1,
-      "wins": 1,
-      "losses": 0,
-      "hit": 1.0,
-      "roi": 0.32000000000000006
-    },
-    {
       "key": "Double Chance \u00b7 1UP",
       "n": 1,
       "wins": 1,
       "losses": 0,
       "hit": 1.0,
       "roi": 1.1
+    },
+    {
+      "key": "AH Away (0)",
+      "n": 1,
+      "wins": 1,
+      "losses": 0,
+      "hit": 1.0,
+      "roi": 0.56
     }
   ],
   "by_tier": [
     {
       "key": "Elite",
-      "n": 5,
-      "wins": 5,
-      "losses": 0,
-      "hit": 1.0,
-      "roi": 0.9440000000000002
+      "n": 7,
+      "wins": 6,
+      "losses": 1,
+      "hit": 0.8571428571428571,
+      "roi": 0.6114285714285714
     },
     {
       "key": "Reliable",
@@ -87,6 +95,14 @@
     }
   ],
   "by_league": [
+    {
+      "key": "National League",
+      "n": 3,
+      "wins": 2,
+      "losses": 1,
+      "hit": 0.6666666666666666,
+      "roi": 0.03333333333333336
+    },
     {
       "key": "Scottish Championship",
       "n": 2,
@@ -110,14 +126,6 @@
       "losses": 0,
       "hit": 1.0,
       "roi": 0.6100000000000001
-    },
-    {
-      "key": "National League",
-      "n": 1,
-      "wins": 1,
-      "losses": 0,
-      "hit": 1.0,
-      "roi": 0.54
     },
     {
       "key": "Scottish Premiership",
@@ -155,14 +163,24 @@
     },
     {
       "key": "2026-09-21",
-      "n": 3,
-      "wins": 3,
-      "losses": 0,
-      "hit": 1.0,
-      "roi": 1.29
+      "n": 5,
+      "wins": 4,
+      "losses": 1,
+      "hit": 0.8,
+      "roi": 0.686
     }
   ],
-  "concentration": [],
+  "concentration": [
+    {
+      "week": "2026-09-21",
+      "league": "National League",
+      "n": 2,
+      "line": [
+        "AH Away (0) 85%",
+        "AH Home (0) 81%"
+      ]
+    }
+  ],
   "drift": [
     {
       "league": "ecu-liga-pro",
@@ -583,29 +601,35 @@
       103.30999999999999,
       103.92999999999999,
       106.08,
-      107.17999999999999
+      107.17999999999999,
+      107.74,
+      106.74
     ],
     "quarter_kelly": [
       100.0,
-      102.621,
-      117.031553925,
-      147.37198428005624,
-      164.5380940669736,
-      192.10752122550647,
-      218.41414885956365,
-      327.5384989304649,
-      412.45285477818794
+      101.6442,
+      115.917586785,
+      145.12939824275392,
+      160.38039362179285,
+      185.18811309740857,
+      208.3271826408167,
+      307.5557634134424,
+      387.2895950783773,
+      418.74796701780866,
+      366.3338918461417
     ],
     "bayes_kelly": [
       100.0,
-      101.631,
-      114.67533885,
-      142.59878385997501,
-      157.561888148578,
-      181.90622401980625,
-      204.60575599656582,
-      301.9973285793461,
-      375.5336780884169
+      100.6542,
+      113.57316657000001,
+      140.40539503799536,
+      153.53828386557177,
+      175.28398777859462,
+      195.05584631603233,
+      283.3549459254133,
+      352.3518752582514,
+      376.8498440893319,
+      337.06513744425905
     ],
     "start": 100.0
   },
@@ -2180,8 +2204,8 @@
   },
   "model_state": {
     "version": 1,
-    "generated_at": "2026-09-26T15:24:19+00:00",
-    "note": "1 active calibration bucket(s) from 8 settled picks \u00b7 1 drifted league(s) \u00b7 58 league(s) with adaptive gate factors \u00b7 120 league(s) with a recursive strength model",
+    "generated_at": "2026-09-26T17:44:52+00:00",
+    "note": "1 active calibration bucket(s) from 10 settled picks \u00b7 1 drifted league(s) \u00b7 58 league(s) with adaptive gate factors \u00b7 120 league(s) with a recursive strength model",
     "calibration": [
       {
         "lo": 0.5,
@@ -2238,14 +2262,14 @@
       {
         "lo": 0.7,
         "hi": 1.01,
-        "n": 8,
-        "wins": 8,
+        "n": 10,
+        "wins": 9,
         "pushes": 0,
-        "realized": 1.0,
+        "realized": 0.9,
         "model_mid": 0.8,
-        "delta": 0.2,
-        "delta_shrunk": 0.0696,
-        "sigma": 0.0696,
+        "delta": 0.1,
+        "delta_shrunk": 0.04,
+        "sigma": 0.04,
         "active": true
       }
     ],
