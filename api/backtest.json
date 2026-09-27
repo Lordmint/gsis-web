@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-27T16:44:36.481048+00:00",
+  "generated_at": "2026-09-27T18:32:59.329433+00:00",
   "weeks": [
     "2026-09-14",
     "2026-09-21",
@@ -2416,7 +2416,7 @@
   },
   "model_state": {
     "version": 1,
-    "generated_at": "2026-09-27T16:27:40+00:00",
+    "generated_at": "2026-09-27T18:15:28+00:00",
     "note": "1 active calibration bucket(s) from 12 settled picks \u00b7 1 drifted league(s) \u00b7 65 league(s) with adaptive gate factors \u00b7 125 league(s) with a recursive strength model",
     "calibration": [
       {
@@ -2806,9 +2806,15 @@
         "hit_rate": 60.8,
         "slots": 18,
         "learning_delta": -14.03,
-        "min_win": 0.634,
-        "min_win_dc": 0.594,
-        "min_gap": 2.06
+        "min_win": 0.654,
+        "min_win_dc": 0.614,
+        "min_gap": 2.06,
+        "pick_gate": {
+          "slots": 8,
+          "hit_rate": 12.5,
+          "ci_hi": 42.9,
+          "action": "tightened"
+        }
       },
       "nor-1-divisjon": {
         "hit_rate": 54.1,
