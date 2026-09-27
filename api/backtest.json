@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-27T15:34:21.516613+00:00",
+  "generated_at": "2026-09-27T16:44:36.481048+00:00",
   "weeks": [
     "2026-09-14",
     "2026-09-21",
@@ -2416,7 +2416,7 @@
   },
   "model_state": {
     "version": 1,
-    "generated_at": "2026-09-27T15:19:19+00:00",
+    "generated_at": "2026-09-27T16:27:40+00:00",
     "note": "1 active calibration bucket(s) from 12 settled picks \u00b7 1 drifted league(s) \u00b7 65 league(s) with adaptive gate factors \u00b7 125 league(s) with a recursive strength model",
     "calibration": [
       {
@@ -23277,6 +23277,1475 @@
             "resid_std": 0.28
           }
         }
+      }
+    },
+    "coverage": {
+      "eng-premier-league": {
+        "form_feed": true,
+        "match_events": 133,
+        "espn": true,
+        "espn_code": "eng.1",
+        "wiki": true,
+        "sofa": false,
+        "injury_feed": false
+      },
+      "eng-championship": {
+        "form_feed": false,
+        "match_events": 87,
+        "espn": true,
+        "espn_code": "eng.2",
+        "wiki": true,
+        "sofa": false,
+        "injury_feed": false
+      },
+      "eng-league-one": {
+        "form_feed": true,
+        "match_events": 72,
+        "espn": true,
+        "espn_code": "eng.3",
+        "wiki": true,
+        "sofa": false,
+        "injury_feed": false
+      },
+      "eng-league-two": {
+        "form_feed": false,
+        "match_events": 0,
+        "espn": true,
+        "espn_code": "eng.4",
+        "wiki": true,
+        "sofa": false,
+        "injury_feed": false
+      },
+      "eng-national-league": {
+        "form_feed": false,
+        "match_events": 0,
+        "espn": true,
+        "espn_code": "eng.5",
+        "wiki": true,
+        "sofa": false,
+        "injury_feed": false
+      },
+      "esp-la-liga": {
+        "form_feed": true,
+        "match_events": 105,
+        "espn": true,
+        "espn_code": "esp.1",
+        "wiki": true,
+        "sofa": false,
+        "injury_feed": false
+      },
+      "esp-la-liga-2": {
+        "form_feed": true,
+        "match_events": 55,
+        "espn": true,
+        "espn_code": "esp.2",
+        "wiki": true,
+        "sofa": false,
+        "injury_feed": false
+      },
+      "esp-primera-rfef": {
+        "form_feed": true,
+        "match_events": 36,
+        "espn": false,
+        "espn_code": null,
+        "wiki": true,
+        "sofa": false,
+        "injury_feed": false
+      },
+      "ita-serie-a": {
+        "form_feed": true,
+        "match_events": 131,
+        "espn": true,
+        "espn_code": "ita.1",
+        "wiki": true,
+        "sofa": false,
+        "injury_feed": false
+      },
+      "ita-serie-b": {
+        "form_feed": true,
+        "match_events": 77,
+        "espn": true,
+        "espn_code": "ita.2",
+        "wiki": true,
+        "sofa": false,
+        "injury_feed": false
+      },
+      "ita-serie-c": {
+        "form_feed": false,
+        "match_events": 0,
+        "espn": false,
+        "espn_code": null,
+        "wiki": true,
+        "sofa": false,
+        "injury_feed": false
+      },
+      "ger-bundesliga": {
+        "form_feed": true,
+        "match_events": 103,
+        "espn": true,
+        "espn_code": "ger.1",
+        "wiki": true,
+        "sofa": false,
+        "injury_feed": false
+      },
+      "ger-2-bundesliga": {
+        "form_feed": true,
+        "match_events": 45,
+        "espn": true,
+        "espn_code": "ger.2",
+        "wiki": true,
+        "sofa": false,
+        "injury_feed": false
+      },
+      "ger-3-liga": {
+        "form_feed": true,
+        "match_events": 67,
+        "espn": false,
+        "espn_code": null,
+        "wiki": true,
+        "sofa": false,
+        "injury_feed": false
+      },
+      "fra-ligue-1": {
+        "form_feed": true,
+        "match_events": 77,
+        "espn": true,
+        "espn_code": "fra.1",
+        "wiki": true,
+        "sofa": false,
+        "injury_feed": false
+      },
+      "fra-ligue-2": {
+        "form_feed": true,
+        "match_events": 54,
+        "espn": true,
+        "espn_code": "fra.2",
+        "wiki": true,
+        "sofa": false,
+        "injury_feed": false
+      },
+      "ned-eredivisie": {
+        "form_feed": true,
+        "match_events": 55,
+        "espn": true,
+        "espn_code": "ned.1",
+        "wiki": true,
+        "sofa": false,
+        "injury_feed": false
+      },
+      "ned-eerste-divisie": {
+        "form_feed": true,
+        "match_events": 64,
+        "espn": true,
+        "espn_code": "ned.2",
+        "wiki": true,
+        "sofa": false,
+        "injury_feed": false
+      },
+      "por-primeira-liga": {
+        "form_feed": true,
+        "match_events": 53,
+        "espn": true,
+        "espn_code": "por.1",
+        "wiki": true,
+        "sofa": false,
+        "injury_feed": false
+      },
+      "bel-pro-league": {
+        "form_feed": true,
+        "match_events": 54,
+        "espn": true,
+        "espn_code": "bel.1",
+        "wiki": true,
+        "sofa": false,
+        "injury_feed": false
+      },
+      "sco-premiership": {
+        "form_feed": true,
+        "match_events": 33,
+        "espn": true,
+        "espn_code": "sco.1",
+        "wiki": true,
+        "sofa": false,
+        "injury_feed": false
+      },
+      "sco-championship": {
+        "form_feed": true,
+        "match_events": 30,
+        "espn": true,
+        "espn_code": "sco.2",
+        "wiki": true,
+        "sofa": false,
+        "injury_feed": false
+      },
+      "tur-super-lig": {
+        "form_feed": true,
+        "match_events": 45,
+        "espn": true,
+        "espn_code": "tur.1",
+        "wiki": true,
+        "sofa": false,
+        "injury_feed": false
+      },
+      "tur-1-lig": {
+        "form_feed": true,
+        "match_events": 67,
+        "espn": false,
+        "espn_code": null,
+        "wiki": true,
+        "sofa": false,
+        "injury_feed": false
+      },
+      "sui-super-league": {
+        "form_feed": true,
+        "match_events": 52,
+        "espn": false,
+        "espn_code": null,
+        "wiki": true,
+        "sofa": false,
+        "injury_feed": false
+      },
+      "sui-challenge-league": {
+        "form_feed": true,
+        "match_events": 45,
+        "espn": false,
+        "espn_code": null,
+        "wiki": true,
+        "sofa": false,
+        "injury_feed": false
+      },
+      "isr-premier-league": {
+        "form_feed": false,
+        "match_events": 0,
+        "espn": true,
+        "espn_code": "isr.1",
+        "wiki": true,
+        "sofa": false,
+        "injury_feed": false
+      },
+      "isr-leumit": {
+        "form_feed": true,
+        "match_events": 49,
+        "espn": false,
+        "espn_code": null,
+        "wiki": true,
+        "sofa": false,
+        "injury_feed": false
+      },
+      "aut-bundesliga": {
+        "form_feed": true,
+        "match_events": 36,
+        "espn": true,
+        "espn_code": "aut.1",
+        "wiki": true,
+        "sofa": false,
+        "injury_feed": false
+      },
+      "aut-2-liga": {
+        "form_feed": true,
+        "match_events": 44,
+        "espn": false,
+        "espn_code": null,
+        "wiki": true,
+        "sofa": false,
+        "injury_feed": false
+      },
+      "den-superliga": {
+        "form_feed": true,
+        "match_events": 48,
+        "espn": true,
+        "espn_code": "den.1",
+        "wiki": true,
+        "sofa": false,
+        "injury_feed": false
+      },
+      "den-1-division": {
+        "form_feed": true,
+        "match_events": 39,
+        "espn": false,
+        "espn_code": null,
+        "wiki": true,
+        "sofa": false,
+        "injury_feed": false
+      },
+      "swe-allsvenskan": {
+        "form_feed": true,
+        "match_events": 105,
+        "espn": true,
+        "espn_code": "swe.1",
+        "wiki": true,
+        "sofa": false,
+        "injury_feed": false
+      },
+      "swe-superettan": {
+        "form_feed": true,
+        "match_events": 200,
+        "espn": false,
+        "espn_code": null,
+        "wiki": true,
+        "sofa": false,
+        "injury_feed": false
+      },
+      "nor-eliteserien": {
+        "form_feed": true,
+        "match_events": 89,
+        "espn": true,
+        "espn_code": "nor.1",
+        "wiki": true,
+        "sofa": false,
+        "injury_feed": false
+      },
+      "nor-1-divisjon": {
+        "form_feed": true,
+        "match_events": 168,
+        "espn": false,
+        "espn_code": null,
+        "wiki": true,
+        "sofa": false,
+        "injury_feed": false
+      },
+      "pol-ekstraklasa": {
+        "form_feed": true,
+        "match_events": 78,
+        "espn": false,
+        "espn_code": null,
+        "wiki": true,
+        "sofa": false,
+        "injury_feed": false
+      },
+      "pol-1-liga": {
+        "form_feed": true,
+        "match_events": 80,
+        "espn": false,
+        "espn_code": null,
+        "wiki": true,
+        "sofa": false,
+        "injury_feed": false
+      },
+      "isl-besta-deild": {
+        "form_feed": true,
+        "match_events": 108,
+        "espn": false,
+        "espn_code": null,
+        "wiki": true,
+        "sofa": false,
+        "injury_feed": false
+      },
+      "fai-premier-league": {
+        "form_feed": true,
+        "match_events": 49,
+        "espn": false,
+        "espn_code": null,
+        "wiki": false,
+        "sofa": true,
+        "injury_feed": false
+      },
+      "fai-first-league": {
+        "form_feed": true,
+        "match_events": 50,
+        "espn": false,
+        "espn_code": null,
+        "wiki": false,
+        "sofa": true,
+        "injury_feed": false
+      },
+      "est-meistriliiga": {
+        "form_feed": true,
+        "match_events": 90,
+        "espn": false,
+        "espn_code": null,
+        "wiki": true,
+        "sofa": false,
+        "injury_feed": false
+      },
+      "est-esiliiga": {
+        "form_feed": true,
+        "match_events": 72,
+        "espn": false,
+        "espn_code": null,
+        "wiki": true,
+        "sofa": false,
+        "injury_feed": false
+      },
+      "lva-virsliga": {
+        "form_feed": true,
+        "match_events": 146,
+        "espn": false,
+        "espn_code": null,
+        "wiki": true,
+        "sofa": false,
+        "injury_feed": false
+      },
+      "azr-premier-league": {
+        "form_feed": true,
+        "match_events": 34,
+        "espn": false,
+        "espn_code": null,
+        "wiki": true,
+        "sofa": false,
+        "injury_feed": false
+      },
+      "arm-premier-league": {
+        "form_feed": true,
+        "match_events": 45,
+        "espn": false,
+        "espn_code": null,
+        "wiki": true,
+        "sofa": false,
+        "injury_feed": false
+      },
+      "gre-super-league": {
+        "form_feed": true,
+        "match_events": 58,
+        "espn": true,
+        "espn_code": "gre.1",
+        "wiki": true,
+        "sofa": false,
+        "injury_feed": false
+      },
+      "ukr-premier-league": {
+        "form_feed": true,
+        "match_events": 52,
+        "espn": false,
+        "espn_code": null,
+        "wiki": true,
+        "sofa": false,
+        "injury_feed": false
+      },
+      "ukr-persha": {
+        "form_feed": true,
+        "match_events": 62,
+        "espn": false,
+        "espn_code": null,
+        "wiki": true,
+        "sofa": false,
+        "injury_feed": false
+      },
+      "cze-first-league": {
+        "form_feed": true,
+        "match_events": 71,
+        "espn": false,
+        "espn_code": null,
+        "wiki": true,
+        "sofa": false,
+        "injury_feed": false
+      },
+      "cze-national-league": {
+        "form_feed": false,
+        "match_events": 0,
+        "espn": false,
+        "espn_code": null,
+        "wiki": true,
+        "sofa": false,
+        "injury_feed": false
+      },
+      "rou-liga-1": {
+        "form_feed": true,
+        "match_events": 18,
+        "espn": false,
+        "espn_code": null,
+        "wiki": true,
+        "sofa": false,
+        "injury_feed": false
+      },
+      "rou-liga-2": {
+        "form_feed": true,
+        "match_events": 72,
+        "espn": false,
+        "espn_code": null,
+        "wiki": true,
+        "sofa": false,
+        "injury_feed": false
+      },
+      "cro-hnl": {
+        "form_feed": true,
+        "match_events": 43,
+        "espn": false,
+        "espn_code": null,
+        "wiki": false,
+        "sofa": true,
+        "injury_feed": false
+      },
+      "cro-first-league": {
+        "form_feed": true,
+        "match_events": 14,
+        "espn": false,
+        "espn_code": null,
+        "wiki": true,
+        "sofa": false,
+        "injury_feed": false
+      },
+      "hun-nb1": {
+        "form_feed": true,
+        "match_events": 42,
+        "espn": false,
+        "espn_code": null,
+        "wiki": true,
+        "sofa": false,
+        "injury_feed": false
+      },
+      "fin-veikkausliiga": {
+        "form_feed": true,
+        "match_events": 99,
+        "espn": false,
+        "espn_code": null,
+        "wiki": true,
+        "sofa": false,
+        "injury_feed": false
+      },
+      "fin-ykkosliiga": {
+        "form_feed": true,
+        "match_events": 60,
+        "espn": false,
+        "espn_code": null,
+        "wiki": true,
+        "sofa": false,
+        "injury_feed": false
+      },
+      "por-segunda-liga": {
+        "form_feed": true,
+        "match_events": 47,
+        "espn": false,
+        "espn_code": null,
+        "wiki": true,
+        "sofa": false,
+        "injury_feed": false
+      },
+      "bel-challenger-pro-league": {
+        "form_feed": true,
+        "match_events": 30,
+        "espn": false,
+        "espn_code": null,
+        "wiki": true,
+        "sofa": true,
+        "injury_feed": false
+      },
+      "rus-premier-league": {
+        "form_feed": false,
+        "match_events": 0,
+        "espn": true,
+        "espn_code": "rus.1",
+        "wiki": true,
+        "sofa": false,
+        "injury_feed": false
+      },
+      "rus-first-league": {
+        "form_feed": true,
+        "match_events": 103,
+        "espn": false,
+        "espn_code": null,
+        "wiki": true,
+        "sofa": false,
+        "injury_feed": false
+      },
+      "cyp-first-division": {
+        "form_feed": false,
+        "match_events": 0,
+        "espn": true,
+        "espn_code": "cyp.1",
+        "wiki": true,
+        "sofa": false,
+        "injury_feed": false
+      },
+      "wal-cymru-premier": {
+        "form_feed": true,
+        "match_events": 74,
+        "espn": true,
+        "espn_code": "wal.1",
+        "wiki": true,
+        "sofa": false,
+        "injury_feed": false
+      },
+      "mlt-premier-league": {
+        "form_feed": false,
+        "match_events": 0,
+        "espn": true,
+        "espn_code": "mlt.1",
+        "wiki": true,
+        "sofa": false,
+        "injury_feed": false
+      },
+      "irl-premier": {
+        "form_feed": true,
+        "match_events": 89,
+        "espn": true,
+        "espn_code": "irl.1",
+        "wiki": true,
+        "sofa": false,
+        "injury_feed": false
+      },
+      "irl-first-division": {
+        "form_feed": true,
+        "match_events": 81,
+        "espn": false,
+        "espn_code": null,
+        "wiki": true,
+        "sofa": false,
+        "injury_feed": false
+      },
+      "nir-premiership": {
+        "form_feed": true,
+        "match_events": 47,
+        "espn": false,
+        "espn_code": null,
+        "wiki": false,
+        "sofa": true,
+        "injury_feed": false
+      },
+      "nir-championship": {
+        "form_feed": true,
+        "match_events": 47,
+        "espn": false,
+        "espn_code": null,
+        "wiki": false,
+        "sofa": true,
+        "injury_feed": false
+      },
+      "srp-superliga": {
+        "form_feed": true,
+        "match_events": 70,
+        "espn": false,
+        "espn_code": null,
+        "wiki": true,
+        "sofa": false,
+        "injury_feed": false
+      },
+      "srp-first-league": {
+        "form_feed": true,
+        "match_events": 97,
+        "espn": false,
+        "espn_code": null,
+        "wiki": true,
+        "sofa": false,
+        "injury_feed": false
+      },
+      "bul-first-league": {
+        "form_feed": true,
+        "match_events": 58,
+        "espn": false,
+        "espn_code": null,
+        "wiki": true,
+        "sofa": false,
+        "injury_feed": false
+      },
+      "bul-second-league": {
+        "form_feed": true,
+        "match_events": 86,
+        "espn": false,
+        "espn_code": null,
+        "wiki": true,
+        "sofa": false,
+        "injury_feed": false
+      },
+      "svn-prvaliga": {
+        "form_feed": true,
+        "match_events": 44,
+        "espn": false,
+        "espn_code": null,
+        "wiki": true,
+        "sofa": false,
+        "injury_feed": false
+      },
+      "svk-first-league": {
+        "form_feed": true,
+        "match_events": 26,
+        "espn": false,
+        "espn_code": null,
+        "wiki": true,
+        "sofa": false,
+        "injury_feed": false
+      },
+      "blr-premier-league": {
+        "form_feed": true,
+        "match_events": 179,
+        "espn": false,
+        "espn_code": null,
+        "wiki": true,
+        "sofa": false,
+        "injury_feed": false
+      },
+      "alb-superiore": {
+        "form_feed": true,
+        "match_events": 23,
+        "espn": false,
+        "espn_code": null,
+        "wiki": true,
+        "sofa": false,
+        "injury_feed": false
+      },
+      "geo-erovnuli": {
+        "form_feed": true,
+        "match_events": 129,
+        "espn": false,
+        "espn_code": null,
+        "wiki": true,
+        "sofa": false,
+        "injury_feed": false
+      },
+      "geo-erovnuli-2": {
+        "form_feed": true,
+        "match_events": 33,
+        "espn": false,
+        "espn_code": null,
+        "wiki": false,
+        "sofa": true,
+        "injury_feed": false
+      },
+      "ltu-toplyga": {
+        "form_feed": true,
+        "match_events": 72,
+        "espn": false,
+        "espn_code": null,
+        "wiki": true,
+        "sofa": false,
+        "injury_feed": false
+      },
+      "ltu-pirma-lyga": {
+        "form_feed": true,
+        "match_events": 5,
+        "espn": false,
+        "espn_code": null,
+        "wiki": false,
+        "sofa": true,
+        "injury_feed": false
+      },
+      "mkd-first-league": {
+        "form_feed": true,
+        "match_events": 40,
+        "espn": false,
+        "espn_code": null,
+        "wiki": true,
+        "sofa": false,
+        "injury_feed": false
+      },
+      "mkd-second-league": {
+        "form_feed": true,
+        "match_events": 31,
+        "espn": false,
+        "espn_code": null,
+        "wiki": true,
+        "sofa": false,
+        "injury_feed": false
+      },
+      "mne-first-league": {
+        "form_feed": true,
+        "match_events": 43,
+        "espn": false,
+        "espn_code": null,
+        "wiki": false,
+        "sofa": true,
+        "injury_feed": false
+      },
+      "mne-second-league": {
+        "form_feed": true,
+        "match_events": 43,
+        "espn": false,
+        "espn_code": null,
+        "wiki": false,
+        "sofa": true,
+        "injury_feed": false
+      },
+      "kos-superleague": {
+        "form_feed": true,
+        "match_events": 34,
+        "espn": false,
+        "espn_code": null,
+        "wiki": true,
+        "sofa": false,
+        "injury_feed": false
+      },
+      "lux-national-division": {
+        "form_feed": true,
+        "match_events": 56,
+        "espn": false,
+        "espn_code": null,
+        "wiki": true,
+        "sofa": false,
+        "injury_feed": false
+      },
+      "lux-division-of-honour": {
+        "form_feed": true,
+        "match_events": 38,
+        "espn": false,
+        "espn_code": null,
+        "wiki": true,
+        "sofa": false,
+        "injury_feed": false
+      },
+      "bih-premijer": {
+        "form_feed": true,
+        "match_events": 37,
+        "espn": false,
+        "espn_code": null,
+        "wiki": true,
+        "sofa": false,
+        "injury_feed": false
+      },
+      "mda-liga-1": {
+        "form_feed": true,
+        "match_events": 24,
+        "espn": false,
+        "espn_code": null,
+        "wiki": true,
+        "sofa": false,
+        "injury_feed": false
+      },
+      "gha-premier-league": {
+        "form_feed": true,
+        "match_events": 54,
+        "espn": true,
+        "espn_code": "gha.1",
+        "wiki": true,
+        "sofa": false,
+        "injury_feed": false
+      },
+      "egy-premier-league": {
+        "form_feed": true,
+        "match_events": 101,
+        "espn": false,
+        "espn_code": null,
+        "wiki": true,
+        "sofa": false,
+        "injury_feed": false
+      },
+      "zim-premier-league": {
+        "form_feed": false,
+        "match_events": 0,
+        "espn": false,
+        "espn_code": null,
+        "wiki": true,
+        "sofa": false,
+        "injury_feed": false
+      },
+      "eth-premier-league": {
+        "form_feed": true,
+        "match_events": 38,
+        "espn": false,
+        "espn_code": null,
+        "wiki": false,
+        "sofa": true,
+        "injury_feed": false
+      },
+      "tza-premier-league": {
+        "form_feed": true,
+        "match_events": 39,
+        "espn": false,
+        "espn_code": null,
+        "wiki": false,
+        "sofa": true,
+        "injury_feed": false
+      },
+      "moz-mocambola": {
+        "form_feed": true,
+        "match_events": 38,
+        "espn": false,
+        "espn_code": null,
+        "wiki": false,
+        "sofa": true,
+        "injury_feed": false
+      },
+      "mar-botola": {
+        "form_feed": true,
+        "match_events": 49,
+        "espn": false,
+        "espn_code": null,
+        "wiki": true,
+        "sofa": false,
+        "injury_feed": false
+      },
+      "rsa-premiership": {
+        "form_feed": true,
+        "match_events": 49,
+        "espn": true,
+        "espn_code": "rsa.1",
+        "wiki": true,
+        "sofa": false,
+        "injury_feed": false
+      },
+      "ngr-npfl": {
+        "form_feed": true,
+        "match_events": 10,
+        "espn": true,
+        "espn_code": "nga.1",
+        "wiki": true,
+        "sofa": false,
+        "injury_feed": false
+      },
+      "ken-premier-league": {
+        "form_feed": true,
+        "match_events": 22,
+        "espn": true,
+        "espn_code": "ken.1",
+        "wiki": false,
+        "sofa": false,
+        "injury_feed": false
+      },
+      "rsa-national-first-division": {
+        "form_feed": false,
+        "match_events": 0,
+        "espn": true,
+        "espn_code": "rsa.2",
+        "wiki": true,
+        "sofa": false,
+        "injury_feed": false
+      },
+      "alg-ligue-1": {
+        "form_feed": false,
+        "match_events": 20,
+        "espn": false,
+        "espn_code": null,
+        "wiki": true,
+        "sofa": false,
+        "injury_feed": false
+      },
+      "tun-ligue-1": {
+        "form_feed": true,
+        "match_events": 27,
+        "espn": false,
+        "espn_code": null,
+        "wiki": true,
+        "sofa": false,
+        "injury_feed": false
+      },
+      "jpn-j1-league": {
+        "form_feed": true,
+        "match_events": 144,
+        "espn": true,
+        "espn_code": "jpn.1",
+        "wiki": false,
+        "sofa": false,
+        "injury_feed": false
+      },
+      "jpn-j2-league": {
+        "form_feed": true,
+        "match_events": 70,
+        "espn": false,
+        "espn_code": null,
+        "wiki": true,
+        "sofa": false,
+        "injury_feed": false
+      },
+      "sau-pro-league": {
+        "form_feed": false,
+        "match_events": 0,
+        "espn": true,
+        "espn_code": "ksa.1",
+        "wiki": true,
+        "sofa": false,
+        "injury_feed": false
+      },
+      "ind-isl": {
+        "form_feed": false,
+        "match_events": 6,
+        "espn": true,
+        "espn_code": "ind.1",
+        "wiki": true,
+        "sofa": false,
+        "injury_feed": false
+      },
+      "ind-i-league": {
+        "form_feed": false,
+        "match_events": 0,
+        "espn": true,
+        "espn_code": "ind.2",
+        "wiki": false,
+        "sofa": false,
+        "injury_feed": false
+      },
+      "mys-super-league": {
+        "form_feed": false,
+        "match_events": 0,
+        "espn": true,
+        "espn_code": "mys.1",
+        "wiki": true,
+        "sofa": false,
+        "injury_feed": false
+      },
+      "sgp-premier-league": {
+        "form_feed": false,
+        "match_events": 0,
+        "espn": true,
+        "espn_code": "sgp.1",
+        "wiki": true,
+        "sofa": false,
+        "injury_feed": false
+      },
+      "kor-k-league": {
+        "form_feed": true,
+        "match_events": 176,
+        "espn": false,
+        "espn_code": null,
+        "wiki": true,
+        "sofa": false,
+        "injury_feed": false
+      },
+      "kor-k-league-2": {
+        "form_feed": true,
+        "match_events": 216,
+        "espn": false,
+        "espn_code": null,
+        "wiki": true,
+        "sofa": false,
+        "injury_feed": false
+      },
+      "kaz-premier-league": {
+        "form_feed": true,
+        "match_events": 193,
+        "espn": false,
+        "espn_code": null,
+        "wiki": true,
+        "sofa": false,
+        "injury_feed": false
+      },
+      "chn-csl": {
+        "form_feed": true,
+        "match_events": 111,
+        "espn": true,
+        "espn_code": "chn.1",
+        "wiki": true,
+        "sofa": false,
+        "injury_feed": false
+      },
+      "chn-league-one": {
+        "form_feed": true,
+        "match_events": 410,
+        "espn": false,
+        "espn_code": null,
+        "wiki": true,
+        "sofa": false,
+        "injury_feed": false
+      },
+      "tha-league-1": {
+        "form_feed": false,
+        "match_events": 0,
+        "espn": true,
+        "espn_code": "tha.1",
+        "wiki": true,
+        "sofa": false,
+        "injury_feed": false
+      },
+      "tha-league-2": {
+        "form_feed": true,
+        "match_events": 34,
+        "espn": false,
+        "espn_code": null,
+        "wiki": true,
+        "sofa": false,
+        "injury_feed": false
+      },
+      "idn-super-league": {
+        "form_feed": true,
+        "match_events": 9,
+        "espn": true,
+        "espn_code": "idn.1",
+        "wiki": true,
+        "sofa": false,
+        "injury_feed": false
+      },
+      "qat-stars-league": {
+        "form_feed": true,
+        "match_events": 132,
+        "espn": false,
+        "espn_code": null,
+        "wiki": true,
+        "sofa": false,
+        "injury_feed": false
+      },
+      "uae-pro-league": {
+        "form_feed": true,
+        "match_events": 182,
+        "espn": false,
+        "espn_code": null,
+        "wiki": true,
+        "sofa": false,
+        "injury_feed": false
+      },
+      "irq-stars-league": {
+        "form_feed": true,
+        "match_events": 80,
+        "espn": false,
+        "espn_code": null,
+        "wiki": true,
+        "sofa": false,
+        "injury_feed": false
+      },
+      "jor-pro-league": {
+        "form_feed": true,
+        "match_events": 15,
+        "espn": false,
+        "espn_code": null,
+        "wiki": true,
+        "sofa": false,
+        "injury_feed": false
+      },
+      "kuw-premier": {
+        "form_feed": true,
+        "match_events": 47,
+        "espn": false,
+        "espn_code": null,
+        "wiki": true,
+        "sofa": true,
+        "injury_feed": false
+      },
+      "lbn-premier": {
+        "form_feed": false,
+        "match_events": 0,
+        "espn": false,
+        "espn_code": null,
+        "wiki": true,
+        "sofa": true,
+        "injury_feed": false
+      },
+      "vnm-vleague": {
+        "form_feed": true,
+        "match_events": 15,
+        "espn": false,
+        "espn_code": null,
+        "wiki": true,
+        "sofa": false,
+        "injury_feed": false
+      },
+      "hkg-premier": {
+        "form_feed": true,
+        "match_events": 18,
+        "espn": false,
+        "espn_code": null,
+        "wiki": true,
+        "sofa": false,
+        "injury_feed": false
+      },
+      "uzb-super-league": {
+        "form_feed": true,
+        "match_events": 78,
+        "espn": false,
+        "espn_code": null,
+        "wiki": true,
+        "sofa": false,
+        "injury_feed": false
+      },
+      "uzb-pro-league": {
+        "form_feed": false,
+        "match_events": 0,
+        "espn": false,
+        "espn_code": null,
+        "wiki": true,
+        "sofa": false,
+        "injury_feed": false
+      },
+      "irn-premier-league": {
+        "form_feed": true,
+        "match_events": 57,
+        "espn": false,
+        "espn_code": null,
+        "wiki": true,
+        "sofa": false,
+        "injury_feed": false
+      },
+      "aus-a-league": {
+        "form_feed": true,
+        "match_events": 45,
+        "espn": true,
+        "espn_code": "aus.1",
+        "wiki": true,
+        "sofa": false,
+        "injury_feed": false
+      },
+      "usa-mls": {
+        "form_feed": true,
+        "match_events": 215,
+        "espn": true,
+        "espn_code": "usa.1",
+        "wiki": true,
+        "sofa": false,
+        "injury_feed": false
+      },
+      "usa-usl": {
+        "form_feed": true,
+        "match_events": 58,
+        "espn": true,
+        "espn_code": "usa.usl.1",
+        "wiki": true,
+        "sofa": true,
+        "injury_feed": false
+      },
+      "usa-usl-league-one": {
+        "form_feed": true,
+        "match_events": 204,
+        "espn": true,
+        "espn_code": "usa.usl.l1",
+        "wiki": true,
+        "sofa": false,
+        "injury_feed": false
+      },
+      "mex-liga-mx": {
+        "form_feed": true,
+        "match_events": 69,
+        "espn": true,
+        "espn_code": "mex.1",
+        "wiki": true,
+        "sofa": false,
+        "injury_feed": false
+      },
+      "mex-expansion": {
+        "form_feed": false,
+        "match_events": 0,
+        "espn": true,
+        "espn_code": "mex.2",
+        "wiki": true,
+        "sofa": false,
+        "injury_feed": false
+      },
+      "slv-primera": {
+        "form_feed": true,
+        "match_events": 44,
+        "espn": true,
+        "espn_code": "slv.1",
+        "wiki": true,
+        "sofa": false,
+        "injury_feed": false
+      },
+      "crc-primera": {
+        "form_feed": true,
+        "match_events": 55,
+        "espn": true,
+        "espn_code": "crc.1",
+        "wiki": false,
+        "sofa": true,
+        "injury_feed": false
+      },
+      "gua-liga-nacional": {
+        "form_feed": true,
+        "match_events": 57,
+        "espn": true,
+        "espn_code": "gua.1",
+        "wiki": false,
+        "sofa": true,
+        "injury_feed": false
+      },
+      "hon-liga-nacional": {
+        "form_feed": true,
+        "match_events": 60,
+        "espn": true,
+        "espn_code": "hon.1",
+        "wiki": false,
+        "sofa": true,
+        "injury_feed": false
+      },
+      "hon-liga-ascenso": {
+        "form_feed": true,
+        "match_events": 47,
+        "espn": false,
+        "espn_code": null,
+        "wiki": false,
+        "sofa": true,
+        "injury_feed": false
+      },
+      "gua-primera-ascenso": {
+        "form_feed": true,
+        "match_events": 43,
+        "espn": false,
+        "espn_code": null,
+        "wiki": false,
+        "sofa": true,
+        "injury_feed": false
+      },
+      "nic-primera": {
+        "form_feed": true,
+        "match_events": 37,
+        "espn": false,
+        "espn_code": null,
+        "wiki": false,
+        "sofa": true,
+        "injury_feed": false
+      },
+      "bra-serie-a": {
+        "form_feed": true,
+        "match_events": 312,
+        "espn": true,
+        "espn_code": "bra.1",
+        "wiki": true,
+        "sofa": false,
+        "injury_feed": false
+      },
+      "bra-serie-b": {
+        "form_feed": true,
+        "match_events": 113,
+        "espn": true,
+        "espn_code": "bra.2",
+        "wiki": true,
+        "sofa": false,
+        "injury_feed": false
+      },
+      "arg-primera": {
+        "form_feed": true,
+        "match_events": 181,
+        "espn": true,
+        "espn_code": "arg.1",
+        "wiki": true,
+        "sofa": false,
+        "injury_feed": false
+      },
+      "arg-primera-nacional": {
+        "form_feed": true,
+        "match_events": 28,
+        "espn": true,
+        "espn_code": "arg.2",
+        "wiki": true,
+        "sofa": true,
+        "injury_feed": false
+      },
+      "col-primera": {
+        "form_feed": true,
+        "match_events": 83,
+        "espn": true,
+        "espn_code": "col.1",
+        "wiki": true,
+        "sofa": false,
+        "injury_feed": false
+      },
+      "col-primera-b": {
+        "form_feed": true,
+        "match_events": 9,
+        "espn": false,
+        "espn_code": null,
+        "wiki": false,
+        "sofa": true,
+        "injury_feed": false
+      },
+      "chi-primera": {
+        "form_feed": true,
+        "match_events": 86,
+        "espn": true,
+        "espn_code": "chi.1",
+        "wiki": false,
+        "sofa": false,
+        "injury_feed": false
+      },
+      "chi-primera-b": {
+        "form_feed": true,
+        "match_events": 186,
+        "espn": false,
+        "espn_code": null,
+        "wiki": true,
+        "sofa": false,
+        "injury_feed": false
+      },
+      "ecu-liga-pro": {
+        "form_feed": true,
+        "match_events": 240,
+        "espn": true,
+        "espn_code": "ecu.1",
+        "wiki": true,
+        "sofa": false,
+        "injury_feed": false
+      },
+      "ecu-serie-b": {
+        "form_feed": true,
+        "match_events": 40,
+        "espn": false,
+        "espn_code": null,
+        "wiki": false,
+        "sofa": true,
+        "injury_feed": false
+      },
+      "par-primera": {
+        "form_feed": false,
+        "match_events": 0,
+        "espn": true,
+        "espn_code": "par.1",
+        "wiki": false,
+        "sofa": false,
+        "injury_feed": false
+      },
+      "par-intermedia": {
+        "form_feed": true,
+        "match_events": 50,
+        "espn": false,
+        "espn_code": null,
+        "wiki": false,
+        "sofa": true,
+        "injury_feed": false
+      },
+      "uru-primera": {
+        "form_feed": true,
+        "match_events": 18,
+        "espn": true,
+        "espn_code": "uru.1",
+        "wiki": false,
+        "sofa": true,
+        "injury_feed": false
+      },
+      "uru-segunda": {
+        "form_feed": true,
+        "match_events": 43,
+        "espn": false,
+        "espn_code": null,
+        "wiki": false,
+        "sofa": true,
+        "injury_feed": false
+      },
+      "per-liga-1": {
+        "form_feed": true,
+        "match_events": 98,
+        "espn": true,
+        "espn_code": "per.1",
+        "wiki": true,
+        "sofa": false,
+        "injury_feed": false
+      },
+      "per-liga-2": {
+        "form_feed": false,
+        "match_events": 0,
+        "espn": false,
+        "espn_code": null,
+        "wiki": true,
+        "sofa": false,
+        "injury_feed": false
+      },
+      "bol-liga-1": {
+        "form_feed": true,
+        "match_events": 97,
+        "espn": true,
+        "espn_code": "bol.1",
+        "wiki": false,
+        "sofa": false,
+        "injury_feed": false
+      },
+      "ven-liga-futve": {
+        "form_feed": true,
+        "match_events": 71,
+        "espn": true,
+        "espn_code": "ven.1",
+        "wiki": false,
+        "sofa": false,
+        "injury_feed": false
+      },
+      "ven-segunda": {
+        "form_feed": true,
+        "match_events": 47,
+        "espn": false,
+        "espn_code": null,
+        "wiki": false,
+        "sofa": true,
+        "injury_feed": false
+      },
+      "arg-primera-b-metropolitana": {
+        "form_feed": true,
+        "match_events": 45,
+        "espn": true,
+        "espn_code": "arg.3",
+        "wiki": false,
+        "sofa": true,
+        "injury_feed": false
+      },
+      "nzl-national-league": {
+        "form_feed": true,
+        "match_events": 132,
+        "espn": false,
+        "espn_code": null,
+        "wiki": true,
+        "sofa": false,
+        "injury_feed": false
       }
     }
   },
