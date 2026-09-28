@@ -1,0 +1,203 @@
+{
+  "generator": "market_suitability",
+  "candidates": 1003,
+  "dc_pool": 1000,
+  "published_dc_picks": 67,
+  "curve": [
+    {
+      "n": 4,
+      "1X2 to win": 1.0,
+      "1X2 to win_push": 0.0,
+      "AH (0)": 1.0,
+      "AH (0)_push": 0.0,
+      "Double Chance": 1.0,
+      "Double Chance_push": 0.0,
+      "or GG": 1.0,
+      "or GG_push": 0.0,
+      "GG": 0.5,
+      "GG_push": 0.0,
+      "band": ">=90%",
+      "orGG_minus_1x2_pp": 0.0
+    },
+    {
+      "n": 12,
+      "1X2 to win": 0.8333,
+      "1X2 to win_push": 0.1667,
+      "AH (0)": 0.8333,
+      "AH (0)_push": 0.1667,
+      "Double Chance": 1.0,
+      "Double Chance_push": 0.0,
+      "or GG": 1.0,
+      "or GG_push": 0.0,
+      "GG": 0.5833,
+      "GG_push": 0.0,
+      "band": "85-90%",
+      "orGG_minus_1x2_pp": 16.7
+    },
+    {
+      "n": 22,
+      "1X2 to win": 0.7727,
+      "1X2 to win_push": 0.1364,
+      "AH (0)": 0.7727,
+      "AH (0)_push": 0.1364,
+      "Double Chance": 0.9091,
+      "Double Chance_push": 0.0,
+      "or GG": 1.0,
+      "or GG_push": 0.0,
+      "GG": 0.6818,
+      "GG_push": 0.0,
+      "band": "80-85%",
+      "orGG_minus_1x2_pp": 22.7
+    },
+    {
+      "n": 32,
+      "1X2 to win": 0.75,
+      "1X2 to win_push": 0.125,
+      "AH (0)": 0.75,
+      "AH (0)_push": 0.125,
+      "Double Chance": 0.875,
+      "Double Chance_push": 0.0,
+      "or GG": 1.0,
+      "or GG_push": 0.0,
+      "GG": 0.625,
+      "GG_push": 0.0,
+      "band": "75-80%",
+      "orGG_minus_1x2_pp": 25.0
+    },
+    {
+      "n": 0
+    },
+    {
+      "n": 59,
+      "1X2 to win": 0.678,
+      "1X2 to win_push": 0.1864,
+      "AH (0)": 0.678,
+      "AH (0)_push": 0.1864,
+      "Double Chance": 0.8644,
+      "Double Chance_push": 0.0,
+      "or GG": 0.7627,
+      "or GG_push": 0.0,
+      "GG": 0.339,
+      "GG_push": 0.0,
+      "band": "66-70%",
+      "orGG_minus_1x2_pp": 8.5
+    },
+    {
+      "n": 300,
+      "1X2 to win": 0.58,
+      "1X2 to win_push": 0.2533,
+      "AH (0)": 0.58,
+      "AH (0)_push": 0.2533,
+      "Double Chance": 0.8333,
+      "Double Chance_push": 0.0,
+      "or GG": 0.8833,
+      "or GG_push": 0.0,
+      "GG": 0.6067,
+      "GG_push": 0.0,
+      "band": "55-66%",
+      "orGG_minus_1x2_pp": 30.3
+    }
+  ],
+  "overall": {
+    "n": 67,
+    "1X2 to win": 0.791,
+    "1X2 to win_push": 0.1343,
+    "AH (0)": 0.791,
+    "AH (0)_push": 0.1343,
+    "Double Chance": 0.9254,
+    "Double Chance_push": 0.0,
+    "or GG": 1.0,
+    "or GG_push": 0.0,
+    "GG": 0.6269,
+    "GG_push": 0.0
+  },
+  "straight_lost_but_protected": 5,
+  "unprotected_upset": 0,
+  "bands": [
+    {
+      "n": 38,
+      "1X2 to win": 0.8158,
+      "1X2 to win_push": 0.1316,
+      "AH (0)": 0.8158,
+      "AH (0)_push": 0.1316,
+      "Double Chance": 0.9474,
+      "Double Chance_push": 0.0,
+      "or GG": 1.0,
+      "or GG_push": 0.0,
+      "GG": 0.6316,
+      "GG_push": 0.0,
+      "band": "lock >=80%",
+      "orGG_ci": [
+        0.9260624110733133,
+        0.998685651836541
+      ],
+      "1x2_ci": [
+        0.6891586329011579,
+        0.8936199552761448
+      ],
+      "straight_lost_but_protected": 2,
+      "unprotected_upset": 0
+    },
+    {
+      "n": 29,
+      "1X2 to win": 0.7586,
+      "1X2 to win_push": 0.1379,
+      "AH (0)": 0.7586,
+      "AH (0)_push": 0.1379,
+      "Double Chance": 0.8966,
+      "Double Chance_push": 0.0,
+      "or GG": 1.0,
+      "or GG_push": 0.0,
+      "GG": 0.6207,
+      "GG_push": 0.0,
+      "band": "70-80%",
+      "orGG_ci": [
+        0.9049661471446953,
+        0.9982916843555345
+      ],
+      "1x2_ci": [
+        0.6060525776081189,
+        0.8598149007065876
+      ],
+      "straight_lost_but_protected": 3,
+      "unprotected_upset": 0
+    },
+    {
+      "n": 0
+    }
+  ],
+  "leagues": [
+    {
+      "code": "est-meistriliiga",
+      "n": 4,
+      "win_1x2": 0.75,
+      "win_orGG": 1.0,
+      "orGG_lift_pp": 25.0,
+      "straight_lost_but_protected": 1
+    },
+    {
+      "code": "fai-first-league",
+      "n": 4,
+      "win_1x2": 0.75,
+      "win_orGG": 1.0,
+      "orGG_lift_pp": 25.0,
+      "straight_lost_but_protected": 1
+    },
+    {
+      "code": "nzl-national-league",
+      "n": 15,
+      "win_1x2": 0.867,
+      "win_orGG": 1.0,
+      "orGG_lift_pp": 13.3,
+      "straight_lost_but_protected": 0
+    },
+    {
+      "code": "lva-virsliga",
+      "n": 10,
+      "win_1x2": 0.9,
+      "win_orGG": 1.0,
+      "orGG_lift_pp": 10.0,
+      "straight_lost_but_protected": 0
+    }
+  ]
+}

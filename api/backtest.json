@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-28T11:18:05.048029+00:00",
+  "generated_at": "2026-09-28T15:51:41.721223+00:00",
   "weeks": [
     "2026-09-14",
     "2026-09-21",
@@ -2449,7 +2449,7 @@
   },
   "model_state": {
     "version": 1,
-    "generated_at": "2026-09-28T10:41:08+00:00",
+    "generated_at": "2026-09-28T13:52:56+00:00",
     "note": "1 active calibration bucket(s) from 12 settled picks \u00b7 1 drifted league(s) \u00b7 65 league(s) with adaptive gate factors \u00b7 126 league(s) with a recursive strength model",
     "calibration": [
       {
@@ -25064,7 +25064,7 @@
       "applied": false,
       "recommendation": "do_not_adopt",
       "refuted": true,
-      "refutation": "the live Dixon-Coles route is already calibrated (slope 1.01, edge +2.3pp) while the curve this prior is fitted on is the Elo fallback (slope 0.56). Adopting it would haircut probabilities the live route already gets right."
+      "refutation": "the live Dixon-Coles route is already calibrated (slope 1.01, edge +2.6pp) while the curve this prior is fitted on is the Elo fallback (slope 0.56). Adopting it would haircut probabilities the live route already gets right."
     },
     "draw_bias": {
       "route": "p_dc_draw",
