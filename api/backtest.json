@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-28T19:31:16.721510+00:00",
+  "generated_at": "2026-09-28T20:46:40.323458+00:00",
   "weeks": [
     "2026-09-14",
     "2026-09-21",
@@ -682,21 +682,21 @@
   },
   "walk_forward": {
     "generator": "gsis.walkforward.compute",
-    "leagues_covered": 80,
-    "eval_slots": 1044,
-    "overall_hit_rate": 54.02,
-    "early_slots": 541,
-    "late_slots": 503,
-    "early_hit_rate": 53.2,
-    "late_hit_rate": 56.07,
-    "learning_delta": 2.87,
+    "leagues_covered": 81,
+    "eval_slots": 1053,
+    "overall_hit_rate": 54.36,
+    "early_slots": 546,
+    "late_slots": 507,
+    "early_hit_rate": 53.33,
+    "late_hit_rate": 56.42,
+    "learning_delta": 3.09,
     "prior_ab": {
       "active": true,
-      "leagues": 60,
-      "slots": 804,
-      "baseline_hit_rate": 52.8,
-      "prior_hit_rate": 52.45,
-      "delta": -0.35,
+      "leagues": 61,
+      "slots": 813,
+      "baseline_hit_rate": 53.27,
+      "prior_hit_rate": 52.93,
+      "delta": -0.34,
       "baseline_early": null,
       "prior_early": null,
       "delta_early": null,
@@ -2444,13 +2444,37 @@
           "early_delta": 0.0,
           "late_delta": 0.0
         }
+      },
+      "sco-league-one": {
+        "name": "Scottish League One",
+        "season_id": 164,
+        "slots": 9,
+        "hit_rate": 81.48,
+        "early": {
+          "slots": 5,
+          "hit_rate": 66.67
+        },
+        "late": {
+          "slots": 4,
+          "hit_rate": 100.0
+        },
+        "learning_delta": 33.33,
+        "prior": {
+          "teams": 10,
+          "dates": 22,
+          "slots": 9,
+          "hit_rate": 81.48,
+          "delta": 0.0,
+          "early_delta": 0.0,
+          "late_delta": 0.0
+        }
       }
     }
   },
   "model_state": {
     "version": 1,
-    "generated_at": "2026-09-28T16:40:31+00:00",
-    "note": "1 active calibration bucket(s) from 12 settled picks \u00b7 1 drifted league(s) \u00b7 65 league(s) with adaptive gate factors \u00b7 126 league(s) with a recursive strength model",
+    "generated_at": "2026-09-28T20:20:59+00:00",
+    "note": "1 active calibration bucket(s) from 12 settled picks \u00b7 1 drifted league(s) \u00b7 66 league(s) with adaptive gate factors \u00b7 128 league(s) with a recursive strength model",
     "calibration": [
       {
         "lo": 0.5,
@@ -3039,6 +3063,14 @@
         "hit_rate": 66.7,
         "slots": 9,
         "learning_delta": 0.0,
+        "min_win": 0.7,
+        "min_win_dc": 0.7,
+        "min_gap": 2.0
+      },
+      "sco-league-one": {
+        "hit_rate": 81.5,
+        "slots": 9,
+        "learning_delta": 33.33,
         "min_win": 0.7,
         "min_win_dc": 0.7,
         "min_gap": 2.0
@@ -23582,6 +23614,298 @@
             "resid_std": 0.28
           }
         }
+      },
+      "sco-league-one": {
+        "league": {
+          "matches": 39,
+          "teams": 10,
+          "mu": 0.9712,
+          "home_adv": 0.099,
+          "avg_goals": 2.641
+        },
+        "teams": {
+          "1029": {
+            "n": 7,
+            "att": 0.387,
+            "def": 0.524,
+            "strength_est": -0.137,
+            "z": -0.45,
+            "prior": 49.5,
+            "resid_std": 1.587
+          },
+          "1030": {
+            "n": 8,
+            "att": -0.223,
+            "def": -0.651,
+            "strength_est": 0.429,
+            "z": 1.39,
+            "prior": 51.9,
+            "resid_std": 0.797
+          },
+          "1031": {
+            "n": 8,
+            "att": -0.288,
+            "def": -0.022,
+            "strength_est": -0.266,
+            "z": -0.86,
+            "prior": 48.8,
+            "resid_std": 0.767
+          },
+          "3111": {
+            "n": 7,
+            "att": 0.658,
+            "def": 0.284,
+            "strength_est": 0.374,
+            "z": 1.21,
+            "prior": 51.4,
+            "resid_std": 1.17
+          },
+          "3112": {
+            "n": 8,
+            "att": 0.161,
+            "def": -0.156,
+            "strength_est": 0.317,
+            "z": 1.03,
+            "prior": 51.4,
+            "resid_std": 1.215
+          },
+          "3113": {
+            "n": 8,
+            "att": 0.2,
+            "def": -0.104,
+            "strength_est": 0.305,
+            "z": 0.99,
+            "prior": 51.3,
+            "resid_std": 0.969
+          },
+          "3114": {
+            "n": 8,
+            "att": -0.163,
+            "def": 0.216,
+            "strength_est": -0.379,
+            "z": -1.23,
+            "prior": 48.4,
+            "resid_std": 0.76
+          },
+          "3115": {
+            "n": 8,
+            "att": -0.255,
+            "def": -0.046,
+            "strength_est": -0.209,
+            "z": -0.68,
+            "prior": 49.1,
+            "resid_std": 0.754
+          },
+          "3116": {
+            "n": 8,
+            "att": -0.204,
+            "def": 0.187,
+            "strength_est": -0.391,
+            "z": -1.27,
+            "prior": 48.3,
+            "resid_std": 0.967
+          },
+          "3117": {
+            "n": 8,
+            "att": -0.273,
+            "def": -0.231,
+            "strength_est": -0.042,
+            "z": -0.14,
+            "prior": 49.8,
+            "resid_std": 0.936
+          }
+        }
+      },
+      "jpn-j3-league": {
+        "league": {
+          "matches": 70,
+          "teams": 20,
+          "mu": 1.0794,
+          "home_adv": 0.0181,
+          "avg_goals": 2.943
+        },
+        "teams": {
+          "3118": {
+            "n": 7,
+            "att": 0.276,
+            "def": 0.224,
+            "strength_est": 0.052,
+            "z": 0.17,
+            "prior": 50.2,
+            "resid_std": 1.02
+          },
+          "3119": {
+            "n": 7,
+            "att": 0.412,
+            "def": 0.13,
+            "strength_est": 0.282,
+            "z": 0.94,
+            "prior": 51.1,
+            "resid_std": 0.801
+          },
+          "3120": {
+            "n": 7,
+            "att": 0.191,
+            "def": 0.209,
+            "strength_est": -0.018,
+            "z": -0.06,
+            "prior": 49.9,
+            "resid_std": 1.327
+          },
+          "3121": {
+            "n": 7,
+            "att": -0.092,
+            "def": 0.354,
+            "strength_est": -0.446,
+            "z": -1.49,
+            "prior": 48.2,
+            "resid_std": 0.765
+          },
+          "3122": {
+            "n": 7,
+            "att": 0.195,
+            "def": -0.008,
+            "strength_est": 0.203,
+            "z": 0.68,
+            "prior": 50.8,
+            "resid_std": 1.3
+          },
+          "3123": {
+            "n": 7,
+            "att": 0.125,
+            "def": 0.075,
+            "strength_est": 0.05,
+            "z": 0.17,
+            "prior": 50.2,
+            "resid_std": 1.123
+          },
+          "3124": {
+            "n": 7,
+            "att": -0.084,
+            "def": 0.139,
+            "strength_est": -0.223,
+            "z": -0.74,
+            "prior": 49.1,
+            "resid_std": 0.759
+          },
+          "3125": {
+            "n": 7,
+            "att": 0.295,
+            "def": -0.247,
+            "strength_est": 0.542,
+            "z": 1.8,
+            "prior": 52.1,
+            "resid_std": 1.325
+          },
+          "3126": {
+            "n": 7,
+            "att": 0.274,
+            "def": 0.365,
+            "strength_est": -0.091,
+            "z": -0.3,
+            "prior": 49.6,
+            "resid_std": 2.04
+          },
+          "3127": {
+            "n": 7,
+            "att": -0.326,
+            "def": 0.411,
+            "strength_est": -0.737,
+            "z": -2.45,
+            "prior": 47.1,
+            "resid_std": 0.598
+          },
+          "3128": {
+            "n": 7,
+            "att": -0.048,
+            "def": 0.095,
+            "strength_est": -0.143,
+            "z": -0.48,
+            "prior": 49.4,
+            "resid_std": 0.872
+          },
+          "3129": {
+            "n": 7,
+            "att": -0.033,
+            "def": -0.17,
+            "strength_est": 0.137,
+            "z": 0.46,
+            "prior": 50.5,
+            "resid_std": 0.843
+          },
+          "3130": {
+            "n": 7,
+            "att": 0.016,
+            "def": -0.144,
+            "strength_est": 0.159,
+            "z": 0.53,
+            "prior": 50.6,
+            "resid_std": 0.602
+          },
+          "3131": {
+            "n": 7,
+            "att": -0.008,
+            "def": -0.09,
+            "strength_est": 0.082,
+            "z": 0.27,
+            "prior": 50.3,
+            "resid_std": 0.795
+          },
+          "3132": {
+            "n": 7,
+            "att": -0.073,
+            "def": -0.301,
+            "strength_est": 0.228,
+            "z": 0.76,
+            "prior": 50.9,
+            "resid_std": 0.945
+          },
+          "3133": {
+            "n": 7,
+            "att": -0.211,
+            "def": -0.241,
+            "strength_est": 0.03,
+            "z": 0.1,
+            "prior": 50.1,
+            "resid_std": 0.894
+          },
+          "3134": {
+            "n": 7,
+            "att": -0.269,
+            "def": 0.083,
+            "strength_est": -0.351,
+            "z": -1.17,
+            "prior": 48.6,
+            "resid_std": 0.962
+          },
+          "3135": {
+            "n": 7,
+            "att": -0.494,
+            "def": -0.298,
+            "strength_est": -0.197,
+            "z": -0.65,
+            "prior": 49.2,
+            "resid_std": 0.673
+          },
+          "3136": {
+            "n": 7,
+            "att": 0.098,
+            "def": -0.44,
+            "strength_est": 0.537,
+            "z": 1.79,
+            "prior": 52.1,
+            "resid_std": 0.824
+          },
+          "3137": {
+            "n": 7,
+            "att": -0.244,
+            "def": -0.147,
+            "strength_est": -0.097,
+            "z": -0.32,
+            "prior": 49.6,
+            "resid_std": 1.261
+          }
+        }
       }
     },
     "coverage": {
@@ -23779,6 +24103,15 @@
         "match_events": 30,
         "espn": true,
         "espn_code": "sco.2",
+        "wiki": true,
+        "sofa": false,
+        "injury_feed": false
+      },
+      "sco-league-one": {
+        "form_feed": true,
+        "match_events": 39,
+        "espn": false,
+        "espn_code": null,
         "wiki": true,
         "sofa": false,
         "injury_feed": false
@@ -24522,6 +24855,15 @@
         "injury_feed": false
       },
       "jpn-j2-league": {
+        "form_feed": true,
+        "match_events": 70,
+        "espn": false,
+        "espn_code": null,
+        "wiki": true,
+        "sofa": false,
+        "injury_feed": false
+      },
+      "jpn-j3-league": {
         "form_feed": true,
         "match_events": 70,
         "espn": false,
