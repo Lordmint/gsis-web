@@ -1,0 +1,102 @@
+{
+  "generator": "lock_reliability",
+  "candidates": 1003,
+  "published_locks_dc_route": 67,
+  "bands": [
+    {
+      "band": "lock >=80%",
+      "n": 38,
+      "model_mean": 0.8504,
+      "win_rate": 0.8158,
+      "win_ci": [
+        0.6891586329011579,
+        0.8936199552761448
+      ],
+      "draw_rate": 0.1316,
+      "upset_rate": 0.0526,
+      "non_win_rate": 0.1842,
+      "calibration_gap_pp": -3.5
+    },
+    {
+      "band": "70-80%",
+      "n": 29,
+      "model_mean": 0.7726,
+      "win_rate": 0.7586,
+      "win_ci": [
+        0.6060525776081189,
+        0.8598149007065876
+      ],
+      "draw_rate": 0.1379,
+      "upset_rate": 0.1034,
+      "non_win_rate": 0.2414,
+      "calibration_gap_pp": -1.4
+    },
+    {
+      "band": "66-70% (cut by the 0.70 floor)",
+      "n": 0
+    },
+    {
+      "band": "<66% (cut by the 0.70 floor)",
+      "n": 0
+    }
+  ],
+  "autopsy": {
+    "published_picks": 67,
+    "false_locks": 14,
+    "upset_locks": 5,
+    "false_locks_with_form_warning": 0,
+    "form_warning_fired_anywhere": 13,
+    "note": "The form tripwire runs at ADMISSION, so a flagged candidate is shaved below the gate and never becomes a pick; that is why published false locks carry no form warning. blind_adj>0 is a constant (no injury feed) and cannot discriminate."
+  },
+  "overall_upset_rate": 0.0746,
+  "overall_upset_ci": [
+    0.03912600203158734,
+    0.14840228556803398
+  ],
+  "leagues": [
+    {
+      "code": "est-meistriliiga",
+      "n": 4,
+      "false_lock_rate": 0.25,
+      "upset_rate": 0.25,
+      "upset_ci": [
+        0.07644039137596881,
+        0.6574083180011385
+      ],
+      "upset_posterior": 0.333
+    },
+    {
+      "code": "fai-first-league",
+      "n": 4,
+      "false_lock_rate": 0.25,
+      "upset_rate": 0.25,
+      "upset_ci": [
+        0.07644039137596881,
+        0.6574083180011385
+      ],
+      "upset_posterior": 0.333
+    },
+    {
+      "code": "nzl-national-league",
+      "n": 15,
+      "false_lock_rate": 0.133,
+      "upset_rate": 0.0,
+      "upset_ci": [
+        0.0032006977101879195,
+        0.17074972298248087
+      ],
+      "upset_posterior": 0.059
+    },
+    {
+      "code": "lva-virsliga",
+      "n": 10,
+      "false_lock_rate": 0.1,
+      "upset_rate": 0.0,
+      "upset_ci": [
+        0.004652171732196505,
+        0.23840419038085264
+      ],
+      "upset_posterior": 0.083
+    }
+  ]
+}
