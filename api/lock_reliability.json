@@ -1,35 +1,35 @@
 {
   "generator": "lock_reliability",
-  "candidates": 1025,
-  "published_locks_dc_route": 69,
+  "candidates": 1388,
+  "published_locks_dc_route": 92,
   "bands": [
     {
       "band": "lock >=80%",
-      "n": 38,
-      "model_mean": 0.8504,
-      "win_rate": 0.8158,
+      "n": 52,
+      "model_mean": 0.8494,
+      "win_rate": 0.8654,
       "win_ci": [
-        0.6891586329011579,
-        0.8936199552761448
+        0.7661925659690558,
+        0.9226131099466222
       ],
-      "draw_rate": 0.1316,
-      "upset_rate": 0.0526,
-      "non_win_rate": 0.1842,
-      "calibration_gap_pp": -3.5
+      "draw_rate": 0.0962,
+      "upset_rate": 0.0385,
+      "non_win_rate": 0.1346,
+      "calibration_gap_pp": 1.6
     },
     {
       "band": "70-80%",
-      "n": 31,
-      "model_mean": 0.7731,
-      "win_rate": 0.7742,
+      "n": 40,
+      "model_mean": 0.7749,
+      "win_rate": 0.85,
       "win_ci": [
-        0.6281009407415652,
-        0.8690670663473454
+        0.7314557856959572,
+        0.9170206969541674
       ],
-      "draw_rate": 0.129,
-      "upset_rate": 0.0968,
-      "non_win_rate": 0.2258,
-      "calibration_gap_pp": 0.1
+      "draw_rate": 0.075,
+      "upset_rate": 0.075,
+      "non_win_rate": 0.15,
+      "calibration_gap_pp": 7.5
     },
     {
       "band": "66-70% (cut by the 0.70 floor)",
@@ -41,17 +41,17 @@
     }
   ],
   "autopsy": {
-    "published_picks": 69,
-    "false_locks": 14,
+    "published_picks": 92,
+    "false_locks": 13,
     "upset_locks": 5,
     "false_locks_with_form_warning": 0,
-    "form_warning_fired_anywhere": 13,
+    "form_warning_fired_anywhere": 24,
     "note": "The form tripwire runs at ADMISSION, so a flagged candidate is shaved below the gate and never becomes a pick; that is why published false locks carry no form warning. blind_adj>0 is a constant (no injury feed) and cannot discriminate."
   },
-  "overall_upset_rate": 0.0725,
+  "overall_upset_rate": 0.0543,
   "overall_upset_ci": [
-    0.037988005114269655,
-    0.14433261109055823
+    0.028467108756928552,
+    0.10971880516844906
   ],
   "leagues": [
     {
@@ -77,6 +77,17 @@
       "upset_posterior": 0.333
     },
     {
+      "code": "sau-pro-league",
+      "n": 5,
+      "false_lock_rate": 0.0,
+      "upset_rate": 0.0,
+      "upset_ci": [
+        0.008512444610846069,
+        0.39303776899708265
+      ],
+      "upset_posterior": 0.143
+    },
+    {
       "code": "nzl-national-league",
       "n": 15,
       "false_lock_rate": 0.133,
@@ -86,6 +97,17 @@
         0.17074972298248087
       ],
       "upset_posterior": 0.059
+    },
+    {
+      "code": "sgp-premier-league",
+      "n": 10,
+      "false_lock_rate": 0.0,
+      "upset_rate": 0.0,
+      "upset_ci": [
+        0.004652171732196505,
+        0.23840419038085264
+      ],
+      "upset_posterior": 0.083
     },
     {
       "code": "lva-virsliga",
