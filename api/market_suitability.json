@@ -5,7 +5,7 @@
   "published_dc_picks": 92,
   "curve": [
     {
-      "n": 4,
+      "n": 3,
       "1X2 to win": 1.0,
       "1X2 to win_push": 0.0,
       "AH (0)": 1.0,
@@ -14,58 +14,70 @@
       "Double Chance_push": 0.0,
       "or GG": 1.0,
       "or GG_push": 0.0,
-      "GG": 0.5,
+      "GG": 0.6667,
       "GG_push": 0.0,
       "band": ">=90%",
       "orGG_minus_1x2_pp": 0.0
     },
     {
-      "n": 17,
-      "1X2 to win": 0.8824,
-      "1X2 to win_push": 0.1176,
-      "AH (0)": 0.8824,
-      "AH (0)_push": 0.1176,
+      "n": 7,
+      "1X2 to win": 1.0,
+      "1X2 to win_push": 0.0,
+      "AH (0)": 1.0,
+      "AH (0)_push": 0.0,
       "Double Chance": 1.0,
       "Double Chance_push": 0.0,
       "or GG": 1.0,
       "or GG_push": 0.0,
-      "GG": 0.4706,
+      "GG": 0.4286,
       "GG_push": 0.0,
       "band": "85-90%",
-      "orGG_minus_1x2_pp": 11.8
+      "orGG_minus_1x2_pp": 0.0
+    },
+    {
+      "n": 22,
+      "1X2 to win": 0.8182,
+      "1X2 to win_push": 0.1818,
+      "AH (0)": 0.8182,
+      "AH (0)_push": 0.1818,
+      "Double Chance": 1.0,
+      "Double Chance_push": 0.0,
+      "or GG": 1.0,
+      "or GG_push": 0.0,
+      "GG": 0.5,
+      "GG_push": 0.0,
+      "band": "80-85%",
+      "orGG_minus_1x2_pp": 18.2
+    },
+    {
+      "n": 33,
+      "1X2 to win": 0.8485,
+      "1X2 to win_push": 0.0606,
+      "AH (0)": 0.8485,
+      "AH (0)_push": 0.0606,
+      "Double Chance": 0.9091,
+      "Double Chance_push": 0.0,
+      "or GG": 1.0,
+      "or GG_push": 0.0,
+      "GG": 0.5758,
+      "GG_push": 0.0,
+      "band": "75-80%",
+      "orGG_minus_1x2_pp": 15.1
     },
     {
       "n": 31,
-      "1X2 to win": 0.8387,
+      "1X2 to win": 0.8065,
       "1X2 to win_push": 0.0968,
-      "AH (0)": 0.8387,
+      "AH (0)": 0.8065,
       "AH (0)_push": 0.0968,
-      "Double Chance": 0.9355,
+      "Double Chance": 0.9032,
       "Double Chance_push": 0.0,
       "or GG": 1.0,
       "or GG_push": 0.0,
       "GG": 0.5806,
       "GG_push": 0.0,
-      "band": "80-85%",
-      "orGG_minus_1x2_pp": 16.1
-    },
-    {
-      "n": 44,
-      "1X2 to win": 0.8182,
-      "1X2 to win_push": 0.0909,
-      "AH (0)": 0.8182,
-      "AH (0)_push": 0.0909,
-      "Double Chance": 0.9091,
-      "Double Chance_push": 0.0,
-      "or GG": 1.0,
-      "or GG_push": 0.0,
-      "GG": 0.5682,
-      "GG_push": 0.0,
-      "band": "75-80%",
-      "orGG_minus_1x2_pp": 18.2
-    },
-    {
-      "n": 0
+      "band": "70-75%",
+      "orGG_minus_1x2_pp": 19.4
     },
     {
       "n": 73,
@@ -115,51 +127,51 @@
   "unprotected_upset": 0,
   "bands": [
     {
-      "n": 52,
-      "1X2 to win": 0.8654,
-      "1X2 to win_push": 0.0962,
-      "AH (0)": 0.8654,
-      "AH (0)_push": 0.0962,
-      "Double Chance": 0.9615,
+      "n": 32,
+      "1X2 to win": 0.875,
+      "1X2 to win_push": 0.125,
+      "AH (0)": 0.875,
+      "AH (0)_push": 0.125,
+      "Double Chance": 1.0,
       "Double Chance_push": 0.0,
       "or GG": 1.0,
       "or GG_push": 0.0,
-      "GG": 0.5385,
+      "GG": 0.5,
       "GG_push": 0.0,
       "band": "lock >=80%",
       "orGG_ci": [
-        0.9450445115348225,
-        0.9990326701581373
+        0.9132188107085248,
+        0.9984468651101202
       ],
       "1x2_ci": [
-        0.7661925659690558,
-        0.9226131099466222
+        0.7437473081738817,
+        0.9383415269996529
       ],
-      "straight_lost_but_protected": 2,
+      "straight_lost_but_protected": 0,
       "unprotected_upset": 0
     },
     {
-      "n": 40,
+      "n": 60,
       "1X2 to win": 0.85,
-      "1X2 to win_push": 0.075,
+      "1X2 to win_push": 0.0667,
       "AH (0)": 0.85,
-      "AH (0)_push": 0.075,
-      "Double Chance": 0.925,
+      "AH (0)_push": 0.0667,
+      "Double Chance": 0.9167,
       "Double Chance_push": 0.0,
       "or GG": 1.0,
       "or GG_push": 0.0,
-      "GG": 0.55,
+      "GG": 0.5667,
       "GG_push": 0.0,
       "band": "70-80%",
       "orGG_ci": [
-        0.9295388827298356,
-        0.9987497262835923
+        0.9520760478933932,
+        0.9991594797567156
       ],
       "1x2_ci": [
-        0.7314557856959572,
-        0.9170206969541674
+        0.7566571806539673,
+        0.908272485575764
       ],
-      "straight_lost_but_protected": 3,
+      "straight_lost_but_protected": 5,
       "unprotected_upset": 0
     },
     {

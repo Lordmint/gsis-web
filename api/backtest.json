@@ -1,31 +1,31 @@
 {
-  "generated_at": "2026-09-29T14:32:47.438620+00:00",
+  "generated_at": "2026-09-29T23:11:40.818636+00:00",
   "weeks": [
     "2026-09-14",
     "2026-09-21",
     "2026-09-28"
   ],
   "picks": 16,
-  "settled": 12,
-  "pending": 4,
+  "settled": 13,
+  "pending": 3,
   "wins": 11,
-  "losses": 1,
+  "losses": 2,
   "pushes": 0,
-  "hit_rate": 0.9166666666666666,
-  "overall_roi": 0.6291666666666668,
-  "modelled_edge": 0.6184934166666667,
-  "realized_edge": 0.6291666666666668,
-  "realized_net_profit": 7.550000000000001,
+  "hit_rate": 0.8461538461538461,
+  "overall_roi": 0.5038461538461539,
+  "modelled_edge": 0.6723727692307693,
+  "realized_edge": 0.5038461538461539,
+  "realized_net_profit": 6.550000000000001,
   "calibration": [
     {
       "bucket": "70%+",
-      "n": 12,
+      "n": 13,
       "model": 0.75,
-      "realized": 0.9166666666666666,
-      "roi": 0.6291666666666668,
-      "ci_lo": 0.6836602352372703,
-      "ci_hi": 0.9719466227272113,
-      "bayes_mean": 0.8571428571428571,
+      "realized": 0.8461538461538461,
+      "roi": 0.5038461538461539,
+      "ci_lo": 0.614610317636118,
+      "ci_hi": 0.9388970711369586,
+      "bayes_mean": 0.8,
       "verdict": "on-track"
     }
   ],
@@ -53,20 +53,20 @@
       "roi": -0.10333333333333328
     },
     {
+      "key": "Home or GG",
+      "n": 3,
+      "wins": 2,
+      "losses": 1,
+      "hit": 0.6666666666666666,
+      "roi": 0.05333333333333338
+    },
+    {
       "key": "Double Chance \u00b7 1UP",
       "n": 2,
       "wins": 2,
       "losses": 0,
       "hit": 1.0,
       "roi": 0.77
-    },
-    {
-      "key": "Home or GG",
-      "n": 2,
-      "wins": 2,
-      "losses": 0,
-      "hit": 1.0,
-      "roi": 0.5800000000000001
     },
     {
       "key": "AH Away (0)",
@@ -88,21 +88,21 @@
     },
     {
       "key": "Reliable",
-      "n": 5,
+      "n": 6,
       "wins": 5,
-      "losses": 0,
-      "hit": 1.0,
-      "roi": 0.6540000000000001
+      "losses": 1,
+      "hit": 0.8333333333333334,
+      "roi": 0.3783333333333334
     }
   ],
   "by_league": [
     {
       "key": "National League",
-      "n": 3,
+      "n": 4,
       "wins": 2,
-      "losses": 1,
-      "hit": 0.6666666666666666,
-      "roi": 0.03333333333333336
+      "losses": 2,
+      "hit": 0.5,
+      "roi": -0.22499999999999998
     },
     {
       "key": "Scottish Championship",
@@ -185,6 +185,14 @@
       "losses": 0,
       "hit": 1.0,
       "roi": 0.6620000000000001
+    },
+    {
+      "key": "2026-09-28",
+      "n": 1,
+      "wins": 0,
+      "losses": 1,
+      "hit": 0.0,
+      "roi": -1.0
     }
   ],
   "concentration": [
@@ -826,7 +834,8 @@
       107.74,
       106.74,
       107.17999999999999,
-      107.55
+      107.55,
+      106.55
     ],
     "quarter_kelly": [
       100.0,
@@ -841,7 +850,8 @@
       431.6518927461401,
       374.26725466919197,
       411.3945663323758,
-      422.46570835558794
+      422.46570835558794,
+      326.3966420809511
     ],
     "bayes_kelly": [
       100.0,
@@ -856,7 +866,8 @@
       388.60672541564554,
       344.5600334449051,
       375.0191404014347,
-      381.25805257593805
+      381.25805257593805,
+      299.3911025536298
     ],
     "start": 100.0
   },
@@ -3121,8 +3132,8 @@
   },
   "model_state": {
     "version": 1,
-    "generated_at": "2026-09-29T12:58:16+00:00",
-    "note": "1 active calibration bucket(s) from 12 settled picks \u00b7 3 drifted league(s) \u00b7 84 league(s) with adaptive gate factors \u00b7 144 league(s) with a recursive strength model",
+    "generated_at": "2026-09-29T22:44:20+00:00",
+    "note": "1 active calibration bucket(s) from 13 settled picks \u00b7 3 drifted league(s) \u00b7 84 league(s) with adaptive gate factors \u00b7 144 league(s) with a recursive strength model",
     "calibration": [
       {
         "lo": 0.5,
@@ -3179,14 +3190,14 @@
       {
         "lo": 0.7,
         "hi": 1.01,
-        "n": 12,
+        "n": 13,
         "wins": 11,
         "pushes": 0,
-        "realized": 0.9167,
+        "realized": 0.8462,
         "model_mid": 0.8,
-        "delta": 0.1167,
-        "delta_shrunk": 0.0519,
-        "sigma": 0.0519,
+        "delta": 0.0462,
+        "delta_shrunk": 0.0214,
+        "sigma": 0.0214,
         "active": true
       }
     ],
@@ -29273,8 +29284,8 @@
       }
     },
     "calibration_prior": {
-      "slope": 0.6525,
-      "intercept": -0.2397,
+      "slope": 0.7274,
+      "intercept": -0.2541,
       "kappa": 40.0,
       "points": 8,
       "samples": 1388,

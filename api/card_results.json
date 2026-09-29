@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-09-29T14:30:42.775667+00:00",
+  "generated_at": "2026-09-29T23:09:39.263349+00:00",
   "ledger": "card_results",
   "clv": {
-    "n": 12,
-    "mean": -1.01,
+    "n": 13,
+    "mean": -0.93,
     "positive": 2
   },
   "weeks": [
@@ -318,10 +318,10 @@
     {
       "week": "2026-09-28",
       "picks": 4,
-      "settled": 0,
+      "settled": 1,
       "wins": 0,
-      "losses": 0,
-      "notes": "0W \u00b7 0L \u00b7 0P \u00b7 4 pending",
+      "losses": 1,
+      "notes": "0W \u00b7 1L \u00b7 0P \u00b7 3 pending",
       "rows": [
         {
           "code": "eng-national-league",
@@ -338,10 +338,10 @@
           "odds_open": 2.45,
           "odds_close": 2.45,
           "clv": 0.0,
-          "verdict": "PENDING",
-          "note": "no result yet",
-          "score": null,
-          "profit": null,
+          "verdict": "L",
+          "note": "strong lost 0-2, no BTTS",
+          "score": "0\u20132",
+          "profit": -1.0,
           "tier": "Reliable",
           "league": "National League",
           "lam_h": 2.25,
@@ -356,7 +356,7 @@
           "market": "Double Chance \u00b7 1UP",
           "hit_basis": "recommended-market",
           "money_basis": "1X2",
-          "prob": 0.9416,
+          "prob": 0.9111,
           "prob_model": 0.8897,
           "odds": 1.61,
           "odds_open": 1.61,
@@ -380,7 +380,7 @@
           "market": "Home or GG",
           "hit_basis": "recommended-market",
           "money_basis": "1X2",
-          "prob": 0.9496,
+          "prob": 0.9191,
           "prob_model": 0.8977,
           "odds": 1.67,
           "odds_open": 1.67,
@@ -404,7 +404,7 @@
           "market": "AH Home (0)",
           "hit_basis": "recommended-market",
           "money_basis": "1X2",
-          "prob": 0.837,
+          "prob": 0.8065,
           "prob_model": 0.7851,
           "odds": 1.46,
           "odds_open": 1.46,

@@ -1,17 +1,17 @@
 {
   "generator": "drawfix_ab",
   "adjust_pp": 0.0,
-  "n_settled": 12,
+  "n_settled": 13,
   "n_relined": 0,
-  "n_same": 12,
+  "n_same": 13,
   "transitions": {},
-  "loss_rate_historical": 0.0833,
-  "resolvable_set": 12,
-  "loss_rate_corrected_resolvable": 0.0833,
-  "loss_rate_corrected_worst_case": 0.0833,
-  "historical_losses": 1,
-  "corrected_losses_resolvable": 1,
-  "corrected_losses_worst_case": 1,
+  "loss_rate_historical": 0.1538,
+  "resolvable_set": 13,
+  "loss_rate_corrected_resolvable": 0.1538,
+  "loss_rate_corrected_worst_case": 0.1538,
+  "historical_losses": 2,
+  "corrected_losses_resolvable": 2,
+  "corrected_losses_worst_case": 2,
   "relined_losses_saved": 0,
   "relined_win_to_push": 0,
   "relined_push_to_win": 0,
@@ -31,9 +31,9 @@
     },
     {
       "week": "2026-09-28",
-      "settled": 0,
+      "settled": 1,
       "relined": 0,
-      "same": 0
+      "same": 1
     }
   ],
   "rows": [
@@ -215,6 +215,21 @@
       "counterfactual_verdict": "W",
       "score": "2-1",
       "odds": 1.37,
+      "reproduces": true
+    },
+    {
+      "week": "2026-09-28",
+      "strong": "AFC Fylde",
+      "weak": "Carlisle United",
+      "is_home": true,
+      "historical_market": "Home or GG",
+      "uncorrected_market": "Home or GG",
+      "corrected_market": "Home or GG",
+      "relined": false,
+      "historical_verdict": "L",
+      "counterfactual_verdict": "L",
+      "score": "0-2",
+      "odds": 2.45,
       "reproduces": true
     }
   ]

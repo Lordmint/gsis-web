@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-09-29T14:32:17.710336+00:00",
-  "settled": 10,
-  "pending": 15,
+  "generated_at": "2026-09-29T23:11:10.688419+00:00",
+  "settled": 11,
+  "pending": 14,
   "held": 7,
-  "missed": 3,
+  "missed": 4,
   "pushed": 0,
-  "hit_rate": 0.7,
-  "model_avg": 92.4,
-  "ref_return": 0.233,
+  "hit_rate": 0.6364,
+  "model_avg": 92.8,
+  "ref_return": 0.1209,
   "calibration": [
     {
       "bucket": "80\u201389%",
@@ -20,11 +20,11 @@
     },
     {
       "bucket": "90%+",
-      "n": 7,
+      "n": 8,
       "wins": 5,
       "pushes": 0,
-      "model": 95.5,
-      "realized": 71.4,
+      "model": 95.7,
+      "realized": 62.5,
       "verdict": "on-track"
     }
   ],
@@ -44,14 +44,14 @@
     {
       "week": "2026-09-28",
       "picks": 13,
-      "settled": 0,
-      "pending": 13,
+      "settled": 1,
+      "pending": 12,
       "held": 0,
-      "missed": 0,
+      "missed": 1,
       "pushed": 0,
-      "hit_rate": null,
-      "model_avg": null,
-      "ref_return": null
+      "hit_rate": 0.0,
+      "model_avg": 97.0,
+      "ref_return": -1.0
     }
   ]
 }
