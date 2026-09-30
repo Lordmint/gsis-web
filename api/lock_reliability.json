@@ -1,35 +1,35 @@
 {
   "generator": "lock_reliability",
-  "candidates": 1388,
-  "published_locks_dc_route": 92,
+  "candidates": 1891,
+  "published_locks_dc_route": 120,
   "bands": [
     {
       "band": "lock >=80%",
-      "n": 32,
-      "model_mean": 0.8393,
-      "win_rate": 0.875,
+      "n": 38,
+      "model_mean": 0.8363,
+      "win_rate": 0.8947,
       "win_ci": [
-        0.7437473081738817,
-        0.9383415269996529
+        0.7804769316768732,
+        0.9480964424831946
       ],
-      "draw_rate": 0.125,
+      "draw_rate": 0.1053,
       "upset_rate": 0.0,
-      "non_win_rate": 0.125,
-      "calibration_gap_pp": 3.6
+      "non_win_rate": 0.1053,
+      "calibration_gap_pp": 5.8
     },
     {
       "band": "70-80%",
-      "n": 60,
-      "model_mean": 0.7583,
-      "win_rate": 0.85,
+      "n": 82,
+      "model_mean": 0.7576,
+      "win_rate": 0.8171,
       "win_ci": [
-        0.7566571806539673,
-        0.908272485575764
+        0.7354466277771747,
+        0.8751824947060756
       ],
-      "draw_rate": 0.0667,
-      "upset_rate": 0.0833,
-      "non_win_rate": 0.15,
-      "calibration_gap_pp": 9.2
+      "draw_rate": 0.1098,
+      "upset_rate": 0.0732,
+      "non_win_rate": 0.1829,
+      "calibration_gap_pp": 5.9
     },
     {
       "band": "66-70% (cut by the 0.70 floor)",
@@ -41,17 +41,17 @@
     }
   ],
   "autopsy": {
-    "published_picks": 92,
-    "false_locks": 13,
-    "upset_locks": 5,
+    "published_picks": 120,
+    "false_locks": 19,
+    "upset_locks": 6,
     "false_locks_with_form_warning": 0,
-    "form_warning_fired_anywhere": 24,
+    "form_warning_fired_anywhere": 35,
     "note": "The form tripwire runs at ADMISSION, so a flagged candidate is shaved below the gate and never becomes a pick; that is why published false locks carry no form warning. blind_adj>0 is a constant (no injury feed) and cannot discriminate."
   },
-  "overall_upset_rate": 0.0543,
+  "overall_upset_rate": 0.05,
   "overall_upset_ci": [
-    0.028467108756928552,
-    0.10971880516844906
+    0.027463140075395104,
+    0.0955199762915942
   ],
   "leagues": [
     {
@@ -75,6 +75,17 @@
         0.6574083180011385
       ],
       "upset_posterior": 0.333
+    },
+    {
+      "code": "ecu-liga-pro",
+      "n": 5,
+      "false_lock_rate": 0.2,
+      "upset_rate": 0.2,
+      "upset_ci": [
+        0.06284989165490701,
+        0.5818034092520259
+      ],
+      "upset_posterior": 0.286
     },
     {
       "code": "sau-pro-league",
@@ -108,6 +119,17 @@
         0.23840419038085264
       ],
       "upset_posterior": 0.083
+    },
+    {
+      "code": "usa-usl-league-one",
+      "n": 15,
+      "false_lock_rate": 0.2,
+      "upset_rate": 0.0,
+      "upset_ci": [
+        0.0032006977101879195,
+        0.17074972298248087
+      ],
+      "upset_posterior": 0.059
     },
     {
       "code": "lva-virsliga",
