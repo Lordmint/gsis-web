@@ -1,34 +1,34 @@
 {
   "generator": "lock_reliability",
-  "candidates": 1891,
-  "published_locks_dc_route": 120,
+  "candidates": 7450,
+  "published_locks_dc_route": 276,
   "bands": [
     {
       "band": "lock >=80%",
-      "n": 38,
-      "model_mean": 0.8363,
-      "win_rate": 0.8947,
+      "n": 69,
+      "model_mean": 0.834,
+      "win_rate": 0.8986,
       "win_ci": [
-        0.7804769316768732,
-        0.9480964424831946
+        0.8203653413310903,
+        0.9418461581173876
       ],
-      "draw_rate": 0.1053,
-      "upset_rate": 0.0,
-      "non_win_rate": 0.1053,
-      "calibration_gap_pp": 5.8
+      "draw_rate": 0.087,
+      "upset_rate": 0.0145,
+      "non_win_rate": 0.1014,
+      "calibration_gap_pp": 6.5
     },
     {
       "band": "70-80%",
-      "n": 82,
-      "model_mean": 0.7576,
-      "win_rate": 0.8171,
+      "n": 207,
+      "model_mean": 0.7523,
+      "win_rate": 0.8116,
       "win_ci": [
-        0.7354466277771747,
-        0.8751824947060756
+        0.7623252546192769,
+        0.8515352705434778
       ],
-      "draw_rate": 0.1098,
-      "upset_rate": 0.0732,
-      "non_win_rate": 0.1829,
+      "draw_rate": 0.1304,
+      "upset_rate": 0.058,
+      "non_win_rate": 0.1884,
       "calibration_gap_pp": 5.9
     },
     {
@@ -41,17 +41,17 @@
     }
   ],
   "autopsy": {
-    "published_picks": 120,
-    "false_locks": 19,
-    "upset_locks": 6,
+    "published_picks": 276,
+    "false_locks": 46,
+    "upset_locks": 13,
     "false_locks_with_form_warning": 0,
-    "form_warning_fired_anywhere": 35,
+    "form_warning_fired_anywhere": 293,
     "note": "The form tripwire runs at ADMISSION, so a flagged candidate is shaved below the gate and never becomes a pick; that is why published false locks carry no form warning. blind_adj>0 is a constant (no injury feed) and cannot discriminate."
   },
-  "overall_upset_rate": 0.05,
+  "overall_upset_rate": 0.0471,
   "overall_upset_ci": [
-    0.027463140075395104,
-    0.0955199762915942
+    0.03081077667692271,
+    0.07358125924704734
   ],
   "leagues": [
     {
@@ -77,18 +77,172 @@
       "upset_posterior": 0.333
     },
     {
-      "code": "ecu-liga-pro",
+      "code": "wal-cymru-premier",
+      "n": 11,
+      "false_lock_rate": 0.182,
+      "upset_rate": 0.182,
+      "upset_ci": [
+        0.07187025554640855,
+        0.4381054351153112
+      ],
+      "upset_posterior": 0.231
+    },
+    {
+      "code": "ger-bundesliga",
+      "n": 16,
+      "false_lock_rate": 0.188,
+      "upset_rate": 0.125,
+      "upset_ci": [
+        0.049898154561159896,
+        0.32619306308347806
+      ],
+      "upset_posterior": 0.167
+    },
+    {
+      "code": "ned-eredivisie",
+      "n": 8,
+      "false_lock_rate": 0.375,
+      "upset_rate": 0.125,
+      "upset_ci": [
+        0.041023167448609996,
+        0.4291355470314341
+      ],
+      "upset_posterior": 0.2
+    },
+    {
+      "code": "eng-premier-league",
+      "n": 13,
+      "false_lock_rate": 0.154,
+      "upset_rate": 0.077,
+      "upset_ci": [
+        0.025999332556047305,
+        0.29673423894887485
+      ],
+      "upset_posterior": 0.133
+    },
+    {
+      "code": "sgp-premier-league",
+      "n": 17,
+      "false_lock_rate": 0.176,
+      "upset_rate": 0.059,
+      "upset_ci": [
+        0.020110675839714216,
+        0.23766091507463977
+      ],
+      "upset_posterior": 0.105
+    },
+    {
+      "code": "esp-la-liga",
+      "n": 7,
+      "false_lock_rate": 0.0,
+      "upset_rate": 0.0,
+      "upset_ci": [
+        0.006391150954544036,
+        0.3123439780663676
+      ],
+      "upset_posterior": 0.111
+    },
+    {
+      "code": "ita-serie-a",
       "n": 5,
       "false_lock_rate": 0.2,
-      "upset_rate": 0.2,
+      "upset_rate": 0.0,
       "upset_ci": [
-        0.06284989165490701,
-        0.5818034092520259
+        0.008512444610846069,
+        0.39303776899708265
       ],
-      "upset_posterior": 0.286
+      "upset_posterior": 0.143
+    },
+    {
+      "code": "fra-ligue-1",
+      "n": 7,
+      "false_lock_rate": 0.286,
+      "upset_rate": 0.0,
+      "upset_ci": [
+        0.006391150954544036,
+        0.3123439780663676
+      ],
+      "upset_posterior": 0.111
+    },
+    {
+      "code": "por-primeira-liga",
+      "n": 13,
+      "false_lock_rate": 0.077,
+      "upset_rate": 0.0,
+      "upset_ci": [
+        0.0036571031913829044,
+        0.1926361756501354
+      ],
+      "upset_posterior": 0.067
+    },
+    {
+      "code": "bel-pro-league",
+      "n": 4,
+      "false_lock_rate": 0.5,
+      "upset_rate": 0.0,
+      "upset_ci": [
+        0.010206218313010485,
+        0.4507197283469412
+      ],
+      "upset_posterior": 0.167
+    },
+    {
+      "code": "sco-premiership",
+      "n": 6,
+      "false_lock_rate": 0.0,
+      "upset_rate": 0.0,
+      "upset_ci": [
+        0.0073008319790136885,
+        0.34816365513116054
+      ],
+      "upset_posterior": 0.125
+    },
+    {
+      "code": "tur-super-lig",
+      "n": 5,
+      "false_lock_rate": 0.0,
+      "upset_rate": 0.0,
+      "upset_ci": [
+        0.008512444610846069,
+        0.39303776899708265
+      ],
+      "upset_posterior": 0.143
+    },
+    {
+      "code": "nor-eliteserien",
+      "n": 5,
+      "false_lock_rate": 0.0,
+      "upset_rate": 0.0,
+      "upset_ci": [
+        0.008512444610846069,
+        0.39303776899708265
+      ],
+      "upset_posterior": 0.143
     },
     {
       "code": "sau-pro-league",
+      "n": 7,
+      "false_lock_rate": 0.286,
+      "upset_rate": 0.0,
+      "upset_ci": [
+        0.006391150954544036,
+        0.3123439780663676
+      ],
+      "upset_posterior": 0.111
+    },
+    {
+      "code": "chn-csl",
+      "n": 7,
+      "false_lock_rate": 0.0,
+      "upset_rate": 0.0,
+      "upset_ci": [
+        0.006391150954544036,
+        0.3123439780663676
+      ],
+      "upset_posterior": 0.111
+    },
+    {
+      "code": "per-liga-1",
       "n": 5,
       "false_lock_rate": 0.0,
       "upset_rate": 0.0,
@@ -110,7 +264,73 @@
       "upset_posterior": 0.059
     },
     {
-      "code": "sgp-premier-league",
+      "code": "tha-league-1",
+      "n": 5,
+      "false_lock_rate": 0.0,
+      "upset_rate": 0.0,
+      "upset_ci": [
+        0.008512444610846069,
+        0.39303776899708265
+      ],
+      "upset_posterior": 0.143
+    },
+    {
+      "code": "bol-liga-1",
+      "n": 4,
+      "false_lock_rate": 0.0,
+      "upset_rate": 0.0,
+      "upset_ci": [
+        0.010206218313010485,
+        0.4507197283469412
+      ],
+      "upset_posterior": 0.167
+    },
+    {
+      "code": "eng-championship",
+      "n": 4,
+      "false_lock_rate": 0.25,
+      "upset_rate": 0.0,
+      "upset_ci": [
+        0.010206218313010485,
+        0.4507197283469412
+      ],
+      "upset_posterior": 0.167
+    },
+    {
+      "code": "ecu-liga-pro",
+      "n": 5,
+      "false_lock_rate": 0.0,
+      "upset_rate": 0.0,
+      "upset_ci": [
+        0.008512444610846069,
+        0.39303776899708265
+      ],
+      "upset_posterior": 0.143
+    },
+    {
+      "code": "uru-primera",
+      "n": 4,
+      "false_lock_rate": 0.0,
+      "upset_rate": 0.0,
+      "upset_ci": [
+        0.010206218313010485,
+        0.4507197283469412
+      ],
+      "upset_posterior": 0.167
+    },
+    {
+      "code": "cyp-first-division",
+      "n": 6,
+      "false_lock_rate": 0.0,
+      "upset_rate": 0.0,
+      "upset_ci": [
+        0.0073008319790136885,
+        0.34816365513116054
+      ],
+      "upset_posterior": 0.125
+    },
+    {
+      "code": "mys-super-league",
       "n": 10,
       "false_lock_rate": 0.0,
       "upset_rate": 0.0,
@@ -121,15 +341,26 @@
       "upset_posterior": 0.083
     },
     {
-      "code": "usa-usl-league-one",
-      "n": 15,
-      "false_lock_rate": 0.2,
+      "code": "eng-national-league",
+      "n": 6,
+      "false_lock_rate": 0.0,
       "upset_rate": 0.0,
       "upset_ci": [
-        0.0032006977101879195,
-        0.17074972298248087
+        0.0073008319790136885,
+        0.34816365513116054
       ],
-      "upset_posterior": 0.059
+      "upset_posterior": 0.125
+    },
+    {
+      "code": "usa-usl-league-one",
+      "n": 11,
+      "false_lock_rate": 0.182,
+      "upset_rate": 0.0,
+      "upset_ci": [
+        0.004265318777559941,
+        0.22092219194555557
+      ],
+      "upset_posterior": 0.077
     },
     {
       "code": "lva-virsliga",

@@ -1,11 +1,11 @@
 {
   "generator": "market_suitability",
-  "candidates": 1891,
-  "dc_pool": 1890,
-  "published_dc_picks": 120,
+  "candidates": 7450,
+  "dc_pool": 7406,
+  "published_dc_picks": 276,
   "curve": [
     {
-      "n": 3,
+      "n": 5,
       "1X2 to win": 1.0,
       "1X2 to win_push": 0.0,
       "AH (0)": 1.0,
@@ -14,171 +14,203 @@
       "Double Chance_push": 0.0,
       "or GG": 1.0,
       "or GG_push": 0.0,
-      "GG": 0.6667,
+      "GG": 0.4,
       "GG_push": 0.0,
       "band": ">=90%",
       "orGG_minus_1x2_pp": 0.0
     },
     {
-      "n": 7,
-      "1X2 to win": 1.0,
+      "n": 13,
+      "1X2 to win": 0.9231,
       "1X2 to win_push": 0.0,
-      "AH (0)": 1.0,
+      "AH (0)": 0.9231,
       "AH (0)_push": 0.0,
-      "Double Chance": 1.0,
+      "Double Chance": 0.9231,
       "Double Chance_push": 0.0,
       "or GG": 1.0,
       "or GG_push": 0.0,
-      "GG": 0.4286,
+      "GG": 0.6154,
       "GG_push": 0.0,
       "band": "85-90%",
-      "orGG_minus_1x2_pp": 0.0
+      "orGG_minus_1x2_pp": 7.7
     },
     {
-      "n": 28,
-      "1X2 to win": 0.8571,
-      "1X2 to win_push": 0.1429,
-      "AH (0)": 0.8571,
-      "AH (0)_push": 0.1429,
+      "n": 51,
+      "1X2 to win": 0.8824,
+      "1X2 to win_push": 0.1176,
+      "AH (0)": 0.8824,
+      "AH (0)_push": 0.1176,
       "Double Chance": 1.0,
       "Double Chance_push": 0.0,
       "or GG": 1.0,
       "or GG_push": 0.0,
-      "GG": 0.4643,
+      "GG": 0.5294,
       "GG_push": 0.0,
       "band": "80-85%",
-      "orGG_minus_1x2_pp": 14.3
+      "orGG_minus_1x2_pp": 11.8
     },
     {
-      "n": 48,
-      "1X2 to win": 0.8125,
-      "1X2 to win_push": 0.125,
-      "AH (0)": 0.8125,
-      "AH (0)_push": 0.125,
-      "Double Chance": 0.9375,
+      "n": 94,
+      "1X2 to win": 0.7872,
+      "1X2 to win_push": 0.1489,
+      "AH (0)": 0.7872,
+      "AH (0)_push": 0.1489,
+      "Double Chance": 0.9362,
       "Double Chance_push": 0.0,
-      "or GG": 1.0,
+      "or GG": 0.9574,
       "or GG_push": 0.0,
-      "GG": 0.6458,
+      "GG": 0.5532,
       "GG_push": 0.0,
       "band": "75-80%",
-      "orGG_minus_1x2_pp": 18.8
+      "orGG_minus_1x2_pp": 17.0
     },
     {
-      "n": 37,
-      "1X2 to win": 0.7838,
-      "1X2 to win_push": 0.1081,
-      "AH (0)": 0.7838,
-      "AH (0)_push": 0.1081,
-      "Double Chance": 0.8919,
+      "n": 117,
+      "1X2 to win": 0.8291,
+      "1X2 to win_push": 0.1111,
+      "AH (0)": 0.8291,
+      "AH (0)_push": 0.1111,
+      "Double Chance": 0.9402,
       "Double Chance_push": 0.0,
-      "or GG": 1.0,
+      "or GG": 0.9487,
       "or GG_push": 0.0,
-      "GG": 0.5946,
+      "GG": 0.5726,
       "GG_push": 0.0,
       "band": "70-75%",
-      "orGG_minus_1x2_pp": 21.6
+      "orGG_minus_1x2_pp": 12.0
     },
     {
-      "n": 93,
-      "1X2 to win": 0.6452,
-      "1X2 to win_push": 0.2258,
-      "AH (0)": 0.6452,
-      "AH (0)_push": 0.2258,
-      "Double Chance": 0.871,
+      "n": 261,
+      "1X2 to win": 0.751,
+      "1X2 to win_push": 0.1533,
+      "AH (0)": 0.751,
+      "AH (0)_push": 0.1533,
+      "Double Chance": 0.9042,
       "Double Chance_push": 0.0,
-      "or GG": 0.7957,
+      "or GG": 0.9119,
       "or GG_push": 0.0,
-      "GG": 0.4301,
+      "GG": 0.4598,
       "GG_push": 0.0,
       "band": "66-70%",
-      "orGG_minus_1x2_pp": 15.0
+      "orGG_minus_1x2_pp": 16.1
     },
     {
-      "n": 497,
-      "1X2 to win": 0.6237,
-      "1X2 to win_push": 0.2254,
-      "AH (0)": 0.6237,
-      "AH (0)_push": 0.2254,
-      "Double Chance": 0.8491,
+      "n": 1649,
+      "1X2 to win": 0.6792,
+      "1X2 to win_push": 0.1898,
+      "AH (0)": 0.6792,
+      "AH (0)_push": 0.1898,
+      "Double Chance": 0.869,
       "Double Chance_push": 0.0,
-      "or GG": 0.8793,
+      "or GG": 0.9012,
       "or GG_push": 0.0,
-      "GG": 0.5573,
+      "GG": 0.5215,
       "GG_push": 0.0,
       "band": "55-66%",
-      "orGG_minus_1x2_pp": 25.6
+      "orGG_minus_1x2_pp": 22.2
     }
   ],
   "overall": {
-    "n": 120,
-    "1X2 to win": 0.8417,
-    "1X2 to win_push": 0.1083,
-    "AH (0)": 0.8417,
-    "AH (0)_push": 0.1083,
-    "Double Chance": 0.95,
+    "n": 276,
+    "1X2 to win": 0.8333,
+    "1X2 to win_push": 0.1196,
+    "AH (0)": 0.8333,
+    "AH (0)_push": 0.1196,
+    "Double Chance": 0.9529,
     "Double Chance_push": 0.0,
-    "or GG": 1.0,
+    "or GG": 0.9638,
     "or GG_push": 0.0,
-    "GG": 0.575,
+    "GG": 0.5616,
     "GG_push": 0.0
   },
-  "straight_lost_but_protected": 6,
-  "unprotected_upset": 0,
+  "straight_lost_but_protected": 7,
+  "unprotected_upset": 6,
   "bands": [
     {
-      "n": 38,
-      "1X2 to win": 0.8947,
-      "1X2 to win_push": 0.1053,
-      "AH (0)": 0.8947,
-      "AH (0)_push": 0.1053,
-      "Double Chance": 1.0,
+      "n": 69,
+      "1X2 to win": 0.8986,
+      "1X2 to win_push": 0.087,
+      "AH (0)": 0.8986,
+      "AH (0)_push": 0.087,
+      "Double Chance": 0.9855,
       "Double Chance_push": 0.0,
       "or GG": 1.0,
       "or GG_push": 0.0,
-      "GG": 0.4737,
+      "GG": 0.5362,
       "GG_push": 0.0,
       "band": "lock >=80%",
       "orGG_ci": [
-        0.9260624110733133,
-        0.998685651836541
+        0.9581066559331117,
+        0.9992675070556407
       ],
       "1x2_ci": [
-        0.7804769316768732,
-        0.9480964424831946
+        0.8203653413310903,
+        0.9418461581173876
       ],
-      "straight_lost_but_protected": 0,
+      "straight_lost_but_protected": 1,
       "unprotected_upset": 0
     },
     {
-      "n": 82,
-      "1X2 to win": 0.8171,
-      "1X2 to win_push": 0.1098,
-      "AH (0)": 0.8171,
-      "AH (0)_push": 0.1098,
-      "Double Chance": 0.9268,
+      "n": 207,
+      "1X2 to win": 0.8116,
+      "1X2 to win_push": 0.1304,
+      "AH (0)": 0.8116,
+      "AH (0)_push": 0.1304,
+      "Double Chance": 0.942,
       "Double Chance_push": 0.0,
-      "or GG": 1.0,
+      "or GG": 0.9517,
       "or GG_push": 0.0,
-      "GG": 0.622,
+      "GG": 0.57,
       "GG_push": 0.0,
       "band": "70-80%",
       "orGG_ci": [
-        0.9645504318541143,
-        0.9993821994187706
+        0.9198154645682735,
+        0.9700624935900952
       ],
       "1x2_ci": [
-        0.7354466277771747,
-        0.8751824947060756
+        0.7623252546192769,
+        0.8515352705434778
       ],
       "straight_lost_but_protected": 6,
-      "unprotected_upset": 0
+      "unprotected_upset": 6
     },
     {
       "n": 0
     }
   ],
   "leagues": [
+    {
+      "code": "bel-pro-league",
+      "n": 4,
+      "win_1x2": 0.5,
+      "win_orGG": 1.0,
+      "orGG_lift_pp": 50.0,
+      "straight_lost_but_protected": 0
+    },
+    {
+      "code": "fra-ligue-1",
+      "n": 7,
+      "win_1x2": 0.714,
+      "win_orGG": 1.0,
+      "orGG_lift_pp": 28.6,
+      "straight_lost_but_protected": 0
+    },
+    {
+      "code": "sau-pro-league",
+      "n": 7,
+      "win_1x2": 0.714,
+      "win_orGG": 1.0,
+      "orGG_lift_pp": 28.6,
+      "straight_lost_but_protected": 0
+    },
+    {
+      "code": "ned-eredivisie",
+      "n": 8,
+      "win_1x2": 0.625,
+      "win_orGG": 0.875,
+      "orGG_lift_pp": 25.0,
+      "straight_lost_but_protected": 0
+    },
     {
       "code": "est-meistriliiga",
       "n": 4,
@@ -196,19 +228,19 @@
       "straight_lost_but_protected": 1
     },
     {
-      "code": "ecu-liga-pro",
+      "code": "ita-serie-a",
       "n": 5,
       "win_1x2": 0.8,
       "win_orGG": 1.0,
       "orGG_lift_pp": 20.0,
-      "straight_lost_but_protected": 1
+      "straight_lost_but_protected": 0
     },
     {
       "code": "usa-usl-league-one",
-      "n": 15,
-      "win_1x2": 0.8,
+      "n": 11,
+      "win_1x2": 0.818,
       "win_orGG": 1.0,
-      "orGG_lift_pp": 20.0,
+      "orGG_lift_pp": 18.2,
       "straight_lost_but_protected": 0
     },
     {
@@ -220,6 +252,14 @@
       "straight_lost_but_protected": 0
     },
     {
+      "code": "ger-bundesliga",
+      "n": 16,
+      "win_1x2": 0.812,
+      "win_orGG": 0.938,
+      "orGG_lift_pp": 12.5,
+      "straight_lost_but_protected": 1
+    },
+    {
       "code": "lva-virsliga",
       "n": 10,
       "win_1x2": 0.9,
@@ -228,7 +268,55 @@
       "straight_lost_but_protected": 0
     },
     {
-      "code": "sau-pro-league",
+      "code": "wal-cymru-premier",
+      "n": 11,
+      "win_1x2": 0.818,
+      "win_orGG": 0.909,
+      "orGG_lift_pp": 9.1,
+      "straight_lost_but_protected": 1
+    },
+    {
+      "code": "eng-premier-league",
+      "n": 13,
+      "win_1x2": 0.846,
+      "win_orGG": 0.923,
+      "orGG_lift_pp": 7.7,
+      "straight_lost_but_protected": 0
+    },
+    {
+      "code": "por-primeira-liga",
+      "n": 13,
+      "win_1x2": 0.923,
+      "win_orGG": 1.0,
+      "orGG_lift_pp": 7.7,
+      "straight_lost_but_protected": 0
+    },
+    {
+      "code": "sgp-premier-league",
+      "n": 17,
+      "win_1x2": 0.824,
+      "win_orGG": 0.882,
+      "orGG_lift_pp": 5.9,
+      "straight_lost_but_protected": 0
+    },
+    {
+      "code": "esp-la-liga",
+      "n": 7,
+      "win_1x2": 1.0,
+      "win_orGG": 1.0,
+      "orGG_lift_pp": 0.0,
+      "straight_lost_but_protected": 0
+    },
+    {
+      "code": "sco-premiership",
+      "n": 6,
+      "win_1x2": 1.0,
+      "win_orGG": 1.0,
+      "orGG_lift_pp": 0.0,
+      "straight_lost_but_protected": 0
+    },
+    {
+      "code": "tur-super-lig",
       "n": 5,
       "win_1x2": 1.0,
       "win_orGG": 1.0,
@@ -236,8 +324,88 @@
       "straight_lost_but_protected": 0
     },
     {
-      "code": "sgp-premier-league",
+      "code": "nor-eliteserien",
+      "n": 5,
+      "win_1x2": 1.0,
+      "win_orGG": 1.0,
+      "orGG_lift_pp": 0.0,
+      "straight_lost_but_protected": 0
+    },
+    {
+      "code": "chn-csl",
+      "n": 7,
+      "win_1x2": 1.0,
+      "win_orGG": 1.0,
+      "orGG_lift_pp": 0.0,
+      "straight_lost_but_protected": 0
+    },
+    {
+      "code": "per-liga-1",
+      "n": 5,
+      "win_1x2": 1.0,
+      "win_orGG": 1.0,
+      "orGG_lift_pp": 0.0,
+      "straight_lost_but_protected": 0
+    },
+    {
+      "code": "tha-league-1",
+      "n": 5,
+      "win_1x2": 1.0,
+      "win_orGG": 1.0,
+      "orGG_lift_pp": 0.0,
+      "straight_lost_but_protected": 0
+    },
+    {
+      "code": "bol-liga-1",
+      "n": 4,
+      "win_1x2": 1.0,
+      "win_orGG": 1.0,
+      "orGG_lift_pp": 0.0,
+      "straight_lost_but_protected": 0
+    },
+    {
+      "code": "eng-championship",
+      "n": 4,
+      "win_1x2": 0.75,
+      "win_orGG": 0.75,
+      "orGG_lift_pp": 0.0,
+      "straight_lost_but_protected": 0
+    },
+    {
+      "code": "ecu-liga-pro",
+      "n": 5,
+      "win_1x2": 1.0,
+      "win_orGG": 1.0,
+      "orGG_lift_pp": 0.0,
+      "straight_lost_but_protected": 0
+    },
+    {
+      "code": "uru-primera",
+      "n": 4,
+      "win_1x2": 1.0,
+      "win_orGG": 1.0,
+      "orGG_lift_pp": 0.0,
+      "straight_lost_but_protected": 0
+    },
+    {
+      "code": "cyp-first-division",
+      "n": 6,
+      "win_1x2": 1.0,
+      "win_orGG": 1.0,
+      "orGG_lift_pp": 0.0,
+      "straight_lost_but_protected": 0
+    },
+    {
+      "code": "mys-super-league",
       "n": 10,
+      "win_1x2": 1.0,
+      "win_orGG": 1.0,
+      "orGG_lift_pp": 0.0,
+      "straight_lost_but_protected": 0
+    },
+    {
+      "code": "eng-national-league",
+      "n": 6,
       "win_1x2": 1.0,
       "win_orGG": 1.0,
       "orGG_lift_pp": 0.0,
