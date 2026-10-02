@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-02T10:38:17.509524+00:00",
+  "generated_at": "2026-10-02T11:12:04.212389+00:00",
   "weeks": [
     "2026-09-14",
     "2026-09-21",
@@ -4095,7 +4095,7 @@
   },
   "model_state": {
     "version": 1,
-    "generated_at": "2026-10-02T07:51:53+00:00",
+    "generated_at": "2026-10-02T10:05:21+00:00",
     "note": "1 active calibration bucket(s) from 13 settled picks \u00b7 2 drifted league(s) \u00b7 112 league(s) with adaptive gate factors \u00b7 149 league(s) with a recursive strength model",
     "calibration": [
       {
@@ -4171,12 +4171,12 @@
     "weights": {
       "kor-k-league": {
         "factors": {
-          "position": 0.22461842105263158,
-          "form_last5": 0.28242763157894735,
-          "wdl_rate": 0.17198684210526316,
-          "home_away": 0.12453289473684209,
-          "goal_diff": 0.12453289473684209,
-          "historical": 0.07190131578947369
+          "position": 0.24986842105263157,
+          "form_last5": 0.26980263157894735,
+          "wdl_rate": 0.19723684210526315,
+          "home_away": 0.1119078947368421,
+          "goal_diff": 0.1119078947368421,
+          "historical": 0.059276315789473684
         },
         "notes": "Auto-tuned from hit-rate validation (avg_hit=41.9%, action=boost_form, step=0.025, mature_slots=35)."
       }
@@ -29673,11 +29673,11 @@
       }
     },
     "calibration_prior": {
-      "slope": 0.7691,
-      "intercept": -0.0383,
+      "slope": 0.7688,
+      "intercept": -0.0382,
       "kappa": 40.0,
       "points": 8,
-      "samples": 7466,
+      "samples": 7467,
       "source": "gate_backtest.calibration_curve (Elo route, no look-ahead)",
       "caveat": "fitted on the pick-gate replay's Elo-from-strength route, not the live DC-priced route, so it is a PRIOR: the live buckets override it as soon as they hold more settled evidence of their own. Not applied to published probabilities or to selection until that trade-off is signed off.",
       "applied": false,
@@ -29690,15 +29690,15 @@
       "adjust_pp": 0.0,
       "refuted": true,
       "reason": "grid over-predicts draws; no correction applied",
-      "slots": 7422,
+      "slots": 7423,
       "elo_diagnostic": {
         "route": "p_draw",
         "applied": true,
         "adjust_pp": 1.15,
         "raw_error_pp": -1.2,
         "shrinkage": 0.961,
-        "band_agreement": 0.75,
-        "slots": 7466,
+        "band_agreement": 1.0,
+        "slots": 7467,
         "draws": 1666,
         "realized": 22.3,
         "predicted": 21.1,
