@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-04T10:41:39.967924+00:00",
+  "generated_at": "2026-10-04T14:10:30.448059+00:00",
   "weeks": [
     "2026-09-14",
     "2026-09-21",
@@ -1351,21 +1351,21 @@
   },
   "walk_forward": {
     "generator": "gsis.walkforward.compute",
-    "leagues_covered": 123,
-    "eval_slots": 5042,
-    "overall_hit_rate": 120.06,
-    "early_slots": 2584,
-    "late_slots": 2458,
-    "early_hit_rate": 55.41,
-    "late_hit_rate": 59.3,
-    "learning_delta": 3.89,
+    "leagues_covered": 125,
+    "eval_slots": 5067,
+    "overall_hit_rate": 119.62,
+    "early_slots": 2597,
+    "late_slots": 2470,
+    "early_hit_rate": 55.58,
+    "late_hit_rate": 59.49,
+    "learning_delta": 3.92,
     "prior_ab": {
       "active": true,
-      "leagues": 215,
-      "slots": 4364,
-      "baseline_hit_rate": 57.07,
-      "prior_hit_rate": 56.92,
-      "delta": -0.15,
+      "leagues": 216,
+      "slots": 4373,
+      "baseline_hit_rate": 57.21,
+      "prior_hit_rate": 57.03,
+      "delta": -0.18,
       "baseline_early": null,
       "prior_early": null,
       "delta_early": null,
@@ -4091,13 +4091,52 @@
           "early_delta": 0.67,
           "late_delta": -0.25
         }
+      },
+      "svk-second-league": {
+        "name": "Slovak Second Football League",
+        "season_id": 305,
+        "slots": 16,
+        "hit_rate": 98.33,
+        "early": {
+          "slots": 8,
+          "hit_rate": 96.67
+        },
+        "late": {
+          "slots": 8,
+          "hit_rate": 100.0
+        },
+        "learning_delta": 3.33
+      },
+      "can-cpl": {
+        "name": "Canadian Premier League",
+        "season_id": 306,
+        "slots": 9,
+        "hit_rate": 87.65,
+        "early": {
+          "slots": 5,
+          "hit_rate": 77.78
+        },
+        "late": {
+          "slots": 4,
+          "hit_rate": 100.0
+        },
+        "learning_delta": 22.22,
+        "prior": {
+          "teams": 8,
+          "dates": 18,
+          "slots": 9,
+          "hit_rate": 81.48,
+          "delta": -6.17,
+          "early_delta": 0.0,
+          "late_delta": -13.89
+        }
       }
     }
   },
   "model_state": {
     "version": 1,
-    "generated_at": "2026-10-04T09:08:28+00:00",
-    "note": "1 active calibration bucket(s) from 16 settled picks \u00b7 2 drifted league(s) \u00b7 112 league(s) with adaptive gate factors \u00b7 149 league(s) with a recursive strength model",
+    "generated_at": "2026-10-04T13:26:40+00:00",
+    "note": "1 active calibration bucket(s) from 16 settled picks \u00b7 2 drifted league(s) \u00b7 114 league(s) with adaptive gate factors \u00b7 151 league(s) with a recursive strength model",
     "calibration": [
       {
         "lo": 0.5,
@@ -5078,6 +5117,22 @@
         "min_win": 0.7,
         "min_win_dc": 0.7,
         "min_gap": 2.08
+      },
+      "svk-second-league": {
+        "hit_rate": 98.3,
+        "slots": 16,
+        "learning_delta": 3.33,
+        "min_win": 0.7,
+        "min_win_dc": 0.7,
+        "min_gap": 2.0
+      },
+      "can-cpl": {
+        "hit_rate": 87.7,
+        "slots": 9,
+        "learning_delta": 22.22,
+        "min_win": 0.7,
+        "min_win_dc": 0.7,
+        "min_gap": 2.0
       }
     },
     "team_models": {
@@ -28175,6 +28230,235 @@
             "resid_std": 0.816
           }
         }
+      },
+      "svk-second-league": {
+        "league": {
+          "matches": 65,
+          "teams": 15,
+          "mu": 1.0405,
+          "home_adv": 0.0658,
+          "avg_goals": 2.831
+        },
+        "teams": {
+          "3206": {
+            "n": 9,
+            "att": 0.201,
+            "def": 0.31,
+            "strength_est": -0.11,
+            "z": -0.47,
+            "prior": 49.3,
+            "resid_std": 1.214
+          },
+          "3207": {
+            "n": 8,
+            "att": 0.35,
+            "def": 0.268,
+            "strength_est": 0.083,
+            "z": 0.36,
+            "prior": 50.5,
+            "resid_std": 1.276
+          },
+          "3208": {
+            "n": 9,
+            "att": 0.262,
+            "def": -0.188,
+            "strength_est": 0.45,
+            "z": 1.95,
+            "prior": 52.9,
+            "resid_std": 0.865
+          },
+          "3209": {
+            "n": 9,
+            "att": 0.005,
+            "def": 0.225,
+            "strength_est": -0.219,
+            "z": -0.95,
+            "prior": 48.6,
+            "resid_std": 0.819
+          },
+          "3210": {
+            "n": 9,
+            "att": 0.146,
+            "def": -0.032,
+            "strength_est": 0.179,
+            "z": 0.77,
+            "prior": 51.1,
+            "resid_std": 1.034
+          },
+          "3212": {
+            "n": 9,
+            "att": 0.193,
+            "def": 0.055,
+            "strength_est": 0.138,
+            "z": 0.6,
+            "prior": 50.9,
+            "resid_std": 1.549
+          },
+          "3213": {
+            "n": 10,
+            "att": -0.061,
+            "def": -0.006,
+            "strength_est": -0.055,
+            "z": -0.24,
+            "prior": 49.6,
+            "resid_std": 0.765
+          },
+          "3214": {
+            "n": 9,
+            "att": 0.01,
+            "def": -0.011,
+            "strength_est": 0.022,
+            "z": 0.09,
+            "prior": 50.1,
+            "resid_std": 1.026
+          },
+          "3215": {
+            "n": 5,
+            "att": 0.093,
+            "def": 0.053,
+            "strength_est": 0.04,
+            "z": 0.17,
+            "prior": 50.2,
+            "resid_std": 0.748
+          },
+          "3216": {
+            "n": 8,
+            "att": -0.217,
+            "def": 0.294,
+            "strength_est": -0.512,
+            "z": -2.21,
+            "prior": 47.1,
+            "resid_std": 1.104
+          },
+          "3217": {
+            "n": 9,
+            "att": -0.009,
+            "def": -0.082,
+            "strength_est": 0.072,
+            "z": 0.31,
+            "prior": 50.5,
+            "resid_std": 1.019
+          },
+          "3218": {
+            "n": 9,
+            "att": 0.013,
+            "def": -0.096,
+            "strength_est": 0.109,
+            "z": 0.47,
+            "prior": 50.7,
+            "resid_std": 1.025
+          },
+          "3219": {
+            "n": 9,
+            "att": -0.343,
+            "def": 0.005,
+            "strength_est": -0.348,
+            "z": -1.5,
+            "prior": 47.8,
+            "resid_std": 0.471
+          },
+          "3220": {
+            "n": 9,
+            "att": -0.327,
+            "def": -0.585,
+            "strength_est": 0.258,
+            "z": 1.11,
+            "prior": 51.6,
+            "resid_std": 0.789
+          },
+          "3221": {
+            "n": 9,
+            "att": -0.317,
+            "def": -0.21,
+            "strength_est": -0.107,
+            "z": -0.46,
+            "prior": 49.3,
+            "resid_std": 0.64
+          }
+        }
+      },
+      "can-cpl": {
+        "league": {
+          "matches": 54,
+          "teams": 8,
+          "mu": 1.0799,
+          "home_adv": -0.0311,
+          "avg_goals": 2.944
+        },
+        "teams": {
+          "3222": {
+            "n": 13,
+            "att": 0.238,
+            "def": 0.478,
+            "strength_est": -0.239,
+            "z": -1.19,
+            "prior": 47.7,
+            "resid_std": 1.084
+          },
+          "3223": {
+            "n": 13,
+            "att": 0.059,
+            "def": 0.326,
+            "strength_est": -0.267,
+            "z": -1.32,
+            "prior": 47.4,
+            "resid_std": 1.096
+          },
+          "3224": {
+            "n": 14,
+            "att": 0.059,
+            "def": -0.16,
+            "strength_est": 0.219,
+            "z": 1.08,
+            "prior": 52.2,
+            "resid_std": 1.15
+          },
+          "3225": {
+            "n": 14,
+            "att": -0.025,
+            "def": 0.142,
+            "strength_est": -0.167,
+            "z": -0.83,
+            "prior": 48.3,
+            "resid_std": 1.386
+          },
+          "3226": {
+            "n": 13,
+            "att": -0.192,
+            "def": -0.078,
+            "strength_est": -0.114,
+            "z": -0.57,
+            "prior": 48.9,
+            "resid_std": 0.562
+          },
+          "3227": {
+            "n": 14,
+            "att": -0.036,
+            "def": -0.215,
+            "strength_est": 0.179,
+            "z": 0.89,
+            "prior": 51.8,
+            "resid_std": 0.961
+          },
+          "3228": {
+            "n": 14,
+            "att": -0.005,
+            "def": -0.186,
+            "strength_est": 0.182,
+            "z": 0.9,
+            "prior": 51.9,
+            "resid_std": 0.922
+          },
+          "3229": {
+            "n": 13,
+            "att": -0.097,
+            "def": -0.306,
+            "strength_est": 0.208,
+            "z": 1.03,
+            "prior": 52.0,
+            "resid_std": 0.722
+          }
+        }
       }
     },
     "coverage": {
@@ -28673,6 +28957,15 @@
         "sofa": false,
         "injury_feed": false
       },
+      "rou-liga-3": {
+        "form_feed": false,
+        "match_events": 0,
+        "espn": false,
+        "espn_code": null,
+        "wiki": true,
+        "sofa": false,
+        "injury_feed": false
+      },
       "cro-hnl": {
         "form_feed": true,
         "match_events": 43,
@@ -28865,6 +29158,15 @@
       "svk-first-league": {
         "form_feed": true,
         "match_events": 26,
+        "espn": false,
+        "espn_code": null,
+        "wiki": true,
+        "sofa": false,
+        "injury_feed": false
+      },
+      "svk-second-league": {
+        "form_feed": true,
+        "match_events": 65,
         "espn": false,
         "espn_code": null,
         "wiki": true,
@@ -29411,6 +29713,15 @@
         "sofa": false,
         "injury_feed": false
       },
+      "can-cpl": {
+        "form_feed": true,
+        "match_events": 54,
+        "espn": false,
+        "espn_code": null,
+        "wiki": true,
+        "sofa": false,
+        "injury_feed": false
+      },
       "mex-expansion": {
         "form_feed": true,
         "match_events": 672,
@@ -29674,11 +29985,11 @@
       }
     },
     "calibration_prior": {
-      "slope": 0.7688,
-      "intercept": -0.0382,
+      "slope": 0.7687,
+      "intercept": -0.039,
       "kappa": 40.0,
       "points": 8,
-      "samples": 7467,
+      "samples": 7479,
       "source": "gate_backtest.calibration_curve (Elo route, no look-ahead)",
       "caveat": "fitted on the pick-gate replay's Elo-from-strength route, not the live DC-priced route, so it is a PRIOR: the live buckets override it as soon as they hold more settled evidence of their own. Not applied to published probabilities or to selection until that trade-off is signed off.",
       "applied": false,
@@ -29691,16 +30002,16 @@
       "adjust_pp": 0.0,
       "refuted": true,
       "reason": "grid over-predicts draws; no correction applied",
-      "slots": 7423,
+      "slots": 7435,
       "elo_diagnostic": {
         "route": "p_draw",
         "applied": true,
         "adjust_pp": 1.15,
         "raw_error_pp": -1.2,
         "shrinkage": 0.961,
-        "band_agreement": 1.0,
-        "slots": 7467,
-        "draws": 1666,
+        "band_agreement": 0.75,
+        "slots": 7479,
+        "draws": 1667,
         "realized": 22.3,
         "predicted": 21.1,
         "ci": "21.5-23.1%",
