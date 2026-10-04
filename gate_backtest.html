@@ -479,6 +479,19 @@ are small and head-to-head records decay as squads turn over.</p>
 </div>
 
 <div class="gbsec">
+<h2>Opponent quality — advisory, NOT a gate</h2>
+<p>The rulebook requires the <b>favourite</b> to be top-3 and the opponent to be "Unranked", but it never
+reads the <b>opponent's own league position</b>. That is the most obvious untested explanation for the
+residue of losses, so it is measured here every build. It publishes nothing and changes no gate:
+the loss reduction is consistent (it holds in 62 of 62 leave-one-league-out folds) but
+<b>Fisher p = 0.163</b> at the volume-friendly threshold, which is not significant.</p>
+<table class="gbt "><thead><tr><th>Opponent ranked</th><th>Picks</th><th>Win rate</th><th>Loss rate</th><th>Draw rate</th><th>90% CI</th></tr></thead><tbody><tr><td>#1-6</td><td>13</td><td>92.3%</td><td>0.0%</td><td>7.7%</td><td>70.3-97.4</td></tr><tr><td>#7-10</td><td>87</td><td>77.0%</td><td>6.9%</td><td>16.1%</td><td>68.7-83.4</td></tr><tr><td>#11-14</td><td>89</td><td>84.3%</td><td>7.9%</td><td>7.9%</td><td>76.8-89.4</td></tr><tr><td>#15-18</td><td>50</td><td>88.0%</td><td>0.0%</td><td>12.0%</td><td>78.1-93.4</td></tr><tr><td>#19+</td><td>35</td><td>85.7%</td><td>0.0%</td><td>14.3%</td><td>73.0-92.5</td></tr></tbody></table>
+<table class="gbt "><thead><tr><th>Rule</th><th>Picks kept</th><th>Win rate</th><th>Losses</th><th>Loss rate</th><th>Fisher p</th></tr></thead><tbody><tr><td>opponent below #10 (not shipped)</td><td>174 (63.5%)</td><td>85.6%</td><td>7/13 baseline</td><td>4.0%</td><td>0.817</td></tr><tr><td>opponent below #12 (not shipped)</td><td>123 (44.9%)</td><td>87.8%</td><td>2/13 baseline</td><td>1.6%</td><td>0.163</td></tr><tr><td>opponent below #14 (not shipped)</td><td>85 (31.0%)</td><td>87.1%</td><td>0/13 baseline</td><td>0.0%</td><td>0.044</td></tr></tbody></table>
+<p><b>Verdict:</b> loss reduction is real and consistent across 62/62 leave-one-league-out folds but Fisher p = 0.16 at the volume-friendly threshold (#12); held as evidence until it clears p < 0.05 Re-run <code>scripts/opp_quality_probe.py</code> for the full sweep
+(six thresholds, joint position&times;strength configs, leave-one-out) as history accumulates.</p>
+</div>
+
+<div class="gbsec">
 <h2>By league — realized win rate + 90% credible interval</h2>
 <p>The per-league credible interval is what lets each league's adaptive floor move only when the
 evidence is strong (CI entirely on one side of the floor), not on small-sample noise. These feed
@@ -488,7 +501,7 @@ evidence is strong (CI entirely on one side of the floor), not on small-sample n
 
 <div class="gbsec">
 <h2>What this harness does not measure (documented, not silent)</h2>
-<ul><li>EV/odds gate not replayed (no historical odds stored) — it can only shrink the live set</li><li>DC route is replayed no-look-ahead from a streaming fit (same half-life/prior/caps as live, keyed by entity_id); it is not byte-identical to a rebuild of today's ratings, and it prices only fixtures where both sides were rated at kickoff</li></ul>
+<ul><li>EV/odds gate not replayed here: prices are now STORED (match_odds, 2026-10-04) but ESPN only retains them for the current season (measured: 2026 90% priced, 2025 8%, 2024 0%), so a full-history EV replay is still not possible. The EV gate can only shrink the live set</li><li>DC route is replayed no-look-ahead from a streaming fit (same half-life/prior/caps as live, keyed by entity_id); it is not byte-identical to a rebuild of today's ratings, and it prices only fixtures where both sides were rated at kickoff</li></ul>
 </div>
 </div>
 <footer class="foot"><div class="d-links">Dashboards: <a href="progress.html">Progress</a> · <a href="dashboard.html">Strength Lists</a> · <a href="fixtures.html">Fixtures</a> · <a href="watch.html">Watch</a> · <a href="watchlist.html">Watchlist</a> · <a href="opportunities.html">Opportunities</a> · <a href="markets.html">Markets</a> · <a href="card_results.html">Results</a> · <a href="backtest.html">Backtest</a> · <a href="gate_backtest.html">Pick Gate</a></div><div class="d-links">Every probability here is priced with a data-blindness tax: we have no live injury feed for soccer (−2pp on the favourite) and no prior meeting between most pairs (−1pp). These are league-wide conditions so they are stated once here rather than repeated under every match; they still reduce every published win probability.</div>Global Sports Intelligence System · <a href="api/tables.json" target="_blank" rel="noopener">API data</a></footer>

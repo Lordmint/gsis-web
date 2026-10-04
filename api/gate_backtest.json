@@ -2503,8 +2503,118 @@
     "form_warned": 0.0,
     "shaved": 0.0
   },
+  "opponent_quality": {
+    "advisory": true,
+    "shipped_as_gate": false,
+    "reason": "loss reduction is real and consistent across 62/62 leave-one-league-out folds but Fisher p = 0.16 at the volume-friendly threshold (#12); held as evidence until it clears p < 0.05",
+    "bands": [
+      {
+        "slots": 13,
+        "hit_rate": 92.3,
+        "loss_rate": 0.0,
+        "draw_rate": 7.7,
+        "non_loss_rate": 100.0,
+        "ci_lo": 70.3,
+        "ci_hi": 97.4,
+        "band": "#1-6"
+      },
+      {
+        "slots": 87,
+        "hit_rate": 77.0,
+        "loss_rate": 6.9,
+        "draw_rate": 16.1,
+        "non_loss_rate": 93.1,
+        "ci_lo": 68.7,
+        "ci_hi": 83.4,
+        "band": "#7-10"
+      },
+      {
+        "slots": 89,
+        "hit_rate": 84.3,
+        "loss_rate": 7.9,
+        "draw_rate": 7.9,
+        "non_loss_rate": 92.1,
+        "ci_lo": 76.8,
+        "ci_hi": 89.4,
+        "band": "#11-14"
+      },
+      {
+        "slots": 50,
+        "hit_rate": 88.0,
+        "loss_rate": 0.0,
+        "draw_rate": 12.0,
+        "non_loss_rate": 100.0,
+        "ci_lo": 78.1,
+        "ci_hi": 93.4,
+        "band": "#15-18"
+      },
+      {
+        "slots": 35,
+        "hit_rate": 85.7,
+        "loss_rate": 0.0,
+        "draw_rate": 14.3,
+        "non_loss_rate": 100.0,
+        "ci_lo": 73.0,
+        "ci_hi": 92.5,
+        "band": "#19+"
+      }
+    ],
+    "thresholds": [
+      {
+        "slots": 174,
+        "hit_rate": 85.6,
+        "loss_rate": 4.0,
+        "draw_rate": 10.3,
+        "non_loss_rate": 96.0,
+        "ci_lo": 80.6,
+        "ci_hi": 89.4,
+        "threshold": 10,
+        "kept_share": 63.5,
+        "losses": 7,
+        "baseline_losses": 13,
+        "fisher_p": 0.8171864996663201
+      },
+      {
+        "slots": 123,
+        "hit_rate": 87.8,
+        "loss_rate": 1.6,
+        "draw_rate": 10.6,
+        "non_loss_rate": 98.4,
+        "ci_lo": 82.0,
+        "ci_hi": 91.7,
+        "threshold": 12,
+        "kept_share": 44.9,
+        "losses": 2,
+        "baseline_losses": 13,
+        "fisher_p": 0.16258388647252955
+      },
+      {
+        "slots": 85,
+        "hit_rate": 87.1,
+        "loss_rate": 0.0,
+        "draw_rate": 12.9,
+        "non_loss_rate": 100.0,
+        "ci_lo": 79.7,
+        "ci_hi": 91.7,
+        "threshold": 14,
+        "kept_share": 31.0,
+        "losses": 0,
+        "baseline_losses": 13,
+        "fisher_p": 0.04408677884672909
+      }
+    ],
+    "baseline": {
+      "slots": 274,
+      "hit_rate": 83.2,
+      "loss_rate": 4.7,
+      "draw_rate": 12.0,
+      "non_loss_rate": 95.3,
+      "ci_lo": 79.1,
+      "ci_hi": 86.5
+    }
+  },
   "exclusions": [
-    "EV/odds gate not replayed (no historical odds stored) \u2014 it can only shrink the live set",
+    "EV/odds gate not replayed here: prices are now STORED (match_odds, 2026-10-04) but ESPN only retains them for the current season (measured: 2026 90% priced, 2025 8%, 2024 0%), so a full-history EV replay is still not possible. The EV gate can only shrink the live set",
     "DC route is replayed no-look-ahead from a streaming fit (same half-life/prior/caps as live, keyed by entity_id); it is not byte-identical to a rebuild of today's ratings, and it prices only fixtures where both sides were rated at kickoff"
   ]
 }
