@@ -1,35 +1,35 @@
 {
   "generator": "lock_reliability",
-  "candidates": 7467,
+  "candidates": 7479,
   "published_locks_dc_route": 274,
   "bands": [
     {
       "band": "lock >=80%",
-      "n": 69,
-      "model_mean": 0.834,
-      "win_rate": 0.8986,
+      "n": 72,
+      "model_mean": 0.8338,
+      "win_rate": 0.9028,
       "win_ci": [
-        0.8203653413310903,
-        0.9418461581173876
+        0.8274264558494717,
+        0.9442890245892392
       ],
-      "draw_rate": 0.087,
-      "upset_rate": 0.0145,
-      "non_win_rate": 0.1014,
-      "calibration_gap_pp": 6.5
+      "draw_rate": 0.0833,
+      "upset_rate": 0.0139,
+      "non_win_rate": 0.0972,
+      "calibration_gap_pp": 6.9
     },
     {
       "band": "70-80%",
-      "n": 205,
-      "model_mean": 0.7519,
-      "win_rate": 0.8098,
+      "n": 202,
+      "model_mean": 0.7524,
+      "win_rate": 0.8069,
       "win_ci": [
-        0.7600908086093603,
-        0.8500591493643705
+        0.756659421639237,
+        0.8477890256469203
       ],
-      "draw_rate": 0.1317,
-      "upset_rate": 0.0585,
-      "non_win_rate": 0.1902,
-      "calibration_gap_pp": 5.8
+      "draw_rate": 0.1337,
+      "upset_rate": 0.0594,
+      "non_win_rate": 0.1931,
+      "calibration_gap_pp": 5.5
     },
     {
       "band": "66-70% (cut by the 0.70 floor)",
@@ -45,7 +45,7 @@
     "false_locks": 46,
     "upset_locks": 13,
     "false_locks_with_form_warning": 0,
-    "form_warning_fired_anywhere": 292,
+    "form_warning_fired_anywhere": 293,
     "note": "The form tripwire runs at ADMISSION, so a flagged candidate is shaved below the gate and never becomes a pick; that is why published false locks carry no form warning. blind_adj>0 is a constant (no injury feed) and cannot discriminate."
   },
   "overall_upset_rate": 0.0474,

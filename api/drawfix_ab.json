@@ -1,14 +1,14 @@
 {
   "generator": "drawfix_ab",
   "adjust_pp": 0.0,
-  "n_settled": 13,
+  "n_settled": 16,
   "n_relined": 0,
-  "n_same": 13,
+  "n_same": 16,
   "transitions": {},
-  "loss_rate_historical": 0.1538,
-  "resolvable_set": 13,
-  "loss_rate_corrected_resolvable": 0.1538,
-  "loss_rate_corrected_worst_case": 0.1538,
+  "loss_rate_historical": 0.125,
+  "resolvable_set": 16,
+  "loss_rate_corrected_resolvable": 0.125,
+  "loss_rate_corrected_worst_case": 0.125,
   "historical_losses": 2,
   "corrected_losses_resolvable": 2,
   "corrected_losses_worst_case": 2,
@@ -31,9 +31,15 @@
     },
     {
       "week": "2026-09-28",
-      "settled": 1,
+      "settled": 4,
       "relined": 0,
-      "same": 1
+      "same": 4
+    },
+    {
+      "week": "2026-10-05",
+      "settled": 0,
+      "relined": 0,
+      "same": 0
     }
   ],
   "rows": [
@@ -192,7 +198,7 @@
       "strong": "Arsenal Sarandi",
       "weak": "Liniers",
       "is_home": true,
-      "historical_market": "Double Chance \u00b7 1UP",
+      "historical_market": "Home or GG",
       "uncorrected_market": "Home or GG",
       "corrected_market": "Home or GG",
       "relined": false,
@@ -200,7 +206,7 @@
       "counterfactual_verdict": "W",
       "score": "2-0",
       "odds": 1.44,
-      "reproduces": false
+      "reproduces": true
     },
     {
       "week": "2026-09-21",
@@ -230,6 +236,51 @@
       "counterfactual_verdict": "L",
       "score": "0-2",
       "odds": 2.45,
+      "reproduces": true
+    },
+    {
+      "week": "2026-09-28",
+      "strong": "Raith Rovers",
+      "weak": "Greenock Morton",
+      "is_home": false,
+      "historical_market": "Double Chance \u00b7 1UP",
+      "uncorrected_market": "Double Chance \u00b7 1UP",
+      "corrected_market": "Double Chance \u00b7 1UP",
+      "relined": false,
+      "historical_verdict": "W",
+      "counterfactual_verdict": "W",
+      "score": "1-2",
+      "odds": 1.61,
+      "reproduces": true
+    },
+    {
+      "week": "2026-09-28",
+      "strong": "Liverpool",
+      "weak": "Progreso",
+      "is_home": true,
+      "historical_market": "Home or GG",
+      "uncorrected_market": "Home or GG",
+      "corrected_market": "Home or GG",
+      "relined": false,
+      "historical_verdict": "W",
+      "counterfactual_verdict": "W",
+      "score": "3-2",
+      "odds": 1.67,
+      "reproduces": true
+    },
+    {
+      "week": "2026-09-28",
+      "strong": "Club Atl\u00e9tico Morelia",
+      "weak": "Tlaxcala FC",
+      "is_home": true,
+      "historical_market": "AH Home (0)",
+      "uncorrected_market": "AH Home (0)",
+      "corrected_market": "AH Home (0)",
+      "relined": false,
+      "historical_verdict": "PUSH",
+      "counterfactual_verdict": "PUSH",
+      "score": "1-1",
+      "odds": 1.46,
       "reproduces": true
     }
   ]
