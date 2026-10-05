@@ -1,0 +1,283 @@
+{
+  "vehicles": [
+    {
+      "kind": "ah_receive",
+      "label": "underdog +AH",
+      "settled": 0,
+      "pending": 49,
+      "wins": 0,
+      "losses": 0,
+      "pushes": 0
+    },
+    {
+      "kind": "dc",
+      "label": "underdog or draw",
+      "settled": 0,
+      "pending": 94,
+      "wins": 0,
+      "losses": 0,
+      "pushes": 0
+    },
+    {
+      "kind": "dc1up",
+      "label": "underdog leads at some point or draw",
+      "settled": 0,
+      "pending": 94,
+      "wins": 0,
+      "losses": 0,
+      "pushes": 0
+    },
+    {
+      "kind": "or_gg",
+      "label": "underdog or both teams score",
+      "settled": 0,
+      "pending": 94,
+      "wins": 0,
+      "losses": 0,
+      "pushes": 0
+    },
+    {
+      "kind": "win",
+      "label": "underdog to win",
+      "settled": 0,
+      "pending": 94,
+      "wins": 0,
+      "losses": 0,
+      "pushes": 0
+    }
+  ],
+  "rows": 94,
+  "bands": {
+    "or_gg": [
+      {
+        "band": "0%-55%",
+        "n": 0,
+        "wins": 0,
+        "losses": 0,
+        "pushes": 0,
+        "pending": 3
+      },
+      {
+        "band": "55%-70%",
+        "n": 0,
+        "wins": 0,
+        "losses": 0,
+        "pushes": 0,
+        "pending": 20
+      },
+      {
+        "band": "70%-85%",
+        "n": 0,
+        "wins": 0,
+        "losses": 0,
+        "pushes": 0,
+        "pending": 55
+      },
+      {
+        "band": "85%-100%",
+        "n": 0,
+        "wins": 0,
+        "losses": 0,
+        "pushes": 0,
+        "pending": 16
+      }
+    ],
+    "dc": [
+      {
+        "band": "0%-55%",
+        "n": 0,
+        "wins": 0,
+        "losses": 0,
+        "pushes": 0,
+        "pending": 31
+      },
+      {
+        "band": "55%-70%",
+        "n": 0,
+        "wins": 0,
+        "losses": 0,
+        "pushes": 0,
+        "pending": 34
+      },
+      {
+        "band": "70%-85%",
+        "n": 0,
+        "wins": 0,
+        "losses": 0,
+        "pushes": 0,
+        "pending": 28
+      },
+      {
+        "band": "85%-100%",
+        "n": 0,
+        "wins": 0,
+        "losses": 0,
+        "pushes": 0,
+        "pending": 1
+      }
+    ],
+    "dc1up": [
+      {
+        "band": "0%-55%",
+        "n": 0,
+        "wins": 0,
+        "losses": 0,
+        "pushes": 0,
+        "pending": 12
+      },
+      {
+        "band": "55%-70%",
+        "n": 0,
+        "wins": 0,
+        "losses": 0,
+        "pushes": 0,
+        "pending": 36
+      },
+      {
+        "band": "70%-85%",
+        "n": 0,
+        "wins": 0,
+        "losses": 0,
+        "pushes": 0,
+        "pending": 42
+      },
+      {
+        "band": "85%-100%",
+        "n": 0,
+        "wins": 0,
+        "losses": 0,
+        "pushes": 0,
+        "pending": 4
+      }
+    ],
+    "ah_receive": [
+      {
+        "band": "0%-55%",
+        "n": 0,
+        "wins": 0,
+        "losses": 0,
+        "pushes": 0,
+        "pending": 0
+      },
+      {
+        "band": "55%-70%",
+        "n": 0,
+        "wins": 0,
+        "losses": 0,
+        "pushes": 0,
+        "pending": 20
+      },
+      {
+        "band": "70%-85%",
+        "n": 0,
+        "wins": 0,
+        "losses": 0,
+        "pushes": 0,
+        "pending": 28
+      },
+      {
+        "band": "85%-100%",
+        "n": 0,
+        "wins": 0,
+        "losses": 0,
+        "pushes": 0,
+        "pending": 1
+      }
+    ],
+    "win": [
+      {
+        "band": "0%-55%",
+        "n": 0,
+        "wins": 0,
+        "losses": 0,
+        "pushes": 0,
+        "pending": 88
+      },
+      {
+        "band": "55%-70%",
+        "n": 0,
+        "wins": 0,
+        "losses": 0,
+        "pushes": 0,
+        "pending": 5
+      },
+      {
+        "band": "70%-85%",
+        "n": 0,
+        "wins": 0,
+        "losses": 0,
+        "pushes": 0,
+        "pending": 1
+      },
+      {
+        "band": "85%-100%",
+        "n": 0,
+        "wins": 0,
+        "losses": 0,
+        "pushes": 0,
+        "pending": 0
+      }
+    ]
+  },
+  "promotion": {
+    "ah_receive": {
+      "promote": false,
+      "reasons": [
+        "only 0 settled slots (need 30)",
+        "verdict is None, not under-implied",
+        "edge Nonepp below the 2.0pp floor"
+      ],
+      "n": 0,
+      "edge_pp": null,
+      "verdict": null
+    },
+    "dc": {
+      "promote": false,
+      "reasons": [
+        "only 0 settled slots (need 30)",
+        "verdict is None, not under-implied",
+        "edge Nonepp below the 2.0pp floor"
+      ],
+      "n": 0,
+      "edge_pp": null,
+      "verdict": null
+    },
+    "dc1up": {
+      "promote": false,
+      "reasons": [
+        "only 0 settled slots (need 30)",
+        "verdict is None, not under-implied",
+        "edge Nonepp below the 2.0pp floor"
+      ],
+      "n": 0,
+      "edge_pp": null,
+      "verdict": null
+    },
+    "or_gg": {
+      "promote": false,
+      "reasons": [
+        "only 0 settled slots (need 30)",
+        "verdict is None, not under-implied",
+        "edge Nonepp below the 2.0pp floor"
+      ],
+      "n": 0,
+      "edge_pp": null,
+      "verdict": null
+    },
+    "win": {
+      "promote": false,
+      "reasons": [
+        "only 0 settled slots (need 30)",
+        "verdict is None, not under-implied",
+        "edge Nonepp below the 2.0pp floor"
+      ],
+      "n": 0,
+      "edge_pp": null,
+      "verdict": null
+    }
+  },
+  "schema": "underdog-vehicles-2026-10-05",
+  "weeks": [
+    "2026-10-05"
+  ]
+}
