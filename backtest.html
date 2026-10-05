@@ -262,7 +262,7 @@ nav{justify-content:flex-start;width:100%}nav a{flex:1 1 auto;text-align:center}
 <section class="hero"><div class="hero-info">
   <h1>📈 Backtest — does the published edge pay?</h1>
   <p class="hero-sub">Every settled pick from the frozen weekly cards, replayed.
-  Modelled edge 61.5% vs realised edge 48.9% · 4 week(s) · snap 2026-10-05T11:43</p>
+  Modelled edge 60.9% vs realised edge 48.9% · 4 week(s) · snap 2026-10-05T18:45</p>
   <div class="kpis">
     <div class="kpi">Picks<b >17</b></div>
     <div class="kpi">Settled<b >16</b></div>
@@ -280,7 +280,7 @@ nav{justify-content:flex-start;width:100%}nav a{flex:1 1 auto;text-align:center}
 <section class="sec"><div class="sec-hd"><span class="sec-t">⚙️ Reactive corrections — live on the site now</span>
 <span class="sec-s">committed data/model_state.json — calibration buckets shrink published probs + EV gate, drift rescales DC goal rates, tuned weights are snapshotted</span></div>
 <div class="sec-b"><table class="bt"><thead><tr><th>Scope</th><th>N</th><th>Realized</th><th>Correction</th><th>Status</th></tr></thead><tbody>
-<tr><td>0.70–1.01</td><td>16</td><td>84%</td><td>+2.3% · σ 2.3%</td><td>under-implied ↑</td></tr><tr><td>ned-derde-divisie</td><td>—</td><td>—</td><td>goals ×1.0907</td><td style="color:var(--accent)">drift ↑</td></tr><tr><td>rsa-national-first-division</td><td>—</td><td>—</td><td>goals ×1.1515</td><td style="color:var(--accent)">drift ↑</td></tr>
+<tr><td>0.70–1.01</td><td>14</td><td>82%</td><td>+1.0% · σ 1.0%</td><td>under-implied ↑</td></tr><tr><td>ned-derde-divisie</td><td>—</td><td>—</td><td>goals ×1.0907</td><td style="color:var(--accent)">drift ↑</td></tr><tr><td>rsa-national-first-division</td><td>—</td><td>—</td><td>goals ×1.1515</td><td style="color:var(--accent)">drift ↑</td></tr>
 </tbody></table>
 <div style="display:flex;gap:1.2rem;font-size:.82rem;color:var(--dim);margin-top:.6rem">
 <span>Calibration buckets applied: <b>1</b></span>
@@ -330,11 +330,11 @@ nav{justify-content:flex-start;width:100%}nav a{flex:1 1 auto;text-align:center}
 
 <section class="sec"><div class="sec-hd"><span class="sec-t">💰 Staking simulation</span>
 <span class="sec-s">flat £1 vs quarter-Kelly vs Bayesian ¼-Kelly (3% probability uncertainty) on every settled pick (bank 100 start)</span></div>
-<div class="sec-b"><svg viewBox="0 0 560 180" width="100%" style="max-width:680px"><rect x="0" y="0" width="560" height="180" fill="transparent"/><polyline points="8.0,172.0 42.0,171.8 76.0,171.5 110.0,171.0 144.0,170.7 178.0,170.4 212.0,170.1 246.0,169.0 280.0,168.4 314.0,168.2 348.0,168.7 382.0,168.4 416.0,168.3 450.0,168.8 484.0,168.5 518.0,168.1 552.0,168.1" fill="none" stroke="#38bdf8" stroke-width="2"/><polyline points="8.0,172.0 42.0,171.0 76.0,163.9 110.0,149.0 144.0,141.3 178.0,128.4 212.0,116.4 246.0,65.3 280.0,24.9 314.0,8.0 348.0,36.4 382.0,21.5 416.0,16.1 450.0,62.8 484.0,44.3 518.0,20.6 552.0,20.6" fill="none" stroke="#a78bfa" stroke-width="2" stroke-dasharray="4 3"/><polyline points="8.0,172.0 42.0,171.5 76.0,165.1 110.0,151.4 144.0,144.7 178.0,133.4 212.0,123.1 246.0,77.6 280.0,42.6 314.0,29.3 348.0,51.1 382.0,39.2 416.0,36.2 450.0,75.9 484.0,60.7 518.0,41.2 552.0,41.2" fill="none" stroke="#2fd26f" stroke-width="2" stroke-dasharray="1 0"/></svg><div style="display:flex;gap:1.2rem;font-size:.8rem;color:var(--dim)"><span><span style="color:#38bdf8">■</span> Flat £1</span><span><span style="color:#a78bfa">■</span> Quarter-Kelly</span><span><span style="color:#2fd26f">■</span> Bayesian ¼-Kelly (σ̂ 3%)</span></div>
+<div class="sec-b"><svg viewBox="0 0 560 180" width="100%" style="max-width:680px"><rect x="0" y="0" width="560" height="180" fill="transparent"/><polyline points="8.0,172.0 42.0,171.8 76.0,171.5 110.0,171.0 144.0,170.7 178.0,170.3 212.0,170.0 246.0,168.9 280.0,168.4 314.0,168.1 348.0,168.6 382.0,168.4 416.0,168.2 450.0,168.7 484.0,168.4 518.0,168.0 552.0,168.0" fill="none" stroke="#38bdf8" stroke-width="2"/><polyline points="8.0,172.0 42.0,171.0 76.0,163.7 110.0,149.8 144.0,142.0 178.0,129.1 212.0,117.0 246.0,65.7 280.0,25.0 314.0,8.0 348.0,36.5 382.0,21.5 416.0,16.1 450.0,63.1 484.0,45.2 518.0,21.5 552.0,21.5" fill="none" stroke="#a78bfa" stroke-width="2" stroke-dasharray="4 3"/><polyline points="8.0,172.0 42.0,171.5 76.0,164.9 110.0,152.2 144.0,145.4 178.0,134.1 212.0,123.7 246.0,78.0 280.0,42.8 314.0,29.4 348.0,51.3 382.0,39.4 416.0,36.3 450.0,76.3 484.0,61.7 518.0,42.2 552.0,42.2" fill="none" stroke="#2fd26f" stroke-width="2" stroke-dasharray="1 0"/></svg><div style="display:flex;gap:1.2rem;font-size:.8rem;color:var(--dim)"><span><span style="color:#38bdf8">■</span> Flat £1</span><span><span style="color:#a78bfa">■</span> Quarter-Kelly</span><span><span style="color:#2fd26f">■</span> Bayesian ¼-Kelly (σ̂ 3%)</span></div>
 <div style="display:flex;gap:1.2rem;font-size:.82rem;color:var(--dim);margin-top:.6rem">
 <span>Flat £1 end: <b>£107.83</b></span>
-<span>Quarter-Kelly end: <b>£406.21</b></span>
-<span>Bayesian ¼-Kelly end: <b>£364.44</b></span></div></div></section>
+<span>Quarter-Kelly end: <b>£397.56</b></span>
+<span>Bayesian ¼-Kelly end: <b>£356.58</b></span></div></div></section>
 
 <div class="agg">
   <div class="box"><h4>By market</h4><table class="bt"><thead><tr><th>Group</th><th>N</th><th>W / L</th><th>Hit</th><th>ROI</th></tr></thead><tbody><tr><td>Home or GG</td><td>5</td><td>4 / 1</td><td>80%</td><td class="sc"><span class="prof pos">25%</span></td></tr><tr><td>Away or GG</td><td>4</td><td>4 / 0</td><td>100%</td><td class="sc"><span class="prof pos">115%</span></td></tr><tr><td>AH Home (0)</td><td>3</td><td>2 / 1</td><td>67%</td><td class="sc"><span class="prof neg">-10%</span></td></tr><tr><td>Double Chance · 1UP</td><td>2</td><td>2 / 0</td><td>100%</td><td class="sc"><span class="prof pos">86%</span></td></tr><tr><td>AH Away (0)</td><td>1</td><td>1 / 0</td><td>100%</td><td class="sc"><span class="prof pos">56%</span></td></tr></tbody></table></div>
