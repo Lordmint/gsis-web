@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-06T11:27:22.750411+00:00",
+  "generated_at": "2026-10-06T16:58:44.871336+00:00",
   "weeks": [
     "2026-09-14",
     "2026-09-21",
@@ -4198,7 +4198,7 @@
   },
   "model_state": {
     "version": 1,
-    "generated_at": "2026-10-06T06:07:47+00:00",
+    "generated_at": "2026-10-06T10:22:54+00:00",
     "note": "1 active calibration bucket(s) from 16 settled picks \u00b7 2 drifted league(s) \u00b7 115 league(s) with adaptive gate factors \u00b7 151 league(s) with a recursive strength model",
     "calibration": [
       {
@@ -30067,11 +30067,11 @@
       }
     },
     "calibration_prior": {
-      "slope": 0.8145,
-      "intercept": -0.0456,
+      "slope": 0.7726,
+      "intercept": -0.0392,
       "kappa": 40.0,
       "points": 8,
-      "samples": 7496,
+      "samples": 7501,
       "source": "gate_backtest.calibration_curve (Elo route, no look-ahead)",
       "caveat": "fitted on the pick-gate replay's Elo-from-strength route, not the live DC-priced route, so it is a PRIOR: the live buckets override it as soon as they hold more settled evidence of their own. Not applied to published probabilities or to selection until that trade-off is signed off.",
       "applied": false,
@@ -30084,21 +30084,21 @@
       "adjust_pp": 0.0,
       "refuted": true,
       "reason": "grid over-predicts draws; no correction applied",
-      "slots": 7452,
+      "slots": 7457,
       "elo_diagnostic": {
         "route": "p_draw",
         "applied": true,
-        "adjust_pp": 1.15,
-        "raw_error_pp": -1.2,
+        "adjust_pp": 1.06,
+        "raw_error_pp": -1.1,
         "shrinkage": 0.962,
         "band_agreement": 0.75,
-        "slots": 7496,
-        "draws": 1669,
+        "slots": 7501,
+        "draws": 1670,
         "realized": 22.3,
-        "predicted": 21.1,
+        "predicted": 21.2,
         "ci": "21.5-23.1%",
         "refuted": false,
-        "reason": "p_draw route under-predicts draws by 1.2pp pooled (90% CI 21.5-23.1%); +1.15pp applied after 4% shrinkage for sample size"
+        "reason": "p_draw route under-predicts draws by 1.1pp pooled (90% CI 21.5-23.1%); +1.06pp applied after 4% shrinkage for sample size"
       },
       "scope": "market selection only (not the pick gate)",
       "reline": false
