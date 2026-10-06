@@ -1,35 +1,35 @@
 {
   "generator": "lock_reliability",
-  "candidates": 7496,
+  "candidates": 7501,
   "published_locks_dc_route": 274,
   "bands": [
     {
       "band": "lock >=80%",
-      "n": 55,
-      "model_mean": 0.8306,
-      "win_rate": 0.8909,
+      "n": 72,
+      "model_mean": 0.8338,
+      "win_rate": 0.9028,
       "win_ci": [
-        0.7994453242934112,
-        0.939836393037663
+        0.8274264558494717,
+        0.9442890245892392
       ],
-      "draw_rate": 0.0909,
-      "upset_rate": 0.0182,
-      "non_win_rate": 0.1091,
-      "calibration_gap_pp": 6.0
+      "draw_rate": 0.0833,
+      "upset_rate": 0.0139,
+      "non_win_rate": 0.0972,
+      "calibration_gap_pp": 6.9
     },
     {
       "band": "70-80%",
-      "n": 219,
-      "model_mean": 0.7441,
-      "win_rate": 0.8174,
+      "n": 202,
+      "model_mean": 0.7524,
+      "win_rate": 0.8069,
       "win_ci": [
-        0.7699926567564241,
-        0.8557249157226907
+        0.756659421639237,
+        0.8477890256469203
       ],
-      "draw_rate": 0.1279,
-      "upset_rate": 0.0548,
-      "non_win_rate": 0.1826,
-      "calibration_gap_pp": 7.3
+      "draw_rate": 0.1337,
+      "upset_rate": 0.0594,
+      "non_win_rate": 0.1931,
+      "calibration_gap_pp": 5.5
     },
     {
       "band": "66-70% (cut by the 0.70 floor)",
