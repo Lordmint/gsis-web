@@ -260,6 +260,11 @@ tr.tc-b td{background:rgba(251,191,36,.16)}
 nav{justify-content:flex-start;width:100%}nav a{flex:1 1 auto;text-align:center}}
 @media(max-width:640px){.hero h1{font-size:1.5rem}.hero{flex-direction:column;align-items:flex-start;padding:2.2rem 0 1.4rem}.grid{grid-template-columns:1fr}.sec-b{grid-template-columns:1fr}.vc{grid-template-columns:1fr}.hdr-r{padding:.8rem .95rem}.W{padding:0 1rem}nav a{padding:.55rem .8rem}.ch{flex-direction:column}}
 
+/* The strong side's candidate markets are the one line that must pop:
+        amber (var(--amber)) reads as "money/odds" against the dim context
+        footers, so the model's answer to "how close did it come" is visible
+        at a glance instead of blending into the H2H/recent grey. */
+.mkt{color:var(--amber);font-weight:600}
 </style>
 </head>
 <body>
@@ -283,7 +288,7 @@ record.</p>
 <div class="pcell"><span class="pos">#11</span><span class="tname">Maritimo</span><span class="b bu">Unranked</span><span class="tscore">33.4</span></div>
 </div></div>
 <div class="fx-foot"><span class="dim">🔎 analysed · 69% modelled win — below the 70% floor</span></div>
-<div class="fx-foot"><span class="dim">📊 FC Porto markets: Away or both teams score 91% · Away leads at some point or draw 90% · Away or draw (double chance) 87% · Away -0.5 69% · Away to win 69%</span></div><div class="fx-foot"><span class="dim">📈 FC Porto: W 3-1 vs Benfica (2026-09-20) · W 4-1 vs Casa Pia (2026-09-12) · W 2-1 vs Moreirense (2026-09-04) — Maritimo: D 1-1 vs Gil Vicente (2026-09-19) · L 1-3 vs Moreirense (2026-09-14) · L 0-3 vs Benfica (2026-09-05) · L 1-2 vs Arouca (2026-08-29)</span></div>
+<div class="fx-foot"><span class="mkt">📊 FC Porto markets: Away or both teams score 91% · Away leads at some point or draw 90% · Away or draw (double chance) 87% · Away -0.5 69% · Away to win 69%</span></div><div class="fx-foot"><span class="dim">📈 FC Porto: W 3-1 vs Benfica (2026-09-20) · W 4-1 vs Casa Pia (2026-09-12) · W 2-1 vs Moreirense (2026-09-04) — Maritimo: D 1-1 vs Gil Vicente (2026-09-19) · L 1-3 vs Moreirense (2026-09-14) · L 0-3 vs Benfica (2026-09-05) · L 1-2 vs Arouca (2026-08-29)</span></div>
 </div>
 <div class="fx">
 <div class="fx-hd"><span class="flg">Liga FUTVE</span>
@@ -294,7 +299,7 @@ record.</p>
 <div class="pcell"><span class="pos">#11</span><span class="tname">Rayo Zuliano</span><span class="b bu">Unranked</span><span class="tscore">38.3</span></div>
 </div></div>
 <div class="fx-foot"><span class="dim">🔎 analysed · 69% modelled win — below the 72% floor</span></div>
-<div class="fx-foot"><span class="dim">📊 Metropolitanos markets: Home or both teams score 94% · Home leads at some point or draw 90% · Home or draw (double chance) 86% · Home to win 69% · Home -0.5 69%</span></div><div class="fx-foot"><span class="dim">🤝 H2H: 5 meetings · Metropolitanos 4W-1D-0L vs Rayo Zuliano · 2026-04-18 1-0 (away) · 2025-10-05 1-0 (away) · 2025-04-26 4-2 (home)</span></div><div class="fx-foot"><span class="dim">📈 Metropolitanos: W 3-1 vs Zamora FC (2026-09-20) · W 3-0 vs Caracas FC (2026-09-16) · W 2-0 vs Anzoátegui FC (2026-09-12) · W 1-0 vs Monagas SC (2026-09-06) — Rayo Zuliano: D 1-1 vs Monagas SC (2026-09-19) · W 4-2 vs Trujillanos (2026-09-16) · D 1-1 vs Portuguesa (2026-09-13) · L 1-3 vs Deportivo Táchira (2026-09-06)</span></div>
+<div class="fx-foot"><span class="mkt">📊 Metropolitanos markets: Home or both teams score 94% · Home leads at some point or draw 90% · Home or draw (double chance) 86% · Home to win 69% · Home -0.5 69%</span></div><div class="fx-foot"><span class="dim">🤝 H2H: 5 meetings · Metropolitanos 4W-1D-0L vs Rayo Zuliano · 2026-04-18 1-0 (away) · 2025-10-05 1-0 (away) · 2025-04-26 4-2 (home)</span></div><div class="fx-foot"><span class="dim">📈 Metropolitanos: W 3-1 vs Zamora FC (2026-09-20) · W 3-0 vs Caracas FC (2026-09-16) · W 2-0 vs Anzoátegui FC (2026-09-12) · W 1-0 vs Monagas SC (2026-09-06) — Rayo Zuliano: D 1-1 vs Monagas SC (2026-09-19) · W 4-2 vs Trujillanos (2026-09-16) · D 1-1 vs Portuguesa (2026-09-13) · L 1-3 vs Deportivo Táchira (2026-09-06)</span></div>
 </div>
 <div class="fx">
 <div class="fx-hd"><span class="flg">English Premier League</span>
@@ -305,7 +310,7 @@ record.</p>
 <div class="pcell"><span class="pos">#14</span><span class="tname">Sunderland</span><span class="b bu">Unranked</span><span class="tscore">29.9</span></div>
 </div></div>
 <div class="fx-foot"><span class="dim">🔎 analysed · 67% modelled win — below the 70% floor</span></div>
-<div class="fx-foot"><span class="dim">📊 Brighton & Hove Albion markets: Away or both teams score 92% · Away leads at some point or draw 89% · Away or draw (double chance) 85% · Away to win 67% · Away -0.5 67%</span></div><div class="fx-foot"><span class="dim">🤝 H2H: 2 meetings · Brighton & Hove Albion 1W-1D-0L vs Sunderland · 2026-03-14 1-0 (away) · 2025-12-20 0-0 (home)</span></div><div class="fx-foot"><span class="dim">📈 Brighton & Hove Albion: W 3-0 vs Arsenal (2026-09-19) · W 5-0 vs Coventry City (2026-09-13) · D 1-1 vs Leeds United (2026-09-05) · L 3-4 vs Chelsea (2026-08-30) — Sunderland: L 3-5 vs Manchester City (2026-09-20) · L 0-2 vs Arsenal (2026-09-15) · W 1-0 vs Fulham (2026-09-15) · L 0-2 vs Arsenal (2026-09-12)</span></div>
+<div class="fx-foot"><span class="mkt">📊 Brighton & Hove Albion markets: Away or both teams score 92% · Away leads at some point or draw 89% · Away or draw (double chance) 85% · Away to win 67% · Away -0.5 67%</span></div><div class="fx-foot"><span class="dim">🤝 H2H: 2 meetings · Brighton & Hove Albion 1W-1D-0L vs Sunderland · 2026-03-14 1-0 (away) · 2025-12-20 0-0 (home)</span></div><div class="fx-foot"><span class="dim">📈 Brighton & Hove Albion: W 3-0 vs Arsenal (2026-09-19) · W 5-0 vs Coventry City (2026-09-13) · D 1-1 vs Leeds United (2026-09-05) · L 3-4 vs Chelsea (2026-08-30) — Sunderland: L 3-5 vs Manchester City (2026-09-20) · L 0-2 vs Arsenal (2026-09-15) · W 1-0 vs Fulham (2026-09-15) · L 0-2 vs Arsenal (2026-09-12)</span></div>
 </div>
 <div class="fx">
 <div class="fx-hd"><span class="flg">1. deild</span>
@@ -316,7 +321,7 @@ record.</p>
 <div class="pcell"><span class="pos">#9</span><span class="tname">HB Tórshavn II</span><span class="b bu">Unranked</span><span class="tscore">27.5</span></div>
 </div></div>
 <div class="fx-foot"><span class="dim">🔎 analysed · 68% modelled win — below the 72% floor</span></div>
-<div class="fx-foot"><span class="dim">📊 FC Suduroy markets: Home or both teams score 97% · Home leads at some point or draw 89% · Home or draw (double chance) 82% · Home to win 69% · Home -0.5 68%</span></div><div class="fx-foot"><span class="dim">📈 FC Suduroy: L 3-4 vs Víkingur Gøta II (2026-09-19) · W 4-1 vs B71 Sandoy (2026-09-13) — HB Tórshavn II: D 1-1 vs ÍF Fuglafjørdur (2026-09-18) · D 4-4 vs Tvøroyrar Bóltfelag (2026-09-13)</span></div>
+<div class="fx-foot"><span class="mkt">📊 FC Suduroy markets: Home or both teams score 97% · Home leads at some point or draw 89% · Home or draw (double chance) 82% · Home to win 69% · Home -0.5 68%</span></div><div class="fx-foot"><span class="dim">📈 FC Suduroy: L 3-4 vs Víkingur Gøta II (2026-09-19) · W 4-1 vs B71 Sandoy (2026-09-13) — HB Tórshavn II: D 1-1 vs ÍF Fuglafjørdur (2026-09-18) · D 4-4 vs Tvøroyrar Bóltfelag (2026-09-13)</span></div>
 </div>
 <div class="fx">
 <div class="fx-hd"><span class="flg">Eerste Divisie</span>
@@ -327,7 +332,7 @@ record.</p>
 <div class="pcell"><span class="pos">#13</span><span class="tname">FC Eindhoven</span><span class="b bu">Unranked</span><span class="tscore">44.1</span></div>
 </div></div>
 <div class="fx-foot"><span class="dim">🔎 analysed · 67% modelled win — below the 70% floor</span></div>
-<div class="fx-foot"><span class="dim">📊 Almere City markets: Home or both teams score 92% · Home leads at some point or draw 89% · Home or draw (double chance) 85% · Home -0.5 67% · Home to win 67%</span></div><div class="fx-foot"><span class="dim">🤝 H2H: 2 meetings · Almere City 1W-0D-1L vs FC Eindhoven · 2026-02-21 2-3 (away) · 2025-09-15 5-0 (home)</span></div><div class="fx-foot"><span class="dim">📈 Almere City: W 1-0 vs FC Volendam (2026-10-03) · L 2-3 vs FC Dordrecht (2026-09-25) · W 1-0 vs Heracles Almelo (2026-09-18) · W 4-0 vs MVV Maastricht (2026-09-11) — FC Eindhoven: D 2-2 vs De Graafschap (2026-10-03) · L 2-4 vs NAC Breda (2026-09-26) · W 3-1 vs FC Emmen (2026-09-18) · W 2-1 vs FC Dordrecht (2026-09-11)</span></div>
+<div class="fx-foot"><span class="mkt">📊 Almere City markets: Home or both teams score 92% · Home leads at some point or draw 89% · Home or draw (double chance) 85% · Home -0.5 67% · Home to win 67%</span></div><div class="fx-foot"><span class="dim">🤝 H2H: 2 meetings · Almere City 1W-0D-1L vs FC Eindhoven · 2026-02-21 2-3 (away) · 2025-09-15 5-0 (home)</span></div><div class="fx-foot"><span class="dim">📈 Almere City: W 1-0 vs FC Volendam (2026-10-03) · L 2-3 vs FC Dordrecht (2026-09-25) · W 1-0 vs Heracles Almelo (2026-09-18) · W 4-0 vs MVV Maastricht (2026-09-11) — FC Eindhoven: D 2-2 vs De Graafschap (2026-10-03) · L 2-4 vs NAC Breda (2026-09-26) · W 3-1 vs FC Emmen (2026-09-18) · W 2-1 vs FC Dordrecht (2026-09-11)</span></div>
 </div>
 <div class="fx">
 <div class="fx-hd"><span class="flg">Serie A</span>
@@ -338,7 +343,7 @@ record.</p>
 <div class="pcell"><span class="pos">#16</span><span class="tname">Monza</span><span class="b bu">Unranked</span><span class="tscore">30.2</span></div>
 </div></div>
 <div class="fx-foot"><span class="dim">🔎 analysed · 66% modelled win — below the 70% floor</span></div>
-<div class="fx-foot"><span class="dim">📊 Lazio markets: Home or both teams score 92% · Home leads at some point or draw 88% · Home or draw (double chance) 84% · Home to win 66% · Home -0.5 66%</span></div><div class="fx-foot"><span class="dim">🤝 H2H: 3 meetings · Lazio 2W-1D-0L vs Monza · 2025-02-09 5-1 (home) · 2024-11-10 1-0 (away) · 2024-05-04 2-2 (away)</span></div><div class="fx-foot"><span class="dim">📈 Lazio: W 2-0 vs Venezia (2026-09-19) · W 2-0 vs Venezia (2026-09-17) · W 2-1 vs Udinese (2026-09-15) · D 2-2 vs AC Milan (2026-09-12) — Monza: W 2-1 vs Sassuolo (2026-09-18) · L 2-3 vs Lecce (2026-09-13) · D 1-1 vs Parma (2026-09-08) · D 1-1 vs Parma (2026-09-06)</span></div>
+<div class="fx-foot"><span class="mkt">📊 Lazio markets: Home or both teams score 92% · Home leads at some point or draw 88% · Home or draw (double chance) 84% · Home to win 66% · Home -0.5 66%</span></div><div class="fx-foot"><span class="dim">🤝 H2H: 3 meetings · Lazio 2W-1D-0L vs Monza · 2025-02-09 5-1 (home) · 2024-11-10 1-0 (away) · 2024-05-04 2-2 (away)</span></div><div class="fx-foot"><span class="dim">📈 Lazio: W 2-0 vs Venezia (2026-09-19) · W 2-0 vs Venezia (2026-09-17) · W 2-1 vs Udinese (2026-09-15) · D 2-2 vs AC Milan (2026-09-12) — Monza: W 2-1 vs Sassuolo (2026-09-18) · L 2-3 vs Lecce (2026-09-13) · D 1-1 vs Parma (2026-09-08) · D 1-1 vs Parma (2026-09-06)</span></div>
 </div>
 <div class="fx">
 <div class="fx-hd"><span class="flg">USL League One</span>
@@ -349,7 +354,7 @@ record.</p>
 <div class="pcell"><span class="pos">#15</span><span class="tname">New York Cosmos</span><span class="b bu">Unranked</span><span class="tscore">25.0</span></div>
 </div></div>
 <div class="fx-foot"><span class="dim">🔎 analysed · 65% modelled win — below the 70% floor</span></div>
-<div class="fx-foot"><span class="dim">📊 Charlotte Independence markets: Home or both teams score 94% · Home leads at some point or draw 88% · Home or draw (double chance) 83% · Home -0.5 65% · Home to win 65%</span></div><div class="fx-foot"><span class="dim">🤝 H2H: 1 meeting · Charlotte Independence 0W-0D-1L vs New York Cosmos · 2026-04-03 2-3 (away)</span></div><div class="fx-foot"><span class="dim">📈 Charlotte Independence: W 3-2 vs Sarasota Paradise (2026-10-03) · D 1-1 vs Fort Wayne (2026-09-26) · W 2-1 vs Richmond Kickers (2026-09-19) · D 1-1 vs Athletic Club Boise (2026-09-17) — New York Cosmos: L 1-2 vs FC Naples (2026-10-03) · W 3-2 vs Richmond Kickers (2026-09-27) · L 1-2 vs Westchester SC (2026-09-19) · L 0-3 vs Westchester SC (2026-09-15)</span></div>
+<div class="fx-foot"><span class="mkt">📊 Charlotte Independence markets: Home or both teams score 94% · Home leads at some point or draw 88% · Home or draw (double chance) 83% · Home -0.5 65% · Home to win 65%</span></div><div class="fx-foot"><span class="dim">🤝 H2H: 1 meeting · Charlotte Independence 0W-0D-1L vs New York Cosmos · 2026-04-03 2-3 (away)</span></div><div class="fx-foot"><span class="dim">📈 Charlotte Independence: W 3-2 vs Sarasota Paradise (2026-10-03) · D 1-1 vs Fort Wayne (2026-09-26) · W 2-1 vs Richmond Kickers (2026-09-19) · D 1-1 vs Athletic Club Boise (2026-09-17) — New York Cosmos: L 1-2 vs FC Naples (2026-10-03) · W 3-2 vs Richmond Kickers (2026-09-27) · L 1-2 vs Westchester SC (2026-09-19) · L 0-3 vs Westchester SC (2026-09-15)</span></div>
 </div>
 <div class="fx">
 <div class="fx-hd"><span class="flg">Montenegrin First League</span>
@@ -360,7 +365,7 @@ record.</p>
 <div class="pcell"><span class="pos">#7</span><span class="tname">Mladost DG</span><span class="b bu">Unranked</span><span class="tscore">38.5</span></div>
 </div></div>
 <div class="fx-foot"><span class="dim">🔎 analysed · 69% modelled win — below the 73% floor</span></div>
-<div class="fx-foot"><span class="dim">📊 FK Otrant-Olympic markets: Home or both teams score 92% · Home leads at some point or draw 90% · Home or draw (double chance) 87% · Home -0.5 69% · Home to win 69%</span></div><div class="fx-foot"><span class="dim">📈 FK Otrant-Olympic: W 4-1 vs FK Jezero (2026-09-20) · W 1-0 vs FK Mornar Bar (2026-09-14) · L 1-2 vs FK Bokelj Kotor (2026-09-10) — Mladost DG: L 0-3 vs FK Bokelj Kotor (2026-09-20) · L 0-2 vs FK Budućnost Podgorica (2026-09-14) · W 1-0 vs FK Arsenal Tivat (2026-09-10) · W 2-0 vs FK Dečić Tuzi (2026-09-05)</span></div>
+<div class="fx-foot"><span class="mkt">📊 FK Otrant-Olympic markets: Home or both teams score 92% · Home leads at some point or draw 90% · Home or draw (double chance) 87% · Home -0.5 69% · Home to win 69%</span></div><div class="fx-foot"><span class="dim">📈 FK Otrant-Olympic: W 4-1 vs FK Jezero (2026-09-20) · W 1-0 vs FK Mornar Bar (2026-09-14) · L 1-2 vs FK Bokelj Kotor (2026-09-10) — Mladost DG: L 0-3 vs FK Bokelj Kotor (2026-09-20) · L 0-2 vs FK Budućnost Podgorica (2026-09-14) · W 1-0 vs FK Arsenal Tivat (2026-09-10) · W 2-0 vs FK Dečić Tuzi (2026-09-05)</span></div>
 </div>
 <div class="fx">
 <div class="fx-hd"><span class="flg">División Intermedia</span>
@@ -371,7 +376,7 @@ record.</p>
 <div class="pcell"><span class="pos">#14</span><span class="tname">Guaireña</span><span class="b bu">Unranked</span><span class="tscore">23.2</span></div>
 </div></div>
 <div class="fx-foot"><span class="dim">🔎 analysed · 65% modelled win — below the 70% floor</span></div>
-<div class="fx-foot"><span class="dim">📊 Deportivo Santaní markets: Home or both teams score 90% · Home leads at some point or draw 88% · Home or draw (double chance) 85% · Home -0.5 65% · Home to win 65%</span></div><div class="fx-foot"><span class="dim">📈 Deportivo Santaní: W 2-1 vs Resistencia FC (2026-09-27) · W 3-0 vs Sol de América (2026-09-18) · W 1-0 vs Deportivo Capiatá (2026-09-13) · L 1-2 vs Independiente FBC (2026-09-09) — Guaireña: D 1-1 vs Club 3 de Noviembre (2026-09-18) · L 0-3 vs General Caballero (2026-09-12) · L 1-3 vs Paraguari AC (2026-09-08)</span></div>
+<div class="fx-foot"><span class="mkt">📊 Deportivo Santaní markets: Home or both teams score 90% · Home leads at some point or draw 88% · Home or draw (double chance) 85% · Home -0.5 65% · Home to win 65%</span></div><div class="fx-foot"><span class="dim">📈 Deportivo Santaní: W 2-1 vs Resistencia FC (2026-09-27) · W 3-0 vs Sol de América (2026-09-18) · W 1-0 vs Deportivo Capiatá (2026-09-13) · L 1-2 vs Independiente FBC (2026-09-09) — Guaireña: D 1-1 vs Club 3 de Noviembre (2026-09-18) · L 0-3 vs General Caballero (2026-09-12) · L 1-3 vs Paraguari AC (2026-09-08)</span></div>
 </div>
 <div class="fx">
 <div class="fx-hd"><span class="flg">Costa Rican Primera División</span>
@@ -382,7 +387,7 @@ record.</p>
 <div class="pcell"><span class="pos">#10</span><span class="tname">Escorpiones Belén</span><span class="b bu">Unranked</span><span class="tscore">11.4</span></div>
 </div></div>
 <div class="fx-foot"><span class="dim">🔎 analysed · 64% modelled win — below the 70% floor</span></div>
-<div class="fx-foot"><span class="dim">📊 Saprissa markets: Away leads at some point or draw 88% · Away or both teams score 88% · Away or draw (double chance) 85% · Away -0.5 64% · Away to win 64%</span></div><div class="fx-foot"><span class="dim">🤝 H2H: 1 meeting · Saprissa 1W-0D-0L vs Escorpiones Belén · 2026-08-31 2-1 (home)</span></div><div class="fx-foot"><span class="dim">📈 Saprissa: W 2-0 vs Herediano (2026-09-20) · L 2-4 vs Sporting San José (2026-09-13) · W 2-0 vs Alajuelense (2026-09-06) · W 2-1 vs Escorpiones Belén (2026-08-31) — Escorpiones Belén: L 0-1 vs Puntarenas FC (2026-09-19) · L 0-2 vs Herediano (2026-09-13) · L 0-2 vs Inter de San Carlos (2026-09-05) · L 1-2 vs Saprissa (2026-08-31)</span></div>
+<div class="fx-foot"><span class="mkt">📊 Saprissa markets: Away leads at some point or draw 88% · Away or both teams score 88% · Away or draw (double chance) 85% · Away -0.5 64% · Away to win 64%</span></div><div class="fx-foot"><span class="dim">🤝 H2H: 1 meeting · Saprissa 1W-0D-0L vs Escorpiones Belén · 2026-08-31 2-1 (home)</span></div><div class="fx-foot"><span class="dim">📈 Saprissa: W 2-0 vs Herediano (2026-09-20) · L 2-4 vs Sporting San José (2026-09-13) · W 2-0 vs Alajuelense (2026-09-06) · W 2-1 vs Escorpiones Belén (2026-08-31) — Escorpiones Belén: L 0-1 vs Puntarenas FC (2026-09-19) · L 0-2 vs Herediano (2026-09-13) · L 0-2 vs Inter de San Carlos (2026-09-05) · L 1-2 vs Saprissa (2026-08-31)</span></div>
 </div>
 <div class="fx">
 <div class="fx-hd"><span class="flg">Categoría Primera A</span>
@@ -393,7 +398,7 @@ record.</p>
 <div class="pcell"><span class="pos">#19</span><span class="tname">Deportivo Pereira</span><span class="b bu">Unranked</span><span class="tscore">18.7</span></div>
 </div></div>
 <div class="fx-foot"><span class="dim">🔎 analysed · 64% modelled win — below the 70% floor</span></div>
-<div class="fx-foot"><span class="dim">📊 Deportivo Cali markets: Away leads at some point or draw 88% · Away or both teams score 86% · Away or draw (double chance) 86% · Away to win 64% · Away -0.5 64%</span></div><div class="fx-foot"><span class="dim">🤝 H2H: 5 meetings · Deportivo Cali 2W-1D-2L vs Deportivo Pereira · 2026-03-29 1-0 (home) · 2025-10-04 1-0 (home) · 2025-04-15 0-2 (away)</span></div><div class="fx-foot"><span class="dim">📈 Deportivo Cali: W 3-1 vs Alianza FC (2026-10-03) · W 2-0 vs Águilas Doradas (2026-09-28) · W 1-0 vs Independiente Santa Fe (2026-09-23) · W 3-0 vs Cúcuta Deportivo (2026-09-19) — Deportivo Pereira: L 0-4 vs Cúcuta Deportivo (2026-10-04) · L 1-2 vs Independiente Santa Fe (2026-09-29) · D 0-0 vs Internacional de Bogotá (2026-09-26) · D 2-2 vs Águilas Doradas (2026-09-18)</span></div>
+<div class="fx-foot"><span class="mkt">📊 Deportivo Cali markets: Away leads at some point or draw 88% · Away or both teams score 86% · Away or draw (double chance) 86% · Away to win 64% · Away -0.5 64%</span></div><div class="fx-foot"><span class="dim">🤝 H2H: 5 meetings · Deportivo Cali 2W-1D-2L vs Deportivo Pereira · 2026-03-29 1-0 (home) · 2025-10-04 1-0 (home) · 2025-04-15 0-2 (away)</span></div><div class="fx-foot"><span class="dim">📈 Deportivo Cali: W 3-1 vs Alianza FC (2026-10-03) · W 2-0 vs Águilas Doradas (2026-09-28) · W 1-0 vs Independiente Santa Fe (2026-09-23) · W 3-0 vs Cúcuta Deportivo (2026-09-19) — Deportivo Pereira: L 0-4 vs Cúcuta Deportivo (2026-10-04) · L 1-2 vs Independiente Santa Fe (2026-09-29) · D 0-0 vs Internacional de Bogotá (2026-09-26) · D 2-2 vs Águilas Doradas (2026-09-18)</span></div>
 </div>
 <div class="fx">
 <div class="fx-hd"><span class="flg">La Liga 2</span>
@@ -404,7 +409,7 @@ record.</p>
 <div class="pcell"><span class="pos">#13</span><span class="tname">Leganés</span><span class="b bu">Unranked</span><span class="tscore">40.9</span></div>
 </div></div>
 <div class="fx-foot"><span class="dim">🔎 analysed · 66% modelled win — below the 72% floor</span></div>
-<div class="fx-foot"><span class="dim">📊 Almería markets: Home leads at some point or draw 89% · Home or draw (double chance) 87% · Home or both teams score 87% · Home to win 66% · Home -0.5 66%</span></div><div class="fx-foot"><span class="dim">🤝 H2H: 2 meetings · Almería 2W-0D-0L vs Leganés · 2026-04-05 2-1 (home) · 2025-11-22 3-0 (away)</span></div><div class="fx-foot"><span class="dim">📈 Almería: W 2-1 vs Burgos (2026-10-03) · W 1-0 vs Mallorca (2026-09-27) · W 2-0 vs RC Celta Fortuna (2026-09-20) · W 2-0 vs Córdoba (2026-09-12) — Leganés: L 0-4 vs Cádiz (2026-10-03) · L 0-2 vs Castellón (2026-09-28) · W 3-2 vs Granada (2026-09-20) · L 0-2 vs Tenerife (2026-09-13)</span></div>
+<div class="fx-foot"><span class="mkt">📊 Almería markets: Home leads at some point or draw 89% · Home or draw (double chance) 87% · Home or both teams score 87% · Home to win 66% · Home -0.5 66%</span></div><div class="fx-foot"><span class="dim">🤝 H2H: 2 meetings · Almería 2W-0D-0L vs Leganés · 2026-04-05 2-1 (home) · 2025-11-22 3-0 (away)</span></div><div class="fx-foot"><span class="dim">📈 Almería: W 2-1 vs Burgos (2026-10-03) · W 1-0 vs Mallorca (2026-09-27) · W 2-0 vs RC Celta Fortuna (2026-09-20) · W 2-0 vs Córdoba (2026-09-12) — Leganés: L 0-4 vs Cádiz (2026-10-03) · L 0-2 vs Castellón (2026-09-28) · W 3-2 vs Granada (2026-09-20) · L 0-2 vs Tenerife (2026-09-13)</span></div>
 </div>
 <div class="fx">
 <div class="fx-hd"><span class="flg">Primeira Liga</span>
@@ -415,7 +420,7 @@ record.</p>
 <div class="pcell"><span class="pos">#14</span><span class="tname">Vitória de Guimaraes</span><span class="b bu">Unranked</span><span class="tscore">29.4</span></div>
 </div></div>
 <div class="fx-foot"><span class="dim">🔎 analysed · 64% modelled win — below the 70% floor</span></div>
-<div class="fx-foot"><span class="dim">📊 Benfica markets: Home or both teams score 89% · Home leads at some point or draw 87% · Home or draw (double chance) 84% · Home to win 64% · Home -0.5 64%</span></div><div class="fx-foot"><span class="dim">🤝 H2H: 5 meetings · Benfica 4W-1D-0L vs Vitória de Guimaraes · 2026-03-21 3-0 (home) · 2025-11-01 3-0 (away) · 2025-04-19 3-0 (away)</span></div><div class="fx-foot"><span class="dim">📈 Benfica: L 1-3 vs FC Porto (2026-09-20) · W 3-1 vs Gil Vicente (2026-09-13) · W 4-0 vs Moreirense (2026-09-09) · W 3-0 vs Maritimo (2026-09-05) — Vitória de Guimaraes: D 1-1 vs Moreirense (2026-09-20) · L 1-2 vs Académico de Viseu (2026-09-12) · D 0-0 vs Casa Pia (2026-09-06) · L 0-1 vs Braga (2026-08-31)</span></div>
+<div class="fx-foot"><span class="mkt">📊 Benfica markets: Home or both teams score 89% · Home leads at some point or draw 87% · Home or draw (double chance) 84% · Home to win 64% · Home -0.5 64%</span></div><div class="fx-foot"><span class="dim">🤝 H2H: 5 meetings · Benfica 4W-1D-0L vs Vitória de Guimaraes · 2026-03-21 3-0 (home) · 2025-11-01 3-0 (away) · 2025-04-19 3-0 (away)</span></div><div class="fx-foot"><span class="dim">📈 Benfica: L 1-3 vs FC Porto (2026-09-20) · W 3-1 vs Gil Vicente (2026-09-13) · W 4-0 vs Moreirense (2026-09-09) · W 3-0 vs Maritimo (2026-09-05) — Vitória de Guimaraes: D 1-1 vs Moreirense (2026-09-20) · L 1-2 vs Académico de Viseu (2026-09-12) · D 0-0 vs Casa Pia (2026-09-06) · L 0-1 vs Braga (2026-08-31)</span></div>
 </div>
 <div class="fx">
 <div class="fx-hd"><span class="flg">Primera División</span>
@@ -426,7 +431,7 @@ record.</p>
 <div class="pcell"><span class="pos">#10</span><span class="tname">Progreso</span><span class="b bu">Unranked</span><span class="tscore">48.8</span></div>
 </div></div>
 <div class="fx-foot"><span class="dim">🔎 analysed · 63% modelled win — below the 70% floor</span></div>
-<div class="fx-foot"><span class="dim">📊 Peñarol markets: Home leads at some point or draw 88% · Home or both teams score 87% · Home or draw (double chance) 85% · Home to win 63% · Home -0.5 63%</span></div><div class="fx-foot"><span class="dim">🤝 H2H: 6 meetings · Peñarol 6W-0D-0L vs Progreso · 2026-04-04 2-0 (away) · 2025-08-01 2-1 (home) · 2025-02-01 3-1 (away)</span></div><div class="fx-foot"><span class="dim">📈 Peñarol: W 1-0 vs Racing (Montevideo) (2026-10-04) · D 1-1 vs Montevideo City Torque (2026-09-30) · W 2-1 vs Boston River (2026-09-26) · W 2-1 vs Cerro (2026-09-19) — Progreso: L 2-3 vs Liverpool (2026-10-03) · W 2-1 vs Racing (Montevideo) (2026-09-26) · W 2-1 vs Boston River (2026-09-19) · L 1-3 vs Cerro (2026-09-13)</span></div>
+<div class="fx-foot"><span class="mkt">📊 Peñarol markets: Home leads at some point or draw 88% · Home or both teams score 87% · Home or draw (double chance) 85% · Home to win 63% · Home -0.5 63%</span></div><div class="fx-foot"><span class="dim">🤝 H2H: 6 meetings · Peñarol 6W-0D-0L vs Progreso · 2026-04-04 2-0 (away) · 2025-08-01 2-1 (home) · 2025-02-01 3-1 (away)</span></div><div class="fx-foot"><span class="dim">📈 Peñarol: W 1-0 vs Racing (Montevideo) (2026-10-04) · D 1-1 vs Montevideo City Torque (2026-09-30) · W 2-1 vs Boston River (2026-09-26) · W 2-1 vs Cerro (2026-09-19) — Progreso: L 2-3 vs Liverpool (2026-10-03) · W 2-1 vs Racing (Montevideo) (2026-09-26) · W 2-1 vs Boston River (2026-09-19) · L 1-3 vs Cerro (2026-09-13)</span></div>
 </div>
 <div class="fx">
 <div class="fx-hd"><span class="flg">USL Championship</span>
@@ -437,7 +442,7 @@ record.</p>
 <div class="pcell"><span class="pos">#11</span><span class="tname">Orange County SC</span><span class="b bu">Unranked</span><span class="tscore">45.2</span></div>
 </div></div>
 <div class="fx-foot"><span class="dim">🔎 analysed · 63% modelled win — below the 70% floor</span></div>
-<div class="fx-foot"><span class="dim">📊 El Paso Locomotive FC markets: Home or both teams score 91% · Home leads at some point or draw 88% · Home or draw (double chance) 85% · Home to win 65% · Home -0.5 65%</span></div><div class="fx-foot"><span class="dim">🤝 H2H: 5 meetings · El Paso Locomotive FC 1W-1D-3L vs Orange County SC · 2026-08-02 0-2 (away) · 2025-10-05 0-0 (away) · 2025-06-15 0-3 (home)</span></div><div class="fx-foot"><span class="dim">📈 El Paso Locomotive FC: L 1-3 vs Lexington (2026-10-03) · D 1-1 vs FC Tulsa (2026-09-26) · W 3-1 vs Phoenix Rising FC (2026-09-20) · W 2-1 vs Louisville City FC (2026-09-12) — Orange County SC: L 1-2 vs Monterey Bay (2026-10-04) · W 1-0 vs Pittsburgh Riverhounds (2026-09-27) · L 0-6 vs Lexington (2026-09-19) · L 0-2 vs Las Vegas Lights FC (2026-09-13)</span></div>
+<div class="fx-foot"><span class="mkt">📊 El Paso Locomotive FC markets: Home or both teams score 91% · Home leads at some point or draw 88% · Home or draw (double chance) 85% · Home to win 65% · Home -0.5 65%</span></div><div class="fx-foot"><span class="dim">🤝 H2H: 5 meetings · El Paso Locomotive FC 1W-1D-3L vs Orange County SC · 2026-08-02 0-2 (away) · 2025-10-05 0-0 (away) · 2025-06-15 0-3 (home)</span></div><div class="fx-foot"><span class="dim">📈 El Paso Locomotive FC: L 1-3 vs Lexington (2026-10-03) · D 1-1 vs FC Tulsa (2026-09-26) · W 3-1 vs Phoenix Rising FC (2026-09-20) · W 2-1 vs Louisville City FC (2026-09-12) — Orange County SC: L 1-2 vs Monterey Bay (2026-10-04) · W 1-0 vs Pittsburgh Riverhounds (2026-09-27) · L 0-6 vs Lexington (2026-09-19) · L 0-2 vs Las Vegas Lights FC (2026-09-13)</span></div>
 </div>
 <div class="fx">
 <div class="fx-hd"><span class="flg">LigaPro Serie B</span>
@@ -448,7 +453,7 @@ record.</p>
 <div class="pcell"><span class="pos">#6</span><span class="tname">San Antonio FC</span><span class="b bu">Unranked</span><span class="tscore">37.7</span></div>
 </div></div>
 <div class="fx-foot"><span class="dim">🔎 analysed · 63% modelled win — below the 70% floor</span></div>
-<div class="fx-foot"><span class="dim">📊 Atlético Rojiblanco markets: Home or both teams score 88% · Home leads at some point or draw 87% · Home or draw (double chance) 84% · Home to win 63% · Home -0.5 63%</span></div><div class="fx-foot"><span class="dim">🤝 H2H: 1 meeting · Atlético Rojiblanco 1W-0D-0L vs San Antonio FC · 2026-09-10 3-0 (away)</span></div><div class="fx-foot"><span class="dim">📈 Atlético Rojiblanco: W 2-0 vs CD Cuenca Juniors (2026-09-24) · D 1-1 vs Independiente Juniors (2026-09-17) · W 3-0 vs San Antonio FC (2026-09-10) — San Antonio FC: L 0-1 vs Las Vegas Lights FC (2026-10-04) · D 0-0 vs Tampa Bay Rowdies (2026-09-27) · D 0-0 vs Sacramento Republic FC (2026-09-20) · L 0-1 vs CD Cuenca Juniors (2026-09-16)</span></div>
+<div class="fx-foot"><span class="mkt">📊 Atlético Rojiblanco markets: Home or both teams score 88% · Home leads at some point or draw 87% · Home or draw (double chance) 84% · Home to win 63% · Home -0.5 63%</span></div><div class="fx-foot"><span class="dim">🤝 H2H: 1 meeting · Atlético Rojiblanco 1W-0D-0L vs San Antonio FC · 2026-09-10 3-0 (away)</span></div><div class="fx-foot"><span class="dim">📈 Atlético Rojiblanco: W 2-0 vs CD Cuenca Juniors (2026-09-24) · D 1-1 vs Independiente Juniors (2026-09-17) · W 3-0 vs San Antonio FC (2026-09-10) — San Antonio FC: L 0-1 vs Las Vegas Lights FC (2026-10-04) · D 0-0 vs Tampa Bay Rowdies (2026-09-27) · D 0-0 vs Sacramento Republic FC (2026-09-20) · L 0-1 vs CD Cuenca Juniors (2026-09-16)</span></div>
 </div>
 <div class="fx">
 <div class="fx-hd"><span class="flg">NIFL Premiership</span>
@@ -459,7 +464,7 @@ record.</p>
 <div class="pcell"><span class="pos">#11</span><span class="tname">Bangor FC</span><span class="b bu">Unranked</span><span class="tscore">28.2</span></div>
 </div></div>
 <div class="fx-foot"><span class="dim">🔎 analysed · 62% modelled win — below the 70% floor</span></div>
-<div class="fx-foot"><span class="dim">📊 Linfield markets: Home or both teams score 88% · Home leads at some point or draw 87% · Home or draw (double chance) 83% · Home -0.5 62% · Home to win 62%</span></div><div class="fx-foot"><span class="dim">📈 Linfield: W 3-1 vs Coleraine FC (2026-09-25) · W 1-0 vs Crusaders FC (2026-09-19) · D 1-1 vs Portadown FC (2026-09-15) — Bangor FC: L 1-2 vs Crusaders FC (2026-09-26) · W 3-1 vs Portadown FC (2026-09-19) · L 1-3 vs Limavady United (2026-09-15)</span></div>
+<div class="fx-foot"><span class="mkt">📊 Linfield markets: Home or both teams score 88% · Home leads at some point or draw 87% · Home or draw (double chance) 83% · Home -0.5 62% · Home to win 62%</span></div><div class="fx-foot"><span class="dim">📈 Linfield: W 3-1 vs Coleraine FC (2026-09-25) · W 1-0 vs Crusaders FC (2026-09-19) · D 1-1 vs Portadown FC (2026-09-15) — Bangor FC: L 1-2 vs Crusaders FC (2026-09-26) · W 3-1 vs Portadown FC (2026-09-19) · L 1-3 vs Limavady United (2026-09-15)</span></div>
 </div>
 <div class="fx">
 <div class="fx-hd"><span class="flg">Süper Lig</span>
@@ -470,7 +475,7 @@ record.</p>
 <div class="pcell"><span class="pos">#13</span><span class="tname">Genclerbirligi</span><span class="b bu">Unranked</span><span class="tscore">32.9</span></div>
 </div></div>
 <div class="fx-foot"><span class="dim">🔎 analysed · 62% modelled win — below the 70% floor</span></div>
-<div class="fx-foot"><span class="dim">📊 Amed SFK markets: Away or both teams score 92% · Away leads at some point or draw 86% · Away or draw (double chance) 81% · Away -0.5 62% · Away to win 62%</span></div><div class="fx-foot"><span class="dim">📈 Amed SFK: W 3-2 vs Besiktas (2026-09-20) · W 5-0 vs Istanbul Basaksehir (2026-09-13) · D 2-2 vs Kasimpasa (2026-09-06) · W 2-1 vs Trabzonspor (2026-08-31) — Genclerbirligi: L 0-4 vs Istanbul Basaksehir (2026-09-19) · L 1-2 vs Kasimpasa (2026-09-13) · L 0-5 vs Trabzonspor (2026-09-06) · D 1-1 vs Erzurum BB (2026-08-28)</span></div>
+<div class="fx-foot"><span class="mkt">📊 Amed SFK markets: Away or both teams score 92% · Away leads at some point or draw 86% · Away or draw (double chance) 81% · Away -0.5 62% · Away to win 62%</span></div><div class="fx-foot"><span class="dim">📈 Amed SFK: W 3-2 vs Besiktas (2026-09-20) · W 5-0 vs Istanbul Basaksehir (2026-09-13) · D 2-2 vs Kasimpasa (2026-09-06) · W 2-1 vs Trabzonspor (2026-08-31) — Genclerbirligi: L 0-4 vs Istanbul Basaksehir (2026-09-19) · L 1-2 vs Kasimpasa (2026-09-13) · L 0-5 vs Trabzonspor (2026-09-06) · D 1-1 vs Erzurum BB (2026-08-28)</span></div>
 </div>
 <div class="fx">
 <div class="fx-hd"><span class="flg">Eerste Divisie</span>
@@ -481,7 +486,7 @@ record.</p>
 <div class="pcell"><span class="pos">#17</span><span class="tname">Jong Ajax</span><span class="b bu">Unranked</span><span class="tscore">28.9</span></div>
 </div></div>
 <div class="fx-foot"><span class="dim">🔎 analysed · 63% modelled win — below the 70% floor</span></div>
-<div class="fx-foot"><span class="dim">📊 VVV-Venlo markets: Away or both teams score 94% · Away leads at some point or draw 86% · Away or draw (double chance) 80% · Away -0.5 62% · Away to win 62%</span></div><div class="fx-foot"><span class="dim">🤝 H2H: 1 meeting · VVV-Venlo 0W-0D-1L vs Jong Ajax · 2026-03-17 0-1 (home)</span></div><div class="fx-foot"><span class="dim">📈 VVV-Venlo: W 2-0 vs Roda JC Kerkrade (2026-10-04) · L 2-3 vs FC Volendam (2026-09-26) · W 3-1 vs Jong FC Utrecht (2026-09-18) · W 3-1 vs TOP Oss (2026-09-17) — Jong Ajax: D 0-0 vs Roda JC Kerkrade (2026-09-18) · L 1-6 vs Jong FC Utrecht (2026-09-14) · L 0-2 vs RKC Waalwijk (2026-09-11) · W 1-0 vs Almere City (2026-09-04)</span></div>
+<div class="fx-foot"><span class="mkt">📊 VVV-Venlo markets: Away or both teams score 94% · Away leads at some point or draw 86% · Away or draw (double chance) 80% · Away -0.5 62% · Away to win 62%</span></div><div class="fx-foot"><span class="dim">🤝 H2H: 1 meeting · VVV-Venlo 0W-0D-1L vs Jong Ajax · 2026-03-17 0-1 (home)</span></div><div class="fx-foot"><span class="dim">📈 VVV-Venlo: W 2-0 vs Roda JC Kerkrade (2026-10-04) · L 2-3 vs FC Volendam (2026-09-26) · W 3-1 vs Jong FC Utrecht (2026-09-18) · W 3-1 vs TOP Oss (2026-09-17) — Jong Ajax: D 0-0 vs Roda JC Kerkrade (2026-09-18) · L 1-6 vs Jong FC Utrecht (2026-09-14) · L 0-2 vs RKC Waalwijk (2026-09-11) · W 1-0 vs Almere City (2026-09-04)</span></div>
 </div>
 <div class="fx">
 <div class="fx-hd"><span class="flg">Serie A</span>
@@ -492,7 +497,7 @@ record.</p>
 <div class="pcell"><span class="pos">#15</span><span class="tname">Parma</span><span class="b bu">Unranked</span><span class="tscore">30.3</span></div>
 </div></div>
 <div class="fx-foot"><span class="dim">🔎 analysed · 62% modelled win — below the 70% floor</span></div>
-<div class="fx-foot"><span class="dim">📊 Internazionale markets: Home or both teams score 90% · Home leads at some point or draw 86% · Home or draw (double chance) 82% · Home -0.5 62% · Home to win 62%</span></div><div class="fx-foot"><span class="dim">🤝 H2H: 4 meetings · Internazionale 3W-1D-0L vs Parma · 2026-05-03 2-0 (home) · 2026-01-07 2-0 (away) · 2025-04-05 2-2 (away)</span></div><div class="fx-foot"><span class="dim">📈 Internazionale: D 2-2 vs AS Roma (2026-09-19) · W 5-3 vs Udinese (2026-09-14) · W 3-2 vs Napoli (2026-09-05) · W 1-0 vs Cagliari (2026-08-30) — Parma: W 2-1 vs Genoa (2026-09-20) · L 1-2 vs Como (2026-09-14) · D 1-1 vs Monza (2026-09-08) · L 0-1 vs Cagliari (2026-09-07)</span></div>
+<div class="fx-foot"><span class="mkt">📊 Internazionale markets: Home or both teams score 90% · Home leads at some point or draw 86% · Home or draw (double chance) 82% · Home -0.5 62% · Home to win 62%</span></div><div class="fx-foot"><span class="dim">🤝 H2H: 4 meetings · Internazionale 3W-1D-0L vs Parma · 2026-05-03 2-0 (home) · 2026-01-07 2-0 (away) · 2025-04-05 2-2 (away)</span></div><div class="fx-foot"><span class="dim">📈 Internazionale: D 2-2 vs AS Roma (2026-09-19) · W 5-3 vs Udinese (2026-09-14) · W 3-2 vs Napoli (2026-09-05) · W 1-0 vs Cagliari (2026-08-30) — Parma: W 2-1 vs Genoa (2026-09-20) · L 1-2 vs Como (2026-09-14) · D 1-1 vs Monza (2026-09-08) · L 0-1 vs Cagliari (2026-09-07)</span></div>
 </div>
 <div class="fx">
 <div class="fx-hd"><span class="flg">Major League Soccer</span>
@@ -503,7 +508,7 @@ record.</p>
 <div class="pcell"><span class="pos">#15</span><span class="tname">LA Galaxy</span><span class="b bu">Unranked</span><span class="tscore">47.5</span></div>
 </div></div>
 <div class="fx-foot"><span class="dim">🔎 analysed · 62% modelled win — below the 70% floor</span></div>
-<div class="fx-foot"><span class="dim">📊 St. Louis CITY SC markets: Home or both teams score 91% · Home leads at some point or draw 86% · Home or draw (double chance) 81% · Home -0.5 62% · Home to win 62%</span></div><div class="fx-foot"><span class="dim">🤝 H2H: 5 meetings · St. Louis CITY SC 3W-2D-0L vs LA Galaxy · 2026-07-23 3-1 (away) · 2025-06-14 3-3 (home) · 2025-03-09 3-0 (away)</span></div><div class="fx-foot"><span class="dim">📈 St. Louis CITY SC: W 3-0 vs Red Bull New York (2026-09-30) · W 3-1 vs Toronto FC (2026-09-20) · W 4-2 vs Minnesota United FC (2026-09-13) · D 2-2 vs Portland Timbers (2026-09-10) — LA Galaxy: W 3-2 vs Colorado Rapids (2026-09-27) · W 3-2 vs Minnesota United FC (2026-09-20) · D 1-1 vs Seattle Sounders FC (2026-09-13) · L 0-3 vs Vancouver Whitecaps (2026-09-10)</span></div>
+<div class="fx-foot"><span class="mkt">📊 St. Louis CITY SC markets: Home or both teams score 91% · Home leads at some point or draw 86% · Home or draw (double chance) 81% · Home -0.5 62% · Home to win 62%</span></div><div class="fx-foot"><span class="dim">🤝 H2H: 5 meetings · St. Louis CITY SC 3W-2D-0L vs LA Galaxy · 2026-07-23 3-1 (away) · 2025-06-14 3-3 (home) · 2025-03-09 3-0 (away)</span></div><div class="fx-foot"><span class="dim">📈 St. Louis CITY SC: W 3-0 vs Red Bull New York (2026-09-30) · W 3-1 vs Toronto FC (2026-09-20) · W 4-2 vs Minnesota United FC (2026-09-13) · D 2-2 vs Portland Timbers (2026-09-10) — LA Galaxy: W 3-2 vs Colorado Rapids (2026-09-27) · W 3-2 vs Minnesota United FC (2026-09-20) · D 1-1 vs Seattle Sounders FC (2026-09-13) · L 0-3 vs Vancouver Whitecaps (2026-09-10)</span></div>
 </div>
 <div class="fx">
 <div class="fx-hd"><span class="flg">Ligue 2</span>
@@ -514,7 +519,7 @@ record.</p>
 <div class="pcell"><span class="pos">#14</span><span class="tname">Rodez Aveyron</span><span class="b bu">Unranked</span><span class="tscore">31.3</span></div>
 </div></div>
 <div class="fx-foot"><span class="dim">🔎 analysed · 60% modelled win — below the 70% floor</span></div>
-<div class="fx-foot"><span class="dim">📊 Saint-Étienne markets: Home or both teams score 94% · Home leads at some point or draw 86% · Home or draw (double chance) 80% · Home -0.5 62% · Home to win 62%</span></div><div class="fx-foot"><span class="dim">🤝 H2H: 3 meetings · Saint-Étienne 1W-1D-1L vs Rodez Aveyron · 2026-05-02 1-2 (away) · 2025-08-16 4-0 (home) · 2024-05-10 1-1 (home)</span></div><div class="fx-foot"><span class="dim">📈 Saint-Étienne: D 2-2 vs Metz (2026-09-19) · L 1-2 vs Dunkerque (2026-09-12) · W 3-1 vs Montpellier (2026-09-05) · W 3-2 vs Dijon FCO (2026-08-31) — Rodez Aveyron: L 3-4 vs AS Nancy Lorraine (2026-09-18) · L 0-1 vs Grenoble (2026-09-11) · L 1-4 vs Metz (2026-09-05) · D 2-2 vs Pau (2026-08-28)</span></div>
+<div class="fx-foot"><span class="mkt">📊 Saint-Étienne markets: Home or both teams score 94% · Home leads at some point or draw 86% · Home or draw (double chance) 80% · Home -0.5 62% · Home to win 62%</span></div><div class="fx-foot"><span class="dim">🤝 H2H: 3 meetings · Saint-Étienne 1W-1D-1L vs Rodez Aveyron · 2026-05-02 1-2 (away) · 2025-08-16 4-0 (home) · 2024-05-10 1-1 (home)</span></div><div class="fx-foot"><span class="dim">📈 Saint-Étienne: D 2-2 vs Metz (2026-09-19) · L 1-2 vs Dunkerque (2026-09-12) · W 3-1 vs Montpellier (2026-09-05) · W 3-2 vs Dijon FCO (2026-08-31) — Rodez Aveyron: L 3-4 vs AS Nancy Lorraine (2026-09-18) · L 0-1 vs Grenoble (2026-09-11) · L 1-4 vs Metz (2026-09-05) · D 2-2 vs Pau (2026-08-28)</span></div>
 </div>
 <div class="fx">
 <div class="fx-hd"><span class="flg">Ligue 1</span>
@@ -525,7 +530,7 @@ record.</p>
 <div class="pcell"><span class="pos">#13</span><span class="tname">Toulouse</span><span class="b bu">Unranked</span><span class="tscore">39.0</span></div>
 </div></div>
 <div class="fx-foot"><span class="dim">🔎 analysed · 60% modelled win — below the 70% floor</span></div>
-<div class="fx-foot"><span class="dim">📊 AS Monaco markets: Home or both teams score 88% · Home leads at some point or draw 86% · Home or draw (double chance) 82% · Home -0.5 60% · Home to win 60%</span></div><div class="fx-foot"><span class="dim">🤝 H2H: 5 meetings · AS Monaco 2W-2D-1L vs Toulouse · 2026-04-25 2-2 (away) · 2025-10-25 1-0 (home) · 2025-03-07 1-1 (away)</span></div><div class="fx-foot"><span class="dim">📈 AS Monaco: W 2-1 vs Lens (2026-09-18) · D 1-1 vs Strasbourg (2026-09-12) · W 2-1 vs Paris Saint-Germain (2026-09-04) · W 2-0 vs Marseille (2026-08-30) — Toulouse: W 3-2 vs Le Havre AC (2026-09-19) · L 0-2 vs Lyon (2026-09-16) · L 0-1 vs Lille (2026-09-15) · W 3-2 vs Le Havre (2026-09-14)</span></div>
+<div class="fx-foot"><span class="mkt">📊 AS Monaco markets: Home or both teams score 88% · Home leads at some point or draw 86% · Home or draw (double chance) 82% · Home -0.5 60% · Home to win 60%</span></div><div class="fx-foot"><span class="dim">🤝 H2H: 5 meetings · AS Monaco 2W-2D-1L vs Toulouse · 2026-04-25 2-2 (away) · 2025-10-25 1-0 (home) · 2025-03-07 1-1 (away)</span></div><div class="fx-foot"><span class="dim">📈 AS Monaco: W 2-1 vs Lens (2026-09-18) · D 1-1 vs Strasbourg (2026-09-12) · W 2-1 vs Paris Saint-Germain (2026-09-04) · W 2-0 vs Marseille (2026-08-30) — Toulouse: W 3-2 vs Le Havre AC (2026-09-19) · L 0-2 vs Lyon (2026-09-16) · L 0-1 vs Lille (2026-09-15) · W 3-2 vs Le Havre (2026-09-14)</span></div>
 </div>
 <div class="fx">
 <div class="fx-hd"><span class="flg">Bundesliga</span>
@@ -536,7 +541,7 @@ record.</p>
 <div class="pcell"><span class="pos">#11</span><span class="tname">Schalke 04</span><span class="b bu">Unranked</span><span class="tscore">45.2</span></div>
 </div></div>
 <div class="fx-foot"><span class="dim">🔎 analysed · 60% modelled win — below the 70% floor</span></div>
-<div class="fx-foot"><span class="dim">📊 SC Freiburg markets: Home or both teams score 87% · Home leads at some point or draw 86% · Home or draw (double chance) 82% · Home to win 60% · Home -0.5 60%</span></div><div class="fx-foot"><span class="dim">📈 SC Freiburg: D 2-2 vs Eintracht Frankfurt (2026-09-19) · W 1-0 vs SC Paderborn (2026-09-15) · W 5-0 vs Borussia Mönchengladbach (2026-09-12) — Schalke 04: D 0-0 vs SV Elversberg (2026-09-20) · D 0-0 vs Bayern Munich (2026-09-16) · W 3-1 vs 1. FC Union Berlin (2026-09-11) · D 0-0 vs Bayern Munich (2026-09-05)</span></div>
+<div class="fx-foot"><span class="mkt">📊 SC Freiburg markets: Home or both teams score 87% · Home leads at some point or draw 86% · Home or draw (double chance) 82% · Home to win 60% · Home -0.5 60%</span></div><div class="fx-foot"><span class="dim">📈 SC Freiburg: D 2-2 vs Eintracht Frankfurt (2026-09-19) · W 1-0 vs SC Paderborn (2026-09-15) · W 5-0 vs Borussia Mönchengladbach (2026-09-12) — Schalke 04: D 0-0 vs SV Elversberg (2026-09-20) · D 0-0 vs Bayern Munich (2026-09-16) · W 3-1 vs 1. FC Union Berlin (2026-09-11) · D 0-0 vs Bayern Munich (2026-09-05)</span></div>
 </div>
 <div class="fx">
 <div class="fx-hd"><span class="flg">Campeonato Brasileiro Série A</span>
@@ -547,7 +552,7 @@ record.</p>
 <div class="pcell"><span class="pos">#14</span><span class="tname">Corinthians</span><span class="b bu">Unranked</span><span class="tscore">37.7</span></div>
 </div></div>
 <div class="fx-foot"><span class="dim">🔎 analysed · 60% modelled win — below the 70% floor</span></div>
-<div class="fx-foot"><span class="dim">📊 Palmeiras markets: Home leads at some point or draw 87% · Home or draw (double chance) 85% · Home or both teams score 82% · Home to win 60% · Home -0.5 60%</span></div><div class="fx-foot"><span class="dim">🤝 H2H: 6 meetings · Palmeiras 3W-2D-1L vs Corinthians · 2026-09-02 1-0 (home) · 2026-04-12 0-0 (away) · 2025-08-31 1-1 (away)</span></div><div class="fx-foot"><span class="dim">📈 Palmeiras: D 0-0 vs Grêmio (2026-09-20) · W 2-0 vs São Paulo (2026-09-12) · W 2-0 vs Flamengo (2026-09-09) · W 4-0 vs São Paulo (2026-09-08) — Corinthians: L 1-3 vs Fluminense (2026-09-20) · L 1-2 vs Flamengo (2026-09-13) · W 2-1 vs Internacional (2026-09-09) · D 0-0 vs Vasco da Gama (2026-09-08)</span></div>
+<div class="fx-foot"><span class="mkt">📊 Palmeiras markets: Home leads at some point or draw 87% · Home or draw (double chance) 85% · Home or both teams score 82% · Home to win 60% · Home -0.5 60%</span></div><div class="fx-foot"><span class="dim">🤝 H2H: 6 meetings · Palmeiras 3W-2D-1L vs Corinthians · 2026-09-02 1-0 (home) · 2026-04-12 0-0 (away) · 2025-08-31 1-1 (away)</span></div><div class="fx-foot"><span class="dim">📈 Palmeiras: D 0-0 vs Grêmio (2026-09-20) · W 2-0 vs São Paulo (2026-09-12) · W 2-0 vs Flamengo (2026-09-09) · W 4-0 vs São Paulo (2026-09-08) — Corinthians: L 1-3 vs Fluminense (2026-09-20) · L 1-2 vs Flamengo (2026-09-13) · W 2-1 vs Internacional (2026-09-09) · D 0-0 vs Vasco da Gama (2026-09-08)</span></div>
 </div>
 <div class="fx">
 <div class="fx-hd"><span class="flg">Primera División</span>
@@ -558,7 +563,7 @@ record.</p>
 <div class="pcell"><span class="pos">#10</span><span class="tname">Rubio Ñú</span><span class="b bu">Unranked</span><span class="tscore">26.7</span></div>
 </div></div>
 <div class="fx-foot"><span class="dim">🔎 analysed · 60% modelled win — below the 71% floor</span></div>
-<div class="fx-foot"><span class="dim">📊 Club Olimpia markets: Away or both teams score 87% · Away leads at some point or draw 86% · Away or draw (double chance) 82% · Away to win 60%</span></div><div class="fx-foot"><span class="dim">🤝 H2H: 3 meetings · Club Olimpia 2W-1D-0L vs Rubio Ñú · 2026-08-02 5-0 (home) · 2026-04-12 2-0 (away) · 2026-02-14 0-0 (home)</span></div><div class="fx-foot"><span class="dim">📈 Club Olimpia: W 1-0 vs Libertad (2026-09-28) · W 3-0 vs Sportivo San Lorenzo (2026-09-20) · W 3-0 vs Sportivo Luqueño (2026-09-13) · W 2-1 vs Sportivo Trinidense (2026-09-06) — Rubio Ñú: D 2-2 vs 2 de Mayo (2026-09-26) · L 0-1 vs Cerro Porteño (2026-09-19) · L 0-1 vs Nacional Asunción (2026-09-13) · L 2-4 vs Libertad (2026-09-06)</span></div>
+<div class="fx-foot"><span class="mkt">📊 Club Olimpia markets: Away or both teams score 87% · Away leads at some point or draw 86% · Away or draw (double chance) 82% · Away to win 60%</span></div><div class="fx-foot"><span class="dim">🤝 H2H: 3 meetings · Club Olimpia 2W-1D-0L vs Rubio Ñú · 2026-08-02 5-0 (home) · 2026-04-12 2-0 (away) · 2026-02-14 0-0 (home)</span></div><div class="fx-foot"><span class="dim">📈 Club Olimpia: W 1-0 vs Libertad (2026-09-28) · W 3-0 vs Sportivo San Lorenzo (2026-09-20) · W 3-0 vs Sportivo Luqueño (2026-09-13) · W 2-1 vs Sportivo Trinidense (2026-09-06) — Rubio Ñú: D 2-2 vs 2 de Mayo (2026-09-26) · L 0-1 vs Cerro Porteño (2026-09-19) · L 0-1 vs Nacional Asunción (2026-09-13) · L 2-4 vs Libertad (2026-09-06)</span></div>
 </div>
 <div class="fx">
 <div class="fx-hd"><span class="flg">National League</span>
@@ -569,7 +574,7 @@ record.</p>
 <div class="pcell"><span class="pos">#11</span><span class="tname">Sutton United</span><span class="b bu">Unranked</span><span class="tscore">49.2</span></div>
 </div></div>
 <div class="fx-foot"><span class="dim">🔎 analysed · 60% modelled win — below the 71% floor</span></div>
-<div class="fx-foot"><span class="dim">📊 Boreham Wood markets: Away or both teams score 89% · Away leads at some point or draw 86% · Away or draw (double chance) 81% · Away -0.5 60% · Away to win 60%</span></div><div class="fx-foot"><span class="dim">🤝 H2H: 2 meetings · Boreham Wood 2W-0D-0L vs Sutton United · 2026-04-25 1-0 (home) · 2025-09-03 4-3 (away)</span></div><div class="fx-foot"><span class="dim">📈 Boreham Wood: W 3-1 vs Altrincham (2026-10-03) · W 3-1 vs Kidderminster Harriers (2026-09-29) · W 3-0 vs Solihull Moors (2026-09-26) · W 4-1 vs Harrogate Town (2026-09-19) — Sutton United: D 1-1 vs Kidderminster Harriers (2026-10-03) · L 0-2 vs Tamworth (2026-09-30) · D 3-3 vs Forest Green Rovers (2026-09-26) · D 1-1 vs FC Halifax Town (2026-09-19)</span></div>
+<div class="fx-foot"><span class="mkt">📊 Boreham Wood markets: Away or both teams score 89% · Away leads at some point or draw 86% · Away or draw (double chance) 81% · Away -0.5 60% · Away to win 60%</span></div><div class="fx-foot"><span class="dim">🤝 H2H: 2 meetings · Boreham Wood 2W-0D-0L vs Sutton United · 2026-04-25 1-0 (home) · 2025-09-03 4-3 (away)</span></div><div class="fx-foot"><span class="dim">📈 Boreham Wood: W 3-1 vs Altrincham (2026-10-03) · W 3-1 vs Kidderminster Harriers (2026-09-29) · W 3-0 vs Solihull Moors (2026-09-26) · W 4-1 vs Harrogate Town (2026-09-19) — Sutton United: D 1-1 vs Kidderminster Harriers (2026-10-03) · L 0-2 vs Tamworth (2026-09-30) · D 3-3 vs Forest Green Rovers (2026-09-26) · D 1-1 vs FC Halifax Town (2026-09-19)</span></div>
 </div>
 <div class="fx">
 <div class="fx-hd"><span class="flg">J1 League</span>
@@ -580,7 +585,7 @@ record.</p>
 <div class="pcell"><span class="pos">#19</span><span class="tname">Tokyo Verdy 1969</span><span class="b bu">Unranked</span><span class="tscore">15.9</span></div>
 </div></div>
 <div class="fx-foot"><span class="dim">🔎 analysed · 60% modelled win — below the 72% floor</span></div>
-<div class="fx-foot"><span class="dim">📊 Sanfrecce Hiroshima markets: Away leads at some point or draw 86% · Away or both teams score 85% · Away or draw (double chance) 83% · Away -0.5 60% · Away to win 60%</span></div><div class="fx-foot"><span class="dim">🤝 H2H: 4 meetings · Sanfrecce Hiroshima 4W-0D-0L vs Tokyo Verdy 1969 · 2025-08-23 3-0 (away) · 2025-05-17 2-1 (home) · 2024-08-07 1-0 (away)</span></div><div class="fx-foot"><span class="dim">📈 Sanfrecce Hiroshima: W 1-0 vs Avispa Fukuoka (2026-09-19) · W 6-1 vs Cerezo Osaka (2026-09-12) · D 0-0 vs FC Tokyo (2026-09-09) · W 2-1 vs Nagoya Grampus (2026-09-08) — Tokyo Verdy 1969: L 1-3 vs Urawa Red Diamonds (2026-09-19) · D 1-1 vs JEF United Ichihara-Chiba (2026-09-13) · D 0-0 vs Cerezo Osaka (2026-09-06) · L 0-2 vs Vissel Kobe (2026-09-02)</span></div>
+<div class="fx-foot"><span class="mkt">📊 Sanfrecce Hiroshima markets: Away leads at some point or draw 86% · Away or both teams score 85% · Away or draw (double chance) 83% · Away -0.5 60% · Away to win 60%</span></div><div class="fx-foot"><span class="dim">🤝 H2H: 4 meetings · Sanfrecce Hiroshima 4W-0D-0L vs Tokyo Verdy 1969 · 2025-08-23 3-0 (away) · 2025-05-17 2-1 (home) · 2024-08-07 1-0 (away)</span></div><div class="fx-foot"><span class="dim">📈 Sanfrecce Hiroshima: W 1-0 vs Avispa Fukuoka (2026-09-19) · W 6-1 vs Cerezo Osaka (2026-09-12) · D 0-0 vs FC Tokyo (2026-09-09) · W 2-1 vs Nagoya Grampus (2026-09-08) — Tokyo Verdy 1969: L 1-3 vs Urawa Red Diamonds (2026-09-19) · D 1-1 vs JEF United Ichihara-Chiba (2026-09-13) · D 0-0 vs Cerezo Osaka (2026-09-06) · L 0-2 vs Vissel Kobe (2026-09-02)</span></div>
 </div>
 <div class="fx">
 <div class="fx-hd"><span class="flg">Austrian Bundesliga</span>
@@ -591,7 +596,7 @@ record.</p>
 <div class="pcell"><span class="pos">#9</span><span class="tname">Grazer AK</span><span class="b bu">Unranked</span><span class="tscore">34.6</span></div>
 </div></div>
 <div class="fx-foot"><span class="dim">🔎 analysed · 59% modelled win — below the 70% floor</span></div>
-<div class="fx-foot"><span class="dim">📊 RB Salzburg markets: Away or both teams score 89% · Away leads at some point or draw 84% · Away or draw (double chance) 79% · Away to win 59%</span></div><div class="fx-foot"><span class="dim">🤝 H2H: 4 meetings · RB Salzburg 2W-2D-0L vs Grazer AK · 2026-02-15 1-1 (away) · 2025-08-09 5-0 (home) · 2024-11-02 0-0 (home)</span></div><div class="fx-foot"><span class="dim">📈 RB Salzburg: W 3-0 vs SK Sturm Graz (2026-09-20) · D 1-1 vs SV Josko Ried (2026-09-11) · W 5-1 vs Rapid Vienna (2026-09-02) · W 4-1 vs Austria Vienna (2026-08-30) — Grazer AK: D 2-2 vs Austria Vienna (2026-09-19) · W 2-1 vs SC Rheindorf Altach (2026-09-12) · D 0-0 vs Wolfsberger (2026-08-29) · L 0-1 vs SV Josko Ried (2026-08-21)</span></div>
+<div class="fx-foot"><span class="mkt">📊 RB Salzburg markets: Away or both teams score 89% · Away leads at some point or draw 84% · Away or draw (double chance) 79% · Away to win 59%</span></div><div class="fx-foot"><span class="dim">🤝 H2H: 4 meetings · RB Salzburg 2W-2D-0L vs Grazer AK · 2026-02-15 1-1 (away) · 2025-08-09 5-0 (home) · 2024-11-02 0-0 (home)</span></div><div class="fx-foot"><span class="dim">📈 RB Salzburg: W 3-0 vs SK Sturm Graz (2026-09-20) · D 1-1 vs SV Josko Ried (2026-09-11) · W 5-1 vs Rapid Vienna (2026-09-02) · W 4-1 vs Austria Vienna (2026-08-30) — Grazer AK: D 2-2 vs Austria Vienna (2026-09-19) · W 2-1 vs SC Rheindorf Altach (2026-09-12) · D 0-0 vs Wolfsberger (2026-08-29) · L 0-1 vs SV Josko Ried (2026-08-21)</span></div>
 </div>
 <div class="fx">
 <div class="fx-hd"><span class="flg">Liga Nacional de Honduras</span>
@@ -602,7 +607,7 @@ record.</p>
 <div class="pcell"><span class="pos">#7</span><span class="tname">CD Estrella Roja</span><span class="b bu">Unranked</span><span class="tscore">40.5</span></div>
 </div></div>
 <div class="fx-foot"><span class="dim">🔎 analysed · 59% modelled win — below the 70% floor</span></div>
-<div class="fx-foot"><span class="dim">📊 Real España markets: Away or both teams score 88% · Away leads at some point or draw 85% · Away or draw (double chance) 81% · Away to win 59%</span></div><div class="fx-foot"><span class="dim">📈 Real España: W 1-0 vs FC Motagua (2026-09-20) · D 1-1 vs Olancho FC (2026-09-12) · W 2-0 vs UPNFM (2026-09-06) · W 2-1 vs CD Choloma (2026-08-30) — CD Estrella Roja: L 0-2 vs CD Choloma (2026-09-19) · D 2-2 vs Platense (2026-09-12) · L 0-5 vs Club Deportivo Marathón (2026-09-06) · D 2-2 vs Club Deportivo Olimpia (2026-08-30)</span></div>
+<div class="fx-foot"><span class="mkt">📊 Real España markets: Away or both teams score 88% · Away leads at some point or draw 85% · Away or draw (double chance) 81% · Away to win 59%</span></div><div class="fx-foot"><span class="dim">📈 Real España: W 1-0 vs FC Motagua (2026-09-20) · D 1-1 vs Olancho FC (2026-09-12) · W 2-0 vs UPNFM (2026-09-06) · W 2-1 vs CD Choloma (2026-08-30) — CD Estrella Roja: L 0-2 vs CD Choloma (2026-09-19) · D 2-2 vs Platense (2026-09-12) · L 0-5 vs Club Deportivo Marathón (2026-09-06) · D 2-2 vs Club Deportivo Olimpia (2026-08-30)</span></div>
 </div>
 <div class="fx">
 <div class="fx-hd"><span class="flg">Liga 1</span>
@@ -613,7 +618,7 @@ record.</p>
 <div class="pcell"><span class="pos">#18</span><span class="tname">UTC</span><span class="b bu">Unranked</span><span class="tscore">7.1</span></div>
 </div></div>
 <div class="fx-foot"><span class="dim">🔎 analysed · 58% modelled win — below the 70% floor</span></div>
-<div class="fx-foot"><span class="dim">📊 Sporting Cristal markets: Away or both teams score 91% · Away leads at some point or draw 84% · Away or draw (double chance) 78% · Away to win 59%</span></div><div class="fx-foot"><span class="dim">🤝 H2H: 5 meetings · Sporting Cristal 3W-1D-1L vs UTC · 2026-04-19 3-2 (home) · 2025-08-23 2-2 (home) · 2025-04-06 1-4 (away)</span></div><div class="fx-foot"><span class="dim">📈 Sporting Cristal: W 3-1 vs Atlético Grau (2026-09-19) · W 2-1 vs Deportivo Moquegua (2026-09-13) · W 5-0 vs Los Chankas (2026-09-06) · L 0-1 vs Sport Boys (2026-08-30) — UTC: L 2-3 vs Sport Huancayo (2026-09-20) · L 1-2 vs Juan Pablo II (2026-09-11) · L 2-3 vs Alianza Atlético (2026-09-04) · L 2-4 vs Universitario (2026-08-29)</span></div>
+<div class="fx-foot"><span class="mkt">📊 Sporting Cristal markets: Away or both teams score 91% · Away leads at some point or draw 84% · Away or draw (double chance) 78% · Away to win 59%</span></div><div class="fx-foot"><span class="dim">🤝 H2H: 5 meetings · Sporting Cristal 3W-1D-1L vs UTC · 2026-04-19 3-2 (home) · 2025-08-23 2-2 (home) · 2025-04-06 1-4 (away)</span></div><div class="fx-foot"><span class="dim">📈 Sporting Cristal: W 3-1 vs Atlético Grau (2026-09-19) · W 2-1 vs Deportivo Moquegua (2026-09-13) · W 5-0 vs Los Chankas (2026-09-06) · L 0-1 vs Sport Boys (2026-08-30) — UTC: L 2-3 vs Sport Huancayo (2026-09-20) · L 1-2 vs Juan Pablo II (2026-09-11) · L 2-3 vs Alianza Atlético (2026-09-04) · L 2-4 vs Universitario (2026-08-29)</span></div>
 </div>
 <div class="fx">
 <div class="fx-hd"><span class="flg">Belgian Pro League</span>
@@ -624,7 +629,7 @@ record.</p>
 <div class="pcell"><span class="pos">#14</span><span class="tname">RAAL La Louvière</span><span class="b bu">Unranked</span><span class="tscore">25.6</span></div>
 </div></div>
 <div class="fx-foot"><span class="dim">🔎 analysed · 58% modelled win — below the 70% floor</span></div>
-<div class="fx-foot"><span class="dim">📊 Club Brugge markets: Away or both teams score 88% · Away leads at some point or draw 86% · Away or draw (double chance) 82% · Away to win 60% · Away -0.5 60%</span></div><div class="fx-foot"><span class="dim">🤝 H2H: 2 meetings · Club Brugge 0W-0D-2L vs RAAL La Louvière · 2026-01-16 2-3 (home) · 2025-09-13 0-1 (away)</span></div><div class="fx-foot"><span class="dim">📈 Club Brugge: W 3-0 vs Racing Genk (2026-09-20) · W 3-1 vs Antwerp (2026-09-13) · W 1-0 vs Lommel SK (2026-09-04) · L 1-2 vs KAA Gent (2026-08-30) — RAAL La Louvière: L 0-2 vs OH Leuven (2026-09-19) · W 3-0 vs KV Kortrijk (2026-09-13) · L 0-4 vs Sint-Truidense (2026-09-05) · D 2-2 vs KV Mechelen (2026-08-29)</span></div>
+<div class="fx-foot"><span class="mkt">📊 Club Brugge markets: Away or both teams score 88% · Away leads at some point or draw 86% · Away or draw (double chance) 82% · Away to win 60% · Away -0.5 60%</span></div><div class="fx-foot"><span class="dim">🤝 H2H: 2 meetings · Club Brugge 0W-0D-2L vs RAAL La Louvière · 2026-01-16 2-3 (home) · 2025-09-13 0-1 (away)</span></div><div class="fx-foot"><span class="dim">📈 Club Brugge: W 3-0 vs Racing Genk (2026-09-20) · W 3-1 vs Antwerp (2026-09-13) · W 1-0 vs Lommel SK (2026-09-04) · L 1-2 vs KAA Gent (2026-08-30) — RAAL La Louvière: L 0-2 vs OH Leuven (2026-09-19) · W 3-0 vs KV Kortrijk (2026-09-13) · L 0-4 vs Sint-Truidense (2026-09-05) · D 2-2 vs KV Mechelen (2026-08-29)</span></div>
 </div>
 <div class="fx">
 <div class="fx-hd"><span class="flg">EFL Championship</span>
@@ -635,7 +640,7 @@ record.</p>
 <div class="pcell"><span class="pos">#17</span><span class="tname">Norwich City</span><span class="b bu">Unranked</span><span class="tscore">38.2</span></div>
 </div></div>
 <div class="fx-foot"><span class="dim">🔎 analysed · 58% modelled win — below the 70% floor</span></div>
-<div class="fx-foot"><span class="dim">📊 Swansea City markets: Home or both teams score 90% · Home leads at some point or draw 84% · Home or draw (double chance) 78% · Home to win 58%</span></div><div class="fx-foot"><span class="dim">🤝 H2H: 5 meetings · Swansea City 2W-2D-1L vs Norwich City · 2026-04-25 1-1 (away) · 2025-10-25 2-1 (home) · 2025-01-25 1-5 (away)</span></div><div class="fx-foot"><span class="dim">📈 Swansea City: W 2-1 vs Lincoln City (2026-09-19) · W 3-1 vs Burnley (2026-09-12) · L 1-3 vs Southampton (2026-09-08) · D 0-0 vs Wrexham (2026-09-05) — Norwich City: L 3-4 vs Bolton Wanderers (2026-09-20) · L 3-4 vs Middlesbrough (2026-09-12) · W 2-1 vs Birmingham City (2026-09-09) · W 3-1 vs Sheffield United (2026-09-05)</span></div>
+<div class="fx-foot"><span class="mkt">📊 Swansea City markets: Home or both teams score 90% · Home leads at some point or draw 84% · Home or draw (double chance) 78% · Home to win 58%</span></div><div class="fx-foot"><span class="dim">🤝 H2H: 5 meetings · Swansea City 2W-2D-1L vs Norwich City · 2026-04-25 1-1 (away) · 2025-10-25 2-1 (home) · 2025-01-25 1-5 (away)</span></div><div class="fx-foot"><span class="dim">📈 Swansea City: W 2-1 vs Lincoln City (2026-09-19) · W 3-1 vs Burnley (2026-09-12) · L 1-3 vs Southampton (2026-09-08) · D 0-0 vs Wrexham (2026-09-05) — Norwich City: L 3-4 vs Bolton Wanderers (2026-09-20) · L 3-4 vs Middlesbrough (2026-09-12) · W 2-1 vs Birmingham City (2026-09-09) · W 3-1 vs Sheffield United (2026-09-05)</span></div>
 </div>
 <div class="fx">
 <div class="fx-hd"><span class="flg">Eredivisie</span>
@@ -646,7 +651,7 @@ record.</p>
 <div class="pcell"><span class="pos">#10</span><span class="tname">Heerenveen</span><span class="b bu">Unranked</span><span class="tscore">43.7</span></div>
 </div></div>
 <div class="fx-foot"><span class="dim">🔎 analysed · 58% modelled win — below the 70% floor</span></div>
-<div class="fx-foot"><span class="dim">📊 PSV Eindhoven markets: Home or both teams score 92% · Home leads at some point or draw 83% · Home or draw (double chance) 77% · Home to win 58%</span></div><div class="fx-foot"><span class="dim">🤝 H2H: 5 meetings · PSV Eindhoven 4W-0D-1L vs Heerenveen · 2026-02-21 3-1 (home) · 2025-12-06 2-0 (away) · 2025-03-08 2-1 (home)</span></div><div class="fx-foot"><span class="dim">📈 PSV Eindhoven: L 2-3 vs FC Twente (2026-09-20) · W 4-1 vs Sparta Rotterdam (2026-09-13) · W 3-1 vs Ajax Amsterdam (2026-09-05) · W 6-1 vs FC Utrecht (2026-08-30) — Heerenveen: W 4-0 vs Sparta Rotterdam (2026-09-19) · D 0-0 vs Telstar (2026-09-13) · L 2-3 vs AZ Alkmaar (2026-09-06) · D 2-2 vs Willem II (2026-08-30)</span></div>
+<div class="fx-foot"><span class="mkt">📊 PSV Eindhoven markets: Home or both teams score 92% · Home leads at some point or draw 83% · Home or draw (double chance) 77% · Home to win 58%</span></div><div class="fx-foot"><span class="dim">🤝 H2H: 5 meetings · PSV Eindhoven 4W-0D-1L vs Heerenveen · 2026-02-21 3-1 (home) · 2025-12-06 2-0 (away) · 2025-03-08 2-1 (home)</span></div><div class="fx-foot"><span class="dim">📈 PSV Eindhoven: L 2-3 vs FC Twente (2026-09-20) · W 4-1 vs Sparta Rotterdam (2026-09-13) · W 3-1 vs Ajax Amsterdam (2026-09-05) · W 6-1 vs FC Utrecht (2026-08-30) — Heerenveen: W 4-0 vs Sparta Rotterdam (2026-09-19) · D 0-0 vs Telstar (2026-09-13) · L 2-3 vs AZ Alkmaar (2026-09-06) · D 2-2 vs Willem II (2026-08-30)</span></div>
 </div>
 <div class="fx">
 <div class="fx-hd"><span class="flg">Liga de Expansión MX</span>
@@ -657,7 +662,7 @@ record.</p>
 <div class="pcell"><span class="pos">#16</span><span class="tname">Tepatitlán FC</span><span class="b bu">Unranked</span><span class="tscore">15.7</span></div>
 </div></div>
 <div class="fx-foot"><span class="dim">🔎 analysed · 57% modelled win — below the 70% floor</span></div>
-<div class="fx-foot"><span class="dim">📊 Club Atlético Morelia markets: Away or both teams score 88% · Away leads at some point or draw 84% · Away or draw (double chance) 79% · Away to win 57%</span></div><div class="fx-foot"><span class="dim">🤝 H2H: 5 meetings · Club Atlético Morelia 2W-0D-3L vs Tepatitlán FC · 2026-03-15 3-2 (home) · 2025-10-04 2-3 (away) · 2025-02-01 1-3 (away)</span></div><div class="fx-foot"><span class="dim">📈 Club Atlético Morelia: D 1-1 vs Tlaxcala FC (2026-10-04) · L 1-2 vs Venados FC (2026-09-26) · W 2-0 vs Leones Negros (2026-09-20) · W 1-0 vs Mineros de Zacatecas (2026-09-13) — Tepatitlán FC: W 3-1 vs Club Jaiba Brava (2026-10-03) · L 0-1 vs Mineros de Zacatecas (2026-09-19) · L 0-5 vs Venados FC (2026-09-12) · L 1-4 vs Dorados de Sinaloa (2026-09-04)</span></div>
+<div class="fx-foot"><span class="mkt">📊 Club Atlético Morelia markets: Away or both teams score 88% · Away leads at some point or draw 84% · Away or draw (double chance) 79% · Away to win 57%</span></div><div class="fx-foot"><span class="dim">🤝 H2H: 5 meetings · Club Atlético Morelia 2W-0D-3L vs Tepatitlán FC · 2026-03-15 3-2 (home) · 2025-10-04 2-3 (away) · 2025-02-01 1-3 (away)</span></div><div class="fx-foot"><span class="dim">📈 Club Atlético Morelia: D 1-1 vs Tlaxcala FC (2026-10-04) · L 1-2 vs Venados FC (2026-09-26) · W 2-0 vs Leones Negros (2026-09-20) · W 1-0 vs Mineros de Zacatecas (2026-09-13) — Tepatitlán FC: W 3-1 vs Club Jaiba Brava (2026-10-03) · L 0-1 vs Mineros de Zacatecas (2026-09-19) · L 0-5 vs Venados FC (2026-09-12) · L 1-4 vs Dorados de Sinaloa (2026-09-04)</span></div>
 </div>
 <div class="fx">
 <div class="fx-hd"><span class="flg">Liga MX</span>
@@ -668,7 +673,7 @@ record.</p>
 <div class="pcell"><span class="pos">#10</span><span class="tname">Monterrey</span><span class="b bu">Unranked</span><span class="tscore">43.1</span></div>
 </div></div>
 <div class="fx-foot"><span class="dim">🔎 analysed · 57% modelled win — below the 70% floor</span></div>
-<div class="fx-foot"><span class="dim">📊 América markets: Home or both teams score 92% · Home leads at some point or draw 83% · Home or draw (double chance) 76% · Home to win 57%</span></div><div class="fx-foot"><span class="dim">🤝 H2H: 8 meetings · América 4W-2D-2L vs Monterrey · 2026-02-08 1-0 (home) · 2025-11-29 2-1 (home) · 2025-11-27 0-2 (away)</span></div><div class="fx-foot"><span class="dim">📈 América: W 4-2 vs Necaxa (2026-09-28) · D 2-2 vs Guadalajara (2026-09-20) · L 3-4 vs Cruz Azul (2026-09-13) · W 2-0 vs Puebla (2026-08-30) — Monterrey: L 2-4 vs Atlante (2026-09-26) · W 1-0 vs Cruz Azul (2026-09-20) · D 0-0 vs Tigres UANL (2026-09-13) · L 1-3 vs Atlético de San Luis (2026-08-31)</span></div>
+<div class="fx-foot"><span class="mkt">📊 América markets: Home or both teams score 92% · Home leads at some point or draw 83% · Home or draw (double chance) 76% · Home to win 57%</span></div><div class="fx-foot"><span class="dim">🤝 H2H: 8 meetings · América 4W-2D-2L vs Monterrey · 2026-02-08 1-0 (home) · 2025-11-29 2-1 (home) · 2025-11-27 0-2 (away)</span></div><div class="fx-foot"><span class="dim">📈 América: W 4-2 vs Necaxa (2026-09-28) · D 2-2 vs Guadalajara (2026-09-20) · L 3-4 vs Cruz Azul (2026-09-13) · W 2-0 vs Puebla (2026-08-30) — Monterrey: L 2-4 vs Atlante (2026-09-26) · W 1-0 vs Cruz Azul (2026-09-20) · D 0-0 vs Tigres UANL (2026-09-13) · L 1-3 vs Atlético de San Luis (2026-08-31)</span></div>
 </div>
 <div class="fx">
 <div class="fx-hd"><span class="flg">Liga Profesional Boliviana</span>
@@ -679,7 +684,7 @@ record.</p>
 <div class="pcell"><span class="pos">#8</span><span class="tname">Blooming</span><span class="b bu">Unranked</span><span class="tscore">47.8</span></div>
 </div></div>
 <div class="fx-foot"><span class="dim">🔎 analysed · 56% modelled win — below the 70% floor</span></div>
-<div class="fx-foot"><span class="dim">📊 Bolívar markets: Home or both teams score 90% · Home leads at some point or draw 83% · Home or draw (double chance) 77% · Home to win 56%</span></div><div class="fx-foot"><span class="dim">🤝 H2H: 5 meetings · Bolívar 3W-2D-0L vs Blooming · 2026-05-10 0-0 (away) · 2025-10-18 2-1 (away) · 2025-04-27 5-1 (home)</span></div><div class="fx-foot"><span class="dim">📈 Bolívar: W 4-2 vs GV San José (2026-09-18) · W 2-1 vs Real Tomayapo (2026-09-14) · W 4-0 vs Independiente Petrolero (2026-09-06) · W 4-1 vs ABB (2026-08-28) — Blooming: D 1-1 vs Universitario de Vinto (2026-09-17) · W 6-1 vs ABB (2026-09-13) · L 1-2 vs Nacional Potosí (2026-09-07) · D 1-1 vs Real Oruro (2026-08-27)</span></div>
+<div class="fx-foot"><span class="mkt">📊 Bolívar markets: Home or both teams score 90% · Home leads at some point or draw 83% · Home or draw (double chance) 77% · Home to win 56%</span></div><div class="fx-foot"><span class="dim">🤝 H2H: 5 meetings · Bolívar 3W-2D-0L vs Blooming · 2026-05-10 0-0 (away) · 2025-10-18 2-1 (away) · 2025-04-27 5-1 (home)</span></div><div class="fx-foot"><span class="dim">📈 Bolívar: W 4-2 vs GV San José (2026-09-18) · W 2-1 vs Real Tomayapo (2026-09-14) · W 4-0 vs Independiente Petrolero (2026-09-06) · W 4-1 vs ABB (2026-08-28) — Blooming: D 1-1 vs Universitario de Vinto (2026-09-17) · W 6-1 vs ABB (2026-09-13) · L 1-2 vs Nacional Potosí (2026-09-07) · D 1-1 vs Real Oruro (2026-08-27)</span></div>
 </div>
 <div class="fx">
 <div class="fx-hd"><span class="flg">La Liga</span>
@@ -690,7 +695,7 @@ record.</p>
 <div class="pcell"><span class="pos">#13</span><span class="tname">Osasuna</span><span class="b bu">Unranked</span><span class="tscore">34.9</span></div>
 </div></div>
 <div class="fx-foot"><span class="dim">🔎 analysed · 56% modelled win — below the 70% floor</span></div>
-<div class="fx-foot"><span class="dim">📊 Real Betis markets: Home leads at some point or draw 84% · Home or both teams score 83% · Home or draw (double chance) 80% · Home to win 56%</span></div><div class="fx-foot"><span class="dim">🤝 H2H: 5 meetings · Real Betis 3W-2D-0L vs Osasuna · 2026-04-12 1-1 (away) · 2025-09-28 2-0 (home) · 2025-05-11 1-1 (home)</span></div><div class="fx-foot"><span class="dim">📈 Real Betis: D 1-1 vs Deportivo (2026-09-20) · W 1-0 vs Getafe (2026-09-17) · W 2-1 vs Villarreal (2026-09-14) · D 1-1 vs Villarreal (2026-09-09) — Osasuna: D 1-1 vs Rayo Vallecano (2026-09-19) · L 0-4 vs Atlético Madrid (2026-09-16) · L 0-2 vs Espanyol (2026-09-12) · L 2-5 vs Alavés (2026-09-06)</span></div>
+<div class="fx-foot"><span class="mkt">📊 Real Betis markets: Home leads at some point or draw 84% · Home or both teams score 83% · Home or draw (double chance) 80% · Home to win 56%</span></div><div class="fx-foot"><span class="dim">🤝 H2H: 5 meetings · Real Betis 3W-2D-0L vs Osasuna · 2026-04-12 1-1 (away) · 2025-09-28 2-0 (home) · 2025-05-11 1-1 (home)</span></div><div class="fx-foot"><span class="dim">📈 Real Betis: D 1-1 vs Deportivo (2026-09-20) · W 1-0 vs Getafe (2026-09-17) · W 2-1 vs Villarreal (2026-09-14) · D 1-1 vs Villarreal (2026-09-09) — Osasuna: D 1-1 vs Rayo Vallecano (2026-09-19) · L 0-4 vs Atlético Madrid (2026-09-16) · L 0-2 vs Espanyol (2026-09-12) · L 2-5 vs Alavés (2026-09-06)</span></div>
 </div>
 <div class="fx">
 <div class="fx-hd"><span class="flg">Salvadoran Primera División</span>
@@ -701,7 +706,7 @@ record.</p>
 <div class="pcell"><span class="pos">#10</span><span class="tname">Atletico Balboa</span><span class="b bu">Unranked</span><span class="tscore">29.5</span></div>
 </div></div>
 <div class="fx-foot"><span class="dim">🔎 analysed · 56% modelled win — below the 70% floor</span></div>
-<div class="fx-foot"><span class="dim">📊 CD FAS markets: Away or both teams score 85% · Away leads at some point or draw 83% · Away or draw (double chance) 79% · Away to win 56%</span></div><div class="fx-foot"><span class="dim">🤝 H2H: 1 meeting · CD FAS 0W-1D-0L vs Atletico Balboa · 2026-08-09 1-1 (home)</span></div><div class="fx-foot"><span class="dim">📈 CD FAS: D 1-1 vs Inca Aruba (2026-10-05) · W 3-1 vs CD Municipal Limeño (2026-09-27) · W 2-0 vs Cacahuatique (2026-09-19) · D 2-2 vs Internacional Santa Tecla (2026-09-17) — Atletico Balboa: L 2-3 vs Isidro Metapán (2026-10-03) · L 0-2 vs Cacahuatique (2026-09-29) · D 1-1 vs Internacional Santa Tecla (2026-09-27) · L 1-3 vs Luis Ángel Firpo (2026-09-20)</span></div>
+<div class="fx-foot"><span class="mkt">📊 CD FAS markets: Away or both teams score 85% · Away leads at some point or draw 83% · Away or draw (double chance) 79% · Away to win 56%</span></div><div class="fx-foot"><span class="dim">🤝 H2H: 1 meeting · CD FAS 0W-1D-0L vs Atletico Balboa · 2026-08-09 1-1 (home)</span></div><div class="fx-foot"><span class="dim">📈 CD FAS: D 1-1 vs Inca Aruba (2026-10-05) · W 3-1 vs CD Municipal Limeño (2026-09-27) · W 2-0 vs Cacahuatique (2026-09-19) · D 2-2 vs Internacional Santa Tecla (2026-09-17) — Atletico Balboa: L 2-3 vs Isidro Metapán (2026-10-03) · L 0-2 vs Cacahuatique (2026-09-29) · D 1-1 vs Internacional Santa Tecla (2026-09-27) · L 1-3 vs Luis Ángel Firpo (2026-09-20)</span></div>
 </div>
 <div class="fx">
 <div class="fx-hd"><span class="flg">Scottish Premiership</span>
@@ -712,7 +717,7 @@ record.</p>
 <div class="pcell"><span class="pos">#12</span><span class="tname">Kilmarnock</span><span class="b bu">Unranked</span><span class="tscore">23.1</span></div>
 </div></div>
 <div class="fx-foot"><span class="dim">🔎 analysed · 56% modelled win — below the 70% floor</span></div>
-<div class="fx-foot"><span class="dim">📊 Rangers markets: Home leads at some point or draw 84% · Home or draw (double chance) 82% · Home or both teams score 81% · Home to win 56%</span></div><div class="fx-foot"><span class="dim">🤝 H2H: 7 meetings · Rangers 6W-0D-1L vs Kilmarnock · 2026-02-04 5-1 (home) · 2025-12-06 3-0 (away) · 2025-10-26 3-1 (home)</span></div><div class="fx-foot"><span class="dim">📈 Rangers: W 1-0 vs Celtic (2026-09-20) · L 1-2 vs Unión San Felipe (2026-09-16) · L 2-3 vs Tai Po (2026-09-14) · W 1-0 vs St Mirren (2026-09-09) — Kilmarnock: D 1-1 vs Heart of Midlothian (2026-09-19) · W 1-0 vs Hibernian (2026-09-15) · D 0-0 vs Aberdeen (2026-09-05) · L 0-1 vs St Mirren (2026-09-02)</span></div>
+<div class="fx-foot"><span class="mkt">📊 Rangers markets: Home leads at some point or draw 84% · Home or draw (double chance) 82% · Home or both teams score 81% · Home to win 56%</span></div><div class="fx-foot"><span class="dim">🤝 H2H: 7 meetings · Rangers 6W-0D-1L vs Kilmarnock · 2026-02-04 5-1 (home) · 2025-12-06 3-0 (away) · 2025-10-26 3-1 (home)</span></div><div class="fx-foot"><span class="dim">📈 Rangers: W 1-0 vs Celtic (2026-09-20) · L 1-2 vs Unión San Felipe (2026-09-16) · L 2-3 vs Tai Po (2026-09-14) · W 1-0 vs St Mirren (2026-09-09) — Kilmarnock: D 1-1 vs Heart of Midlothian (2026-09-19) · W 1-0 vs Hibernian (2026-09-15) · D 0-0 vs Aberdeen (2026-09-05) · L 0-1 vs St Mirren (2026-09-02)</span></div>
 </div>
 <div class="fx">
 <div class="fx-hd"><span class="flg">Montenegrin First League</span>
@@ -723,7 +728,7 @@ record.</p>
 <div class="pcell"><span class="pos">#9</span><span class="tname">OFK Petrovac</span><span class="b bu">Unranked</span><span class="tscore">21.2</span></div>
 </div></div>
 <div class="fx-foot"><span class="dim">🔎 analysed · 59% modelled win — below the 73% floor</span></div>
-<div class="fx-foot"><span class="dim">📊 FK Bokelj Kotor markets: Home leads at some point or draw 86% · Home or both teams score 84% · Home or draw (double chance) 83% · Home to win 59%</span></div><div class="fx-foot"><span class="dim">📈 FK Bokelj Kotor: W 3-0 vs Mladost DG (2026-09-20) · D 1-1 vs FK Jezero (2026-09-15) · W 2-1 vs FK Otrant-Olympic (2026-09-10) — OFK Petrovac: L 1-4 vs FK Budućnost Podgorica (2026-09-18) · L 1-2 vs FK Arsenal Tivat (2026-09-14)</span></div>
+<div class="fx-foot"><span class="mkt">📊 FK Bokelj Kotor markets: Home leads at some point or draw 86% · Home or both teams score 84% · Home or draw (double chance) 83% · Home to win 59%</span></div><div class="fx-foot"><span class="dim">📈 FK Bokelj Kotor: W 3-0 vs Mladost DG (2026-09-20) · D 1-1 vs FK Jezero (2026-09-15) · W 2-1 vs FK Otrant-Olympic (2026-09-10) — OFK Petrovac: L 1-4 vs FK Budućnost Podgorica (2026-09-18) · L 1-2 vs FK Arsenal Tivat (2026-09-14)</span></div>
 </div>
 <div class="fx">
 <div class="fx-hd"><span class="flg">Scottish Premiership</span>
@@ -734,7 +739,7 @@ record.</p>
 <div class="pcell"><span class="pos">#5</span><span class="tname">St Mirren</span><span class="b bu">Unranked</span><span class="tscore">47.4</span></div>
 </div></div>
 <div class="fx-foot"><span class="dim">🔎 analysed · 55% modelled win — below the 70% floor</span></div>
-<div class="fx-foot"><span class="dim">📊 Heart of Midlothian markets: Home or both teams score 86% · Home leads at some point or draw 83% · Home or draw (double chance) 79% · Home to win 56%</span></div><div class="fx-foot"><span class="dim">🤝 H2H: 7 meetings · Heart of Midlothian 3W-2D-2L vs St Mirren · 2026-02-03 0-1 (away) · 2026-01-14 2-0 (home) · 2025-10-29 2-2 (away)</span></div><div class="fx-foot"><span class="dim">📈 Heart of Midlothian: D 1-1 vs Kilmarnock (2026-09-19) · L 1-2 vs Falkirk (2026-09-15) · W 2-1 vs Dundee (2026-09-06) · W 3-1 vs Hibernian (2026-09-03) — St Mirren: L 0-3 vs Dundee United (2026-09-19) · L 0-1 vs Rangers (2026-09-09) · L 1-2 vs Celtic (2026-09-05) · W 1-0 vs Kilmarnock (2026-09-02)</span></div>
+<div class="fx-foot"><span class="mkt">📊 Heart of Midlothian markets: Home or both teams score 86% · Home leads at some point or draw 83% · Home or draw (double chance) 79% · Home to win 56%</span></div><div class="fx-foot"><span class="dim">🤝 H2H: 7 meetings · Heart of Midlothian 3W-2D-2L vs St Mirren · 2026-02-03 0-1 (away) · 2026-01-14 2-0 (home) · 2025-10-29 2-2 (away)</span></div><div class="fx-foot"><span class="dim">📈 Heart of Midlothian: D 1-1 vs Kilmarnock (2026-09-19) · L 1-2 vs Falkirk (2026-09-15) · W 2-1 vs Dundee (2026-09-06) · W 3-1 vs Hibernian (2026-09-03) — St Mirren: L 0-3 vs Dundee United (2026-09-19) · L 0-1 vs Rangers (2026-09-09) · L 1-2 vs Celtic (2026-09-05) · W 1-0 vs Kilmarnock (2026-09-02)</span></div>
 </div>
 <div class="fx">
 <div class="fx-hd"><span class="flg">National League</span>
@@ -745,7 +750,7 @@ record.</p>
 <div class="pcell"><span class="pos">#20</span><span class="tname">Boston United</span><span class="b bu">Unranked</span><span class="tscore">30.7</span></div>
 </div></div>
 <div class="fx-foot"><span class="dim">🔎 analysed · 56% modelled win — below the 71% floor</span></div>
-<div class="fx-foot"><span class="dim">📊 Southend United markets: Away or both teams score 92% · Away leads at some point or draw 84% · Away or draw (double chance) 78% · Away to win 58%</span></div><div class="fx-foot"><span class="dim">🤝 H2H: 4 meetings · Southend United 1W-2D-1L vs Boston United · 2026-01-24 3-3 (away) · 2025-09-13 1-1 (home) · 2025-03-25 0-3 (away)</span></div><div class="fx-foot"><span class="dim">📈 Southend United: W 3-1 vs AFC Fylde (2026-10-03) · D 1-1 vs Eastleigh (2026-09-30) · L 2-4 vs Barrow (2026-09-26) · W 6-1 vs Gateshead (2026-09-19) — Boston United: L 0-6 vs Yeovil Town (2026-10-03) · D 1-1 vs FC Halifax Town (2026-09-29) · L 0-1 vs AFC Fylde (2026-09-26) · W 3-1 vs Forest Green Rovers (2026-09-19)</span></div>
+<div class="fx-foot"><span class="mkt">📊 Southend United markets: Away or both teams score 92% · Away leads at some point or draw 84% · Away or draw (double chance) 78% · Away to win 58%</span></div><div class="fx-foot"><span class="dim">🤝 H2H: 4 meetings · Southend United 1W-2D-1L vs Boston United · 2026-01-24 3-3 (away) · 2025-09-13 1-1 (home) · 2025-03-25 0-3 (away)</span></div><div class="fx-foot"><span class="dim">📈 Southend United: W 3-1 vs AFC Fylde (2026-10-03) · D 1-1 vs Eastleigh (2026-09-30) · L 2-4 vs Barrow (2026-09-26) · W 6-1 vs Gateshead (2026-09-19) — Boston United: L 0-6 vs Yeovil Town (2026-10-03) · D 1-1 vs FC Halifax Town (2026-09-29) · L 0-1 vs AFC Fylde (2026-09-26) · W 3-1 vs Forest Green Rovers (2026-09-19)</span></div>
 </div>
 <div class="fx">
 <div class="fx-hd"><span class="flg">Scottish Championship</span>
@@ -756,7 +761,7 @@ record.</p>
 <div class="pcell"><span class="pos">#8</span><span class="tname">Inverness Caledonian Thistle</span><span class="b bu">Unranked</span><span class="tscore">39.9</span></div>
 </div></div>
 <div class="fx-foot"><span class="dim">🔎 analysed · 56% modelled win — below the 71% floor</span></div>
-<div class="fx-foot"><span class="dim">📊 Stenhousemuir markets: Away leads at some point or draw 85% · Away or draw (double chance) 83% · Away or both teams score 79% · Away to win 56%</span></div><div class="fx-foot"><span class="dim">🤝 H2H: 2 meetings · Stenhousemuir 2W-0D-0L vs Inverness Caledonian Thistle · 2026-09-15 3-1 (home) · 2026-08-29 3-1 (home)</span></div><div class="fx-foot"><span class="dim">📈 Stenhousemuir: W 1-0 vs Ayr United (2026-09-25) · W 1-0 vs Arbroath (2026-09-19) · W 1-0 vs Partick Thistle (2026-09-16) · W 1-0 vs Partick Thistle (2026-09-15) — Inverness Caledonian Thistle: W 2-0 vs Greenock Morton (2026-09-25) · D 2-2 vs Livingston (2026-09-19) · L 1-3 vs Stenhousemuir (2026-09-15) · W 3-1 vs Ayr United (2026-09-12)</span></div>
+<div class="fx-foot"><span class="mkt">📊 Stenhousemuir markets: Away leads at some point or draw 85% · Away or draw (double chance) 83% · Away or both teams score 79% · Away to win 56%</span></div><div class="fx-foot"><span class="dim">🤝 H2H: 2 meetings · Stenhousemuir 2W-0D-0L vs Inverness Caledonian Thistle · 2026-09-15 3-1 (home) · 2026-08-29 3-1 (home)</span></div><div class="fx-foot"><span class="dim">📈 Stenhousemuir: W 1-0 vs Ayr United (2026-09-25) · W 1-0 vs Arbroath (2026-09-19) · W 1-0 vs Partick Thistle (2026-09-16) · W 1-0 vs Partick Thistle (2026-09-15) — Inverness Caledonian Thistle: W 2-0 vs Greenock Morton (2026-09-25) · D 2-2 vs Livingston (2026-09-19) · L 1-3 vs Stenhousemuir (2026-09-15) · W 3-1 vs Ayr United (2026-09-12)</span></div>
 </div>
 <div class="fx">
 <div class="fx-hd"><span class="flg">USL League One</span>
@@ -767,7 +772,7 @@ record.</p>
 <div class="pcell"><span class="pos">#8</span><span class="tname">Fort Wayne</span><span class="b bu">Unranked</span><span class="tscore">48.9</span></div>
 </div></div>
 <div class="fx-foot"><span class="dim">🔎 analysed · 55% modelled win — below the 70% floor</span></div>
-<div class="fx-foot"><span class="dim">📊 Union Omaha markets: Home or both teams score 87% · Home leads at some point or draw 82% · Home or draw (double chance) 77% · Home to win 55%</span></div><div class="fx-foot"><span class="dim">🤝 H2H: 1 meeting · Union Omaha 1W-0D-0L vs Fort Wayne · 2026-08-01 2-0 (away)</span></div><div class="fx-foot"><span class="dim">📈 Union Omaha: W 3-1 vs Greenville Triumph (2026-09-26) · W 2-1 vs One Knoxville (2026-09-20) · W 3-1 vs Spokane Velocity FC (2026-09-16) · W 2-1 vs Corpus Christi FC (2026-09-13) — Fort Wayne: D 0-0 vs Forward Madison FC (2026-10-03) · D 1-1 vs Charlotte Independence (2026-09-26) · D 2-2 vs FC Naples (2026-09-19) · L 2-3 vs One Knoxville (2026-09-16)</span></div>
+<div class="fx-foot"><span class="mkt">📊 Union Omaha markets: Home or both teams score 87% · Home leads at some point or draw 82% · Home or draw (double chance) 77% · Home to win 55%</span></div><div class="fx-foot"><span class="dim">🤝 H2H: 1 meeting · Union Omaha 1W-0D-0L vs Fort Wayne · 2026-08-01 2-0 (away)</span></div><div class="fx-foot"><span class="dim">📈 Union Omaha: W 3-1 vs Greenville Triumph (2026-09-26) · W 2-1 vs One Knoxville (2026-09-20) · W 3-1 vs Spokane Velocity FC (2026-09-16) · W 2-1 vs Corpus Christi FC (2026-09-13) — Fort Wayne: D 0-0 vs Forward Madison FC (2026-10-03) · D 1-1 vs Charlotte Independence (2026-09-26) · D 2-2 vs FC Naples (2026-09-19) · L 2-3 vs One Knoxville (2026-09-16)</span></div>
 </div>
 <div class="fx">
 <div class="fx-hd"><span class="flg">La Liga 2</span>
@@ -778,7 +783,7 @@ record.</p>
 <div class="pcell"><span class="pos">#20</span><span class="tname">FC Andorra</span><span class="b bu">Unranked</span><span class="tscore">26.1</span></div>
 </div></div>
 <div class="fx-foot"><span class="dim">🔎 analysed · 56% modelled win — below the 72% floor</span></div>
-<div class="fx-foot"><span class="dim">📊 Castellón markets: Away or both teams score 85% · Away leads at some point or draw 84% · Away or draw (double chance) 80% · Away to win 56%</span></div><div class="fx-foot"><span class="dim">🤝 H2H: 2 meetings · Castellón 2W-0D-0L vs FC Andorra · 2026-02-01 2-0 (home) · 2025-11-22 3-1 (away)</span></div><div class="fx-foot"><span class="dim">📈 Castellón: D 1-1 vs Ceuta (2026-10-04) · W 2-0 vs Leganés (2026-09-28) · W 5-0 vs Tenerife (2026-09-19) · W 2-1 vs Girona (2026-09-12) — FC Andorra: D 0-0 vs CD Sabadell (2026-10-04) · W 3-2 vs Granada (2026-09-26) · L 1-3 vs Sporting Gijón (2026-09-19) · L 1-3 vs Real Sociedad II (2026-09-12)</span></div>
+<div class="fx-foot"><span class="mkt">📊 Castellón markets: Away or both teams score 85% · Away leads at some point or draw 84% · Away or draw (double chance) 80% · Away to win 56%</span></div><div class="fx-foot"><span class="dim">🤝 H2H: 2 meetings · Castellón 2W-0D-0L vs FC Andorra · 2026-02-01 2-0 (home) · 2025-11-22 3-1 (away)</span></div><div class="fx-foot"><span class="dim">📈 Castellón: D 1-1 vs Ceuta (2026-10-04) · W 2-0 vs Leganés (2026-09-28) · W 5-0 vs Tenerife (2026-09-19) · W 2-1 vs Girona (2026-09-12) — FC Andorra: D 0-0 vs CD Sabadell (2026-10-04) · W 3-2 vs Granada (2026-09-26) · L 1-3 vs Sporting Gijón (2026-09-19) · L 1-3 vs Real Sociedad II (2026-09-12)</span></div>
 </div>
 <div class="fx">
 <div class="fx-hd"><span class="flg">2. Bundesliga</span>
@@ -789,7 +794,7 @@ record.</p>
 <div class="pcell"><span class="pos">#12</span><span class="tname">SpVgg Greuther Fürth</span><span class="b bu">Unranked</span><span class="tscore">36.1</span></div>
 </div></div>
 <div class="fx-foot"><span class="dim">🔎 analysed · 58% modelled win — below the 74% floor</span></div>
-<div class="fx-foot"><span class="dim">📊 Hertha Berlin markets: Home or both teams score 91% · Home leads at some point or draw 84% · Home or draw (double chance) 78% · Home to win 58%</span></div><div class="fx-foot"><span class="dim">🤝 H2H: 4 meetings · Hertha Berlin 2W-1D-1L vs SpVgg Greuther Fürth · 2026-05-10 2-1 (home) · 2025-12-12 3-3 (away) · 2025-05-04 1-0 (home)</span></div><div class="fx-foot"><span class="dim">📈 Hertha Berlin: W 2-1 vs Dynamo Dresden (2026-09-19) · W 3-1 vs VfL Osnabruck (2026-09-13) · W 2-1 vs 1. FC Magdeburg (2026-09-06) · W 5-3 vs TSV Eintracht Braunschweig (2026-08-28) — SpVgg Greuther Fürth: D 1-1 vs 1. FC Magdeburg (2026-09-18) · D 1-1 vs VfL Bochum (2026-09-12) · L 0-1 vs 1. FC Heidenheim 1846 (2026-09-06) · W 4-3 vs Energie Cottbus (2026-08-29)</span></div>
+<div class="fx-foot"><span class="mkt">📊 Hertha Berlin markets: Home or both teams score 91% · Home leads at some point or draw 84% · Home or draw (double chance) 78% · Home to win 58%</span></div><div class="fx-foot"><span class="dim">🤝 H2H: 4 meetings · Hertha Berlin 2W-1D-1L vs SpVgg Greuther Fürth · 2026-05-10 2-1 (home) · 2025-12-12 3-3 (away) · 2025-05-04 1-0 (home)</span></div><div class="fx-foot"><span class="dim">📈 Hertha Berlin: W 2-1 vs Dynamo Dresden (2026-09-19) · W 3-1 vs VfL Osnabruck (2026-09-13) · W 2-1 vs 1. FC Magdeburg (2026-09-06) · W 5-3 vs TSV Eintracht Braunschweig (2026-08-28) — SpVgg Greuther Fürth: D 1-1 vs 1. FC Magdeburg (2026-09-18) · D 1-1 vs VfL Bochum (2026-09-12) · L 0-1 vs 1. FC Heidenheim 1846 (2026-09-06) · W 4-3 vs Energie Cottbus (2026-08-29)</span></div>
 </div>
 <div class="fx">
 <div class="fx-hd"><span class="flg">Primera División</span>
@@ -800,7 +805,7 @@ record.</p>
 <div class="pcell"><span class="pos">#13</span><span class="tname">Danubio</span><span class="b bu">Unranked</span><span class="tscore">27.9</span></div>
 </div></div>
 <div class="fx-foot"><span class="dim">🔎 analysed · 53% modelled win — below the 70% floor</span></div>
-<div class="fx-foot"><span class="dim">📊 Montevideo City Torque markets: Home leads at some point or draw 83% · Home or both teams score 82% · Home or draw (double chance) 80% · Home to win 55%</span></div><div class="fx-foot"><span class="dim">🤝 H2H: 5 meetings · Montevideo City Torque 1W-2D-2L vs Danubio · 2026-07-24 1-0 (home) · 2026-04-04 1-1 (away) · 2025-09-28 0-2 (away)</span></div><div class="fx-foot"><span class="dim">📈 Montevideo City Torque: L 0-2 vs Nacional (2026-10-05) · D 1-1 vs Peñarol (2026-09-30) · L 0-2 vs Deportivo Maldonado (2026-09-27) · W 4-1 vs Central Español Fútbol Club (2026-09-21) — Danubio: W 2-1 vs Cerro Largo (2026-10-04) · L 0-1 vs Defensor Sporting (2026-09-27) · D 1-1 vs Montevideo Wanderers (2026-09-20) · D 1-1 vs Juventud (2026-09-13)</span></div>
+<div class="fx-foot"><span class="mkt">📊 Montevideo City Torque markets: Home leads at some point or draw 83% · Home or both teams score 82% · Home or draw (double chance) 80% · Home to win 55%</span></div><div class="fx-foot"><span class="dim">🤝 H2H: 5 meetings · Montevideo City Torque 1W-2D-2L vs Danubio · 2026-07-24 1-0 (home) · 2026-04-04 1-1 (away) · 2025-09-28 0-2 (away)</span></div><div class="fx-foot"><span class="dim">📈 Montevideo City Torque: L 0-2 vs Nacional (2026-10-05) · D 1-1 vs Peñarol (2026-09-30) · L 0-2 vs Deportivo Maldonado (2026-09-27) · W 4-1 vs Central Español Fútbol Club (2026-09-21) — Danubio: W 2-1 vs Cerro Largo (2026-10-04) · L 0-1 vs Defensor Sporting (2026-09-27) · D 1-1 vs Montevideo Wanderers (2026-09-20) · D 1-1 vs Juventud (2026-09-13)</span></div>
 </div>
 <div class="fx">
 <div class="fx-hd"><span class="flg">1. deild</span>
@@ -811,7 +816,7 @@ record.</p>
 <div class="pcell"><span class="pos">#7</span><span class="tname">NSÍ Runavík II</span><span class="b bu">Unranked</span><span class="tscore">32.0</span></div>
 </div></div>
 <div class="fx-foot"><span class="dim">🔎 analysed · 53% modelled win — below the 72% floor</span></div>
-<div class="fx-foot"><span class="dim">📊 B71 Sandoy markets: Away or both teams score 96% · Away leads at some point or draw 81% · Away or draw (double chance) 70% · Away to win 53%</span></div><div class="fx-foot"><span class="dim">📈 B71 Sandoy: W 5-0 vs EB/Streymur II (2026-09-18) · L 1-4 vs FC Suduroy (2026-09-13) · W 2-0 vs HB Tórshavn II (2026-09-06) — NSÍ Runavík II: L 2-5 vs B36 Tórshavn II (2026-09-19) · L 1-2 vs ÍF Fuglafjørdur (2026-09-12)</span></div>
+<div class="fx-foot"><span class="mkt">📊 B71 Sandoy markets: Away or both teams score 96% · Away leads at some point or draw 81% · Away or draw (double chance) 70% · Away to win 53%</span></div><div class="fx-foot"><span class="dim">📈 B71 Sandoy: W 5-0 vs EB/Streymur II (2026-09-18) · L 1-4 vs FC Suduroy (2026-09-13) · W 2-0 vs HB Tórshavn II (2026-09-06) — NSÍ Runavík II: L 2-5 vs B36 Tórshavn II (2026-09-19) · L 1-2 vs ÍF Fuglafjørdur (2026-09-12)</span></div>
 </div>
 <div class="fx">
 <div class="fx-hd"><span class="flg">Liga Primera de Nicaragua</span>
@@ -822,7 +827,7 @@ record.</p>
 <div class="pcell"><span class="pos">#9</span><span class="tname">Rancho Santana FC</span><span class="b bu">Unranked</span><span class="tscore">30.5</span></div>
 </div></div>
 <div class="fx-foot"><span class="dim">🔎 analysed · 51% modelled win — below the 70% floor</span></div>
-<div class="fx-foot"><span class="dim">📊 Managua FC markets: Away or both teams score 88% · Away leads at some point or draw 79% · Away or draw (double chance) 73% · Away to win 51%</span></div><div class="fx-foot"><span class="dim">📈 Managua FC: D 1-1 vs Real Estelí (2026-09-11) · W 3-2 vs CD Walter Ferretti (2026-09-06) — Rancho Santana FC: D 1-1 vs Real Estelí (2026-09-06) · D 1-1 vs ART Municipal Jalapa (2026-09-02)</span></div>
+<div class="fx-foot"><span class="mkt">📊 Managua FC markets: Away or both teams score 88% · Away leads at some point or draw 79% · Away or draw (double chance) 73% · Away to win 51%</span></div><div class="fx-foot"><span class="dim">📈 Managua FC: D 1-1 vs Real Estelí (2026-09-11) · W 3-2 vs CD Walter Ferretti (2026-09-06) — Rancho Santana FC: D 1-1 vs Real Estelí (2026-09-06) · D 1-1 vs ART Municipal Jalapa (2026-09-02)</span></div>
 </div>
 <div class="fx">
 <div class="fx-hd"><span class="flg">Salvadoran Primera División</span>
@@ -833,7 +838,7 @@ record.</p>
 <div class="pcell"><span class="pos">#7</span><span class="tname">CD Municipal Limeño</span><span class="b bu">Unranked</span><span class="tscore">38.8</span></div>
 </div></div>
 <div class="fx-foot"><span class="dim">🔎 analysed · 51% modelled win — below the 70% floor</span></div>
-<div class="fx-foot"><span class="dim">📊 Luis Ángel Firpo markets: Away or both teams score 83% · Away leads at some point or draw 80% · Away or draw (double chance) 76% · Away to win 51%</span></div><div class="fx-foot"><span class="dim">🤝 H2H: 8 meetings · Luis Ángel Firpo 5W-2D-1L vs CD Municipal Limeño · 2026-08-09 2-0 (home) · 2026-03-15 1-2 (away) · 2026-01-18 2-0 (home)</span></div><div class="fx-foot"><span class="dim">📈 Luis Ángel Firpo: D 2-2 vs Alianza FC (2026-10-04) · W 3-0 vs Fuerte San Francisco (2026-10-01) · W 2-0 vs Águila (2026-09-27) · D 0-0 vs Cacahuatique (2026-09-24) — CD Municipal Limeño: L 1-2 vs C.D. Platense (2026-10-04) · L 1-2 vs Inca Aruba (2026-10-02) · L 1-3 vs CD FAS (2026-09-27) · L 2-3 vs Alianza FC (2026-09-20)</span></div>
+<div class="fx-foot"><span class="mkt">📊 Luis Ángel Firpo markets: Away or both teams score 83% · Away leads at some point or draw 80% · Away or draw (double chance) 76% · Away to win 51%</span></div><div class="fx-foot"><span class="dim">🤝 H2H: 8 meetings · Luis Ángel Firpo 5W-2D-1L vs CD Municipal Limeño · 2026-08-09 2-0 (home) · 2026-03-15 1-2 (away) · 2026-01-18 2-0 (home)</span></div><div class="fx-foot"><span class="dim">📈 Luis Ángel Firpo: D 2-2 vs Alianza FC (2026-10-04) · W 3-0 vs Fuerte San Francisco (2026-10-01) · W 2-0 vs Águila (2026-09-27) · D 0-0 vs Cacahuatique (2026-09-24) — CD Municipal Limeño: L 1-2 vs C.D. Platense (2026-10-04) · L 1-2 vs Inca Aruba (2026-10-02) · L 1-3 vs CD FAS (2026-09-27) · L 2-3 vs Alianza FC (2026-09-20)</span></div>
 </div>
 <div class="fx">
 <div class="fx-hd"><span class="flg">Scottish Premiership</span>
@@ -844,7 +849,7 @@ record.</p>
 <div class="pcell"><span class="pos">#8</span><span class="tname">Motherwell</span><span class="b bu">Unranked</span><span class="tscore">36.8</span></div>
 </div></div>
 <div class="fx-foot"><span class="dim">🔎 analysed · 51% modelled win — below the 70% floor</span></div>
-<div class="fx-foot"><span class="dim">📊 Celtic markets: Away or both teams score 83% · Away leads at some point or draw 80% · Away or draw (double chance) 76% · Away to win 51%</span></div><div class="fx-foot"><span class="dim">🤝 H2H: 7 meetings · Celtic 6W-0D-1L vs Motherwell · 2026-05-13 3-2 (away) · 2026-03-14 3-1 (home) · 2025-12-30 0-2 (away)</span></div><div class="fx-foot"><span class="dim">📈 Celtic: L 0-1 vs Rangers (2026-09-20) · W 1-0 vs St Johnstone (2026-09-09) · W 2-1 vs St Mirren (2026-09-05) · W 3-0 vs Aberdeen (2026-09-02) — Motherwell: L 1-2 vs Dundee (2026-09-19) · L 0-4 vs Aberdeen (2026-09-15) · L 0-1 vs Rangers (2026-09-05) · W 3-0 vs Dundee United (2026-09-02)</span></div>
+<div class="fx-foot"><span class="mkt">📊 Celtic markets: Away or both teams score 83% · Away leads at some point or draw 80% · Away or draw (double chance) 76% · Away to win 51%</span></div><div class="fx-foot"><span class="dim">🤝 H2H: 7 meetings · Celtic 6W-0D-1L vs Motherwell · 2026-05-13 3-2 (away) · 2026-03-14 3-1 (home) · 2025-12-30 0-2 (away)</span></div><div class="fx-foot"><span class="dim">📈 Celtic: L 0-1 vs Rangers (2026-09-20) · W 1-0 vs St Johnstone (2026-09-09) · W 2-1 vs St Mirren (2026-09-05) · W 3-0 vs Aberdeen (2026-09-02) — Motherwell: L 1-2 vs Dundee (2026-09-19) · L 0-4 vs Aberdeen (2026-09-15) · L 0-1 vs Rangers (2026-09-05) · W 3-0 vs Dundee United (2026-09-02)</span></div>
 </div>
 <div class="fx">
 <div class="fx-hd"><span class="flg">Serie B</span>
@@ -855,7 +860,7 @@ record.</p>
 <div class="pcell"><span class="pos">#19</span><span class="tname">Catanzaro</span><span class="b bu">Unranked</span><span class="tscore">22.4</span></div>
 </div></div>
 <div class="fx-foot"><span class="dim">🔎 analysed · 51% modelled win — below the 70% floor</span></div>
-<div class="fx-foot"><span class="dim">📊 Mantova markets: Away or both teams score 86% · Away leads at some point or draw 81% · Away or draw (double chance) 76% · Away to win 53%</span></div><div class="fx-foot"><span class="dim">🤝 H2H: 4 meetings · Mantova 0W-2D-2L vs Catanzaro · 2026-02-14 0-2 (away) · 2025-10-29 1-3 (home) · 2025-05-13 0-0 (home)</span></div><div class="fx-foot"><span class="dim">📈 Mantova: D 2-2 vs Pisa (2026-09-20) · W 2-0 vs Sampdoria (2026-09-13) · W 3-1 vs Empoli (2026-09-06) · D 1-1 vs Cesena (2026-09-06) — Catanzaro: L 1-2 vs Sampdoria (2026-09-19) · L 2-3 vs Vicenza (2026-09-15) · L 0-2 vs Südtirol (2026-09-13) · W 1-0 vs Carrarese (2026-09-12)</span></div>
+<div class="fx-foot"><span class="mkt">📊 Mantova markets: Away or both teams score 86% · Away leads at some point or draw 81% · Away or draw (double chance) 76% · Away to win 53%</span></div><div class="fx-foot"><span class="dim">🤝 H2H: 4 meetings · Mantova 0W-2D-2L vs Catanzaro · 2026-02-14 0-2 (away) · 2025-10-29 1-3 (home) · 2025-05-13 0-0 (home)</span></div><div class="fx-foot"><span class="dim">📈 Mantova: D 2-2 vs Pisa (2026-09-20) · W 2-0 vs Sampdoria (2026-09-13) · W 3-1 vs Empoli (2026-09-06) · D 1-1 vs Cesena (2026-09-06) — Catanzaro: L 1-2 vs Sampdoria (2026-09-19) · L 2-3 vs Vicenza (2026-09-15) · L 0-2 vs Südtirol (2026-09-13) · W 1-0 vs Carrarese (2026-09-12)</span></div>
 </div>
 <div class="fx">
 <div class="fx-hd"><span class="flg">Ligue 1</span>
@@ -866,7 +871,7 @@ record.</p>
 <div class="pcell"><span class="pos">#15</span><span class="tname">Lens</span><span class="b bu">Unranked</span><span class="tscore">20.1</span></div>
 </div></div>
 <div class="fx-foot"><span class="dim">🔎 analysed · 50% modelled win — below the 70% floor</span></div>
-<div class="fx-foot"><span class="dim">📊 Lyon markets: Away or both teams score 85% · Away leads at some point or draw 81% · Away or draw (double chance) 76% · Away to win 52%</span></div><div class="fx-foot"><span class="dim">🤝 H2H: 5 meetings · Lyon 1W-1D-3L vs Lens · 2026-05-17 0-4 (home) · 2025-08-16 1-0 (away) · 2025-05-04 1-2 (home)</span></div><div class="fx-foot"><span class="dim">📈 Lyon: W 4-0 vs Stade Rennais (2026-09-19) · W 2-0 vs Toulouse (2026-09-16) · D 0-0 vs Paris FC (2026-09-12) · D 0-0 vs Paris FC (2026-09-06) — Lens: L 1-2 vs AS Monaco (2026-09-18) · D 2-2 vs Le Mans (2026-09-13) · L 1-2 vs Strasbourg (2026-09-12) · L 0-1 vs Lorient (2026-09-05)</span></div>
+<div class="fx-foot"><span class="mkt">📊 Lyon markets: Away or both teams score 85% · Away leads at some point or draw 81% · Away or draw (double chance) 76% · Away to win 52%</span></div><div class="fx-foot"><span class="dim">🤝 H2H: 5 meetings · Lyon 1W-1D-3L vs Lens · 2026-05-17 0-4 (home) · 2025-08-16 1-0 (away) · 2025-05-04 1-2 (home)</span></div><div class="fx-foot"><span class="dim">📈 Lyon: W 4-0 vs Stade Rennais (2026-09-19) · W 2-0 vs Toulouse (2026-09-16) · D 0-0 vs Paris FC (2026-09-12) · D 0-0 vs Paris FC (2026-09-06) — Lens: L 1-2 vs AS Monaco (2026-09-18) · D 2-2 vs Le Mans (2026-09-13) · L 1-2 vs Strasbourg (2026-09-12) · L 0-1 vs Lorient (2026-09-05)</span></div>
 </div>
 <div class="fx">
 <div class="fx-hd"><span class="flg">Chilean Primera División</span>
@@ -877,7 +882,7 @@ record.</p>
 <div class="pcell"><span class="pos">#12</span><span class="tname">Audax Italiano</span><span class="b bu">Unranked</span><span class="tscore">42.1</span></div>
 </div></div>
 <div class="fx-foot"><span class="dim">🔎 analysed · 50% modelled win — below the 70% floor</span></div>
-<div class="fx-foot"><span class="dim">📊 Universidad Católica markets: Home or both teams score 85% · Home leads at some point or draw 79% · Home or draw (double chance) 74% · Home to win 50%</span></div><div class="fx-foot"><span class="dim">🤝 H2H: 5 meetings · Universidad Católica 2W-2D-1L vs Audax Italiano · 2026-04-11 4-3 (away) · 2025-07-20 1-1 (away) · 2025-02-17 3-1 (home)</span></div><div class="fx-foot"><span class="dim">📈 Universidad Católica: W 2-1 vs Orense (2026-09-17) · W 5-0 vs Técnico Universitario (2026-09-17) · W 5-1 vs Manta (2026-09-16) · L 2-3 vs Mushuc Runa (2026-09-16) — Audax Italiano: W 1-0 vs O'Higgins (2026-09-13) · W 1-0 vs Deportes Concepcion (2026-09-05) · L 1-5 vs Colo Colo (2026-08-30) · D 0-0 vs Unión La Calera (2026-08-22)</span></div>
+<div class="fx-foot"><span class="mkt">📊 Universidad Católica markets: Home or both teams score 85% · Home leads at some point or draw 79% · Home or draw (double chance) 74% · Home to win 50%</span></div><div class="fx-foot"><span class="dim">🤝 H2H: 5 meetings · Universidad Católica 2W-2D-1L vs Audax Italiano · 2026-04-11 4-3 (away) · 2025-07-20 1-1 (away) · 2025-02-17 3-1 (home)</span></div><div class="fx-foot"><span class="dim">📈 Universidad Católica: W 2-1 vs Orense (2026-09-17) · W 5-0 vs Técnico Universitario (2026-09-17) · W 5-1 vs Manta (2026-09-16) · L 2-3 vs Mushuc Runa (2026-09-16) — Audax Italiano: W 1-0 vs O'Higgins (2026-09-13) · W 1-0 vs Deportes Concepcion (2026-09-05) · L 1-5 vs Colo Colo (2026-08-30) · D 0-0 vs Unión La Calera (2026-08-22)</span></div>
 </div>
 <div class="fx">
 <div class="fx-hd"><span class="flg">Chilean Primera División</span>
@@ -888,7 +893,7 @@ record.</p>
 <div class="pcell"><span class="pos">#11</span><span class="tname">Coquimbo Unido</span><span class="b bu">Unranked</span><span class="tscore">35.5</span></div>
 </div></div>
 <div class="fx-foot"><span class="dim">🔎 analysed · 50% modelled win — below the 70% floor</span></div>
-<div class="fx-foot"><span class="dim">📊 Colo Colo markets: Away or both teams score 86% · Away leads at some point or draw 79% · Away or draw (double chance) 73% · Away to win 50%</span></div><div class="fx-foot"><span class="dim">🤝 H2H: 5 meetings · Colo Colo 3W-1D-1L vs Coquimbo Unido · 2026-05-03 3-1 (home) · 2025-10-19 0-1 (away) · 2025-04-26 2-0 (home)</span></div><div class="fx-foot"><span class="dim">📈 Colo Colo: D 1-1 vs Deportes Concepcion (2026-09-13) · D 0-0 vs Huachipato (2026-09-06) · W 5-1 vs Audax Italiano (2026-08-30) · W 2-1 vs Universidad de Chile (2026-08-23) — Coquimbo Unido: L 0-1 vs Huachipato (2026-09-16) · L 2-3 vs Cobresal (2026-09-12) · L 2-4 vs Universidad de Chile (2026-09-06) · W 1-0 vs Universidad de Concepción (2026-09-02)</span></div>
+<div class="fx-foot"><span class="mkt">📊 Colo Colo markets: Away or both teams score 86% · Away leads at some point or draw 79% · Away or draw (double chance) 73% · Away to win 50%</span></div><div class="fx-foot"><span class="dim">🤝 H2H: 5 meetings · Colo Colo 3W-1D-1L vs Coquimbo Unido · 2026-05-03 3-1 (home) · 2025-10-19 0-1 (away) · 2025-04-26 2-0 (home)</span></div><div class="fx-foot"><span class="dim">📈 Colo Colo: D 1-1 vs Deportes Concepcion (2026-09-13) · D 0-0 vs Huachipato (2026-09-06) · W 5-1 vs Audax Italiano (2026-08-30) · W 2-1 vs Universidad de Chile (2026-08-23) — Coquimbo Unido: L 0-1 vs Huachipato (2026-09-16) · L 2-3 vs Cobresal (2026-09-12) · L 2-4 vs Universidad de Chile (2026-09-06) · W 1-0 vs Universidad de Concepción (2026-09-02)</span></div>
 </div>
 <div class="fx">
 <div class="fx-hd"><span class="flg">Campeonato Brasileiro Série B</span>
@@ -899,7 +904,7 @@ record.</p>
 <div class="pcell"><span class="pos">#13</span><span class="tname">Náutico</span><span class="b bu">Unranked</span><span class="tscore">40.9</span></div>
 </div></div>
 <div class="fx-foot"><span class="dim">🔎 analysed · 50% modelled win — below the 71% floor</span></div>
-<div class="fx-foot"><span class="dim">📊 Novorizontino markets: Away or both teams score 85% · Away leads at some point or draw 81% · Away or draw (double chance) 76% · Away to win 52%</span></div><div class="fx-foot"><span class="dim">🤝 H2H: 2 meetings · Novorizontino 0W-2D-0L vs Náutico · 2026-08-13 2-2 (home) · 2026-06-14 2-2 (home)</span></div><div class="fx-foot"><span class="dim">📈 Novorizontino: W 3-0 vs Goiás (2026-10-02) · D 0-0 vs São Bernardo (2026-09-25) · L 1-2 vs Ceará (2026-09-18) · D 1-1 vs Cuiabá (2026-09-13) — Náutico: D 1-1 vs Fortaleza (2026-10-03) · W 3-1 vs Sport (2026-09-26) · L 0-3 vs Cuiabá (2026-09-22) · D 3-3 vs Operário PR (2026-09-15)</span></div>
+<div class="fx-foot"><span class="mkt">📊 Novorizontino markets: Away or both teams score 85% · Away leads at some point or draw 81% · Away or draw (double chance) 76% · Away to win 52%</span></div><div class="fx-foot"><span class="dim">🤝 H2H: 2 meetings · Novorizontino 0W-2D-0L vs Náutico · 2026-08-13 2-2 (home) · 2026-06-14 2-2 (home)</span></div><div class="fx-foot"><span class="dim">📈 Novorizontino: W 3-0 vs Goiás (2026-10-02) · D 0-0 vs São Bernardo (2026-09-25) · L 1-2 vs Ceará (2026-09-18) · D 1-1 vs Cuiabá (2026-09-13) — Náutico: D 1-1 vs Fortaleza (2026-10-03) · W 3-1 vs Sport (2026-09-26) · L 0-3 vs Cuiabá (2026-09-22) · D 3-3 vs Operário PR (2026-09-15)</span></div>
 </div>
 <div class="fx">
 <div class="fx-hd"><span class="flg">Serie B</span>
@@ -910,7 +915,7 @@ record.</p>
 <div class="pcell"><span class="pos">#12</span><span class="tname">Empoli</span><span class="b bu">Unranked</span><span class="tscore">41.9</span></div>
 </div></div>
 <div class="fx-foot"><span class="dim">🔎 analysed · 49% modelled win — below the 70% floor</span></div>
-<div class="fx-foot"><span class="dim">📊 Palermo markets: Away or both teams score 80% · Away leads at some point or draw 79% · Away or draw (double chance) 75% · Away to win 49%</span></div><div class="fx-foot"><span class="dim">🤝 H2H: 2 meetings · Palermo 2W-0D-0L vs Empoli · 2026-02-07 3-2 (home) · 2025-12-07 3-1 (away)</span></div><div class="fx-foot"><span class="dim">📈 Palermo: W 2-1 vs Padova (2026-09-19) · D 1-1 vs US Avellino (2026-09-13) · W 1-0 vs Juve Stabia (2026-09-09) · W 3-1 vs Sampdoria (2026-09-09) — Empoli: L 1-2 vs Modena (2026-09-20) · L 0-1 vs Arezzo (2026-09-11) · L 1-3 vs Mantova (2026-09-06) · W 1-0 vs Carrarese (2026-09-05)</span></div>
+<div class="fx-foot"><span class="mkt">📊 Palermo markets: Away or both teams score 80% · Away leads at some point or draw 79% · Away or draw (double chance) 75% · Away to win 49%</span></div><div class="fx-foot"><span class="dim">🤝 H2H: 2 meetings · Palermo 2W-0D-0L vs Empoli · 2026-02-07 3-2 (home) · 2025-12-07 3-1 (away)</span></div><div class="fx-foot"><span class="dim">📈 Palermo: W 2-1 vs Padova (2026-09-19) · D 1-1 vs US Avellino (2026-09-13) · W 1-0 vs Juve Stabia (2026-09-09) · W 3-1 vs Sampdoria (2026-09-09) — Empoli: L 1-2 vs Modena (2026-09-20) · L 0-1 vs Arezzo (2026-09-11) · L 1-3 vs Mantova (2026-09-06) · W 1-0 vs Carrarese (2026-09-05)</span></div>
 </div>
 <div class="fx">
 <div class="fx-hd"><span class="flg">NIFL Premiership</span>
@@ -921,7 +926,7 @@ record.</p>
 <div class="pcell"><span class="pos">#7</span><span class="tname">Cliftonville FC</span><span class="b bu">Unranked</span><span class="tscore">46.5</span></div>
 </div></div>
 <div class="fx-foot"><span class="dim">🔎 analysed · 48% modelled win — below the 70% floor</span></div>
-<div class="fx-foot"><span class="dim">📊 Coleraine FC markets: Home or both teams score 89% · Home leads at some point or draw 78% · Home or draw (double chance) 70% · Home to win 48%</span></div><div class="fx-foot"><span class="dim">📈 Coleraine FC: L 1-3 vs Linfield (2026-09-25) · W 1-0 vs Limavady United (2026-09-19) · W 2-1 vs Glentoran (2026-09-15) — Cliftonville FC: L 1-2 vs Glentoran (2026-09-19) · L 0-2 vs Larne FC (2026-09-15) · W 3-1 vs Carrick Rangers (2026-09-12)</span></div>
+<div class="fx-foot"><span class="mkt">📊 Coleraine FC markets: Home or both teams score 89% · Home leads at some point or draw 78% · Home or draw (double chance) 70% · Home to win 48%</span></div><div class="fx-foot"><span class="dim">📈 Coleraine FC: L 1-3 vs Linfield (2026-09-25) · W 1-0 vs Limavady United (2026-09-19) · W 2-1 vs Glentoran (2026-09-15) — Cliftonville FC: L 1-2 vs Glentoran (2026-09-19) · L 0-2 vs Larne FC (2026-09-15) · W 3-1 vs Carrick Rangers (2026-09-12)</span></div>
 </div>
 <div class="fx">
 <div class="fx-hd"><span class="flg">NIFL Championship</span>
@@ -932,7 +937,7 @@ record.</p>
 <div class="pcell"><span class="pos">#11</span><span class="tname">Ards FC</span><span class="b bu">Unranked</span><span class="tscore">38.1</span></div>
 </div></div>
 <div class="fx-foot"><span class="dim">🔎 analysed · 48% modelled win — below the 70% floor</span></div>
-<div class="fx-foot"><span class="dim">📊 Newington FC markets: Home or both teams score 89% · Home leads at some point or draw 77% · Home or draw (double chance) 69% · Home to win 48%</span></div><div class="fx-foot"><span class="dim">📈 Newington FC: L 0-1 vs Glenavon (2026-09-19) · D 5-5 vs Dundela (2026-09-12) · W 1-0 vs Warrenpoint Town (2026-09-05) — Ards FC: D 0-0 vs Moyola Park AFC (2026-09-19) · W 1-0 vs Rathfriland Rangers (2026-09-12) · L 1-2 vs Annagh United (2026-09-04) · L 0-3 vs Queens University (2026-08-28)</span></div>
+<div class="fx-foot"><span class="mkt">📊 Newington FC markets: Home or both teams score 89% · Home leads at some point or draw 77% · Home or draw (double chance) 69% · Home to win 48%</span></div><div class="fx-foot"><span class="dim">📈 Newington FC: L 0-1 vs Glenavon (2026-09-19) · D 5-5 vs Dundela (2026-09-12) · W 1-0 vs Warrenpoint Town (2026-09-05) — Ards FC: D 0-0 vs Moyola Park AFC (2026-09-19) · W 1-0 vs Rathfriland Rangers (2026-09-12) · L 1-2 vs Annagh United (2026-09-04) · L 0-3 vs Queens University (2026-08-28)</span></div>
 </div>
 <div class="fx">
 <div class="fx-hd"><span class="flg">1. deild</span>
@@ -943,7 +948,7 @@ record.</p>
 <div class="pcell"><span class="pos">#8</span><span class="tname">FC Hoyvi­k</span><span class="b bu">Unranked</span><span class="tscore">35.4</span></div>
 </div></div>
 <div class="fx-foot"><span class="dim">🔎 analysed · 50% modelled win — below the 72% floor</span></div>
-<div class="fx-foot"><span class="dim">📊 Víkingur Gøta II markets: Away or both teams score 93% · Away leads at some point or draw 78% · Away or draw (double chance) 69% · Away to win 50%</span></div><div class="fx-foot"><span class="dim">📈 Víkingur Gøta II: W 4-3 vs FC Suduroy (2026-09-19) · L 0-4 vs EB/Streymur II (2026-09-12) · W 3-2 vs Tvøroyrar Bóltfelag (2026-09-09) — FC Hoyvi­k: D 0-0 vs Tvøroyrar Bóltfelag (2026-09-19) · L 2-4 vs B36 Tórshavn II (2026-09-12) · W 2-1 vs ÍF Fuglafjørdur (2026-09-04)</span></div>
+<div class="fx-foot"><span class="mkt">📊 Víkingur Gøta II markets: Away or both teams score 93% · Away leads at some point or draw 78% · Away or draw (double chance) 69% · Away to win 50%</span></div><div class="fx-foot"><span class="dim">📈 Víkingur Gøta II: W 4-3 vs FC Suduroy (2026-09-19) · L 0-4 vs EB/Streymur II (2026-09-12) · W 3-2 vs Tvøroyrar Bóltfelag (2026-09-09) — FC Hoyvi­k: D 0-0 vs Tvøroyrar Bóltfelag (2026-09-19) · L 2-4 vs B36 Tórshavn II (2026-09-12) · W 2-1 vs ÍF Fuglafjørdur (2026-09-04)</span></div>
 </div>
 <div class="fx">
 <div class="fx-hd"><span class="flg">Major League Soccer</span>
@@ -954,7 +959,7 @@ record.</p>
 <div class="pcell"><span class="pos">#23</span><span class="tname">Austin FC</span><span class="b bu">Unranked</span><span class="tscore">37.9</span></div>
 </div></div>
 <div class="fx-foot"><span class="dim">🔎 analysed · 48% modelled win — below the 70% floor</span></div>
-<div class="fx-foot"><span class="dim">📊 Nashville SC markets: Away or both teams score 82% · Away leads at some point or draw 78% · Away or draw (double chance) 73% · Away to win 48%</span></div><div class="fx-foot"><span class="dim">🤝 H2H: 1 meeting · Nashville SC 0W-0D-1L vs Austin FC · 2024-08-25 0-2 (home)</span></div><div class="fx-foot"><span class="dim">📈 Nashville SC: W 2-0 vs Toronto FC (2026-09-27) · W 3-0 vs Chicago Fire FC (2026-09-20) · D 2-2 vs Inter Miami CF (2026-09-12) · L 1-2 vs Toronto FC (2026-09-09) — Austin FC: D 3-3 vs San Diego FC (2026-09-27) · D 0-0 vs FC Dallas (2026-09-20) · W 2-1 vs Vancouver Whitecaps (2026-09-13) · D 1-1 vs Colorado Rapids (2026-09-10)</span></div>
+<div class="fx-foot"><span class="mkt">📊 Nashville SC markets: Away or both teams score 82% · Away leads at some point or draw 78% · Away or draw (double chance) 73% · Away to win 48%</span></div><div class="fx-foot"><span class="dim">🤝 H2H: 1 meeting · Nashville SC 0W-0D-1L vs Austin FC · 2024-08-25 0-2 (home)</span></div><div class="fx-foot"><span class="dim">📈 Nashville SC: W 2-0 vs Toronto FC (2026-09-27) · W 3-0 vs Chicago Fire FC (2026-09-20) · D 2-2 vs Inter Miami CF (2026-09-12) · L 1-2 vs Toronto FC (2026-09-09) — Austin FC: D 3-3 vs San Diego FC (2026-09-27) · D 0-0 vs FC Dallas (2026-09-20) · W 2-1 vs Vancouver Whitecaps (2026-09-13) · D 1-1 vs Colorado Rapids (2026-09-10)</span></div>
 </div>
 <div class="fx">
 <div class="fx-hd"><span class="flg">Ligue 1</span>
@@ -965,7 +970,7 @@ record.</p>
 <div class="pcell"><span class="pos">#12</span><span class="tname">Lorient</span><span class="b bu">Unranked</span><span class="tscore">36.3</span></div>
 </div></div>
 <div class="fx-foot"><span class="dim">🔎 analysed · 47% modelled win — below the 70% floor</span></div>
-<div class="fx-foot"><span class="dim">📊 Paris FC markets: Away leads at some point or draw 79% · Away or draw (double chance) 76% · Away or both teams score 76% · Away to win 47%</span></div><div class="fx-foot"><span class="dim">🤝 H2H: 4 meetings · Paris FC 2W-1D-1L vs Lorient · 2026-04-05 1-1 (away) · 2025-10-03 2-0 (home) · 2025-03-08 3-2 (home)</span></div><div class="fx-foot"><span class="dim">📈 Paris FC: W 2-1 vs Strasbourg (2026-09-19) · D 0-0 vs Troyes (2026-09-17) · D 0-0 vs Lyon (2026-09-12) — Lorient: L 1-2 vs Le Mans (2026-09-19) · D 2-2 vs Toulouse (2026-09-12) · D 0-0 vs Nice (2026-09-05) · W 1-0 vs Lens (2026-09-05)</span></div>
+<div class="fx-foot"><span class="mkt">📊 Paris FC markets: Away leads at some point or draw 79% · Away or draw (double chance) 76% · Away or both teams score 76% · Away to win 47%</span></div><div class="fx-foot"><span class="dim">🤝 H2H: 4 meetings · Paris FC 2W-1D-1L vs Lorient · 2026-04-05 1-1 (away) · 2025-10-03 2-0 (home) · 2025-03-08 3-2 (home)</span></div><div class="fx-foot"><span class="dim">📈 Paris FC: W 2-1 vs Strasbourg (2026-09-19) · D 0-0 vs Troyes (2026-09-17) · D 0-0 vs Lyon (2026-09-12) — Lorient: L 1-2 vs Le Mans (2026-09-19) · D 2-2 vs Toulouse (2026-09-12) · D 0-0 vs Nice (2026-09-05) · W 1-0 vs Lens (2026-09-05)</span></div>
 </div>
 <div class="fx">
 <div class="fx-hd"><span class="flg">Campeonato Brasileiro Série B</span>
@@ -976,7 +981,7 @@ record.</p>
 <div class="pcell"><span class="pos">#13</span><span class="tname">Náutico</span><span class="b bu">Unranked</span><span class="tscore">40.9</span></div>
 </div></div>
 <div class="fx-foot"><span class="dim">🔎 analysed · 48% modelled win — below the 71% floor</span></div>
-<div class="fx-foot"><span class="dim">📊 Vila Nova markets: Away or both teams score 82% · Away leads at some point or draw 78% · Away or draw (double chance) 73% · Away to win 48%</span></div><div class="fx-foot"><span class="dim">🤝 H2H: 2 meetings · Vila Nova 2W-0D-0L vs Náutico · 2026-09-13 4-3 (home) · 2026-06-20 4-3 (home)</span></div><div class="fx-foot"><span class="dim">📈 Vila Nova: W 1-0 vs Botafogo-SP (2026-10-03) · W 2-0 vs Londrina (2026-09-25) · W 1-0 vs América Mineiro (2026-09-18) · L 0-1 vs Sport (2026-09-16) — Náutico: D 1-1 vs Fortaleza (2026-10-03) · W 3-1 vs Sport (2026-09-26) · L 0-3 vs Cuiabá (2026-09-22) · D 3-3 vs Operário PR (2026-09-15)</span></div>
+<div class="fx-foot"><span class="mkt">📊 Vila Nova markets: Away or both teams score 82% · Away leads at some point or draw 78% · Away or draw (double chance) 73% · Away to win 48%</span></div><div class="fx-foot"><span class="dim">🤝 H2H: 2 meetings · Vila Nova 2W-0D-0L vs Náutico · 2026-09-13 4-3 (home) · 2026-06-20 4-3 (home)</span></div><div class="fx-foot"><span class="dim">📈 Vila Nova: W 1-0 vs Botafogo-SP (2026-10-03) · W 2-0 vs Londrina (2026-09-25) · W 1-0 vs América Mineiro (2026-09-18) · L 0-1 vs Sport (2026-09-16) — Náutico: D 1-1 vs Fortaleza (2026-10-03) · W 3-1 vs Sport (2026-09-26) · L 0-3 vs Cuiabá (2026-09-22) · D 3-3 vs Operário PR (2026-09-15)</span></div>
 </div>
 <div class="fx">
 <div class="fx-hd"><span class="flg">Betri deildin</span>
@@ -987,7 +992,7 @@ record.</p>
 <div class="pcell"><span class="pos">#8</span><span class="tname">Skála ÍF</span><span class="b bu">Unranked</span><span class="tscore">34.1</span></div>
 </div></div>
 <div class="fx-foot"><span class="dim">🔎 analysed · 46% modelled win — below the 70% floor</span></div>
-<div class="fx-foot"><span class="dim">📊 NSÍ Runavík markets: Away or both teams score 87% · Away leads at some point or draw 76% · Away or draw (double chance) 68% · Away to win 46%</span></div><div class="fx-foot"><span class="dim">🤝 H2H: 1 meeting · NSÍ Runavík 1W-0D-0L vs Skála ÍF · 2026-08-10 4-0 (home)</span></div><div class="fx-foot"><span class="dim">📈 NSÍ Runavík: W 2-1 vs B36 Tórshavn (2026-09-18) · D 1-1 vs Víkingur Gøta (2026-09-13) — Skála ÍF: D 2-2 vs Klaksvíkar Ítróttarfelag (2026-09-18) · D 2-2 vs HB Tórshavn (2026-09-13)</span></div>
+<div class="fx-foot"><span class="mkt">📊 NSÍ Runavík markets: Away or both teams score 87% · Away leads at some point or draw 76% · Away or draw (double chance) 68% · Away to win 46%</span></div><div class="fx-foot"><span class="dim">🤝 H2H: 1 meeting · NSÍ Runavík 1W-0D-0L vs Skála ÍF · 2026-08-10 4-0 (home)</span></div><div class="fx-foot"><span class="dim">📈 NSÍ Runavík: W 2-1 vs B36 Tórshavn (2026-09-18) · D 1-1 vs Víkingur Gøta (2026-09-13) — Skála ÍF: D 2-2 vs Klaksvíkar Ítróttarfelag (2026-09-18) · D 2-2 vs HB Tórshavn (2026-09-13)</span></div>
 </div>
 <div class="fx">
 <div class="fx-hd"><span class="flg">Liga Nacional de Honduras</span>
@@ -998,7 +1003,7 @@ record.</p>
 <div class="pcell"><span class="pos">#9</span><span class="tname">UPNFM</span><span class="b bu">Unranked</span><span class="tscore">36.4</span></div>
 </div></div>
 <div class="fx-foot"><span class="dim">🔎 analysed · 45% modelled win — below the 70% floor</span></div>
-<div class="fx-foot"><span class="dim">📊 Club Deportivo Marathón markets: Away or both teams score 79% · Away leads at some point or draw 77% · Away or draw (double chance) 72% · Away to win 46%</span></div><div class="fx-foot"><span class="dim">🤝 H2H: 8 meetings · Club Deportivo Marathón 2W-4D-2L vs UPNFM · 2026-03-14 2-0 (home) · 2026-01-25 1-1 (away) · 2025-12-04 2-0 (home)</span></div><div class="fx-foot"><span class="dim">📈 Club Deportivo Marathón: L 2-3 vs Juticalpa FC (2026-09-21) · W 1-0 vs Club Deportivo Olimpia (2026-09-13) · W 5-0 vs CD Estrella Roja (2026-09-06) · W 2-1 vs Génesis PN (2026-08-29) — UPNFM: W 2-0 vs Platense (2026-09-18) · W 1-0 vs CD Choloma (2026-09-13) · L 0-2 vs Real España (2026-09-06) · L 0-1 vs Juticalpa FC (2026-08-29)</span></div>
+<div class="fx-foot"><span class="mkt">📊 Club Deportivo Marathón markets: Away or both teams score 79% · Away leads at some point or draw 77% · Away or draw (double chance) 72% · Away to win 46%</span></div><div class="fx-foot"><span class="dim">🤝 H2H: 8 meetings · Club Deportivo Marathón 2W-4D-2L vs UPNFM · 2026-03-14 2-0 (home) · 2026-01-25 1-1 (away) · 2025-12-04 2-0 (home)</span></div><div class="fx-foot"><span class="dim">📈 Club Deportivo Marathón: L 2-3 vs Juticalpa FC (2026-09-21) · W 1-0 vs Club Deportivo Olimpia (2026-09-13) · W 5-0 vs CD Estrella Roja (2026-09-06) · W 2-1 vs Génesis PN (2026-08-29) — UPNFM: W 2-0 vs Platense (2026-09-18) · W 1-0 vs CD Choloma (2026-09-13) · L 0-2 vs Real España (2026-09-06) · L 0-1 vs Juticalpa FC (2026-08-29)</span></div>
 </div>
 <div class="fx">
 <div class="fx-hd"><span class="flg">Erovnuli Liga 2</span>
@@ -1009,7 +1014,7 @@ record.</p>
 <div class="pcell"><span class="pos">#9</span><span class="tname">FC Kolkheti-1913 Poti</span><span class="b bu">Unranked</span><span class="tscore">36.6</span></div>
 </div></div>
 <div class="fx-foot"><span class="dim">🔎 analysed · 44% modelled win — below the 70% floor</span></div>
-<div class="fx-foot"><span class="dim">📊 SFC Shturmi markets: Home or both teams score 80% · Home leads at some point or draw 75% · Home or draw (double chance) 69% · Home to win 44%</span></div><div class="fx-foot"><span class="dim">📈 SFC Shturmi: W 1-0 vs Gareji (2026-09-20) · D 1-1 vs FC Telavi (2026-09-16) · W 2-0 vs FC Odishi 1919 (2026-09-12) — FC Kolkheti-1913 Poti: D 1-1 vs FC Gori (2026-09-20) · W 1-0 vs FC Samtredia (2026-09-16) · D 1-1 vs Sioni Bolnisi (2026-09-12)</span></div>
+<div class="fx-foot"><span class="mkt">📊 SFC Shturmi markets: Home or both teams score 80% · Home leads at some point or draw 75% · Home or draw (double chance) 69% · Home to win 44%</span></div><div class="fx-foot"><span class="dim">📈 SFC Shturmi: W 1-0 vs Gareji (2026-09-20) · D 1-1 vs FC Telavi (2026-09-16) · W 2-0 vs FC Odishi 1919 (2026-09-12) — FC Kolkheti-1913 Poti: D 1-1 vs FC Gori (2026-09-20) · W 1-0 vs FC Samtredia (2026-09-16) · D 1-1 vs Sioni Bolnisi (2026-09-12)</span></div>
 </div>
 <div class="fx">
 <div class="fx-hd"><span class="flg">Danish Superliga</span>
@@ -1020,7 +1025,7 @@ record.</p>
 <div class="pcell"><span class="pos">#8</span><span class="tname">Randers FC</span><span class="b bu">Unranked</span><span class="tscore">39.8</span></div>
 </div></div>
 <div class="fx-foot"><span class="dim">🔎 analysed · 44% modelled win — below the 70% floor</span></div>
-<div class="fx-foot"><span class="dim">📊 Viborg FF markets: Away or both teams score 85% · Away leads at some point or draw 76% · Away or draw (double chance) 69% · Away to win 46%</span></div><div class="fx-foot"><span class="dim">🤝 H2H: 7 meetings · Viborg FF 2W-1D-4L vs Randers FC · 2025-11-02 3-2 (home) · 2025-10-05 1-2 (away) · 2024-12-01 1-2 (home)</span></div><div class="fx-foot"><span class="dim">📈 Viborg FF: W 4-1 vs FC Nordsjælland (2026-09-20) · D 1-1 vs Silkeborg IF (2026-09-13) · L 0-2 vs Lyngby Boldklub (2026-09-04) · W 3-2 vs AC Horsens (2026-08-28) — Randers FC: L 2-4 vs Sønderjyske Fodbold (2026-09-20) · L 1-2 vs Odense Boldklub (2026-09-13) · W 3-0 vs Brøndby IF (2026-09-06) · W 2-1 vs AGF (2026-08-30)</span></div>
+<div class="fx-foot"><span class="mkt">📊 Viborg FF markets: Away or both teams score 85% · Away leads at some point or draw 76% · Away or draw (double chance) 69% · Away to win 46%</span></div><div class="fx-foot"><span class="dim">🤝 H2H: 7 meetings · Viborg FF 2W-1D-4L vs Randers FC · 2025-11-02 3-2 (home) · 2025-10-05 1-2 (away) · 2024-12-01 1-2 (home)</span></div><div class="fx-foot"><span class="dim">📈 Viborg FF: W 4-1 vs FC Nordsjælland (2026-09-20) · D 1-1 vs Silkeborg IF (2026-09-13) · L 0-2 vs Lyngby Boldklub (2026-09-04) · W 3-2 vs AC Horsens (2026-08-28) — Randers FC: L 2-4 vs Sønderjyske Fodbold (2026-09-20) · L 1-2 vs Odense Boldklub (2026-09-13) · W 3-0 vs Brøndby IF (2026-09-06) · W 2-1 vs AGF (2026-08-30)</span></div>
 </div>
 <div class="fx">
 <div class="fx-hd"><span class="flg">Liga MX</span>
@@ -1031,7 +1036,7 @@ record.</p>
 <div class="pcell"><span class="pos">#15</span><span class="tname">Tigres UANL</span><span class="b bu">Unranked</span><span class="tscore">34.0</span></div>
 </div></div>
 <div class="fx-foot"><span class="dim">🔎 analysed · 43% modelled win — below the 70% floor</span></div>
-<div class="fx-foot"><span class="dim">📊 Toluca markets: Away or both teams score 81% · Away leads at some point or draw 75% · Away or draw (double chance) 68% · Away to win 43%</span></div><div class="fx-foot"><span class="dim">🤝 H2H: 8 meetings · Toluca 3W-2D-3L vs Tigres UANL · 2026-01-18 0-0 (away) · 2025-12-12 0-1 (away) · 2025-07-27 3-4 (home)</span></div><div class="fx-foot"><span class="dim">📈 Toluca: D 3-3 vs Cruz Azul (2026-09-26) · L 2-3 vs Santos (2026-09-21) · W 1-0 vs Puebla (2026-09-16) · W 5-2 vs Atlas (2026-09-12) — Tigres UANL: W 1-0 vs Puebla (2026-09-27) · L 0-2 vs FC Juárez (2026-09-19) · D 0-0 vs Monterrey (2026-09-13) · D 1-1 vs Necaxa (2026-09-06)</span></div>
+<div class="fx-foot"><span class="mkt">📊 Toluca markets: Away or both teams score 81% · Away leads at some point or draw 75% · Away or draw (double chance) 68% · Away to win 43%</span></div><div class="fx-foot"><span class="dim">🤝 H2H: 8 meetings · Toluca 3W-2D-3L vs Tigres UANL · 2026-01-18 0-0 (away) · 2025-12-12 0-1 (away) · 2025-07-27 3-4 (home)</span></div><div class="fx-foot"><span class="dim">📈 Toluca: D 3-3 vs Cruz Azul (2026-09-26) · L 2-3 vs Santos (2026-09-21) · W 1-0 vs Puebla (2026-09-16) · W 5-2 vs Atlas (2026-09-12) — Tigres UANL: W 1-0 vs Puebla (2026-09-27) · L 0-2 vs FC Juárez (2026-09-19) · D 0-0 vs Monterrey (2026-09-13) · D 1-1 vs Necaxa (2026-09-06)</span></div>
 </div>
 <div class="fx">
 <div class="fx-hd"><span class="flg">Liga de Expansión MX</span>
@@ -1042,7 +1047,7 @@ record.</p>
 <div class="pcell"><span class="pos">#10</span><span class="tname">Tapatío</span><span class="b bu">Unranked</span><span class="tscore">41.2</span></div>
 </div></div>
 <div class="fx-foot"><span class="dim">🔎 analysed · 43% modelled win — below the 70% floor</span></div>
-<div class="fx-foot"><span class="dim">📊 Club Atlético La Paz markets: Away or both teams score 84% · Away leads at some point or draw 74% · Away or draw (double chance) 66% · Away to win 43%</span></div><div class="fx-foot"><span class="dim">🤝 H2H: 5 meetings · Club Atlético La Paz 2W-1D-2L vs Tapatío · 2026-01-10 2-2 (home) · 2025-08-03 0-2 (away) · 2025-03-01 4-1 (home)</span></div><div class="fx-foot"><span class="dim">📈 Club Atlético La Paz: L 1-2 vs Venados FC (2026-10-03) · W 3-1 vs Alebrijes de Oaxaca (2026-09-25) · W 3-1 vs Correcaminos UAT (2026-09-19) · D 2-2 vs Leones Negros (2026-09-13) — Tapatío: L 0-1 vs Cancún FC (2026-10-04) · W 4-0 vs Tlaxcala FC (2026-09-20) · L 1-3 vs Dorados de Sinaloa (2026-09-13) · L 1-3 vs Leones Negros (2026-09-06)</span></div>
+<div class="fx-foot"><span class="mkt">📊 Club Atlético La Paz markets: Away or both teams score 84% · Away leads at some point or draw 74% · Away or draw (double chance) 66% · Away to win 43%</span></div><div class="fx-foot"><span class="dim">🤝 H2H: 5 meetings · Club Atlético La Paz 2W-1D-2L vs Tapatío · 2026-01-10 2-2 (home) · 2025-08-03 0-2 (away) · 2025-03-01 4-1 (home)</span></div><div class="fx-foot"><span class="dim">📈 Club Atlético La Paz: L 1-2 vs Venados FC (2026-10-03) · W 3-1 vs Alebrijes de Oaxaca (2026-09-25) · W 3-1 vs Correcaminos UAT (2026-09-19) · D 2-2 vs Leones Negros (2026-09-13) — Tapatío: L 0-1 vs Cancún FC (2026-10-04) · W 4-0 vs Tlaxcala FC (2026-09-20) · L 1-3 vs Dorados de Sinaloa (2026-09-13) · L 1-3 vs Leones Negros (2026-09-06)</span></div>
 </div>
 <div class="fx">
 <div class="fx-hd"><span class="flg">Liga Nacional de Guatemala</span>
@@ -1053,7 +1058,7 @@ record.</p>
 <div class="pcell"><span class="pos">#11</span><span class="tname">CD Malacateco</span><span class="b bu">Unranked</span><span class="tscore">27.9</span></div>
 </div></div>
 <div class="fx-foot"><span class="dim">🔎 analysed · 44% modelled win — below the 71% floor</span></div>
-<div class="fx-foot"><span class="dim">📊 CD Guastatoya markets: Away or both teams score 78% · Away leads at some point or draw 77% · Away or draw (double chance) 73% · Away to win 46%</span></div><div class="fx-foot"><span class="dim">🤝 H2H: 8 meetings · CD Guastatoya 2W-3D-3L vs CD Malacateco · 2026-08-02 4-0 (home) · 2026-04-03 0-1 (away) · 2026-02-15 1-1 (home)</span></div><div class="fx-foot"><span class="dim">📈 CD Guastatoya: W 2-1 vs Aurora FC (2026-10-04) · W 2-1 vs Deportivo San Pedro (2026-09-26) · W 2-1 vs Comunicaciones (2026-09-19) · W 2-1 vs Xelajú MC (2026-09-13) — CD Malacateco: L 0-2 vs Cobán Imperial (2026-10-03) · L 0-1 vs Marquense (2026-09-27) · W 1-0 vs Deportivo Mixco (2026-09-21) · D 2-2 vs Municipal (2026-09-14)</span></div>
+<div class="fx-foot"><span class="mkt">📊 CD Guastatoya markets: Away or both teams score 78% · Away leads at some point or draw 77% · Away or draw (double chance) 73% · Away to win 46%</span></div><div class="fx-foot"><span class="dim">🤝 H2H: 8 meetings · CD Guastatoya 2W-3D-3L vs CD Malacateco · 2026-08-02 4-0 (home) · 2026-04-03 0-1 (away) · 2026-02-15 1-1 (home)</span></div><div class="fx-foot"><span class="dim">📈 CD Guastatoya: W 2-1 vs Aurora FC (2026-10-04) · W 2-1 vs Deportivo San Pedro (2026-09-26) · W 2-1 vs Comunicaciones (2026-09-19) · W 2-1 vs Xelajú MC (2026-09-13) — CD Malacateco: L 0-2 vs Cobán Imperial (2026-10-03) · L 0-1 vs Marquense (2026-09-27) · W 1-0 vs Deportivo Mixco (2026-09-21) · D 2-2 vs Municipal (2026-09-14)</span></div>
 </div>
 <div class="fx">
 <div class="fx-hd"><span class="flg">Russian Premier League</span>
@@ -1064,7 +1069,7 @@ record.</p>
 <div class="pcell"><span class="pos">#9</span><span class="tname">Krylia Sovetov</span><span class="b bu">Unranked</span><span class="tscore">49.4</span></div>
 </div></div>
 <div class="fx-foot"><span class="dim">🔎 analysed · 43% modelled win — below the 70% floor</span></div>
-<div class="fx-foot"><span class="dim">📊 Spartak Moscow markets: Away or both teams score 81% · Away leads at some point or draw 74% · Away or draw (double chance) 68% · Away to win 43%</span></div><div class="fx-foot"><span class="dim">🤝 H2H: 4 meetings · Spartak Moscow 3W-0D-1L vs Krylia Sovetov · 2026-05-01 1-2 (away) · 2025-09-21 2-1 (home) · 2025-05-18 2-0 (away)</span></div><div class="fx-foot"><span class="dim">📈 Spartak Moscow: W 1-0 vs Fakel Voronezh (2026-09-16) · W 3-0 vs Rostov (2026-09-13) · L 1-2 vs Dinamo Moscow (2026-09-06) · D 1-1 vs Gazovik Orenburg (2026-08-30) — Krylia Sovetov: D 1-1 vs Lokomotiv Moscow (2026-09-16) · W 2-1 vs Rodina Moscow (2026-09-11) · D 2-2 vs Krasnodar (2026-09-05) · D 3-3 vs Akhmat Grozny (2026-08-29)</span></div>
+<div class="fx-foot"><span class="mkt">📊 Spartak Moscow markets: Away or both teams score 81% · Away leads at some point or draw 74% · Away or draw (double chance) 68% · Away to win 43%</span></div><div class="fx-foot"><span class="dim">🤝 H2H: 4 meetings · Spartak Moscow 3W-0D-1L vs Krylia Sovetov · 2026-05-01 1-2 (away) · 2025-09-21 2-1 (home) · 2025-05-18 2-0 (away)</span></div><div class="fx-foot"><span class="dim">📈 Spartak Moscow: W 1-0 vs Fakel Voronezh (2026-09-16) · W 3-0 vs Rostov (2026-09-13) · L 1-2 vs Dinamo Moscow (2026-09-06) · D 1-1 vs Gazovik Orenburg (2026-08-30) — Krylia Sovetov: D 1-1 vs Lokomotiv Moscow (2026-09-16) · W 2-1 vs Rodina Moscow (2026-09-11) · D 2-2 vs Krasnodar (2026-09-05) · D 3-3 vs Akhmat Grozny (2026-08-29)</span></div>
 </div>
 <div class="fx">
 <div class="fx-hd"><span class="flg">Ligue 2</span>
@@ -1075,7 +1080,7 @@ record.</p>
 <div class="pcell"><span class="pos">#15</span><span class="tname">Nantes</span><span class="b bu">Unranked</span><span class="tscore">34.7</span></div>
 </div></div>
 <div class="fx-foot"><span class="dim">🔎 analysed · 43% modelled win — below the 70% floor</span></div>
-<div class="fx-foot"><span class="dim">📊 Stade de Reims markets: Away or both teams score 84% · Away leads at some point or draw 75% · Away or draw (double chance) 68% · Away to win 45%</span></div><div class="fx-foot"><span class="dim">🤝 H2H: 3 meetings · Stade de Reims 1W-1D-1L vs Nantes · 2025-02-02 1-2 (home) · 2024-09-15 2-1 (away) · 2024-01-28 0-0 (home)</span></div><div class="fx-foot"><span class="dim">📈 Stade de Reims: D 1-1 vs Montpellier (2026-09-18) · W 2-1 vs AS Nancy Lorraine (2026-09-11) · D 2-2 vs Guingamp (2026-09-05) · W 4-1 vs Red Star FC 93 (2026-08-29) — Nantes: W 2-1 vs Boulogne (2026-09-19) · L 0-1 vs Sochaux (2026-09-12) · W 1-0 vs AS Nancy Lorraine (2026-09-07) · D 3-3 vs Guingamp (2026-08-29)</span></div>
+<div class="fx-foot"><span class="mkt">📊 Stade de Reims markets: Away or both teams score 84% · Away leads at some point or draw 75% · Away or draw (double chance) 68% · Away to win 45%</span></div><div class="fx-foot"><span class="dim">🤝 H2H: 3 meetings · Stade de Reims 1W-1D-1L vs Nantes · 2025-02-02 1-2 (home) · 2024-09-15 2-1 (away) · 2024-01-28 0-0 (home)</span></div><div class="fx-foot"><span class="dim">📈 Stade de Reims: D 1-1 vs Montpellier (2026-09-18) · W 2-1 vs AS Nancy Lorraine (2026-09-11) · D 2-2 vs Guingamp (2026-09-05) · W 4-1 vs Red Star FC 93 (2026-08-29) — Nantes: W 2-1 vs Boulogne (2026-09-19) · L 0-1 vs Sochaux (2026-09-12) · W 1-0 vs AS Nancy Lorraine (2026-09-07) · D 3-3 vs Guingamp (2026-08-29)</span></div>
 </div>
 <div class="fx">
 <div class="fx-hd"><span class="flg">Primera B Metropolitana</span>
@@ -1086,7 +1091,7 @@ record.</p>
 <div class="pcell"><span class="pos">#13</span><span class="tname">Villa San Carlos</span><span class="b bu">Unranked</span><span class="tscore">48.3</span></div>
 </div></div>
 <div class="fx-foot"><span class="dim">🔎 analysed · 43% modelled win — below the 70% floor</span></div>
-<div class="fx-foot"><span class="dim">📊 Excursionistas markets: Home leads at some point or draw 77% · Home or draw (double chance) 74% · Home or both teams score 70% · Home to win 43%</span></div><div class="fx-foot"><span class="dim">🤝 H2H: 5 meetings · Excursionistas 2W-2D-1L vs Villa San Carlos · 2026-05-31 2-0 (away) · 2025-08-22 0-0 (home) · 2025-04-05 1-2 (away)</span></div><div class="fx-foot"><span class="dim">📈 Excursionistas: L 0-1 vs Liniers (2026-10-03) · W 3-0 vs Real Pilar (2026-09-25) · W 2-1 vs UAI Urquiza (2026-09-19) · W 3-0 vs Villa Dálmine (2026-09-12) — Villa San Carlos: W 1-0 vs Arsenal Sarandi (2026-10-03) · W 1-0 vs Argentino de Merlo (2026-09-26) · D 0-0 vs Talleres de Remedios (2026-09-20) · D 1-1 vs Deportivo Laferrere (2026-09-12)</span></div>
+<div class="fx-foot"><span class="mkt">📊 Excursionistas markets: Home leads at some point or draw 77% · Home or draw (double chance) 74% · Home or both teams score 70% · Home to win 43%</span></div><div class="fx-foot"><span class="dim">🤝 H2H: 5 meetings · Excursionistas 2W-2D-1L vs Villa San Carlos · 2026-05-31 2-0 (away) · 2025-08-22 0-0 (home) · 2025-04-05 1-2 (away)</span></div><div class="fx-foot"><span class="dim">📈 Excursionistas: L 0-1 vs Liniers (2026-10-03) · W 3-0 vs Real Pilar (2026-09-25) · W 2-1 vs UAI Urquiza (2026-09-19) · W 3-0 vs Villa Dálmine (2026-09-12) — Villa San Carlos: W 1-0 vs Arsenal Sarandi (2026-10-03) · W 1-0 vs Argentino de Merlo (2026-09-26) · D 0-0 vs Talleres de Remedios (2026-09-20) · D 1-1 vs Deportivo Laferrere (2026-09-12)</span></div>
 </div>
 <div class="fx">
 <div class="fx-hd"><span class="flg">English League One</span>
@@ -1097,7 +1102,7 @@ record.</p>
 <div class="pcell"><span class="pos">#11</span><span class="tname">Leyton Orient</span><span class="b bu">Unranked</span><span class="tscore">49.8</span></div>
 </div></div>
 <div class="fx-foot"><span class="dim">🔎 analysed · 42% modelled win — below the 70% floor</span></div>
-<div class="fx-foot"><span class="dim">📊 Bradford City markets: Home leads at some point or draw 75% · Home or both teams score 73% · Home or draw (double chance) 71% · Home to win 42%</span></div><div class="fx-foot"><span class="dim">🤝 H2H: 2 meetings · Bradford City 1W-0D-1L vs Leyton Orient · 2026-03-07 2-1 (home) · 2025-12-20 1-2 (away)</span></div><div class="fx-foot"><span class="dim">📈 Bradford City: D 1-1 vs Reading (2026-10-03) · W 1-0 vs Luton Town (2026-09-19) · W 1-0 vs Notts County (2026-09-12) · W 1-0 vs Sheffield Wednesday (2026-09-07) — Leyton Orient: L 0-2 vs Plymouth Argyle (2026-10-03) · W 1-0 vs Stevenage (2026-09-19) · W 2-0 vs Wigan Athletic (2026-09-13) · L 2-3 vs Wycombe Wanderers (2026-09-12)</span></div>
+<div class="fx-foot"><span class="mkt">📊 Bradford City markets: Home leads at some point or draw 75% · Home or both teams score 73% · Home or draw (double chance) 71% · Home to win 42%</span></div><div class="fx-foot"><span class="dim">🤝 H2H: 2 meetings · Bradford City 1W-0D-1L vs Leyton Orient · 2026-03-07 2-1 (home) · 2025-12-20 1-2 (away)</span></div><div class="fx-foot"><span class="dim">📈 Bradford City: D 1-1 vs Reading (2026-10-03) · W 1-0 vs Luton Town (2026-09-19) · W 1-0 vs Notts County (2026-09-12) · W 1-0 vs Sheffield Wednesday (2026-09-07) — Leyton Orient: L 0-2 vs Plymouth Argyle (2026-10-03) · W 1-0 vs Stevenage (2026-09-19) · W 2-0 vs Wigan Athletic (2026-09-13) · L 2-3 vs Wycombe Wanderers (2026-09-12)</span></div>
 </div>
 <div class="fx">
 <div class="fx-hd"><span class="flg">USL Championship</span>
@@ -1108,7 +1113,7 @@ record.</p>
 <div class="pcell"><span class="pos">#18</span><span class="tname">Indy Eleven</span><span class="b bu">Unranked</span><span class="tscore">36.0</span></div>
 </div></div>
 <div class="fx-foot"><span class="dim">🔎 analysed · 41% modelled win — below the 70% floor</span></div>
-<div class="fx-foot"><span class="dim">📊 Tampa Bay Rowdies markets: Away or both teams score 76% · Away leads at some point or draw 74% · Away or draw (double chance) 69% · Away to win 41%</span></div><div class="fx-foot"><span class="dim">🤝 H2H: 5 meetings · Tampa Bay Rowdies 5W-0D-0L vs Indy Eleven · 2026-05-02 1-0 (home) · 2025-08-02 3-1 (away) · 2025-06-26 3-1 (home)</span></div><div class="fx-foot"><span class="dim">📈 Tampa Bay Rowdies: L 1-2 vs Miami FC (2026-10-03) · D 0-0 vs San Antonio FC (2026-09-27) · W 4-0 vs Birmingham Legion FC (2026-09-19) · L 1-3 vs Hartford Athletic (2026-09-12) — Indy Eleven: D 1-1 vs Loudoun United FC (2026-10-03) · L 0-1 vs Rhode Island FC (2026-09-30) · L 0-2 vs Miami FC (2026-09-26) · L 0-1 vs Oakland Roots (2026-09-20)</span></div>
+<div class="fx-foot"><span class="mkt">📊 Tampa Bay Rowdies markets: Away or both teams score 76% · Away leads at some point or draw 74% · Away or draw (double chance) 69% · Away to win 41%</span></div><div class="fx-foot"><span class="dim">🤝 H2H: 5 meetings · Tampa Bay Rowdies 5W-0D-0L vs Indy Eleven · 2026-05-02 1-0 (home) · 2025-08-02 3-1 (away) · 2025-06-26 3-1 (home)</span></div><div class="fx-foot"><span class="dim">📈 Tampa Bay Rowdies: L 1-2 vs Miami FC (2026-10-03) · D 0-0 vs San Antonio FC (2026-09-27) · W 4-0 vs Birmingham Legion FC (2026-09-19) · L 1-3 vs Hartford Athletic (2026-09-12) — Indy Eleven: D 1-1 vs Loudoun United FC (2026-10-03) · L 0-1 vs Rhode Island FC (2026-09-30) · L 0-2 vs Miami FC (2026-09-26) · L 0-1 vs Oakland Roots (2026-09-20)</span></div>
 </div>
 <div class="fx">
 <div class="fx-hd"><span class="flg">Liga Nacional de Honduras</span>
@@ -1119,7 +1124,7 @@ record.</p>
 <div class="pcell"><span class="pos">#5</span><span class="tname">Génesis PN</span><span class="b bu">Unranked</span><span class="tscore">48.1</span></div>
 </div></div>
 <div class="fx-foot"><span class="dim">🔎 analysed · 41% modelled win — below the 70% floor</span></div>
-<div class="fx-foot"><span class="dim">📊 Club Deportivo Olimpia markets: Away or both teams score 75% · Away leads at some point or draw 74% · Away or draw (double chance) 69% · Away to win 41%</span></div><div class="fx-foot"><span class="dim">🤝 H2H: 4 meetings · Club Deportivo Olimpia 3W-0D-1L vs Génesis PN · 2026-03-15 2-0 (away) · 2026-01-26 1-0 (home) · 2025-11-09 2-6 (away)</span></div><div class="fx-foot"><span class="dim">📈 Club Deportivo Olimpia: W 4-0 vs CA Independiente Siguatepeque (2026-09-20) · L 0-1 vs Club Deportivo Marathón (2026-09-13) · W 4-1 vs Platense (2026-09-04) · D 2-2 vs CD Estrella Roja (2026-08-30) — Génesis PN: D 0-0 vs Olancho FC (2026-09-19) · L 0-1 vs FC Motagua (2026-09-13)</span></div>
+<div class="fx-foot"><span class="mkt">📊 Club Deportivo Olimpia markets: Away or both teams score 75% · Away leads at some point or draw 74% · Away or draw (double chance) 69% · Away to win 41%</span></div><div class="fx-foot"><span class="dim">🤝 H2H: 4 meetings · Club Deportivo Olimpia 3W-0D-1L vs Génesis PN · 2026-03-15 2-0 (away) · 2026-01-26 1-0 (home) · 2025-11-09 2-6 (away)</span></div><div class="fx-foot"><span class="dim">📈 Club Deportivo Olimpia: W 4-0 vs CA Independiente Siguatepeque (2026-09-20) · L 0-1 vs Club Deportivo Marathón (2026-09-13) · W 4-1 vs Platense (2026-09-04) · D 2-2 vs CD Estrella Roja (2026-08-30) — Génesis PN: D 0-0 vs Olancho FC (2026-09-19) · L 0-1 vs FC Motagua (2026-09-13)</span></div>
 </div>
 <div class="fx">
 <div class="fx-hd"><span class="flg">Argentine Primera División</span>
@@ -1130,7 +1135,7 @@ record.</p>
 <div class="pcell"><span class="pos">#26</span><span class="tname">Platense</span><span class="b bu">Unranked</span><span class="tscore">23.9</span></div>
 </div></div>
 <div class="fx-foot"><span class="dim">🔎 analysed · 42% modelled win — below the 72% floor</span></div>
-<div class="fx-foot"><span class="dim">📊 Argentinos Juniors markets: Away leads at some point or draw 75% · Away or both teams score 74% · Away or draw (double chance) 70% · Away to win 42%</span></div><div class="fx-foot"><span class="dim">🤝 H2H: 4 meetings · Argentinos Juniors 2W-1D-1L vs Platense · 2026-03-23 1-0 (home) · 2025-07-26 0-0 (away) · 2025-02-04 1-0 (home)</span></div><div class="fx-foot"><span class="dim">📈 Argentinos Juniors: W 2-1 vs Tigre (2026-10-04) · L 0-1 vs Rosario Central (2026-09-20) · D 1-1 vs Gimnasia La Plata (2026-09-13) · D 0-0 vs Barracas Central (2026-09-07) — Platense: D 2-2 vs Vélez Sarsfield (2026-10-05) · L 0-1 vs Newell's Old Boys (2026-09-20) · L 0-2 vs UPNFM (2026-09-18) · L 1-2 vs Estudiantes de La Plata (2026-09-12)</span></div>
+<div class="fx-foot"><span class="mkt">📊 Argentinos Juniors markets: Away leads at some point or draw 75% · Away or both teams score 74% · Away or draw (double chance) 70% · Away to win 42%</span></div><div class="fx-foot"><span class="dim">🤝 H2H: 4 meetings · Argentinos Juniors 2W-1D-1L vs Platense · 2026-03-23 1-0 (home) · 2025-07-26 0-0 (away) · 2025-02-04 1-0 (home)</span></div><div class="fx-foot"><span class="dim">📈 Argentinos Juniors: W 2-1 vs Tigre (2026-10-04) · L 0-1 vs Rosario Central (2026-09-20) · D 1-1 vs Gimnasia La Plata (2026-09-13) · D 0-0 vs Barracas Central (2026-09-07) — Platense: D 2-2 vs Vélez Sarsfield (2026-10-05) · L 0-1 vs Newell's Old Boys (2026-09-20) · L 0-2 vs UPNFM (2026-09-18) · L 1-2 vs Estudiantes de La Plata (2026-09-12)</span></div>
 </div>
 <div class="fx">
 <div class="fx-hd"><span class="flg">Chinese Super League</span>
@@ -1141,7 +1146,7 @@ record.</p>
 <div class="pcell"><span class="pos">#13</span><span class="tname">Tianjin Jinmen Tiger</span><span class="b bu">Unranked</span><span class="tscore">42.5</span></div>
 </div></div>
 <div class="fx-foot"><span class="dim">🔎 analysed · 40% modelled win — below the 70% floor</span></div>
-<div class="fx-foot"><span class="dim">📊 Chengdu Rongcheng markets: Home or both teams score 80% · Home leads at some point or draw 72% · Home or draw (double chance) 65% · Home to win 40%</span></div><div class="fx-foot"><span class="dim">🤝 H2H: 5 meetings · Chengdu Rongcheng 3W-0D-2L vs Tianjin Jinmen Tiger · 2026-05-15 2-1 (away) · 2025-07-18 1-2 (away) · 2025-03-02 1-2 (home)</span></div><div class="fx-foot"><span class="dim">📈 Chengdu Rongcheng: D 0-0 vs Henan (2026-09-06) · W 2-1 vs Liaoning Tieren (2026-08-29) · L 4-5 vs Shanghai Shenhua (2026-08-22) · W 3-2 vs Zhejiang Professional FC (2026-08-15) — Tianjin Jinmen Tiger: W 1-0 vs Liaoning Tieren (2026-09-12) · W 2-1 vs Zhejiang Professional FC (2026-09-06) · D 1-1 vs Qingdao West Coast (2026-08-29) · D 0-0 vs Wuhan Three Towns (2026-08-22)</span></div>
+<div class="fx-foot"><span class="mkt">📊 Chengdu Rongcheng markets: Home or both teams score 80% · Home leads at some point or draw 72% · Home or draw (double chance) 65% · Home to win 40%</span></div><div class="fx-foot"><span class="dim">🤝 H2H: 5 meetings · Chengdu Rongcheng 3W-0D-2L vs Tianjin Jinmen Tiger · 2026-05-15 2-1 (away) · 2025-07-18 1-2 (away) · 2025-03-02 1-2 (home)</span></div><div class="fx-foot"><span class="dim">📈 Chengdu Rongcheng: D 0-0 vs Henan (2026-09-06) · W 2-1 vs Liaoning Tieren (2026-08-29) · L 4-5 vs Shanghai Shenhua (2026-08-22) · W 3-2 vs Zhejiang Professional FC (2026-08-15) — Tianjin Jinmen Tiger: W 1-0 vs Liaoning Tieren (2026-09-12) · W 2-1 vs Zhejiang Professional FC (2026-09-06) · D 1-1 vs Qingdao West Coast (2026-08-29) · D 0-0 vs Wuhan Three Towns (2026-08-22)</span></div>
 </div>
 <div class="fx">
 <div class="fx-hd"><span class="flg">National League</span>
@@ -1152,7 +1157,7 @@ record.</p>
 <div class="pcell"><span class="pos">#15</span><span class="tname">Woking</span><span class="b bu">Unranked</span><span class="tscore">45.9</span></div>
 </div></div>
 <div class="fx-foot"><span class="dim">🔎 analysed · 41% modelled win — below the 71% floor</span></div>
-<div class="fx-foot"><span class="dim">📊 Harrogate Town markets: Away or both teams score 86% · Away leads at some point or draw 72% · Away or draw (double chance) 63% · Away to win 41%</span></div><div class="fx-foot"><span class="dim">📈 Harrogate Town: W 3-0 vs AFC Hornchurch (2026-10-03) · W 1-0 vs Hartlepool United (2026-09-29) · W 4-1 vs Eastleigh (2026-09-26) · L 1-4 vs Boreham Wood (2026-09-19) — Woking: W 3-1 vs Eastleigh (2026-10-03) · L 2-4 vs Solihull Moors (2026-09-29) · W 5-2 vs Carlisle United (2026-09-26) · D 0-0 vs Kidderminster Harriers (2026-09-19)</span></div>
+<div class="fx-foot"><span class="mkt">📊 Harrogate Town markets: Away or both teams score 86% · Away leads at some point or draw 72% · Away or draw (double chance) 63% · Away to win 41%</span></div><div class="fx-foot"><span class="dim">📈 Harrogate Town: W 3-0 vs AFC Hornchurch (2026-10-03) · W 1-0 vs Hartlepool United (2026-09-29) · W 4-1 vs Eastleigh (2026-09-26) · L 1-4 vs Boreham Wood (2026-09-19) — Woking: W 3-1 vs Eastleigh (2026-10-03) · L 2-4 vs Solihull Moors (2026-09-29) · W 5-2 vs Carlisle United (2026-09-26) · D 0-0 vs Kidderminster Harriers (2026-09-19)</span></div>
 </div>
 <div class="fx">
 <div class="fx-hd"><span class="flg">Montenegrin Second League</span>
@@ -1163,7 +1168,7 @@ record.</p>
 <div class="pcell"><span class="pos">#6</span><span class="tname">FK Lovćen</span><span class="b bu">Unranked</span><span class="tscore">42.4</span></div>
 </div></div>
 <div class="fx-foot"><span class="dim">🔎 analysed · 42% modelled win — below the 74% floor</span></div>
-<div class="fx-foot"><span class="dim">📊 FK Jedinstvo Bijelo Polje markets: Away or both teams score 88% · Away leads at some point or draw 73% · Away or draw (double chance) 63% · Away to win 42%</span></div><div class="fx-foot"><span class="dim">🤝 H2H: 1 meeting · FK Jedinstvo Bijelo Polje 0W-0D-1L vs FK Lovćen · 2026-08-22 2-3 (home)</span></div><div class="fx-foot"><span class="dim">📈 FK Jedinstvo Bijelo Polje: W 3-2 vs FK Zeta Golubovci (2026-09-21) · W 2-0 vs FK Iskra Danilovgrad (2026-09-16) · D 2-2 vs FK Rudar Pljevlja (2026-09-12) — FK Lovćen: W 2-0 vs FK Iskra Danilovgrad (2026-09-20) · L 2-4 vs FK Rudar Pljevlja (2026-09-16) · D 1-1 vs OFK Grbalj (2026-09-12)</span></div>
+<div class="fx-foot"><span class="mkt">📊 FK Jedinstvo Bijelo Polje markets: Away or both teams score 88% · Away leads at some point or draw 73% · Away or draw (double chance) 63% · Away to win 42%</span></div><div class="fx-foot"><span class="dim">🤝 H2H: 1 meeting · FK Jedinstvo Bijelo Polje 0W-0D-1L vs FK Lovćen · 2026-08-22 2-3 (home)</span></div><div class="fx-foot"><span class="dim">📈 FK Jedinstvo Bijelo Polje: W 3-2 vs FK Zeta Golubovci (2026-09-21) · W 2-0 vs FK Iskra Danilovgrad (2026-09-16) · D 2-2 vs FK Rudar Pljevlja (2026-09-12) — FK Lovćen: W 2-0 vs FK Iskra Danilovgrad (2026-09-20) · L 2-4 vs FK Rudar Pljevlja (2026-09-16) · D 1-1 vs OFK Grbalj (2026-09-12)</span></div>
 </div>
 <div class="fx">
 <div class="fx-hd"><span class="flg">Major League Soccer</span>
@@ -1174,7 +1179,7 @@ record.</p>
 <div class="pcell"><span class="pos">#11</span><span class="tname">LAFC</span><span class="b bu">Unranked</span><span class="tscore">48.9</span></div>
 </div></div>
 <div class="fx-foot"><span class="dim">🔎 analysed · 37% modelled win — below the 70% floor</span></div>
-<div class="fx-foot"><span class="dim">📊 Vancouver Whitecaps markets: Away or both teams score 80% · Away leads at some point or draw 72% · Away or draw (double chance) 64% · Away to win 39%</span></div><div class="fx-foot"><span class="dim">🤝 H2H: 8 meetings · Vancouver Whitecaps 2W-2D-4L vs LAFC · 2026-08-01 1-1 (home) · 2025-06-30 1-0 (away) · 2025-05-11 2-2 (home)</span></div><div class="fx-foot"><span class="dim">📈 Vancouver Whitecaps: D 3-3 vs D.C. United (2026-09-27) · W 3-0 vs Real Salt Lake (2026-09-20) · L 1-2 vs Austin FC (2026-09-13) · W 3-0 vs LA Galaxy (2026-09-10) — LAFC: L 0-1 vs FC Dallas (2026-09-27) · D 2-2 vs San Jose Earthquakes (2026-09-19) · L 1-3 vs Sporting Kansas City (2026-09-13) · W 2-0 vs Red Bull New York (2026-09-10)</span></div>
+<div class="fx-foot"><span class="mkt">📊 Vancouver Whitecaps markets: Away or both teams score 80% · Away leads at some point or draw 72% · Away or draw (double chance) 64% · Away to win 39%</span></div><div class="fx-foot"><span class="dim">🤝 H2H: 8 meetings · Vancouver Whitecaps 2W-2D-4L vs LAFC · 2026-08-01 1-1 (home) · 2025-06-30 1-0 (away) · 2025-05-11 2-2 (home)</span></div><div class="fx-foot"><span class="dim">📈 Vancouver Whitecaps: D 3-3 vs D.C. United (2026-09-27) · W 3-0 vs Real Salt Lake (2026-09-20) · L 1-2 vs Austin FC (2026-09-13) · W 3-0 vs LA Galaxy (2026-09-10) — LAFC: L 0-1 vs FC Dallas (2026-09-27) · D 2-2 vs San Jose Earthquakes (2026-09-19) · L 1-3 vs Sporting Kansas City (2026-09-13) · W 2-0 vs Red Bull New York (2026-09-10)</span></div>
 </div>
 <div class="fx">
 <div class="fx-hd"><span class="flg">Ligue 2</span>
@@ -1185,7 +1190,7 @@ record.</p>
 <div class="pcell"><span class="pos">#16</span><span class="tname">Clermont Foot</span><span class="b bu">Unranked</span><span class="tscore">28.4</span></div>
 </div></div>
 <div class="fx-foot"><span class="dim">🔎 analysed · 37% modelled win — below the 70% floor</span></div>
-<div class="fx-foot"><span class="dim">📊 Red Star FC 93 markets: Away leads at some point or draw 72% · Away or both teams score 70% · Away or draw (double chance) 67% · Away to win 37%</span></div><div class="fx-foot"><span class="dim">🤝 H2H: 1 meeting · Red Star FC 93 1W-0D-0L vs Clermont Foot · 2026-03-20 1-0 (away)</span></div><div class="fx-foot"><span class="dim">📈 Red Star FC 93: W 3-1 vs Guingamp (2026-09-19) · W 1-0 vs Metz (2026-09-14) · W 2-1 vs Stade Laval (2026-09-04) · L 1-4 vs Stade de Reims (2026-08-29) — Clermont Foot: D 1-1 vs Grenoble (2026-09-18) · D 0-0 vs Boulogne (2026-09-11) · D 1-1 vs Dunkerque (2026-09-04) · D 0-0 vs Sochaux (2026-08-28)</span></div>
+<div class="fx-foot"><span class="mkt">📊 Red Star FC 93 markets: Away leads at some point or draw 72% · Away or both teams score 70% · Away or draw (double chance) 67% · Away to win 37%</span></div><div class="fx-foot"><span class="dim">🤝 H2H: 1 meeting · Red Star FC 93 1W-0D-0L vs Clermont Foot · 2026-03-20 1-0 (away)</span></div><div class="fx-foot"><span class="dim">📈 Red Star FC 93: W 3-1 vs Guingamp (2026-09-19) · W 1-0 vs Metz (2026-09-14) · W 2-1 vs Stade Laval (2026-09-04) · L 1-4 vs Stade de Reims (2026-08-29) — Clermont Foot: D 1-1 vs Grenoble (2026-09-18) · D 0-0 vs Boulogne (2026-09-11) · D 1-1 vs Dunkerque (2026-09-04) · D 0-0 vs Sochaux (2026-08-28)</span></div>
 </div>
 <div class="fx">
 <div class="fx-hd"><span class="flg">Primera Nacional</span>
@@ -1196,7 +1201,7 @@ record.</p>
 <div class="pcell"><span class="pos">#32</span><span class="tname">Central Norte</span><span class="b bu">Unranked</span><span class="tscore">27.8</span></div>
 </div></div>
 <div class="fx-foot"><span class="dim">🔎 analysed · 33% modelled win — below the 70% floor</span></div>
-<div class="fx-foot"><span class="dim">📊 Ferro Carril Oeste markets: Away leads at some point or draw 72% · Away or draw (double chance) 69% · Away or both teams score 56% · Away to win 33%</span></div><div class="fx-foot"><span class="dim">🤝 H2H: 1 meeting · Ferro Carril Oeste 1W-0D-0L vs Central Norte · 2026-05-24 1-0 (home)</span></div><div class="fx-foot"><span class="dim">📈 Ferro Carril Oeste: L 0-2 vs Deportivo Madryn (2026-10-02) · W 1-0 vs Defensores de Belgrano (2026-09-27) · W 1-0 vs Ciudad de Bolívar (2026-09-19) · D 0-0 vs Almirante Brown (2026-09-13) — Central Norte: D 1-1 vs Racing (Córdoba) (2026-10-04) · D 0-0 vs Deportivo Madryn (2026-09-26) · L 0-1 vs Defensores de Belgrano (2026-09-20) · D 0-0 vs Ciudad de Bolívar (2026-09-12)</span></div>
+<div class="fx-foot"><span class="mkt">📊 Ferro Carril Oeste markets: Away leads at some point or draw 72% · Away or draw (double chance) 69% · Away or both teams score 56% · Away to win 33%</span></div><div class="fx-foot"><span class="dim">🤝 H2H: 1 meeting · Ferro Carril Oeste 1W-0D-0L vs Central Norte · 2026-05-24 1-0 (home)</span></div><div class="fx-foot"><span class="dim">📈 Ferro Carril Oeste: L 0-2 vs Deportivo Madryn (2026-10-02) · W 1-0 vs Defensores de Belgrano (2026-09-27) · W 1-0 vs Ciudad de Bolívar (2026-09-19) · D 0-0 vs Almirante Brown (2026-09-13) — Central Norte: D 1-1 vs Racing (Córdoba) (2026-10-04) · D 0-0 vs Deportivo Madryn (2026-09-26) · L 0-1 vs Defensores de Belgrano (2026-09-20) · D 0-0 vs Ciudad de Bolívar (2026-09-12)</span></div>
 </div>
 <div class="fx">
 <div class="fx-hd"><span class="flg">Allsvenskan</span>
@@ -1207,7 +1212,7 @@ record.</p>
 <div class="pcell"><span class="pos">#10</span><span class="tname">GAIS</span><span class="b bu">Unranked</span><span class="tscore">46.5</span></div>
 </div></div>
 <div class="fx-foot"><span class="dim">🔎 analysed · 32% modelled win — below the 70% floor</span></div>
-<div class="fx-foot"><span class="dim">📊 IK Sirius markets: Away or both teams score 73% · Away leads at some point or draw 66% · Away or draw (double chance) 59% · Away to win 32%</span></div><div class="fx-foot"><span class="dim">🤝 H2H: 5 meetings · IK Sirius 3W-0D-2L vs GAIS · 2026-05-24 2-1 (home) · 2025-09-14 3-0 (home) · 2025-05-24 1-2 (away)</span></div><div class="fx-foot"><span class="dim">📈 IK Sirius: W 2-1 vs Örgryte IS (2026-09-19) · W 2-0 vs Degerfors IF (2026-09-14) · W 1-0 vs Västerås SK (2026-09-05) · L 0-1 vs Malmö FF (2026-08-31) — GAIS: W 3-0 vs Mjällby AIF (2026-09-20) · L 0-2 vs Djurgården (2026-09-14) · D 0-0 vs BK Häcken (2026-09-05) · W 4-0 vs IF Brommapojkarna (2026-08-31)</span></div>
+<div class="fx-foot"><span class="mkt">📊 IK Sirius markets: Away or both teams score 73% · Away leads at some point or draw 66% · Away or draw (double chance) 59% · Away to win 32%</span></div><div class="fx-foot"><span class="dim">🤝 H2H: 5 meetings · IK Sirius 3W-0D-2L vs GAIS · 2026-05-24 2-1 (home) · 2025-09-14 3-0 (home) · 2025-05-24 1-2 (away)</span></div><div class="fx-foot"><span class="dim">📈 IK Sirius: W 2-1 vs Örgryte IS (2026-09-19) · W 2-0 vs Degerfors IF (2026-09-14) · W 1-0 vs Västerås SK (2026-09-05) · L 0-1 vs Malmö FF (2026-08-31) — GAIS: W 3-0 vs Mjällby AIF (2026-09-20) · L 0-2 vs Djurgården (2026-09-14) · D 0-0 vs BK Häcken (2026-09-05) · W 4-0 vs IF Brommapojkarna (2026-08-31)</span></div>
 </div>
 <div class="fx">
 <div class="fx-hd"><span class="flg">Montenegrin Second League</span>
@@ -1218,7 +1223,7 @@ record.</p>
 <div class="pcell"><span class="pos">#9</span><span class="tname">FK Kom Podgorica</span><span class="b bu">Unranked</span><span class="tscore">42.1</span></div>
 </div></div>
 <div class="fx-foot"><span class="dim">🔎 analysed · 32% modelled win — below the 74% floor</span></div>
-<div class="fx-foot"><span class="dim">📊 FK Podgorica markets: Away or both teams score 74% · Away leads at some point or draw 66% · Away or draw (double chance) 58% · Away to win 32%</span></div><div class="fx-foot"><span class="dim">🤝 H2H: 1 meeting · FK Podgorica 1W-0D-0L vs FK Kom Podgorica · 2026-08-23 2-1 (home)</span></div><div class="fx-foot"><span class="dim">📈 FK Podgorica: W 3-2 vs FK Berane (2026-09-26) · W 2-1 vs FK Budva (2026-09-21) · D 3-3 vs FK Zeta Golubovci (2026-09-17) — FK Kom Podgorica: D 1-1 vs FK Rudar Pljevlja (2026-09-20) · D 0-0 vs FK Berane (2026-09-12) · W 2-0 vs FK Lovćen (2026-09-05)</span></div>
+<div class="fx-foot"><span class="mkt">📊 FK Podgorica markets: Away or both teams score 74% · Away leads at some point or draw 66% · Away or draw (double chance) 58% · Away to win 32%</span></div><div class="fx-foot"><span class="dim">🤝 H2H: 1 meeting · FK Podgorica 1W-0D-0L vs FK Kom Podgorica · 2026-08-23 2-1 (home)</span></div><div class="fx-foot"><span class="dim">📈 FK Podgorica: W 3-2 vs FK Berane (2026-09-26) · W 2-1 vs FK Budva (2026-09-21) · D 3-3 vs FK Zeta Golubovci (2026-09-17) — FK Kom Podgorica: D 1-1 vs FK Rudar Pljevlja (2026-09-20) · D 0-0 vs FK Berane (2026-09-12) · W 2-0 vs FK Lovćen (2026-09-05)</span></div>
 </div>
 </div>
 <h3>Missing data, not a judgement <span class='muted'>(9)</span></h3><p class='sub'>no form window / no Dixon-Coles rating / low-info side. The gate refuses to price these rather than guessing; that is a data problem, not a verdict on the fixture.</p><div class='grid'>
@@ -1332,7 +1337,7 @@ record.</p>
 <div class="pcell"><span class="pos">#20</span><span class="tname">Ponte Preta</span><span class="b bu">Unranked</span><span class="tscore">13.8</span></div>
 </div></div>
 <div class="fx-foot"><span class="dim">🔎 analysed · negative EV (-0.3%) even at the best price</span></div>
-<div class="fx-foot"><span class="dim">📊 Juventude markets: Away leads at some point or draw 95% · Away or draw (double chance) 94% · Away or both teams score 88% · Away -0.5 76% · Away to win 76%</span></div><div class="fx-foot"><span class="dim">🤝 H2H: 2 meetings · Juventude 2W-0D-0L vs Ponte Preta · 2026-07-29 3-0 (home) · 2026-06-14 3-0 (home)</span></div><div class="fx-foot"><span class="dim">📈 Juventude: W 3-0 vs Operário PR (2026-10-02) · W 1-0 vs América Mineiro (2026-09-28) · L 1-2 vs Sport (2026-09-19) · L 0-2 vs Athletic (2026-09-13) — Ponte Preta: L 0-2 vs Cuiabá (2026-10-03) · L 0-2 vs Botafogo-SP (2026-09-29) · W 1-0 vs CRB (2026-09-20) · L 0-6 vs Londrina (2026-09-15)</span></div>
+<div class="fx-foot"><span class="mkt">📊 Juventude markets: Away leads at some point or draw 95% · Away or draw (double chance) 94% · Away or both teams score 88% · Away -0.5 76% · Away to win 76%</span></div><div class="fx-foot"><span class="dim">🤝 H2H: 2 meetings · Juventude 2W-0D-0L vs Ponte Preta · 2026-07-29 3-0 (home) · 2026-06-14 3-0 (home)</span></div><div class="fx-foot"><span class="dim">📈 Juventude: W 3-0 vs Operário PR (2026-10-02) · W 1-0 vs América Mineiro (2026-09-28) · L 1-2 vs Sport (2026-09-19) · L 0-2 vs Athletic (2026-09-13) — Ponte Preta: L 0-2 vs Cuiabá (2026-10-03) · L 0-2 vs Botafogo-SP (2026-09-29) · W 1-0 vs CRB (2026-09-20) · L 0-6 vs Londrina (2026-09-15)</span></div>
 </div>
 <div class="fx">
 <div class="fx-hd"><span class="flg">La Liga</span>
@@ -1343,7 +1348,7 @@ record.</p>
 <div class="pcell"><span class="pos">#11</span><span class="tname">Getafe</span><span class="b bu">Unranked</span><span class="tscore">40.1</span></div>
 </div></div>
 <div class="fx-foot"><span class="dim">🔎 analysed · negative EV (-21.4%) even at the best price</span></div>
-<div class="fx-foot"><span class="dim">📊 Barcelona markets: Home leads at some point or draw 93% · Home or both teams score 92% · Home or draw (double chance) 91% · Home -0.5 74% · Home to win 74%</span></div><div class="fx-foot"><span class="dim">🤝 H2H: 5 meetings · Barcelona 4W-1D-0L vs Getafe · 2026-04-25 2-0 (away) · 2025-09-21 3-0 (home) · 2025-01-18 1-1 (away)</span></div><div class="fx-foot"><span class="dim">📈 Barcelona: W 3-1 vs Sevilla (2026-09-19) · W 7-2 vs Racing Santander (2026-09-16) · W 4-2 vs Levante (2026-09-13) · L 1-2 vs Universidad Católica (2026-09-11) — Getafe: W 1-0 vs Málaga (2026-09-20) · L 0-1 vs Real Betis (2026-09-17) · D 1-1 vs Deportivo (2026-09-13) · D 1-1 vs Celta Vigo (2026-09-07)</span></div>
+<div class="fx-foot"><span class="mkt">📊 Barcelona markets: Home leads at some point or draw 93% · Home or both teams score 92% · Home or draw (double chance) 91% · Home -0.5 74% · Home to win 74%</span></div><div class="fx-foot"><span class="dim">🤝 H2H: 5 meetings · Barcelona 4W-1D-0L vs Getafe · 2026-04-25 2-0 (away) · 2025-09-21 3-0 (home) · 2025-01-18 1-1 (away)</span></div><div class="fx-foot"><span class="dim">📈 Barcelona: W 3-1 vs Sevilla (2026-09-19) · W 7-2 vs Racing Santander (2026-09-16) · W 4-2 vs Levante (2026-09-13) · L 1-2 vs Universidad Católica (2026-09-11) — Getafe: W 1-0 vs Málaga (2026-09-20) · L 0-1 vs Real Betis (2026-09-17) · D 1-1 vs Deportivo (2026-09-13) · D 1-1 vs Celta Vigo (2026-09-07)</span></div>
 </div>
 <div class="fx">
 <div class="fx-hd"><span class="flg">Eliteserien</span>
@@ -1354,7 +1359,7 @@ record.</p>
 <div class="pcell"><span class="pos">#15</span><span class="tname">Kristiansund BK</span><span class="b bu">Unranked</span><span class="tscore">25.1</span></div>
 </div></div>
 <div class="fx-foot"><span class="dim">🔎 analysed · negative EV (-25.5%) even at the best price</span></div>
-<div class="fx-foot"><span class="dim">📊 Bodo/Glimt markets: Home or both teams score 95% · Home leads at some point or draw 90% · Home or draw (double chance) 86% · Home -0.5 70% · Home to win 70%</span></div><div class="fx-foot"><span class="dim">🤝 H2H: 5 meetings · Bodo/Glimt 4W-1D-0L vs Kristiansund BK · 2026-04-06 3-0 (away) · 2025-09-12 7-1 (home) · 2025-07-05 1-1 (away)</span></div><div class="fx-foot"><span class="dim">📈 Bodo/Glimt: L 1-2 vs SK Brann (2026-09-20) · W 3-2 vs Sandefjord (2026-09-14) · W 2-1 vs Fredrikstad (2026-09-04) · W 4-2 vs Rosenborg (2026-08-30) — Kristiansund BK: L 1-3 vs Rosenborg (2026-09-19) · L 1-8 vs Viking FK (2026-09-13) · W 2-0 vs Tromso (2026-09-06) · D 2-2 vs Hamarkameratene (2026-08-30)</span></div>
+<div class="fx-foot"><span class="mkt">📊 Bodo/Glimt markets: Home or both teams score 95% · Home leads at some point or draw 90% · Home or draw (double chance) 86% · Home -0.5 70% · Home to win 70%</span></div><div class="fx-foot"><span class="dim">🤝 H2H: 5 meetings · Bodo/Glimt 4W-1D-0L vs Kristiansund BK · 2026-04-06 3-0 (away) · 2025-09-12 7-1 (home) · 2025-07-05 1-1 (away)</span></div><div class="fx-foot"><span class="dim">📈 Bodo/Glimt: L 1-2 vs SK Brann (2026-09-20) · W 3-2 vs Sandefjord (2026-09-14) · W 2-1 vs Fredrikstad (2026-09-04) · W 4-2 vs Rosenborg (2026-08-30) — Kristiansund BK: L 1-3 vs Rosenborg (2026-09-19) · L 1-8 vs Viking FK (2026-09-13) · W 2-0 vs Tromso (2026-09-06) · D 2-2 vs Hamarkameratene (2026-08-30)</span></div>
 </div>
 </div>
 <h3>Favourite outside the top 3 <span class='muted'>(38)</span></h3><p class='sub'>the strong side is Elite/Reliable by rating but sits outside the top-3 cut, so it is not pickable as a favourite this week</p><div class='grid'>
