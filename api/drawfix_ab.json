@@ -1,14 +1,14 @@
 {
   "generator": "drawfix_ab",
   "adjust_pp": 0.0,
-  "n_settled": 16,
+  "n_settled": 17,
   "n_relined": 0,
-  "n_same": 16,
+  "n_same": 17,
   "transitions": {},
-  "loss_rate_historical": 0.125,
-  "resolvable_set": 16,
-  "loss_rate_corrected_resolvable": 0.125,
-  "loss_rate_corrected_worst_case": 0.125,
+  "loss_rate_historical": 0.1176,
+  "resolvable_set": 17,
+  "loss_rate_corrected_resolvable": 0.1176,
+  "loss_rate_corrected_worst_case": 0.1176,
   "historical_losses": 2,
   "corrected_losses_resolvable": 2,
   "corrected_losses_worst_case": 2,
@@ -37,9 +37,9 @@
     },
     {
       "week": "2026-10-05",
-      "settled": 0,
+      "settled": 1,
       "relined": 0,
-      "same": 0
+      "same": 1
     }
   ],
   "rows": [
@@ -281,6 +281,21 @@
       "counterfactual_verdict": "PUSH",
       "score": "1-1",
       "odds": 1.46,
+      "reproduces": true
+    },
+    {
+      "week": "2026-10-05",
+      "strong": "Juventude",
+      "weak": "Ponte Preta",
+      "is_home": false,
+      "historical_market": "AH Away (0)",
+      "uncorrected_market": "AH Away (0)",
+      "corrected_market": "AH Away (0)",
+      "relined": false,
+      "historical_verdict": "W",
+      "counterfactual_verdict": "W",
+      "score": "0-2",
+      "odds": 1.33,
       "reproduces": true
     }
   ]

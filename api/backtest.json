@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-06T18:53:36.668114+00:00",
+  "generated_at": "2026-10-07T08:19:36.031128+00:00",
   "weeks": [
     "2026-09-14",
     "2026-09-21",
@@ -7,26 +7,26 @@
     "2026-10-05"
   ],
   "picks": 18,
-  "settled": 16,
-  "pending": 2,
-  "wins": 13,
+  "settled": 17,
+  "pending": 1,
+  "wins": 14,
   "losses": 2,
   "pushes": 1,
-  "hit_rate": 0.8666666666666667,
-  "overall_roi": 0.489375,
-  "modelled_edge": 0.6087585625,
-  "realized_edge": 0.489375,
-  "realized_net_profit": 7.83,
+  "hit_rate": 0.875,
+  "overall_roi": 0.48,
+  "modelled_edge": 0.5753526470588236,
+  "realized_edge": 0.48,
+  "realized_net_profit": 8.16,
   "calibration": [
     {
       "bucket": "70%+",
-      "n": 15,
+      "n": 16,
       "model": 0.75,
-      "realized": 0.8666666666666667,
-      "roi": 0.522,
-      "ci_lo": 0.6561748007704105,
-      "ci_hi": 0.9468540155134793,
-      "bayes_mean": 0.8235294117647058,
+      "realized": 0.875,
+      "roi": 0.51,
+      "ci_lo": 0.6738069369165218,
+      "ci_hi": 0.9501018454388401,
+      "bayes_mean": 0.8333333333333334,
       "verdict": "on-track"
     }
   ],
@@ -71,21 +71,21 @@
     },
     {
       "key": "AH Away (0)",
-      "n": 1,
-      "wins": 1,
+      "n": 2,
+      "wins": 2,
       "losses": 0,
       "hit": 1.0,
-      "roi": 0.56
+      "roi": 0.44500000000000006
     }
   ],
   "by_tier": [
     {
       "key": "Reliable",
-      "n": 8,
-      "wins": 7,
+      "n": 9,
+      "wins": 8,
       "losses": 1,
-      "hit": 0.875,
-      "roi": 0.44375000000000003
+      "hit": 0.8888888888888888,
+      "roi": 0.43111111111111117
     },
     {
       "key": "Elite",
@@ -168,6 +168,14 @@
       "losses": 0,
       "hit": 1.0,
       "roi": 0.43999999999999995
+    },
+    {
+      "key": "Campeonato Brasileiro S\u00e9rie B",
+      "n": 1,
+      "wins": 1,
+      "losses": 0,
+      "hit": 1.0,
+      "roi": 0.33000000000000007
     }
   ],
   "by_week": [
@@ -194,6 +202,14 @@
       "losses": 1,
       "hit": 0.6666666666666666,
       "roi": 0.09333333333333334
+    },
+    {
+      "key": "2026-10-05",
+      "n": 1,
+      "wins": 1,
+      "losses": 0,
+      "hit": 1.0,
+      "roi": 0.33000000000000007
     }
   ],
   "concentration": [
@@ -425,6 +441,18 @@
       "name": "lva-virsliga"
     },
     {
+      "league": "usa-mls",
+      "n_recent": 60,
+      "recent_avg": 3.3,
+      "baseline_avg": 2.8875,
+      "delta": 0.41249999999999964,
+      "z_plain": 1.8276421946221715,
+      "z_ewma": 1.6117956206541408,
+      "z": 1.6117956206541408,
+      "status": "watch",
+      "name": "usa-mls"
+    },
+    {
       "league": "est-meistriliiga",
       "n_recent": 60,
       "recent_avg": 2.966666666666667,
@@ -447,18 +475,6 @@
       "z": 1.519852459178569,
       "status": "watch",
       "name": "eng-championship"
-    },
-    {
-      "league": "usa-mls",
-      "n_recent": 60,
-      "recent_avg": 3.283333333333333,
-      "baseline_avg": 2.875,
-      "delta": 0.4083333333333332,
-      "z_plain": 1.8026552314723538,
-      "z_ewma": 1.51095738657207,
-      "z": 1.51095738657207,
-      "status": "watch",
-      "name": "usa-mls"
     },
     {
       "league": "sgp-premier-league",
@@ -965,18 +981,6 @@
       "name": "aus-a-league"
     },
     {
-      "league": "bra-serie-b",
-      "n_recent": 60,
-      "recent_avg": 2.6,
-      "baseline_avg": 2.35,
-      "delta": 0.25,
-      "z_plain": 1.2721970531405675,
-      "z_ewma": -0.468731995489572,
-      "z": -0.468731995489572,
-      "status": "stable",
-      "name": "bra-serie-b"
-    },
-    {
       "league": "bra-serie-a",
       "n_recent": 60,
       "recent_avg": 2.716666666666667,
@@ -1061,18 +1065,6 @@
       "name": "chn-csl"
     },
     {
-      "league": "par-primera",
-      "n_recent": 60,
-      "recent_avg": 2.4166666666666665,
-      "baseline_avg": 2.475,
-      "delta": -0.05833333333333357,
-      "z_plain": -0.28707673015625645,
-      "z_ewma": -0.2876422499432798,
-      "z": -0.2876422499432798,
-      "status": "stable",
-      "name": "par-primera"
-    },
-    {
       "league": "bul-second-league",
       "n_recent": 60,
       "recent_avg": 2.816666666666667,
@@ -1083,6 +1075,18 @@
       "z": 0.2719185091472828,
       "status": "stable",
       "name": "bul-second-league"
+    },
+    {
+      "league": "par-primera",
+      "n_recent": 60,
+      "recent_avg": 2.3666666666666667,
+      "baseline_avg": 2.48125,
+      "delta": -0.11458333333333348,
+      "z_plain": -0.5638694066702971,
+      "z_ewma": -0.24279009783337546,
+      "z": -0.24279009783337546,
+      "status": "stable",
+      "name": "par-primera"
     },
     {
       "league": "nor-1-divisjon",
@@ -1155,6 +1159,18 @@
       "z": -0.13736227141766244,
       "status": "stable",
       "name": "isl-besta-deild"
+    },
+    {
+      "league": "bra-serie-b",
+      "n_recent": 60,
+      "recent_avg": 2.6333333333333333,
+      "baseline_avg": 2.3625,
+      "delta": 0.2708333333333335,
+      "z_plain": 1.3884746189035473,
+      "z_ewma": -0.1263925467235498,
+      "z": -0.1263925467235498,
+      "status": "stable",
+      "name": "bra-serie-b"
     },
     {
       "league": "sco-championship",
@@ -1331,7 +1347,8 @@
       106.55,
       107.16,
       107.83,
-      107.83
+      107.83,
+      108.16
     ],
     "quarter_kelly": [
       100.0,
@@ -1350,7 +1367,8 @@
       315.27951207278903,
       350.6696373029596,
       397.5626715490699,
-      397.5626715490699
+      397.5626715490699,
+      401.62357545760784
     ],
     "bayes_kelly": [
       100.0,
@@ -1369,7 +1387,8 @@
       289.07942339562646,
       318.0379546342833,
       356.5839162074925,
-      356.5839162074925
+      356.5839162074925,
+      356.6693180554242
     ],
     "start": 100.0
   },
@@ -1377,19 +1396,19 @@
     "generator": "gsis.walkforward.compute",
     "leagues_covered": 127,
     "eval_slots": 5079,
-    "overall_hit_rate": 118.53,
+    "overall_hit_rate": 118.51,
     "early_slots": 2605,
     "late_slots": 2474,
-    "early_hit_rate": 55.52,
+    "early_hit_rate": 55.5,
     "late_hit_rate": 59.42,
-    "learning_delta": 3.91,
+    "learning_delta": 3.93,
     "prior_ab": {
       "active": true,
-      "leagues": 217,
-      "slots": 4376,
-      "baseline_hit_rate": 57.12,
+      "leagues": 216,
+      "slots": 4356,
+      "baseline_hit_rate": 57.13,
       "prior_hit_rate": 56.96,
-      "delta": -0.16,
+      "delta": -0.17,
       "baseline_early": null,
       "prior_early": null,
       "delta_early": null,
@@ -4198,7 +4217,7 @@
   },
   "model_state": {
     "version": 1,
-    "generated_at": "2026-10-06T10:22:54+00:00",
+    "generated_at": "2026-10-07T06:08:54+00:00",
     "note": "1 active calibration bucket(s) from 16 settled picks \u00b7 2 drifted league(s) \u00b7 115 league(s) with adaptive gate factors \u00b7 151 league(s) with a recursive strength model",
     "calibration": [
       {
@@ -29761,7 +29780,7 @@
       },
       "usa-mls": {
         "form_feed": true,
-        "match_events": 1497,
+        "match_events": 1498,
         "espn": true,
         "espn_code": "usa.1",
         "wiki": true,
@@ -29887,7 +29906,7 @@
       },
       "bra-serie-b": {
         "form_feed": true,
-        "match_events": 1071,
+        "match_events": 1074,
         "espn": true,
         "espn_code": "bra.2",
         "wiki": true,
@@ -29968,7 +29987,7 @@
       },
       "par-primera": {
         "form_feed": true,
-        "match_events": 647,
+        "match_events": 649,
         "espn": true,
         "espn_code": "par.1",
         "wiki": false,
