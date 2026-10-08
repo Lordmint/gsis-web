@@ -4,7 +4,7 @@
       "kind": "ah_give",
       "label": "backed side -AH (giving)",
       "settled": 1,
-      "pending": 32,
+      "pending": 33,
       "wins": 1,
       "losses": 0,
       "pushes": 0,
@@ -27,7 +27,7 @@
       "kind": "dc",
       "label": "backed side or draw",
       "settled": 1,
-      "pending": 90,
+      "pending": 91,
       "wins": 1,
       "losses": 0,
       "pushes": 0,
@@ -47,7 +47,7 @@
       "kind": "dc1up",
       "label": "backed side led at some point or draw",
       "settled": 1,
-      "pending": 90,
+      "pending": 91,
       "wins": 1,
       "losses": 0,
       "pushes": 0,
@@ -67,7 +67,7 @@
       "kind": "or_gg",
       "label": "backed side or both teams score",
       "settled": 1,
-      "pending": 90,
+      "pending": 91,
       "wins": 1,
       "losses": 0,
       "pushes": 0,
@@ -87,7 +87,7 @@
       "kind": "win",
       "label": "backed side to win",
       "settled": 1,
-      "pending": 90,
+      "pending": 91,
       "wins": 1,
       "losses": 0,
       "pushes": 0,
@@ -104,7 +104,7 @@
       "enough_to_promote": false
     }
   ],
-  "rows": 138,
+  "rows": 139,
   "bands": {
     "or_gg": [
       {
@@ -137,7 +137,7 @@
         "wins": 1,
         "losses": 0,
         "pushes": 0,
-        "pending": 55,
+        "pending": 56,
         "hit_rate": 1.0,
         "model_mean": 0.8812,
         "edge_pp": 11.88
@@ -174,7 +174,7 @@
         "wins": 1,
         "losses": 0,
         "pushes": 0,
-        "pending": 12,
+        "pending": 13,
         "hit_rate": 1.0,
         "model_mean": 0.9374,
         "edge_pp": 6.26
@@ -211,7 +211,7 @@
         "wins": 1,
         "losses": 0,
         "pushes": 0,
-        "pending": 34,
+        "pending": 35,
         "hit_rate": 1.0,
         "model_mean": 0.9454,
         "edge_pp": 5.46
@@ -240,7 +240,7 @@
         "wins": 1,
         "losses": 0,
         "pushes": 0,
-        "pending": 3,
+        "pending": 4,
         "hit_rate": 1.0,
         "model_mean": 0.76,
         "edge_pp": 24.0
@@ -277,7 +277,7 @@
         "wins": 1,
         "losses": 0,
         "pushes": 0,
-        "pending": 3,
+        "pending": 4,
         "hit_rate": 1.0,
         "model_mean": 0.76,
         "edge_pp": 24.0

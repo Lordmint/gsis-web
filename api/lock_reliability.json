@@ -1,6 +1,6 @@
 {
   "generator": "lock_reliability",
-  "candidates": 7501,
+  "candidates": 7504,
   "published_locks_dc_route": 274,
   "bands": [
     {
@@ -45,7 +45,7 @@
     "false_locks": 46,
     "upset_locks": 13,
     "false_locks_with_form_warning": 0,
-    "form_warning_fired_anywhere": 293,
+    "form_warning_fired_anywhere": 294,
     "note": "The form tripwire runs at ADMISSION, so a flagged candidate is shaved below the gate and never becomes a pick; that is why published false locks carry no form warning. blind_adj>0 is a constant (no injury feed) and cannot discriminate."
   },
   "overall_upset_rate": 0.0474,
