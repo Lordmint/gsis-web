@@ -3,58 +3,58 @@
     {
       "kind": "dc",
       "label": "backed side or draw",
-      "settled": 2,
-      "pending": 90,
-      "wins": 2,
-      "losses": 0,
+      "settled": 8,
+      "pending": 84,
+      "wins": 7,
+      "losses": 1,
       "pushes": 0,
-      "n": 2,
-      "hit_rate": 1.0,
-      "model_mean": 0.8488,
-      "edge_pp": 15.12,
+      "n": 8,
+      "hit_rate": 0.875,
+      "model_mean": 0.8169,
+      "edge_pp": 5.81,
       "ci": [
-        0.37,
-        0.98
+        0.57,
+        0.96
       ],
-      "verdict": "under-implied",
-      "beats_model": true,
+      "verdict": "on-track",
+      "beats_model": false,
       "enough_to_promote": false
     },
     {
       "kind": "dc1up",
       "label": "backed side led at some point or draw",
-      "settled": 2,
-      "pending": 90,
-      "wins": 2,
-      "losses": 0,
+      "settled": 8,
+      "pending": 84,
+      "wins": 7,
+      "losses": 1,
       "pushes": 0,
-      "n": 2,
-      "hit_rate": 1.0,
-      "model_mean": 0.877,
-      "edge_pp": 12.29,
+      "n": 8,
+      "hit_rate": 0.875,
+      "model_mean": 0.8586,
+      "edge_pp": 1.64,
       "ci": [
-        0.37,
-        0.98
+        0.57,
+        0.96
       ],
-      "verdict": "under-implied",
-      "beats_model": true,
+      "verdict": "on-track",
+      "beats_model": false,
       "enough_to_promote": false
     },
     {
       "kind": "or_gg",
       "label": "backed side or both teams score",
-      "settled": 2,
-      "pending": 90,
-      "wins": 2,
+      "settled": 8,
+      "pending": 84,
+      "wins": 8,
       "losses": 0,
       "pushes": 0,
-      "n": 2,
+      "n": 8,
       "hit_rate": 1.0,
-      "model_mean": 0.8636,
-      "edge_pp": 13.64,
+      "model_mean": 0.8867,
+      "edge_pp": 11.33,
       "ci": [
-        0.37,
-        0.98
+        0.72,
+        0.99
       ],
       "verdict": "under-implied",
       "beats_model": true,
@@ -63,38 +63,38 @@
     {
       "kind": "win",
       "label": "backed side to win",
-      "settled": 2,
-      "pending": 90,
-      "wins": 2,
-      "losses": 0,
+      "settled": 8,
+      "pending": 84,
+      "wins": 7,
+      "losses": 1,
       "pushes": 0,
-      "n": 2,
-      "hit_rate": 1.0,
-      "model_mean": 0.6409,
-      "edge_pp": 35.91,
+      "n": 8,
+      "hit_rate": 0.875,
+      "model_mean": 0.6114,
+      "edge_pp": 26.36,
       "ci": [
-        0.37,
-        0.98
+        0.57,
+        0.96
       ],
-      "verdict": "under-implied",
-      "beats_model": true,
+      "verdict": "on-track",
+      "beats_model": false,
       "enough_to_promote": false
     },
     {
       "kind": "ah_give",
       "label": "backed side -AH (giving)",
-      "settled": 1,
-      "pending": 33,
-      "wins": 1,
+      "settled": 5,
+      "pending": 29,
+      "wins": 5,
       "losses": 0,
       "pushes": 0,
-      "n": 1,
+      "n": 5,
       "hit_rate": 1.0,
-      "model_mean": 0.76,
-      "edge_pp": 24.0,
+      "model_mean": 0.654,
+      "edge_pp": 34.6,
       "ci": [
-        0.22,
-        0.97
+        0.61,
+        0.99
       ],
       "verdict": "under-implied",
       "beats_model": true,
@@ -125,25 +125,25 @@
       },
       {
         "band": "70%-85%",
-        "n": 1,
-        "wins": 1,
+        "n": 2,
+        "wins": 2,
         "losses": 0,
         "pushes": 0,
-        "pending": 33,
+        "pending": 32,
         "hit_rate": 1.0,
-        "model_mean": 0.8459,
-        "edge_pp": 15.41
+        "model_mean": 0.8467,
+        "edge_pp": 15.33
       },
       {
         "band": "85%-100%",
-        "n": 1,
-        "wins": 1,
+        "n": 6,
+        "wins": 6,
         "losses": 0,
         "pushes": 0,
-        "pending": 56,
+        "pending": 51,
         "hit_rate": 1.0,
-        "model_mean": 0.8812,
-        "edge_pp": 11.88
+        "model_mean": 0.9,
+        "edge_pp": 10.0
       }
     ],
     "dc": [
@@ -165,25 +165,25 @@
       },
       {
         "band": "70%-85%",
-        "n": 1,
-        "wins": 1,
-        "losses": 0,
+        "n": 6,
+        "wins": 5,
+        "losses": 1,
         "pushes": 0,
-        "pending": 57,
-        "hit_rate": 1.0,
-        "model_mean": 0.7602,
-        "edge_pp": 23.98
+        "pending": 52,
+        "hit_rate": 0.8333,
+        "model_mean": 0.7909,
+        "edge_pp": 4.24
       },
       {
         "band": "85%-100%",
-        "n": 1,
-        "wins": 1,
+        "n": 2,
+        "wins": 2,
         "losses": 0,
         "pushes": 0,
-        "pending": 13,
+        "pending": 12,
         "hit_rate": 1.0,
-        "model_mean": 0.9374,
-        "edge_pp": 6.26
+        "model_mean": 0.895,
+        "edge_pp": 10.5
       }
     ],
     "dc1up": [
@@ -205,25 +205,25 @@
       },
       {
         "band": "70%-85%",
-        "n": 1,
-        "wins": 1,
-        "losses": 0,
+        "n": 3,
+        "wins": 2,
+        "losses": 1,
         "pushes": 0,
-        "pending": 53,
-        "hit_rate": 1.0,
-        "model_mean": 0.8087,
-        "edge_pp": 19.13
+        "pending": 51,
+        "hit_rate": 0.6667,
+        "model_mean": 0.8172,
+        "edge_pp": -15.06
       },
       {
         "band": "85%-100%",
-        "n": 1,
-        "wins": 1,
+        "n": 5,
+        "wins": 5,
         "losses": 0,
         "pushes": 0,
-        "pending": 35,
+        "pending": 31,
         "hit_rate": 1.0,
-        "model_mean": 0.9454,
-        "edge_pp": 5.46
+        "model_mean": 0.8834,
+        "edge_pp": 11.66
       }
     ],
     "ah_give": [
@@ -237,11 +237,14 @@
       },
       {
         "band": "55%-70%",
-        "n": 0,
-        "wins": 0,
+        "n": 4,
+        "wins": 4,
         "losses": 0,
         "pushes": 0,
-        "pending": 29
+        "pending": 25,
+        "hit_rate": 1.0,
+        "model_mean": 0.6276,
+        "edge_pp": 37.24
       },
       {
         "band": "70%-85%",
@@ -266,22 +269,25 @@
     "win": [
       {
         "band": "0%-55%",
-        "n": 1,
+        "n": 2,
         "wins": 1,
-        "losses": 0,
+        "losses": 1,
         "pushes": 0,
-        "pending": 40,
-        "hit_rate": 1.0,
+        "pending": 39,
+        "hit_rate": 0.5,
         "model_mean": 0.5219,
-        "edge_pp": 47.81
+        "edge_pp": -2.19
       },
       {
         "band": "55%-70%",
-        "n": 0,
-        "wins": 0,
+        "n": 5,
+        "wins": 5,
         "losses": 0,
         "pushes": 0,
-        "pending": 46
+        "pending": 41,
+        "hit_rate": 1.0,
+        "model_mean": 0.6176,
+        "edge_pp": 38.24
       },
       {
         "band": "70%-85%",
@@ -308,46 +314,50 @@
     "dc": {
       "promote": false,
       "reasons": [
-        "only 2 settled slots (need 30)"
+        "only 8 settled slots (need 30)",
+        "verdict is on-track, not under-implied"
       ],
-      "n": 2,
-      "edge_pp": 15.12,
-      "verdict": "under-implied"
+      "n": 8,
+      "edge_pp": 5.81,
+      "verdict": "on-track"
     },
     "dc1up": {
       "promote": false,
       "reasons": [
-        "only 2 settled slots (need 30)"
+        "only 8 settled slots (need 30)",
+        "verdict is on-track, not under-implied",
+        "edge 1.64pp below the 2.0pp floor"
       ],
-      "n": 2,
-      "edge_pp": 12.29,
-      "verdict": "under-implied"
+      "n": 8,
+      "edge_pp": 1.64,
+      "verdict": "on-track"
     },
     "or_gg": {
       "promote": false,
       "reasons": [
-        "only 2 settled slots (need 30)"
+        "only 8 settled slots (need 30)"
       ],
-      "n": 2,
-      "edge_pp": 13.64,
+      "n": 8,
+      "edge_pp": 11.33,
       "verdict": "under-implied"
     },
     "win": {
       "promote": false,
       "reasons": [
-        "only 2 settled slots (need 30)"
+        "only 8 settled slots (need 30)",
+        "verdict is on-track, not under-implied"
       ],
-      "n": 2,
-      "edge_pp": 35.91,
-      "verdict": "under-implied"
+      "n": 8,
+      "edge_pp": 26.36,
+      "verdict": "on-track"
     },
     "ah_give": {
       "promote": false,
       "reasons": [
-        "only 1 settled slots (need 30)"
+        "only 5 settled slots (need 30)"
       ],
-      "n": 1,
-      "edge_pp": 24.0,
+      "n": 5,
+      "edge_pp": 34.6,
       "verdict": "under-implied"
     }
   },
