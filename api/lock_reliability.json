@@ -1,7 +1,7 @@
 {
   "generator": "lock_reliability",
-  "candidates": 7512,
-  "published_locks_dc_route": 274,
+  "candidates": 7520,
+  "published_locks_dc_route": 273,
   "bands": [
     {
       "band": "lock >=80%",
@@ -19,17 +19,17 @@
     },
     {
       "band": "70-80%",
-      "n": 195,
+      "n": 194,
       "model_mean": 0.7563,
-      "win_rate": 0.8051,
+      "win_rate": 0.8041,
       "win_ci": [
-        0.7537525441909094,
-        0.8468146403283352
+        0.7525316459726139,
+        0.8460092988308263
       ],
-      "draw_rate": 0.1385,
-      "upset_rate": 0.0564,
-      "non_win_rate": 0.1949,
-      "calibration_gap_pp": 4.9
+      "draw_rate": 0.1392,
+      "upset_rate": 0.0567,
+      "non_win_rate": 0.1959,
+      "calibration_gap_pp": 4.8
     },
     {
       "band": "66-70% (cut by the 0.70 floor)",
@@ -41,17 +41,17 @@
     }
   ],
   "autopsy": {
-    "published_picks": 274,
+    "published_picks": 273,
     "false_locks": 46,
     "upset_locks": 13,
     "false_locks_with_form_warning": 0,
     "form_warning_fired_anywhere": 294,
     "note": "The form tripwire runs at ADMISSION, so a flagged candidate is shaved below the gate and never becomes a pick; that is why published false locks carry no form warning. blind_adj>0 is a constant (no injury feed) and cannot discriminate."
   },
-  "overall_upset_rate": 0.0474,
+  "overall_upset_rate": 0.0476,
   "overall_upset_ci": [
-    0.03103676026102007,
-    0.07410880388029989
+    0.031150999866279123,
+    0.0743754224228968
   ],
   "leagues": [
     {
