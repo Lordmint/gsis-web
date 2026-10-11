@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-10-10T10:50:55.670826+00:00",
+  "generated_at": "2026-10-11T20:41:35.349023+00:00",
   "ledger": "card_results",
   "clv": {
-    "n": 17,
-    "mean": -0.63,
+    "n": 18,
+    "mean": -0.59,
     "positive": 3
   },
   "weeks": [
@@ -424,10 +424,10 @@
     {
       "week": "2026-10-05",
       "picks": 2,
-      "settled": 1,
-      "wins": 1,
+      "settled": 2,
+      "wins": 2,
       "losses": 0,
-      "notes": "1W \u00b7 0L \u00b7 0P \u00b7 1 pending",
+      "notes": "2W \u00b7 0L \u00b7 0P \u00b7 0 pending",
       "rows": [
         {
           "code": "bra-serie-b",
@@ -468,14 +468,72 @@
           "odds_open": 1.5,
           "odds_close": 1.5,
           "clv": 0.0,
+          "verdict": "W",
+          "note": "strong side led by 1 at some point",
+          "score": "2\u20130",
+          "profit": 0.5,
+          "tier": "Reliable",
+          "league": "Scottish Championship",
+          "lam_h": 2.09,
+          "lam_a": 0.59
+        }
+      ]
+    },
+    {
+      "week": "2026-10-12",
+      "picks": 2,
+      "settled": 0,
+      "wins": 0,
+      "losses": 0,
+      "notes": "0W \u00b7 0L \u00b7 0P \u00b7 2 pending",
+      "rows": [
+        {
+          "code": "ger-bundesliga",
+          "week": "2026-10-12",
+          "strong": "Borussia Dortmund",
+          "weak": "1. FC Union Berlin",
+          "is_home": false,
+          "market": "Away or GG",
+          "hit_basis": "recommended-market",
+          "money_basis": "1X2",
+          "prob": 0.97,
+          "prob_model": 0.9554,
+          "odds": 1.61,
+          "odds_open": 1.61,
+          "odds_close": 1.61,
+          "clv": -0.15,
+          "verdict": "PENDING",
+          "note": "no result yet",
+          "score": null,
+          "profit": null,
+          "tier": "Elite",
+          "league": "Bundesliga",
+          "lam_h": 0.86,
+          "lam_a": 3.11
+        },
+        {
+          "code": "eng-premier-league",
+          "week": "2026-10-12",
+          "strong": "Brighton & Hove Albion",
+          "weak": "Crystal Palace",
+          "is_home": true,
+          "market": "Home or GG",
+          "hit_basis": "recommended-market",
+          "money_basis": "1X2",
+          "prob": 0.97,
+          "prob_model": 0.9666,
+          "odds": 1.57,
+          "odds_open": 1.57,
+          "odds_close": 1.57,
+          "clv": 0.04,
           "verdict": "PENDING",
           "note": "no result yet",
           "score": null,
           "profit": null,
           "tier": "Reliable",
-          "league": "Scottish Championship",
-          "lam_h": 2.09,
-          "lam_a": 0.59
+          "league": "English Premier League",
+          "lam_h": 3.4,
+          "lam_a": 1.22
         }
       ]
     }

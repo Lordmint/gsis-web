@@ -1,14 +1,14 @@
 {
   "generator": "drawfix_ab",
   "adjust_pp": 0.0,
-  "n_settled": 17,
+  "n_settled": 18,
   "n_relined": 0,
-  "n_same": 17,
+  "n_same": 18,
   "transitions": {},
-  "loss_rate_historical": 0.1176,
-  "resolvable_set": 17,
-  "loss_rate_corrected_resolvable": 0.1176,
-  "loss_rate_corrected_worst_case": 0.1176,
+  "loss_rate_historical": 0.1111,
+  "resolvable_set": 18,
+  "loss_rate_corrected_resolvable": 0.1111,
+  "loss_rate_corrected_worst_case": 0.1111,
   "historical_losses": 2,
   "corrected_losses_resolvable": 2,
   "corrected_losses_worst_case": 2,
@@ -37,9 +37,15 @@
     },
     {
       "week": "2026-10-05",
-      "settled": 1,
+      "settled": 2,
       "relined": 0,
-      "same": 1
+      "same": 2
+    },
+    {
+      "week": "2026-10-12",
+      "settled": 0,
+      "relined": 0,
+      "same": 0
     }
   ],
   "rows": [
@@ -296,6 +302,21 @@
       "counterfactual_verdict": "W",
       "score": "0-2",
       "odds": 1.33,
+      "reproduces": true
+    },
+    {
+      "week": "2026-10-05",
+      "strong": "Raith Rovers",
+      "weak": "Queen's Park",
+      "is_home": true,
+      "historical_market": "Double Chance \u00b7 1UP",
+      "uncorrected_market": "Double Chance \u00b7 1UP",
+      "corrected_market": "Double Chance \u00b7 1UP",
+      "relined": false,
+      "historical_verdict": "W",
+      "counterfactual_verdict": "W",
+      "score": "2-0",
+      "odds": 1.5,
       "reproduces": true
     }
   ]
