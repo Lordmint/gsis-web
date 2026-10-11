@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-11T20:45:27.550287+00:00",
+  "generated_at": "2026-10-11T23:12:55.291362+00:00",
   "weeks": [
     "2026-09-14",
     "2026-09-21",
@@ -4323,8 +4323,8 @@
   },
   "model_state": {
     "version": 1,
-    "generated_at": "2026-10-11T20:35:47+00:00",
-    "note": "1 active calibration bucket(s) from 17 settled picks \u00b7 3 drifted league(s) \u00b7 122 league(s) with adaptive gate factors \u00b7 152 league(s) with a recursive strength model",
+    "generated_at": "2026-10-11T23:01:42+00:00",
+    "note": "1 active calibration bucket(s) from 18 settled picks \u00b7 3 drifted league(s) \u00b7 122 league(s) with adaptive gate factors \u00b7 152 league(s) with a recursive strength model",
     "calibration": [
       {
         "lo": 0.5,
@@ -4381,14 +4381,14 @@
       {
         "lo": 0.7,
         "hi": 1.01,
-        "n": 17,
-        "wins": 14,
+        "n": 18,
+        "wins": 15,
         "pushes": 1,
-        "realized": 0.8529,
+        "realized": 0.8611,
         "model_mid": 0.8,
-        "delta": 0.0529,
-        "delta_shrunk": 0.0281,
-        "sigma": 0.0281,
+        "delta": 0.0611,
+        "delta_shrunk": 0.0333,
+        "sigma": 0.0333,
         "active": true
       }
     ],
@@ -30459,11 +30459,11 @@
       }
     },
     "calibration_prior": {
-      "slope": 0.7523,
-      "intercept": -0.0355,
+      "slope": 0.7432,
+      "intercept": -0.0259,
       "kappa": 40.0,
       "points": 8,
-      "samples": 7520,
+      "samples": 7577,
       "source": "gate_backtest.calibration_curve (Elo route, no look-ahead)",
       "caveat": "fitted on the pick-gate replay's Elo-from-strength route, not the live DC-priced route, so it is a PRIOR: the live buckets override it as soon as they hold more settled evidence of their own. Not applied to published probabilities or to selection until that trade-off is signed off.",
       "applied": false,
@@ -30476,7 +30476,7 @@
       "adjust_pp": 0.0,
       "refuted": true,
       "reason": "grid over-predicts draws; no correction applied",
-      "slots": 7476,
+      "slots": 7533,
       "elo_diagnostic": {
         "route": "p_draw",
         "applied": true,
@@ -30484,13 +30484,13 @@
         "raw_error_pp": -1.1,
         "shrinkage": 0.962,
         "band_agreement": 0.75,
-        "slots": 7520,
-        "draws": 1674,
-        "realized": 22.3,
-        "predicted": 21.2,
-        "ci": "21.5-23.1%",
+        "slots": 7577,
+        "draws": 1680,
+        "realized": 22.2,
+        "predicted": 21.1,
+        "ci": "21.4-23.0%",
         "refuted": false,
-        "reason": "p_draw route under-predicts draws by 1.1pp pooled (90% CI 21.5-23.1%); +1.06pp applied after 4% shrinkage for sample size"
+        "reason": "p_draw route under-predicts draws by 1.1pp pooled (90% CI 21.4-23.0%); +1.06pp applied after 4% shrinkage for sample size"
       },
       "scope": "market selection only (not the pick gate)",
       "reline": false

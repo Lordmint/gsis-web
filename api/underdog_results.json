@@ -3,18 +3,18 @@
     {
       "kind": "dc",
       "label": "backed side or draw",
-      "settled": 64,
-      "pending": 103,
-      "wins": 55,
+      "settled": 72,
+      "pending": 95,
+      "wins": 63,
       "losses": 9,
       "pushes": 0,
-      "n": 64,
-      "hit_rate": 0.8594,
-      "model_mean": 0.7793,
-      "edge_pp": 8.0,
+      "n": 72,
+      "hit_rate": 0.875,
+      "model_mean": 0.7781,
+      "edge_pp": 9.69,
       "ci": [
-        0.77,
-        0.91
+        0.79,
+        0.92
       ],
       "verdict": "on-track",
       "beats_model": false,
@@ -23,18 +23,18 @@
     {
       "kind": "dc1up",
       "label": "backed side led at some point or draw",
-      "settled": 64,
-      "pending": 103,
-      "wins": 55,
+      "settled": 72,
+      "pending": 95,
+      "wins": 63,
       "losses": 9,
       "pushes": 0,
-      "n": 64,
-      "hit_rate": 0.8594,
-      "model_mean": 0.825,
-      "edge_pp": 3.44,
+      "n": 72,
+      "hit_rate": 0.875,
+      "model_mean": 0.8227,
+      "edge_pp": 5.23,
       "ci": [
-        0.77,
-        0.91
+        0.79,
+        0.92
       ],
       "verdict": "on-track",
       "beats_model": false,
@@ -43,17 +43,17 @@
     {
       "kind": "or_gg",
       "label": "backed side or both teams score",
-      "settled": 64,
-      "pending": 103,
-      "wins": 53,
-      "losses": 11,
+      "settled": 72,
+      "pending": 95,
+      "wins": 60,
+      "losses": 12,
       "pushes": 0,
-      "n": 64,
-      "hit_rate": 0.8281,
-      "model_mean": 0.8562,
-      "edge_pp": -2.8,
+      "n": 72,
+      "hit_rate": 0.8333,
+      "model_mean": 0.8477,
+      "edge_pp": -1.44,
       "ci": [
-        0.74,
+        0.75,
         0.89
       ],
       "verdict": "on-track",
@@ -63,18 +63,18 @@
     {
       "kind": "win",
       "label": "backed side to win",
-      "settled": 64,
-      "pending": 103,
-      "wins": 43,
-      "losses": 21,
+      "settled": 72,
+      "pending": 95,
+      "wins": 47,
+      "losses": 25,
       "pushes": 0,
-      "n": 64,
-      "hit_rate": 0.6719,
-      "model_mean": 0.5555,
-      "edge_pp": 11.64,
+      "n": 72,
+      "hit_rate": 0.6528,
+      "model_mean": 0.5495,
+      "edge_pp": 10.33,
       "ci": [
-        0.57,
-        0.76
+        0.56,
+        0.74
       ],
       "verdict": "on-track",
       "beats_model": false,
@@ -83,18 +83,18 @@
     {
       "kind": "ah_give",
       "label": "backed side -AH (giving)",
-      "settled": 25,
-      "pending": 34,
-      "wins": 21,
-      "losses": 4,
+      "settled": 27,
+      "pending": 32,
+      "wins": 22,
+      "losses": 5,
       "pushes": 0,
-      "n": 25,
-      "hit_rate": 0.84,
-      "model_mean": 0.6534,
-      "edge_pp": 18.66,
+      "n": 27,
+      "hit_rate": 0.8148,
+      "model_mean": 0.6496,
+      "edge_pp": 16.53,
       "ci": [
-        0.68,
-        0.92
+        0.66,
+        0.9
       ],
       "verdict": "on-track",
       "beats_model": false,
@@ -117,33 +117,36 @@
       },
       {
         "band": "55%-70%",
-        "n": 0,
-        "wins": 0,
+        "n": 1,
+        "wins": 1,
         "losses": 0,
         "pushes": 0,
-        "pending": 4
+        "pending": 3,
+        "hit_rate": 1.0,
+        "model_mean": 0.564,
+        "edge_pp": 43.6
       },
       {
         "band": "70%-85%",
-        "n": 25,
-        "wins": 18,
+        "n": 29,
+        "wins": 22,
         "losses": 7,
         "pushes": 0,
-        "pending": 35,
-        "hit_rate": 0.72,
-        "model_mean": 0.7955,
-        "edge_pp": -7.55
+        "pending": 31,
+        "hit_rate": 0.7586,
+        "model_mean": 0.7917,
+        "edge_pp": -3.31
       },
       {
         "band": "85%-100%",
-        "n": 39,
-        "wins": 35,
-        "losses": 4,
+        "n": 42,
+        "wins": 37,
+        "losses": 5,
         "pushes": 0,
-        "pending": 64,
-        "hit_rate": 0.8974,
-        "model_mean": 0.895,
-        "edge_pp": 0.24
+        "pending": 61,
+        "hit_rate": 0.881,
+        "model_mean": 0.8931,
+        "edge_pp": -1.22
       }
     ],
     "dc": [
@@ -157,36 +160,36 @@
       },
       {
         "band": "55%-70%",
-        "n": 12,
-        "wins": 10,
+        "n": 13,
+        "wins": 11,
         "losses": 2,
         "pushes": 0,
-        "pending": 18,
-        "hit_rate": 0.8333,
-        "model_mean": 0.664,
-        "edge_pp": 16.93
+        "pending": 17,
+        "hit_rate": 0.8462,
+        "model_mean": 0.6664,
+        "edge_pp": 17.98
       },
       {
         "band": "70%-85%",
-        "n": 42,
-        "wins": 35,
+        "n": 48,
+        "wins": 41,
         "losses": 7,
         "pushes": 0,
-        "pending": 68,
-        "hit_rate": 0.8333,
-        "model_mean": 0.7885,
-        "edge_pp": 4.49
+        "pending": 62,
+        "hit_rate": 0.8542,
+        "model_mean": 0.7858,
+        "edge_pp": 6.84
       },
       {
         "band": "85%-100%",
-        "n": 10,
-        "wins": 10,
+        "n": 11,
+        "wins": 11,
         "losses": 0,
         "pushes": 0,
-        "pending": 17,
+        "pending": 16,
         "hit_rate": 1.0,
-        "model_mean": 0.8793,
-        "edge_pp": 12.07
+        "model_mean": 0.8767,
+        "edge_pp": 12.33
       }
     ],
     "dc1up": [
@@ -211,25 +214,25 @@
       },
       {
         "band": "70%-85%",
-        "n": 37,
-        "wins": 29,
+        "n": 43,
+        "wins": 35,
         "losses": 8,
         "pushes": 0,
-        "pending": 67,
-        "hit_rate": 0.7838,
-        "model_mean": 0.7899,
-        "edge_pp": -0.61
+        "pending": 61,
+        "hit_rate": 0.814,
+        "model_mean": 0.7891,
+        "edge_pp": 2.49
       },
       {
         "band": "85%-100%",
-        "n": 26,
-        "wins": 25,
+        "n": 28,
+        "wins": 27,
         "losses": 1,
         "pushes": 0,
-        "pending": 35,
-        "hit_rate": 0.9615,
-        "model_mean": 0.8812,
-        "edge_pp": 8.03
+        "pending": 33,
+        "hit_rate": 0.9643,
+        "model_mean": 0.8801,
+        "edge_pp": 8.42
       }
     ],
     "ah_give": [
@@ -243,14 +246,14 @@
       },
       {
         "band": "55%-70%",
-        "n": 20,
-        "wins": 16,
-        "losses": 4,
+        "n": 22,
+        "wins": 17,
+        "losses": 5,
         "pushes": 0,
-        "pending": 31,
-        "hit_rate": 0.8,
-        "model_mean": 0.6359,
-        "edge_pp": 16.41
+        "pending": 29,
+        "hit_rate": 0.7727,
+        "model_mean": 0.6328,
+        "edge_pp": 13.99
       },
       {
         "band": "70%-85%",
@@ -275,25 +278,25 @@
     "win": [
       {
         "band": "0%-55%",
-        "n": 26,
-        "wins": 14,
-        "losses": 12,
+        "n": 30,
+        "wins": 15,
+        "losses": 15,
         "pushes": 0,
-        "pending": 50,
-        "hit_rate": 0.5385,
-        "model_mean": 0.4525,
-        "edge_pp": 8.59
+        "pending": 46,
+        "hit_rate": 0.5,
+        "model_mean": 0.4473,
+        "edge_pp": 5.27
       },
       {
         "band": "55%-70%",
-        "n": 33,
-        "wins": 24,
-        "losses": 9,
+        "n": 37,
+        "wins": 27,
+        "losses": 10,
         "pushes": 0,
-        "pending": 49,
-        "hit_rate": 0.7273,
-        "model_mean": 0.6112,
-        "edge_pp": 11.61
+        "pending": 45,
+        "hit_rate": 0.7297,
+        "model_mean": 0.6088,
+        "edge_pp": 12.09
       },
       {
         "band": "70%-85%",
@@ -322,8 +325,8 @@
       "reasons": [
         "verdict is on-track, not under-implied"
       ],
-      "n": 64,
-      "edge_pp": 8.0,
+      "n": 72,
+      "edge_pp": 9.69,
       "verdict": "on-track"
     },
     "dc1up": {
@@ -331,18 +334,18 @@
       "reasons": [
         "verdict is on-track, not under-implied"
       ],
-      "n": 64,
-      "edge_pp": 3.44,
+      "n": 72,
+      "edge_pp": 5.23,
       "verdict": "on-track"
     },
     "or_gg": {
       "promote": false,
       "reasons": [
         "verdict is on-track, not under-implied",
-        "edge -2.8pp below the 2.0pp floor"
+        "edge -1.44pp below the 2.0pp floor"
       ],
-      "n": 64,
-      "edge_pp": -2.8,
+      "n": 72,
+      "edge_pp": -1.44,
       "verdict": "on-track"
     },
     "win": {
@@ -350,18 +353,18 @@
       "reasons": [
         "verdict is on-track, not under-implied"
       ],
-      "n": 64,
-      "edge_pp": 11.64,
+      "n": 72,
+      "edge_pp": 10.33,
       "verdict": "on-track"
     },
     "ah_give": {
       "promote": false,
       "reasons": [
-        "only 25 settled slots (need 30)",
+        "only 27 settled slots (need 30)",
         "verdict is on-track, not under-implied"
       ],
-      "n": 25,
-      "edge_pp": 18.66,
+      "n": 27,
+      "edge_pp": 16.53,
       "verdict": "on-track"
     }
   },
