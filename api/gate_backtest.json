@@ -1,34 +1,34 @@
 {
   "generator": "gsis.gate_backtest",
-  "matches_scanned": 61057,
+  "matches_scanned": 61153,
   "leagues_with_history": 161,
-  "structural_candidates": 7577,
-  "picks": 279,
+  "structural_candidates": 7591,
+  "picks": 278,
   "headline": {
-    "slots": 279,
-    "hit_rate": 83.2,
+    "slots": 278,
+    "hit_rate": 83.1,
     "loss_rate": 4.7,
     "draw_rate": 12.2,
     "non_loss_rate": 95.3,
-    "ci_lo": 79.1,
-    "ci_hi": 86.5,
+    "ci_lo": 79.0,
+    "ci_hi": 86.4,
     "model_mean": 75.1,
-    "edge_vs_model": 8.1
+    "edge_vs_model": 8.0
   },
   "floor_sweep": [
     {
-      "slots": 4059,
+      "slots": 4061,
       "hit_rate": 68.0,
       "loss_rate": 13.1,
       "draw_rate": 18.9,
       "non_loss_rate": 86.9,
-      "ci_lo": 66.8,
+      "ci_lo": 66.7,
       "ci_hi": 69.2,
       "floor": 0.6,
       "model_mean": 71.4
     },
     {
-      "slots": 3384,
+      "slots": 3387,
       "hit_rate": 69.7,
       "loss_rate": 12.4,
       "draw_rate": 17.9,
@@ -39,7 +39,7 @@
       "model_mean": 73.3
     },
     {
-      "slots": 3009,
+      "slots": 3011,
       "hit_rate": 71.2,
       "loss_rate": 11.7,
       "draw_rate": 17.2,
@@ -50,13 +50,13 @@
       "model_mean": 74.3
     },
     {
-      "slots": 2619,
+      "slots": 2620,
       "hit_rate": 71.3,
       "loss_rate": 11.6,
       "draw_rate": 17.1,
       "non_loss_rate": 88.4,
-      "ci_lo": 69.8,
-      "ci_hi": 72.7,
+      "ci_lo": 69.9,
+      "ci_hi": 72.8,
       "floor": 0.68,
       "model_mean": 75.4
     },
@@ -64,7 +64,7 @@
       "slots": 2208,
       "hit_rate": 72.9,
       "loss_rate": 10.6,
-      "draw_rate": 16.6,
+      "draw_rate": 16.5,
       "non_loss_rate": 89.4,
       "ci_lo": 71.3,
       "ci_hi": 74.4,
@@ -72,23 +72,23 @@
       "model_mean": 76.6
     },
     {
-      "slots": 1814,
+      "slots": 1813,
       "hit_rate": 73.5,
       "loss_rate": 10.0,
-      "draw_rate": 16.5,
+      "draw_rate": 16.4,
       "non_loss_rate": 90.0,
-      "ci_lo": 71.7,
-      "ci_hi": 75.1,
+      "ci_lo": 71.8,
+      "ci_hi": 75.2,
       "floor": 0.72,
       "model_mean": 77.8
     },
     {
       "slots": 1423,
-      "hit_rate": 73.6,
+      "hit_rate": 73.5,
       "loss_rate": 10.0,
       "draw_rate": 16.4,
       "non_loss_rate": 90.0,
-      "ci_lo": 71.6,
+      "ci_lo": 71.5,
       "ci_hi": 75.4,
       "floor": 0.74,
       "model_mean": 79.2
@@ -98,7 +98,7 @@
     {
       "floor": 0.6,
       "home": {
-        "slots": 3245,
+        "slots": 3247,
         "hit_rate": 69.4,
         "loss_rate": 12.1,
         "draw_rate": 18.5,
@@ -107,55 +107,55 @@
       },
       "away": {
         "slots": 814,
-        "hit_rate": 62.3,
-        "loss_rate": 17.0,
-        "draw_rate": 20.8,
-        "non_loss_rate": 83.0,
+        "hit_rate": 62.2,
+        "loss_rate": 17.2,
+        "draw_rate": 20.6,
+        "non_loss_rate": 82.8,
         "model_mean": 67.3
       }
     },
     {
       "floor": 0.64,
       "home": {
-        "slots": 2855,
-        "hit_rate": 70.5,
-        "loss_rate": 11.8,
+        "slots": 2857,
+        "hit_rate": 70.6,
+        "loss_rate": 11.7,
         "draw_rate": 17.7,
-        "non_loss_rate": 88.2,
+        "non_loss_rate": 88.3,
         "model_mean": 73.9
       },
       "away": {
-        "slots": 529,
-        "hit_rate": 65.4,
-        "loss_rate": 15.5,
-        "draw_rate": 19.1,
-        "non_loss_rate": 84.5,
+        "slots": 530,
+        "hit_rate": 65.3,
+        "loss_rate": 15.8,
+        "draw_rate": 18.9,
+        "non_loss_rate": 84.2,
         "model_mean": 70.2
       }
     },
     {
       "floor": 0.66,
       "home": {
-        "slots": 2612,
-        "hit_rate": 71.6,
-        "loss_rate": 11.4,
+        "slots": 2614,
+        "hit_rate": 71.7,
+        "loss_rate": 11.3,
         "draw_rate": 17.0,
-        "non_loss_rate": 88.6,
+        "non_loss_rate": 88.7,
         "model_mean": 74.7
       },
       "away": {
         "slots": 397,
         "hit_rate": 68.0,
-        "loss_rate": 13.6,
-        "draw_rate": 18.4,
-        "non_loss_rate": 86.4,
-        "model_mean": 72.0
+        "loss_rate": 13.9,
+        "draw_rate": 18.1,
+        "non_loss_rate": 86.1,
+        "model_mean": 71.9
       }
     },
     {
       "floor": 0.68,
       "home": {
-        "slots": 2332,
+        "slots": 2333,
         "hit_rate": 71.7,
         "loss_rate": 11.2,
         "draw_rate": 17.1,
@@ -165,10 +165,10 @@
       "away": {
         "slots": 287,
         "hit_rate": 68.3,
-        "loss_rate": 14.3,
-        "draw_rate": 17.4,
-        "non_loss_rate": 85.7,
-        "model_mean": 73.9
+        "loss_rate": 14.6,
+        "draw_rate": 17.1,
+        "non_loss_rate": 85.4,
+        "model_mean": 73.8
       }
     },
     {
@@ -184,10 +184,10 @@
       "away": {
         "slots": 216,
         "hit_rate": 68.1,
-        "loss_rate": 14.4,
-        "draw_rate": 17.6,
-        "non_loss_rate": 85.6,
-        "model_mean": 75.5
+        "loss_rate": 14.8,
+        "draw_rate": 17.1,
+        "non_loss_rate": 85.2,
+        "model_mean": 75.4
       }
     },
     {
@@ -201,18 +201,18 @@
         "model_mean": 78.0
       },
       "away": {
-        "slots": 168,
-        "hit_rate": 67.9,
-        "loss_rate": 13.7,
-        "draw_rate": 18.5,
-        "non_loss_rate": 86.3,
+        "slots": 167,
+        "hit_rate": 68.3,
+        "loss_rate": 14.4,
+        "draw_rate": 17.4,
+        "non_loss_rate": 85.6,
         "model_mean": 76.7
       }
     },
     {
       "floor": 0.74,
       "home": {
-        "slots": 1304,
+        "slots": 1303,
         "hit_rate": 74.0,
         "loss_rate": 9.5,
         "draw_rate": 16.5,
@@ -220,29 +220,29 @@
         "model_mean": 79.3
       },
       "away": {
-        "slots": 119,
-        "hit_rate": 68.9,
-        "loss_rate": 15.1,
-        "draw_rate": 16.0,
-        "non_loss_rate": 84.9,
-        "model_mean": 78.3
+        "slots": 120,
+        "hit_rate": 68.3,
+        "loss_rate": 15.8,
+        "draw_rate": 15.8,
+        "non_loss_rate": 84.2,
+        "model_mean": 78.2
       }
     }
   ],
   "interventions": [
     {
-      "slots": 279,
-      "wins": 232,
-      "hit_rate": 83.2,
+      "slots": 278,
+      "wins": 231,
+      "hit_rate": 83.1,
       "loss_rate": 4.7,
       "draw_rate": 12.2,
       "recall": 5.1,
       "model_mean": 77.9,
       "rule": "incumbent",
       "desc": "the live gate exactly as shipped (per-league adaptive floors)",
-      "bench_slots": 279,
-      "bench_hit_rate": 83.2,
-      "bench_wins": 232,
+      "bench_slots": 278,
+      "bench_hit_rate": 83.1,
+      "bench_wins": 231,
       "delta_precision": 0.0,
       "delta_wins": 0,
       "delta_band90": 5.2,
@@ -253,32 +253,32 @@
       "wins": 1609,
       "hit_rate": 72.9,
       "loss_rate": 10.6,
-      "draw_rate": 16.6,
+      "draw_rate": 16.5,
       "recall": 35.5,
       "model_mean": 76.6,
       "rule": "flat_70",
       "desc": "blunt global lift to 0.70 for every league, no per-league knowledge",
-      "bench_slots": 279,
-      "bench_hit_rate": 83.2,
-      "bench_wins": 232,
-      "delta_precision": -10.3,
-      "delta_wins": 1377,
+      "bench_slots": 278,
+      "bench_hit_rate": 83.1,
+      "bench_wins": 231,
+      "delta_precision": -10.2,
+      "delta_wins": 1378,
       "delta_band90": 4.0,
       "beats_incumbent": false
     },
     {
       "slots": 1423,
-      "wins": 1047,
-      "hit_rate": 73.6,
+      "wins": 1046,
+      "hit_rate": 73.5,
       "loss_rate": 10.0,
       "draw_rate": 16.4,
       "recall": 23.1,
       "model_mean": 79.2,
       "rule": "flat_74",
       "desc": "blunt global lift to 0.74 for every league, no per-league knowledge",
-      "bench_slots": 279,
-      "bench_hit_rate": 83.2,
-      "bench_wins": 232,
+      "bench_slots": 278,
+      "bench_hit_rate": 83.1,
+      "bench_wins": 231,
       "delta_precision": -9.6,
       "delta_wins": 815,
       "delta_band90": 4.2,
@@ -289,16 +289,16 @@
       "wins": 1604,
       "hit_rate": 73.0,
       "loss_rate": 10.5,
-      "draw_rate": 16.6,
+      "draw_rate": 16.5,
       "recall": 35.4,
       "model_mean": 76.6,
       "rule": "reliable_70",
       "desc": "Elite keeps its own floor, Reliable-tier picks held to 0.70",
-      "bench_slots": 279,
-      "bench_hit_rate": 83.2,
-      "bench_wins": 232,
-      "delta_precision": -10.2,
-      "delta_wins": 1372,
+      "bench_slots": 278,
+      "bench_hit_rate": 83.1,
+      "bench_wins": 231,
+      "delta_precision": -10.1,
+      "delta_wins": 1373,
       "delta_band90": 4.0,
       "beats_incumbent": false
     },
@@ -306,17 +306,17 @@
       "slots": 1610,
       "wins": 1180,
       "hit_rate": 73.3,
-      "loss_rate": 10.3,
-      "draw_rate": 16.4,
-      "recall": 26.1,
+      "loss_rate": 10.4,
+      "draw_rate": 16.3,
+      "recall": 26.0,
       "model_mean": 78.4,
       "rule": "reliable_74",
       "desc": "Elite keeps its own floor, Reliable-tier picks held to 0.74",
-      "bench_slots": 279,
-      "bench_hit_rate": 83.2,
-      "bench_wins": 232,
-      "delta_precision": -9.9,
-      "delta_wins": 948,
+      "bench_slots": 278,
+      "bench_hit_rate": 83.1,
+      "bench_wins": 231,
+      "delta_precision": -9.8,
+      "delta_wins": 949,
       "delta_band90": 4.1,
       "beats_incumbent": false
     },
@@ -324,17 +324,17 @@
       "slots": 1201,
       "wins": 895,
       "hit_rate": 74.5,
-      "loss_rate": 10.0,
-      "draw_rate": 15.5,
-      "recall": 19.8,
+      "loss_rate": 10.1,
+      "draw_rate": 15.4,
+      "recall": 19.7,
       "model_mean": 79.2,
       "rule": "reliable_78",
       "desc": "Elite keeps its own floor, Reliable-tier picks held to 0.78",
-      "bench_slots": 279,
-      "bench_hit_rate": 83.2,
-      "bench_wins": 232,
-      "delta_precision": -8.7,
-      "delta_wins": 663,
+      "bench_slots": 278,
+      "bench_hit_rate": 83.1,
+      "bench_wins": 231,
+      "delta_precision": -8.6,
+      "delta_wins": 664,
       "delta_band90": 4.2,
       "beats_incumbent": false
     },
@@ -348,29 +348,29 @@
       "model_mean": 76.8,
       "rule": "away_70",
       "desc": "home keeps its own floor, away picks held to 0.70",
-      "bench_slots": 279,
-      "bench_hit_rate": 83.2,
-      "bench_wins": 232,
-      "delta_precision": -9.9,
-      "delta_wins": 1346,
+      "bench_slots": 278,
+      "bench_hit_rate": 83.1,
+      "bench_wins": 231,
+      "delta_precision": -9.8,
+      "delta_wins": 1347,
       "delta_band90": 4.0,
       "beats_incumbent": false
     },
     {
-      "slots": 2056,
+      "slots": 2057,
       "wins": 1513,
       "hit_rate": 73.6,
-      "loss_rate": 10.0,
+      "loss_rate": 10.1,
       "draw_rate": 16.4,
       "recall": 33.4,
       "model_mean": 77.0,
       "rule": "away_74",
       "desc": "home keeps its own floor, away picks held to 0.74",
-      "bench_slots": 279,
-      "bench_hit_rate": 83.2,
-      "bench_wins": 232,
-      "delta_precision": -9.6,
-      "delta_wins": 1281,
+      "bench_slots": 278,
+      "bench_hit_rate": 83.1,
+      "bench_wins": 231,
+      "delta_precision": -9.5,
+      "delta_wins": 1282,
       "delta_band90": 4.0,
       "beats_incumbent": false
     },
@@ -393,56 +393,56 @@
       "beats_incumbent": false
     },
     {
-      "slots": 279,
-      "wins": 232,
-      "hit_rate": 83.2,
+      "slots": 278,
+      "wins": 231,
+      "hit_rate": 83.1,
       "loss_rate": 4.7,
       "draw_rate": 12.2,
       "recall": 5.1,
       "model_mean": 77.9,
       "rule": "drop_upset_leagues",
       "desc": "incumbent minus the 0 league(s) where the strong side loses >=35%",
-      "bench_slots": 279,
-      "bench_hit_rate": 83.2,
-      "bench_wins": 232,
+      "bench_slots": 278,
+      "bench_hit_rate": 83.1,
+      "bench_wins": 231,
       "delta_precision": 0.0,
       "delta_wins": 0,
       "delta_band90": 5.2,
       "beats_incumbent": false
     },
     {
-      "slots": 279,
-      "wins": 232,
-      "hit_rate": 83.2,
+      "slots": 278,
+      "wins": 231,
+      "hit_rate": 83.1,
       "loss_rate": 4.7,
       "draw_rate": 12.2,
       "recall": 5.1,
       "model_mean": 77.9,
       "rule": "drop_draw_traps",
       "desc": "incumbent minus the 0 league(s) drawing >=45%",
-      "bench_slots": 279,
-      "bench_hit_rate": 83.2,
-      "bench_wins": 232,
+      "bench_slots": 278,
+      "bench_hit_rate": 83.1,
+      "bench_wins": 231,
       "delta_precision": 0.0,
       "delta_wins": 0,
       "delta_band90": 5.2,
       "beats_incumbent": false
     },
     {
-      "slots": 7542,
-      "wins": 4519,
+      "slots": 7556,
+      "wins": 4526,
       "hit_rate": 59.9,
-      "loss_rate": 17.9,
+      "loss_rate": 18.0,
       "draw_rate": 22.1,
       "recall": 99.8,
       "model_mean": 60.2,
       "rule": "publish_everything",
       "desc": "no probability floor at all \u2014 the upper bound on recall",
-      "bench_slots": 279,
-      "bench_hit_rate": 83.2,
-      "bench_wins": 232,
-      "delta_precision": -23.3,
-      "delta_wins": 4287,
+      "bench_slots": 278,
+      "bench_hit_rate": 83.1,
+      "bench_wins": 231,
+      "delta_precision": -23.2,
+      "delta_wins": 4295,
       "delta_band90": 3.8,
       "beats_incumbent": false
     }
@@ -450,12 +450,12 @@
   "calibration_curve": [
     {
       "band": "50-55%",
-      "slots": 2755,
+      "slots": 2767,
       "predicted": 50.6,
       "realized": 48.3,
       "loss_rate": 25.0,
       "gap": 2.3,
-      "predicted_p": 0.506124,
+      "predicted_p": 0.506137,
       "realized_p": 0.483
     },
     {
@@ -465,58 +465,58 @@
       "realized": 57.5,
       "loss_rate": 19.4,
       "gap": 0.0,
-      "predicted_p": 0.575239,
+      "predicted_p": 0.575191,
       "realized_p": 0.575
     },
     {
       "band": "60-65%",
       "slots": 858,
       "predicted": 62.6,
-      "realized": 58.0,
-      "loss_rate": 17.6,
-      "gap": 4.6,
-      "predicted_p": 0.625866,
-      "realized_p": 0.58
+      "realized": 57.9,
+      "loss_rate": 17.7,
+      "gap": 4.7,
+      "predicted_p": 0.625869,
+      "realized_p": 0.579
     },
     {
       "band": "65-70%",
-      "slots": 993,
+      "slots": 995,
       "predicted": 67.5,
       "realized": 65.7,
-      "loss_rate": 14.8,
+      "loss_rate": 14.7,
       "gap": 1.8,
-      "predicted_p": 0.675382,
+      "predicted_p": 0.67539,
       "realized_p": 0.657
     },
     {
       "band": "70-75%",
-      "slots": 338,
+      "slots": 340,
       "predicted": 74.1,
-      "realized": 68.3,
-      "loss_rate": 13.6,
-      "gap": 5.8,
-      "predicted_p": 0.741481,
-      "realized_p": 0.683
+      "realized": 67.9,
+      "loss_rate": 13.8,
+      "gap": 6.2,
+      "predicted_p": 0.741471,
+      "realized_p": 0.679
     },
     {
       "band": "75-80%",
       "slots": 898,
       "predicted": 77.4,
-      "realized": 73.1,
+      "realized": 73.2,
       "loss_rate": 10.1,
-      "gap": 4.3,
-      "predicted_p": 0.77418,
-      "realized_p": 0.731
+      "gap": 4.2,
+      "predicted_p": 0.774225,
+      "realized_p": 0.732
     },
     {
       "band": "80-90%",
-      "slots": 900,
+      "slots": 898,
       "predicted": 83.7,
-      "realized": 74.2,
+      "realized": 74.3,
       "loss_rate": 9.9,
-      "gap": 9.5,
-      "predicted_p": 0.836788,
-      "realized_p": 0.742
+      "gap": 9.4,
+      "predicted_p": 0.836821,
+      "realized_p": 0.743
     },
     {
       "band": "90-100%",
@@ -536,72 +536,72 @@
     "min_gap": 0.0,
     "max_gap": 17.0,
     "spread": 17.0,
-    "slope_pp_per_pp": 0.335,
+    "slope_pp_per_pp": 0.333,
     "remedy": "shrink toward the base rate on the log-odds scale (slope < 1); an additive shift would over-correct the low end and under-correct the high end"
   },
   "prior_impact": {
     "available": true,
     "prior": {
-      "slope": 0.7213,
-      "intercept": -0.0196,
+      "slope": 0.7235,
+      "intercept": -0.0211,
       "kappa": 40.0,
       "points": 8,
-      "samples": 7577,
+      "samples": 7591,
       "source": "gate_backtest.calibration_curve (Elo route, no look-ahead)",
       "caveat": "fitted on the pick-gate replay's Elo-from-strength route, not the live DC-priced route, so it is a PRIOR: the live buckets override it as soon as they hold more settled evidence of their own. Not applied to published probabilities or to selection until that trade-off is signed off.",
       "applied": false
     },
     "mean_before": 80.8,
     "mean_after": 74.0,
-    "picks_before": 279,
-    "picks_after": 211,
-    "picks_kept_pct": 75.6,
-    "wins_before": 232,
-    "wins_after": 179,
+    "picks_before": 278,
+    "picks_after": 210,
+    "picks_kept_pct": 75.5,
+    "wins_before": 231,
+    "wins_after": 178,
     "hit_rate_after": 84.8,
-    "hit_rate_before": 83.2
+    "hit_rate_before": 83.1
   },
   "dc_headline": {
-    "slots": 279,
-    "hit_rate": 83.2,
+    "slots": 278,
+    "hit_rate": 83.1,
     "loss_rate": 4.7,
     "draw_rate": 12.2,
     "non_loss_rate": 95.3,
-    "ci_lo": 79.1,
-    "ci_hi": 86.5
+    "ci_lo": 79.0,
+    "ci_hi": 86.4
   },
-  "dc_picks": 279,
-  "dc_pool": 7533,
+  "dc_picks": 278,
+  "dc_pool": 7547,
   "calibration_curve_dc": [
     {
       "band": "50-55%",
-      "slots": 5307,
+      "slots": 5319,
       "predicted": 50.6,
       "realized": 55.0,
-      "loss_rate": 20.8,
+      "loss_rate": 20.9,
       "gap": -4.4,
-      "predicted_p": 0.50562,
+      "predicted_p": 0.50561,
       "realized_p": 0.55
     },
     {
       "band": "55-60%",
-      "slots": 930,
+      "slots": 931,
       "predicted": 57.4,
       "realized": 66.6,
       "loss_rate": 14.2,
       "gap": -9.2,
-      "predicted_p": 0.573851,
+      "predicted_p": 0.573843,
       "realized_p": 0.666
     },
     {
       "band": "60-65%",
-      "slots": 666,
+      "slots": 668,
       "predicted": 62.4,
-      "realized": 69.2,
-      "loss_rate": 12.2,
-      "gap": -6.8,
-      "predicted_p": 0.624327,
-      "realized_p": 0.692
+      "realized": 69.5,
+      "loss_rate": 12.1,
+      "gap": -7.1,
+      "predicted_p": 0.624283,
+      "realized_p": 0.695
     },
     {
       "band": "65-70%",
@@ -610,7 +610,7 @@
       "realized": 75.4,
       "loss_rate": 8.7,
       "gap": -8.1,
-      "predicted_p": 0.672672,
+      "predicted_p": 0.672679,
       "realized_p": 0.754
     },
     {
@@ -625,13 +625,13 @@
     },
     {
       "band": "75-80%",
-      "slots": 126,
+      "slots": 125,
       "predicted": 76.9,
-      "realized": 78.6,
+      "realized": 78.4,
       "loss_rate": 5.6,
-      "gap": -1.7,
-      "predicted_p": 0.769313,
-      "realized_p": 0.786
+      "gap": -1.5,
+      "predicted_p": 0.769406,
+      "realized_p": 0.784
     },
     {
       "band": "80-90%",
@@ -659,47 +659,47 @@
     "n_bands": 8,
     "mean_gap": -6.5,
     "min_gap": -9.2,
-    "max_gap": -1.7,
-    "spread": 7.5,
-    "slope_pp_per_pp": 0.009,
+    "max_gap": -1.5,
+    "spread": 7.7,
+    "slope_pp_per_pp": 0.012,
     "remedy": "shrink toward the base rate on the log-odds scale (slope < 1); an additive shift would over-correct the low end and under-correct the high end"
   },
   "prior_impact_dc": {
     "available": true,
     "prior": {
-      "slope": 1.1939,
-      "intercept": 0.1956,
+      "slope": 1.1967,
+      "intercept": 0.1963,
       "kappa": 40.0,
       "points": 7,
-      "samples": 7528,
+      "samples": 7542,
       "source": "gate_backtest.calibration_curve (Elo route, no look-ahead)",
       "caveat": "fitted on the pick-gate replay's Elo-from-strength route, not the live DC-priced route, so it is a PRIOR: the live buckets override it as soon as they hold more settled evidence of their own. Not applied to published probabilities or to selection until that trade-off is signed off.",
       "applied": false
     },
     "mean_before": 78.4,
     "mean_after": 84.9,
-    "picks_before": 279,
-    "picks_after": 279,
+    "picks_before": 278,
+    "picks_after": 278,
     "picks_kept_pct": 100.0,
-    "wins_before": 232,
-    "wins_after": 232,
-    "hit_rate_after": 83.2,
-    "hit_rate_before": 83.2
+    "wins_before": 231,
+    "wins_after": 231,
+    "hit_rate_after": 83.1,
+    "hit_rate_before": 83.1
   },
   "route_comparison": {
     "question": "is the overconfidence structural or route-specific?",
-    "fixtures_both_routes": 7533,
+    "fixtures_both_routes": 7547,
     "coverage_pct": 99.4,
     "elo": {
       "curve": [
         {
           "band": "50-55%",
-          "slots": 2755,
+          "slots": 2767,
           "predicted": 50.6,
           "realized": 48.3,
           "loss_rate": 25.0,
           "gap": 2.3,
-          "predicted_p": 0.506124,
+          "predicted_p": 0.506137,
           "realized_p": 0.483
         },
         {
@@ -709,58 +709,58 @@
           "realized": 57.5,
           "loss_rate": 19.4,
           "gap": 0.0,
-          "predicted_p": 0.575239,
+          "predicted_p": 0.575191,
           "realized_p": 0.575
         },
         {
           "band": "60-65%",
           "slots": 858,
           "predicted": 62.6,
-          "realized": 58.0,
-          "loss_rate": 17.6,
-          "gap": 4.6,
-          "predicted_p": 0.625866,
-          "realized_p": 0.58
+          "realized": 57.9,
+          "loss_rate": 17.7,
+          "gap": 4.7,
+          "predicted_p": 0.625869,
+          "realized_p": 0.579
         },
         {
           "band": "65-70%",
-          "slots": 993,
+          "slots": 995,
           "predicted": 67.5,
           "realized": 65.7,
-          "loss_rate": 14.8,
+          "loss_rate": 14.7,
           "gap": 1.8,
-          "predicted_p": 0.675382,
+          "predicted_p": 0.67539,
           "realized_p": 0.657
         },
         {
           "band": "70-75%",
-          "slots": 338,
+          "slots": 340,
           "predicted": 74.1,
-          "realized": 68.3,
-          "loss_rate": 13.6,
-          "gap": 5.8,
-          "predicted_p": 0.741481,
-          "realized_p": 0.683
+          "realized": 67.9,
+          "loss_rate": 13.8,
+          "gap": 6.2,
+          "predicted_p": 0.741471,
+          "realized_p": 0.679
         },
         {
           "band": "75-80%",
           "slots": 898,
           "predicted": 77.4,
-          "realized": 73.1,
+          "realized": 73.2,
           "loss_rate": 10.1,
-          "gap": 4.3,
-          "predicted_p": 0.77418,
-          "realized_p": 0.731
+          "gap": 4.2,
+          "predicted_p": 0.774225,
+          "realized_p": 0.732
         },
         {
           "band": "80-90%",
-          "slots": 900,
+          "slots": 898,
           "predicted": 83.7,
-          "realized": 74.2,
+          "realized": 74.3,
           "loss_rate": 9.9,
-          "gap": 9.5,
-          "predicted_p": 0.836788,
-          "realized_p": 0.742
+          "gap": 9.4,
+          "predicted_p": 0.836821,
+          "realized_p": 0.743
         },
         {
           "band": "90-100%",
@@ -780,13 +780,13 @@
         "min_gap": 0.0,
         "max_gap": 17.0,
         "spread": 17.0,
-        "slope_pp_per_pp": 0.335,
+        "slope_pp_per_pp": 0.333,
         "remedy": "shrink toward the base rate on the log-odds scale (slope < 1); an additive shift would over-correct the low end and under-correct the high end"
       },
       "prior": {
-        "slope": 0.7213,
-        "intercept": -0.0196,
-        "samples": 7577
+        "slope": 0.7235,
+        "intercept": -0.0211,
+        "samples": 7591
       },
       "picks": 2149,
       "hit_rate": 73.4,
@@ -797,33 +797,33 @@
       "curve": [
         {
           "band": "50-55%",
-          "slots": 5307,
+          "slots": 5319,
           "predicted": 50.6,
           "realized": 55.0,
-          "loss_rate": 20.8,
+          "loss_rate": 20.9,
           "gap": -4.4,
-          "predicted_p": 0.50562,
+          "predicted_p": 0.50561,
           "realized_p": 0.55
         },
         {
           "band": "55-60%",
-          "slots": 930,
+          "slots": 931,
           "predicted": 57.4,
           "realized": 66.6,
           "loss_rate": 14.2,
           "gap": -9.2,
-          "predicted_p": 0.573851,
+          "predicted_p": 0.573843,
           "realized_p": 0.666
         },
         {
           "band": "60-65%",
-          "slots": 666,
+          "slots": 668,
           "predicted": 62.4,
-          "realized": 69.2,
-          "loss_rate": 12.2,
-          "gap": -6.8,
-          "predicted_p": 0.624327,
-          "realized_p": 0.692
+          "realized": 69.5,
+          "loss_rate": 12.1,
+          "gap": -7.1,
+          "predicted_p": 0.624283,
+          "realized_p": 0.695
         },
         {
           "band": "65-70%",
@@ -832,7 +832,7 @@
           "realized": 75.4,
           "loss_rate": 8.7,
           "gap": -8.1,
-          "predicted_p": 0.672672,
+          "predicted_p": 0.672679,
           "realized_p": 0.754
         },
         {
@@ -847,13 +847,13 @@
         },
         {
           "band": "75-80%",
-          "slots": 126,
+          "slots": 125,
           "predicted": 76.9,
-          "realized": 78.6,
+          "realized": 78.4,
           "loss_rate": 5.6,
-          "gap": -1.7,
-          "predicted_p": 0.769313,
-          "realized_p": 0.786
+          "gap": -1.5,
+          "predicted_p": 0.769406,
+          "realized_p": 0.784
         },
         {
           "band": "80-90%",
@@ -881,20 +881,20 @@
         "n_bands": 8,
         "mean_gap": -6.5,
         "min_gap": -9.2,
-        "max_gap": -1.7,
-        "spread": 7.5,
-        "slope_pp_per_pp": 0.009,
+        "max_gap": -1.5,
+        "spread": 7.7,
+        "slope_pp_per_pp": 0.012,
         "remedy": "shrink toward the base rate on the log-odds scale (slope < 1); an additive shift would over-correct the low end and under-correct the high end"
       },
       "prior": {
-        "slope": 1.1939,
-        "intercept": 0.1956,
-        "samples": 7528
+        "slope": 1.1967,
+        "intercept": 0.1963,
+        "samples": 7542
       },
-      "picks": 279,
-      "hit_rate": 83.2,
+      "picks": 278,
+      "hit_rate": 83.1,
       "model_mean": 75.1,
-      "edge": 8.1
+      "edge": 8.0
     },
     "route_disagreement_pp": {
       "median": 11.9,
@@ -902,22 +902,22 @@
       "max": 43.6
     },
     "slope_delta": 0.473,
-    "verdict": "DC prices more sharply than Elo (slope 1.19 vs 0.72) \u2014 the overconfidence is largely a property of the Elo fallback, and a prior fitted on it would over-haircut DC-priced picks"
+    "verdict": "DC prices more sharply than Elo (slope 1.20 vs 0.72) \u2014 the overconfidence is largely a property of the Elo fallback, and a prior fitted on it would over-haircut DC-priced picks"
   },
   "dc_floor_sweep": [
     {
-      "slots": 1296,
-      "hit_rate": 73.8,
+      "slots": 1297,
+      "hit_rate": 73.9,
       "loss_rate": 9.7,
-      "draw_rate": 16.4,
+      "draw_rate": 16.3,
       "non_loss_rate": 90.3,
-      "ci_lo": 71.8,
-      "ci_hi": 75.8,
+      "ci_lo": 71.9,
+      "ci_hi": 75.9,
       "floor": 0.6,
       "model_mean": 66.5
     },
     {
-      "slots": 759,
+      "slots": 758,
       "hit_rate": 77.3,
       "loss_rate": 7.5,
       "draw_rate": 15.2,
@@ -928,46 +928,46 @@
       "model_mean": 69.7
     },
     {
-      "slots": 545,
-      "hit_rate": 79.3,
+      "slots": 544,
+      "hit_rate": 79.2,
       "loss_rate": 6.8,
-      "draw_rate": 13.9,
+      "draw_rate": 14.0,
       "non_loss_rate": 93.2,
       "ci_lo": 76.2,
-      "ci_hi": 82.0,
+      "ci_hi": 81.9,
       "floor": 0.66,
       "model_mean": 71.6
     },
     {
-      "slots": 400,
-      "hit_rate": 79.5,
-      "loss_rate": 7.2,
-      "draw_rate": 13.2,
-      "non_loss_rate": 92.8,
-      "ci_lo": 76.0,
-      "ci_hi": 82.6,
+      "slots": 399,
+      "hit_rate": 79.4,
+      "loss_rate": 7.3,
+      "draw_rate": 13.3,
+      "non_loss_rate": 92.7,
+      "ci_lo": 75.9,
+      "ci_hi": 82.5,
       "floor": 0.68,
       "model_mean": 73.2
     },
     {
-      "slots": 285,
-      "hit_rate": 82.8,
+      "slots": 284,
+      "hit_rate": 82.7,
       "loss_rate": 5.3,
-      "draw_rate": 11.9,
+      "draw_rate": 12.0,
       "non_loss_rate": 94.7,
-      "ci_lo": 78.8,
+      "ci_lo": 78.7,
       "ci_hi": 86.1,
       "floor": 0.7,
       "model_mean": 75.0
     },
     {
-      "slots": 199,
-      "hit_rate": 83.9,
+      "slots": 198,
+      "hit_rate": 83.8,
       "loss_rate": 4.5,
       "draw_rate": 11.6,
       "non_loss_rate": 95.5,
-      "ci_lo": 79.1,
-      "ci_hi": 87.7,
+      "ci_lo": 79.0,
+      "ci_hi": 87.6,
       "floor": 0.72,
       "model_mean": 76.7
     },
@@ -984,51 +984,51 @@
     }
   ],
   "route_head_to_head": {
-    "equal_count": 279,
+    "equal_count": 278,
     "views": [
       {
         "route": "DC (as configured, 0.70 floor)",
-        "slots": 279,
-        "hits": 232,
-        "hit_rate": 83.2,
+        "slots": 278,
+        "hits": 231,
+        "hit_rate": 83.1,
         "loss_rate": 4.7,
         "model_mean": 75.1,
-        "edge": 8.1,
-        "ci_lo": 79.1,
-        "ci_hi": 86.5
+        "edge": 8.0,
+        "ci_lo": 79.0,
+        "ci_hi": 86.4
       },
       {
         "route": "Elo (as configured floor)",
         "slots": 2149,
         "hits": 1577,
         "hit_rate": 73.4,
-        "loss_rate": 10.1,
+        "loss_rate": 10.2,
         "model_mean": 76.8,
         "edge": -3.4,
         "ci_lo": 71.8,
         "ci_hi": 74.9
       },
       {
-        "route": "Elo trimmed to DC's 279 picks",
-        "slots": 279,
-        "hits": 218,
+        "route": "Elo trimmed to DC's 278 picks",
+        "slots": 278,
+        "hits": 217,
         "hit_rate": 78.1,
-        "loss_rate": 9.3,
+        "loss_rate": 9.4,
         "model_mean": 85.4,
         "edge": -7.3,
-        "ci_lo": 73.8,
-        "ci_hi": 81.9
+        "ci_lo": 73.7,
+        "ci_hi": 81.8
       },
       {
-        "route": "DC trimmed to Elo's 279 picks",
-        "slots": 279,
-        "hits": 232,
-        "hit_rate": 83.2,
+        "route": "DC trimmed to Elo's 278 picks",
+        "slots": 278,
+        "hits": 231,
+        "hit_rate": 83.1,
         "loss_rate": 4.7,
         "model_mean": 75.1,
-        "edge": 8.1,
-        "ci_lo": 79.1,
-        "ci_hi": 86.5
+        "edge": 8.0,
+        "ci_lo": 79.0,
+        "ci_hi": 86.4
       }
     ],
     "note": "same fixtures, same gate, same shaves - only the pricing route differs"
@@ -1037,46 +1037,46 @@
     "buckets": [
       {
         "disagreement_pp": "0-5",
-        "slots": 1661,
+        "slots": 1664,
         "elo_says": 50.2,
         "dc_says": 49.5,
-        "actually": 53.5,
-        "elo_error": -3.3,
-        "dc_error": -4.0,
-        "actual_ci": "51.5-55.5%",
+        "actually": 53.6,
+        "elo_error": -3.4,
+        "dc_error": -4.1,
+        "actual_ci": "51.6-55.6%",
         "closer": "Elo"
       },
       {
         "disagreement_pp": "5-10",
-        "slots": 1558,
+        "slots": 1565,
         "elo_says": 54.3,
         "dc_says": 50.4,
-        "actually": 57.8,
-        "elo_error": -3.5,
-        "dc_error": -7.4,
-        "actual_ci": "55.7-59.8%",
+        "actually": 57.6,
+        "elo_error": -3.3,
+        "dc_error": -7.2,
+        "actual_ci": "55.6-59.7%",
         "closer": "Elo"
       },
       {
         "disagreement_pp": "10-20",
-        "slots": 2592,
+        "slots": 2595,
         "elo_says": 62.7,
         "dc_says": 50.6,
         "actually": 62.2,
         "elo_error": 0.5,
         "dc_error": -11.6,
-        "actual_ci": "60.6-63.7%",
+        "actual_ci": "60.7-63.8%",
         "closer": "Elo"
       },
       {
         "disagreement_pp": "20-100",
-        "slots": 1722,
+        "slots": 1723,
         "elo_says": 70.8,
         "dc_says": 46.1,
-        "actually": 63.6,
-        "elo_error": 7.2,
-        "dc_error": -17.5,
-        "actual_ci": "61.7-65.5%",
+        "actually": 63.5,
+        "elo_error": 7.3,
+        "dc_error": -17.4,
+        "actual_ci": "61.6-65.4%",
         "closer": "Elo"
       }
     ],
@@ -1086,17 +1086,17 @@
   },
   "dc_floor_ab": {
     "one_floor": {
-      "slots": 279,
-      "hit_rate": 83.2,
+      "slots": 278,
+      "hit_rate": 83.1,
       "loss_rate": 4.7,
       "draw_rate": 12.2,
       "non_loss_rate": 95.3,
-      "ci_lo": 79.1,
-      "ci_hi": 86.5,
+      "ci_lo": 79.0,
+      "ci_hi": 86.4,
       "model_mean": 75.1
     },
     "with_relaxation": {
-      "slots": 1011,
+      "slots": 1009,
       "hit_rate": 74.4,
       "loss_rate": 9.0,
       "draw_rate": 16.6,
@@ -1105,10 +1105,10 @@
       "ci_hi": 76.6,
       "model_mean": 68.0
     },
-    "extra_fixtures_relaxation_admitted": 732,
-    "hit_rate_delta": 8.8,
+    "extra_fixtures_relaxation_admitted": 731,
+    "hit_rate_delta": 8.7,
     "loss_rate_delta": -4.3,
-    "verdict": "the relaxation admitted 732 extra fixtures that were worse on hit rate, loss rate and non-loss rate alike \u2014 it was buying volume, not accuracy"
+    "verdict": "the relaxation admitted 731 extra fixtures that were worse on hit rate, loss rate and non-loss rate alike \u2014 it was buying volume, not accuracy"
   },
   "draw_risk": {
     "elo": {
@@ -1116,31 +1116,31 @@
       "curve": [
         {
           "band": "0-18%",
-          "slots": 2246,
+          "slots": 2245,
           "predicted": 14.4,
-          "realized": 16.7,
-          "gap": -2.3,
+          "realized": 16.6,
+          "gap": -2.2,
           "ci": "15.4-18.0%"
         },
         {
           "band": "18-22%",
-          "slots": 1722,
-          "predicted": 20.0,
+          "slots": 1725,
+          "predicted": 19.9,
           "realized": 21.7,
-          "gap": -1.7,
-          "ci": "20.1-23.4%"
+          "gap": -1.8,
+          "ci": "20.2-23.4%"
         },
         {
           "band": "22-26%",
-          "slots": 1632,
+          "slots": 1637,
           "predicted": 24.1,
           "realized": 24.3,
           "gap": -0.2,
-          "ci": "22.6-26.1%"
+          "ci": "22.6-26.0%"
         },
         {
           "band": "26-30%",
-          "slots": 1977,
+          "slots": 1984,
           "predicted": 27.4,
           "realized": 27.1,
           "gap": 0.3,
@@ -1148,11 +1148,11 @@
         }
       ],
       "pooled": {
-        "slots": 7577,
-        "draws": 1680,
+        "slots": 7591,
+        "draws": 1683,
         "realized": 22.2,
-        "predicted": 21.1,
-        "error": -1.1,
+        "predicted": 21.2,
+        "error": -1.0,
         "ci": "21.4-23.0%",
         "predicted_inside_ci": false
       },
@@ -1165,7 +1165,7 @@
       "curve": [
         {
           "band": "0-18%",
-          "slots": 593,
+          "slots": 592,
           "predicted": 15.4,
           "realized": 13.7,
           "gap": 1.7,
@@ -1175,13 +1175,13 @@
           "band": "18-22%",
           "slots": 1603,
           "predicted": 20.4,
-          "realized": 19.2,
-          "gap": 1.2,
-          "ci": "17.7-20.9%"
+          "realized": 19.1,
+          "gap": 1.3,
+          "ci": "17.5-20.8%"
         },
         {
           "band": "22-26%",
-          "slots": 2892,
+          "slots": 2900,
           "predicted": 24.0,
           "realized": 22.5,
           "gap": 1.5,
@@ -1189,24 +1189,24 @@
         },
         {
           "band": "26-30%",
-          "slots": 1819,
+          "slots": 1825,
           "predicted": 27.7,
-          "realized": 25.2,
-          "gap": 2.5,
-          "ci": "23.5-26.9%"
+          "realized": 25.3,
+          "gap": 2.4,
+          "ci": "23.6-27.0%"
         },
         {
           "band": "30-100%",
-          "slots": 626,
+          "slots": 627,
           "predicted": 32.3,
           "realized": 28.1,
           "gap": 4.2,
-          "ci": "25.3-31.2%"
+          "ci": "25.2-31.1%"
         }
       ],
       "pooled": {
-        "slots": 7533,
-        "draws": 1673,
+        "slots": 7547,
+        "draws": 1676,
         "realized": 22.2,
         "predicted": 24.1,
         "error": 1.9,
@@ -1222,31 +1222,31 @@
       "curve": [
         {
           "band": "0-18%",
-          "slots": 2246,
+          "slots": 2245,
           "predicted": 14.4,
-          "realized": 16.7,
-          "gap": -2.3,
+          "realized": 16.6,
+          "gap": -2.2,
           "ci": "15.4-18.0%"
         },
         {
           "band": "18-22%",
-          "slots": 1722,
-          "predicted": 20.0,
+          "slots": 1725,
+          "predicted": 19.9,
           "realized": 21.7,
-          "gap": -1.7,
-          "ci": "20.1-23.4%"
+          "gap": -1.8,
+          "ci": "20.2-23.4%"
         },
         {
           "band": "22-26%",
-          "slots": 1632,
+          "slots": 1637,
           "predicted": 24.1,
           "realized": 24.3,
           "gap": -0.2,
-          "ci": "22.6-26.1%"
+          "ci": "22.6-26.0%"
         },
         {
           "band": "26-30%",
-          "slots": 1977,
+          "slots": 1984,
           "predicted": 27.4,
           "realized": 27.1,
           "gap": 0.3,
@@ -1254,11 +1254,11 @@
         }
       ],
       "pooled": {
-        "slots": 7577,
-        "draws": 1680,
+        "slots": 7591,
+        "draws": 1683,
         "realized": 22.2,
-        "predicted": 21.1,
-        "error": -1.1,
+        "predicted": 21.2,
+        "error": -1.0,
         "ci": "21.4-23.0%",
         "predicted_inside_ci": false
       },
@@ -1271,39 +1271,39 @@
         "refuse_top_pct": 10,
         "cut_prob": 0.167,
         "refused": 28,
-        "picks": 251,
-        "hit_rate": 82.5,
-        "draw_rate": 12.7,
+        "picks": 250,
+        "hit_rate": 82.4,
+        "draw_rate": 12.8,
         "loss_rate": 4.8,
         "non_loss_rate": 95.2,
-        "ci": "78.1-86.0%"
+        "ci": "78.0-86.0%"
       },
       {
         "refuse_top_pct": 20,
-        "cut_prob": 0.161,
+        "cut_prob": 0.16,
         "refused": 56,
-        "picks": 223,
-        "hit_rate": 83.4,
+        "picks": 222,
+        "hit_rate": 83.3,
         "draw_rate": 11.7,
-        "loss_rate": 4.9,
-        "non_loss_rate": 95.1,
+        "loss_rate": 5.0,
+        "non_loss_rate": 95.0,
         "ci": "78.8-87.0%"
       },
       {
         "refuse_top_pct": 30,
         "cut_prob": 0.154,
         "refused": 84,
-        "picks": 195,
-        "hit_rate": 83.1,
-        "draw_rate": 11.8,
-        "loss_rate": 5.1,
-        "non_loss_rate": 94.9,
-        "ci": "78.1-87.0%"
+        "picks": 194,
+        "hit_rate": 83.0,
+        "draw_rate": 11.9,
+        "loss_rate": 5.2,
+        "non_loss_rate": 94.8,
+        "ci": "78.0-86.9%"
       },
       {
         "refuse_top_pct": 50,
         "cut_prob": 0.144,
-        "refused": 140,
+        "refused": 139,
         "picks": 139,
         "hit_rate": 84.2,
         "draw_rate": 11.5,
@@ -1313,17 +1313,17 @@
       }
     ],
     "baseline": {
-      "picks": 279,
-      "hit_rate": 83.2,
+      "picks": 278,
+      "hit_rate": 83.1,
       "draw_rate": 12.2,
       "loss_rate": 4.7,
       "non_loss_rate": 95.3,
-      "ci": "79.1-86.5%"
+      "ci": "79.0-86.4%"
     },
     "best_cut": {
       "refuse_top_pct": 50,
       "cut_prob": 0.144,
-      "refused": 140,
+      "refused": 139,
       "picks": 139,
       "hit_rate": 84.2,
       "draw_rate": 11.5,
@@ -1332,15 +1332,15 @@
       "ci": "78.3-88.5%"
     },
     "baseline_edge": 90.6,
-    "verdict": "refusing the 50% highest-draw-risk picks (140 fixtures) beats doing nothing: non-loss 95.3% \u2192 95.7%, losses 4.7% \u2192 4.3%, for 279 \u2192 139 picks"
+    "verdict": "refusing the 50% highest-draw-risk picks (139 fixtures) beats doing nothing: non-loss 95.3% \u2192 95.7%, losses 4.7% \u2192 4.3%, for 278 \u2192 139 picks"
   },
   "gap_sweep": [
     {
       "slots": 2149,
       "hit_rate": 73.4,
-      "loss_rate": 10.1,
-      "draw_rate": 16.5,
-      "non_loss_rate": 89.9,
+      "loss_rate": 10.2,
+      "draw_rate": 16.4,
+      "non_loss_rate": 89.8,
       "ci_lo": 71.8,
       "ci_hi": 74.9,
       "min_gap": 2.0,
@@ -1349,9 +1349,9 @@
     {
       "slots": 2149,
       "hit_rate": 73.4,
-      "loss_rate": 10.1,
-      "draw_rate": 16.5,
-      "non_loss_rate": 89.9,
+      "loss_rate": 10.2,
+      "draw_rate": 16.4,
+      "non_loss_rate": 89.8,
       "ci_lo": 71.8,
       "ci_hi": 74.9,
       "min_gap": 2.5,
@@ -1360,9 +1360,9 @@
     {
       "slots": 2149,
       "hit_rate": 73.4,
-      "loss_rate": 10.1,
-      "draw_rate": 16.5,
-      "non_loss_rate": 89.9,
+      "loss_rate": 10.2,
+      "draw_rate": 16.4,
+      "non_loss_rate": 89.8,
       "ci_lo": 71.8,
       "ci_hi": 74.9,
       "min_gap": 3.0,
@@ -1371,9 +1371,9 @@
     {
       "slots": 2149,
       "hit_rate": 73.4,
-      "loss_rate": 10.1,
-      "draw_rate": 16.5,
-      "non_loss_rate": 89.9,
+      "loss_rate": 10.2,
+      "draw_rate": 16.4,
+      "non_loss_rate": 89.8,
       "ci_lo": 71.8,
       "ci_hi": 74.9,
       "min_gap": 3.5,
@@ -1382,9 +1382,9 @@
     {
       "slots": 2149,
       "hit_rate": 73.4,
-      "loss_rate": 10.1,
-      "draw_rate": 16.5,
-      "non_loss_rate": 89.9,
+      "loss_rate": 10.2,
+      "draw_rate": 16.4,
+      "non_loss_rate": 89.8,
       "ci_lo": 71.8,
       "ci_hi": 74.9,
       "min_gap": 4.0,
@@ -1392,17 +1392,17 @@
     }
   ],
   "shave_ab": {
-    "slots_with": 279,
-    "hit_with": 232,
-    "hit_rate_with": 83.2,
-    "slots_without": 2747,
-    "hit_rate_without": 71.0,
-    "delta": 12.2
+    "slots_with": 278,
+    "hit_with": 231,
+    "hit_rate_with": 83.1,
+    "slots_without": 2748,
+    "hit_rate_without": 71.1,
+    "delta": 12.0
   },
   "reverse_fixture_ab": {
-    "pool": 3769,
+    "pool": 3773,
     "flagged": 664,
-    "clean": 3105,
+    "clean": 3109,
     "cutoff": 0.34,
     "min_meetings": 2,
     "adj": 0.08,
@@ -1419,11 +1419,11 @@
       "edge_vs_model": 14.1
     },
     "clean_agg": {
-      "slots": 3105,
+      "slots": 3109,
       "hit_rate": 62.1,
-      "loss_rate": 16.3,
+      "loss_rate": 16.2,
       "draw_rate": 21.6,
-      "non_loss_rate": 83.7,
+      "non_loss_rate": 83.8,
       "ci_lo": 60.7,
       "ci_hi": 63.5,
       "model_mean": 49.9,
@@ -1431,22 +1431,22 @@
       "edge_vs_model": 12.2
     },
     "win_gap": -7.9,
-    "loss_gap": 6.9,
+    "loss_gap": 7.0,
     "model_gap": -1.9,
     "separation": "flagged significantly worse",
     "value": {
       "with": {
-        "slots": 279,
-        "hit_rate": 83.2,
+        "slots": 278,
+        "hit_rate": 83.1,
         "loss_rate": 4.7,
         "draw_rate": 12.2,
         "non_loss_rate": 95.3,
-        "ci_lo": 79.1,
-        "ci_hi": 86.5
+        "ci_lo": 79.0,
+        "ci_hi": 86.4
       },
       "without": {
-        "slots": 290,
-        "hit_rate": 82.1,
+        "slots": 289,
+        "hit_rate": 82.0,
         "loss_rate": 5.2,
         "draw_rate": 12.8,
         "non_loss_rate": 94.8,
@@ -1485,13 +1485,13 @@
       "ci_hi": 92.6
     },
     "78-101%": {
-      "slots": 164,
-      "hit_rate": 84.1,
+      "slots": 163,
+      "hit_rate": 84.0,
       "loss_rate": 4.3,
-      "draw_rate": 11.6,
+      "draw_rate": 11.7,
       "non_loss_rate": 95.7,
-      "ci_lo": 78.8,
-      "ci_hi": 88.2
+      "ci_lo": 78.7,
+      "ci_hi": 88.1
     }
   },
   "by_gap_band": {
@@ -1514,13 +1514,13 @@
       "ci_hi": null
     },
     "gap 6+": {
-      "slots": 279,
-      "hit_rate": 83.2,
+      "slots": 278,
+      "hit_rate": 83.1,
       "loss_rate": 4.7,
       "draw_rate": 12.2,
       "non_loss_rate": 95.3,
-      "ci_lo": 79.1,
-      "ci_hi": 86.5
+      "ci_lo": 79.0,
+      "ci_hi": 86.4
     }
   },
   "by_tier": {
@@ -1534,24 +1534,24 @@
       "ci_hi": 88.7
     },
     "Reliable": {
-      "slots": 108,
-      "hit_rate": 80.6,
-      "loss_rate": 4.6,
-      "draw_rate": 14.8,
-      "non_loss_rate": 95.4,
-      "ci_lo": 73.5,
-      "ci_hi": 85.9
+      "slots": 107,
+      "hit_rate": 80.4,
+      "loss_rate": 4.7,
+      "draw_rate": 15.0,
+      "non_loss_rate": 95.3,
+      "ci_lo": 73.2,
+      "ci_hi": 85.8
     }
   },
   "by_venue": {
     "home": {
-      "slots": 230,
-      "hit_rate": 82.6,
+      "slots": 229,
+      "hit_rate": 82.5,
       "loss_rate": 4.8,
-      "draw_rate": 12.6,
+      "draw_rate": 12.7,
       "non_loss_rate": 95.2,
-      "ci_lo": 78.1,
-      "ci_hi": 86.3
+      "ci_lo": 78.0,
+      "ci_hi": 86.2
     },
     "away": {
       "slots": 49,
@@ -2390,18 +2390,18 @@
       "name": "Latvian Higher League"
     },
     "rus-first-league": {
-      "slots": 3,
-      "hits": 2,
+      "slots": 2,
+      "hits": 1,
       "draws": 1,
       "losses": 0,
-      "hit_rate": 66.7,
+      "hit_rate": 50.0,
       "loss_rate": 0.0,
       "non_loss_rate": 100.0,
-      "draw_rate": 33.3,
-      "ci_lo": 24.9,
-      "ci_hi": 90.2,
-      "model_mean": 83.9,
-      "edge": -17.2,
+      "draw_rate": 50.0,
+      "ci_lo": 13.5,
+      "ci_hi": 86.5,
+      "model_mean": 86.1,
+      "edge": -36.1,
       "name": "Russian First League"
     },
     "kos-superleague": {
@@ -2554,13 +2554,13 @@
         "band": "#11-14"
       },
       {
-        "slots": 52,
-        "hit_rate": 86.5,
+        "slots": 51,
+        "hit_rate": 86.3,
         "loss_rate": 0.0,
-        "draw_rate": 13.5,
+        "draw_rate": 13.7,
         "non_loss_rate": 100.0,
-        "ci_lo": 76.6,
-        "ci_hi": 92.3,
+        "ci_lo": 76.2,
+        "ci_hi": 92.1,
         "band": "#15-18"
       },
       {
@@ -2576,56 +2576,56 @@
     ],
     "thresholds": [
       {
-        "slots": 176,
-        "hit_rate": 85.2,
+        "slots": 175,
+        "hit_rate": 85.1,
         "loss_rate": 4.0,
-        "draw_rate": 10.8,
+        "draw_rate": 10.9,
         "non_loss_rate": 96.0,
-        "ci_lo": 80.2,
-        "ci_hi": 89.0,
+        "ci_lo": 80.1,
+        "ci_hi": 88.9,
         "threshold": 10,
-        "kept_share": 63.1,
+        "kept_share": 62.9,
         "losses": 7,
         "baseline_losses": 13,
-        "fisher_p": 0.8175601572542555
+        "fisher_p": 0.817647540923445
       },
       {
-        "slots": 125,
-        "hit_rate": 87.2,
+        "slots": 124,
+        "hit_rate": 87.1,
         "loss_rate": 1.6,
-        "draw_rate": 11.2,
+        "draw_rate": 11.3,
         "non_loss_rate": 98.4,
-        "ci_lo": 81.4,
-        "ci_hi": 91.2,
+        "ci_lo": 81.2,
+        "ci_hi": 91.1,
         "threshold": 12,
-        "kept_share": 44.8,
+        "kept_share": 44.6,
         "losses": 2,
         "baseline_losses": 13,
-        "fisher_p": 0.16292953718571043
+        "fisher_p": 0.16337178648691594
       },
       {
-        "slots": 87,
-        "hit_rate": 86.2,
+        "slots": 86,
+        "hit_rate": 86.0,
         "loss_rate": 0.0,
-        "draw_rate": 13.8,
+        "draw_rate": 14.0,
         "non_loss_rate": 100.0,
-        "ci_lo": 78.8,
-        "ci_hi": 91.0,
+        "ci_lo": 78.6,
+        "ci_hi": 90.9,
         "threshold": 14,
-        "kept_share": 31.2,
+        "kept_share": 30.9,
         "losses": 0,
         "baseline_losses": 13,
-        "fisher_p": 0.044079712540626634
+        "fisher_p": 0.04418717289506147
       }
     ],
     "baseline": {
-      "slots": 279,
-      "hit_rate": 83.2,
+      "slots": 278,
+      "hit_rate": 83.1,
       "loss_rate": 4.7,
       "draw_rate": 12.2,
       "non_loss_rate": 95.3,
-      "ci_lo": 79.1,
-      "ci_hi": 86.5
+      "ci_lo": 79.0,
+      "ci_hi": 86.4
     }
   },
   "exclusions": [

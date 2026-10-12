@@ -1,28 +1,28 @@
 {
   "population": "below-floor DC-priced 2026 rejects (p_dc_cal_shaved < per-league min_win)",
-  "inspected_with_price": 283,
-  "n": 283,
-  "n_home_backed": 139,
-  "realised_win": 0.6325,
+  "inspected_with_price": 293,
+  "n": 293,
+  "n_home_backed": 142,
+  "realised_win": 0.628,
   "realised_win_ci": [
-    0.5841,
-    0.678
+    0.5804,
+    0.6729
   ],
-  "market_win_mean": 0.5864,
-  "realised_vs_market_win_pp": 4.61,
-  "flat_1_stake_at_fair_win": 26.41,
-  "per_stake_win": 0.0933,
-  "realised_dc": 0.8587,
+  "market_win_mean": 0.584,
+  "realised_vs_market_win_pp": 4.4,
+  "flat_1_stake_at_fair_win": 25.2,
+  "per_stake_win": 0.086,
+  "realised_dc": 0.8567,
   "realised_dc_ci": [
-    0.8206,
-    0.8888
+    0.8192,
+    0.8866
   ],
   "model_dc_mean": 0.7775,
-  "market_dc_mean": 0.809,
-  "realised_vs_model_pp": 8.12,
+  "market_dc_mean": 0.807,
+  "realised_vs_model_pp": 7.92,
   "realised_vs_market_pp": 4.97,
-  "flat_1_stake_at_fair_dc": 18.24,
-  "per_stake_dc": 0.0644,
-  "dc_lift_over_win_pp": 22.61,
+  "flat_1_stake_at_fair_dc": 18.51,
+  "per_stake_dc": 0.0632,
+  "dc_lift_over_win_pp": 22.87,
   "disclosure": "DC price is DERIVED by de-vigging the stored 1X2 close. No real DC quote exists in today's feeds; real DC prices carry margin, so this EV is the optimistic (fair-price) bound."
 }
