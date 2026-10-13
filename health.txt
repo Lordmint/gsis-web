@@ -68,7 +68,7 @@ Competitions:
   rus-premier-league: ok (resumed: already completed this snapshot) | entities=16 events=176
   rus-first-league: ok (resumed: already completed this snapshot) | entities=18 events=118
   cyp-first-division: ok (resumed: already completed this snapshot) | entities=14 events=136
-  wal-cymru-premier: ok | entities=12 events=6
+  wal-cymru-premier: ok (resumed: already completed this snapshot) | entities=12 events=6
   mlt-premier-league: ok | entities=12 events=1
   irl-premier: ok (resumed: already completed this snapshot) | entities=10 events=90
   irl-first-division: ok (resumed: already completed this snapshot) | entities=10 events=81
@@ -252,7 +252,7 @@ Wikipedia data validation (results grid vs standings table):
       Hvidovre: grid(P7 W6 D1 L0 GF16 GA7) vs standings (P9 W6 D3 L0 GF18 GA9)
       Vejle: grid(P7 W4 D3 L0 GF18 GA11) vs standings (P9 W5 D4 L0 GF22 GA13)
       Fredericia: grid(P8 W3 D4 L1 GF11 GA5) vs standings (P9 W3 D5 L1 GF12 GA6)
-  swe-allsvenskan: MISMATCH | teams=16 matches=170 checked=16 issues=12
+  swe-allsvenskan: MISMATCH | teams=16 matches=172 checked=16 issues=12
       IK Sirius: grid(P21 W16 D2 L3 GF49 GA26) vs standings (P23 W17 D3 L3 GF53 GA28)
       Djurgårdens IF: grid(P22 W14 D1 L7 GF47 GA20) vs standings (P23 W14 D2 L7 GF48 GA21)
       Hammarby IF: grid(P12 W9 D1 L2 GF34 GA7) vs standings (P23 W13 D4 L6 GF49 GA21)
@@ -300,10 +300,10 @@ Wikipedia data validation (results grid vs standings table):
       Dinamo București: grid(P2 W1 D0 L1 GF5 GA2) vs standings (P11 W8 D2 L1 GF25 GA7)
       Rapid București: grid(P2 W1 D1 L0 GF2 GA1) vs standings (P11 W7 D3 L1 GF18 GA9)
       Universitatea Craiova: grid(P3 W2 D0 L1 GF10 GA5) vs standings (P11 W7 D2 L2 GF25 GA9)
-  rou-liga-2: MISMATCH | teams=22 matches=91 checked=22 issues=10
+  rou-liga-2: MISMATCH | teams=22 matches=94 checked=22 issues=6
       Politehnica Timișoara: grid(P4 W2 D2 L0 GF11 GA6) vs standings (P9 W6 D3 L0 GF19 GA8)
-      Reșița: grid(P8 W7 D0 L1 GF16 GA8) vs standings (P9 W7 D0 L2 GF16 GA9)
       Chindia Târgoviște: grid(P8 W6 D0 L2 GF20 GA9) vs standings (P9 W6 D0 L3 GF20 GA10)
+      ASA Târgu Mureș: grid(P8 W3 D2 L3 GF12 GA13) vs standings (P9 W3 D2 L4 GF12 GA16)
   rou-liga-3: no validation data
   cro-first-league: MISMATCH | teams=16 matches=51 checked=16 issues=7
       BSK Bijelo Brdo: grid(P6 W3 D1 L2 GF7 GA6) vs standings (P7 W4 D1 L2 GF8 GA6)
