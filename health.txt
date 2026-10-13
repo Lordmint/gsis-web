@@ -174,7 +174,7 @@ Competitions:
 
 Wikipedia data validation (results grid vs standings table):
   eng-premier-league: OK | teams=20 matches=60 checked=20 issues=0
-  eng-championship: OK | teams=24 matches=107 checked=24 issues=0
+  eng-championship: OK | teams=24 matches=115 checked=24 issues=0
   eng-league-one: OK | teams=24 matches=102 checked=24 issues=0
   eng-league-two: OK | teams=24 matches=114 checked=24 issues=0
   eng-national-league: OK | teams=24 matches=155 checked=24 issues=0
@@ -216,7 +216,7 @@ Wikipedia data validation (results grid vs standings table):
       Club Brugge: grid(P7 W6 D0 L1 GF15 GA3) vs standings (P8 W7 D0 L1 GF19 GA4)
       Charleroi: grid(P5 W5 D0 L0 GF10 GA3) vs standings (P8 W7 D0 L1 GF16 GA7)
   sco-premiership: OK | teams=12 matches=48 checked=12 issues=0
-  sco-championship: OK | teams=10 matches=47 checked=10 issues=0
+  sco-championship: OK | teams=10 matches=48 checked=10 issues=0
   sco-league-one: OK | teams=10 matches=49 checked=10 issues=0
   tur-super-lig: MISMATCH | teams=18 matches=58 checked=18 issues=9
       Amedspor: grid(P5 W4 D1 L0 GF15 GA5) vs standings (P7 W4 D2 L1 GF17 GA9)
@@ -410,8 +410,11 @@ Wikipedia data validation (results grid vs standings table):
       Al Ittihad: grid(P6 W3 D1 L2 GF6 GA5) vs standings (P5 W3 D1 L1 GF6 GA3)
   zim-premier-league: no validation data
   mar-botola: OK | teams=16 matches=4 checked=8 issues=0
-  rsa-premiership: OK | teams=16 matches=57 checked=16 issues=0
-  ngr-npfl: MISMATCH | teams=20 matches=76 checked=20 issues=5
+  rsa-premiership: GRID-LAG (1 round(s) behind) | teams=16 matches=57 checked=16 issues=7
+      Mamelodi Sundowns: grid(P8 W6 D2 L0 GF19 GA7) vs standings (P9 W7 D2 L0 GF23 GA8)
+      Orlando Pirates: grid(P7 W6 D1 L0 GF16 GA1) vs standings (P8 W7 D1 L0 GF19 GA1)
+      AmaZulu: grid(P7 W5 D1 L1 GF10 GA7) vs standings (P8 W6 D1 L1 GF12 GA8)
+  ngr-npfl: MISMATCH | teams=20 matches=76 checked=20 issues=6
       Enugu Rangers: grid(P4 W3 D1 L0 GF7 GA3) vs standings (P8 W5 D2 L1 GF14 GA9)
       Barau: grid(P7 W3 D3 L1 GF10 GA7) vs standings (P8 W3 D4 L1 GF12 GA9)
       Ikorodu City: grid(P7 W2 D3 L2 GF8 GA7) vs standings (P8 W3 D3 L2 GF10 GA7)
