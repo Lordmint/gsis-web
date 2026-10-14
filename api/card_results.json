@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-14T19:18:19.110777+00:00",
+  "generated_at": "2026-10-14T22:31:36.105326+00:00",
   "ledger": "card_results",
   "clv": {
     "n": 18,
@@ -481,11 +481,11 @@
     },
     {
       "week": "2026-10-12",
-      "picks": 2,
+      "picks": 3,
       "settled": 0,
       "wins": 0,
       "losses": 0,
-      "notes": "0W \u00b7 0L \u00b7 0P \u00b7 2 pending",
+      "notes": "0W \u00b7 0L \u00b7 0P \u00b7 3 pending",
       "rows": [
         {
           "code": "ger-bundesliga",
@@ -510,6 +510,30 @@
           "league": "Bundesliga",
           "lam_h": 0.86,
           "lam_a": 3.11
+        },
+        {
+          "code": "ita-serie-a",
+          "week": "2026-10-12",
+          "strong": "AS Roma",
+          "weak": "Genoa",
+          "is_home": true,
+          "market": "Home or GG",
+          "hit_basis": "recommended-market",
+          "money_basis": "1X2",
+          "prob": 0.935,
+          "prob_model": 0.9017,
+          "odds": 1.4,
+          "odds_open": 1.4,
+          "odds_close": 1.4,
+          "clv": 0.0,
+          "verdict": "PENDING",
+          "note": "no result yet",
+          "score": null,
+          "profit": null,
+          "tier": "Elite",
+          "league": "Serie A",
+          "lam_h": 2.32,
+          "lam_a": 0.76
         },
         {
           "code": "eng-premier-league",
