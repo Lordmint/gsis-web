@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-10-15T17:51:15.918377+00:00",
+  "generated_at": "2026-10-15T20:59:01.548486+00:00",
   "ledger": "power_results",
-  "bets": 1,
+  "bets": 2,
   "settled": 0,
   "wins": 0,
   "losses": 0,
@@ -10,6 +10,22 @@
     "n": 0,
     "mean": null,
     "positive": 0
+  },
+  "by_tier": {
+    "core": {
+      "bets": 1,
+      "settled": 0,
+      "wins": 0,
+      "losses": 0,
+      "roi": null
+    },
+    "value": {
+      "bets": 1,
+      "settled": 0,
+      "wins": 0,
+      "losses": 0,
+      "roi": null
+    }
   },
   "rows": [
     {
@@ -27,6 +43,7 @@
         "mismatch",
         "power"
       ],
+      "tier": "core",
       "odds": 1.56,
       "odds_close": 1.56,
       "clv": -0.16,
@@ -35,6 +52,30 @@
       "score": null,
       "profit": null,
       "league": "Bundesliga"
+    },
+    {
+      "code": "ita-serie-a",
+      "week": "2026-10-12",
+      "home_name": "AS Roma",
+      "away_name": "Genoa",
+      "backed": "AS Roma",
+      "opponent": "Genoa",
+      "is_home": true,
+      "market": "AS Roma to win",
+      "prob": 69.5,
+      "criteria": [
+        "gap",
+        "power"
+      ],
+      "tier": "value",
+      "odds": 1.44,
+      "odds_close": 1.44,
+      "clv": 0.19,
+      "verdict": "PENDING",
+      "note": "no result yet",
+      "score": null,
+      "profit": null,
+      "league": "Serie A"
     }
   ]
 }
