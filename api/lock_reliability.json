@@ -1,35 +1,35 @@
 {
   "generator": "lock_reliability",
-  "candidates": 7604,
-  "published_locks_dc_route": 283,
+  "candidates": 7617,
+  "published_locks_dc_route": 287,
   "bands": [
     {
       "band": "lock >=80%",
-      "n": 89,
+      "n": 92,
       "model_mean": 0.8372,
-      "win_rate": 0.8876,
+      "win_rate": 0.8913,
       "win_ci": [
-        0.818821017732716,
-        0.9299236847305308
+        0.8244377500013733,
+        0.9322343800812829
       ],
-      "draw_rate": 0.0787,
-      "upset_rate": 0.0337,
-      "non_win_rate": 0.1124,
-      "calibration_gap_pp": 5.0
+      "draw_rate": 0.0761,
+      "upset_rate": 0.0326,
+      "non_win_rate": 0.1087,
+      "calibration_gap_pp": 5.4
     },
     {
       "band": "70-80%",
-      "n": 194,
-      "model_mean": 0.7597,
-      "win_rate": 0.799,
+      "n": 195,
+      "model_mean": 0.7598,
+      "win_rate": 0.8,
       "win_ci": [
-        0.7470113999069923,
-        0.8413846681217925
+        0.748258930873728,
+        0.8422145726126
       ],
-      "draw_rate": 0.1443,
-      "upset_rate": 0.0567,
-      "non_win_rate": 0.201,
-      "calibration_gap_pp": 3.9
+      "draw_rate": 0.1436,
+      "upset_rate": 0.0564,
+      "non_win_rate": 0.2,
+      "calibration_gap_pp": 4.0
     },
     {
       "band": "66-70% (cut by the 0.70 floor)",
@@ -41,17 +41,17 @@
     }
   ],
   "autopsy": {
-    "published_picks": 283,
+    "published_picks": 287,
     "false_locks": 49,
     "upset_locks": 14,
     "false_locks_with_form_warning": 0,
     "form_warning_fired_anywhere": 295,
     "note": "The form tripwire runs at ADMISSION, so a flagged candidate is shaved below the gate and never becomes a pick; that is why published false locks carry no form warning. blind_adj>0 is a constant (no injury feed) and cannot discriminate."
   },
-  "overall_upset_rate": 0.0495,
+  "overall_upset_rate": 0.0488,
   "overall_upset_ci": [
-    0.032835480179208065,
-    0.07599274331014988
+    0.032375548292821424,
+    0.07495200898223703
   ],
   "leagues": [
     {
@@ -78,14 +78,14 @@
     },
     {
       "code": "wal-cymru-premier",
-      "n": 11,
-      "false_lock_rate": 0.182,
-      "upset_rate": 0.182,
+      "n": 13,
+      "false_lock_rate": 0.154,
+      "upset_rate": 0.154,
       "upset_ci": [
-        0.07187025554640855,
-        0.4381054351153112
+        0.061102928863041306,
+        0.38538968236388194
       ],
-      "upset_posterior": 0.231
+      "upset_posterior": 0.2
     },
     {
       "code": "ger-bundesliga",
@@ -364,14 +364,14 @@
     },
     {
       "code": "lva-virsliga",
-      "n": 11,
-      "false_lock_rate": 0.091,
+      "n": 12,
+      "false_lock_rate": 0.083,
       "upset_rate": 0.0,
       "upset_ci": [
-        0.004265318777559941,
-        0.22092219194555557
+        0.003937864227643768,
+        0.20581666518655056
       ],
-      "upset_posterior": 0.077
+      "upset_posterior": 0.071
     }
   ]
 }
