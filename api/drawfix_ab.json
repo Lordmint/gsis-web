@@ -1,14 +1,14 @@
 {
   "generator": "drawfix_ab",
   "adjust_pp": 0.0,
-  "n_settled": 19,
+  "n_settled": 20,
   "n_relined": 0,
-  "n_same": 19,
+  "n_same": 20,
   "transitions": {},
-  "loss_rate_historical": 0.1579,
-  "resolvable_set": 19,
-  "loss_rate_corrected_resolvable": 0.1579,
-  "loss_rate_corrected_worst_case": 0.1579,
+  "loss_rate_historical": 0.15,
+  "resolvable_set": 20,
+  "loss_rate_corrected_resolvable": 0.15,
+  "loss_rate_corrected_worst_case": 0.15,
   "historical_losses": 3,
   "corrected_losses_resolvable": 3,
   "corrected_losses_worst_case": 3,
@@ -43,9 +43,9 @@
     },
     {
       "week": "2026-10-12",
-      "settled": 1,
+      "settled": 2,
       "relined": 0,
-      "same": 1
+      "same": 2
     }
   ],
   "rows": [
@@ -332,6 +332,21 @@
       "counterfactual_verdict": "L",
       "score": "0-0",
       "odds": 1.61,
+      "reproduces": true
+    },
+    {
+      "week": "2026-10-12",
+      "strong": "AS Roma",
+      "weak": "Genoa",
+      "is_home": true,
+      "historical_market": "Home or GG",
+      "uncorrected_market": "Home or GG",
+      "corrected_market": "Home or GG",
+      "relined": false,
+      "historical_verdict": "W",
+      "counterfactual_verdict": "W",
+      "score": "2-0",
+      "odds": 1.4,
       "reproduces": true
     }
   ]
