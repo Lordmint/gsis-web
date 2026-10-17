@@ -193,10 +193,10 @@ Wikipedia data validation (results grid vs standings table):
   ita-serie-a: OK | teams=20 matches=62 checked=20 issues=0
   ita-serie-b: OK | teams=20 matches=60 checked=20 issues=0
   ita-serie-c: no validation data
-  ger-bundesliga: MISMATCH | teams=18 matches=41 checked=18 issues=7
+  ger-bundesliga: MISMATCH | teams=18 matches=46 checked=18 issues=7
       Bayer Leverkusen: grid(P2 W2 D0 L0 GF6 GA0) vs standings (P5 W3 D1 L1 GF14 GA8)
-      FC Augsburg: grid(P4 W2 D1 L1 GF11 GA6) vs standings (P5 W2 D2 L1 GF13 GA8)
-      Mainz 05: grid(P4 W2 D1 L1 GF10 GA6) vs standings (P5 W2 D1 L2 GF13 GA10)
+      Mainz 05: grid(P5 W3 D1 L1 GF11 GA6) vs standings (P6 W3 D1 L2 GF14 GA10)
+      SV Elversberg: grid(P5 W2 D1 L2 GF9 GA9) vs standings (P6 W3 D1 L2 GF12 GA11)
   ger-2-bundesliga: OK | teams=18 matches=68 checked=18 issues=0
   ger-3-liga: MISMATCH | teams=20 matches=91 checked=20 issues=6
       MSV Duisburg: grid(P8 W7 D0 L1 GF23 GA9) vs standings (P9 W8 D0 L1 GF26 GA11)
@@ -316,10 +316,10 @@ Wikipedia data validation (results grid vs standings table):
       Vasas: grid(P9 W4 D2 L3 GF16 GA11) vs standings (P10 W4 D3 L3 GF18 GA13)
       ETO Győr: grid(P5 W3 D0 L2 GF10 GA6) vs standings (P9 W4 D3 L2 GF16 GA11)
       Újpest: grid(P8 W4 D2 L2 GF16 GA12) vs standings (P9 W4 D3 L2 GF18 GA14)
-  fin-veikkausliiga: MISMATCH | teams=12 matches=107 checked=12 issues=12
+  fin-veikkausliiga: MISMATCH | teams=12 matches=108 checked=12 issues=12
       KuPS: grid(P9 W5 D2 L2 GF17 GA13) vs standings (P22 W12 D7 L3 GF38 GA23)
       Inter Turku: grid(P21 W11 D7 L3 GF28 GA16) vs standings (P22 W11 D9 L2 GF29 GA16)
-      HJK: grid(P9 W5 D2 L2 GF15 GA10) vs standings (P22 W11 D4 L7 GF36 GA27)
+      HJK: grid(P10 W6 D2 L2 GF19 GA10) vs standings (P22 W11 D4 L7 GF36 GA27)
   fin-ykkosliiga: MISMATCH | teams=10 matches=65 checked=10 issues=10
       KTP: grid(P7 W3 D2 L2 GF8 GA8) vs standings (P27 W18 D5 L4 GF48 GA26)
       PK-35: grid(P18 W10 D5 L3 GF28 GA13) vs standings (P27 W15 D7 L5 GF44 GA23)
