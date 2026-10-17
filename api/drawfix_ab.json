@@ -1,17 +1,17 @@
 {
   "generator": "drawfix_ab",
   "adjust_pp": 0.0,
-  "n_settled": 18,
+  "n_settled": 19,
   "n_relined": 0,
-  "n_same": 18,
+  "n_same": 19,
   "transitions": {},
-  "loss_rate_historical": 0.1111,
-  "resolvable_set": 18,
-  "loss_rate_corrected_resolvable": 0.1111,
-  "loss_rate_corrected_worst_case": 0.1111,
-  "historical_losses": 2,
-  "corrected_losses_resolvable": 2,
-  "corrected_losses_worst_case": 2,
+  "loss_rate_historical": 0.1579,
+  "resolvable_set": 19,
+  "loss_rate_corrected_resolvable": 0.1579,
+  "loss_rate_corrected_worst_case": 0.1579,
+  "historical_losses": 3,
+  "corrected_losses_resolvable": 3,
+  "corrected_losses_worst_case": 3,
   "relined_losses_saved": 0,
   "relined_win_to_push": 0,
   "relined_push_to_win": 0,
@@ -43,9 +43,9 @@
     },
     {
       "week": "2026-10-12",
-      "settled": 0,
+      "settled": 1,
       "relined": 0,
-      "same": 0
+      "same": 1
     }
   ],
   "rows": [
@@ -317,6 +317,21 @@
       "counterfactual_verdict": "W",
       "score": "2-0",
       "odds": 1.5,
+      "reproduces": true
+    },
+    {
+      "week": "2026-10-12",
+      "strong": "Borussia Dortmund",
+      "weak": "1. FC Union Berlin",
+      "is_home": false,
+      "historical_market": "Away or GG",
+      "uncorrected_market": "Away or GG",
+      "corrected_market": "Away or GG",
+      "relined": false,
+      "historical_verdict": "L",
+      "counterfactual_verdict": "L",
+      "score": "0-0",
+      "odds": 1.61,
       "reproduces": true
     }
   ]

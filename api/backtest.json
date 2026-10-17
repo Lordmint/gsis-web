@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-17T08:50:11.157585+00:00",
+  "generated_at": "2026-10-17T15:32:37.900523+00:00",
   "weeks": [
     "2026-09-14",
     "2026-09-21",
@@ -7,27 +7,27 @@
     "2026-10-05",
     "2026-10-12"
   ],
-  "picks": 19,
-  "settled": 18,
-  "pending": 1,
+  "picks": 21,
+  "settled": 19,
+  "pending": 2,
   "wins": 15,
-  "losses": 2,
+  "losses": 3,
   "pushes": 1,
-  "hit_rate": 0.8823529411764706,
-  "overall_roi": 0.4811111111111111,
-  "modelled_edge": 0.5673080555555556,
-  "realized_edge": 0.4811111111111111,
-  "realized_net_profit": 8.66,
+  "hit_rate": 0.8333333333333334,
+  "overall_roi": 0.4031578947368421,
+  "modelled_edge": 0.5670128947368421,
+  "realized_edge": 0.4031578947368421,
+  "realized_net_profit": 7.66,
   "calibration": [
     {
       "bucket": "70%+",
-      "n": 17,
+      "n": 18,
       "model": 0.75,
-      "realized": 0.8823529411764706,
-      "roi": 0.5094117647058823,
-      "ci_lo": 0.6897372603017888,
-      "ci_hi": 0.952975115703824,
-      "bayes_mean": 0.8421052631578947,
+      "realized": 0.8333333333333334,
+      "roi": 0.4255555555555556,
+      "ci_lo": 0.6405743503596268,
+      "ci_hi": 0.9247061833531849,
+      "bayes_mean": 0.8,
       "verdict": "on-track"
     }
   ],
@@ -39,20 +39,20 @@
   },
   "by_market": [
     {
+      "key": "Away or GG",
+      "n": 5,
+      "wins": 4,
+      "losses": 1,
+      "hit": 0.8,
+      "roi": 0.72
+    },
+    {
       "key": "Home or GG",
       "n": 5,
       "wins": 4,
       "losses": 1,
       "hit": 0.8,
       "roi": 0.254
-    },
-    {
-      "key": "Away or GG",
-      "n": 4,
-      "wins": 4,
-      "losses": 0,
-      "hit": 1.0,
-      "roi": 1.15
     },
     {
       "key": "AH Home (0)",
@@ -90,11 +90,11 @@
     },
     {
       "key": "Elite",
-      "n": 7,
+      "n": 8,
       "wins": 6,
-      "losses": 1,
-      "hit": 0.8571428571428571,
-      "roi": 0.6114285714285714
+      "losses": 2,
+      "hit": 0.75,
+      "roi": 0.41000000000000003
     }
   ],
   "by_league": [
@@ -177,6 +177,14 @@
       "losses": 0,
       "hit": 1.0,
       "roi": 0.33000000000000007
+    },
+    {
+      "key": "Bundesliga",
+      "n": 1,
+      "wins": 0,
+      "losses": 1,
+      "hit": 0.0,
+      "roi": -1.0
     }
   ],
   "by_week": [
@@ -211,6 +219,14 @@
       "losses": 0,
       "hit": 1.0,
       "roi": 0.41500000000000004
+    },
+    {
+      "key": "2026-10-12",
+      "n": 1,
+      "wins": 0,
+      "losses": 1,
+      "hit": 0.0,
+      "roi": -1.0
     }
   ],
   "concentration": [
@@ -934,6 +950,18 @@
       "name": "jpn-j2-league"
     },
     {
+      "league": "jpn-j1-league",
+      "n_recent": 60,
+      "recent_avg": 2.7666666666666666,
+      "baseline_avg": 2.95,
+      "delta": -0.18333333333333357,
+      "z_plain": -0.8463901161850216,
+      "z_ewma": -0.6587079078856396,
+      "z": -0.6587079078856396,
+      "status": "stable",
+      "name": "jpn-j1-league"
+    },
+    {
       "league": "jpn-j3-league",
       "n_recent": 60,
       "recent_avg": 2.466666666666667,
@@ -1030,6 +1058,18 @@
       "name": "gre-super-league"
     },
     {
+      "league": "kor-k-league-2",
+      "n_recent": 60,
+      "recent_avg": 2.566666666666667,
+      "baseline_avg": 2.675,
+      "delta": -0.10833333333333295,
+      "z_plain": -0.5463397021218886,
+      "z_ewma": -0.4905077832797876,
+      "z": -0.4905077832797876,
+      "status": "stable",
+      "name": "kor-k-league-2"
+    },
+    {
       "league": "kaz-premier-league",
       "n_recent": 60,
       "recent_avg": 2.5166666666666666,
@@ -1100,18 +1140,6 @@
       "z": -0.37585777385208113,
       "status": "stable",
       "name": "tha-league-1"
-    },
-    {
-      "league": "kor-k-league-2",
-      "n_recent": 60,
-      "recent_avg": 2.5833333333333335,
-      "baseline_avg": 2.68125,
-      "delta": -0.09791666666666643,
-      "z_plain": -0.4953653474069335,
-      "z_ewma": -0.3393066886193609,
-      "z": -0.3393066886193609,
-      "status": "stable",
-      "name": "kor-k-league-2"
     },
     {
       "league": "gua-liga-nacional",
@@ -1318,18 +1346,6 @@
       "name": "irl-premier"
     },
     {
-      "league": "aus-a-league",
-      "n_recent": 60,
-      "recent_avg": 2.7,
-      "baseline_avg": 2.8,
-      "delta": -0.09999999999999964,
-      "z_plain": -0.4690612435327612,
-      "z_ewma": 0.052404693502674043,
-      "z": 0.052404693502674043,
-      "status": "stable",
-      "name": "aus-a-league"
-    },
-    {
       "league": "chn-csl",
       "n_recent": 60,
       "recent_avg": 3.15,
@@ -1366,16 +1382,16 @@
       "name": "arg-primera"
     },
     {
-      "league": "jpn-j1-league",
+      "league": "aus-a-league",
       "n_recent": 60,
-      "recent_avg": 2.8333333333333335,
-      "baseline_avg": 2.94375,
-      "delta": -0.11041666666666661,
-      "z_plain": -0.5069936583910609,
-      "z_ewma": -0.00419913439470493,
-      "z": -0.00419913439470493,
+      "recent_avg": 2.6666666666666665,
+      "baseline_avg": 2.8,
+      "delta": -0.1333333333333333,
+      "z_plain": -0.625414991377017,
+      "z_ewma": -0.006092574456412933,
+      "z": -0.006092574456412933,
       "status": "stable",
-      "name": "jpn-j1-league"
+      "name": "aus-a-league"
     }
   ],
   "bankroll": {
@@ -1398,7 +1414,8 @@
       107.83,
       107.83,
       108.16,
-      108.66
+      108.66,
+      107.66
     ],
     "quarter_kelly": [
       100.0,
@@ -1419,7 +1436,8 @@
       397.5626715490699,
       397.5626715490699,
       401.62357545760784,
-      444.8533330609261
+      444.8533330609261,
+      342.4459079870236
     ],
     "bayes_kelly": [
       100.0,
@@ -1440,27 +1458,28 @@
       356.5839162074925,
       356.5839162074925,
       356.6693180554242,
-      391.04778194949137
+      391.04778194949137,
+      308.76748225569264
     ],
     "start": 100.0
   },
   "walk_forward": {
     "generator": "gsis.walkforward.compute",
     "leagues_covered": 132,
-    "eval_slots": 5210,
-    "overall_hit_rate": 116.63,
-    "early_slots": 2676,
-    "late_slots": 2534,
+    "eval_slots": 5208,
+    "overall_hit_rate": 116.61,
+    "early_slots": 2675,
+    "late_slots": 2533,
     "early_hit_rate": 55.58,
-    "late_hit_rate": 59.98,
-    "learning_delta": 4.4,
+    "late_hit_rate": 59.97,
+    "learning_delta": 4.39,
     "prior_ab": {
       "active": true,
       "leagues": 222,
-      "slots": 4490,
-      "baseline_hit_rate": 57.36,
-      "prior_hit_rate": 57.09,
-      "delta": -0.27,
+      "slots": 4488,
+      "baseline_hit_rate": 57.35,
+      "prior_hit_rate": 57.07,
+      "delta": -0.28,
       "baseline_early": null,
       "prior_early": null,
       "delta_early": null,
@@ -3704,25 +3723,25 @@
       "kor-k-league-2": {
         "name": "K League 2",
         "season_id": 118,
-        "slots": 23,
-        "hit_rate": 50.35,
+        "slots": 21,
+        "hit_rate": 47.57,
         "early": {
-          "slots": 12,
-          "hit_rate": 48.7
+          "slots": 11,
+          "hit_rate": 46.87
         },
         "late": {
-          "slots": 11,
-          "hit_rate": 52.14
+          "slots": 10,
+          "hit_rate": 48.33
         },
-        "learning_delta": 3.43,
+        "learning_delta": 1.46,
         "prior": {
           "teams": 17,
           "dates": 24,
-          "slots": 23,
-          "hit_rate": 48.32,
-          "delta": -2.03,
-          "early_delta": -3.89,
-          "late_delta": 0.0
+          "slots": 21,
+          "hit_rate": 44.42,
+          "delta": -3.15,
+          "early_delta": -4.24,
+          "late_delta": -1.94
         }
       },
       "chi-primera-b": {
@@ -4389,7 +4408,7 @@
   },
   "model_state": {
     "version": 1,
-    "generated_at": "2026-10-17T08:43:06+00:00",
+    "generated_at": "2026-10-17T15:24:28+00:00",
     "note": "1 active calibration bucket(s) from 18 settled picks \u00b7 4 drifted league(s) \u00b7 126 league(s) with adaptive gate factors \u00b7 153 league(s) with a recursive strength model",
     "calibration": [
       {
@@ -5346,12 +5365,12 @@
         "min_gap": 2.6
       },
       "kor-k-league-2": {
-        "hit_rate": 50.4,
-        "slots": 23,
-        "learning_delta": 3.43,
-        "min_win": 0.725,
-        "min_win_dc": 0.725,
-        "min_gap": 2.58
+        "hit_rate": 47.6,
+        "slots": 21,
+        "learning_delta": 1.46,
+        "min_win": 0.733,
+        "min_win_dc": 0.733,
+        "min_gap": 2.72
       },
       "chi-primera-b": {
         "hit_rate": 40.7,
@@ -22770,164 +22789,164 @@
       },
       "kor-k-league-2": {
         "league": {
-          "matches": 226,
+          "matches": 224,
           "teams": 17,
-          "mu": 0.983,
-          "home_adv": 0.0172,
-          "avg_goals": 2.673
+          "mu": 0.9803,
+          "home_adv": 0.0173,
+          "avg_goals": 2.665
         },
         "teams": {
           "2040": {
             "n": 26,
-            "att": 0.145,
-            "def": 0.255,
-            "strength_est": -0.11,
-            "z": -0.8,
+            "att": 0.146,
+            "def": 0.254,
+            "strength_est": -0.108,
+            "z": -0.79,
             "prior": 47.5,
-            "resid_std": 1.214
+            "resid_std": 1.21
           },
           "2041": {
-            "n": 27,
-            "att": 0.262,
-            "def": -0.006,
-            "strength_est": 0.267,
-            "z": 1.94,
-            "prior": 56.3,
-            "resid_std": 0.991
+            "n": 26,
+            "att": 0.246,
+            "def": -0.012,
+            "strength_est": 0.258,
+            "z": 1.89,
+            "prior": 56.0,
+            "resid_std": 1.015
           },
           "2042": {
-            "n": 27,
+            "n": 26,
             "att": 0.291,
-            "def": 0.101,
-            "strength_est": 0.19,
-            "z": 1.38,
-            "prior": 54.5,
-            "resid_std": 1.008
+            "def": 0.099,
+            "strength_est": 0.192,
+            "z": 1.41,
+            "prior": 54.4,
+            "resid_std": 1.029
           },
           "2043": {
             "n": 27,
-            "att": 0.179,
-            "def": 0.107,
-            "strength_est": 0.072,
-            "z": 0.52,
-            "prior": 51.7,
-            "resid_std": 1.008
+            "att": 0.18,
+            "def": 0.106,
+            "strength_est": 0.074,
+            "z": 0.54,
+            "prior": 51.8,
+            "resid_std": 1.004
           },
           "2044": {
             "n": 27,
-            "att": 0.083,
-            "def": 0.146,
-            "strength_est": -0.063,
-            "z": -0.46,
-            "prior": 48.5,
-            "resid_std": 1.221
+            "att": 0.084,
+            "def": 0.145,
+            "strength_est": -0.061,
+            "z": -0.44,
+            "prior": 48.6,
+            "resid_std": 1.223
           },
           "2045": {
             "n": 27,
             "att": 0.111,
-            "def": 0.017,
-            "strength_est": 0.094,
-            "z": 0.69,
-            "prior": 52.2,
-            "resid_std": 1.149
+            "def": 0.015,
+            "strength_est": 0.096,
+            "z": 0.71,
+            "prior": 52.3,
+            "resid_std": 1.147
           },
           "2046": {
             "n": 26,
-            "att": -0.077,
-            "def": 0.055,
-            "strength_est": -0.132,
-            "z": -0.96,
+            "att": -0.076,
+            "def": 0.054,
+            "strength_est": -0.13,
+            "z": -0.95,
             "prior": 47.0,
-            "resid_std": 1.06
+            "resid_std": 1.061
           },
           "2047": {
             "n": 26,
-            "att": -0.063,
-            "def": 0.071,
-            "strength_est": -0.134,
+            "att": -0.062,
+            "def": 0.069,
+            "strength_est": -0.132,
             "z": -0.97,
-            "prior": 46.9,
-            "resid_std": 0.821
+            "prior": 47.0,
+            "resid_std": 0.822
           },
           "2048": {
             "n": 26,
-            "att": 0.0,
-            "def": 0.042,
-            "strength_est": -0.042,
-            "z": -0.31,
-            "prior": 49.0,
-            "resid_std": 1.166
+            "att": 0.001,
+            "def": 0.041,
+            "strength_est": -0.04,
+            "z": -0.29,
+            "prior": 49.1,
+            "resid_std": 1.16
           },
           "2049": {
-            "n": 27,
-            "att": -0.101,
-            "def": 0.018,
-            "strength_est": -0.119,
-            "z": -0.87,
-            "prior": 47.2,
-            "resid_std": 0.975
+            "n": 26,
+            "att": -0.1,
+            "def": 0.025,
+            "strength_est": -0.125,
+            "z": -0.92,
+            "prior": 47.1,
+            "resid_std": 0.994
           },
           "2050": {
             "n": 26,
             "att": -0.045,
-            "def": -0.042,
-            "strength_est": -0.004,
-            "z": -0.03,
-            "prior": 49.9,
-            "resid_std": 0.772
+            "def": -0.043,
+            "strength_est": -0.002,
+            "z": -0.01,
+            "prior": 50.0,
+            "resid_std": 0.771
           },
           "2051": {
-            "n": 28,
-            "att": -0.036,
-            "def": -0.133,
-            "strength_est": 0.097,
-            "z": 0.71,
-            "prior": 52.3,
-            "resid_std": 0.821
+            "n": 27,
+            "att": -0.031,
+            "def": -0.115,
+            "strength_est": 0.084,
+            "z": 0.62,
+            "prior": 52.0,
+            "resid_std": 0.838
           },
           "2052": {
             "n": 26,
             "att": -0.184,
-            "def": 0.111,
-            "strength_est": -0.295,
-            "z": -2.14,
+            "def": 0.11,
+            "strength_est": -0.294,
+            "z": -2.15,
             "prior": 43.2,
             "resid_std": 0.867
           },
           "2053": {
             "n": 27,
-            "att": -0.079,
-            "def": -0.015,
-            "strength_est": -0.064,
-            "z": -0.47,
+            "att": -0.078,
+            "def": -0.016,
+            "strength_est": -0.062,
+            "z": -0.46,
             "prior": 48.5,
-            "resid_std": 0.988
+            "resid_std": 0.987
           },
           "2054": {
             "n": 27,
             "att": -0.132,
-            "def": -0.285,
-            "strength_est": 0.153,
-            "z": 1.11,
-            "prior": 53.6,
-            "resid_std": 0.691
+            "def": -0.287,
+            "strength_est": 0.155,
+            "z": 1.14,
+            "prior": 53.7,
+            "resid_std": 0.692
           },
           "2055": {
             "n": 26,
-            "att": -0.079,
-            "def": -0.175,
-            "strength_est": 0.096,
-            "z": 0.7,
-            "prior": 52.2,
-            "resid_std": 1.063
+            "att": -0.078,
+            "def": -0.176,
+            "strength_est": 0.098,
+            "z": 0.72,
+            "prior": 52.3,
+            "resid_std": 1.061
           },
           "2056": {
             "n": 26,
-            "att": -0.275,
-            "def": -0.268,
-            "strength_est": -0.007,
-            "z": -0.05,
-            "prior": 49.8,
+            "att": -0.274,
+            "def": -0.269,
+            "strength_est": -0.005,
+            "z": -0.04,
+            "prior": 49.9,
             "resid_std": 0.459
           }
         }
@@ -30098,7 +30117,7 @@
       },
       "jpn-j1-league": {
         "form_feed": true,
-        "match_events": 975,
+        "match_events": 973,
         "espn": true,
         "espn_code": "jpn.1",
         "wiki": false,
@@ -30179,7 +30198,7 @@
       },
       "kor-k-league-2": {
         "form_feed": true,
-        "match_events": 226,
+        "match_events": 224,
         "espn": false,
         "espn_code": null,
         "wiki": true,
@@ -30269,7 +30288,7 @@
       },
       "jor-pro-league": {
         "form_feed": true,
-        "match_events": 23,
+        "match_events": 21,
         "espn": false,
         "espn_code": null,
         "wiki": true,
@@ -30341,7 +30360,7 @@
       },
       "aus-a-league": {
         "form_feed": true,
-        "match_events": 446,
+        "match_events": 445,
         "espn": true,
         "espn_code": "aus.1",
         "wiki": true,
@@ -30656,11 +30675,11 @@
       }
     },
     "calibration_prior": {
-      "slope": 0.7254,
-      "intercept": -0.0213,
+      "slope": 0.7249,
+      "intercept": -0.0219,
       "kappa": 40.0,
       "points": 8,
-      "samples": 7617,
+      "samples": 7626,
       "source": "gate_backtest.calibration_curve (Elo route, no look-ahead)",
       "caveat": "fitted on the pick-gate replay's Elo-from-strength route, not the live DC-priced route, so it is a PRIOR: the live buckets override it as soon as they hold more settled evidence of their own. Not applied to published probabilities or to selection until that trade-off is signed off.",
       "applied": false,
@@ -30673,7 +30692,7 @@
       "adjust_pp": 0.0,
       "refuted": true,
       "reason": "grid over-predicts draws; no correction applied",
-      "slots": 7573,
+      "slots": 7581,
       "elo_diagnostic": {
         "route": "p_draw",
         "applied": true,
@@ -30681,8 +30700,8 @@
         "raw_error_pp": -1.1,
         "shrinkage": 0.962,
         "band_agreement": 0.67,
-        "slots": 7617,
-        "draws": 1689,
+        "slots": 7626,
+        "draws": 1692,
         "realized": 22.2,
         "predicted": 21.1,
         "ci": "21.4-23.0%",
