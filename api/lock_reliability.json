@@ -1,35 +1,35 @@
 {
   "generator": "lock_reliability",
-  "candidates": 7626,
-  "published_locks_dc_route": 205,
+  "candidates": 7680,
+  "published_locks_dc_route": 207,
   "bands": [
     {
       "band": "lock >=80%",
-      "n": 53,
-      "model_mean": 0.8321,
-      "win_rate": 0.8868,
+      "n": 59,
+      "model_mean": 0.835,
+      "win_rate": 0.8983,
       "win_ci": [
-        0.7924324213361025,
-        0.9375473869169002
+        0.8121426180110167,
+        0.9439451183984955
       ],
-      "draw_rate": 0.0943,
-      "upset_rate": 0.0189,
-      "non_win_rate": 0.1132,
-      "calibration_gap_pp": 5.5
+      "draw_rate": 0.0847,
+      "upset_rate": 0.0169,
+      "non_win_rate": 0.1017,
+      "calibration_gap_pp": 6.3
     },
     {
       "band": "70-80%",
-      "n": 152,
-      "model_mean": 0.7574,
-      "win_rate": 0.8224,
+      "n": 148,
+      "model_mean": 0.7616,
+      "win_rate": 0.8176,
       "win_ci": [
-        0.7649533999207112,
-        0.8667000359190642
+        0.7588782322555225,
+        0.86302576539556
       ],
-      "draw_rate": 0.125,
-      "upset_rate": 0.0526,
-      "non_win_rate": 0.1776,
-      "calibration_gap_pp": 6.5
+      "draw_rate": 0.1284,
+      "upset_rate": 0.0541,
+      "non_win_rate": 0.1824,
+      "calibration_gap_pp": 5.6
     },
     {
       "band": "66-70% (cut by the 0.70 floor)",
@@ -41,17 +41,17 @@
     }
   ],
   "autopsy": {
-    "published_picks": 205,
+    "published_picks": 207,
     "false_locks": 33,
     "upset_locks": 9,
     "false_locks_with_form_warning": 0,
-    "form_warning_fired_anywhere": 295,
+    "form_warning_fired_anywhere": 298,
     "note": "The form tripwire runs at ADMISSION, so a flagged candidate is shaved below the gate and never becomes a pick; that is why published false locks carry no form warning. blind_adj>0 is a constant (no injury feed) and cannot discriminate."
   },
-  "overall_upset_rate": 0.0439,
+  "overall_upset_rate": 0.0435,
   "overall_upset_ci": [
-    0.02656981884106436,
-    0.07499927032653148
+    0.026312079440946795,
+    0.07428991913154298
   ],
   "leagues": [
     {
@@ -67,14 +67,14 @@
     },
     {
       "code": "ger-bundesliga",
-      "n": 10,
-      "false_lock_rate": 0.3,
-      "upset_rate": 0.2,
+      "n": 11,
+      "false_lock_rate": 0.364,
+      "upset_rate": 0.182,
       "upset_ci": [
-        0.07882004567009088,
-        0.4700867992791763
+        0.07187025554640855,
+        0.4381054351153112
       ],
-      "upset_posterior": 0.25
+      "upset_posterior": 0.231
     },
     {
       "code": "wal-cymru-premier",

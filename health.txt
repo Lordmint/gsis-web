@@ -1,176 +1,176 @@
-GSIS Run — 2026-10-17
+GSIS Run — 2026-10-18
 Status: OK
 API calls used: 0
 Competitions:
-  eng-premier-league: ok (resumed: already completed this snapshot) | entities=20 events=254
-  eng-championship: ok (resumed: already completed this snapshot) | entities=24 events=390
-  eng-league-one: ok (resumed: already completed this snapshot) | entities=24 events=393
-  eng-league-two: ok (resumed: already completed this snapshot) | entities=24 events=394
-  eng-national-league: ok (resumed: already completed this snapshot) | entities=24 events=415
-  esp-la-liga: ok (resumed: already completed this snapshot) | entities=20 events=288
-  esp-la-liga-2: ok (resumed: already completed this snapshot) | entities=22 events=359
-  esp-primera-rfef: ok (resumed: already completed this snapshot) | entities=20 events=59
-  ita-serie-a: ok (resumed: already completed this snapshot) | entities=20 events=275
-  ita-serie-b: ok (resumed: already completed this snapshot) | entities=20 events=271
-  ita-serie-c: ok (resumed: already completed this snapshot) | entities=20 events=0
-  ger-bundesliga: ok (resumed: already completed this snapshot) | entities=18 events=217
-  ger-2-bundesliga: ok (resumed: already completed this snapshot) | entities=18 events=218
-  ger-3-liga: ok (resumed: already completed this snapshot) | entities=20 events=86
-  fra-ligue-1: ok (resumed: already completed this snapshot) | entities=18 events=216
-  fra-ligue-2: ok (resumed: already completed this snapshot) | entities=18 events=230
-  ned-eredivisie: ok (resumed: already completed this snapshot) | entities=18 events=229
-  ned-eerste-divisie: ok (resumed: already completed this snapshot) | entities=20 events=275
-  ned-derde-divisie: ok (resumed: already completed this snapshot) | entities=18 events=153
-  por-primeira-liga: ok (resumed: already completed this snapshot) | entities=18 events=235
-  bel-pro-league: ok (resumed: already completed this snapshot) | entities=18 events=224
-  sco-premiership: ok (resumed: already completed this snapshot) | entities=12 events=160
-  sco-championship: ok (resumed: already completed this snapshot) | entities=10 events=130
-  sco-league-one: ok (resumed: already completed this snapshot) | entities=10 events=49
-  tur-super-lig: ok (resumed: already completed this snapshot) | entities=18 events=217
-  tur-1-lig: ok (resumed: already completed this snapshot) | entities=20 events=67
-  sui-super-league: ok (resumed: already completed this snapshot) | entities=12 events=58
-  sui-challenge-league: ok (resumed: already completed this snapshot) | entities=10 events=50
+  eng-premier-league: ok | entities=20 events=259
+  eng-championship: ok | entities=24 events=401
+  eng-league-one: ok | entities=24 events=404
+  eng-league-two: ok | entities=24 events=406
+  eng-national-league: ok | entities=24 events=415
+  esp-la-liga: ok | entities=20 events=292
+  esp-la-liga-2: ok | entities=22 events=363
+  esp-primera-rfef: ok | entities=20 events=64
+  ita-serie-a: ok | entities=20 events=278
+  ita-serie-b: ok | entities=20 events=277
+  ita-serie-c: ok | entities=20 events=0
+  ger-bundesliga: ok | entities=18 events=223
+  ger-2-bundesliga: ok | entities=18 events=222
+  ger-3-liga: ok | entities=20 events=92
+  fra-ligue-1: ok | entities=18 events=219
+  fra-ligue-2: ok | entities=18 events=233
+  ned-eredivisie: ok | entities=18 events=232
+  ned-eerste-divisie: ok | entities=20 events=276
+  ned-derde-divisie: ok | entities=18 events=153
+  por-primeira-liga: ok | entities=18 events=235
+  bel-pro-league: ok | entities=18 events=224
+  sco-premiership: ok | entities=12 events=165
+  sco-championship: ok | entities=10 events=134
+  sco-league-one: ok | entities=10 events=54
+  tur-super-lig: ok | entities=18 events=221
+  tur-1-lig: ok | entities=20 events=96
+  sui-super-league: ok | entities=12 events=58
+  sui-challenge-league: ok | entities=10 events=50
   isr-premier-league: ok | entities=14 events=3
-  isr-leumit: ok (resumed: already completed this snapshot) | entities=16 events=70
-  aut-bundesliga: ok (resumed: already completed this snapshot) | entities=12 events=142
-  aut-2-liga: ok (resumed: already completed this snapshot) | entities=16 events=51
-  den-superliga: ok (resumed: already completed this snapshot) | entities=12 events=145
-  den-1-division: ok (resumed: already completed this snapshot) | entities=12 events=39
-  swe-allsvenskan: ok (resumed: already completed this snapshot) | entities=16 events=185
-  swe-superettan: ok (resumed: already completed this snapshot) | entities=16 events=208
-  nor-eliteserien: ok (resumed: already completed this snapshot) | entities=16 events=176
-  nor-1-divisjon: ok (resumed: already completed this snapshot) | entities=16 events=168
-  pol-ekstraklasa: ok (resumed: already completed this snapshot) | entities=18 events=90
-  pol-1-liga: ok (resumed: already completed this snapshot) | entities=18 events=92
-  isl-besta-deild: ok (resumed: already completed this snapshot) | entities=12 events=114
-  fai-premier-league: ok (resumed: already completed this snapshot) | entities=10 events=20
-  fai-first-league: ok (resumed: already completed this snapshot) | entities=10 events=20
-  est-meistriliiga: ok (resumed: already completed this snapshot) | entities=10 events=90
-  est-esiliiga: ok (resumed: already completed this snapshot) | entities=10 events=72
-  lva-virsliga: ok (resumed: already completed this snapshot) | entities=10 events=152
-  azr-premier-league: ok (resumed: already completed this snapshot) | entities=12 events=42
-  arm-premier-league: ok (resumed: already completed this snapshot) | entities=12 events=52
-  gre-super-league: ok (resumed: already completed this snapshot) | entities=14 events=174
-  ukr-premier-league: ok (resumed: already completed this snapshot) | entities=16 events=61
-  ukr-persha: ok (resumed: already completed this snapshot) | entities=16 events=82
-  cze-first-league: ok (resumed: already completed this snapshot) | entities=16 events=80
-  cze-national-league: ok (resumed: already completed this snapshot) | entities=16 events=0
-  rou-liga-1: ok (resumed: already completed this snapshot) | entities=16 events=18
-  rou-liga-2: ok (resumed: already completed this snapshot) | entities=22 events=94
-  rou-liga-3: ok (resumed: already completed this snapshot) | entities=12 events=0
-  cro-hnl: ok (resumed: already completed this snapshot) | entities=10 events=13
-  cro-first-league: ok (resumed: already completed this snapshot) | entities=16 events=51
-  hun-nb1: ok (resumed: already completed this snapshot) | entities=12 events=49
-  fin-veikkausliiga: ok (resumed: already completed this snapshot) | entities=12 events=105
-  fin-ykkosliiga: ok (resumed: already completed this snapshot) | entities=10 events=62
-  por-segunda-liga: ok (resumed: already completed this snapshot) | entities=18 events=56
-  bel-challenger-pro-league: ok (resumed: already completed this snapshot) | entities=15 events=0
-  rus-premier-league: ok (resumed: already completed this snapshot) | entities=16 events=176
-  rus-first-league: ok (resumed: already completed this snapshot) | entities=18 events=118
-  cyp-first-division: ok (resumed: already completed this snapshot) | entities=14 events=136
+  isr-leumit: ok | entities=16 events=70
+  aut-bundesliga: ok | entities=12 events=144
+  aut-2-liga: ok | entities=16 events=56
+  den-superliga: ok | entities=12 events=145
+  den-1-division: ok | entities=12 events=39
+  swe-allsvenskan: ok | entities=16 events=186
+  swe-superettan: ok | entities=16 events=212
+  nor-eliteserien: ok | entities=16 events=179
+  nor-1-divisjon: ok | entities=16 events=168
+  pol-ekstraklasa: ok | entities=18 events=93
+  pol-1-liga: ok | entities=18 events=95
+  isl-besta-deild: ok | entities=12 events=117
+  fai-premier-league: ok | entities=10 events=20
+  fai-first-league: ok | entities=10 events=20
+  est-meistriliiga: ok | entities=10 events=90
+  est-esiliiga: ok | entities=10 events=72
+  lva-virsliga: ok | entities=10 events=153
+  azr-premier-league: ok | entities=12 events=44
+  arm-premier-league: ok | entities=12 events=54
+  gre-super-league: ok | entities=14 events=175
+  ukr-premier-league: ok | entities=16 events=64
+  ukr-persha: ok | entities=16 events=86
+  cze-first-league: ok | entities=16 events=84
+  cze-national-league: ok | entities=16 events=0
+  rou-liga-1: ok | entities=16 events=18
+  rou-liga-2: ok | entities=22 events=103
+  rou-liga-3: ok | entities=12 events=0
+  cro-hnl: ok | entities=10 events=13
+  cro-first-league: ok | entities=16 events=65
+  hun-nb1: ok | entities=12 events=51
+  fin-veikkausliiga: ok | entities=12 events=109
+  fin-ykkosliiga: ok | entities=10 events=65
+  por-segunda-liga: ok | entities=18 events=56
+  bel-challenger-pro-league: ok | entities=15 events=0
+  rus-premier-league: ok | entities=16 events=179
+  rus-first-league: ok | entities=18 events=123
+  cyp-first-division: ok | entities=14 events=136
   wal-cymru-premier: ok | entities=12 events=1
   mlt-premier-league: ok | entities=12 events=1
-  irl-premier: ok (resumed: already completed this snapshot) | entities=10 events=90
-  irl-first-division: ok (resumed: already completed this snapshot) | entities=10 events=81
-  nir-premiership: ok (resumed: already completed this snapshot) | entities=12 events=17
-  nir-championship: ok (resumed: already completed this snapshot) | entities=16 events=14
-  srp-superliga: ok (resumed: already completed this snapshot) | entities=14 events=75
-  srp-first-league: ok (resumed: already completed this snapshot) | entities=16 events=104
-  bul-first-league: ok (resumed: already completed this snapshot) | entities=14 events=64
-  bul-second-league: ok (resumed: already completed this snapshot) | entities=18 events=100
-  svn-prvaliga: ok (resumed: already completed this snapshot) | entities=10 events=49
-  svk-first-league: ok (resumed: already completed this snapshot) | entities=12 events=26
-  svk-second-league: ok (resumed: already completed this snapshot) | entities=16 events=65
-  blr-premier-league: ok (resumed: already completed this snapshot) | entities=16 events=190
-  alb-superiore: ok (resumed: already completed this snapshot) | entities=10 events=29
-  geo-erovnuli: ok (resumed: already completed this snapshot) | entities=10 events=135
-  geo-erovnuli-2: ok (resumed: already completed this snapshot) | entities=10 events=13
-  ltu-toplyga: ok (resumed: already completed this snapshot) | entities=10 events=72
-  ltu-pirma-lyga: ok (resumed: already completed this snapshot) | entities=16 events=2
-  mkd-first-league: ok (resumed: already completed this snapshot) | entities=10 events=45
-  mkd-second-league: ok (resumed: already completed this snapshot) | entities=14 events=36
-  mne-first-league: ok (resumed: already completed this snapshot) | entities=10 events=13
-  mne-second-league: ok (resumed: already completed this snapshot) | entities=10 events=14
-  kos-superleague: ok (resumed: already completed this snapshot) | entities=10 events=44
-  lux-national-division: ok (resumed: already completed this snapshot) | entities=16 events=64
-  lux-division-of-honour: ok (resumed: already completed this snapshot) | entities=16 events=60
-  bih-premijer: ok (resumed: already completed this snapshot) | entities=10 events=42
-  mda-liga-1: ok (resumed: already completed this snapshot) | entities=6 events=30
-  gha-premier-league: ok (resumed: already completed this snapshot) | entities=18 events=161
-  egy-premier-league: ok (resumed: already completed this snapshot) | entities=20 events=51
-  zim-premier-league: ok (resumed: already completed this snapshot) | entities=18 events=0
-  eth-premier-league: ok (resumed: already completed this snapshot) | entities=20 events=8
-  tza-premier-league: ok (resumed: already completed this snapshot) | entities=16 events=11
-  moz-mocambola: ok (resumed: already completed this snapshot) | entities=14 events=8
-  mar-botola: ok (resumed: already completed this snapshot) | entities=10 events=45
-  rsa-premiership: ok (resumed: already completed this snapshot) | entities=16 events=190
-  ngr-npfl: ok (resumed: already completed this snapshot) | entities=20 events=190
-  ken-premier-league: ok (resumed: already completed this snapshot) | entities=18 events=180
-  rsa-national-first-division: ok (resumed: already completed this snapshot) | entities=16 events=129
-  alg-ligue-1: data-low (resumed: already completed this snapshot) | entities=16 events=0
-  tun-ligue-1: ok (resumed: already completed this snapshot) | entities=16 events=35
-  jpn-j1-league: ok (resumed: already completed this snapshot) | entities=20 events=242
-  jpn-j2-league: ok (resumed: already completed this snapshot) | entities=20 events=100
-  jpn-j3-league: ok (resumed: already completed this snapshot) | entities=20 events=100
-  sau-pro-league: ok (resumed: already completed this snapshot) | entities=18 events=282
-  ind-isl: data-low (resumed: already completed this snapshot) | entities=14 events=5
-  ind-i-league: ok (resumed: already completed this snapshot) | entities=10 events=66
-  mys-super-league: ok (resumed: already completed this snapshot) | entities=13 events=78
-  sgp-premier-league: ok (resumed: already completed this snapshot) | entities=8 events=65
-  kor-k-league: data-low (resumed: already completed this snapshot) | entities=0 events=183
-  kor-k-league-2: ok (resumed: already completed this snapshot) | entities=17 events=224
-  kaz-premier-league: ok (resumed: already completed this snapshot) | entities=16 events=203
-  chn-csl: ok (resumed: already completed this snapshot) | entities=16 events=217
-  chn-league-one: ok (resumed: already completed this snapshot) | entities=16 events=195
-  tha-league-1: ok (resumed: already completed this snapshot) | entities=16 events=119
-  tha-league-2: ok (resumed: already completed this snapshot) | entities=18 events=51
-  idn-super-league: ok (resumed: already completed this snapshot) | entities=18 events=170
-  qat-stars-league: ok (resumed: already completed this snapshot) | entities=12 events=132
-  uae-pro-league: ok (resumed: already completed this snapshot) | entities=14 events=182
-  irq-stars-league: ok (resumed: already completed this snapshot) | entities=20 events=94
-  jor-pro-league: ok (resumed: already completed this snapshot) | entities=10 events=21
-  kuw-premier: ok (resumed: already completed this snapshot) | entities=12 events=18
-  lbn-premier: ok (resumed: already completed this snapshot) | entities=12 events=0
-  vnm-vleague: data-low (resumed: already completed this snapshot) | entities=14 events=21
-  hkg-premier: ok (resumed: already completed this snapshot) | entities=11 events=22
-  uzb-super-league: ok (resumed: already completed this snapshot) | entities=16 events=78
-  uzb-pro-league: ok (resumed: already completed this snapshot) | entities=14 events=0
-  irn-premier-league: ok (resumed: already completed this snapshot) | entities=18 events=72
-  aus-a-league: ok (resumed: already completed this snapshot) | entities=10 events=45
-  usa-mls: ok (resumed: already completed this snapshot) | entities=30 events=436
-  usa-usl: ok (resumed: already completed this snapshot) | entities=25 events=349
-  usa-usl-league-one: ok (resumed: already completed this snapshot) | entities=17 events=254
-  mex-liga-mx: ok (resumed: already completed this snapshot) | entities=18 events=267
-  can-cpl: ok (resumed: already completed this snapshot) | entities=8 events=55
-  mex-expansion: ok (resumed: already completed this snapshot) | entities=16 events=218
-  slv-primera: ok (resumed: already completed this snapshot) | entities=12 events=233
-  crc-primera: ok (resumed: already completed this snapshot) | entities=10 events=151
-  gua-liga-nacional: ok (resumed: already completed this snapshot) | entities=12 events=229
-  hon-liga-nacional: ok (resumed: already completed this snapshot) | entities=12 events=181
-  hon-liga-ascenso: ok (resumed: already completed this snapshot) | entities=12 events=18
-  gua-primera-ascenso: ok (resumed: already completed this snapshot) | entities=10 events=15
-  nic-primera: ok (resumed: already completed this snapshot) | entities=10 events=12
-  bra-serie-a: ok (resumed: already completed this snapshot) | entities=20 events=300
-  bra-serie-b: ok (resumed: already completed this snapshot) | entities=20 events=332
-  arg-primera: ok (resumed: already completed this snapshot) | entities=30 events=433
-  arg-primera-nacional: ok (resumed: already completed this snapshot) | entities=36 events=595
-  col-primera: ok (resumed: already completed this snapshot) | entities=20 events=331
-  col-primera-b: ok (resumed: already completed this snapshot) | entities=16 events=4
-  chi-primera: ok (resumed: already completed this snapshot) | entities=16 events=191
-  chi-primera-b: ok (resumed: already completed this snapshot) | entities=16 events=204
-  ecu-liga-pro: ok (resumed: already completed this snapshot) | entities=16 events=240
-  ecu-serie-b: ok (resumed: already completed this snapshot) | entities=12 events=9
-  par-primera: ok (resumed: already completed this snapshot) | entities=12 events=217
-  par-intermedia: ok (resumed: already completed this snapshot) | entities=16 events=18
-  uru-primera: ok (resumed: already completed this snapshot) | entities=16 events=258
-  uru-segunda: ok (resumed: already completed this snapshot) | entities=14 events=16
-  per-liga-1: ok (resumed: already completed this snapshot) | entities=18 events=254
-  per-liga-2: ok (resumed: already completed this snapshot) | entities=9 events=0
-  bol-liga-1: ok (resumed: already completed this snapshot) | entities=16 events=170
-  ven-liga-futve: ok (resumed: already completed this snapshot) | entities=14 events=199
-  ven-segunda: ok (resumed: already completed this snapshot) | entities=9 events=14
-  arg-primera-b-metropolitana: ok (resumed: already completed this snapshot) | entities=22 events=429
-  nzl-national-league: ok (resumed: already completed this snapshot) | entities=12 events=134
+  irl-premier: ok | entities=10 events=90
+  irl-first-division: ok | entities=10 events=81
+  nir-premiership: ok | entities=12 events=17
+  nir-championship: ok | entities=16 events=14
+  srp-superliga: ok | entities=14 events=75
+  srp-first-league: ok | entities=16 events=104
+  bul-first-league: ok | entities=14 events=64
+  bul-second-league: ok | entities=18 events=100
+  svn-prvaliga: ok | entities=10 events=57
+  svk-first-league: ok | entities=12 events=26
+  svk-second-league: ok | entities=16 events=65
+  blr-premier-league: ok | entities=16 events=193
+  alb-superiore: ok | entities=10 events=31
+  geo-erovnuli: ok | entities=10 events=137
+  geo-erovnuli-2: ok | entities=10 events=13
+  ltu-toplyga: ok | entities=10 events=72
+  ltu-pirma-lyga: ok | entities=16 events=2
+  mkd-first-league: ok | entities=10 events=47
+  mkd-second-league: ok | entities=14 events=36
+  mne-first-league: ok | entities=10 events=13
+  mne-second-league: ok | entities=10 events=14
+  kos-superleague: ok | entities=10 events=45
+  lux-national-division: ok | entities=16 events=64
+  lux-division-of-honour: ok | entities=16 events=60
+  bih-premijer: ok | entities=10 events=43
+  mda-liga-1: ok | entities=6 events=30
+  gha-premier-league: ok | entities=18 events=161
+  egy-premier-league: ok | entities=20 events=51
+  zim-premier-league: ok | entities=18 events=0
+  eth-premier-league: ok | entities=20 events=8
+  tza-premier-league: ok | entities=16 events=11
+  moz-mocambola: ok | entities=14 events=8
+  mar-botola: ok | entities=10 events=45
+  rsa-premiership: ok | entities=16 events=193
+  ngr-npfl: ok | entities=20 events=190
+  ken-premier-league: ok | entities=18 events=180
+  rsa-national-first-division: ok | entities=16 events=129
+  alg-ligue-1: data-low (empty pre-season table — no matches played yet) | entities=16 events=0
+  tun-ligue-1: ok | entities=16 events=36
+  jpn-j1-league: ok | entities=20 events=248
+  jpn-j2-league: ok | entities=20 events=100
+  jpn-j3-league: ok | entities=20 events=100
+  sau-pro-league: ok | entities=18 events=284
+  ind-isl: data-low (below min_events_for_score=6 — trying next source) | entities=14 events=7
+  ind-i-league: ok | entities=10 events=66
+  mys-super-league: ok | entities=13 events=78
+  sgp-premier-league: ok | entities=8 events=65
+  kor-k-league: ok | entities=12 events=186
+  kor-k-league-2: ok | entities=17 events=231
+  kaz-premier-league: ok | entities=16 events=203
+  chn-csl: ok | entities=16 events=221
+  chn-league-one: ok | entities=16 events=200
+  tha-league-1: ok | entities=16 events=119
+  tha-league-2: ok | entities=18 events=56
+  idn-super-league: ok | entities=18 events=170
+  qat-stars-league: ok | entities=12 events=132
+  uae-pro-league: ok | entities=14 events=182
+  irq-stars-league: ok | entities=20 events=94
+  jor-pro-league: ok | entities=10 events=25
+  kuw-premier: ok | entities=12 events=18
+  lbn-premier: data-low (no standings returned by source) | entities=0 events=0
+  vnm-vleague: ok | entities=14 events=24
+  hkg-premier: ok | entities=11 events=22
+  uzb-super-league: ok | entities=16 events=78
+  uzb-pro-league: ok | entities=14 events=0
+  irn-premier-league: ok | entities=18 events=72
+  aus-a-league: ok | entities=10 events=45
+  usa-mls: ok | entities=30 events=450
+  usa-usl: ok | entities=25 events=360
+  usa-usl-league-one: ok | entities=17 events=262
+  mex-liga-mx: ok | entities=18 events=272
+  can-cpl: ok | entities=8 events=55
+  mex-expansion: ok | entities=16 events=223
+  slv-primera: ok | entities=12 events=235
+  crc-primera: ok | entities=10 events=152
+  gua-liga-nacional: ok | entities=12 events=229
+  hon-liga-nacional: ok | entities=12 events=184
+  hon-liga-ascenso: ok | entities=12 events=18
+  gua-primera-ascenso: ok | entities=10 events=15
+  nic-primera: ok | entities=10 events=12
+  bra-serie-a: ok | entities=20 events=304
+  bra-serie-b: ok | entities=20 events=334
+  arg-primera: ok | entities=30 events=438
+  arg-primera-nacional: ok | entities=36 events=601
+  col-primera: ok | entities=20 events=334
+  col-primera-b: ok | entities=16 events=4
+  chi-primera: ok | entities=16 events=191
+  chi-primera-b: ok | entities=16 events=206
+  ecu-liga-pro: ok | entities=16 events=240
+  ecu-serie-b: ok | entities=12 events=9
+  par-primera: ok | entities=12 events=219
+  par-intermedia: ok | entities=16 events=18
+  uru-primera: ok | entities=16 events=261
+  uru-segunda: ok | entities=14 events=16
+  per-liga-1: ok | entities=18 events=257
+  per-liga-2: ok | entities=9 events=0
+  bol-liga-1: ok | entities=16 events=173
+  ven-liga-futve: ok | entities=14 events=202
+  ven-segunda: ok | entities=9 events=14
+  arg-primera-b-metropolitana: ok | entities=22 events=440
+  nzl-national-league: ok | entities=12 events=134
 
 Wikipedia data validation (results grid vs standings table):
   eng-premier-league: OK | teams=20 matches=65 checked=20 issues=0
@@ -182,13 +182,13 @@ Wikipedia data validation (results grid vs standings table):
       Barcelona: grid(P8 W8 D0 L0 GF32 GA7) vs standings (P9 W9 D0 L0 GF39 GA9)
       Real Sociedad: grid(P6 W3 D0 L3 GF9 GA13) vs standings (P8 W4 D1 L3 GF12 GA15)
       Deportivo A Coruña: grid(P5 W1 D3 L1 GF6 GA5) vs standings (P9 W2 D5 L2 GF13 GA12)
-  esp-la-liga-2: MISMATCH | teams=22 matches=99 checked=22 issues=6
-      Sporting Gijón: grid(P5 W2 D1 L2 GF4 GA5) vs standings (P10 W6 D1 L3 GF11 GA9)
+  esp-la-liga-2: MISMATCH | teams=22 matches=100 checked=22 issues=5
+      Sporting Gijón: grid(P6 W3 D1 L2 GF6 GA6) vs standings (P10 W6 D1 L3 GF11 GA9)
       Oviedo: grid(P8 W3 D2 L3 GF9 GA9) vs standings (P9 W4 D2 L3 GF11 GA9)
       Tenerife: grid(P8 W3 D3 L2 GF11 GA12) vs standings (P9 W3 D3 L3 GF11 GA13)
-  esp-primera-rfef: MISMATCH | teams=20 matches=59 checked=20 issues=13
-      Lugo: grid(P6 W5 D1 L0 GF11 GA4) vs standings (P8 W7 D1 L0 GF15 GA4)
-      Racing Ferrol: grid(P3 W3 D0 L0 GF6 GA2) vs standings (P8 W5 D1 L2 GF9 GA5)
+  esp-primera-rfef: MISMATCH | teams=20 matches=64 checked=20 issues=12
+      Lugo: grid(P7 W6 D1 L0 GF14 GA4) vs standings (P8 W7 D1 L0 GF15 GA4)
+      Racing Ferrol: grid(P4 W4 D0 L0 GF7 GA2) vs standings (P8 W5 D1 L2 GF9 GA5)
       Bilbao Athletic: grid(P4 W1 D2 L1 GF5 GA6) vs standings (P7 W3 D3 L1 GF12 GA8)
   ita-serie-a: OK | teams=20 matches=64 checked=20 issues=0
   ita-serie-b: OK | teams=20 matches=60 checked=20 issues=0
@@ -206,7 +206,7 @@ Wikipedia data validation (results grid vs standings table):
       Rennes: grid(P4 W3 D1 L0 GF10 GA5) vs standings (P6 W4 D1 L1 GF12 GA10)
       Lyon: grid(P5 W2 D2 L1 GF7 GA4) vs standings (P6 W3 D2 L1 GF11 GA4)
       Angers: grid(P5 W2 D1 L2 GF6 GA8) vs standings (P6 W2 D1 L3 GF7 GA10)
-  fra-ligue-2: OK | teams=18 matches=79 checked=18 issues=0
+  fra-ligue-2: OK | teams=18 matches=80 checked=18 issues=0
   ned-eredivisie: OK | teams=18 matches=76 checked=18 issues=0
   ned-eerste-divisie: OK | teams=20 matches=105 checked=20 issues=0
   por-primeira-liga: MISMATCH | teams=18 matches=71 checked=18 issues=1
@@ -217,7 +217,7 @@ Wikipedia data validation (results grid vs standings table):
       Charleroi: grid(P5 W5 D0 L0 GF10 GA3) vs standings (P8 W7 D0 L1 GF16 GA7)
   sco-premiership: OK | teams=12 matches=53 checked=12 issues=0
   sco-championship: OK | teams=10 matches=53 checked=10 issues=0
-  sco-league-one: OK | teams=10 matches=49 checked=10 issues=0
+  sco-league-one: OK | teams=10 matches=54 checked=10 issues=0
   tur-super-lig: MISMATCH | teams=18 matches=65 checked=18 issues=5
       Amedspor: grid(P5 W5 D0 L0 GF14 GA3) vs standings (P8 W5 D2 L1 GF18 GA9)
       Kocaelispor: grid(P6 W3 D0 L3 GF6 GA6) vs standings (P7 W4 D0 L3 GF8 GA6)
@@ -297,7 +297,7 @@ Wikipedia data validation (results grid vs standings table):
       Poltava: grid(P11 W5 D3 L3 GF18 GA10) vs standings (P12 W6 D3 L3 GF22 GA10)
       Kulykiv-Bilka: grid(P10 W5 D2 L3 GF22 GA12) vs standings (P11 W6 D2 L3 GF24 GA13)
       Prykarpattia-Blaho: grid(P6 W2 D3 L1 GF6 GA3) vs standings (P12 W4 D3 L5 GF12 GA14)
-  cze-first-league: OK | teams=16 matches=80 checked=16 issues=0
+  cze-first-league: OK | teams=16 matches=84 checked=16 issues=0
   cze-national-league: no validation data
   rou-liga-1: MISMATCH | teams=16 matches=18 checked=16 issues=16
       Dinamo București: grid(P2 W1 D0 L1 GF5 GA2) vs standings (P12 W9 D2 L1 GF27 GA7)
@@ -308,10 +308,10 @@ Wikipedia data validation (results grid vs standings table):
       Chindia Târgoviște: grid(P8 W6 D0 L2 GF20 GA9) vs standings (P9 W6 D0 L3 GF20 GA10)
       ASA Târgu Mureș: grid(P8 W3 D2 L3 GF12 GA13) vs standings (P9 W3 D2 L4 GF12 GA16)
   rou-liga-3: no validation data
-  cro-first-league: MISMATCH | teams=16 matches=51 checked=16 issues=7
-      BSK Bijelo Brdo: grid(P6 W3 D1 L2 GF7 GA6) vs standings (P7 W4 D1 L2 GF8 GA6)
-      Dinamo II: grid(P2 W1 D0 L1 GF2 GA2) vs standings (P7 W3 D0 L4 GF11 GA11)
-      Dugopolje: grid(P6 W1 D3 L2 GF6 GA7) vs standings (P7 W2 D3 L2 GF9 GA9)
+  cro-first-league: MISMATCH | teams=16 matches=65 checked=16 issues=9
+      Segesta: grid(P9 W4 D3 L2 GF14 GA10) vs standings (P9 W4 D2 L3 GF14 GA12)
+      BSK Bijelo Brdo: grid(P8 W3 D2 L3 GF9 GA9) vs standings (P9 W4 D2 L3 GF10 GA9)
+      Dinamo II: grid(P3 W1 D0 L2 GF2 GA3) vs standings (P9 W4 D0 L5 GF14 GA13)
   hun-nb1: MISMATCH | teams=12 matches=51 checked=12 issues=8
       ETO Győr: grid(P5 W3 D0 L2 GF10 GA6) vs standings (P10 W5 D3 L2 GF18 GA12)
       Vasas: grid(P9 W4 D2 L3 GF16 GA11) vs standings (P10 W4 D3 L3 GF18 GA13)
@@ -410,16 +410,15 @@ Wikipedia data validation (results grid vs standings table):
       Al Ittihad: grid(P6 W3 D1 L2 GF6 GA5) vs standings (P5 W3 D1 L1 GF6 GA3)
   zim-premier-league: no validation data
   mar-botola: OK | teams=16 matches=4 checked=8 issues=0
-  rsa-premiership: MISMATCH | teams=16 matches=61 checked=16 issues=1
-      Richards Bay: grid(P8 W0 D3 L5 GF10 GA20) vs standings (P7 W0 D3 L4 GF9 GA16)
+  rsa-premiership: OK | teams=16 matches=64 checked=16 issues=0
   ngr-npfl: MISMATCH | teams=20 matches=76 checked=20 issues=6
       Enugu Rangers: grid(P4 W3 D1 L0 GF7 GA3) vs standings (P8 W5 D2 L1 GF14 GA9)
       Barau: grid(P7 W3 D3 L1 GF10 GA7) vs standings (P8 W3 D4 L1 GF12 GA9)
       Ikorodu City: grid(P7 W2 D3 L2 GF8 GA7) vs standings (P8 W3 D3 L2 GF10 GA7)
   rsa-national-first-division: MISMATCH | teams=16 matches=28 checked=16 issues=16
-      Magesi: grid(P4 W4 D0 L0 GF6 GA1) vs standings (P6 W4 D2 L0 GF7 GA2)
-      Real Native: grid(P2 W2 D0 L0 GF3 GA1) vs standings (P6 W4 D0 L2 GF7 GA5)
-      Cape Town City: grid(P4 W2 D1 L1 GF6 GA4) vs standings (P6 W3 D2 L1 GF9 GA5)
+      Magesi: grid(P4 W4 D0 L0 GF6 GA1) vs standings (P7 W5 D2 L0 GF10 GA3)
+      Real Native: grid(P2 W2 D0 L0 GF3 GA1) vs standings (P7 W5 D0 L2 GF8 GA5)
+      Cape Town City: grid(P4 W2 D1 L1 GF6 GA4) vs standings (P7 W4 D2 L1 GF12 GA7)
   tun-ligue-1: MISMATCH | teams=16 matches=36 checked=16 issues=5
       Espérance de Tunis: grid(P2 W2 D0 L0 GF5 GA2) vs standings (P5 W4 D0 L1 GF10 GA7)
       JS El Omrane: grid(P4 W1 D2 L1 GF2 GA3) vs standings (P5 W2 D2 L1 GF5 GA4)
@@ -432,7 +431,11 @@ Wikipedia data validation (results grid vs standings table):
       Al-Riyadh: grid(P7 W1 D3 L3 GF7 GA17) vs standings (P8 W2 D3 L3 GF9 GA17)
   mys-super-league: OK | teams=12 matches=26 checked=12 issues=0
   sgp-premier-league: no validation data
-  kor-k-league-2: OK | teams=17 matches=229 checked=17 issues=0
+  kor-k-league: GRID-LAG (1 round(s) behind) | teams=12 matches=186 checked=12 issues=6
+      FC Seoul: grid(P30 W19 D5 L6 GF57 GA26) vs standings (P31 W20 D5 L6 GF58 GA26)
+      Jeonbuk Hyundai Motors: grid(P31 W12 D10 L9 GF41 GA31) vs standings (P32 W12 D11 L9 GF42 GA32)
+      Gangwon FC: grid(P30 W11 D12 L7 GF37 GA27) vs standings (P31 W11 D13 L7 GF38 GA28)
+  kor-k-league-2: OK | teams=17 matches=231 checked=17 issues=0
   kaz-premier-league: MISMATCH | teams=16 matches=203 checked=16 issues=14
       Ordabasy: grid(P26 W19 D4 L3 GF53 GA19) vs standings (P27 W20 D4 L3 GF55 GA19)
       Kairat: grid(P26 W17 D6 L3 GF50 GA20) vs standings (P27 W18 D6 L3 GF52 GA20)
@@ -465,13 +468,13 @@ Wikipedia data validation (results grid vs standings table):
       Al-Karma: grid(P9 W6 D3 L0 GF17 GA8) vs standings (P9 W7 D2 L0 GF17 GA7)
       Zakho: grid(P9 W2 D4 L3 GF8 GA12) vs standings (P9 W2 D3 L4 GF7 GA11)
       Al-Gharraf: grid(P10 W2 D3 L5 GF6 GA13) vs standings (P10 W2 D3 L5 GF7 GA14)
-  jor-pro-league: OK | teams=10 matches=24 checked=10 issues=0
+  jor-pro-league: OK | teams=10 matches=25 checked=10 issues=0
   kuw-premier: GRID-LAG (1 round(s) behind) | teams=12 matches=18 checked=12 issues=11
       Kuwait: grid(P3 W2 D1 L0 GF5 GA3) vs standings (P4 W3 D1 L0 GF12 GA4)
       Qadsia: grid(P3 W2 D0 L1 GF5 GA2) vs standings (P4 W3 D0 L1 GF7 GA2)
       Kazma: grid(P3 W2 D1 L0 GF6 GA3) vs standings (P4 W2 D2 L0 GF7 GA4)
-  lbn-premier: no validation data
-  hkg-premier: MISMATCH | teams=11 matches=22 checked=10 issues=5
+  vnm-vleague: OK | teams=14 matches=24 checked=14 issues=0
+  hkg-premier: MISMATCH | teams=11 matches=22 checked=10 issues=6
       Lee Man: grid(P4 W4 D0 L0 GF11 GA0) vs standings (P5 W5 D0 L0 GF13 GA1)
       Kitchee: grid(P4 W3 D1 L0 GF10 GA3) vs standings (P5 W4 D1 L0 GF14 GA4)
       Southern: grid(P4 W3 D0 L1 GF8 GA7) vs standings (P4 W3 D0 L1 GF9 GA6)
@@ -482,43 +485,43 @@ Wikipedia data validation (results grid vs standings table):
   uzb-pro-league: no validation data
   irn-premier-league: OK | teams=18 matches=72 checked=18 issues=0
   aus-a-league: no validation data
-  usa-mls: MISMATCH | teams=15 matches=175 checked=15 issues=15
-      Nashville SC: grid(P24 W16 D5 L3 GF49 GA18) vs standings (P29 W20 D3 L6 GF63 GA22)
-      Inter Miami CF: grid(P23 W11 D8 L4 GF59 GA41) vs standings (P29 W14 D5 L10 GF70 GA50)
-      New England Revolution: grid(P24 W14 D4 L6 GF45 GA30) vs standings (P29 W15 D10 L4 GF48 GA41)
+  usa-mls: MISMATCH | teams=15 matches=180 checked=15 issues=15
+      Nashville SC: grid(P24 W16 D5 L3 GF49 GA18) vs standings (P30 W20 D3 L7 GF64 GA23)
+      Inter Miami CF: grid(P24 W12 D8 L4 GF62 GA42) vs standings (P30 W15 D5 L10 GF73 GA51)
+      New England Revolution: grid(P25 W15 D4 L6 GF46 GA30) vs standings (P30 W16 D10 L4 GF49 GA41)
   usa-usl: no validation data
   usa-usl-league-one: MISMATCH | teams=17 matches=240 checked=17 issues=17
-      Charlotte Independence: grid(P29 W19 D6 L4 GF68 GA39) vs standings (P30 W19 D5 L6 GF70 GA42)
-      Union Omaha: grid(P29 W18 D4 L7 GF51 GA31) vs standings (P30 W19 D7 L4 GF53 GA32)
-      Forward Madison FC: grid(P29 W15 D6 L8 GF50 GA28) vs standings (P30 W15 D8 L7 GF52 GA30)
-  mex-liga-mx: MISMATCH | teams=18 matches=97 checked=18 issues=5
+      Charlotte Independence: grid(P29 W19 D6 L4 GF68 GA39) vs standings (P31 W20 D5 L6 GF73 GA42)
+      Union Omaha: grid(P29 W18 D4 L7 GF51 GA31) vs standings (P31 W19 D8 L4 GF54 GA34)
+      Forward Madison FC: grid(P29 W15 D6 L8 GF50 GA28) vs standings (P31 W16 D8 L7 GF54 GA30)
+  mex-liga-mx: MISMATCH | teams=18 matches=102 checked=18 issues=5
+      Toluca: grid(P11 W5 D3 L3 GF21 GA14) vs standings (P12 W6 D3 L3 GF26 GA16)
       Atlas: grid(P10 W6 D2 L2 GF16 GA12) vs standings (P12 W6 D3 L3 GF19 GA18)
-      Toluca: grid(P10 W5 D2 L3 GF20 GA13) vs standings (P11 W6 D2 L3 GF25 GA15)
       Pumas UNAM: grid(P11 W4 D3 L4 GF18 GA19) vs standings (P12 W4 D4 L4 GF19 GA20)
   can-cpl: MISMATCH | teams=8 matches=55 checked=8 issues=8
       Cavalry FC: grid(P14 W11 D3 L0 GF29 GA8) vs standings (P26 W16 D6 L4 GF53 GA21)
       Forge FC: grid(P13 W9 D2 L2 GF21 GA10) vs standings (P26 W16 D6 L4 GF46 GA20)
       Atlético Ottawa: grid(P14 W6 D3 L5 GF22 GA25) vs standings (P26 W13 D4 L9 GF40 GA41)
   mex-expansion: OK | teams=16 matches=98 checked=16 issues=0
-  slv-primera: MISMATCH | teams=12 matches=68 checked=11 issues=11
+  slv-primera: MISMATCH | teams=12 matches=69 checked=11 issues=11
       FAS: grid(P12 W8 D3 L1 GF22 GA9) vs standings (P14 W9 D3 L2 GF25 GA12)
       Luis Ángel Firpo: grid(P7 W6 D1 L0 GF15 GA1) vs standings (P14 W8 D4 L2 GF26 GA11)
       Águila: grid(P12 W5 D4 L3 GF20 GA15) vs standings (P15 W6 D5 L4 GF25 GA18)
-  bra-serie-a: OK | teams=20 matches=300 checked=20 issues=0
+  bra-serie-a: OK | teams=20 matches=304 checked=20 issues=0
   bra-serie-b: MISMATCH | teams=20 matches=133 checked=20 issues=20
       Vila Nova: grid(P23 W10 D5 L8 GF30 GA26) vs standings (P33 W18 D7 L8 GF46 GA31)
+      Juventude: grid(P7 W3 D2 L2 GF7 GA5) vs standings (P34 W17 D10 L7 GF41 GA23)
       Novorizontino: grid(P23 W12 D7 L4 GF44 GA20) vs standings (P33 W17 D9 L7 GF59 GA28)
-      Juventude: grid(P7 W3 D2 L2 GF7 GA5) vs standings (P33 W17 D9 L7 GF39 GA21)
-  arg-primera: MISMATCH | teams=15 matches=176 checked=15 issues=15
+  arg-primera: MISMATCH | teams=15 matches=178 checked=15 issues=15
       Estudiantes: grid(P27 W11 D5 L11 GF30 GA22) vs standings (P16 W9 D4 L3 GF19 GA7)
       Boca Juniors: grid(P25 W12 D10 L3 GF39 GA22) vs standings (P16 W8 D6 L2 GF22 GA9)
-      Vélez Sarsfield: grid(P23 W9 D11 L3 GF27 GA20) vs standings (P16 W7 D7 L2 GF18 GA12)
-  arg-primera-nacional: GRID-LAG (2 round(s) behind) | teams=18 matches=281 checked=18 issues=18
+      Vélez Sarsfield: grid(P24 W10 D11 L3 GF28 GA20) vs standings (P16 W7 D7 L2 GF18 GA12)
+  arg-primera-nacional: GRID-LAG (2 round(s) behind) | teams=18 matches=282 checked=18 issues=18
       Ferro Carril Oeste: grid(P31 W16 D8 L7 GF33 GA27) vs standings (P33 W18 D8 L7 GF37 GA28)
       Deportivo Morón: grid(P31 W16 D7 L8 GF49 GA32) vs standings (P33 W17 D7 L9 GF51 GA34)
       Godoy Cruz: grid(P31 W15 D9 L7 GF40 GA27) vs standings (P33 W16 D9 L8 GF42 GA29)
-  col-primera: MISMATCH | teams=20 matches=318 checked=20 issues=20
-      Atlético Nacional: grid(P30 W20 D3 L7 GF56 GA25) vs standings (P19 W13 D1 L5 GF35 GA15)
+  col-primera: MISMATCH | teams=20 matches=321 checked=20 issues=20
+      Atlético Nacional: grid(P31 W21 D3 L7 GF60 GA26) vs standings (P19 W13 D1 L5 GF35 GA15)
       Junior: grid(P32 W13 D7 L12 GF50 GA47) vs standings (P19 W11 D2 L6 GF31 GA24)
       Deportivo Pasto: grid(P31 W12 D7 L12 GF38 GA43) vs standings (P19 W10 D4 L5 GF29 GA25)
   chi-primera-b: MISMATCH | teams=16 matches=206 checked=16 issues=14
@@ -526,8 +529,8 @@ Wikipedia data validation (results grid vs standings table):
       Cobreloa: grid(P27 W13 D9 L5 GF49 GA30) vs standings (P28 W14 D9 L5 GF51 GA30)
       Santiago Wanderers: grid(P27 W13 D7 L7 GF44 GA29) vs standings (P28 W13 D8 L7 GF46 GA31)
   ecu-liga-pro: OK | teams=16 matches=240 checked=16 issues=0
-  per-liga-1: MISMATCH | teams=18 matches=240 checked=18 issues=18
-      Alianza Lima: grid(P27 W16 D8 L3 GF44 GA19) vs standings (P17 W12 D4 L1 GF30 GA8)
+  per-liga-1: MISMATCH | teams=18 matches=243 checked=18 issues=18
+      Alianza Lima: grid(P28 W17 D8 L3 GF47 GA20) vs standings (P17 W12 D4 L1 GF30 GA8)
       Los Chankas: grid(P28 W12 D7 L9 GF36 GA45) vs standings (P17 W10 D4 L3 GF25 GA21)
       Cienciano: grid(P27 W12 D5 L10 GF45 GA38) vs standings (P17 W10 D3 L4 GF34 GA22)
   per-liga-2: no validation data
@@ -537,49 +540,67 @@ Wikipedia data validation (results grid vs standings table):
       Auckland United: grid(P23 W12 D6 L5 GF49 GA23) vs standings (P22 W12 D5 L5 GF47 GA21)
 
 Prediction validation (top-3 vs next-5, mature≥3 matches):
-  aut-bundesliga: avg hit=100.0% | mature=4 matches=124 conf=4%
-  jpn-j1-league: avg hit=100.0% | mature=5 matches=119 conf=5%
   rsa-premiership: avg hit=100.0% | mature=3 matches=98 conf=3%
   wal-cymru-premier: avg hit=100.0% | mature=3 matches=52 conf=3%
+  bra-serie-a: avg hit=97.8% | mature=20 matches=108 conf=20%
+  eng-premier-league: avg hit=88.9% | mature=3 matches=99 conf=3%
   egy-premier-league: avg hit=83.3% | mature=3 matches=23 conf=3%
+  esp-la-liga: avg hit=81.5% | mature=3 matches=145 conf=3%
   isr-premier-league: avg hit=81.1% | mature=19 matches=101 conf=20%
-  ger-bundesliga: avg hit=77.8% | mature=4 matches=92 conf=4%
-  sco-championship: avg hit=73.9% | mature=21 matches=139 conf=22%
-  ven-liga-futve: avg hit=72.2% | mature=4 matches=97 conf=4%
-  arg-primera: avg hit=70.5% | mature=48 matches=226 conf=48%
-  bra-serie-b: avg hit=70.2% | mature=58 matches=269 conf=58%
-  hon-liga-nacional: avg hit=67.8% | mature=10 matches=160 conf=11%
-  ger-2-bundesliga: avg hit=66.7% | mature=10 matches=153 conf=10%
-  swe-allsvenskan: avg hit=66.7% | mature=6 matches=125 conf=6%
-  ned-eerste-divisie: avg hit=66.1% | mature=33 matches=175 conf=34%
-  eng-national-league: avg hit=63.1% | mature=40 matches=195 conf=44%
-  usa-mls: avg hit=61.1% | mature=41 matches=228 conf=39%
-  uru-primera: avg hit=60.0% | mature=37 matches=177 conf=39%
-  usa-usl: avg hit=59.6% | mature=32 matches=168 conf=34%
-  esp-la-liga-2: avg hit=57.0% | mature=40 matches=189 conf=40%
-  fra-ligue-2: avg hit=55.6% | mature=4 matches=115 conf=4%
-  par-primera: avg hit=53.9% | mature=35 matches=178 conf=37%
-  mex-expansion: avg hit=52.6% | mature=35 matches=183 conf=38%
-  eng-league-one: avg hit=50.8% | mature=7 matches=106 conf=8%
-  arg-primera-b-metropolitana: avg hit=48.0% | mature=30 matches=158 conf=32%
-  col-primera: avg hit=47.8% | mature=33 matches=203 conf=34%
-  arg-primera-nacional: avg hit=46.4% | mature=40 matches=204 conf=40%
-  usa-usl-league-one: avg hit=44.7% | mature=37 matches=201 conf=40%
-  gha-premier-league: avg hit=44.4% | mature=12 matches=56 conf=12%
+  ned-eredivisie: avg hit=81.0% | mature=7 matches=132 conf=7%
+  jpn-j1-league: avg hit=76.5% | mature=17 matches=186 conf=16%
+  sco-premiership: avg hit=73.0% | mature=7 matches=126 conf=7%
+  tur-super-lig: avg hit=72.2% | mature=10 matches=154 conf=10%
+  ukr-persha: avg hit=70.0% | mature=3 matches=37 conf=4%
+  ita-serie-b: avg hit=69.7% | mature=11 matches=155 conf=11%
+  fra-ligue-2: avg hit=67.9% | mature=9 matches=174 conf=9%
+  bra-serie-b: avg hit=67.8% | mature=62 matches=295 conf=60%
+  hon-liga-nacional: avg hit=67.8% | mature=10 matches=161 conf=11%
+  aut-bundesliga: avg hit=66.7% | mature=10 matches=156 conf=10%
+  nor-eliteserien: avg hit=66.7% | mature=6 matches=127 conf=6%
+  swe-allsvenskan: avg hit=66.7% | mature=6 matches=126 conf=6%
+  ven-liga-futve: avg hit=66.7% | mature=13 matches=161 conf=13%
+  arg-primera: avg hit=65.2% | mature=54 matches=238 conf=52%
+  eng-national-league: avg hit=63.1% | mature=40 matches=195 conf=43%
+  ned-eerste-divisie: avg hit=62.5% | mature=40 matches=204 conf=40%
+  eng-championship: avg hit=61.7% | mature=62 matches=228 conf=61%
+  sco-championship: avg hit=61.1% | mature=38 matches=212 conf=39%
+  par-primera: avg hit=60.9% | mature=53 matches=244 conf=55%
+  eng-league-one: avg hit=59.2% | mature=23 matches=189 conf=25%
+  uru-primera: avg hit=59.1% | mature=37 matches=179 conf=37%
+  usa-mls: avg hit=58.5% | mature=76 matches=323 conf=71%
+  esp-la-liga-2: avg hit=58.2% | mature=55 matches=285 conf=54%
+  usa-usl-league-one: avg hit=54.6% | mature=52 matches=279 conf=55%
+  usa-usl: avg hit=53.5% | mature=54 matches=258 conf=56%
+  ita-serie-a: avg hit=53.3% | mature=5 matches=127 conf=5%
+  col-primera: avg hit=52.4% | mature=39 matches=223 conf=39%
+  ger-2-bundesliga: avg hit=50.0% | mature=16 matches=185 conf=16%
+  arg-primera-nacional: avg hit=49.6% | mature=45 matches=216 conf=44%
+  ger-bundesliga: avg hit=48.9% | mature=9 matches=156 conf=9%
+  mex-expansion: avg hit=44.7% | mature=42 matches=215 conf=44%
+  cro-first-league: avg hit=44.4% | mature=4 matches=29 conf=6%
+  gha-premier-league: avg hit=44.4% | mature=12 matches=56 conf=11%
+  per-liga-1: avg hit=44.4% | mature=10 matches=129 conf=10%
+  slv-primera: avg hit=44.4% | mature=57 matches=296 conf=58%
   srp-first-league: avg hit=44.4% | mature=3 matches=31 conf=4%
   crc-primera: avg hit=42.4% | mature=7 matches=154 conf=7%
-  slv-primera: avg hit=42.2% | mature=52 matches=273 conf=54%
-  eng-championship: avg hit=40.0% | mature=20 matches=161 conf=20%
-  kor-k-league: avg hit=37.1% | mature=35 matches=154 conf=37%
-  gua-liga-nacional: avg hit=32.0% | mature=52 matches=248 conf=58%
-  mex-liga-mx: avg hit=31.1% | mature=19 matches=135 conf=20%
-  eng-league-two: avg hit=17.5% | mature=13 matches=119 conf=14%
-  Overall: 37 leagues mature, avg hit=60.2%
+  arg-primera-b-metropolitana: avg hit=41.4% | mature=49 matches=248 conf=51%
+  mex-liga-mx: avg hit=40.5% | mature=38 matches=232 conf=38%
+  kor-k-league: avg hit=38.5% | mature=36 matches=184 conf=37%
+  gua-liga-nacional: avg hit=32.0% | mature=52 matches=248 conf=57%
+  eng-league-two: avg hit=20.6% | mature=34 matches=209 conf=36%
+  Overall: 49 leagues mature, avg hit=61.2%
 
 Recipe tuning:
-  arg-primera: boost_position — over target (hit=70.5% > 52%) → lean into position/wdl (Δ +18.5pt)
-  bra-serie-b: boost_position — over target (hit=70.2% > 52%) → lean into position/wdl (Δ +18.2pt)
+  bra-serie-b: boost_position — over target (hit=67.8% > 52%) → lean into position/wdl (Δ +15.8pt)
+  arg-primera: boost_position — over target (hit=65.2% > 52%) → lean into position/wdl (Δ +13.2pt)
   eng-national-league: boost_position — over target (hit=63.1% > 52%) → lean into position/wdl (Δ +11.1pt)
-  usa-usl-league-one: boost_form — under target (hit=44.7% < 52%) → lean into form/goal-diff (Δ -7.3pt)
-  slv-primera: boost_form — under target (hit=42.2% < 52%) → lean into form/goal-diff (Δ -9.8pt)
+  ned-eerste-divisie: boost_position — over target (hit=62.5% > 52%) → lean into position/wdl (Δ +10.5pt)
+  eng-championship: boost_position — over target (hit=61.7% > 52%) → lean into position/wdl (Δ +9.7pt)
+  par-primera: boost_position — over target (hit=60.9% > 52%) → lean into position/wdl (Δ +8.9pt)
+  usa-mls: boost_position — over target (hit=58.5% > 52%) → lean into position/wdl (Δ +6.5pt)
+  esp-la-liga-2: boost_position — over target (hit=58.2% > 52%) → lean into position/wdl (Δ +6.2pt)
+  mex-expansion: boost_form — under target (hit=44.7% < 52%) → lean into form/goal-diff (Δ -7.3pt)
+  slv-primera: boost_form — under target (hit=44.4% < 52%) → lean into form/goal-diff (Δ -7.6pt)
+  arg-primera-b-metropolitana: boost_form — under target (hit=41.4% < 52%) → lean into form/goal-diff (Δ -10.6pt)
   gua-liga-nacional: boost_form — under target (hit=32.0% < 52%) → lean into form/goal-diff (Δ -20.0pt)
