@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-18T09:07:08.180716+00:00",
+  "generated_at": "2026-10-18T16:09:23.383751+00:00",
   "weeks": [
     "2026-09-14",
     "2026-09-21",
@@ -8,26 +8,26 @@
     "2026-10-12"
   ],
   "picks": 21,
-  "settled": 20,
-  "pending": 1,
-  "wins": 16,
+  "settled": 21,
+  "pending": 0,
+  "wins": 17,
   "losses": 3,
   "pushes": 1,
-  "hit_rate": 0.8421052631578947,
-  "overall_roi": 0.403,
-  "modelled_edge": 0.5523972500000001,
-  "realized_edge": 0.403,
-  "realized_net_profit": 8.06,
+  "hit_rate": 0.85,
+  "overall_roi": 0.410952380952381,
+  "modelled_edge": 0.5509926190476191,
+  "realized_edge": 0.410952380952381,
+  "realized_net_profit": 8.63,
   "calibration": [
     {
       "bucket": "70%+",
-      "n": 19,
+      "n": 20,
       "model": 0.75,
-      "realized": 0.8421052631578947,
-      "roi": 0.4242105263157895,
-      "ci_lo": 0.6563361956857181,
-      "ci_hi": 0.9286461156156269,
-      "bayes_mean": 0.8095238095238095,
+      "realized": 0.85,
+      "roi": 0.43150000000000005,
+      "ci_lo": 0.6707889805374487,
+      "ci_hi": 0.9321935269896158,
+      "bayes_mean": 0.8181818181818182,
       "verdict": "on-track"
     }
   ],
@@ -40,11 +40,11 @@
   "by_market": [
     {
       "key": "Home or GG",
-      "n": 6,
-      "wins": 5,
+      "n": 7,
+      "wins": 6,
       "losses": 1,
-      "hit": 0.8333333333333334,
-      "roi": 0.2783333333333333
+      "hit": 0.8571428571428571,
+      "roi": 0.32
     },
     {
       "key": "Away or GG",
@@ -82,11 +82,11 @@
   "by_tier": [
     {
       "key": "Reliable",
-      "n": 10,
-      "wins": 9,
+      "n": 11,
+      "wins": 10,
       "losses": 1,
-      "hit": 0.9,
-      "roi": 0.43800000000000006
+      "hit": 0.9090909090909091,
+      "roi": 0.45
     },
     {
       "key": "Elite",
@@ -193,6 +193,14 @@
       "losses": 0,
       "hit": 1.0,
       "roi": 0.3999999999999999
+    },
+    {
+      "key": "English Premier League",
+      "n": 1,
+      "wins": 1,
+      "losses": 0,
+      "hit": 1.0,
+      "roi": 0.5700000000000001
     }
   ],
   "by_week": [
@@ -221,20 +229,20 @@
       "roi": 0.09333333333333334
     },
     {
+      "key": "2026-10-12",
+      "n": 3,
+      "wins": 2,
+      "losses": 1,
+      "hit": 0.6666666666666666,
+      "roi": -0.010000000000000009
+    },
+    {
       "key": "2026-10-05",
       "n": 2,
       "wins": 2,
       "losses": 0,
       "hit": 1.0,
       "roi": 0.41500000000000004
-    },
-    {
-      "key": "2026-10-12",
-      "n": 2,
-      "wins": 1,
-      "losses": 1,
-      "hit": 0.5,
-      "roi": -0.30000000000000004
     }
   ],
   "concentration": [
@@ -1448,7 +1456,8 @@
       108.16,
       108.66,
       107.66,
-      108.06
+      108.06,
+      108.63
     ],
     "quarter_kelly": [
       100.0,
@@ -1471,7 +1480,8 @@
       401.62357545760784,
       444.8533330609261,
       342.4459079870236,
-      365.9633807180324
+      365.9633807180324,
+      413.80394366239716
     ],
     "bayes_kelly": [
       100.0,
@@ -1494,7 +1504,8 @@
       356.6693180554242,
       391.04778194949137,
       308.76748225569264,
-      326.73003053591754
+      326.73003053591754,
+      365.5945676681649
     ],
     "start": 100.0
   },
@@ -4497,7 +4508,7 @@
   },
   "model_state": {
     "version": 1,
-    "generated_at": "2026-10-18T08:59:41+00:00",
+    "generated_at": "2026-10-18T16:02:36+00:00",
     "note": "1 active calibration bucket(s) from 20 settled picks \u00b7 4 drifted league(s) \u00b7 130 league(s) with adaptive gate factors \u00b7 154 league(s) with a recursive strength model",
     "calibration": [
       {
@@ -30972,11 +30983,11 @@
       }
     },
     "calibration_prior": {
-      "slope": 0.8172,
-      "intercept": -0.041,
+      "slope": 0.7942,
+      "intercept": -0.0329,
       "kappa": 40.0,
       "points": 8,
-      "samples": 7626,
+      "samples": 7680,
       "source": "gate_backtest.calibration_curve (Elo route, no look-ahead)",
       "caveat": "fitted on the pick-gate replay's Elo-from-strength route, not the live DC-priced route, so it is a PRIOR: the live buckets override it as soon as they hold more settled evidence of their own. Not applied to published probabilities or to selection until that trade-off is signed off.",
       "applied": false,
@@ -30989,21 +31000,14 @@
       "adjust_pp": 0.0,
       "refuted": true,
       "reason": "grid over-predicts draws; no correction applied",
-      "slots": 7581,
+      "slots": 7635,
       "elo_diagnostic": {
         "route": "p_draw",
-        "applied": true,
-        "adjust_pp": 1.06,
-        "raw_error_pp": -1.1,
-        "shrinkage": 0.962,
-        "band_agreement": 0.67,
-        "slots": 7626,
-        "draws": 1692,
-        "realized": 22.2,
-        "predicted": 21.1,
-        "ci": "21.4-23.0%",
-        "refuted": false,
-        "reason": "p_draw route under-predicts draws by 1.1pp pooled (90% CI 21.4-23.0%); +1.06pp applied after 4% shrinkage for sample size"
+        "applied": false,
+        "adjust_pp": 0.0,
+        "refuted": true,
+        "reason": "band errors disagree in sign (50% agreement) \u2014 a slope, which a flat draw correction cannot fix",
+        "slots": 7680
       },
       "scope": "market selection only (not the pick gate)",
       "reline": false

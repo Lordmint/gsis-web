@@ -1,14 +1,14 @@
 {
   "generator": "drawfix_ab",
   "adjust_pp": 0.0,
-  "n_settled": 20,
+  "n_settled": 21,
   "n_relined": 0,
-  "n_same": 20,
+  "n_same": 21,
   "transitions": {},
-  "loss_rate_historical": 0.15,
-  "resolvable_set": 20,
-  "loss_rate_corrected_resolvable": 0.15,
-  "loss_rate_corrected_worst_case": 0.15,
+  "loss_rate_historical": 0.1429,
+  "resolvable_set": 21,
+  "loss_rate_corrected_resolvable": 0.1429,
+  "loss_rate_corrected_worst_case": 0.1429,
   "historical_losses": 3,
   "corrected_losses_resolvable": 3,
   "corrected_losses_worst_case": 3,
@@ -43,9 +43,9 @@
     },
     {
       "week": "2026-10-12",
-      "settled": 2,
+      "settled": 3,
       "relined": 0,
-      "same": 2
+      "same": 3
     }
   ],
   "rows": [
@@ -347,6 +347,21 @@
       "counterfactual_verdict": "W",
       "score": "2-0",
       "odds": 1.4,
+      "reproduces": true
+    },
+    {
+      "week": "2026-10-12",
+      "strong": "Brighton & Hove Albion",
+      "weak": "Crystal Palace",
+      "is_home": true,
+      "historical_market": "Home or GG",
+      "uncorrected_market": "Home or GG",
+      "corrected_market": "Home or GG",
+      "relined": false,
+      "historical_verdict": "W",
+      "counterfactual_verdict": "W",
+      "score": "5-0",
+      "odds": 1.57,
       "reproduces": true
     }
   ]
