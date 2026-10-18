@@ -490,60 +490,60 @@
     },
     {
       "band": "70-75%",
-      "slots": 726,
-      "predicted": 73.2,
-      "realized": 72.0,
-      "loss_rate": 11.4,
-      "gap": 1.2,
-      "predicted_p": 0.731916,
-      "realized_p": 0.72
+      "slots": 624,
+      "predicted": 73.4,
+      "realized": 71.8,
+      "loss_rate": 11.5,
+      "gap": 1.6,
+      "predicted_p": 0.734495,
+      "realized_p": 0.718
     },
     {
       "band": "75-80%",
-      "slots": 818,
+      "slots": 861,
       "predicted": 77.4,
-      "realized": 71.0,
+      "realized": 71.3,
       "loss_rate": 11.0,
-      "gap": 6.4,
-      "predicted_p": 0.773891,
-      "realized_p": 0.71
+      "gap": 6.1,
+      "predicted_p": 0.774232,
+      "realized_p": 0.713
     },
     {
       "band": "80-90%",
-      "slots": 655,
-      "predicted": 83.4,
-      "realized": 76.0,
+      "slots": 708,
+      "predicted": 83.5,
+      "realized": 75.6,
       "loss_rate": 9.0,
-      "gap": 7.4,
-      "predicted_p": 0.833806,
-      "realized_p": 0.76
+      "gap": 7.9,
+      "predicted_p": 0.835335,
+      "realized_p": 0.756
     },
     {
       "band": "90-100%",
-      "slots": 37,
-      "predicted": 91.1,
-      "realized": 75.7,
-      "loss_rate": 10.8,
-      "gap": 15.4,
-      "predicted_p": 0.910843,
-      "realized_p": 0.757
+      "slots": 43,
+      "predicted": 91.4,
+      "realized": 76.7,
+      "loss_rate": 11.6,
+      "gap": 14.7,
+      "predicted_p": 0.914086,
+      "realized_p": 0.767
     }
   ],
   "calibration_shape": {
     "shape": "slope (under-dispersed)",
     "n_bands": 8,
-    "mean_gap": 4.9,
+    "mean_gap": 4.8,
     "min_gap": 0.2,
-    "max_gap": 15.4,
-    "spread": 15.2,
-    "slope_pp_per_pp": 0.295,
+    "max_gap": 14.7,
+    "spread": 14.5,
+    "slope_pp_per_pp": 0.286,
     "remedy": "shrink toward the base rate on the log-odds scale (slope < 1); an additive shift would over-correct the low end and under-correct the high end"
   },
   "prior_impact": {
     "available": true,
     "prior": {
-      "slope": 0.7942,
-      "intercept": -0.0329,
+      "slope": 0.7766,
+      "intercept": -0.0295,
       "kappa": 40.0,
       "points": 8,
       "samples": 7680,
@@ -551,14 +551,14 @@
       "caveat": "fitted on the pick-gate replay's Elo-from-strength route, not the live DC-priced route, so it is a PRIOR: the live buckets override it as soon as they hold more settled evidence of their own. Not applied to published probabilities or to selection until that trade-off is signed off.",
       "applied": false
     },
-    "mean_before": 79.9,
-    "mean_after": 74.7,
+    "mean_before": 80.4,
+    "mean_after": 74.8,
     "picks_before": 207,
-    "picks_after": 148,
-    "picks_kept_pct": 71.5,
+    "picks_after": 151,
+    "picks_kept_pct": 72.9,
     "wins_before": 174,
-    "wins_after": 124,
-    "hit_rate_after": 83.8,
+    "wins_after": 127,
+    "hit_rate_after": 84.1,
     "hit_rate_before": 84.1
   },
   "dc_headline": {
@@ -615,69 +615,69 @@
     },
     {
       "band": "70-75%",
-      "slots": 143,
-      "predicted": 73.1,
-      "realized": 80.4,
+      "slots": 127,
+      "predicted": 73.4,
+      "realized": 81.9,
       "loss_rate": 6.3,
-      "gap": -7.3,
-      "predicted_p": 0.731372,
-      "realized_p": 0.804
+      "gap": -8.5,
+      "predicted_p": 0.734409,
+      "realized_p": 0.819
     },
     {
       "band": "75-80%",
-      "slots": 93,
-      "predicted": 77.4,
-      "realized": 80.6,
-      "loss_rate": 5.4,
-      "gap": -3.2,
-      "predicted_p": 0.773649,
-      "realized_p": 0.806
+      "slots": 99,
+      "predicted": 77.2,
+      "realized": 76.8,
+      "loss_rate": 6.1,
+      "gap": 0.4,
+      "predicted_p": 0.772168,
+      "realized_p": 0.768
     },
     {
       "band": "80-90%",
-      "slots": 57,
-      "predicted": 83.2,
-      "realized": 89.5,
-      "loss_rate": 1.8,
-      "gap": -6.3,
-      "predicted_p": 0.832461,
-      "realized_p": 0.895
+      "slots": 65,
+      "predicted": 83.0,
+      "realized": 90.8,
+      "loss_rate": 1.5,
+      "gap": -7.8,
+      "predicted_p": 0.830174,
+      "realized_p": 0.908
     },
     {
       "band": "90-100%",
-      "slots": 2,
-      "predicted": 90.8,
+      "slots": 4,
+      "predicted": 90.7,
       "realized": 100.0,
       "loss_rate": 0.0,
-      "gap": -9.2,
-      "predicted_p": 0.9076,
+      "gap": -9.3,
+      "predicted_p": 0.907425,
       "realized_p": 1.0
     }
   ],
   "calibration_shape_dc": {
     "shape": "slope (under-dispersed)",
     "n_bands": 8,
-    "mean_gap": -6.9,
+    "mean_gap": -6.8,
     "min_gap": -9.6,
-    "max_gap": -3.2,
-    "spread": 6.4,
+    "max_gap": 0.4,
+    "spread": 10.0,
     "slope_pp_per_pp": -0.019,
     "remedy": "shrink toward the base rate on the log-odds scale (slope < 1); an additive shift would over-correct the low end and under-correct the high end"
   },
   "prior_impact_dc": {
     "available": true,
     "prior": {
-      "slope": 1.2508,
-      "intercept": 0.1896,
+      "slope": 1.25,
+      "intercept": 0.1895,
       "kappa": 40.0,
       "points": 7,
-      "samples": 7633,
+      "samples": 7631,
       "source": "gate_backtest.calibration_curve (Elo route, no look-ahead)",
       "caveat": "fitted on the pick-gate replay's Elo-from-strength route, not the live DC-priced route, so it is a PRIOR: the live buckets override it as soon as they hold more settled evidence of their own. Not applied to published probabilities or to selection until that trade-off is signed off.",
       "applied": false
     },
-    "mean_before": 78.3,
-    "mean_after": 85.6,
+    "mean_before": 78.8,
+    "mean_after": 86.0,
     "picks_before": 207,
     "picks_after": 207,
     "picks_kept_pct": 100.0,
@@ -734,58 +734,58 @@
         },
         {
           "band": "70-75%",
-          "slots": 726,
-          "predicted": 73.2,
-          "realized": 72.0,
-          "loss_rate": 11.4,
-          "gap": 1.2,
-          "predicted_p": 0.731916,
-          "realized_p": 0.72
+          "slots": 624,
+          "predicted": 73.4,
+          "realized": 71.8,
+          "loss_rate": 11.5,
+          "gap": 1.6,
+          "predicted_p": 0.734495,
+          "realized_p": 0.718
         },
         {
           "band": "75-80%",
-          "slots": 818,
+          "slots": 861,
           "predicted": 77.4,
-          "realized": 71.0,
+          "realized": 71.3,
           "loss_rate": 11.0,
-          "gap": 6.4,
-          "predicted_p": 0.773891,
-          "realized_p": 0.71
+          "gap": 6.1,
+          "predicted_p": 0.774232,
+          "realized_p": 0.713
         },
         {
           "band": "80-90%",
-          "slots": 655,
-          "predicted": 83.4,
-          "realized": 76.0,
+          "slots": 708,
+          "predicted": 83.5,
+          "realized": 75.6,
           "loss_rate": 9.0,
-          "gap": 7.4,
-          "predicted_p": 0.833806,
-          "realized_p": 0.76
+          "gap": 7.9,
+          "predicted_p": 0.835335,
+          "realized_p": 0.756
         },
         {
           "band": "90-100%",
-          "slots": 37,
-          "predicted": 91.1,
-          "realized": 75.7,
-          "loss_rate": 10.8,
-          "gap": 15.4,
-          "predicted_p": 0.910843,
-          "realized_p": 0.757
+          "slots": 43,
+          "predicted": 91.4,
+          "realized": 76.7,
+          "loss_rate": 11.6,
+          "gap": 14.7,
+          "predicted_p": 0.914086,
+          "realized_p": 0.767
         }
       ],
       "shape": {
         "shape": "slope (under-dispersed)",
         "n_bands": 8,
-        "mean_gap": 4.9,
+        "mean_gap": 4.8,
         "min_gap": 0.2,
-        "max_gap": 15.4,
-        "spread": 15.2,
-        "slope_pp_per_pp": 0.295,
+        "max_gap": 14.7,
+        "spread": 14.5,
+        "slope_pp_per_pp": 0.286,
         "remedy": "shrink toward the base rate on the log-odds scale (slope < 1); an additive shift would over-correct the low end and under-correct the high end"
       },
       "prior": {
-        "slope": 0.7942,
-        "intercept": -0.0329,
+        "slope": 0.7766,
+        "intercept": -0.0295,
         "samples": 7680
       },
       "picks": 1764,
@@ -837,59 +837,59 @@
         },
         {
           "band": "70-75%",
-          "slots": 143,
-          "predicted": 73.1,
-          "realized": 80.4,
+          "slots": 127,
+          "predicted": 73.4,
+          "realized": 81.9,
           "loss_rate": 6.3,
-          "gap": -7.3,
-          "predicted_p": 0.731372,
-          "realized_p": 0.804
+          "gap": -8.5,
+          "predicted_p": 0.734409,
+          "realized_p": 0.819
         },
         {
           "band": "75-80%",
-          "slots": 93,
-          "predicted": 77.4,
-          "realized": 80.6,
-          "loss_rate": 5.4,
-          "gap": -3.2,
-          "predicted_p": 0.773649,
-          "realized_p": 0.806
+          "slots": 99,
+          "predicted": 77.2,
+          "realized": 76.8,
+          "loss_rate": 6.1,
+          "gap": 0.4,
+          "predicted_p": 0.772168,
+          "realized_p": 0.768
         },
         {
           "band": "80-90%",
-          "slots": 57,
-          "predicted": 83.2,
-          "realized": 89.5,
-          "loss_rate": 1.8,
-          "gap": -6.3,
-          "predicted_p": 0.832461,
-          "realized_p": 0.895
+          "slots": 65,
+          "predicted": 83.0,
+          "realized": 90.8,
+          "loss_rate": 1.5,
+          "gap": -7.8,
+          "predicted_p": 0.830174,
+          "realized_p": 0.908
         },
         {
           "band": "90-100%",
-          "slots": 2,
-          "predicted": 90.8,
+          "slots": 4,
+          "predicted": 90.7,
           "realized": 100.0,
           "loss_rate": 0.0,
-          "gap": -9.2,
-          "predicted_p": 0.9076,
+          "gap": -9.3,
+          "predicted_p": 0.907425,
           "realized_p": 1.0
         }
       ],
       "shape": {
         "shape": "slope (under-dispersed)",
         "n_bands": 8,
-        "mean_gap": -6.9,
+        "mean_gap": -6.8,
         "min_gap": -9.6,
-        "max_gap": -3.2,
-        "spread": 6.4,
+        "max_gap": 0.4,
+        "spread": 10.0,
         "slope_pp_per_pp": -0.019,
         "remedy": "shrink toward the base rate on the log-odds scale (slope < 1); an additive shift would over-correct the low end and under-correct the high end"
       },
       "prior": {
-        "slope": 1.2508,
-        "intercept": 0.1896,
-        "samples": 7633
+        "slope": 1.25,
+        "intercept": 0.1895,
+        "samples": 7631
       },
       "picks": 207,
       "hit_rate": 84.1,
@@ -901,8 +901,8 @@
       "p90": 25.1,
       "max": 43.6
     },
-    "slope_delta": 0.457,
-    "verdict": "DC prices more sharply than Elo (slope 1.25 vs 0.79) \u2014 the overconfidence is largely a property of the Elo fallback, and a prior fitted on it would over-haircut DC-priced picks"
+    "slope_delta": 0.473,
+    "verdict": "DC prices more sharply than Elo (slope 1.25 vs 0.78) \u2014 the overconfidence is largely a property of the Elo fallback, and a prior fitted on it would over-haircut DC-priced picks"
   },
   "dc_floor_sweep": [
     {

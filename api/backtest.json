@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-18T16:09:23.383751+00:00",
+  "generated_at": "2026-10-18T21:46:30.373131+00:00",
   "weeks": [
     "2026-09-14",
     "2026-09-21",
@@ -4508,8 +4508,8 @@
   },
   "model_state": {
     "version": 1,
-    "generated_at": "2026-10-18T16:02:36+00:00",
-    "note": "1 active calibration bucket(s) from 20 settled picks \u00b7 4 drifted league(s) \u00b7 130 league(s) with adaptive gate factors \u00b7 154 league(s) with a recursive strength model",
+    "generated_at": "2026-10-18T21:38:25+00:00",
+    "note": "1 active calibration bucket(s) from 21 settled picks \u00b7 4 drifted league(s) \u00b7 130 league(s) with adaptive gate factors \u00b7 154 league(s) with a recursive strength model",
     "calibration": [
       {
         "lo": 0.5,
@@ -4566,14 +4566,14 @@
       {
         "lo": 0.7,
         "hi": 1.01,
-        "n": 20,
-        "wins": 16,
+        "n": 21,
+        "wins": 17,
         "pushes": 1,
-        "realized": 0.825,
+        "realized": 0.8333,
         "model_mid": 0.8,
-        "delta": 0.025,
-        "delta_shrunk": 0.0143,
-        "sigma": 0.0143,
+        "delta": 0.0333,
+        "delta_shrunk": 0.0194,
+        "sigma": 0.0194,
         "active": true
       }
     ],

@@ -5,31 +5,31 @@
   "bands": [
     {
       "band": "lock >=80%",
-      "n": 59,
-      "model_mean": 0.835,
-      "win_rate": 0.8983,
+      "n": 69,
+      "model_mean": 0.8347,
+      "win_rate": 0.913,
       "win_ci": [
-        0.8121426180110167,
-        0.9439451183984955
+        0.8378234831916525,
+        0.9521188417821971
       ],
-      "draw_rate": 0.0847,
-      "upset_rate": 0.0169,
-      "non_win_rate": 0.1017,
-      "calibration_gap_pp": 6.3
+      "draw_rate": 0.0725,
+      "upset_rate": 0.0145,
+      "non_win_rate": 0.087,
+      "calibration_gap_pp": 7.8
     },
     {
       "band": "70-80%",
-      "n": 148,
-      "model_mean": 0.7616,
-      "win_rate": 0.8176,
+      "n": 138,
+      "model_mean": 0.7642,
+      "win_rate": 0.8043,
       "win_ci": [
-        0.7588782322555225,
-        0.86302576539556
+        0.7422258405131295,
+        0.852886891160233
       ],
-      "draw_rate": 0.1284,
-      "upset_rate": 0.0541,
-      "non_win_rate": 0.1824,
-      "calibration_gap_pp": 5.6
+      "draw_rate": 0.1377,
+      "upset_rate": 0.058,
+      "non_win_rate": 0.1957,
+      "calibration_gap_pp": 4.0
     },
     {
       "band": "66-70% (cut by the 0.70 floor)",
