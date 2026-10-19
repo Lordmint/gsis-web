@@ -173,24 +173,24 @@ Competitions:
   nzl-national-league: ok (resumed: already completed this snapshot) | entities=12 events=134
 
 Wikipedia data validation (results grid vs standings table):
-  eng-premier-league: OK | teams=20 matches=69 checked=20 issues=0
+  eng-premier-league: OK | teams=20 matches=70 checked=20 issues=0
   eng-championship: OK | teams=24 matches=131 checked=24 issues=0
   eng-league-one: OK | teams=24 matches=114 checked=24 issues=0
   eng-league-two: OK | teams=24 matches=126 checked=24 issues=0
   eng-national-league: OK | teams=24 matches=155 checked=24 issues=0
-  esp-la-liga: MISMATCH | teams=20 matches=74 checked=20 issues=12
+  esp-la-liga: MISMATCH | teams=20 matches=75 checked=20 issues=12
       Barcelona: grid(P8 W8 D0 L0 GF32 GA7) vs standings (P9 W9 D0 L0 GF39 GA9)
       Real Sociedad: grid(P7 W4 D0 L3 GF14 GA15) vs standings (P9 W5 D1 L3 GF17 GA17)
       Celta Vigo: grid(P4 W1 D1 L2 GF4 GA6) vs standings (P9 W2 D5 L2 GF10 GA7)
-  esp-la-liga-2: MISMATCH | teams=22 matches=105 checked=22 issues=5
+  esp-la-liga-2: MISMATCH | teams=22 matches=106 checked=22 issues=5
       Sporting Gijón: grid(P6 W3 D1 L2 GF6 GA6) vs standings (P10 W6 D1 L3 GF11 GA9)
       Oviedo: grid(P9 W4 D2 L3 GF11 GA10) vs standings (P10 W5 D2 L3 GF13 GA10)
-      Tenerife: grid(P8 W3 D3 L2 GF11 GA12) vs standings (P9 W3 D3 L3 GF11 GA13)
+      Tenerife: grid(P9 W3 D4 L2 GF12 GA13) vs standings (P10 W3 D4 L3 GF12 GA14)
   esp-primera-rfef: MISMATCH | teams=20 matches=67 checked=20 issues=14
       Lugo: grid(P7 W6 D1 L0 GF14 GA4) vs standings (P8 W7 D1 L0 GF15 GA4)
       UD Logroñés: grid(P7 W5 D1 L1 GF16 GA10) vs standings (P8 W5 D2 L1 GF17 GA11)
       Racing Ferrol: grid(P4 W4 D0 L0 GF7 GA2) vs standings (P8 W5 D1 L2 GF9 GA5)
-  ita-serie-a: OK | teams=20 matches=69 checked=20 issues=0
+  ita-serie-a: OK | teams=20 matches=70 checked=20 issues=0
   ita-serie-b: OK | teams=20 matches=70 checked=20 issues=0
   ita-serie-c: no validation data
   ger-bundesliga: MISMATCH | teams=18 matches=48 checked=18 issues=8
@@ -206,12 +206,12 @@ Wikipedia data validation (results grid vs standings table):
       Lyon: grid(P6 W3 D2 L1 GF9 GA5) vs standings (P7 W4 D2 L1 GF13 GA5)
       Paris FC: grid(P6 W3 D2 L1 GF8 GA4) vs standings (P7 W4 D2 L1 GF12 GA7)
       Rennes: grid(P4 W3 D1 L0 GF10 GA5) vs standings (P7 W4 D1 L2 GF15 GA14)
-  fra-ligue-2: OK | teams=18 matches=80 checked=18 issues=0
+  fra-ligue-2: OK | teams=18 matches=81 checked=18 issues=0
   ned-eredivisie: MISMATCH | teams=18 matches=81 checked=18 issues=2
       NEC: grid(P9 W2 D5 L2 GF16 GA16) vs standings (P9 W2 D4 L3 GF15 GA16)
       Telstar: grid(P9 W0 D4 L5 GF10 GA19) vs standings (P9 W1 D3 L5 GF10 GA18)
-  ned-eerste-divisie: OK | teams=20 matches=107 checked=20 issues=0
-  por-primeira-liga: OK | teams=18 matches=71 checked=18 issues=0
+  ned-eerste-divisie: OK | teams=20 matches=110 checked=20 issues=0
+  por-primeira-liga: OK | teams=18 matches=72 checked=18 issues=0
   bel-pro-league: MISMATCH | teams=18 matches=56 checked=18 issues=18
       Gent: grid(P6 W5 D1 L0 GF12 GA4) vs standings (P8 W7 D1 L0 GF15 GA4)
       Club Brugge: grid(P7 W6 D0 L1 GF15 GA3) vs standings (P8 W7 D0 L1 GF19 GA4)
@@ -232,11 +232,11 @@ Wikipedia data validation (results grid vs standings table):
       Young Boys: grid(P9 W6 D3 L0 GF31 GA16) vs standings (P10 W6 D4 L0 GF33 GA18)
       Sion: grid(P9 W6 D0 L3 GF22 GA16) vs standings (P10 W6 D1 L3 GF23 GA17)
   sui-challenge-league: OK | teams=10 matches=50 checked=10 issues=0
-  isr-premier-league: OK | teams=14 matches=48 checked=14 issues=0
-  isr-leumit: MISMATCH | teams=16 matches=70 checked=16 issues=6
-      Hapoel Afula: grid(P8 W5 D2 L1 GF15 GA8) vs standings (P9 W5 D2 L2 GF18 GA13)
-      Hapoel Ra'anana: grid(P8 W4 D0 L4 GF17 GA12) vs standings (P9 W5 D0 L4 GF20 GA13)
-      Maccabi Bnei Reineh: grid(P8 W3 D1 L4 GF9 GA11) vs standings (P9 W4 D1 L4 GF13 GA13)
+  isr-premier-league: OK | teams=14 matches=49 checked=14 issues=0
+  isr-leumit: MISMATCH | teams=16 matches=77 checked=16 issues=7
+      Hapoel Kfar Shalem: grid(P9 W5 D2 L2 GF19 GA18) vs standings (P10 W6 D2 L2 GF23 GA18)
+      Hapoel Afula: grid(P9 W5 D3 L1 GF15 GA8) vs standings (P10 W5 D3 L2 GF18 GA13)
+      Hapoel Ra'anana: grid(P9 W4 D1 L4 GF18 GA13) vs standings (P10 W5 D1 L4 GF21 GA14)
   aut-bundesliga: MISMATCH | teams=12 matches=46 checked=12 issues=10
       SK Rapid: grid(P8 W7 D0 L1 GF25 GA8) vs standings (P9 W8 D0 L1 GF26 GA8)
       Red Bull Salzburg: grid(P8 W5 D3 L0 GF18 GA4) vs standings (P9 W6 D3 L0 GF21 GA4)
@@ -245,15 +245,15 @@ Wikipedia data validation (results grid vs standings table):
       First Vienna FC 1894: grid(P8 W6 D1 L1 GF18 GA9) vs standings (P9 W7 D1 L1 GF19 GA9)
       Austria Wien II: grid(P8 W4 D1 L3 GF12 GA12) vs standings (P9 W5 D1 L3 GF16 GA13)
       Austria Salzburg: grid(P8 W4 D1 L3 GF15 GA12) vs standings (P9 W5 D1 L3 GF17 GA13)
-  den-superliga: MISMATCH | teams=12 matches=52 checked=12 issues=10
+  den-superliga: MISMATCH | teams=12 matches=53 checked=12 issues=10
       Copenhagen: grid(P10 W8 D0 L2 GF24 GA10) vs standings (P11 W8 D1 L2 GF25 GA11)
-      Viborg: grid(P7 W4 D1 L2 GF14 GA7) vs standings (P10 W6 D2 L2 GF17 GA8)
+      Viborg: grid(P8 W4 D1 L3 GF15 GA9) vs standings (P11 W6 D2 L3 GF18 GA10)
       Nordsjælland: grid(P9 W4 D3 L2 GF15 GA13) vs standings (P11 W5 D4 L2 GF17 GA13)
   den-1-division: MISMATCH | teams=12 matches=39 checked=11 issues=11
       Hvidovre: grid(P7 W6 D1 L0 GF16 GA7) vs standings (P11 W8 D3 L0 GF21 GA10)
       Vejle: grid(P7 W4 D3 L0 GF18 GA11) vs standings (P11 W6 D4 L1 GF24 GA15)
       Fredericia: grid(P8 W3 D4 L1 GF11 GA5) vs standings (P11 W5 D5 L1 GF17 GA6)
-  swe-allsvenskan: MISMATCH | teams=16 matches=178 checked=16 issues=13
+  swe-allsvenskan: MISMATCH | teams=16 matches=179 checked=16 issues=13
       IK Sirius: grid(P22 W16 D3 L3 GF51 GA28) vs standings (P24 W17 D4 L3 GF55 GA30)
       Djurgårdens IF: grid(P23 W15 D1 L7 GF49 GA20) vs standings (P24 W15 D2 L7 GF50 GA21)
       Hammarby IF: grid(P12 W9 D1 L2 GF34 GA7) vs standings (P24 W14 D4 L6 GF50 GA21)
@@ -266,11 +266,8 @@ Wikipedia data validation (results grid vs standings table):
       Haugesund: grid(P21 W15 D1 L5 GF64 GA36) vs standings (P26 W19 D2 L5 GF78 GA40)
       Strømsgodset: grid(P20 W11 D6 L3 GF51 GA28) vs standings (P26 W17 D6 L3 GF71 GA33)
       Kongsvinger: grid(P21 W14 D4 L3 GF62 GA33) vs standings (P26 W17 D5 L4 GF77 GA42)
-  pol-ekstraklasa: OK | teams=18 matches=96 checked=18 issues=0
-  pol-1-liga: MISMATCH | teams=18 matches=98 checked=18 issues=17
-      Pogoń Grodzisk Mazowiecki: grid(P11 W6 D3 L2 GF19 GA9) vs standings (P10 W6 D3 L1 GF19 GA8)
-      Polonia Warsaw: grid(P11 W6 D2 L3 GF18 GA13) vs standings (P10 W5 D2 L3 GF17 GA13)
-      Lechia Gdańsk: grid(P11 W6 D1 L4 GF21 GA17) vs standings (P10 W5 D1 L4 GF19 GA16)
+  pol-ekstraklasa: OK | teams=18 matches=97 checked=18 issues=0
+  pol-1-liga: OK | teams=18 matches=99 checked=18 issues=0
   isl-besta-deild: MISMATCH | teams=12 matches=117 checked=12 issues=12
       Víkingur Reykjavík: grid(P8 W6 D2 L0 GF24 GA7) vs standings (P22 W16 D5 L1 GF67 GA21)
       Fram: grid(P11 W5 D2 L4 GF27 GA25) vs standings (P22 W13 D6 L3 GF56 GA42)
@@ -281,8 +278,8 @@ Wikipedia data validation (results grid vs standings table):
       Paide Linnameeskond: grid(P18 W9 D4 L5 GF29 GA22) vs standings (P32 W17 D6 L9 GF52 GA39)
   est-esiliiga: MISMATCH | teams=10 matches=72 checked=10 issues=10
       Welco: grid(P16 W11 D3 L2 GF47 GA21) vs standings (P34 W23 D5 L6 GF96 GA42)
-      Viimsi: grid(P16 W9 D3 L4 GF33 GA14) vs standings (P32 W17 D5 L10 GF58 GA32)
-      Elva: grid(P16 W7 D3 L6 GF29 GA27) vs standings (P33 W15 D7 L11 GF47 GA48)
+      Viimsi: grid(P16 W9 D3 L4 GF33 GA14) vs standings (P33 W18 D5 L10 GF61 GA32)
+      FCI Levadia U21: grid(P16 W4 D0 L12 GF25 GA35) vs standings (P33 W17 D2 L14 GF64 GA56)
   lva-virsliga: MISMATCH | teams=10 matches=157 checked=10 issues=9
       RFS: grid(P31 W25 D4 L2 GF77 GA21) vs standings (P33 W26 D5 L2 GF81 GA24)
       Riga: grid(P32 W24 D6 L2 GF87 GA28) vs standings (P33 W24 D7 L2 GF90 GA31)
@@ -344,7 +341,7 @@ Wikipedia data validation (results grid vs standings table):
   irl-premier: MISMATCH | teams=10 matches=90 checked=10 issues=10
       Shamrock Rovers: grid(P18 W10 D4 L4 GF28 GA16) vs standings (P34 W19 D8 L7 GF54 GA35)
       Bohemians: grid(P18 W8 D7 L3 GF27 GA18) vs standings (P34 W18 D8 L8 GF60 GA41)
-      St Patrick's Athletic: grid(P18 W9 D5 L4 GF31 GA16) vs standings (P33 W17 D8 L8 GF53 GA27)
+      St Patrick's Athletic: grid(P18 W9 D5 L4 GF31 GA16) vs standings (P34 W17 D8 L9 GF53 GA28)
   irl-first-division: MISMATCH | teams=10 matches=81 checked=10 issues=10
       Cork City: grid(P17 W12 D3 L2 GF31 GA10) vs standings (P36 W23 D6 L7 GF74 GA35)
       UCD: grid(P9 W6 D1 L2 GF16 GA7) vs standings (P36 W16 D8 L12 GF67 GA51)
@@ -368,10 +365,10 @@ Wikipedia data validation (results grid vs standings table):
       Komárno: grid(P4 W0 D2 L2 GF4 GA6) vs standings (P5 W0 D2 L3 GF4 GA9)
       Ružomberok: grid(P4 W0 D0 L4 GF2 GA12) vs standings (P5 W0 D1 L4 GF3 GA13)
   svk-second-league: MISMATCH | teams=16 matches=65 checked=15 issues=15
-      Petržalka: grid(P9 W8 D0 L1 GF17 GA6) vs standings (P12 W9 D2 L1 GF22 GA8)
-      Šamorín: grid(P8 W8 D0 L0 GF19 GA6) vs standings (P12 W9 D1 L2 GF23 GA13)
-      Považská Bystrica: grid(P9 W5 D1 L3 GF18 GA16) vs standings (P12 W7 D2 L3 GF25 GA21)
-  blr-premier-league: OK | teams=16 matches=195 checked=16 issues=0
+      Petržalka: grid(P9 W8 D0 L1 GF17 GA6) vs standings (P13 W9 D3 L1 GF23 GA9)
+      Šamorín: grid(P8 W8 D0 L0 GF19 GA6) vs standings (P13 W9 D2 L2 GF25 GA15)
+      Pohronie: grid(P9 W5 D1 L3 GF16 GA13) vs standings (P13 W7 D2 L4 GF21 GA16)
+  blr-premier-league: OK | teams=16 matches=198 checked=16 issues=0
   alb-superiore: MISMATCH | teams=10 matches=32 checked=10 issues=4
       Egnatia: grid(P6 W5 D0 L1 GF14 GA5) vs standings (P7 W6 D0 L1 GF16 GA6)
       Vora: grid(P6 W1 D2 L3 GF4 GA11) vs standings (P7 W2 D2 L3 GF8 GA12)
@@ -405,10 +402,10 @@ Wikipedia data validation (results grid vs standings table):
       Borac Banja Luka: grid(P8 W6 D1 L1 GF15 GA7) vs standings (P9 W7 D1 L1 GF17 GA7)
       Željezničar: grid(P5 W3 D2 L0 GF9 GA4) vs standings (P10 W3 D4 L3 GF12 GA13)
   mda-liga-1: OK | teams=6 matches=30 checked=6 issues=0
-  gha-premier-league: MISMATCH | teams=18 matches=36 checked=18 issues=15
-      Medeama: grid(P4 W2 D2 L0 GF7 GA4) vs standings (P6 W4 D2 L0 GF12 GA5)
-      Hearts of Oak: grid(P5 W2 D2 L1 GF6 GA2) vs standings (P6 W3 D2 L1 GF7 GA2)
-      Samartex: grid(P5 W2 D2 L1 GF6 GA4) vs standings (P6 W3 D2 L1 GF7 GA4)
+  gha-premier-league: MISMATCH | teams=18 matches=42 checked=18 issues=17
+      Medeama: grid(P5 W2 D2 L1 GF8 GA6) vs standings (P7 W4 D2 L1 GF13 GA7)
+      Hearts of Oak: grid(P6 W3 D2 L1 GF7 GA2) vs standings (P7 W4 D2 L1 GF8 GA2)
+      Samartex: grid(P6 W3 D2 L1 GF8 GA5) vs standings (P7 W4 D2 L1 GF9 GA5)
   egy-premier-league: MISMATCH | teams=20 matches=51 checked=20 issues=2
       Modern Sport: grid(P6 W4 D1 L1 GF9 GA4) vs standings (P5 W3 D1 L1 GF7 GA4)
       Al Ittihad: grid(P6 W3 D1 L2 GF6 GA5) vs standings (P5 W3 D1 L1 GF6 GA3)
@@ -440,10 +437,10 @@ Wikipedia data validation (results grid vs standings table):
       Jeonbuk Hyundai Motors: grid(P31 W12 D10 L9 GF41 GA31) vs standings (P32 W12 D11 L9 GF42 GA32)
       Gangwon FC: grid(P31 W11 D13 L7 GF38 GA28) vs standings (P32 W11 D14 L7 GF39 GA29)
   kor-k-league-2: OK | teams=17 matches=232 checked=17 issues=0
-  kaz-premier-league: MISMATCH | teams=16 matches=203 checked=16 issues=14
-      Ordabasy: grid(P26 W19 D4 L3 GF53 GA19) vs standings (P27 W20 D4 L3 GF55 GA19)
-      Kairat: grid(P26 W17 D6 L3 GF50 GA20) vs standings (P27 W18 D6 L3 GF52 GA20)
-      Aktobe: grid(P26 W12 D6 L8 GF40 GA32) vs standings (P27 W13 D6 L8 GF41 GA32)
+  kaz-premier-league: MISMATCH | teams=16 matches=203 checked=16 issues=16
+      Ordabasy: grid(P26 W19 D4 L3 GF53 GA19) vs standings (P28 W21 D4 L3 GF58 GA20)
+      Kairat: grid(P26 W17 D6 L3 GF50 GA20) vs standings (P28 W19 D6 L3 GF57 GA20)
+      Astana: grid(P27 W15 D6 L6 GF44 GA27) vs standings (P28 W15 D7 L6 GF46 GA29)
   chn-csl: MISMATCH | teams=16 matches=210 checked=16 issues=15
       Chengdu Rongcheng: grid(P27 W14 D7 L6 GF47 GA34) vs standings (P28 W15 D7 L6 GF51 GA34)
       Dalian Yingbo: grid(P27 W13 D4 L10 GF42 GA43) vs standings (P28 W14 D4 L10 GF45 GA43)
@@ -474,9 +471,9 @@ Wikipedia data validation (results grid vs standings table):
       Zakho: grid(P10 W2 D4 L4 GF8 GA14) vs standings (P10 W2 D3 L5 GF7 GA13)
   jor-pro-league: OK | teams=10 matches=25 checked=10 issues=0
   kuw-premier: MISMATCH | teams=12 matches=19 checked=12 issues=11
-      Kuwait: grid(P4 W3 D1 L0 GF11 GA3) vs standings (P5 W4 D1 L0 GF18 GA4)
+      Kuwait: grid(P4 W3 D1 L0 GF11 GA3) vs standings (P5 W4 D1 L0 GF19 GA4)
+      Kazma: grid(P3 W2 D1 L0 GF6 GA3) vs standings (P5 W3 D2 L0 GF8 GA4)
       Fahaheel: grid(P3 W1 D0 L2 GF6 GA5) vs standings (P5 W3 D0 L2 GF12 GA5)
-      Qadsia: grid(P3 W2 D0 L1 GF5 GA2) vs standings (P4 W3 D0 L1 GF7 GA2)
   vnm-vleague: OK | teams=14 matches=28 checked=14 issues=0
   hkg-premier: MISMATCH | teams=11 matches=27 checked=11 issues=5
       Kitchee: grid(P5 W4 D1 L0 GF15 GA4) vs standings (P6 W5 D1 L0 GF19 GA5)

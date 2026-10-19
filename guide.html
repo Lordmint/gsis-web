@@ -1,0 +1,456 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>GSIS — Guide</title><link rel='icon' href='favicon.svg' type='image/svg+xml'>
+<style>:root{--bg:#0b1220;--bg2:#111a2b;--panel:#16202e;--panel2:#1b2637;--border:#2e3f56;--dim:#8ea0ba;--text:#eef2f8;
+--accent:#38bdf8;--accent2:#818cf8;--green:#2fd26f;--amber:#f5b544;--orange:#fb8a3c;--red:#f14c52;--r:14px;
+--ring:rgba(56,189,248,.22);
+--grad4:linear-gradient(90deg,var(--red),var(--amber),var(--green),var(--accent));
+--shadow-1:0 1px 2px rgba(2,6,17,.4),0 12px 28px -18px rgba(2,6,17,.55);
+--shadow-2:0 16px 36px -18px rgba(2,6,17,.8);
+--font:"Segoe UI",system-ui,-apple-system,"Inter",Roboto,sans-serif}
+*{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth}
+body{font-family:var(--font);background:radial-gradient(1200px 520px at 82% -6%,rgba(241,76,82,.07),transparent 62%),radial-gradient(1000px 480px at 12% -10%,rgba(56,189,248,.09),transparent 60%),radial-gradient(700px 420px at 50% -12%,rgba(47,210,111,.05),transparent 60%),linear-gradient(180deg,#0a1120 0%,#0b1220 40%,#0d1626 100%) fixed;color:var(--text);min-height:100vh;line-height:1.55;-webkit-font-smoothing:antialiased;text-rendering:optimizeLegibility}
+::selection{background:rgba(56,189,248,.25)}
+:focus-visible{outline:2px solid var(--ring);outline-offset:2px}
+::-webkit-scrollbar{width:11px;height:11px}
+::-webkit-scrollbar-track{background:transparent}
+::-webkit-scrollbar-thumb{background:#2a3b57;border-radius:999px;border:3px solid var(--bg)}
+::-webkit-scrollbar-thumb:hover{background:#3a5074}
+.W{max-width:1200px;margin:0 auto;padding:0 1.5rem}
+
+/* ---------- chrome ---------- */
+.hdr{border-bottom:3px solid transparent;border-image:var(--grad4) 1;background:rgba(13,19,33,.9);backdrop-filter:blur(12px) saturate(120%);-webkit-backdrop-filter:blur(12px) saturate(120%);position:sticky;top:0;z-index:50}
+.hdr-r{display:flex;align-items:center;justify-content:space-between;gap:1rem;padding:1.05rem 1.5rem;max-width:1200px;margin:0 auto}
+.brd{display:flex;align-items:center;gap:.8rem;text-decoration:none;color:var(--text)}
+.brd-m{display:grid;place-items:center;width:42px;height:42px;border-radius:12px;background:linear-gradient(var(--bg2),var(--bg2)) padding-box,var(--grad4) border-box;border:1px solid transparent;box-shadow:0 5px 14px -6px rgba(2,6,17,.6)}
+.brd-m svg{width:38px;height:38px;display:block}
+.brd-t{display:flex;flex-direction:column;line-height:1.2}.brd-t strong{font-size:1rem;letter-spacing:-.01em}.brd-t small{color:var(--dim);font-size:.74rem}
+/* ---------- grouped sidebar navigation ---------- */
+.side{position:fixed;top:0;left:0;bottom:0;width:250px;background:linear-gradient(180deg,#0e1728,#0b1220);border-right:1px solid var(--border);padding:1.15rem .85rem 1.4rem;overflow-y:auto;z-index:70;display:flex;flex-direction:column}
+.side::-webkit-scrollbar{width:8px}
+.sb-brand{display:flex;align-items:center;gap:.6rem;text-decoration:none;color:var(--text);padding:.25rem .35rem .95rem;border-bottom:1px solid rgba(46,63,86,.6);margin-bottom:.6rem}
+.sb-brand .brd-m{width:36px;height:36px;flex:none;border-radius:10px}
+.sb-brand .brd-m svg{width:30px;height:30px}
+.sb-brand .brd-t strong{font-size:.9rem;line-height:1.2}
+.sb-brand .brd-t small{font-size:.66rem}
+.sb-grp{margin:.85rem .5rem .3rem;font-size:.64rem;letter-spacing:.13em;text-transform:uppercase;color:#5b6b85;font-weight:700}
+.sb-nav{display:flex;flex-direction:column;gap:.14rem}
+.sb-nav a{display:flex;align-items:center;gap:.62rem;color:var(--dim);text-decoration:none;padding:.55rem .7rem;border-radius:10px;font-size:.9rem;font-weight:600;border:1px solid transparent;transition:background .15s,color .15s,border-color .15s,transform .15s}
+.sb-nav a:hover{background:rgba(148,163,184,.10);color:var(--text)}
+.sb-nav a.a{color:#fff;font-weight:700;background:rgba(56,189,248,.13);border-color:rgba(56,189,248,.35);box-shadow:inset 3px 0 0 var(--accent)}
+.sb-dot{width:6px;height:6px;border-radius:50%;background:#3d5474;flex:none;transition:background .15s,box-shadow .15s}
+.sb-nav a:hover .sb-dot{background:var(--accent)}
+.sb-nav a.a .sb-dot{background:var(--accent);box-shadow:0 0 0 3px rgba(56,189,248,.2)}
+.sb-foot{margin-top:auto;padding:.95rem .5rem 0;font-size:.7rem;color:#5b6b85;border-top:1px solid rgba(46,63,86,.6);line-height:1.5}
+.sb-foot a{color:var(--accent);text-decoration:none}.sb-foot a:hover{text-decoration:underline}
+body{padding-left:250px}
+.sb-top,.sb-ov{display:none}
+.sb-toggle{background:var(--panel);border:1px solid var(--border);color:var(--text);border-radius:10px;width:42px;height:42px;font-size:1.15rem;cursor:pointer;flex:none}
+.sb-toggle:hover{border-color:var(--accent);color:var(--accent)}
+@media(max-width:1024px){
+.side{transform:translateX(-102%);transition:transform .22s ease;box-shadow:var(--shadow-2)}
+body{padding-left:0}
+body.sb-open .side{transform:none}
+.sb-top{display:flex;align-items:center;gap:.7rem;position:sticky;top:0;z-index:65;padding:.65rem 1rem;background:rgba(11,18,32,.94);-webkit-backdrop-filter:blur(8px);backdrop-filter:blur(8px);border-bottom:1px solid var(--border)}
+.sb-top .brd{flex:1;min-width:0}
+.sb-top .brd .brd-t small{white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.sb-ov{position:fixed;inset:0;background:rgba(2,6,17,.6);z-index:66}
+body.sb-open .sb-ov{display:block}
+}
+
+/* ---------- hero ---------- */
+.hero{display:flex;align-items:flex-end;justify-content:space-between;gap:1.2rem;padding:3rem 0 2rem;flex-wrap:wrap}
+.hero h1{font-size:2rem;font-weight:800;letter-spacing:-.03em;margin-bottom:.5rem;color:var(--text);line-height:1.2}
+.hero h1::after{content:"";display:block;width:132px;height:4px;border-radius:3px;background:var(--grad4);margin-top:.5rem}
+.hero-sub{color:var(--dim);font-size:.95rem}
+.hero-sub a{color:var(--accent);text-decoration:none}.hero-sub a:hover{text-decoration:underline}
+/* ---------- kickoff alert strip ---------- */
+.k-strip{display:flex;align-items:center;gap:1rem;flex-wrap:wrap;padding:.7rem 1rem;margin:-1rem 0 1.2rem;background:linear-gradient(90deg,rgba(255,163,38,.14),rgba(255,163,38,.02));border:1px solid rgba(255,163,38,.4);border-radius:10px;font-size:.9rem}
+.k-strip .k-alarm{display:inline-flex;align-items:center;gap:.4rem}
+.k-strip .k-alarm b{color:var(--text)}
+.back{display:inline-block;color:var(--accent);text-decoration:none;font-size:.88rem;margin-bottom:.5rem;font-weight:600;transition:.15s}.back:hover{color:#7dd3fc;text-decoration:underline}
+
+/* ---------- status pills ---------- */
+.sb{display:inline-block;padding:.4rem .9rem;border-radius:999px;font-size:.82rem;font-weight:600;white-space:nowrap}
+.sb-ok{background:rgba(47,210,111,.12);color:var(--green);border:1px solid rgba(47,210,111,.3)}
+.sb-w{background:rgba(251,138,60,.12);color:var(--orange);border:1px solid rgba(251,138,60,.3)}
+.sb-e{background:rgba(241,76,82,.12);color:var(--red);border:1px solid rgba(241,76,82,.3)}
+.sb-u{background:rgba(142,160,186,.12);color:var(--dim);border:1px solid rgba(142,160,186,.3)}
+
+/* ---------- controls ---------- */
+.ctrl{display:flex;align-items:center;gap:.9rem;flex-wrap:wrap;padding:1.25rem 0 1.5rem}
+.srch,.sel{background:var(--bg2);border:1px solid var(--border);color:var(--text);border-radius:11px;padding:.65rem .95rem;font-size:.93rem;outline:0;transition:border-color .15s,box-shadow .15s}
+.srch{flex:1;min-width:200px}
+.sel{cursor:pointer}
+.srch:focus,.sel:focus{border-color:var(--accent);box-shadow:0 0 0 3px var(--ring)}
+.srch::placeholder{color:#5b6b85}
+
+/* ---------- stat strip ---------- */
+.sts{display:grid;grid-template-columns:repeat(auto-fit,minmax(160px,1fr));gap:1.15rem;padding-bottom:2.25rem}
+.st{background:var(--panel);border:1px solid var(--border);border-radius:var(--r);padding:1.2rem 1.35rem;display:flex;flex-direction:column;box-shadow:var(--shadow-1);transition:transform .15s,border-color .15s}
+.st:hover{transform:translateY(-2px);border-color:#3d5474}
+.st-v{font-size:1.85rem;font-weight:800;font-variant-numeric:tabular-nums;letter-spacing:-.02em}.st-v.e{color:var(--green)}.st-v.r{color:var(--amber)}.st-v.f{color:var(--orange)}
+.st-l{color:var(--dim);font-size:.84rem;margin-top:.2rem}
+
+/* ---------- grid & cards ---------- */
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(350px,1fr));gap:1.5rem;padding-bottom:3.5rem}
+.card{background:var(--panel);border:1px solid var(--border);border-radius:var(--r);box-shadow:var(--shadow-1);overflow:hidden;display:flex;flex-direction:column;position:relative;transition:transform .15s,border-color .15s,box-shadow .15s;cursor:pointer}
+.card:hover{transform:translateY(-3px);border-color:#3d5474;box-shadow:var(--shadow-2)}
+.card.expanded{grid-column:1/-1}
+.ch{display:flex;justify-content:space-between;align-items:flex-start;gap:.8rem;padding:1.3rem 1.35rem 1rem;border-bottom:1px solid rgba(46,63,86,.65)}
+.ct{font-size:1.06rem;font-weight:700;letter-spacing:-.01em}
+.cm{color:var(--dim);font-size:.8rem;margin-top:.2rem}
+.cb{padding:.8rem 1.35rem;display:flex;flex-direction:column;gap:.45rem;flex:1}
+.cf{padding:.75rem 1.35rem 1.15rem;font-size:.9rem;color:var(--dim);cursor:pointer}.cf:hover{color:var(--accent)}
+
+/* ---------- rank rows ---------- */
+.tr{display:flex;align-items:center;gap:.75rem;padding:.6rem .6rem;border-radius:10px;transition:background .15s}
+.tr:hover{background:rgba(46,63,86,.3)}
+.rm{font-size:1.1rem;width:1.8rem;text-align:center}
+.tn{flex:1;font-weight:600;font-size:.94rem;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.ts{font-variant-numeric:tabular-nums;font-weight:700;color:var(--accent)}
+
+/* ---------- badges ---------- */
+.b{display:inline-block;padding:.26rem .68rem;border-radius:999px;font-size:.74rem;font-weight:600;white-space:nowrap}
+.be{background:rgba(47,210,111,.13);color:var(--green);border:1px solid rgba(47,210,111,.3)}
+.br{background:rgba(245,181,68,.13);color:var(--amber);border:1px solid rgba(245,181,68,.3)}
+.bf{background:rgba(251,138,60,.13);color:var(--orange);border:1px solid rgba(251,138,60,.3)}
+.bu{background:rgba(142,160,186,.13);color:var(--dim);border:1px solid rgba(142,160,186,.3)}
+
+/* ---------- panels ---------- */
+.pnl{background:var(--panel);border:1px solid var(--border);border-radius:var(--r);padding:1.4rem;margin-bottom:1.7rem;display:none;box-shadow:var(--shadow-1)}
+.pnl-t{font-size:1.06rem;font-weight:700;margin-bottom:1rem}
+
+/* ---------- tables ---------- */
+table{width:100%;border-collapse:collapse;font-size:.89rem}
+th{text-align:left;color:var(--dim);font-weight:600;font-size:.75rem;text-transform:uppercase;letter-spacing:.06em;padding:.75rem .85rem;border-bottom:1px solid var(--border)}
+td{padding:.75rem .85rem;border-bottom:1px solid rgba(46,63,86,.45);white-space:nowrap}
+tbody tr:hover{background:rgba(46,63,86,.22)}
+tr.hl-row{background:rgba(56,189,248,.16);box-shadow:inset 3px 0 0 var(--accent)}
+.tc{font-weight:600}
+.tc-vs{width:34px}
+.vs-btn{cursor:pointer;color:var(--accent);opacity:.55;font-size:.9rem;-webkit-user-select:none;user-select:none}
+.vs-btn:hover{opacity:1}
+tr.tc-a td{background:rgba(56,189,248,.18)}
+tr.tc-b td{background:rgba(251,191,36,.16)}
+.sc{font-weight:700;color:var(--accent);font-variant-numeric:tabular-nums}
+.dim{color:var(--dim);font-weight:400}
+.panel{background:var(--panel);border:1px solid var(--border);border-radius:var(--r);padding:1.15rem 1.35rem;margin-bottom:2.1rem;overflow-x:auto;box-shadow:var(--shadow-1)}
+.panel h2{font-size:1.03rem;font-weight:700;margin-bottom:1rem}
+
+/* ---------- form dots ---------- */
+.fd{display:inline-grid;place-items:center;width:20px;height:20px;border-radius:6px;font-size:.7rem;font-weight:700;flex:none}
+.fw{background:rgba(47,210,111,.22);color:var(--green)}
+.fD{background:rgba(142,160,186,.22);color:var(--dim)}
+.fl{background:rgba(241,76,82,.22);color:var(--red)}
+
+/* ---------- factor bars ---------- */
+.fb{display:flex;align-items:center;gap:.6rem;font-size:.8rem;margin:.55rem 0}
+.fb-l{color:var(--dim);flex:0 0 118px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.fb-b{flex:1;height:8px;background:var(--border);border-radius:999px;overflow:hidden}
+.fb-f{display:block;height:100%;background:var(--grad4);border-radius:999px}
+.fb-v{width:2rem;text-align:right;font-variant-numeric:tabular-nums}
+.fcards{display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:1.5rem}
+.fcard{background:var(--panel);border:1px solid var(--border);border-radius:12px;padding:1.1rem 1.2rem}
+.fhead{display:flex;align-items:center;justify-content:space-between;gap:.6rem;margin-bottom:.9rem}
+
+/* ---------- sections ---------- */
+.sec{margin-bottom:2.5rem}
+.sec-hd{display:flex;align-items:center;justify-content:space-between;padding:1.25rem 1.4rem;border-radius:14px 14px 0 0;border:1px solid var(--border);border-bottom:0;background:var(--panel);flex-wrap:wrap;gap:.6rem}
+.sec-t{font-size:1.14rem;font-weight:800;letter-spacing:-.01em}
+.sec-s{color:var(--dim);font-size:.85rem}
+.sec-b{background:var(--panel);border:1px solid var(--border);border-top:0;border-radius:0 0 14px 14px;padding:1.35rem 1.4rem;display:grid;grid-template-columns:repeat(auto-fill,minmax(330px,1fr));gap:1.15rem;box-shadow:var(--shadow-1);overflow-x:auto}
+.sec-b>.wk,.sec-b>.empty{grid-column:1/-1}
+
+/* ---------- fixture / opportunity / market cards ---------- */
+.fx,.oc,.cd{background:var(--panel);border:1px solid var(--border);border-radius:14px;padding:1.15rem 1.25rem;box-shadow:var(--shadow-1);transition:transform .15s,border-color .15s,box-shadow .15s}
+.fx:hover,.oc:hover{transform:translateY(-2px);border-color:#3d5474;box-shadow:var(--shadow-2)}
+.cd{border-top-width:3px}
+.cd[data-spot="sp5"]{border-top-color:var(--green)}
+.cd[data-spot="sp4"]{border-top-color:#59d98a}
+.cd[data-spot="sp3"]{border-top-color:var(--amber)}
+.cd[data-spot="sp2"]{border-top-color:var(--orange)}
+.cd[data-spot="sp1"]{border-top-color:var(--red)}
+.cd-hd,.fx-hd{display:flex;align-items:center;gap:.6rem;justify-content:space-between;margin-bottom:.9rem;flex-wrap:wrap}
+.flg{color:var(--accent);font-weight:600;font-size:.82rem}
+.fdt{color:var(--dim);font-size:.78rem}
+.watch{display:inline-flex;align-items:center;gap:.45rem;background:linear-gradient(135deg,var(--accent),var(--accent-2));color:#fff;text-decoration:none;font-weight:700;font-size:.78rem;border-radius:999px;padding:.28rem .7rem;box-shadow:0 2px 8px rgba(56,189,248,.25);transition:transform .15s,box-shadow .15s,filter .15s;white-space:nowrap}
+.watch:hover{transform:translateY(-1px);filter:brightness(1.12)}
+.watch .chan{background:rgba(255,255,255,.22);border-radius:999px;padding:.05rem .5rem;font-weight:600;font-size:.7rem}
+.pr{background:rgba(56,189,248,.13);color:#7dd3fc;border:1px solid rgba(56,189,248,.3);border-radius:999px;padding:.22rem .7rem;font-size:.8rem;font-weight:700}
+.vc{display:grid;grid-template-columns:1fr auto 1fr;gap:.8rem;align-items:center}
+.vs{color:var(--dim);font-weight:700;font-size:.85rem}
+.pcell{display:grid;grid-template-columns:auto 1fr auto;grid-template-rows:auto auto;gap:.15rem .5rem;align-items:center}
+.pcell.strong .tname{color:#fff;font-weight:800}
+.glot{display:none}
+.pos{grid-row:1/3;background:var(--bg);border:1px solid var(--border);border-radius:8px;width:34px;height:34px;display:grid;place-items:center;font-weight:700;font-size:.85rem;color:var(--accent)}
+.tname{grid-column:2;font-size:.9rem;font-weight:600;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.pcell .b{grid-column:3;grid-row:2}
+.tscore{grid-column:3;grid-row:1;text-align:right;font-variant-numeric:tabular-nums;font-weight:700;color:var(--accent)}
+.fx-foot{display:flex;justify-content:space-between;margin-top:.85rem;padding-top:.65rem;border-top:1px dashed rgba(46,63,86,.65);color:var(--dim);font-size:.8rem;flex-wrap:wrap;gap:.4rem 1rem}
+
+/* ---------- opportunities ---------- */
+.sec-b>*{min-width:0}
+.oc-hd{display:flex;align-items:center;gap:.7rem;justify-content:space-between;margin-bottom:.9rem;flex-wrap:wrap}
+.oc-b,.cd-b{display:block;min-width:0}
+.oc-b .vc,.fx-b .vc,.cd-b .vc{grid-template-columns:1fr;gap:.35rem}
+.oc-b .vs,.fx-b .vs,.cd-b .vs{font-size:.78rem;color:var(--dim);text-align:center;line-height:1;padding:.1rem 0}
+.oc-b .oc-team,.fx-b .pcell,.cd-b .pcell{width:100%}
+.oc-team{display:grid;grid-template-columns:auto 1fr auto;grid-template-rows:auto auto;gap:.2rem .7rem;align-items:center;text-decoration:none;color:var(--text);padding:.65rem .75rem;border-radius:10px;transition:.15s;min-width:0}
+.oc-team:hover{background:rgba(56,189,248,.1);border:1px solid rgba(56,189,248,.3);margin:-1px}
+.oc-team:nth-child(odd){border:1px solid var(--border)}
+.oc-pos{grid-row:1/3;background:var(--bg);border:1px solid var(--border);border-radius:8px;width:40px;height:40px;display:grid;place-items:center;font-weight:700;font-size:.9rem;color:var(--accent)}
+.oc-name{grid-column:2;font-size:1.25rem;font-weight:800;color:var(--text);line-height:1.2;letter-spacing:-.01em;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;min-width:0}
+.oc-team .b{grid-column:3;grid-row:2}
+.oc-score{grid-column:3;grid-row:1;text-align:right;font-weight:700;font-size:1.05rem;color:var(--accent)}
+.oc-foot{display:flex;justify-content:space-between;margin-top:.65rem;padding-top:.55rem;border-top:1px dashed rgba(46,63,86,.65);color:var(--dim);font-size:.8rem;flex-wrap:wrap;gap:.4rem 1rem}
+
+/* ---------- market recommendations ---------- */
+.rec{margin-top:.8rem;padding:.85rem .95rem;border-radius:10px;background:rgba(56,189,248,.07);border:1px solid rgba(56,189,248,.25)}
+.rec-t{font-size:.9rem;font-weight:700;display:flex;align-items:center;gap:.5rem;flex-wrap:wrap}
+.confidence-hi{color:var(--green)}.confidence-md{color:var(--amber)}.confidence-lo{color:var(--orange)}
+.confidence-hi,.confidence-md,.confidence-lo{font-size:.75rem}
+.rec-p{margin-left:auto;background:rgba(47,210,111,.13);color:var(--green);border:1px solid rgba(47,210,111,.3);padding:.15rem .55rem;border-radius:999px;font-size:.8rem;font-weight:800}
+.rec-w{margin-top:.5rem;color:var(--dim);font-size:.8rem;line-height:1.45}
+.rec-ou{margin-top:.6rem;font-size:.78rem;color:var(--dim)}
+.rec-ev{margin-top:.4rem;font-size:.78rem;color:var(--dim)}
+.ouhl{color:var(--accent);font-weight:700}
+.mt{width:100%;margin-top:.6rem;border-collapse:collapse;font-size:.8rem;table-layout:fixed}
+.mt td{padding:.55rem .65rem;border-top:1px dashed rgba(46,63,86,.55);vertical-align:middle;white-space:normal}
+.mt td.mname{color:var(--dim);white-space:nowrap;width:42%;overflow:hidden;text-overflow:ellipsis}
+.pb{color:var(--accent);font-weight:700}
+.fair{color:#5b6b85;font-size:.7rem;margin-left:.3rem}
+.ou{display:flex;flex-wrap:wrap;gap:.35rem 1rem;min-width:0}
+.ou-i{color:var(--text);background:var(--bg2);border:1px solid var(--border);border-radius:6px;padding:.2rem .55rem;font-size:.72rem;white-space:nowrap}
+.spot-legend{display:flex;gap:.6rem;align-items:center;font-size:.72rem;color:var(--dim)}
+.spd{display:inline-block;padding:.2rem .55rem;border-radius:999px;border:1px solid var(--border)}
+.spn5{border-color:var(--green)}.spn4{border-color:#59d98a}.spn3{border-color:var(--amber)}.spn2{border-color:var(--orange)}.spn1{border-color:var(--red)}
+
+/* ---------- chips / bars ---------- */
+.bar{display:flex;flex-wrap:wrap;gap:.7rem;margin:.5rem 0 1.7rem;align-items:center}
+.chip{background:var(--panel);border:1px solid var(--border);color:var(--text);padding:.55rem 1rem;border-radius:999px;font-size:.8rem;cursor:pointer;transition:.15s}
+.chip:hover{border-color:var(--accent);color:var(--accent)}
+.chip.on{background:rgba(56,189,248,.13);border-color:var(--accent);color:#7dd3fc}
+.chip b{margin-left:.25rem;color:var(--accent)}
+.stat{font-size:.82rem;color:var(--dim)}
+
+/* ---------- methods / tier notes ---------- */
+.methods{margin:0 0 2.5rem;background:var(--panel);border:1px solid var(--border);border-radius:14px;padding:1.35rem 1.45rem;box-shadow:var(--shadow-1)}
+.methods h3{font-size:.95rem;margin-bottom:.7rem}
+.methods ul{display:grid;grid-template-columns:repeat(auto-fill,minmax(330px,1fr));gap:.6rem 1.1rem;list-style:none}
+.methods li{font-size:.8rem;color:var(--dim)}
+.methods b{color:var(--text)}
+.tier-note{color:#5b6b85;font-size:.8rem;margin:-.4rem 0 1.7rem;font-style:italic}
+.st-hd{color:var(--text);font-weight:700;margin-bottom:.7rem;font-size:.93rem}
+
+/* ---------- settlement page ---------- */
+.kpis{display:flex;flex-wrap:wrap;gap:.75rem}
+.kpi{background:var(--panel);border:1px solid var(--border);border-radius:10px;padding:.7rem 1.1rem;font-size:.78rem;color:var(--dim);box-shadow:var(--shadow-1)}
+.kpi b{font-size:1.15rem;display:block;color:var(--text);font-variant-numeric:tabular-nums}
+.wk{border:1px solid var(--border);border-radius:14px;background:var(--panel);overflow:auto;box-shadow:var(--shadow-1)}
+.wk-h{display:flex;justify-content:space-between;align-items:center;padding:.9rem 1.15rem;background:rgba(129,140,248,.08);font-size:.85rem;flex-wrap:wrap;gap:.5rem}
+.wk table{table-layout:fixed;width:100%}
+.wk table td{white-space:normal}
+.wk table th{white-space:nowrap}
+.wk-h b{color:var(--accent)}
+.wk-h .wk-sum{color:var(--dim);font-size:.78rem}
+.v{font-weight:800}
+.v.W{color:var(--green)}
+.v.L{color:var(--red)}
+.v.PUSH{color:var(--amber)}
+.v.PENDING{color:var(--dim)}
+.prof.pos{color:var(--green)}.prof.neg{color:var(--red)}.prof.zero{color:var(--amber)}
+.agg{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:1.1rem;margin-top:1.6rem}
+.agg .box{background:var(--panel);border:1px solid var(--border);border-radius:10px;padding:.95rem 1.1rem;font-size:.82rem;box-shadow:var(--shadow-1);min-width:0;overflow-x:auto}
+.agg .box h4{font-size:.85rem;margin-bottom:.5rem;color:var(--text)}
+.agg .box ul{list-style:none;min-width:0}
+.agg .box li{display:flex;justify-content:space-between;gap:.2rem 1rem;flex-wrap:wrap;padding:.25rem 0;color:var(--dim);border-bottom:1px dashed var(--border);min-width:0}
+.agg .box li:last-child{border-bottom:none}
+.agg .box li b{color:var(--text);font-weight:700;flex:none;white-space:nowrap;margin-left:auto}
+.agg .box li .prof{flex:none;white-space:nowrap}
+.agg .box li:not(:has(b)){display:block}
+.meth{background:var(--panel);border:1px solid var(--border);border-radius:12px;padding:1.05rem 1.2rem;font-size:.78rem;color:var(--dim);margin-top:1.7rem;line-height:1.6}
+.meth h3{color:var(--text);font-size:.85rem;margin-bottom:.3rem}
+
+/* ---------- misc ---------- */
+.hid{display:none!important}
+.empty{grid-column:1/-1;color:var(--dim);text-align:center;padding:1.8rem}
+.foot{border-top:3px solid transparent;border-image:var(--grad4) 1;padding:1.75rem 0 1.5rem;color:var(--dim);font-size:.84rem;text-align:center;margin-top:3rem}
+.d-links{margin-bottom:.5rem;color:var(--text);font-weight:600}
+.foot a{color:var(--accent);text-decoration:none}.foot a:hover{text-decoration:underline}
+@media(max-width:920px){.hdr-r{flex-direction:column;align-items:flex-start;gap:.9rem;padding:.9rem 1.15rem}}
+@media(max-width:640px){.hero h1{font-size:1.5rem}.hero{flex-direction:column;align-items:flex-start;padding:2.2rem 0 1.4rem}.grid{grid-template-columns:1fr}.sec-b{grid-template-columns:1fr}.vc{grid-template-columns:1fr}.hdr-r{padding:.8rem .95rem}.W{padding:0 1rem}.ch{flex-direction:column}}
+.gd-hero{padding:0 0 1.4rem}.gd-hero h1{margin:0 0 .5rem}.gd-hero .gd-sub{color:var(--dim);font-size:.95rem;max-width:82ch;line-height:1.6}.gd-p{margin:.4rem 0;line-height:1.6;font-size:.9rem}.gd-dim{color:var(--dim);font-size:.82rem}.gd-flow{list-style:none;margin:.4rem 0 1.7rem}.gd-step{display:flex;gap:.9rem;padding:.85rem 0;border-bottom:1px dashed rgba(46,63,86,.55)}.gd-step:last-child{border-bottom:0}.gd-num{flex:none;width:30px;height:30px;border-radius:50%;display:grid;place-items:center;font-weight:800;font-size:.85rem;color:#fff;background:rgba(56,189,248,.15);border:1px solid rgba(56,189,248,.4)}.gd-stage{font-weight:800;font-size:1rem;letter-spacing:-.01em}.gd-job{color:var(--dim);font-size:.88rem;line-height:1.55;margin:.2rem 0}.gd-pages{font-size:.82rem;color:var(--text)}.gd-list{list-style:none;margin:.6rem 0}.gd-list li{display:flex;gap:.8rem;flex-wrap:wrap;padding:.4rem 0;border-bottom:1px dashed rgba(46,63,86,.45)}.gd-list li:last-child{border-bottom:0}.gd-name{font-weight:700;flex:0 0 220px}.gd-note{color:var(--dim);font-size:.85rem}.gd-tbl td{padding:.6rem .8rem;white-space:normal}.gd-tbl td.gd-ans{white-space:nowrap}.gd-groups{display:grid;grid-template-columns:repeat(auto-fill,minmax(240px,1fr));gap:1rem;margin-bottom:1.7rem}.gd-grp{background:var(--panel);border:1px solid var(--border);border-radius:12px;padding:.9rem 1.05rem}.gd-grp-h{font-size:.68rem;letter-spacing:.12em;text-transform:uppercase;color:#5b6b85;font-weight:700;margin-bottom:.45rem}.gd-grp-b{font-size:.88rem;line-height:1.9}a.gl{color:var(--accent);text-decoration:none;font-weight:600}a.gl:hover{text-decoration:underline}.gd-ev{background:rgba(47,210,111,.06);border-color:rgba(47,210,111,.28)}</style>
+</head>
+<body>
+<div class="W">
+<aside class="side" id="gsisSide"><a class="sb-brand" href="dashboard.html"><span class="brd-m"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 96 96"><defs><linearGradient id="gs-ring" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#f14c52"/><stop offset="0.33" stop-color="#f5b544"/><stop offset="0.66" stop-color="#2fd26f"/><stop offset="1" stop-color="#38bdf8"/></linearGradient><linearGradient id="gs-spark" x1="0" y1="1" x2="1" y2="0"><stop offset="0" stop-color="#38bdf8"/><stop offset="0.5" stop-color="#2fd26f"/><stop offset="1" stop-color="#f5b544"/></linearGradient><linearGradient id="gs-plate" x1="0.5" y1="0" x2="0.5" y2="1"><stop offset="0" stop-color="#1b2839"/><stop offset="1" stop-color="#0a1120"/></linearGradient><radialGradient id="gs-ball" cx="0.35" cy="0.3" r="1"><stop offset="0" stop-color="#ffffff"/><stop offset="0.6" stop-color="#ffe9b8"/><stop offset="1" stop-color="#f5b544"/></radialGradient><radialGradient id="gs-halo" cx="0.5" cy="0.5" r="0.5"><stop offset="0" stop-color="#f14c52" stop-opacity="0.8"/><stop offset="0.65" stop-color="#f14c52" stop-opacity="0.28"/><stop offset="1" stop-color="#f14c52" stop-opacity="0"/></radialGradient><filter id="gs-glow" x="-60%" y="-60%" width="220%" height="220%"><feGaussianBlur stdDeviation="1.6" result="blur"/><feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge></filter></defs><path d="M48 12 L79.18 30 L79.18 66 L48 84 L16.82 66 L16.82 30 Z" fill="url(#gs-plate)"/><path d="M48 12 L79.18 30 L79.18 66 L48 84 L16.82 66 L16.82 30 Z" fill="none" stroke="#2e3f56" stroke-width="1" opacity="0.55"/><g stroke="#1b2b45" stroke-width="1" opacity="0.8"><line x1="26" y1="34" x2="26" y2="62"/><line x1="38" y1="30" x2="38" y2="66"/><line x1="50" y1="26" x2="50" y2="70"/><line x1="62" y1="30" x2="62" y2="66"/><line x1="74" y1="34" x2="74" y2="62"/></g><path d="M48 8 L82.64 28 L82.64 68 L48 88 L13.36 68 L13.36 28 Z" fill="none" stroke="url(#gs-ring)" stroke-width="4" stroke-linejoin="round" filter="url(#gs-glow)"/><path d="M24 56 L34.5 47 L44 51.5 L55 37.5 L62.5 27.5" fill="none" stroke="url(#gs-spark)" stroke-width="3.4" stroke-linecap="round" stroke-linejoin="round" filter="url(#gs-glow)"/><circle cx="34.5" cy="47" r="1.9" fill="#2fd26f"/><circle cx="55" cy="37.5" r="1.9" fill="#f5b544"/><circle cx="63.5" cy="26" r="11" fill="url(#gs-halo)"/><circle cx="63.5" cy="26" r="6" fill="url(#gs-ball)" filter="url(#gs-glow)"/><path d="M63.5 22.5 L67.1 25 L65.4 29 L61.6 29 L59.9 25 Z" fill="none" stroke="#f14c52" stroke-width="1" opacity="0.95"/></svg></span><span class="brd-t"><strong>Global Sports Intelligence</strong><small>How the whole system fits together</small></span></a><div class="sb-grp">Overview</div><nav class="sb-nav"><a href="guide.html" class="a"><span class="sb-dot"></span>Guide</a><a href="progress.html"><span class="sb-dot"></span>Progress</a></nav><div class="sb-grp">Live board</div><nav class="sb-nav"><a href="fixtures.html"><span class="sb-dot"></span>Fixtures</a><a href="screen.html"><span class="sb-dot"></span>Screening</a></nav><div class="sb-grp">Selections</div><nav class="sb-nav"><a href="opportunities.html"><span class="sb-dot"></span>Opportunities</a><a href="markets.html"><span class="sb-dot"></span>Markets</a><a href="premium.html"><span class="sb-dot"></span>Picks</a></nav><div class="sb-grp">Performance</div><nav class="sb-nav"><a href="trend.html"><span class="sb-dot"></span>Trend</a><a href="card_results.html"><span class="sb-dot"></span>Results</a></nav><div class="sb-grp">Model & evidence</div><nav class="sb-nav"><a href="dashboard.html"><span class="sb-dot"></span>Strength Lists</a><a href="backtest.html"><span class="sb-dot"></span>Backtest</a><a href="gate_backtest.html"><span class="sb-dot"></span>Pick Gate</a></nav><div class="sb-foot">Every page from committed state · <a href="api/tables.json">raw data</a></div></aside><div class="sb-top"><button class="sb-toggle" id="gsisToggle" aria-label="Toggle dashboards" aria-expanded="false">&#9776;</button><a class="brd" href="dashboard.html"><span class="brd-m"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 96 96"><defs><linearGradient id="gs-ring" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#f14c52"/><stop offset="0.33" stop-color="#f5b544"/><stop offset="0.66" stop-color="#2fd26f"/><stop offset="1" stop-color="#38bdf8"/></linearGradient><linearGradient id="gs-spark" x1="0" y1="1" x2="1" y2="0"><stop offset="0" stop-color="#38bdf8"/><stop offset="0.5" stop-color="#2fd26f"/><stop offset="1" stop-color="#f5b544"/></linearGradient><linearGradient id="gs-plate" x1="0.5" y1="0" x2="0.5" y2="1"><stop offset="0" stop-color="#1b2839"/><stop offset="1" stop-color="#0a1120"/></linearGradient><radialGradient id="gs-ball" cx="0.35" cy="0.3" r="1"><stop offset="0" stop-color="#ffffff"/><stop offset="0.6" stop-color="#ffe9b8"/><stop offset="1" stop-color="#f5b544"/></radialGradient><radialGradient id="gs-halo" cx="0.5" cy="0.5" r="0.5"><stop offset="0" stop-color="#f14c52" stop-opacity="0.8"/><stop offset="0.65" stop-color="#f14c52" stop-opacity="0.28"/><stop offset="1" stop-color="#f14c52" stop-opacity="0"/></radialGradient><filter id="gs-glow" x="-60%" y="-60%" width="220%" height="220%"><feGaussianBlur stdDeviation="1.6" result="blur"/><feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge></filter></defs><path d="M48 12 L79.18 30 L79.18 66 L48 84 L16.82 66 L16.82 30 Z" fill="url(#gs-plate)"/><path d="M48 12 L79.18 30 L79.18 66 L48 84 L16.82 66 L16.82 30 Z" fill="none" stroke="#2e3f56" stroke-width="1" opacity="0.55"/><g stroke="#1b2b45" stroke-width="1" opacity="0.8"><line x1="26" y1="34" x2="26" y2="62"/><line x1="38" y1="30" x2="38" y2="66"/><line x1="50" y1="26" x2="50" y2="70"/><line x1="62" y1="30" x2="62" y2="66"/><line x1="74" y1="34" x2="74" y2="62"/></g><path d="M48 8 L82.64 28 L82.64 68 L48 88 L13.36 68 L13.36 28 Z" fill="none" stroke="url(#gs-ring)" stroke-width="4" stroke-linejoin="round" filter="url(#gs-glow)"/><path d="M24 56 L34.5 47 L44 51.5 L55 37.5 L62.5 27.5" fill="none" stroke="url(#gs-spark)" stroke-width="3.4" stroke-linecap="round" stroke-linejoin="round" filter="url(#gs-glow)"/><circle cx="34.5" cy="47" r="1.9" fill="#2fd26f"/><circle cx="55" cy="37.5" r="1.9" fill="#f5b544"/><circle cx="63.5" cy="26" r="11" fill="url(#gs-halo)"/><circle cx="63.5" cy="26" r="6" fill="url(#gs-ball)" filter="url(#gs-glow)"/><path d="M63.5 22.5 L67.1 25 L65.4 29 L61.6 29 L59.9 25 Z" fill="none" stroke="#f14c52" stroke-width="1" opacity="0.95"/></svg></span><span class="brd-t"><strong>Global Sports Intelligence</strong><small>How the whole system fits together</small></span></a></div><div class="sb-ov" id="gsisOv"></div><script>(function(){var b=document.getElementById("gsisToggle"),o=document.getElementById("gsisOv");if(!b)return;function set(v){document.body.classList.toggle("sb-open",v);b.setAttribute("aria-expanded",v?"true":"false");}b.addEventListener("click",function(){set(!document.body.classList.contains("sb-open"));});if(o)o.addEventListener("click",function(){set(false);});document.addEventListener("keydown",function(e){if(e.key==="Escape")set(false);});})();</script>
+<main>
+<section class="gd-hero"><h1>How the system fits together</h1><p class="gd-sub">Global Sports Intelligence is one pipeline that runs in a single command every day. It ingests every league, scores the teams, gates the picks, publishes a frozen weekly card, settles it against real results, and grades itself. The eleven dashboards below are the windows onto that one machine — this page is the map between them.</p></section>
+<section class="sec"><h2>The one flow</h2><p class="gd-p">Every stage below runs in the daily pipeline, in order (the order is read from the pipeline itself — this page cannot claim a step the system does not run).</p><ol class="gd-flow"><li class="gd-step"><span class="gd-num">1</span><div><div class="gd-stage">Ingest every league</div><div class="gd-job">Fetch each competition's fixtures and results from ESPN / Wikipedia / Sofascore / the committed CSV snapshots, and store them. Everything downstream is a pure function of this.</div><div class="gd-pages">See: <a class="gl" href="dashboard.html">Strength Lists</a></div></div></li><li class="gd-step"><span class="gd-num">2</span><div><div class="gd-stage">Score the teams</div><div class="gd-job">Turn results into a live strength ranking per league (Dixon–Coles goal rates, form, home advantage) and a seated table position.</div><div class="gd-pages">See: <a class="gl" href="dashboard.html">Strength Lists</a> · <a class="gl" href="fixtures.html">Fixtures</a></div></div></li><li class="gd-step"><span class="gd-num">3</span><div><div class="gd-stage">Screen the week</div><div class="gd-job">Put every match in the published week through transparent rules so you can see which games are even worth looking at — and why the rest are not.</div><div class="gd-pages">See: <a class="gl" href="screen.html">Screening</a> · <a class="gl" href="fixtures.html">Fixtures</a></div></div></li><li class="gd-step"><span class="gd-num">4</span><div><div class="gd-stage">Gate the picks</div><div class="gd-job">The win-pick gate admits a fixture only if the favourite is top-3 and measured, the opponent is Unranked, the modelled win-probability clears the per-league floor, and the price is real and the EV non-negative.</div><div class="gd-pages">See: <a class="gl" href="opportunities.html">Opportunities</a> · <a class="gl" href="premium.html">Picks</a> · <a class="gl" href="gate_backtest.html">Pick Gate</a></div></div></li><li class="gd-step"><span class="gd-num">5</span><div><div class="gd-stage">Publish the board</div><div class="gd-job">The week's card (frozen picks) plus the wider Picks / Watchlist / Power ladder, each pick shown with its best-fitting market.</div><div class="gd-pages">See: <a class="gl" href="premium.html">Picks</a> · <a class="gl" href="markets.html">Markets</a></div></div></li><li class="gd-step"><span class="gd-num">6</span><div><div class="gd-stage">Settle & measure</div><div class="gd-job">Every frozen pick is settled against the real final score, flat £1, with closing-line value — and the whole history is replayed to prove the edge.</div><div class="gd-pages">See: <a class="gl" href="card_results.html">Results</a> · <a class="gl" href="backtest.html">Backtest</a></div></div></li><li class="gd-step"><span class="gd-num">7</span><div><div class="gd-stage">Learn & report</div><div class="gd-job">Settled results feed back into calibration and per-league floors; the system grades itself week by week and says so in plain English.</div><div class="gd-pages">See: <a class="gl" href="trend.html">Trend</a> · <a class="gl" href="progress.html">Progress</a></div></div></li></ol></section>
+<section class="sec"><h2>How the pages relate</h2><div class="panel"><p class="gd-p">These are not separate systems. Every selection page is the <b>same gate chain</b> read at a different width: same Dixon–Coles prices, same form/blind-spot shaves, same floor — the pages differ only in how much they let through.</p><ul class="gd-list"><li><span class="gd-name"><a class="gl" href="screen.html">Screening</a></span><span class="gd-note">every match through transparent rules — a look, not a bet</span></li><li><span class="gd-name"><b>Fixtures / Opportunities</b></span><span class="gd-note">the analysed set, rejected ones shown with their reason</span></li><li><span class="gd-name"><b>Watchlist / Power</b></span><span class="gd-note">the same gate, wider net (no top-3 cut / strength route)</span></li><li><span class="gd-name"><a class="gl" href="premium.html">Picks</a></span><span class="gd-note">the frozen weekly card — the narrowest, highest bar</span></li></ul><p class="gd-p gd-dim">A fixture can appear on more than one rung; it is ONE match, counted and staked once. Nothing on a wider rung feeds the frozen card.</p></div></section>
+<section class="sec"><h2>Which page answers which question</h2><div class="panel"><table class="gd-tbl"><thead><tr><th>Your question</th><th>The page that answers it</th></tr></thead><tbody><tr><td>What is the system doing right now, in plain English?</td><td class="gd-ans"><a class="gl" href="progress.html">Progress</a></td></tr><tr><td>Which matches should I even look at this week?</td><td class="gd-ans"><a class="gl" href="screen.html">Screening</a></td></tr><tr><td>What are this week's fixtures, with the analysed-but-rejected ones shown?</td><td class="gd-ans"><a class="gl" href="fixtures.html">Fixtures</a></td></tr><tr><td>What are the week's strongest, qualified opportunities?</td><td class="gd-ans"><a class="gl" href="opportunities.html">Opportunities</a></td></tr><tr><td>What is the best-fitting bet for each pick, and what do the markets mean?</td><td class="gd-ans"><a class="gl" href="markets.html">Markets</a></td></tr><tr><td>What exactly is the week's frozen card, and the wider ladder?</td><td class="gd-ans"><a class="gl" href="premium.html">Picks</a></td></tr><tr><td>Did the picks actually win, and at what return?</td><td class="gd-ans"><a class="gl" href="card_results.html">Results</a></td></tr><tr><td>Does the published edge survive a full-history replay?</td><td class="gd-ans"><a class="gl" href="backtest.html">Backtest</a></td></tr><tr><td>How is the pick gate itself performing, over all history?</td><td class="gd-ans"><a class="gl" href="gate_backtest.html">Pick Gate</a></td></tr><tr><td>Is the system getting better week by week?</td><td class="gd-ans"><a class="gl" href="trend.html">Trend</a></td></tr><tr><td>What are the live strength rankings for every league?</td><td class="gd-ans"><a class="gl" href="dashboard.html">Strength Lists</a></td></tr></tbody></table></div></section>
+<section class="sec"><h2>The pages, grouped</h2><div class="gd-groups"><div class="gd-grp"><div class="gd-grp-h">Overview</div><div class="gd-grp-b"><a class="gl" href="guide.html">Guide</a> · <a class="gl" href="progress.html">Progress</a></div></div><div class="gd-grp"><div class="gd-grp-h">Live board</div><div class="gd-grp-b"><a class="gl" href="fixtures.html">Fixtures</a> · <a class="gl" href="screen.html">Screening</a></div></div><div class="gd-grp"><div class="gd-grp-h">Selections</div><div class="gd-grp-b"><a class="gl" href="opportunities.html">Opportunities</a> · <a class="gl" href="markets.html">Markets</a> · <a class="gl" href="premium.html">Picks</a></div></div><div class="gd-grp"><div class="gd-grp-h">Performance</div><div class="gd-grp-b"><a class="gl" href="trend.html">Trend</a> · <a class="gl" href="card_results.html">Results</a></div></div><div class="gd-grp"><div class="gd-grp-h">Model & evidence</div><div class="gd-grp-b"><a class="gl" href="dashboard.html">Strength Lists</a> · <a class="gl" href="backtest.html">Backtest</a> · <a class="gl" href="gate_backtest.html">Pick Gate</a></div></div></div></section>
+<section class="sec"><h2>The system grades itself</h2><div class="panel gd-ev"><p>Every number on this site is a function of committed state, and the system grades its own edge on the <a class="gl" href="gate_backtest.html">Pick Gate</a> and <a class="gl" href="backtest.html">Backtest</a> pages. Right now: the pick gate replayed over all history wins <b>84.3%</b> of its <b>210</b> picks (4.3% conceded); <b>5</b> active calibration bucket(s); <b>6</b> league(s) under drift watch.</p></div></section>
+<section class="sec"><h2>What this page is (and is not)</h2><div class="panel"><p class="gd-p">This is a map, not a bet surface. It publishes no picks, no probabilities, no odds and no stake, and it feeds no card gate, floor, probability or pick count — the weekly card and the pick gate are untouched by construction. Every dashboard it links is read from the site's own navigation, so it can never point at a page that does not exist. Every number it quotes comes from the committed state the rest of the site already publishes.</p></div></section>
+
+</main>
+<footer class="foot"><div class="d-links">Every probability here is priced with a data-blindness tax: we have no live injury feed for soccer (−2pp on the favourite) and no prior meeting between most pairs (−1pp). These are league-wide conditions so they are stated once here rather than repeated under every match; they still reduce every published win probability.</div><div>Global Sports Intelligence System · <a href="api/tables.json" target="_blank" rel="noopener">API data</a></div></footer>
+</div>
+<style>
+.gsis-team{cursor:pointer}
+.gsis-team:hover{text-decoration:underline dotted;text-decoration-color:var(--accent)}
+.gsis-toast{position:fixed;bottom:1.15rem;left:50%;transform:translateX(-50%);background:#1b2839;border:1px solid #3d5474;color:#eaf2fb;padding:.5rem .95rem;border-radius:10px;font-size:.85rem;z-index:9999;box-shadow:0 8px 24px rgba(0,0,0,.45);opacity:0;transition:opacity .18s;pointer-events:none;max-width:86vw;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.gsis-toast.on{opacity:1}
+.gsis-modal{position:fixed;inset:0;background:rgba(8,14,24,.74);display:flex;align-items:center;justify-content:center;z-index:10000;padding:1rem}
+.gsis-dialog{background:#0f1a2c;border:1px solid #3d5474;border-radius:16px;max-width:640px;width:100%;max-height:84vh;overflow:auto;box-shadow:0 18px 60px rgba(0,0,0,.6);scrollbar-width:thin}
+.gsis-dialog h3{margin:0 0 .7rem;display:flex;justify-content:space-between;align-items:center;gap:.5rem}
+.gsis-dialog .x{cursor:pointer;color:var(--dim);font-weight:700;border:none;background:none;font-size:1.1rem;line-height:1;padding:.1rem .35rem}
+.gsis-results{display:flex;flex-direction:column;gap:.2rem;font-size:.87rem}
+.gsis-res-row{display:flex;justify-content:space-between;gap:1rem;border-bottom:1px solid #1a2739;padding:.28rem .05rem;color:var(--text)}
+.gsis-res-row .gsis-o{font-variant-numeric:tabular-nums;font-weight:700;min-width:4.2rem}
+.gsis-w{color:#5fd68d}.gsis-l{color:#f4797d}.gsis-d{color:#8aa0b8}
+.gsis-verdict{margin-top:.75rem;padding:.6rem .85rem;border-radius:10px;font-size:.9rem;line-height:1.5;color:var(--text)}
+.gsis-up{background:rgba(47,210,111,.13);border:1px solid rgba(47,210,111,.4)}
+.gsis-down{background:rgba(241,76,82,.13);border:1px solid rgba(241,76,82,.4)}
+.gsis-flat{background:rgba(138,160,184,.1);border:1px solid #2a3342}
+.gsis-note{margin-top:.55rem;padding:.5rem .85rem;border-radius:9px;background:rgba(56,189,248,.08);border:1px solid rgba(56,189,248,.28);font-size:.87rem;line-height:1.5;color:var(--text)}
+.gsis-meta{margin-top:.55rem;font-size:.8rem}
+</style>
+<script>
+(function(){
+"use strict";
+var cache=null,loading=false,waiters=[];
+function esc(s){return String(s==null?"":s).replace(/&/g,"&amp;").replace(/</g,"&lt;").replace(/>/g,"&gt;").replace(/"/g,"&quot;");}
+function toast(txt){
+  var t=document.createElement("div");t.className="gsis-toast";t.textContent=txt;
+  document.body.appendChild(t);
+  requestAnimationFrame(function(){t.classList.add("on");});
+  setTimeout(function(){t.classList.remove("on");setTimeout(function(){t.remove();},260);},1500);
+}
+function copy(text){
+  function ok(){toast("\u2713 copied "+text);}
+  function fb(){
+    try{
+      var ta=document.createElement("textarea");ta.value=text;
+      ta.style.position="fixed";ta.style.left="-9999px";ta.style.opacity="0";
+      document.body.appendChild(ta);ta.focus();ta.select();
+      try{document.execCommand("copy");}catch(e){}
+      ta.remove();ok();
+    }catch(e){toast("copy failed");}
+  }
+  if(navigator.clipboard&&navigator.clipboard.writeText){navigator.clipboard.writeText(text).then(ok,fb);}
+  else{fb();}
+}
+function load(cb){
+  if(cache){cb();return;}
+  if(loading){waiters.push(cb);return;}
+  loading=true;
+  var tried=0;
+  var cands=["api/team_history.json","../api/team_history.json","../../api/team_history.json"];
+  function next(){
+    if(tried>=cands.length){loading=false;waiters.forEach(function(w){w();});waiters=[];toast("team history unavailable on this build");return;}
+    fetch(cands[tried],{cache:"no-store"})
+      .then(function(r){if(!r.ok)throw 0;return r.json();})
+      .then(function(j){cache=j;loading=false;var w=waiters;waiters=[];w.forEach(function(f){f();});cb();})
+      .catch(function(){tried++;next();});
+  }
+  next();
+}
+function teamName(el){return el.getAttribute("data-team")||(el.textContent||"").trim();}
+function oppOf(el){
+  var row=el.closest(".vc,.fx,.oc,.cd,.wk");
+  if(!row)return "";
+  var names=[].slice.call(row.querySelectorAll("[data-team]"));
+  var mine=teamName(el),opp="";
+  for(var i=0;i<names.length;i++){
+    var nm=teamName(names[i]);
+    if(nm&&nm!==mine){opp=nm;break;}
+  }
+  return opp;
+}
+function selNote(rec,role,opp){
+  var t=rec.trend||{},d=t.direction,label=t.label||"steady";
+  var last5=rec.form||"";
+  var L=(last5.match(/L/g)||[]).length,W=(last5.match(/W/g)||[]).length;
+  var o=opp?(" vs "+esc(opp)):"";
+  if(role==="strong"){
+    if(d==="down")return "FAVOURITE side — it is sliding ("+label+"). Its recent slide weakens the pick: the win/DC edge is shakier than today's number suggests."+o;
+    if(d==="up")return "FAVOURITE side — it is strengthening ("+label+", "+W+" wins in the last 5). Recent output supports the pick's confidence."+o;
+    return "FAVOURITE side — no sharp recent direction ("+label+"). The pick stands on season form and position, not recent burst."+o;
+  }
+  if(role==="weak"){
+    if(d==="up")return "Opponent/underdog side — it is strengthening ("+label+"). Upset / both-teams-to-score risk is higher than the static row implies."+o;
+    if(d==="down")return "Opponent/underdog side — it is fading ("+label+"). Lower upset risk; this reinforces the strong side."+o;
+    return "Opponent/underdog side — no sharp recent trend ("+label+"), so no extra upset signal either way."+o;
+  }
+  return "";
+}
+function open(name,league,role,opp){
+  load(function(){
+    var rec=(cache&&cache.teams)?(cache.teams[league+"|"+name]||null):null;
+    if(!rec&&league){for(var k in cache.teams){if(k.slice(k.lastIndexOf("|")+1)===name){rec=cache.teams[k];break;}}}
+    if(!rec){toast("no history for "+name);return;}
+    var res=(rec.results||[]).map(function(m){
+      var c=m.outcome==="W"?"gsis-w":(m.outcome==="L"?"gsis-l":"gsis-d");
+      return '<div class="gsis-res-row"><span class="gsis-o '+c+'">'+esc(m.outcome)+" "+esc(m.score)+'</span><span class="dim">vs '+esc(m.opp)+'</span><span class="dim">'+esc(m.date)+" \u00b7 "+esc(m.venue)+"</span></div>";
+    }).join("");
+    var t=rec.trend||{};
+    var dirCls=t.direction==="up"?"gsis-up":(t.direction==="down"?"gsis-down":"gsis-flat");
+    var note=selNote(rec,role,opp);
+    var pos=rec.position?(" \u00b7 position <b style=\"color:var(--accent)\">#"+esc(rec.position)+"</b>"):"";
+    var str=rec.strength!=null?("<b style=\"color:var(--accent)\">"+esc(rec.strength)+"</b> strength"):"";
+    var meta='<div class="gsis-meta dim">Form last 5: <b style="color:var(--accent)">'+esc(rec.form||"\u2014")+"</b>"+str+pos+"</div>";
+    var dlg=document.createElement("div");dlg.className="gsis-modal";
+    dlg.innerHTML='<div class="gsis-dialog" role="dialog" aria-label="Team history">'+
+      '<div style="padding:1.1rem 1.3rem">'+
+      '<h3><span><span style="font-size:1.05rem;font-weight:800;color:#fff">'+esc(name)+'</span> <span class="dim" style="font-size:.85rem">\u00b7 '+esc(rec.league)+"</span></span>"+
+      '<button class="x" aria-label="Close">\u2715</button></h3>'+
+      '<div class="gsis-results">'+res+'</div>'+meta+
+      '<div class="gsis-verdict '+dirCls+'"><b>'+esc(t.label||"steady")+"</b> \u2014 "+esc(t.evidence||"")+"</div>"+
+      (note?'<div class="gsis-note">'+note+"</div>": "")+
+      "</div></div>";
+    document.body.appendChild(dlg);
+    function close(){dlg.remove();document.removeEventListener("keydown",onKey);}
+    function onKey(e){if(e.key==="Escape")close();}
+    dlg.querySelector(".x").addEventListener("click",close);
+    dlg.addEventListener("click",function(e){if(e.target===dlg)close();});
+    document.addEventListener("keydown",onKey);
+  });
+}
+function meta(el){
+  var name=teamName(el);
+  var league=el.getAttribute("data-league")||"";
+  if(!league){
+    var box=el.closest(".fx,.oc,.cd,.wk,.card");
+    var flg=box&&box.querySelector(".flg");
+    league=flg?(flg.textContent||"").trim():"";
+  }
+  return {name:name,league:league,role:el.getAttribute("data-role")||"",opp:oppOf(el)};
+}
+function isTeamEl(el){return el&&el.closest&&(el.closest("[data-team],[data-league]")||null);}
+document.addEventListener("click",function(ev){
+  if(ev.detail>=2)return; // the 2nd click of a double-click belongs to the dblclick
+  var el=isTeamEl(ev.target);
+  if(!el)return;
+  var m=meta(el);
+  if(!m.name)return;
+  ev.preventDefault();ev.stopPropagation();
+  copy(m.name);
+});
+document.addEventListener("dblclick",function(ev){
+  var el=isTeamEl(ev.target);
+  if(!el)return;
+  var m=meta(el);
+  if(!m.name)return;
+  ev.preventDefault();ev.stopPropagation();
+  open(m.name,m.league,m.role,m.opp);
+});
+})();
+</script>
+</body>
+</html>
