@@ -1,21 +1,21 @@
 {
   "generator": "lock_reliability",
-  "candidates": 7680,
-  "published_locks_dc_route": 207,
+  "candidates": 7711,
+  "published_locks_dc_route": 210,
   "bands": [
     {
       "band": "lock >=80%",
-      "n": 69,
-      "model_mean": 0.8347,
-      "win_rate": 0.913,
+      "n": 72,
+      "model_mean": 0.8341,
+      "win_rate": 0.9167,
       "win_ci": [
-        0.8378234831916525,
-        0.9521188417821971
+        0.844214535143949,
+        0.9541254334229297
       ],
-      "draw_rate": 0.0725,
-      "upset_rate": 0.0145,
-      "non_win_rate": 0.087,
-      "calibration_gap_pp": 7.8
+      "draw_rate": 0.0694,
+      "upset_rate": 0.0139,
+      "non_win_rate": 0.0833,
+      "calibration_gap_pp": 8.3
     },
     {
       "band": "70-80%",
@@ -41,17 +41,17 @@
     }
   ],
   "autopsy": {
-    "published_picks": 207,
+    "published_picks": 210,
     "false_locks": 33,
     "upset_locks": 9,
     "false_locks_with_form_warning": 0,
-    "form_warning_fired_anywhere": 298,
+    "form_warning_fired_anywhere": 301,
     "note": "The form tripwire runs at ADMISSION, so a flagged candidate is shaved below the gate and never becomes a pick; that is why published false locks carry no form warning. blind_adj>0 is a constant (no injury feed) and cannot discriminate."
   },
-  "overall_upset_rate": 0.0435,
+  "overall_upset_rate": 0.0429,
   "overall_upset_ci": [
-    0.026312079440946795,
-    0.07428991913154298
+    0.02593471240190643,
+    0.0732506932112556
   ],
   "leagues": [
     {
@@ -265,14 +265,25 @@
     },
     {
       "code": "lva-virsliga",
-      "n": 12,
-      "false_lock_rate": 0.083,
+      "n": 13,
+      "false_lock_rate": 0.077,
       "upset_rate": 0.0,
       "upset_ci": [
-        0.003937864227643768,
-        0.20581666518655056
+        0.0036571031913829044,
+        0.1926361756501354
       ],
-      "upset_posterior": 0.071
+      "upset_posterior": 0.067
+    },
+    {
+      "code": "kos-superleague",
+      "n": 4,
+      "false_lock_rate": 0.0,
+      "upset_rate": 0.0,
+      "upset_ci": [
+        0.010206218313010485,
+        0.4507197283469412
+      ],
+      "upset_posterior": 0.167
     }
   ]
 }
