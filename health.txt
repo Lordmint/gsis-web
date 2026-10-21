@@ -175,10 +175,10 @@ Competitions:
 Wikipedia data validation (results grid vs standings table):
   eng-premier-league: OK | teams=20 matches=70 checked=20 issues=0
   eng-championship: OK | teams=24 matches=132 checked=24 issues=0
-  eng-league-one: no validation data
+  eng-league-one: OK | teams=24 matches=126 checked=24 issues=0
   eng-league-two: OK | teams=24 matches=138 checked=24 issues=0
   eng-national-league: OK | teams=24 matches=155 checked=24 issues=0
-  esp-la-liga: MISMATCH | teams=20 matches=75 checked=20 issues=12
+  esp-la-liga: MISMATCH | teams=20 matches=76 checked=20 issues=12
       Barcelona: grid(P8 W8 D0 L0 GF32 GA7) vs standings (P9 W9 D0 L0 GF39 GA9)
       Real Sociedad: grid(P7 W4 D0 L3 GF14 GA15) vs standings (P9 W5 D1 L3 GF17 GA17)
       Celta Vigo: grid(P4 W1 D1 L2 GF4 GA6) vs standings (P9 W2 D5 L2 GF10 GA7)
@@ -274,7 +274,7 @@ Wikipedia data validation (results grid vs standings table):
       KR: grid(P9 W6 D2 L1 GF32 GA16) vs standings (P22 W13 D5 L4 GF74 GA49)
   est-meistriliiga: MISMATCH | teams=10 matches=90 checked=10 issues=10
       FCI Levadia: grid(P18 W14 D4 L0 GF53 GA14) vs standings (P32 W25 D6 L1 GF87 GA22)
-      Flora: grid(P18 W12 D0 L6 GF39 GA20) vs standings (P32 W19 D1 L12 GF62 GA44)
+      Flora: grid(P18 W12 D0 L6 GF39 GA20) vs standings (P33 W19 D1 L13 GF63 GA47)
       Paide Linnameeskond: grid(P18 W9 D4 L5 GF29 GA22) vs standings (P32 W17 D6 L9 GF52 GA39)
   est-esiliiga: MISMATCH | teams=10 matches=72 checked=10 issues=10
       Welco: grid(P16 W11 D3 L2 GF47 GA21) vs standings (P34 W23 D5 L6 GF96 GA42)
@@ -360,10 +360,10 @@ Wikipedia data validation (results grid vs standings table):
       Chernomorets Burgas: grid(P5 W4 D0 L1 GF7 GA1) vs standings (P12 W7 D3 L2 GF21 GA8)
       Fratria Varna: grid(P11 W6 D3 L2 GF15 GA8) vs standings (P12 W6 D4 L2 GF17 GA10)
   svn-prvaliga: OK | teams=10 matches=59 checked=10 issues=0
-  svk-first-league: MISMATCH | teams=12 matches=26 checked=12 issues=3
-      DAC Dunajská Streda: grid(P2 W2 D0 L0 GF7 GA0) vs standings (P4 W3 D1 L0 GF11 GA1)
-      Komárno: grid(P4 W0 D2 L2 GF4 GA6) vs standings (P5 W0 D2 L3 GF4 GA9)
-      Ružomberok: grid(P4 W0 D0 L4 GF2 GA12) vs standings (P5 W0 D1 L4 GF3 GA13)
+  svk-first-league: MISMATCH | teams=12 matches=58 checked=12 issues=7
+      DAC Dunajská Streda: grid(P4 W3 D1 L0 GF11 GA2) vs standings (P10 W8 D2 L0 GF31 GA7)
+      Žilina: grid(P10 W6 D3 L1 GF25 GA19) vs standings (P11 W6 D3 L2 GF27 GA22)
+      Zemplín Michalovce: grid(P10 W4 D2 L4 GF10 GA12) vs standings (P11 W4 D2 L5 GF10 GA15)
   svk-second-league: MISMATCH | teams=16 matches=65 checked=15 issues=15
       Petržalka: grid(P9 W8 D0 L1 GF17 GA6) vs standings (P13 W9 D3 L1 GF23 GA9)
       Šamorín: grid(P8 W8 D0 L0 GF19 GA6) vs standings (P13 W9 D2 L2 GF25 GA15)
