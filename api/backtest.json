@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-23T08:12:40.810978+00:00",
+  "generated_at": "2026-10-23T08:24:48.086205+00:00",
   "weeks": [
     "2026-09-14",
     "2026-09-21",
@@ -4649,7 +4649,7 @@
   },
   "model_state": {
     "version": 1,
-    "generated_at": "2026-10-23T08:04:25+00:00",
+    "generated_at": "2026-10-23T08:17:17+00:00",
     "note": "1 active calibration bucket(s) from 21 settled picks \u00b7 4 drifted league(s) \u00b7 132 league(s) with adaptive gate factors \u00b7 156 league(s) with a recursive strength model",
     "calibration": [
       {
@@ -31519,11 +31519,11 @@
       }
     },
     "calibration_prior": {
-      "slope": 0.7755,
-      "intercept": -0.0282,
+      "slope": 0.7746,
+      "intercept": -0.0277,
       "kappa": 40.0,
       "points": 8,
-      "samples": 7730,
+      "samples": 7729,
       "source": "gate_backtest.calibration_curve (Elo route, no look-ahead)",
       "caveat": "fitted on the pick-gate replay's Elo-from-strength route, not the live DC-priced route, so it is a PRIOR: the live buckets override it as soon as they hold more settled evidence of their own. Not applied to published probabilities or to selection until that trade-off is signed off.",
       "applied": false,
@@ -31536,14 +31536,14 @@
       "adjust_pp": 0.0,
       "refuted": true,
       "reason": "grid over-predicts draws; no correction applied",
-      "slots": 7685,
+      "slots": 7684,
       "elo_diagnostic": {
         "route": "p_draw",
         "applied": false,
         "adjust_pp": 0.0,
         "refuted": true,
         "reason": "band errors disagree in sign (50% agreement) \u2014 a slope, which a flat draw correction cannot fix",
-        "slots": 7730
+        "slots": 7729
       },
       "scope": "market selection only (not the pick gate)",
       "reline": false
