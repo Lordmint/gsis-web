@@ -1,15 +1,15 @@
 {
-  "generated_at": "2026-10-24T19:52:02.123744+00:00",
+  "generated_at": "2026-10-24T21:50:10.832953+00:00",
   "ledger": "pickboard_results",
-  "bets": 40,
-  "settled": 29,
-  "wins": 24,
+  "bets": 41,
+  "settled": 31,
+  "wins": 26,
   "losses": 5,
-  "pending": 11,
-  "roi": 0.2813793103448276,
+  "pending": 10,
+  "roi": 0.31193548387096776,
   "clv": {
-    "n": 29,
-    "mean": -0.6,
+    "n": 31,
+    "mean": -0.8,
     "positive": 9
   },
   "by_rung": {
@@ -68,15 +68,15 @@
       }
     },
     "value": {
-      "bets": 38,
-      "settled": 27,
-      "wins": 23,
+      "bets": 39,
+      "settled": 29,
+      "wins": 25,
       "losses": 4,
-      "pending": 11,
-      "roi": 0.3085185185185185,
+      "pending": 10,
+      "roi": 0.3393103448275862,
       "clv": {
-        "n": 27,
-        "mean": -0.44,
+        "n": 29,
+        "mean": -0.66,
         "positive": 9
       }
     }
@@ -778,10 +778,10 @@
       "odds": 2.05,
       "odds_close": 1.87,
       "clv": -4.7,
-      "verdict": "PENDING",
-      "note": "no result yet",
-      "score": null,
-      "profit": null,
+      "verdict": "W",
+      "note": "both teams scored \u2192 GG leg covered",
+      "score": "4\u20134",
+      "profit": 1.0499999999999998,
       "league": "Belgian Pro League"
     },
     {
@@ -844,9 +844,9 @@
       "market": "Away or GG",
       "prob": 61.2,
       "criteria": [],
-      "odds": 1.61,
-      "odds_close": 1.61,
-      "clv": -0.15,
+      "odds": 1.57,
+      "odds_close": 1.57,
+      "clv": 0.04,
       "verdict": "PENDING",
       "note": "no result yet",
       "score": null,
@@ -893,10 +893,10 @@
       "odds": 1.46,
       "odds_close": 1.41,
       "clv": -2.53,
-      "verdict": "PENDING",
-      "note": "no result yet",
-      "score": null,
-      "profit": null,
+      "verdict": "W",
+      "note": "strong won 2-1",
+      "score": "2\u20131",
+      "profit": 0.45999999999999996,
       "league": "Serie A"
     },
     {
@@ -1013,6 +1013,29 @@
       "score": null,
       "profit": null,
       "league": "Belgian Pro League"
+    },
+    {
+      "mk": "bol-liga-1|Always Ready|Real Oruro",
+      "code": "bol-liga-1",
+      "week": "2026-10-19",
+      "home_name": "Always Ready",
+      "away_name": "Real Oruro",
+      "backed": "Always Ready",
+      "opponent": "Real Oruro",
+      "is_home": true,
+      "rungs": [],
+      "tier": "value",
+      "market": "Home or GG",
+      "prob": 60.7,
+      "criteria": [],
+      "odds": 1.11,
+      "odds_close": 1.1,
+      "clv": -0.82,
+      "verdict": "PENDING",
+      "note": "no result yet",
+      "score": null,
+      "profit": null,
+      "league": "Liga Profesional Boliviana"
     }
   ]
 }
