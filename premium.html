@@ -307,7 +307,7 @@ tr.tc-b td{background:rgba(251,191,36,.16)}
 <section class="hero"><div class="hero-info">
   <h1>🏅 Picks — the week's card, plus the wider Watchlist &amp; Power ladder</h1>
   <p class="hero-sub">The same pick set as Opportunities, ranked into quality tiers by 90-minute win chance, then the same engine run wider (Watchlist and Power) below.
-  <br>Snapshot: <strong>2026-10-24</strong> · 0 picks · <a href="opportunities.html">view all in Opportunities</a> · <strong>Win card frozen <b>2026-10-19</b> · generated Sat 24 Oct 21:42 UTC</strong> · <span style="color:var(--amber)">EV is vs the single-match price — stacking picks compounds the bookmaker&apos;s margin.</span></p>
+  <br>Snapshot: <strong>2026-11-01</strong> · 0 picks · <a href="opportunities.html">view all in Opportunities</a> · <strong>Win card frozen <b>2026-10-26</b> · generated Sun 01 Nov 00:17 UTC</strong> · <span style="color:var(--amber)">EV is vs the single-match price — stacking picks compounds the bookmaker&apos;s margin.</span></p>
 </div>
 <div class="stat"><div class="bar"><span class="chip" style="cursor:default;background:rgba(34,197,94,.15);border-color:var(--green)">🏅 Premium <b>≥ 75%</b><b>0</b></span><span class="chip" style="cursor:default;background:rgba(74,222,128,.12);border-color:#4ade80">💪 Strong <b>70–75%</b><b>0</b></span><span class="chip" style="cursor:default">✅ Standard <b>68–70%</b><b>0</b></span><span class="chip" style="cursor:default">📋 On board <b>all</b><b>0</b></span></div><div></div></div></section>
 
@@ -318,14 +318,14 @@ tr.tc-b td{background:rgba(251,191,36,.16)}
 
 
 <h2 class="sec">The wider board <span class="muted">· one ladder, not three systems</span></h2>
-<p class="sub">Week 2026-10-19 · snapshot 2026-10-24 · 237 priceable fixtures screened,
-<strong>1</strong> cleared a route, <strong>0</strong> published as real bets
+<p class="sub">Week 2026-10-26 · snapshot 2026-11-01 · 168 priceable fixtures screened,
+<strong>6</strong> cleared a route, <strong>1</strong> published as real bets
 (verified 1X2 price + non-negative EV).</p>
 <p class="muted">The tiers above are the card picks by confidence; below is the same engine run
 wider. Picks, Watchlist and Power are <b>one ladder, not three systems</b>:
-<b>Picks</b> (0) require a top-3 favourite vs an Unranked side;
-<b>Watchlist</b> (0) drops the top-3 cut; <b>Power</b>
-(0) drops the structural constraint entirely. Every rung shares the
+<b>Picks</b> (1) require a top-3 favourite vs an Unranked side;
+<b>Watchlist</b> (1) drops the top-3 cut; <b>Power</b>
+(1) drops the structural constraint entirely. Every rung shares the
 same engine — Dixon-Coles required, the per-league win-prob floor, EV ≥ 0, a verified 1X2
 price — and the same routes (<b>strength over rank</b> / <b>absolute power</b> /
 <b>biggest mismatch in the league</b>). A match is shown in every rung it clears, but it is
@@ -334,117 +334,212 @@ price — and the same routes (<b>strength over rank</b> / <b>absolute power</b>
 verified price, or a negative-EV price, is <b>not</b> published — it is shown below as
 <b>analysed, not a bet</b>.</p>
 <h2 class="sec">How a match becomes a pick <span class="muted">· the method, in plain English</span></h2><p class='sub'>Every fixture in this week's feed runs through the <b>same</b> chain. Nothing here is hand-picked; a row is a row because it cleared every step below, and a row that fails a step is shown with the reason, never hidden.</p><ol class='method'><li><b>Population.</b> Take this week's upcoming feed and keep a fixture only if both teams resolve to a snapshot entry, both carry a <b>Dixon-Coles</b> goal-rate rating, neither side is low-information, and the two sides are not an identical coin-flip. Dixon-Coles is required — there is no Elo fallback.</li><li><b>Which side is the favourite.</b> Not table rank: the side with the higher <b>venue-adjusted strength</b> (home/away form shrunk toward the overall rating until ~6 games of sample exist).</li><li><b>The probability, shaved.</b> One goal-rate grid gives the strong side's win chance, then we subtract what the model cannot see: a <b>form tripwire</b> (sliding/winless favourite, opponent in form), a <b>data blind-spot</b> tax (no form feed, no injury feed, no head-to-head), and a <b>reverse-fixture</b> guard (this favourite has historically failed to beat this opponent). The shaved figure is then calibrated.</li><li><b>The floor.</b> If the calibrated win probability is below the <b>per-league floor</b> (base <b>72%</b>, tighten-only toward 76%) the fixture is rejected outright — strength alone never makes a pick.</li><li><b>The routes.</b> Above the floor a fixture clears a route if any of: <b>gap</b> (Elite/Reliable favourite vs an Unranked side, both with recent form, venue strength gap ≥ 2.5), <b>power</b> (venue strength ≥ 70 and strictly above the opponent's), or <b>mismatch</b> (the biggest venue-strength gap in its league among floor-clearing fixtures).</li><li><b>The bet gate.</b> A route-clearing fixture is published as a real bet only when it ALSO has a <b>verified 1X2 price</b> and <b>EV ≥ 0</b>. Failing that it is shown below as <i>analysed — no verified edge</i>: kept visible, muted, no stake.</li><li><b>The rungs.</b> One engine, three widths: <b>Picks</b> need a top-3 favourite vs an Unranked side; <b>Watchlist</b> drops the top-3 cut; <b>Power</b> drops the structural constraint. A match shows on every rung it clears but is <b>one row, settled once</b>.</li><li><b>The value band (not a bet).</b> A measured favourite at 60–66% — just BELOW the floor — is recorded as a self-check: same readiness rules and the same routed vehicle, but deliberately no EV requirement and <b>no stake</b>, settled forward only to measure.</li></ol><p class='sub'><b>So on a week like this one the card can be empty while the board is not.</b> The analysed and value rows are shown on purpose: an empty-looking catalogue with no explanation is exactly what this page exists to avoid. Only the published rows (a verified price with non-negative EV) are bets; everything else is measurement.</p>
-<h2 class="sec">Picks <span class="muted">· 0</span></h2><p class="sub">The weekly card's frame: a top-3 favourite against an Unranked side, clearing the per-league floor, the gap and EV. This is what the frozen card is built from.</p>
-<p class="sub"><span class=dim>No rows at this rung this week.</span></p>
-<h2 class="sec">Watchlist <span class="muted">· 0</span></h2><p class="sub">Every measured favourite against an Unranked side — the pick frame WITHOUT the top-3 cut, so a genuinely strong #4 side is surfaced too.</p>
-<p class="sub"><span class=dim>No rows at this rung this week.</span></p>
-<h2 class="sec">Power <span class="muted">· 0</span></h2><p class="sub">Any measured favourite against a measured, weaker side — the structural constraint dropped. Strength-driven, still floor- and EV-gated.</p>
-<p class="sub"><span class=dim>No rows at this rung this week.</span></p>
+<h2 class="sec">Picks <span class="muted">· 1</span></h2><p class="sub">The weekly card's frame: a top-3 favourite against an Unranked side, clearing the per-league floor, the gap and EV. This is what the frozen card is built from.</p>
+<div class="grid"><div class="fx">
+<div class="fx-hd"><span class="flg">Serie A</span>
+<span class="fdt">Sun 01 Nov, 14:00 UTC</span></div>
+<div class="fx-b"><div class="vc">
+<div class="pcell strong"><span class="pos">#1</span><span class="tname" data-team="Lazio" data-league="ita-serie-a" data-role="strong">Lazio</span><span class="b be">Elite</span></div>
+<span class="vs">vs</span>
+<div class="pcell"><span class="pos">#11</span><span class="tname" data-team="Cagliari" data-league="ita-serie-a">Cagliari</span><span class="b bu">Unranked</span></div>
+</div></div>
+ <div class="fx-foot"><span class="mkt">⚡ Lazio 89.1 vs Cagliari 54.9 · gap 34.2 · model win 73.9% (floor 72%) · 1X2 price 1.44 · EV +3.6% vs 1X2 model · ¼-Kelly 3.6% of bankroll</span></div>
+ <div class="fx-foot"><span class="dim">🎯 market: <b>Home or GG</b> (95.9%) — Protective vehicle for a clear favourite vs a beatable side: both teams are live to score (BTTS 60%) and 'Home or GG' wins on either a home win or a conceded goal — it survives the narrow defeats (1-2, 2-3) that sink a straight win or level handicap.</span></div>
+ <div class="fx-foot"><span class="dim">✅ power bet · strength over rank · absolute power · biggest in league</span></div>
+ <div class="fx-foot"><span class="rung picks">Picks</span><span class="rung watchlist">Watchlist</span><span class="rung power">Power</span></div>
+</div></div>
+<h2 class="sec">Watchlist <span class="muted">· 1</span></h2><p class="sub">Every measured favourite against an Unranked side — the pick frame WITHOUT the top-3 cut, so a genuinely strong #4 side is surfaced too.</p>
+<div class="grid"><div class="fx">
+<div class="fx-hd"><span class="flg">Serie A</span>
+<span class="fdt">Sun 01 Nov, 14:00 UTC</span></div>
+<div class="fx-b"><div class="vc">
+<div class="pcell strong"><span class="pos">#1</span><span class="tname" data-team="Lazio" data-league="ita-serie-a" data-role="strong">Lazio</span><span class="b be">Elite</span></div>
+<span class="vs">vs</span>
+<div class="pcell"><span class="pos">#11</span><span class="tname" data-team="Cagliari" data-league="ita-serie-a">Cagliari</span><span class="b bu">Unranked</span></div>
+</div></div>
+ <div class="fx-foot"><span class="mkt">⚡ Lazio 89.1 vs Cagliari 54.9 · gap 34.2 · model win 73.9% (floor 72%) · 1X2 price 1.44 · EV +3.6% vs 1X2 model · ¼-Kelly 3.6% of bankroll</span></div>
+ <div class="fx-foot"><span class="dim">🎯 market: <b>Home or GG</b> (95.9%) — Protective vehicle for a clear favourite vs a beatable side: both teams are live to score (BTTS 60%) and 'Home or GG' wins on either a home win or a conceded goal — it survives the narrow defeats (1-2, 2-3) that sink a straight win or level handicap.</span></div>
+ <div class="fx-foot"><span class="dim">✅ power bet · strength over rank · absolute power · biggest in league</span></div>
+ <div class="fx-foot"><span class="rung picks">Picks</span><span class="rung watchlist">Watchlist</span><span class="rung power">Power</span></div>
+</div></div>
+<h2 class="sec">Power <span class="muted">· 1</span></h2><p class="sub">Any measured favourite against a measured, weaker side — the structural constraint dropped. Strength-driven, still floor- and EV-gated.</p>
+<div class="grid"><div class="fx">
+<div class="fx-hd"><span class="flg">Serie A</span>
+<span class="fdt">Sun 01 Nov, 14:00 UTC</span></div>
+<div class="fx-b"><div class="vc">
+<div class="pcell strong"><span class="pos">#1</span><span class="tname" data-team="Lazio" data-league="ita-serie-a" data-role="strong">Lazio</span><span class="b be">Elite</span></div>
+<span class="vs">vs</span>
+<div class="pcell"><span class="pos">#11</span><span class="tname" data-team="Cagliari" data-league="ita-serie-a">Cagliari</span><span class="b bu">Unranked</span></div>
+</div></div>
+ <div class="fx-foot"><span class="mkt">⚡ Lazio 89.1 vs Cagliari 54.9 · gap 34.2 · model win 73.9% (floor 72%) · 1X2 price 1.44 · EV +3.6% vs 1X2 model · ¼-Kelly 3.6% of bankroll</span></div>
+ <div class="fx-foot"><span class="dim">🎯 market: <b>Home or GG</b> (95.9%) — Protective vehicle for a clear favourite vs a beatable side: both teams are live to score (BTTS 60%) and 'Home or GG' wins on either a home win or a conceded goal — it survives the narrow defeats (1-2, 2-3) that sink a straight win or level handicap.</span></div>
+ <div class="fx-foot"><span class="dim">✅ power bet · strength over rank · absolute power · biggest in league</span></div>
+ <div class="fx-foot"><span class="rung picks">Picks</span><span class="rung watchlist">Watchlist</span><span class="rung power">Power</span></div>
+</div></div>
 <h2 class="sec">Analysed — strength pick, no verified edge</h2><p class='sub'>These cleared a route and the floor, but failed the <b>bet gate</b> (a verified 1X2 price with non-negative EV), so they are <b>not published as bets</b>. Shown for transparency; each card names the reason.</p>
 <div class="grid"><div class="fx na">
-<div class="fx-hd"><span class="flg">USL Championship</span>
-<span class="fdt">Sat 24 Oct, 23:30 UTC</span></div>
+<div class="fx-hd"><span class="flg">Süper Lig</span>
+<span class="fdt">Sun 01 Nov, 10:30 UTC</span></div>
 <div class="fx-b"><div class="vc">
-<div class="pcell strong"><span class="pos">#1</span><span class="tname" data-team="Tampa Bay Rowdies" data-league="usa-usl" data-role="strong">Tampa Bay Rowdies</span><span class="b br">Reliable</span></div>
+<div class="pcell strong"><span class="pos">#2</span><span class="tname" data-team="Amed SFK" data-league="tur-super-lig" data-role="strong">Amed SFK</span><span class="b be">Elite</span></div>
 <span class="vs">vs</span>
-<div class="pcell"><span class="pos">#25</span><span class="tname" data-team="Sporting JAX" data-league="usa-usl">Sporting JAX</span><span class="b bu">Unranked</span></div>
+<div class="pcell"><span class="pos">#18</span><span class="tname" data-team="Eyupspor" data-league="tur-super-lig">Eyupspor</span><span class="b bu">Unranked</span></div>
 </div></div>
- <div class="fx-foot"><span class="dim">⚡ Tampa Bay Rowdies 77.1 vs Sporting JAX 8.1 · gap 69.0 · model win 75.1% (floor 72%) · 1X2 price 1.11 · EV -18.8% vs 1X2 model</span></div>
- <div class="fx-foot"><span class="dim">🎯 market: <b>Home or GG</b> (94.5%) — Protective vehicle for a clear favourite vs a beatable side: both teams are live to score (BTTS 52%) and 'Home or GG' wins on either a home win or a conceded goal — it survives the narrow defeats (1-2, 2-3) that sink a straight win or level handicap.</span></div>
- <div class="fx-foot"><span class="dim">🔎 analysed · no verified edge (negative EV -18.8%) — not a bet · strength over rank · absolute power · biggest in league</span></div>
+ <div class="fx-foot"><span class="dim">⚡ Amed SFK 95.6 vs Eyupspor 5.8 · gap 89.8 · model win 76.8% (floor 72%) · 1X2 price 1.25 · EV -6.5% vs 1X2 model</span></div>
+ <div class="fx-foot"><span class="dim">🎯 market: <b>Home or GG</b> (95.5%) — Protective vehicle for a clear favourite vs a beatable side: both teams are live to score (BTTS 52%) and 'Home or GG' wins on either a home win or a conceded goal — it survives the narrow defeats (1-2, 2-3) that sink a straight win or level handicap.</span></div>
+ <div class="fx-foot"><span class="dim">🔎 analysed · no verified edge (negative EV -6.5%) — not a bet · strength over rank · absolute power · biggest in league</span></div>
+ <div class="fx-foot"><span class="rung picks">Picks</span><span class="rung watchlist">Watchlist</span><span class="rung power">Power</span></div>
+</div><div class="fx na">
+<div class="fx-hd"><span class="flg">Austrian Bundesliga</span>
+<span class="fdt">Sun 01 Nov, 13:30 UTC</span></div>
+<div class="fx-b"><div class="vc">
+<div class="pcell strong"><span class="pos">#2</span><span class="tname" data-team="RB Salzburg" data-league="aut-bundesliga" data-role="strong">RB Salzburg</span><span class="b be">Elite</span></div>
+<span class="vs">vs</span>
+<div class="pcell"><span class="pos">#10</span><span class="tname" data-team="Austria Lustenau" data-league="aut-bundesliga">Austria Lustenau</span><span class="b bu">Unranked</span></div>
+</div></div>
+ <div class="fx-foot"><span class="dim">⚡ RB Salzburg 90.4 vs Austria Lustenau 20.4 · gap 70.0 · model win 79.1% (floor 72%) · 1X2 price 1.18 · EV -8.9% vs 1X2 model</span></div>
+ <div class="fx-foot"><span class="dim">🎯 market: <b>Home or GG</b> (97.0%) — Protective vehicle for a clear favourite vs a beatable side: both teams are live to score (BTTS 62%) and 'Home or GG' wins on either a home win or a conceded goal — it survives the narrow defeats (1-2, 2-3) that sink a straight win or level handicap.</span></div>
+ <div class="fx-foot"><span class="dim">🔎 analysed · no verified edge (negative EV -8.9%) — not a bet · strength over rank · absolute power · biggest in league</span></div>
+ <div class="fx-foot"><span class="rung picks">Picks</span><span class="rung watchlist">Watchlist</span><span class="rung power">Power</span></div>
+</div><div class="fx na">
+<div class="fx-hd"><span class="flg">Süper Lig</span>
+<span class="fdt">Sun 01 Nov, 13:00 UTC</span></div>
+<div class="fx-b"><div class="vc">
+<div class="pcell strong"><span class="pos">#3</span><span class="tname" data-team="Trabzonspor" data-league="tur-super-lig" data-role="strong">Trabzonspor</span><span class="b br">Reliable</span></div>
+<span class="vs">vs</span>
+<div class="pcell"><span class="pos">#14</span><span class="tname" data-team="Gaziantep FK" data-league="tur-super-lig">Gaziantep FK</span><span class="b bu">Unranked</span></div>
+</div></div>
+ <div class="fx-foot"><span class="dim">⚡ Trabzonspor 90.0 vs Gaziantep FK 28.2 · gap 61.8 · model win 72.3% (floor 72%) · 1X2 price 1.29 · EV -9.2% vs 1X2 model</span></div>
+ <div class="fx-foot"><span class="dim">🎯 market: <b>Home or GG</b> (95.4%) — Protective vehicle for a clear favourite vs a beatable side: both teams are live to score (BTTS 61%) and 'Home or GG' wins on either a home win or a conceded goal — it survives the narrow defeats (1-2, 2-3) that sink a straight win or level handicap.</span></div>
+ <div class="fx-foot"><span class="dim">🔎 analysed · no verified edge (negative EV -9.2%) — not a bet · strength over rank · absolute power</span></div>
+ <div class="fx-foot"><span class="rung picks">Picks</span><span class="rung watchlist">Watchlist</span><span class="rung power">Power</span></div>
+</div><div class="fx na">
+<div class="fx-hd"><span class="flg">Liga de Expansión MX</span>
+<span class="fdt">Sun 01 Nov, 18:00 UTC</span></div>
+<div class="fx-b"><div class="vc">
+<div class="pcell strong"><span class="pos">#2</span><span class="tname" data-team="Leones Negros" data-league="mex-expansion" data-role="strong">Leones Negros</span><span class="b br">Reliable</span></div>
+<span class="vs">vs</span>
+<div class="pcell"><span class="pos">#16</span><span class="tname" data-team="Tepatitlán FC" data-league="mex-expansion">Tepatitlán FC</span><span class="b bu">Unranked</span></div>
+</div></div>
+ <div class="fx-foot"><span class="dim">⚡ Leones Negros 60.4 vs Tepatitlán FC 13.5 · gap 46.9 · model win 76.5% (floor 72%) · 1X2 price 1.18 · EV -12.0% vs 1X2 model</span></div>
+ <div class="fx-foot"><span class="dim">🎯 market: <b>Home or GG</b> (97.0%) — Protective vehicle for a clear favourite vs a beatable side: both teams are live to score (BTTS 63%) and 'Home or GG' wins on either a home win or a conceded goal — it survives the narrow defeats (1-2, 2-3) that sink a straight win or level handicap.</span></div>
+ <div class="fx-foot"><span class="dim">🔎 analysed · no verified edge (negative EV -12.0%) — not a bet · strength over rank · biggest in league</span></div>
+ <div class="fx-foot"><span class="rung picks">Picks</span><span class="rung watchlist">Watchlist</span><span class="rung power">Power</span></div>
+</div><div class="fx na">
+<div class="fx-hd"><span class="flg">Allsvenskan</span>
+<span class="fdt">Sun 01 Nov, 13:00 UTC</span></div>
+<div class="fx-b"><div class="vc">
+<div class="pcell strong"><span class="pos">#3</span><span class="tname" data-team="Djurgården" data-league="swe-allsvenskan" data-role="strong">Djurgården</span><span class="b br">Reliable</span></div>
+<span class="vs">vs</span>
+<div class="pcell"><span class="pos">#14</span><span class="tname" data-team="Degerfors IF" data-league="swe-allsvenskan">Degerfors IF</span><span class="b bu">Unranked</span></div>
+</div></div>
+ <div class="fx-foot"><span class="dim">⚡ Djurgården 61.3 vs Degerfors IF 18.5 · gap 42.8 · model win 73.4% (floor 72%) · 1X2 price 1.29 · EV -7.8% vs 1X2 model</span></div>
+ <div class="fx-foot"><span class="dim">🎯 market: <b>Home or GG</b> (92.2%) — Protective vehicle for a clear favourite vs a beatable side: both teams are live to score (BTTS 46%) and 'Home or GG' wins on either a home win or a conceded goal — it survives the narrow defeats (1-2, 2-3) that sink a straight win or level handicap.</span></div>
+ <div class="fx-foot"><span class="dim">🔎 analysed · no verified edge (negative EV -7.8%) — not a bet · strength over rank · biggest in league</span></div>
  <div class="fx-foot"><span class="rung picks">Picks</span><span class="rung watchlist">Watchlist</span><span class="rung power">Power</span></div>
 </div></div>
 <h2 class="sec">Value band <span class="muted">· 60–66% favourites, system-routed self-check</span></h2><p class='sub'>The measured population sitting just <b>below</b> the pick floor — a strong side whose calibrated win probability is 60–66%. These are <b>neither bets nor card picks</b>: they are settled forward as a self-check, exactly the way the retired Watchlist tier was measured before it was ever trusted. Each row records the <b>same routed vehicle the card and Power bets use</b> (<code>decide_market_final</code> — <b>&lt;side&gt; or GG</b> / Double Chance / 1UP / Asian Handicap), chosen per fixture with its calibrated probability, so the question is whether the system's own recommendation rescues a below-floor favourite. No card gate, floor, probability, EV or pick count is touched.</p>
 <div class="grid"><div class="fx val">
-<div class="fx-hd"><span class="flg">Belgian Pro League</span>
-<span class="fdt">Sun 25 Oct, 15:00 UTC</span></div>
-<div class="fx-b"><div class="vc">
-<div class="pcell strong"><span class="pos">#2</span><span class="tname" data-team="Club Brugge" data-league="bel-pro-league" data-role="strong">Club Brugge</span><span class="b be">Elite</span></div>
-<span class="vs">vs</span>
-<div class="pcell"><span class="pos">#12</span><span class="tname" data-team="Sint-Truidense" data-league="bel-pro-league">Sint-Truidense</span><span class="b bu">Unranked</span></div>
-</div></div>
- <div class="fx-foot"><span class="dim">⚡ Club Brugge 90.8 vs Sint-Truidense 32.8 · gap 58.0 · model win 65.3% (floor 72%) · 1X2 price 1.34 · EV -12.4% vs 1X2 model</span></div>
- <div class="fx-foot"><span class="dim">🎯 market: <b>Home or GG</b> (95.5%) — Open fixture (BTTS 69%) — GG sits within a whisker of the safest market (94%) and pays distinctly more, so treatment is 'Home wins OR both teams score'.</span></div>
- <div class="fx-foot"><span class="dim">🟡 value band · below the win-prob floor — a self-check, not a card pick (measured forward; no stake) <span class="vchip">Value band</span></span></div>
-</div><div class="fx val">
-<div class="fx-hd"><span class="flg">Costa Rican Primera División</span>
-<span class="fdt">Mon 26 Oct, 00:00 UTC</span></div>
-<div class="fx-b"><div class="vc">
-<div class="pcell strong"><span class="pos">#4</span><span class="tname" data-team="Alajuelense" data-league="crc-primera" data-role="strong">Alajuelense</span><span class="b bf">Form-dependent</span></div>
-<span class="vs">vs</span>
-<div class="pcell"><span class="pos">#10</span><span class="tname" data-team="Pérez Zeledón" data-league="crc-primera">Pérez Zeledón</span><span class="b bu">Unranked</span></div>
-</div></div>
- <div class="fx-foot"><span class="dim">⚡ Alajuelense 60.0 vs Pérez Zeledón 19.3 · gap 40.7 · model win 64.8% (floor 72%) · 1X2 price 1.26 · EV -18.4% vs 1X2 model</span></div>
- <div class="fx-foot"><span class="dim">🎯 market: <b>Home or GG</b> (93.5%) — Open fixture (BTTS 62%) — GG sits within a whisker of the safest market (92%) and pays distinctly more, so treatment is 'Home wins OR both teams score'.</span></div>
- <div class="fx-foot"><span class="dim">🟡 value band · below the win-prob floor — a self-check, not a card pick (measured forward; no stake) <span class="vchip">Value band</span></span></div>
-</div><div class="fx val">
 <div class="fx-hd"><span class="flg">J1 League</span>
-<span class="fdt">Sun 25 Oct, 07:00 UTC</span></div>
+<span class="fdt">Sun 01 Nov, 06:00 UTC</span></div>
 <div class="fx-b"><div class="vc">
-<div class="pcell strong"><span class="pos">#4</span><span class="tname" data-team="FC Tokyo" data-league="jpn-j1-league" data-role="strong">FC Tokyo</span><span class="b be">Elite</span></div>
+<div class="pcell strong"><span class="pos">#4</span><span class="tname" data-team="Machida Zelvia" data-league="jpn-j1-league" data-role="strong">Machida Zelvia</span><span class="b br">Reliable</span></div>
 <span class="vs">vs</span>
-<div class="pcell"><span class="pos">#16</span><span class="tname" data-team="Mito Hollyhock" data-league="jpn-j1-league">Mito Hollyhock</span><span class="b bu">Unranked</span></div>
+<div class="pcell"><span class="pos">#16</span><span class="tname" data-team="Gamba Osaka" data-league="jpn-j1-league">Gamba Osaka</span><span class="b bu">Unranked</span></div>
 </div></div>
- <div class="fx-foot"><span class="dim">⚡ FC Tokyo 79.3 vs Mito Hollyhock 20.8 · gap 58.6 · model win 63.7% (floor 74%) · 1X2 price 1.31 · EV -16.6% vs 1X2 model</span></div>
- <div class="fx-foot"><span class="dim">🎯 market: <b>Double Chance · 1UP</b> (91.8%) — Home lead at some point or draw (90%). Draw-safe with an early cash-out on any lead — the best blend for this fixture.</span></div>
+ <div class="fx-foot"><span class="dim">⚡ Machida Zelvia 72.5 vs Gamba Osaka 30.1 · gap 42.4 · model win 65.4% (floor 74%) · 1X2 price 1.74 · EV +13.8% vs 1X2 model</span></div>
+ <div class="fx-foot"><span class="dim">🎯 market: <b>Home or GG</b> (92.5%) — Open fixture (BTTS 57%) — GG sits within a whisker of the safest market (91%) and pays distinctly more, so treatment is 'Home wins OR both teams score'.</span></div>
  <div class="fx-foot"><span class="dim">🟡 value band · below the win-prob floor — a self-check, not a card pick (measured forward; no stake) <span class="vchip">Value band</span></span></div>
 </div><div class="fx val">
-<div class="fx-hd"><span class="flg">Ligue 1</span>
-<span class="fdt">Sun 25 Oct, 16:15 UTC</span></div>
+<div class="fx-hd"><span class="flg">Austrian Bundesliga</span>
+<span class="fdt">Sun 01 Nov, 16:00 UTC</span></div>
 <div class="fx-b"><div class="vc">
-<div class="pcell strong"><span class="pos">#12</span><span class="tname" data-team="Toulouse" data-league="fra-ligue-1" data-role="strong">Toulouse</span><span class="b bu">Unranked</span></div>
+<div class="pcell strong"><span class="pos">#1</span><span class="tname" data-team="Rapid Vienna" data-league="aut-bundesliga" data-role="strong">Rapid Vienna</span><span class="b be">Elite</span></div>
 <span class="vs">vs</span>
-<div class="pcell"><span class="pos">#17</span><span class="tname" data-team="Troyes" data-league="fra-ligue-1">Troyes</span><span class="b bu">Unranked</span></div>
+<div class="pcell"><span class="pos">#11</span><span class="tname" data-team="Austria Vienna" data-league="aut-bundesliga">Austria Vienna</span><span class="b bu">Unranked</span></div>
 </div></div>
- <div class="fx-foot"><span class="dim">⚡ Toulouse 48.3 vs Troyes 12.4 · gap 35.9 · model win 62.0% (floor 72%) · 1X2 price 1.61 · EV -0.2% vs 1X2 model</span></div>
- <div class="fx-foot"><span class="dim">🎯 market: <b>Home or GG</b> (93.1%) — Open fixture (BTTS 63%) — GG sits within a whisker of the safest market (91%) and pays distinctly more, so treatment is 'Home wins OR both teams score'.</span></div>
+ <div class="fx-foot"><span class="dim">⚡ Rapid Vienna 88.4 vs Austria Vienna 24.2 · gap 64.2 · model win 63.4% (floor 72%) · 1X2 price 1.69 · EV +7.2% vs 1X2 model</span></div>
+ <div class="fx-foot"><span class="dim">🎯 market: <b>Away or GG</b> (94.8%) — Open fixture (BTTS 68%) — GG sits within a whisker of the safest market (93%) and pays distinctly more, so treatment is 'Away wins OR both teams score'.</span></div>
  <div class="fx-foot"><span class="dim">🟡 value band · below the win-prob floor — a self-check, not a card pick (measured forward; no stake) <span class="vchip">Value band</span></span></div>
 </div><div class="fx val">
-<div class="fx-hd"><span class="flg">Greek Super League</span>
-<span class="fdt">Sun 25 Oct, 16:00 UTC</span></div>
+<div class="fx-hd"><span class="flg">Major League Soccer</span>
+<span class="fdt">Sun 01 Nov, 21:30 UTC</span></div>
 <div class="fx-b"><div class="vc">
-<div class="pcell strong"><span class="pos">#1</span><span class="tname" data-team="Panathinaikos" data-league="gre-super-league" data-role="strong">Panathinaikos</span><span class="b be">Elite</span></div>
+<div class="pcell strong"><span class="pos">#1</span><span class="tname" data-team="Nashville SC" data-league="usa-mls" data-role="strong">Nashville SC</span><span class="b be">Elite</span></div>
 <span class="vs">vs</span>
-<div class="pcell"><span class="pos">#14</span><span class="tname" data-team="Volos NFC" data-league="gre-super-league">Volos NFC</span><span class="b bu">Unranked</span></div>
+<div class="pcell"><span class="pos">#23</span><span class="tname" data-team="Red Bull New York" data-league="usa-mls">Red Bull New York</span><span class="b bu">Unranked</span></div>
 </div></div>
- <div class="fx-foot"><span class="dim">⚡ Panathinaikos 86.0 vs Volos NFC 16.8 · gap 69.2 · model win 61.7% (floor 72%) · 1X2 price 1.35 · EV -16.7% vs 1X2 model</span></div>
- <div class="fx-foot"><span class="dim">🎯 market: <b>Away or GG</b> (90.6%) — Open fixture (BTTS 56%) — GG sits within a whisker of the safest market (89%) and pays distinctly more, so treatment is 'Away wins OR both teams score'.</span></div>
+ <div class="fx-foot"><span class="dim">⚡ Nashville SC 91.9 vs Red Bull New York 35.6 · gap 56.3 · model win 63.4% (floor 72%) · 1X2 price 1.48 · EV -6.2% vs 1X2 model</span></div>
+ <div class="fx-foot"><span class="dim">🎯 market: <b>Home or GG</b> (89.6%) — Open fixture (BTTS 51%) — GG sits within a whisker of the safest market (89%) and pays distinctly more, so treatment is 'Home wins OR both teams score'.</span></div>
  <div class="fx-foot"><span class="dim">🟡 value band · below the win-prob floor — a self-check, not a card pick (measured forward; no stake) <span class="vchip">Value band</span></span></div>
 </div><div class="fx val">
-<div class="fx-hd"><span class="flg">Scottish Premiership</span>
-<span class="fdt">Sun 25 Oct, 12:00 UTC</span></div>
+<div class="fx-hd"><span class="flg">Primeira Liga</span>
+<span class="fdt">Sun 01 Nov, 18:00 UTC</span></div>
 <div class="fx-b"><div class="vc">
-<div class="pcell strong"><span class="pos">#1</span><span class="tname" data-team="Celtic" data-league="sco-premiership" data-role="strong">Celtic</span><span class="b be">Elite</span></div>
+<div class="pcell strong"><span class="pos">#6</span><span class="tname" data-team="Académico de Viseu" data-league="por-primeira-liga" data-role="strong">Académico de Viseu</span><span class="b br">Reliable</span></div>
 <span class="vs">vs</span>
-<div class="pcell"><span class="pos">#12</span><span class="tname" data-team="Hibernian" data-league="sco-premiership">Hibernian</span><span class="b bu">Unranked</span></div>
+<div class="pcell"><span class="pos">#16</span><span class="tname" data-team="Rio Ave" data-league="por-primeira-liga">Rio Ave</span><span class="b bu">Unranked</span></div>
 </div></div>
- <div class="fx-foot"><span class="dim">⚡ Celtic 92.6 vs Hibernian 14.4 · gap 78.1 · model win 61.2% (floor 72%) · 1X2 price 1.57 · EV -3.9% vs 1X2 model</span></div>
- <div class="fx-foot"><span class="dim">🎯 market: <b>Away or GG</b> (90.7%) — Open fixture (BTTS 57%) — GG sits within a whisker of the safest market (89%) and pays distinctly more, so treatment is 'Away wins OR both teams score'.</span></div>
+ <div class="fx-foot"><span class="dim">⚡ Académico de Viseu 68.3 vs Rio Ave 23.4 · gap 44.9 · model win 62.5% (floor 72%) · 1X2 price 1.87 · EV +17.0% vs 1X2 model</span></div>
+ <div class="fx-foot"><span class="dim">🎯 market: <b>Home or GG</b> (92.9%) — Open fixture (BTTS 61%) — GG sits within a whisker of the safest market (91%) and pays distinctly more, so treatment is 'Home wins OR both teams score'.</span></div>
  <div class="fx-foot"><span class="dim">🟡 value band · below the win-prob floor — a self-check, not a card pick (measured forward; no stake) <span class="vchip">Value band</span></span></div>
 </div><div class="fx val">
 <div class="fx-hd"><span class="flg">Liga Profesional Boliviana</span>
-<span class="fdt">Sun 25 Oct, 19:00 UTC</span></div>
+<span class="fdt">Sun 01 Nov, 21:15 UTC</span></div>
 <div class="fx-b"><div class="vc">
-<div class="pcell strong"><span class="pos">#2</span><span class="tname" data-team="Always Ready" data-league="bol-liga-1" data-role="strong">Always Ready</span><span class="b be">Elite</span></div>
+<div class="pcell strong"><span class="pos">#1</span><span class="tname" data-team="Bolívar" data-league="bol-liga-1" data-role="strong">Bolívar</span><span class="b be">Elite</span></div>
 <span class="vs">vs</span>
-<div class="pcell"><span class="pos">#10</span><span class="tname" data-team="Real Oruro" data-league="bol-liga-1">Real Oruro</span><span class="b bu">Unranked</span></div>
+<div class="pcell"><span class="pos">#9</span><span class="tname" data-team="Guabirá" data-league="bol-liga-1">Guabirá</span><span class="b bu">Unranked</span></div>
 </div></div>
- <div class="fx-foot"><span class="dim">⚡ Always Ready 84.5 vs Real Oruro 47.8 · gap 36.8 · model win 60.7% (floor 72%) · 1X2 price 1.11 · EV -32.7% vs 1X2 model</span></div>
- <div class="fx-foot"><span class="dim">🎯 market: <b>Home or GG</b> (90.1%) — Open fixture (BTTS 56%) — GG sits within a whisker of the safest market (88%) and pays distinctly more, so treatment is 'Home wins OR both teams score'.</span></div>
+ <div class="fx-foot"><span class="dim">⚡ Bolívar 84.3 vs Guabirá 48.7 · gap 35.6 · model win 62.2% (floor 72%) · 1X2 price 1.74 · EV +8.1% vs 1X2 model</span></div>
+ <div class="fx-foot"><span class="dim">🎯 market: <b>Away or GG</b> (92.7%) — Open fixture (BTTS 62%) — GG sits within a whisker of the safest market (91%) and pays distinctly more, so treatment is 'Away wins OR both teams score'.</span></div>
  <div class="fx-foot"><span class="dim">🟡 value band · below the win-prob floor — a self-check, not a card pick (measured forward; no stake) <span class="vchip">Value band</span></span></div>
 </div><div class="fx val">
-<div class="fx-hd"><span class="flg">Eliteserien</span>
-<span class="fdt">Sun 25 Oct, 13:30 UTC</span></div>
+<div class="fx-hd"><span class="flg">Serie B</span>
+<span class="fdt">Sun 01 Nov, 14:00 UTC</span></div>
 <div class="fx-b"><div class="vc">
-<div class="pcell strong"><span class="pos">#2</span><span class="tname" data-team="Viking FK" data-league="nor-eliteserien" data-role="strong">Viking FK</span><span class="b be">Elite</span></div>
+<div class="pcell strong"><span class="pos">#3</span><span class="tname" data-team="Ascoli" data-league="ita-serie-b" data-role="strong">Ascoli</span><span class="b br">Reliable</span></div>
 <span class="vs">vs</span>
-<div class="pcell"><span class="pos">#4</span><span class="tname" data-team="Tromso" data-league="nor-eliteserien">Tromso</span><span class="b bf">Form-dependent</span></div>
+<div class="pcell"><span class="pos">#15</span><span class="tname" data-team="Arezzo" data-league="ita-serie-b">Arezzo</span><span class="b bu">Unranked</span></div>
 </div></div>
- <div class="fx-foot"><span class="dim">⚡ Viking FK 96.4 vs Tromso 50.7 · gap 45.7 · model win 60.2% (floor 72%) · 1X2 price 1.53 · EV -7.9% vs 1X2 model</span></div>
- <div class="fx-foot"><span class="dim">🎯 market: <b>Home or GG</b> (93.9%) — Open fixture (BTTS 69%) — GG sits within a whisker of the safest market (92%) and pays distinctly more, so treatment is 'Home wins OR both teams score'.</span></div>
+ <div class="fx-foot"><span class="dim">⚡ Ascoli 62.1 vs Arezzo 29.0 · gap 33.1 · model win 61.0% (floor 72%) · 1X2 price 2.15 · EV +31.1% vs 1X2 model</span></div>
+ <div class="fx-foot"><span class="dim">🎯 market: <b>Away or GG</b> (89.8%) — Open fixture (BTTS 54%) — GG sits within a whisker of the safest market (88%) and pays distinctly more, so treatment is 'Away wins OR both teams score'.</span></div>
+ <div class="fx-foot"><span class="dim">🟡 value band · below the win-prob floor — a self-check, not a card pick (measured forward; no stake) <span class="vchip">Value band</span></span></div>
+</div><div class="fx val">
+<div class="fx-hd"><span class="flg">La Liga</span>
+<span class="fdt">Sun 01 Nov, 15:15 UTC</span></div>
+<div class="fx-b"><div class="vc">
+<div class="pcell strong"><span class="pos">#3</span><span class="tname" data-team="Real Madrid" data-league="esp-la-liga" data-role="strong">Real Madrid</span><span class="b be">Elite</span></div>
+<span class="vs">vs</span>
+<div class="pcell"><span class="pos">#15</span><span class="tname" data-team="Racing Santander" data-league="esp-la-liga">Racing Santander</span><span class="b bu">Unranked</span></div>
+</div></div>
+ <div class="fx-foot"><span class="dim">⚡ Real Madrid 67.2 vs Racing Santander 38.1 · gap 29.1 · model win 60.9% (floor 72%) · 1X2 price 1.22 · EV -25.7% vs 1X2 model</span></div>
+ <div class="fx-foot"><span class="dim">🎯 market: <b>Away or GG</b> (94.8%) — Open fixture (BTTS 70%) — GG sits within a whisker of the safest market (93%) and pays distinctly more, so treatment is 'Away wins OR both teams score'.</span></div>
+ <div class="fx-foot"><span class="dim">🟡 value band · below the win-prob floor — a self-check, not a card pick (measured forward; no stake) <span class="vchip">Value band</span></span></div>
+</div><div class="fx val">
+<div class="fx-hd"><span class="flg">Serie B</span>
+<span class="fdt">Sun 01 Nov, 18:30 UTC</span></div>
+<div class="fx-b"><div class="vc">
+<div class="pcell strong"><span class="pos">#1</span><span class="tname" data-team="Palermo" data-league="ita-serie-b" data-role="strong">Palermo</span><span class="b be">Elite</span></div>
+<span class="vs">vs</span>
+<div class="pcell"><span class="pos">#16</span><span class="tname" data-team="Vicenza" data-league="ita-serie-b">Vicenza</span><span class="b bu">Unranked</span></div>
+</div></div>
+ <div class="fx-foot"><span class="dim">⚡ Palermo 95.2 vs Vicenza 35.8 · gap 59.4 · model win 60.7% (floor 72%) · 1X2 price 1.54 · EV -6.5% vs 1X2 model</span></div>
+ <div class="fx-foot"><span class="dim">🎯 market: <b>Home or GG</b> (94.4%) — Open fixture (BTTS 69%) — GG sits within a whisker of the safest market (92%) and pays distinctly more, so treatment is 'Home wins OR both teams score'.</span></div>
+ <div class="fx-foot"><span class="dim">🟡 value band · below the win-prob floor — a self-check, not a card pick (measured forward; no stake) <span class="vchip">Value band</span></span></div>
+</div><div class="fx val">
+<div class="fx-hd"><span class="flg">Allsvenskan</span>
+<span class="fdt">Sun 01 Nov, 15:30 UTC</span></div>
+<div class="fx-b"><div class="vc">
+<div class="pcell strong"><span class="pos">#5</span><span class="tname" data-team="IF Elfsborg" data-league="swe-allsvenskan" data-role="strong">IF Elfsborg</span><span class="b bf">Form-dependent</span></div>
+<span class="vs">vs</span>
+<div class="pcell"><span class="pos">#15</span><span class="tname" data-team="Örgryte IS" data-league="swe-allsvenskan">Örgryte IS</span><span class="b bu">Unranked</span></div>
+</div></div>
+ <div class="fx-foot"><span class="dim">⚡ IF Elfsborg 68.5 vs Örgryte IS 19.5 · gap 49.0 · model win 60.1% (floor 72%) · 1X2 price 1.36 · EV -18.3% vs 1X2 model</span></div>
+ <div class="fx-foot"><span class="dim">🎯 market: <b>Home or GG</b> (92.0%) — Open fixture (BTTS 63%) — GG sits within a whisker of the safest market (90%) and pays distinctly more, so treatment is 'Home wins OR both teams score'.</span></div>
  <div class="fx-foot"><span class="dim">🟡 value band · below the win-prob floor — a self-check, not a card pick (measured forward; no stake) <span class="vchip">Value band</span></span></div>
 </div></div>
-<h2 class="sec">How the board has done <span class="muted">(checks its own eye)</span></h2><p class='sub'>Every published row is settled against the real result at flat £1. A match clearing several rungs is one row, settled once — the totals are deduped by match, so a fixture is never counted twice. The value band below the floor is settled the same way, for measurement only.</p><div class='agg'><div class='box'><h4>By rung</h4><ul><li><span>Picks</span><b>1 settled · 0W 1L · hit 0% · ROI -100% · CLV -0.2pp</b></li><li><span>Watchlist</span><b>1 settled · 0W 1L · hit 0% · ROI -100% · CLV -0.2pp</b></li><li><span>Power</span><b>2 settled · 1W 1L · hit 50% · ROI -8% · CLV -2.8pp</b></li><li><span>All (deduped)</span><b>29 settled · 24W 5L · hit 83% · ROI +28% · CLV -0.6pp</b></li></ul></div><div class='box'><h4>Accuracy by tier</h4><ul><li><span>Core (floor-clearing)</span><b>2 settled · 1W 1L · hit 50% · ROI -8% · CLV -2.8pp</b></li><li><span>Value band (60–66% · self-check)</span><b>27 settled · 23W 4L · hit 85% · ROI +31% · CLV -0.4pp</b></li></ul></div></div>
+<h2 class="sec">How the board has done <span class="muted">(checks its own eye)</span></h2><p class='sub'>Every published row is settled against the real result at flat £1. A match clearing several rungs is one row, settled once — the totals are deduped by match, so a fixture is never counted twice. The value band below the floor is settled the same way, for measurement only.</p><div class='agg'><div class='box'><h4>By rung</h4><ul><li><span>Picks</span><b>1 settled · 0W 1L · hit 0% · ROI -100% · CLV -0.2pp</b></li><li><span>Watchlist</span><b>1 settled · 0W 1L · hit 0% · ROI -100% · CLV -0.2pp</b></li><li><span>Power</span><b>2 settled · 1W 1L · hit 50% · ROI -8% · CLV -2.8pp</b></li><li><span>All (deduped)</span><b>33 settled · 28W 5L · hit 85% · ROI +32% · CLV -0.7pp</b></li></ul></div><div class='box'><h4>Accuracy by tier</h4><ul><li><span>Core (floor-clearing)</span><b>2 settled · 1W 1L · hit 50% · ROI -8% · CLV -2.8pp</b></li><li><span>Value band (60–66% · self-check)</span><b>31 settled · 27W 4L · hit 87% · ROI +34% · CLV -0.6pp</b></li></ul></div></div>
 
 <footer class="foot"><div class="d-links">Every probability here is priced with a data-blindness tax: we have no live injury feed for soccer (−2pp on the favourite) and no prior meeting between most pairs (−1pp). These are league-wide conditions so they are stated once here rather than repeated under every match; they still reduce every published win probability.</div><div><a href="guide.html">How the pages fit together</a> · Global Sports Intelligence System · <a href="api/tables.json" target="_blank" rel="noopener">API data</a></div></footer>
 </div>

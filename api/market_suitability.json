@@ -1,0 +1,383 @@
+{
+  "generator": "market_suitability",
+  "candidates": 7897,
+  "dc_pool": 7851,
+  "published_dc_picks": 227,
+  "curve": [
+    {
+      "n": 5,
+      "1X2 to win": 1.0,
+      "1X2 to win_push": 0.0,
+      "AH (0)": 1.0,
+      "AH (0)_push": 0.0,
+      "Double Chance": 1.0,
+      "Double Chance_push": 0.0,
+      "or GG": 1.0,
+      "or GG_push": 0.0,
+      "GG": 0.4,
+      "GG_push": 0.0,
+      "band": ">=90%",
+      "orGG_minus_1x2_pp": 0.0
+    },
+    {
+      "n": 14,
+      "1X2 to win": 1.0,
+      "1X2 to win_push": 0.0,
+      "AH (0)": 1.0,
+      "AH (0)_push": 0.0,
+      "Double Chance": 1.0,
+      "Double Chance_push": 0.0,
+      "or GG": 1.0,
+      "or GG_push": 0.0,
+      "GG": 0.6429,
+      "GG_push": 0.0,
+      "band": "85-90%",
+      "orGG_minus_1x2_pp": 0.0
+    },
+    {
+      "n": 58,
+      "1X2 to win": 0.8621,
+      "1X2 to win_push": 0.1207,
+      "AH (0)": 0.8621,
+      "AH (0)_push": 0.1207,
+      "Double Chance": 0.9828,
+      "Double Chance_push": 0.0,
+      "or GG": 1.0,
+      "or GG_push": 0.0,
+      "GG": 0.569,
+      "GG_push": 0.0,
+      "band": "80-85%",
+      "orGG_minus_1x2_pp": 13.8
+    },
+    {
+      "n": 111,
+      "1X2 to win": 0.7568,
+      "1X2 to win_push": 0.1712,
+      "AH (0)": 0.7568,
+      "AH (0)_push": 0.1712,
+      "Double Chance": 0.9279,
+      "Double Chance_push": 0.0,
+      "or GG": 0.9459,
+      "or GG_push": 0.0,
+      "GG": 0.5315,
+      "GG_push": 0.0,
+      "band": "75-80%",
+      "orGG_minus_1x2_pp": 18.9
+    },
+    {
+      "n": 130,
+      "1X2 to win": 0.8385,
+      "1X2 to win_push": 0.1077,
+      "AH (0)": 0.8385,
+      "AH (0)_push": 0.1077,
+      "Double Chance": 0.9462,
+      "Double Chance_push": 0.0,
+      "or GG": 0.9462,
+      "or GG_push": 0.0,
+      "GG": 0.5462,
+      "GG_push": 0.0,
+      "band": "70-75%",
+      "orGG_minus_1x2_pp": 10.8
+    },
+    {
+      "n": 285,
+      "1X2 to win": 0.7579,
+      "1X2 to win_push": 0.1579,
+      "AH (0)": 0.7579,
+      "AH (0)_push": 0.1579,
+      "Double Chance": 0.9158,
+      "Double Chance_push": 0.0,
+      "or GG": 0.9298,
+      "or GG_push": 0.0,
+      "GG": 0.4807,
+      "GG_push": 0.0,
+      "band": "66-70%",
+      "orGG_minus_1x2_pp": 17.2
+    },
+    {
+      "n": 1777,
+      "1X2 to win": 0.6854,
+      "1X2 to win_push": 0.1835,
+      "AH (0)": 0.6854,
+      "AH (0)_push": 0.1835,
+      "Double Chance": 0.8689,
+      "Double Chance_push": 0.0,
+      "or GG": 0.9021,
+      "or GG_push": 0.0,
+      "GG": 0.5228,
+      "GG_push": 0.0,
+      "band": "55-66%",
+      "orGG_minus_1x2_pp": 21.7
+    }
+  ],
+  "overall": {
+    "n": 227,
+    "1X2 to win": 0.8326,
+    "1X2 to win_push": 0.1189,
+    "AH (0)": 0.8326,
+    "AH (0)_push": 0.1189,
+    "Double Chance": 0.9515,
+    "Double Chance_push": 0.0,
+    "or GG": 0.9692,
+    "or GG_push": 0.0,
+    "GG": 0.5463,
+    "GG_push": 0.0
+  },
+  "straight_lost_but_protected": 6,
+  "unprotected_upset": 5,
+  "bands": [
+    {
+      "n": 77,
+      "1X2 to win": 0.8961,
+      "1X2 to win_push": 0.0909,
+      "AH (0)": 0.8961,
+      "AH (0)_push": 0.0909,
+      "Double Chance": 0.987,
+      "Double Chance_push": 0.0,
+      "or GG": 1.0,
+      "or GG_push": 0.0,
+      "GG": 0.5714,
+      "GG_push": 0.0,
+      "band": "lock >=80%",
+      "orGG_ci": [
+        0.9623213657990313,
+        0.9993426098373575
+      ],
+      "1x2_ci": [
+        0.8225436933587529,
+        0.938468605714621
+      ],
+      "straight_lost_but_protected": 1,
+      "unprotected_upset": 0
+    },
+    {
+      "n": 150,
+      "1X2 to win": 0.8,
+      "1X2 to win_push": 0.1333,
+      "AH (0)": 0.8,
+      "AH (0)_push": 0.1333,
+      "Double Chance": 0.9333,
+      "Double Chance_push": 0.0,
+      "or GG": 0.9533,
+      "or GG_push": 0.0,
+      "GG": 0.5333,
+      "GG_push": 0.0,
+      "band": "70-80%",
+      "orGG_ci": [
+        0.9146935070908182,
+        0.9733677365783024
+      ],
+      "1x2_ci": [
+        0.7403166084231856,
+        0.8473473099648079
+      ],
+      "straight_lost_but_protected": 5,
+      "unprotected_upset": 5
+    },
+    {
+      "n": 0
+    }
+  ],
+  "leagues": [
+    {
+      "code": "bel-pro-league",
+      "n": 4,
+      "win_1x2": 0.5,
+      "win_orGG": 1.0,
+      "orGG_lift_pp": 50.0,
+      "straight_lost_but_protected": 0
+    },
+    {
+      "code": "uae-pro-league",
+      "n": 5,
+      "win_1x2": 0.6,
+      "win_orGG": 1.0,
+      "orGG_lift_pp": 40.0,
+      "straight_lost_but_protected": 0
+    },
+    {
+      "code": "ned-eredivisie",
+      "n": 7,
+      "win_1x2": 0.714,
+      "win_orGG": 1.0,
+      "orGG_lift_pp": 28.6,
+      "straight_lost_but_protected": 0
+    },
+    {
+      "code": "fra-ligue-1",
+      "n": 4,
+      "win_1x2": 0.75,
+      "win_orGG": 1.0,
+      "orGG_lift_pp": 25.0,
+      "straight_lost_but_protected": 0
+    },
+    {
+      "code": "bul-first-league",
+      "n": 4,
+      "win_1x2": 0.5,
+      "win_orGG": 0.75,
+      "orGG_lift_pp": 25.0,
+      "straight_lost_but_protected": 0
+    },
+    {
+      "code": "rus-first-league",
+      "n": 4,
+      "win_1x2": 0.75,
+      "win_orGG": 1.0,
+      "orGG_lift_pp": 25.0,
+      "straight_lost_but_protected": 0
+    },
+    {
+      "code": "fai-first-league",
+      "n": 4,
+      "win_1x2": 0.75,
+      "win_orGG": 1.0,
+      "orGG_lift_pp": 25.0,
+      "straight_lost_but_protected": 1
+    },
+    {
+      "code": "usa-usl-league-one",
+      "n": 10,
+      "win_1x2": 0.8,
+      "win_orGG": 1.0,
+      "orGG_lift_pp": 20.0,
+      "straight_lost_but_protected": 0
+    },
+    {
+      "code": "ger-bundesliga",
+      "n": 11,
+      "win_1x2": 0.636,
+      "win_orGG": 0.818,
+      "orGG_lift_pp": 18.2,
+      "straight_lost_but_protected": 1
+    },
+    {
+      "code": "nzl-national-league",
+      "n": 12,
+      "win_1x2": 0.833,
+      "win_orGG": 1.0,
+      "orGG_lift_pp": 16.7,
+      "straight_lost_but_protected": 0
+    },
+    {
+      "code": "por-primeira-liga",
+      "n": 9,
+      "win_1x2": 0.889,
+      "win_orGG": 1.0,
+      "orGG_lift_pp": 11.1,
+      "straight_lost_but_protected": 0
+    },
+    {
+      "code": "lva-virsliga",
+      "n": 12,
+      "win_1x2": 0.917,
+      "win_orGG": 1.0,
+      "orGG_lift_pp": 8.3,
+      "straight_lost_but_protected": 0
+    },
+    {
+      "code": "wal-cymru-premier",
+      "n": 13,
+      "win_1x2": 0.846,
+      "win_orGG": 0.923,
+      "orGG_lift_pp": 7.7,
+      "straight_lost_but_protected": 1
+    },
+    {
+      "code": "eng-premier-league",
+      "n": 11,
+      "win_1x2": 0.909,
+      "win_orGG": 0.909,
+      "orGG_lift_pp": 0.0,
+      "straight_lost_but_protected": 0
+    },
+    {
+      "code": "esp-la-liga",
+      "n": 5,
+      "win_1x2": 1.0,
+      "win_orGG": 1.0,
+      "orGG_lift_pp": 0.0,
+      "straight_lost_but_protected": 0
+    },
+    {
+      "code": "chn-csl",
+      "n": 5,
+      "win_1x2": 1.0,
+      "win_orGG": 1.0,
+      "orGG_lift_pp": 0.0,
+      "straight_lost_but_protected": 0
+    },
+    {
+      "code": "per-liga-1",
+      "n": 4,
+      "win_1x2": 1.0,
+      "win_orGG": 1.0,
+      "orGG_lift_pp": 0.0,
+      "straight_lost_but_protected": 0
+    },
+    {
+      "code": "tha-league-1",
+      "n": 4,
+      "win_1x2": 1.0,
+      "win_orGG": 1.0,
+      "orGG_lift_pp": 0.0,
+      "straight_lost_but_protected": 0
+    },
+    {
+      "code": "ecu-liga-pro",
+      "n": 4,
+      "win_1x2": 1.0,
+      "win_orGG": 1.0,
+      "orGG_lift_pp": 0.0,
+      "straight_lost_but_protected": 0
+    },
+    {
+      "code": "cyp-first-division",
+      "n": 4,
+      "win_1x2": 1.0,
+      "win_orGG": 1.0,
+      "orGG_lift_pp": 0.0,
+      "straight_lost_but_protected": 0
+    },
+    {
+      "code": "mys-super-league",
+      "n": 9,
+      "win_1x2": 1.0,
+      "win_orGG": 1.0,
+      "orGG_lift_pp": 0.0,
+      "straight_lost_but_protected": 0
+    },
+    {
+      "code": "sgp-premier-league",
+      "n": 13,
+      "win_1x2": 0.923,
+      "win_orGG": 0.923,
+      "orGG_lift_pp": 0.0,
+      "straight_lost_but_protected": 0
+    },
+    {
+      "code": "eng-national-league",
+      "n": 5,
+      "win_1x2": 1.0,
+      "win_orGG": 1.0,
+      "orGG_lift_pp": 0.0,
+      "straight_lost_but_protected": 0
+    },
+    {
+      "code": "kos-superleague",
+      "n": 4,
+      "win_1x2": 1.0,
+      "win_orGG": 1.0,
+      "orGG_lift_pp": 0.0,
+      "straight_lost_but_protected": 0
+    },
+    {
+      "code": "sco-league-one",
+      "n": 6,
+      "win_1x2": 1.0,
+      "win_orGG": 1.0,
+      "orGG_lift_pp": 0.0,
+      "straight_lost_but_protected": 0
+    }
+  ]
+}
