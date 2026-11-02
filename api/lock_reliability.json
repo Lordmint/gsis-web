@@ -1,35 +1,35 @@
 {
   "generator": "lock_reliability",
-  "candidates": 7897,
-  "published_locks_dc_route": 227,
+  "candidates": 7961,
+  "published_locks_dc_route": 232,
   "bands": [
     {
       "band": "lock >=80%",
-      "n": 77,
-      "model_mean": 0.834,
-      "win_rate": 0.8961,
+      "n": 53,
+      "model_mean": 0.8306,
+      "win_rate": 0.8679,
       "win_ci": [
-        0.8225436933587529,
-        0.938468605714621
+        0.7702648144138915,
+        0.9240902512733282
       ],
-      "draw_rate": 0.0909,
-      "upset_rate": 0.013,
-      "non_win_rate": 0.1039,
-      "calibration_gap_pp": 6.2
+      "draw_rate": 0.1132,
+      "upset_rate": 0.0189,
+      "non_win_rate": 0.1321,
+      "calibration_gap_pp": 3.7
     },
     {
       "band": "70-80%",
-      "n": 150,
-      "model_mean": 0.7641,
-      "win_rate": 0.8,
+      "n": 179,
+      "model_mean": 0.7545,
+      "win_rate": 0.8156,
       "win_ci": [
-        0.7403166084231856,
-        0.8473473099648079
+        0.7626284258512779,
+        0.8577505358645117
       ],
-      "draw_rate": 0.1333,
-      "upset_rate": 0.0667,
-      "non_win_rate": 0.2,
-      "calibration_gap_pp": 3.6
+      "draw_rate": 0.1285,
+      "upset_rate": 0.0559,
+      "non_win_rate": 0.1844,
+      "calibration_gap_pp": 6.1
     },
     {
       "band": "66-70% (cut by the 0.70 floor)",
@@ -41,17 +41,17 @@
     }
   ],
   "autopsy": {
-    "published_picks": 227,
-    "false_locks": 38,
+    "published_picks": 232,
+    "false_locks": 40,
     "upset_locks": 11,
     "false_locks_with_form_warning": 0,
-    "form_warning_fired_anywhere": 308,
+    "form_warning_fired_anywhere": 311,
     "note": "The form tripwire runs at ADMISSION, so a flagged candidate is shaved below the gate and never becomes a pick; that is why published false locks carry no form warning. blind_adj>0 is a constant (no injury feed) and cannot discriminate."
   },
-  "overall_upset_rate": 0.0485,
+  "overall_upset_rate": 0.0474,
   "overall_upset_ci": [
-    0.030646378010385424,
-    0.07859461211985691
+    0.0299827954241475,
+    0.07693456936003767
   ],
   "leagues": [
     {
@@ -287,14 +287,14 @@
     },
     {
       "code": "lva-virsliga",
-      "n": 12,
-      "false_lock_rate": 0.083,
+      "n": 14,
+      "false_lock_rate": 0.143,
       "upset_rate": 0.0,
       "upset_ci": [
-        0.003937864227643768,
-        0.20581666518655056
+        0.0034137129465897434,
+        0.18103627252208437
       ],
-      "upset_posterior": 0.071
+      "upset_posterior": 0.062
     },
     {
       "code": "rus-first-league",

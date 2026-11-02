@@ -1,14 +1,14 @@
 {
   "generator": "drawfix_ab",
   "adjust_pp": 0.0,
-  "n_settled": 21,
+  "n_settled": 22,
   "n_relined": 0,
-  "n_same": 21,
+  "n_same": 22,
   "transitions": {},
-  "loss_rate_historical": 0.1429,
-  "resolvable_set": 21,
-  "loss_rate_corrected_resolvable": 0.1429,
-  "loss_rate_corrected_worst_case": 0.1429,
+  "loss_rate_historical": 0.1364,
+  "resolvable_set": 22,
+  "loss_rate_corrected_resolvable": 0.1364,
+  "loss_rate_corrected_worst_case": 0.1364,
   "historical_losses": 3,
   "corrected_losses_resolvable": 3,
   "corrected_losses_worst_case": 3,
@@ -55,6 +55,12 @@
     },
     {
       "week": "2026-10-26",
+      "settled": 1,
+      "relined": 0,
+      "same": 1
+    },
+    {
+      "week": "2026-11-02",
       "settled": 0,
       "relined": 0,
       "same": 0
@@ -374,6 +380,21 @@
       "counterfactual_verdict": "W",
       "score": "5-0",
       "odds": 1.57,
+      "reproduces": true
+    },
+    {
+      "week": "2026-10-26",
+      "strong": "Lazio",
+      "weak": "Cagliari",
+      "is_home": true,
+      "historical_market": "Home or GG",
+      "uncorrected_market": "Home or GG",
+      "corrected_market": "Home or GG",
+      "relined": false,
+      "historical_verdict": "W",
+      "counterfactual_verdict": "W",
+      "score": "2-1",
+      "odds": 1.39,
       "reproduces": true
     }
   ]
