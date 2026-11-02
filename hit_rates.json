@@ -220,16 +220,6 @@
     "confidence": 0.77
   },
   {
-    "league": "azr-premier-league",
-    "name": "Azerbaijan Premier League",
-    "total_slots": 114,
-    "evaluated_slots": 63,
-    "mature_slots": 3,
-    "total_matches": 91,
-    "avg_hit": 73.3,
-    "confidence": 0.03
-  },
-  {
     "league": "eng-premier-league",
     "name": "English Premier League",
     "total_slots": 134,
@@ -258,6 +248,16 @@
     "total_matches": 439,
     "avg_hit": 71.4,
     "confidence": 0.68
+  },
+  {
+    "league": "azr-premier-league",
+    "name": "Azerbaijan Premier League",
+    "total_slots": 114,
+    "evaluated_slots": 63,
+    "mature_slots": 2,
+    "total_matches": 90,
+    "avg_hit": 71.4,
+    "confidence": 0.02
   },
   {
     "league": "esp-primera-rfef",
@@ -490,6 +490,16 @@
     "confidence": 0.74
   },
   {
+    "league": "rus-premier-league",
+    "name": "Russian Premier League",
+    "total_slots": 122,
+    "evaluated_slots": 118,
+    "mature_slots": 93,
+    "total_matches": 396,
+    "avg_hit": 54.7,
+    "confidence": 0.76
+  },
+  {
     "league": "col-primera",
     "name": "Categoría Primera A",
     "total_slots": 126,
@@ -538,16 +548,6 @@
     "total_matches": 504,
     "avg_hit": 51.5,
     "confidence": 0.84
-  },
-  {
-    "league": "rus-premier-league",
-    "name": "Russian Premier League",
-    "total_slots": 122,
-    "evaluated_slots": 116,
-    "mature_slots": 85,
-    "total_matches": 378,
-    "avg_hit": 51.2,
-    "confidence": 0.7
   },
   {
     "league": "ita-serie-b",
@@ -1113,9 +1113,9 @@
     "league": "mkd-first-league",
     "name": "Macedonian First Football League",
     "total_slots": 112,
-    "evaluated_slots": 20,
+    "evaluated_slots": 75,
     "mature_slots": 0,
-    "total_matches": 21,
+    "total_matches": 93,
     "avg_hit": null,
     "confidence": 0.0
   },
@@ -1183,9 +1183,9 @@
     "league": "rou-liga-2",
     "name": "Liga II",
     "total_slots": 111,
-    "evaluated_slots": 14,
+    "evaluated_slots": 48,
     "mature_slots": 0,
-    "total_matches": 14,
+    "total_matches": 48,
     "avg_hit": null,
     "confidence": 0.0
   },
