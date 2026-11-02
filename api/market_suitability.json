@@ -1,8 +1,8 @@
 {
   "generator": "market_suitability",
-  "candidates": 7963,
-  "dc_pool": 7916,
-  "published_dc_picks": 232,
+  "candidates": 7966,
+  "dc_pool": 7919,
+  "published_dc_picks": 230,
   "curve": [
     {
       "n": 0
@@ -68,47 +68,47 @@
       "orGG_minus_1x2_pp": 11.4
     },
     {
-      "n": 293,
-      "1X2 to win": 0.7543,
-      "1X2 to win_push": 0.1604,
-      "AH (0)": 0.7543,
-      "AH (0)_push": 0.1604,
-      "Double Chance": 0.9147,
+      "n": 292,
+      "1X2 to win": 0.7534,
+      "1X2 to win_push": 0.161,
+      "AH (0)": 0.7534,
+      "AH (0)_push": 0.161,
+      "Double Chance": 0.9144,
       "Double Chance_push": 0.0,
-      "or GG": 0.9317,
+      "or GG": 0.9315,
       "or GG_push": 0.0,
-      "GG": 0.4846,
+      "GG": 0.4863,
       "GG_push": 0.0,
       "band": "66-70%",
-      "orGG_minus_1x2_pp": 17.7
+      "orGG_minus_1x2_pp": 17.8
     },
     {
-      "n": 1795,
-      "1X2 to win": 0.6858,
-      "1X2 to win_push": 0.1833,
-      "AH (0)": 0.6858,
-      "AH (0)_push": 0.1833,
-      "Double Chance": 0.8691,
+      "n": 1796,
+      "1X2 to win": 0.686,
+      "1X2 to win_push": 0.1832,
+      "AH (0)": 0.686,
+      "AH (0)_push": 0.1832,
+      "Double Chance": 0.8692,
       "Double Chance_push": 0.0,
-      "or GG": 0.9008,
+      "or GG": 0.9009,
       "or GG_push": 0.0,
-      "GG": 0.5253,
+      "GG": 0.5245,
       "GG_push": 0.0,
       "band": "55-66%",
       "orGG_minus_1x2_pp": 21.5
     }
   ],
   "overall": {
-    "n": 232,
-    "1X2 to win": 0.8276,
-    "1X2 to win_push": 0.125,
-    "AH (0)": 0.8276,
-    "AH (0)_push": 0.125,
-    "Double Chance": 0.9526,
+    "n": 230,
+    "1X2 to win": 0.8261,
+    "1X2 to win_push": 0.1261,
+    "AH (0)": 0.8261,
+    "AH (0)_push": 0.1261,
+    "Double Chance": 0.9522,
     "Double Chance_push": 0.0,
-    "or GG": 0.9612,
+    "or GG": 0.9609,
     "or GG_push": 0.0,
-    "GG": 0.5474,
+    "GG": 0.5478,
     "GG_push": 0.0
   },
   "straight_lost_but_protected": 6,
@@ -139,25 +139,25 @@
       "unprotected_upset": 0
     },
     {
-      "n": 179,
-      "1X2 to win": 0.8156,
-      "1X2 to win_push": 0.1285,
-      "AH (0)": 0.8156,
-      "AH (0)_push": 0.1285,
-      "Double Chance": 0.9441,
+      "n": 177,
+      "1X2 to win": 0.8136,
+      "1X2 to win_push": 0.1299,
+      "AH (0)": 0.8136,
+      "AH (0)_push": 0.1299,
+      "Double Chance": 0.9435,
       "Double Chance_push": 0.0,
-      "or GG": 0.9553,
+      "or GG": 0.9548,
       "or GG_push": 0.0,
-      "GG": 0.5363,
+      "GG": 0.5367,
       "GG_push": 0.0,
       "band": "70-80%",
       "orGG_ci": [
-        0.9212382133271653,
-        0.9736711613407538
+        0.9203694768255299,
+        0.9733725000899205
       ],
       "1x2_ci": [
-        0.7626284258512779,
-        0.8577505358645117
+        0.7600520866051299,
+        0.8561118584804401
       ],
       "straight_lost_but_protected": 5,
       "unprotected_upset": 5
@@ -196,14 +196,6 @@
       "n": 4,
       "win_1x2": 0.75,
       "win_orGG": 1.0,
-      "orGG_lift_pp": 25.0,
-      "straight_lost_but_protected": 0
-    },
-    {
-      "code": "bul-first-league",
-      "n": 4,
-      "win_1x2": 0.5,
-      "win_orGG": 0.75,
       "orGG_lift_pp": 25.0,
       "straight_lost_but_protected": 0
     },
