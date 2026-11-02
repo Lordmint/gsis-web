@@ -8,7 +8,7 @@ Competitions:
   eng-league-two: ok | entities=24 events=443
   eng-national-league: ok | entities=24 events=449
   esp-la-liga: ok | entities=20 events=317
-  esp-la-liga-2: ok | entities=22 events=387
+  esp-la-liga-2: ok | entities=22 events=388
   esp-primera-rfef: ok | entities=20 events=84
   ita-serie-a: ok | entities=20 events=312
   ita-serie-b: ok | entities=20 events=310
@@ -51,8 +51,8 @@ Competitions:
   azr-premier-league: ok | entities=12 events=57
   arm-premier-league: ok | entities=12 events=66
   gre-super-league: ok | entities=14 events=192
-  ukr-premier-league: ok | entities=16 events=78
-  ukr-persha: ok | entities=16 events=101
+  ukr-premier-league: ok | entities=16 events=80
+  ukr-persha: ok | entities=16 events=103
   cze-first-league: ok | entities=16 events=101
   cze-national-league: ok | entities=16 events=0
   rou-liga-1: ok | entities=16 events=104
@@ -82,7 +82,7 @@ Competitions:
   svk-first-league: ok | entities=12 events=70
   svk-second-league: ok | entities=16 events=91
   blr-premier-league: ok | entities=16 events=216
-  alb-superiore: ok | entities=10 events=44
+  alb-superiore: ok | entities=10 events=45
   geo-erovnuli: ok | entities=10 events=148
   geo-erovnuli-2: ok | entities=10 events=13
   ltu-toplyga: ok | entities=10 events=72
@@ -296,8 +296,8 @@ Wikipedia data validation (results grid vs standings table):
       Alashkert: grid(P11 W6 D4 L1 GF24 GA8) vs standings (P12 W7 D4 L1 GF27 GA8)
       Shirak: grid(P11 W3 D2 L6 GF12 GA14) vs standings (P12 W4 D2 L6 GF14 GA15)
   gre-super-league: OK | teams=14 matches=60 checked=14 issues=0
-  ukr-premier-league: OK | teams=16 matches=78 checked=16 issues=0
-  ukr-persha: MISMATCH | teams=16 matches=101 checked=16 issues=8
+  ukr-premier-league: OK | teams=16 matches=80 checked=16 issues=0
+  ukr-persha: MISMATCH | teams=16 matches=103 checked=16 issues=8
       Ahrobiznes Volochysk: grid(P12 W7 D2 L3 GF19 GA14) vs standings (P13 W8 D2 L3 GF22 GA14)
       Kulykiv-Bilka: grid(P13 W6 D3 L4 GF26 GA16) vs standings (P14 W7 D3 L4 GF28 GA17)
       Poltava: grid(P13 W6 D3 L4 GF21 GA13) vs standings (P14 W7 D3 L4 GF25 GA13)
@@ -377,10 +377,10 @@ Wikipedia data validation (results grid vs standings table):
       Petržalka: grid(P13 W8 D3 L2 GF20 GA10) vs standings (P14 W9 D3 L2 GF23 GA10)
       Považská Bystrica: grid(P12 W6 D2 L4 GF23 GA21) vs standings (P14 W8 D2 L4 GF28 GA24)
   blr-premier-league: OK | teams=16 matches=216 checked=16 issues=0
-  alb-superiore: MISMATCH | teams=10 matches=44 checked=10 issues=5
+  alb-superiore: MISMATCH | teams=10 matches=45 checked=10 issues=5
       Egnatia: grid(P9 W7 D0 L2 GF18 GA8) vs standings (P10 W8 D0 L2 GF20 GA9)
       Elbasani: grid(P9 W2 D5 L2 GF11 GA11) vs standings (P10 W3 D5 L2 GF13 GA12)
-      Vora: grid(P8 W2 D2 L4 GF6 GA13) vs standings (P9 W3 D2 L4 GF10 GA14)
+      Vora: grid(P9 W2 D3 L4 GF8 GA15) vs standings (P10 W3 D3 L4 GF12 GA16)
   geo-erovnuli: MISMATCH | teams=10 matches=148 checked=10 issues=8
       Iberia 1999: grid(P30 W16 D5 L9 GF43 GA32) vs standings (P31 W17 D5 L9 GF45 GA33)
       Dinamo Tbilisi: grid(P30 W14 D10 L6 GF48 GA31) vs standings (P31 W15 D10 L6 GF50 GA32)
@@ -464,7 +464,7 @@ Wikipedia data validation (results grid vs standings table):
       Guangdong GZ-Power: grid(P28 W17 D8 L3 GF55 GA28) vs standings (P29 W18 D8 L3 GF57 GA28)
       Nantong Zhiyun: grid(P28 W14 D9 L5 GF36 GA21) vs standings (P29 W15 D9 L5 GF37 GA21)
       Shaanxi Union: grid(P28 W14 D5 L9 GF52 GA29) vs standings (P29 W14 D6 L9 GF53 GA30)
-  tha-league-1: OK | teams=16 matches=53 checked=16 issues=0
+  tha-league-1: OK | teams=16 matches=54 checked=16 issues=0
   tha-league-2: MISMATCH | teams=18 matches=76 checked=18 issues=8
       Khonkaen United: grid(P4 W4 D0 L0 GF11 GA3) vs standings (P9 W7 D0 L2 GF18 GA7)
       PT Satun: grid(P8 W3 D3 L2 GF15 GA11) vs standings (P9 W4 D3 L2 GF16 GA11)
@@ -568,14 +568,14 @@ Prediction validation (top-3 vs next-5, mature≥3 matches):
   sau-pro-league: avg hit=84.3% | mature=98 matches=408 conf=75%
   bra-serie-a: avg hit=83.9% | mature=55 matches=277 conf=43%
   egy-premier-league: avg hit=83.3% | mature=3 matches=23 conf=2%
-  ukr-premier-league: avg hit=82.9% | mature=19 matches=143 conf=15%
+  ukr-premier-league: avg hit=82.9% | mature=19 matches=142 conf=15%
   bel-pro-league: avg hit=81.8% | mature=76 matches=334 conf=60%
   isr-premier-league: avg hit=81.1% | mature=19 matches=101 conf=15%
   aut-bundesliga: avg hit=79.4% | mature=96 matches=431 conf=76%
   esp-la-liga: avg hit=79.1% | mature=83 matches=370 conf=62%
   chn-league-one: avg hit=78.9% | mature=15 matches=73 conf=14%
   sco-league-one: avg hit=78.4% | mature=11 matches=84 conf=13%
-  ukr-persha: avg hit=77.9% | mature=22 matches=107 conf=20%
+  ukr-persha: avg hit=77.9% | mature=22 matches=116 conf=20%
   mkd-second-league: avg hit=77.8% | mature=8 matches=110 conf=7%
   ecu-liga-pro: avg hit=77.4% | mature=60 matches=260 conf=49%
   rou-liga-1: avg hit=77.1% | mature=54 matches=291 conf=44%
@@ -646,8 +646,9 @@ Prediction validation (top-3 vs next-5, mature≥3 matches):
   mar-botola: avg hit=33.3% | mature=29 matches=107 conf=23%
   svk-first-league: avg hit=32.8% | mature=16 matches=92 conf=14%
   bul-second-league: avg hit=27.6% | mature=18 matches=71 conf=16%
+  alb-superiore: avg hit=22.2% | mature=14 matches=119 conf=12%
   irq-stars-league: avg hit=20.7% | mature=22 matches=121 conf=19%
-  Overall: 87 leagues mature, avg hit=60.2%
+  Overall: 88 leagues mature, avg hit=59.8%
 
 Recipe tuning:
   sau-pro-league: boost_position — over target (hit=84.3% > 52%) → lean into position/wdl (Δ +32.3pt)
