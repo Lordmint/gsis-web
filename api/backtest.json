@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-03T08:10:07.453678+00:00",
+  "generated_at": "2026-11-03T08:31:10.584255+00:00",
   "weeks": [
     "2026-09-14",
     "2026-09-21",
@@ -484,6 +484,18 @@
       "name": "aut-bundesliga"
     },
     {
+      "league": "sau-pro-league",
+      "n_recent": 60,
+      "recent_avg": 3.2333333333333334,
+      "baseline_avg": 3.01875,
+      "delta": 0.21458333333333357,
+      "z_plain": 0.947852424178464,
+      "z_ewma": 1.737213932584172,
+      "z": 1.737213932584172,
+      "status": "watch",
+      "name": "sau-pro-league"
+    },
+    {
       "league": "rou-liga-2",
       "n_recent": 60,
       "recent_avg": 2.7,
@@ -946,8 +958,8 @@
       "baseline_avg": 2.517857142857143,
       "delta": 0.28214285714285703,
       "z_plain": 1.2734809710566235,
-      "z_ewma": -0.752397323236827,
-      "z": -0.752397323236827,
+      "z_ewma": -0.7483210239289659,
+      "z": -0.7483210239289659,
       "status": "stable",
       "name": "bul-second-league"
     },
@@ -1120,6 +1132,18 @@
       "name": "blr-premier-league"
     },
     {
+      "league": "srp-first-league",
+      "n_recent": 60,
+      "recent_avg": 2.716666666666667,
+      "baseline_avg": 2.7948717948717947,
+      "delta": -0.07820512820512793,
+      "z_plain": -0.3752002465756941,
+      "z_ewma": -0.43590048956134814,
+      "z": -0.43590048956134814,
+      "status": "stable",
+      "name": "srp-first-league"
+    },
+    {
       "league": "fra-ligue-2",
       "n_recent": 60,
       "recent_avg": 2.8333333333333335,
@@ -1130,18 +1154,6 @@
       "z": 0.4354053378603173,
       "status": "stable",
       "name": "fra-ligue-2"
-    },
-    {
-      "league": "srp-first-league",
-      "n_recent": 60,
-      "recent_avg": 2.716666666666667,
-      "baseline_avg": 2.7948717948717947,
-      "delta": -0.07820512820512793,
-      "z_plain": -0.3752002465756941,
-      "z_ewma": -0.43535199214187775,
-      "z": -0.43535199214187775,
-      "status": "stable",
-      "name": "srp-first-league"
     },
     {
       "league": "jpn-j2-league",
@@ -1190,18 +1202,6 @@
       "z": 0.34856370577562296,
       "status": "stable",
       "name": "nor-1-divisjon"
-    },
-    {
-      "league": "sau-pro-league",
-      "n_recent": 60,
-      "recent_avg": 3.1333333333333333,
-      "baseline_avg": 2.86875,
-      "delta": 0.2645833333333334,
-      "z_plain": 1.1440574250492357,
-      "z_ewma": -0.3404225494757535,
-      "z": -0.3404225494757535,
-      "status": "stable",
-      "name": "sau-pro-league"
     },
     {
       "league": "sco-premiership",
@@ -1621,20 +1621,20 @@
   "walk_forward": {
     "generator": "gsis.walkforward.compute",
     "leagues_covered": 144,
-    "eval_slots": 5528,
-    "overall_hit_rate": 110.59,
-    "early_slots": 2837,
+    "eval_slots": 5529,
+    "overall_hit_rate": 110.64,
+    "early_slots": 2838,
     "late_slots": 2691,
     "early_hit_rate": 55.6,
-    "late_hit_rate": 59.25,
-    "learning_delta": 3.65,
+    "late_hit_rate": 59.31,
+    "learning_delta": 3.7,
     "prior_ab": {
       "active": true,
       "leagues": 241,
-      "slots": 4859,
-      "baseline_hit_rate": 57.12,
+      "slots": 4860,
+      "baseline_hit_rate": 57.15,
       "prior_hit_rate": 56.99,
-      "delta": -0.13,
+      "delta": -0.16,
       "baseline_early": null,
       "prior_early": null,
       "delta_early": null,
@@ -4416,21 +4416,21 @@
         "name": "Serbian First League",
         "season_id": 132,
         "slots": 16,
-        "hit_rate": 62.36,
+        "hit_rate": 61.89,
         "early": {
           "slots": 8,
-          "hit_rate": 61.98
+          "hit_rate": 61.04
         },
         "late": {
           "slots": 8,
           "hit_rate": 62.74
         },
-        "learning_delta": 0.76,
+        "learning_delta": 1.7,
         "prior": {
           "teams": 17,
           "dates": 22,
           "slots": 16,
-          "hit_rate": 63.96,
+          "hit_rate": 63.49,
           "delta": 1.6,
           "early_delta": 3.19,
           "late_delta": 0.0
@@ -4905,7 +4905,7 @@
   },
   "model_state": {
     "version": 1,
-    "generated_at": "2026-11-03T08:00:13+00:00",
+    "generated_at": "2026-11-03T08:22:10+00:00",
     "note": "1 active calibration bucket(s) from 18 settled picks \u00b7 4 drifted league(s) \u00b7 140 league(s) with adaptive gate factors \u00b7 159 league(s) with a recursive strength model",
     "calibration": [
       {
@@ -5124,6 +5124,17 @@
         },
         "notes": "Auto-tuned from hit-rate validation (avg_hit=89.2%, action=boost_position, step=0.040, mature_slots=67)."
       },
+      "sau-pro-league": {
+        "factors": {
+          "position": 0.28421052631578947,
+          "form_last5": 0.24912280701754383,
+          "wdl_rate": 0.23157894736842105,
+          "home_away": 0.09122807017543859,
+          "goal_diff": 0.09122807017543859,
+          "historical": 0.05263157894736842
+        },
+        "notes": "Auto-tuned from hit-rate validation (avg_hit=84.3%, action=boost_position, step=0.040, mature_slots=98)."
+      },
       "bra-serie-a": {
         "factors": {
           "position": 0.28421052631578947,
@@ -5134,17 +5145,6 @@
           "historical": 0.05263157894736842
         },
         "notes": "Auto-tuned from hit-rate validation (avg_hit=83.9%, action=boost_position, step=0.040, mature_slots=55)."
-      },
-      "sau-pro-league": {
-        "factors": {
-          "position": 0.28421052631578947,
-          "form_last5": 0.24912280701754383,
-          "wdl_rate": 0.23157894736842105,
-          "home_away": 0.09122807017543859,
-          "goal_diff": 0.09122807017543859,
-          "historical": 0.05263157894736842
-        },
-        "notes": "Auto-tuned from hit-rate validation (avg_hit=82.4%, action=boost_position, step=0.040, mature_slots=81)."
       },
       "bel-pro-league": {
         "factors": {
@@ -6442,12 +6442,12 @@
         "min_gap": 2.0
       },
       "srp-first-league": {
-        "hit_rate": 62.4,
+        "hit_rate": 61.9,
         "slots": 16,
-        "learning_delta": 0.76,
+        "learning_delta": 1.7,
         "min_win": 0.72,
         "min_win_dc": 0.72,
-        "min_gap": 2.0
+        "min_gap": 2.01
       },
       "bul-second-league": {
         "hit_rate": 47.5,
@@ -32025,7 +32025,7 @@
       },
       "sau-pro-league": {
         "form_feed": true,
-        "match_events": 818,
+        "match_events": 727,
         "espn": true,
         "espn_code": "ksa.1",
         "wiki": true,

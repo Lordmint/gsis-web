@@ -69,7 +69,7 @@ Competitions:
   rus-first-league: ok | entities=18 events=145
   cyp-first-division: ok | entities=14 events=136
   wal-cymru-premier: ok | entities=12 events=6
-  mlt-premier-league: ok | entities=12 events=4
+  mlt-premier-league: ok | entities=12 events=2
   irl-premier: ok | entities=10 events=90
   irl-first-division: ok | entities=10 events=81
   nir-premiership: ok | entities=12 events=17
@@ -112,7 +112,7 @@ Competitions:
   jpn-j1-league: ok | entities=20 events=278
   jpn-j2-league: ok | entities=20 events=140
   jpn-j3-league: ok | entities=20 events=140
-  sau-pro-league: ok | entities=18 events=101
+  sau-pro-league: ok | entities=18 events=311
   ind-isl: ok | entities=13 events=114
   ind-i-league: data-low (below min_events_for_score=6 — trying next source) | entities=11 events=71
   mys-super-league: ok | entities=13 events=78
@@ -567,10 +567,10 @@ Prediction validation (top-3 vs next-5, mature≥3 matches):
   por-segunda-liga: avg hit=95.8% | mature=13 matches=101 conf=11%
   kor-k-league-2: avg hit=90.9% | mature=14 matches=124 conf=12%
   por-primeira-liga: avg hit=89.2% | mature=67 matches=304 conf=52%
+  sau-pro-league: avg hit=84.3% | mature=98 matches=408 conf=75%
   bra-serie-a: avg hit=83.9% | mature=55 matches=277 conf=43%
   egy-premier-league: avg hit=83.3% | mature=3 matches=23 conf=2%
   ukr-premier-league: avg hit=82.9% | mature=19 matches=143 conf=15%
-  sau-pro-league: avg hit=82.4% | mature=81 matches=321 conf=62%
   bel-pro-league: avg hit=81.8% | mature=76 matches=334 conf=60%
   isr-premier-league: avg hit=81.1% | mature=19 matches=101 conf=15%
   aut-bundesliga: avg hit=79.4% | mature=96 matches=431 conf=76%
@@ -655,8 +655,8 @@ Prediction validation (top-3 vs next-5, mature≥3 matches):
 
 Recipe tuning:
   por-primeira-liga: boost_position — over target (hit=89.2% > 52%) → lean into position/wdl (Δ +37.2pt)
+  sau-pro-league: boost_position — over target (hit=84.3% > 52%) → lean into position/wdl (Δ +32.3pt)
   bra-serie-a: boost_position — over target (hit=83.9% > 52%) → lean into position/wdl (Δ +31.9pt)
-  sau-pro-league: boost_position — over target (hit=82.4% > 52%) → lean into position/wdl (Δ +30.4pt)
   bel-pro-league: boost_position — over target (hit=81.8% > 52%) → lean into position/wdl (Δ +29.8pt)
   aut-bundesliga: boost_position — over target (hit=79.4% > 52%) → lean into position/wdl (Δ +27.4pt)
   esp-la-liga: boost_position — over target (hit=79.1% > 52%) → lean into position/wdl (Δ +27.1pt)
