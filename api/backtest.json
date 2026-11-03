@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-03T08:31:10.584255+00:00",
+  "generated_at": "2026-11-03T08:51:18.904148+00:00",
   "weeks": [
     "2026-09-14",
     "2026-09-21",
@@ -286,8 +286,8 @@
       "baseline_avg": 1.6333333333333333,
       "delta": 0.5166666666666666,
       "z_plain": 3.4525377780177675,
-      "z_ewma": 3.573968374940429,
-      "z": 3.573968374940429,
+      "z_ewma": 3.566977435902533,
+      "z": 3.566977435902533,
       "status": "drift",
       "name": "irn-premier-league"
     },
@@ -928,18 +928,6 @@
       "name": "fin-veikkausliiga"
     },
     {
-      "league": "pol-ekstraklasa",
-      "n_recent": 60,
-      "recent_avg": 3.05,
-      "baseline_avg": 2.909090909090909,
-      "delta": 0.14090909090909065,
-      "z_plain": 0.6493993991266744,
-      "z_ewma": -0.8102592982937069,
-      "z": -0.8102592982937069,
-      "status": "stable",
-      "name": "pol-ekstraklasa"
-    },
-    {
       "league": "eng-national-league",
       "n_recent": 60,
       "recent_avg": 3.316666666666667,
@@ -950,6 +938,18 @@
       "z": 0.7924423425805073,
       "status": "stable",
       "name": "eng-national-league"
+    },
+    {
+      "league": "pol-ekstraklasa",
+      "n_recent": 60,
+      "recent_avg": 3.05,
+      "baseline_avg": 2.909090909090909,
+      "delta": 0.14090909090909065,
+      "z_plain": 0.6493993991266744,
+      "z_ewma": -0.7787619446569343,
+      "z": -0.7787619446569343,
+      "status": "stable",
+      "name": "pol-ekstraklasa"
     },
     {
       "league": "bul-second-league",
@@ -994,8 +994,8 @@
       "baseline_avg": 2.0892857142857144,
       "delta": 0.14404761904761898,
       "z_plain": 0.8092703294360205,
-      "z_ewma": -0.6274875742451975,
-      "z": -0.6274875742451975,
+      "z_ewma": -0.627609475724964,
+      "z": -0.627609475724964,
       "status": "stable",
       "name": "irq-stars-league"
     },
@@ -1222,8 +1222,8 @@
       "baseline_avg": 2.86875,
       "delta": -0.18541666666666679,
       "z_plain": -0.9191168331557363,
-      "z_ewma": -0.2898589431569302,
-      "z": -0.2898589431569302,
+      "z_ewma": -0.28896221282949186,
+      "z": -0.28896221282949186,
       "status": "stable",
       "name": "aus-a-league"
     },
@@ -1621,20 +1621,20 @@
   "walk_forward": {
     "generator": "gsis.walkforward.compute",
     "leagues_covered": 144,
-    "eval_slots": 5529,
-    "overall_hit_rate": 110.64,
+    "eval_slots": 5528,
+    "overall_hit_rate": 110.63,
     "early_slots": 2838,
-    "late_slots": 2691,
-    "early_hit_rate": 55.6,
+    "late_slots": 2690,
+    "early_hit_rate": 55.59,
     "late_hit_rate": 59.31,
-    "learning_delta": 3.7,
+    "learning_delta": 3.72,
     "prior_ab": {
       "active": true,
       "leagues": 241,
-      "slots": 4860,
+      "slots": 4859,
       "baseline_hit_rate": 57.15,
-      "prior_hit_rate": 56.99,
-      "delta": -0.16,
+      "prior_hit_rate": 56.98,
+      "delta": -0.17,
       "baseline_early": null,
       "prior_early": null,
       "delta_early": null,
@@ -3717,21 +3717,21 @@
         "name": "Iraq Stars League",
         "season_id": 94,
         "slots": 20,
-        "hit_rate": 49.26,
+        "hit_rate": 48.81,
         "early": {
           "slots": 10,
-          "hit_rate": 69.11
+          "hit_rate": 67.11
         },
         "late": {
           "slots": 10,
-          "hit_rate": 29.41
+          "hit_rate": 30.52
         },
-        "learning_delta": -39.7,
+        "learning_delta": -36.59,
         "prior": {
           "teams": 20,
           "dates": 21,
           "slots": 20,
-          "hit_rate": 50.89,
+          "hit_rate": 50.44,
           "delta": 1.63,
           "early_delta": 3.26,
           "late_delta": 0.0
@@ -4280,24 +4280,24 @@
       "lux-division-of-honour": {
         "name": "Luxembourg Division of Honour",
         "season_id": 125,
-        "slots": 16,
-        "hit_rate": 51.92,
+        "slots": 15,
+        "hit_rate": 51.83,
         "early": {
           "slots": 8,
-          "hit_rate": 49.41
+          "hit_rate": 50.38
         },
         "late": {
-          "slots": 8,
-          "hit_rate": 54.43
+          "slots": 7,
+          "hit_rate": 53.48
         },
-        "learning_delta": 5.02,
+        "learning_delta": 3.1,
         "prior": {
           "teams": 16,
-          "dates": 21,
-          "slots": 16,
-          "hit_rate": 53.17,
-          "delta": 1.25,
-          "early_delta": 2.5,
+          "dates": 20,
+          "slots": 15,
+          "hit_rate": 51.83,
+          "delta": 0.0,
+          "early_delta": 0.0,
           "late_delta": 0.0
         }
       },
@@ -4671,16 +4671,16 @@
         "name": "Persian Gulf Pro League",
         "season_id": 146,
         "slots": 16,
-        "hit_rate": 47.36,
+        "hit_rate": 46.6,
         "early": {
           "slots": 8,
-          "hit_rate": 37.22
+          "hit_rate": 35.69
         },
         "late": {
           "slots": 8,
           "hit_rate": 57.5
         },
-        "learning_delta": 20.28
+        "learning_delta": 21.81
       },
       "fin-ykkosliiga": {
         "name": "Ykk\u00f6sliiga",
@@ -4905,7 +4905,7 @@
   },
   "model_state": {
     "version": 1,
-    "generated_at": "2026-11-03T08:22:10+00:00",
+    "generated_at": "2026-11-03T08:41:04+00:00",
     "note": "1 active calibration bucket(s) from 18 settled picks \u00b7 4 drifted league(s) \u00b7 140 league(s) with adaptive gate factors \u00b7 159 league(s) with a recursive strength model",
     "calibration": [
       {
@@ -6202,12 +6202,12 @@
         "min_gap": 2.36
       },
       "irq-stars-league": {
-        "hit_rate": 49.3,
+        "hit_rate": 48.8,
         "slots": 20,
-        "learning_delta": -39.7,
-        "min_win": 0.728,
-        "min_win_dc": 0.728,
-        "min_gap": 2.64
+        "learning_delta": -36.59,
+        "min_win": 0.73,
+        "min_win_dc": 0.73,
+        "min_gap": 2.66
       },
       "usa-usl": {
         "hit_rate": 55.5,
@@ -6394,12 +6394,12 @@
         "min_gap": 2.0
       },
       "lux-division-of-honour": {
-        "hit_rate": 51.9,
-        "slots": 16,
-        "learning_delta": 5.02,
-        "min_win": 0.72,
-        "min_win_dc": 0.72,
-        "min_gap": 2.5
+        "hit_rate": 51.8,
+        "slots": 15,
+        "learning_delta": 3.1,
+        "min_win": 0.721,
+        "min_win_dc": 0.721,
+        "min_gap": 2.51
       },
       "bih-premijer": {
         "hit_rate": 70.1,
@@ -6522,12 +6522,12 @@
         "min_gap": 2.53
       },
       "irn-premier-league": {
-        "hit_rate": 47.4,
+        "hit_rate": 46.6,
         "slots": 16,
-        "learning_delta": 20.28,
-        "min_win": 0.734,
-        "min_win_dc": 0.734,
-        "min_gap": 2.73
+        "learning_delta": 21.81,
+        "min_win": 0.736,
+        "min_win_dc": 0.736,
+        "min_gap": 2.77
       },
       "fin-ykkosliiga": {
         "hit_rate": 55.0,

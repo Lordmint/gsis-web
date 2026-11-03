@@ -69,7 +69,7 @@ Competitions:
   rus-first-league: ok | entities=18 events=145
   cyp-first-division: ok | entities=14 events=136
   wal-cymru-premier: ok | entities=12 events=6
-  mlt-premier-league: ok | entities=12 events=2
+  mlt-premier-league: ok | entities=12 events=4
   irl-premier: ok | entities=10 events=90
   irl-first-division: ok | entities=10 events=81
   nir-premiership: ok | entities=12 events=17
@@ -295,9 +295,7 @@ Wikipedia data validation (results grid vs standings table):
       Pyunik: grid(P11 W7 D4 L0 GF23 GA9) vs standings (P12 W8 D4 L0 GF28 GA9)
       Alashkert: grid(P11 W6 D4 L1 GF24 GA8) vs standings (P12 W7 D4 L1 GF27 GA8)
       Shirak: grid(P11 W3 D2 L6 GF12 GA14) vs standings (P12 W4 D2 L6 GF14 GA15)
-  gre-super-league: GRID-LAG (1 round(s) behind) | teams=14 matches=61 checked=14 issues=2
-      Kalamata: grid(P8 W3 D1 L4 GF13 GA17) vs standings (P9 W3 D2 L4 GF14 GA18)
-      Iraklis: grid(P8 W2 D3 L3 GF9 GA11) vs standings (P9 W2 D4 L3 GF10 GA12)
+  gre-super-league: OK | teams=14 matches=62 checked=14 issues=0
   ukr-premier-league: OK | teams=16 matches=81 checked=16 issues=0
   ukr-persha: MISMATCH | teams=16 matches=103 checked=16 issues=8
       Ahrobiznes Volochysk: grid(P12 W7 D2 L3 GF19 GA14) vs standings (P13 W8 D2 L3 GF22 GA14)
