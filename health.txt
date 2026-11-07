@@ -30,7 +30,7 @@ Competitions:
   tur-1-lig: ok | entities=20 events=123
   sui-super-league: ok | entities=12 events=67
   sui-challenge-league: ok | entities=10 events=62
-  isr-premier-league: ok | entities=14 events=1
+  isr-premier-league: ok | entities=14 events=3
   isr-leumit: ok | entities=16 events=93
   aut-bundesliga: ok | entities=12 events=160
   aut-2-liga: ok | entities=16 events=74
@@ -69,7 +69,7 @@ Competitions:
   rus-first-league: ok | entities=18 events=145
   cyp-first-division: ok | entities=14 events=136
   wal-cymru-premier: ok | entities=12 events=1
-  mlt-premier-league: ok | entities=12 events=1
+  mlt-premier-league: ok | entities=12 events=2
   irl-premier: ok | entities=10 events=90
   irl-first-division: ok | entities=10 events=81
   nir-premiership: ok | entities=12 events=17
@@ -109,7 +109,7 @@ Competitions:
   rsa-national-first-division: ok | entities=16 events=129
   alg-ligue-1: data-low (empty pre-season table — no matches played yet) | entities=16 events=0
   tun-ligue-1: ok | entities=16 events=46
-  jpn-j1-league: ok | entities=20 events=278
+  jpn-j1-league: ok | entities=20 events=284
   jpn-j2-league: ok | entities=20 events=150
   jpn-j3-league: ok | entities=20 events=150
   sau-pro-league: ok | entities=18 events=311
@@ -117,11 +117,11 @@ Competitions:
   ind-i-league: data-low (below min_events_for_score=6 — trying next source) | entities=11 events=74
   mys-super-league: ok | entities=13 events=78
   sgp-premier-league: ok | entities=8 events=65
-  kor-k-league: ok | entities=12 events=198
-  kor-k-league-2: ok | entities=17 events=248
+  kor-k-league: ok | entities=12 events=200
+  kor-k-league-2: ok | entities=17 events=253
   kaz-premier-league: ok | entities=16 events=203
   chn-csl: ok | entities=16 events=232
-  chn-league-one: ok | entities=16 events=217
+  chn-league-one: ok | entities=16 events=225
   tha-league-1: ok | entities=16 events=119
   tha-league-2: ok | entities=18 events=76
   idn-super-league: ok | entities=18 events=170
@@ -136,16 +136,16 @@ Competitions:
   uzb-super-league: ok | entities=16 events=194
   uzb-pro-league: ok | entities=14 events=0
   irn-premier-league: ok | entities=18 events=90
-  aus-a-league: ok | entities=12 events=119
+  aus-a-league: ok | entities=12 events=121
   usa-mls: ok | entities=30 events=496
   usa-usl: ok | entities=25 events=379
   usa-usl-league-one: ok | entities=17 events=275
-  mex-liga-mx: ok | entities=18 events=303
+  mex-liga-mx: ok | entities=18 events=304
   can-cpl: ok | entities=8 events=55
   mex-expansion: ok | entities=16 events=244
   slv-primera: ok | entities=12 events=253
   crc-primera: ok | entities=10 events=171
-  gua-liga-nacional: ok | entities=12 events=254
+  gua-liga-nacional: ok | entities=12 events=255
   hon-liga-nacional: ok | entities=12 events=203
   hon-liga-ascenso: ok | entities=12 events=18
   gua-primera-ascenso: ok | entities=10 events=15
@@ -448,11 +448,11 @@ Wikipedia data validation (results grid vs standings table):
       Punjab: grid(P4 W2 D1 L1 GF7 GA6) vs standings (P4 W2 D1 L1 GF7 GA5)
   mys-super-league: OK | teams=12 matches=36 checked=12 issues=0
   sgp-premier-league: no validation data
-  kor-k-league: MISMATCH | teams=12 matches=198 checked=12 issues=9
+  kor-k-league: MISMATCH | teams=12 matches=200 checked=12 issues=9
       FC Seoul: grid(P33 W19 D7 L7 GF60 GA30) vs standings (P34 W20 D7 L7 GF61 GA30)
       Daejeon Hana Citizen: grid(P33 W13 D10 L10 GF53 GA41) vs standings (P34 W13 D11 L10 GF53 GA41)
       Incheon United: grid(P33 W13 D10 L10 GF44 GA34) vs standings (P34 W13 D10 L11 GF44 GA35)
-  kor-k-league-2: OK | teams=17 matches=248 checked=17 issues=0
+  kor-k-league-2: OK | teams=17 matches=253 checked=17 issues=0
   kaz-premier-league: MISMATCH | teams=16 matches=203 checked=16 issues=16
       Ordabasy: grid(P26 W19 D4 L3 GF53 GA19) vs standings (P30 W21 D5 L4 GF59 GA23)
       Kairat: grid(P26 W17 D6 L3 GF50 GA20) vs standings (P30 W19 D8 L3 GF60 GA23)
@@ -461,16 +461,16 @@ Wikipedia data validation (results grid vs standings table):
       Chengdu Rongcheng: grid(P28 W14 D7 L7 GF47 GA35) vs standings (P29 W15 D7 L7 GF51 GA35)
       Dalian Yingbo: grid(P28 W14 D4 L10 GF43 GA43) vs standings (P29 W15 D4 L10 GF46 GA43)
       Beijing Guoan: grid(P28 W13 D10 L5 GF55 GA35) vs standings (P29 W14 D10 L5 GF57 GA36)
-  chn-league-one: MISMATCH | teams=16 matches=217 checked=16 issues=16
-      Guangdong GZ-Power: grid(P28 W17 D8 L3 GF55 GA28) vs standings (P29 W18 D8 L3 GF57 GA28)
-      Nantong Zhiyun: grid(P28 W14 D9 L5 GF36 GA21) vs standings (P29 W15 D9 L5 GF37 GA21)
-      Shaanxi Union: grid(P28 W14 D5 L9 GF52 GA29) vs standings (P29 W14 D6 L9 GF53 GA30)
+  chn-league-one: MISMATCH | teams=16 matches=225 checked=16 issues=16
+      Guangdong GZ-Power: grid(P29 W17 D8 L4 GF56 GA31) vs standings (P30 W18 D8 L4 GF58 GA31)
+      Nantong Zhiyun: grid(P29 W15 D9 L5 GF39 GA22) vs standings (P30 W16 D9 L5 GF40 GA22)
+      Shaanxi Union: grid(P29 W15 D5 L9 GF56 GA29) vs standings (P30 W15 D6 L9 GF57 GA30)
   tha-league-1: OK | teams=16 matches=55 checked=16 issues=0
   tha-league-2: MISMATCH | teams=18 matches=76 checked=18 issues=8
       Khonkaen United: grid(P4 W4 D0 L0 GF11 GA3) vs standings (P9 W7 D0 L2 GF18 GA7)
       PT Satun: grid(P8 W3 D3 L2 GF15 GA11) vs standings (P9 W4 D3 L2 GF16 GA11)
       Muangthong United: grid(P9 W4 D2 L3 GF10 GA8) vs standings (P9 W4 D2 L3 GF9 GA8)
-  idn-super-league: MISMATCH | teams=18 matches=65 checked=18 issues=9
+  idn-super-league: MISMATCH | teams=18 matches=65 checked=18 issues=10
       Dewa United Banten: grid(P8 W5 D2 L1 GF14 GA12) vs standings (P9 W6 D2 L1 GF16 GA12)
       Madura United: grid(P8 W5 D1 L2 GF14 GA10) vs standings (P9 W6 D1 L2 GF16 GA10)
       Bali United: grid(P7 W4 D1 L2 GF17 GA8) vs standings (P8 W5 D1 L2 GF23 GA9)
@@ -505,7 +505,10 @@ Wikipedia data validation (results grid vs standings table):
       Sepahan: grid(P10 W6 D2 L2 GF17 GA6) vs standings (P12 W8 D2 L2 GF23 GA7)
       Persepolis: grid(P10 W6 D2 L2 GF18 GA5) vs standings (P12 W7 D2 L3 GF20 GA7)
       Foolad: grid(P10 W5 D4 L1 GF10 GA5) vs standings (P12 W6 D5 L1 GF12 GA6)
-  aus-a-league: OK | teams=12 matches=18 checked=12 issues=0
+  aus-a-league: MISMATCH | teams=12 matches=20 checked=12 issues=4
+      Wellington Phoenix: grid(P4 W3 D1 L0 GF7 GA1) vs standings (P3 W3 D0 L0 GF7 GA1)
+      Western Sydney Wanderers: grid(P4 W1 D2 L1 GF6 GA4) vs standings (P3 W1 D2 L0 GF5 GA2)
+      Auckland FC: grid(P4 W1 D2 L1 GF6 GA7) vs standings (P3 W1 D1 L1 GF6 GA7)
   usa-mls: MISMATCH | teams=15 matches=203 checked=15 issues=15
       Nashville SC: grid(P27 W18 D6 L3 GF54 GA20) vs standings (P33 W22 D3 L8 GF69 GA25)
       Inter Miami CF: grid(P27 W13 D9 L5 GF66 GA47) vs standings (P33 W16 D6 L11 GF77 GA56)
@@ -515,7 +518,7 @@ Wikipedia data validation (results grid vs standings table):
       Charlotte Independence: grid(P31 W20 D6 L5 GF72 GA43) vs standings (P32 W20 D6 L6 GF74 GA46)
       Union Omaha: grid(P31 W18 D5 L8 GF52 GA33) vs standings (P32 W19 D8 L5 GF54 GA34)
       AC Boise: grid(P31 W16 D7 L8 GF49 GA40) vs standings (P32 W17 D8 L7 GF51 GA41)
-  mex-liga-mx: MISMATCH | teams=18 matches=132 checked=18 issues=6
+  mex-liga-mx: MISMATCH | teams=18 matches=133 checked=18 issues=6
       Atlas: grid(P13 W8 D2 L3 GF23 GA20) vs standings (P15 W8 D3 L4 GF26 GA26)
       Toluca: grid(P14 W5 D6 L3 GF26 GA19) vs standings (P15 W6 D6 L3 GF31 GA21)
       Monterrey: grid(P12 W5 D2 L5 GF24 GA20) vs standings (P14 W6 D3 L5 GF26 GA21)
@@ -564,7 +567,6 @@ Prediction validation (top-3 vs next-5, mature≥3 matches):
   rsa-premiership: avg hit=100.0% | mature=11 matches=221 conf=9%
   wal-cymru-premier: avg hit=100.0% | mature=3 matches=52 conf=2%
   por-segunda-liga: avg hit=96.6% | mature=16 matches=115 conf=14%
-  kor-k-league-2: avg hit=90.9% | mature=14 matches=128 conf=12%
   ukr-premier-league: avg hit=89.4% | mature=34 matches=176 conf=28%
   por-primeira-liga: avg hit=89.2% | mature=67 matches=304 conf=52%
   bra-serie-a: avg hit=85.7% | mature=70 matches=313 conf=55%
@@ -573,8 +575,9 @@ Prediction validation (top-3 vs next-5, mature≥3 matches):
   aut-bundesliga: avg hit=81.8% | mature=104 matches=468 conf=83%
   bel-pro-league: avg hit=81.8% | mature=76 matches=334 conf=60%
   isr-premier-league: avg hit=81.1% | mature=19 matches=101 conf=15%
+  kor-k-league-2: avg hit=81.0% | mature=26 matches=165 conf=23%
   esp-la-liga: avg hit=79.0% | mature=83 matches=371 conf=62%
-  chn-league-one: avg hit=78.9% | mature=15 matches=78 conf=14%
+  chn-league-one: avg hit=78.9% | mature=15 matches=88 conf=14%
   sco-league-one: avg hit=78.4% | mature=11 matches=86 conf=13%
   ukr-persha: avg hit=77.9% | mature=22 matches=117 conf=20%
   mkd-second-league: avg hit=77.8% | mature=8 matches=131 conf=7%
@@ -590,11 +593,11 @@ Prediction validation (top-3 vs next-5, mature≥3 matches):
   arg-primera: avg hit=68.3% | mature=95 matches=466 conf=73%
   ven-liga-futve: avg hit=67.9% | mature=120 matches=576 conf=98%
   ned-eerste-divisie: avg hit=67.6% | mature=109 matches=496 conf=86%
+  jpn-j1-league: avg hit=67.3% | mature=111 matches=533 conf=85%
   chi-primera-b: avg hit=66.7% | mature=3 matches=49 conf=3%
   srp-first-league: avg hit=66.2% | mature=37 matches=155 conf=33%
   jpn-j2-league: avg hit=66.1% | mature=45 matches=235 conf=39%
   ita-serie-a: avg hit=65.8% | mature=107 matches=483 conf=79%
-  jpn-j1-league: avg hit=65.7% | mature=107 matches=515 conf=82%
   gre-super-league: avg hit=65.2% | mature=86 matches=395 conf=67%
   nor-eliteserien: avg hit=65.0% | mature=89 matches=393 conf=71%
   tur-1-lig: avg hit=64.4% | mature=4 matches=71 conf=3%
@@ -610,7 +613,7 @@ Prediction validation (top-3 vs next-5, mature≥3 matches):
   mex-expansion: avg hit=59.8% | mature=113 matches=503 conf=92%
   uru-primera: avg hit=58.0% | mature=93 matches=434 conf=76%
   par-primera: avg hit=57.1% | mature=115 matches=523 conf=93%
-  aus-a-league: avg hit=55.6% | mature=40 matches=284 conf=31%
+  aus-a-league: avg hit=55.6% | mature=40 matches=286 conf=31%
   azr-premier-league: avg hit=55.6% | mature=11 matches=115 conf=10%
   rus-premier-league: avg hit=54.7% | mature=93 matches=395 conf=76%
   col-primera: avg hit=54.5% | mature=115 matches=554 conf=91%
@@ -639,12 +642,12 @@ Prediction validation (top-3 vs next-5, mature≥3 matches):
   jpn-j3-league: avg hit=44.4% | mature=4 matches=42 conf=5%
   ned-eredivisie: avg hit=44.3% | mature=88 matches=387 conf=68%
   fra-ligue-1: avg hit=42.4% | mature=85 matches=373 conf=65%
+  mex-liga-mx: avg hit=41.9% | mature=118 matches=549 conf=94%
   sco-championship: avg hit=41.9% | mature=106 matches=490 conf=85%
   slv-primera: avg hit=41.8% | mature=116 matches=544 conf=92%
-  mex-liga-mx: avg hit=41.2% | mature=115 matches=544 conf=91%
   vnm-vleague: avg hit=38.9% | mature=39 matches=209 conf=34%
-  kor-k-league: avg hit=35.3% | mature=42 matches=268 conf=34%
-  gua-liga-nacional: avg hit=34.0% | mature=111 matches=520 conf=93%
+  gua-liga-nacional: avg hit=35.2% | mature=111 matches=530 conf=93%
+  kor-k-league: avg hit=35.1% | mature=43 matches=275 conf=35%
   cro-first-league: avg hit=33.3% | mature=10 matches=77 conf=11%
   hun-nb1: avg hit=33.3% | mature=3 matches=85 conf=2%
   mar-botola: avg hit=33.3% | mature=29 matches=107 conf=23%
@@ -655,7 +658,7 @@ Prediction validation (top-3 vs next-5, mature≥3 matches):
   bul-second-league: avg hit=27.3% | mature=19 matches=75 conf=17%
   alb-superiore: avg hit=22.2% | mature=14 matches=130 conf=12%
   irq-stars-league: avg hit=20.7% | mature=22 matches=131 conf=19%
-  Overall: 94 leagues mature, avg hit=59.2%
+  Overall: 94 leagues mature, avg hit=59.1%
 
 Recipe tuning:
   por-primeira-liga: boost_position — over target (hit=89.2% > 52%) → lean into position/wdl (Δ +37.2pt)
@@ -673,8 +676,8 @@ Recipe tuning:
   arg-primera: boost_position — over target (hit=68.3% > 52%) → lean into position/wdl (Δ +16.3pt)
   ven-liga-futve: boost_position — over target (hit=67.9% > 52%) → lean into position/wdl (Δ +15.9pt)
   ned-eerste-divisie: boost_position — over target (hit=67.6% > 52%) → lean into position/wdl (Δ +15.6pt)
+  jpn-j1-league: boost_position — over target (hit=67.3% > 52%) → lean into position/wdl (Δ +15.3pt)
   ita-serie-a: boost_position — over target (hit=65.8% > 52%) → lean into position/wdl (Δ +13.8pt)
-  jpn-j1-league: boost_position — over target (hit=65.7% > 52%) → lean into position/wdl (Δ +13.7pt)
   gre-super-league: boost_position — over target (hit=65.2% > 52%) → lean into position/wdl (Δ +13.2pt)
   nor-eliteserien: boost_position — over target (hit=65.0% > 52%) → lean into position/wdl (Δ +13.0pt)
   eng-national-league: boost_position — over target (hit=62.5% > 52%) → lean into position/wdl (Δ +10.5pt)
@@ -688,7 +691,7 @@ Recipe tuning:
   uru-primera: boost_position — over target (hit=58.0% > 52%) → lean into position/wdl (Δ +6.0pt)
   ned-eredivisie: boost_form — under target (hit=44.3% < 52%) → lean into form/goal-diff (Δ -7.7pt)
   fra-ligue-1: boost_form — under target (hit=42.4% < 52%) → lean into form/goal-diff (Δ -9.6pt)
+  mex-liga-mx: boost_form — under target (hit=41.9% < 52%) → lean into form/goal-diff (Δ -10.1pt)
   sco-championship: boost_form — under target (hit=41.9% < 52%) → lean into form/goal-diff (Δ -10.1pt)
   slv-primera: boost_form — under target (hit=41.8% < 52%) → lean into form/goal-diff (Δ -10.2pt)
-  mex-liga-mx: boost_form — under target (hit=41.2% < 52%) → lean into form/goal-diff (Δ -10.8pt)
-  gua-liga-nacional: boost_form — under target (hit=34.0% < 52%) → lean into form/goal-diff (Δ -18.0pt)
+  gua-liga-nacional: boost_form — under target (hit=35.2% < 52%) → lean into form/goal-diff (Δ -16.8pt)

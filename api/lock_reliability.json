@@ -1,35 +1,35 @@
 {
   "generator": "lock_reliability",
-  "candidates": 8005,
-  "published_locks_dc_route": 230,
+  "candidates": 8004,
+  "published_locks_dc_route": 229,
   "bands": [
     {
       "band": "lock >=80%",
-      "n": 87,
-      "model_mean": 0.8355,
-      "win_rate": 0.8621,
+      "n": 89,
+      "model_mean": 0.8351,
+      "win_rate": 0.8652,
       "win_ci": [
-        0.7884418624987413,
-        0.9103491632804874
+        0.7929383056699024,
+        0.9123936851577663
       ],
-      "draw_rate": 0.1149,
-      "upset_rate": 0.023,
-      "non_win_rate": 0.1379,
-      "calibration_gap_pp": 2.7
+      "draw_rate": 0.1124,
+      "upset_rate": 0.0225,
+      "non_win_rate": 0.1348,
+      "calibration_gap_pp": 3.0
     },
     {
       "band": "70-80%",
-      "n": 143,
-      "model_mean": 0.7681,
-      "win_rate": 0.7972,
+      "n": 140,
+      "model_mean": 0.768,
+      "win_rate": 0.8,
       "win_ci": [
-        0.7357231641257922,
-        0.8458736440924879
+        0.738020996427686,
+        0.8487777405344634
       ],
-      "draw_rate": 0.1399,
-      "upset_rate": 0.0629,
-      "non_win_rate": 0.2028,
-      "calibration_gap_pp": 2.9
+      "draw_rate": 0.1429,
+      "upset_rate": 0.0571,
+      "non_win_rate": 0.2,
+      "calibration_gap_pp": 3.2
     },
     {
       "band": "66-70% (cut by the 0.70 floor)",
@@ -41,17 +41,17 @@
     }
   ],
   "autopsy": {
-    "published_picks": 230,
-    "false_locks": 41,
-    "upset_locks": 11,
+    "published_picks": 229,
+    "false_locks": 40,
+    "upset_locks": 10,
     "false_locks_with_form_warning": 0,
     "form_warning_fired_anywhere": 317,
     "note": "The form tripwire runs at ADMISSION, so a flagged candidate is shaved below the gate and never becomes a pick; that is why published false locks carry no form warning. blind_adj>0 is a constant (no injury feed) and cannot discriminate."
   },
-  "overall_upset_rate": 0.0478,
+  "overall_upset_rate": 0.0437,
   "overall_upset_ci": [
-    0.03024474953818499,
-    0.07759010202402944
+    0.027049344051070984,
+    0.07263274724504815
   ],
   "leagues": [
     {
