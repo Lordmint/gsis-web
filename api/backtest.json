@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-07T17:58:53.055186+00:00",
+  "generated_at": "2026-11-07T23:03:16.931214+00:00",
   "weeks": [
     "2026-09-14",
     "2026-09-21",
@@ -10,26 +10,26 @@
     "2026-11-02"
   ],
   "picks": 23,
-  "settled": 22,
-  "pending": 1,
-  "wins": 18,
+  "settled": 23,
+  "pending": 0,
+  "wins": 19,
   "losses": 3,
   "pushes": 1,
-  "hit_rate": 0.8571428571428571,
-  "overall_roi": 0.41,
-  "modelled_edge": 0.5375795909090909,
-  "realized_edge": 0.41,
-  "realized_net_profit": 9.02,
+  "hit_rate": 0.8636363636363636,
+  "overall_roi": 0.4039130434782609,
+  "modelled_edge": 0.5242891739130435,
+  "realized_edge": 0.4039130434782609,
+  "realized_net_profit": 9.290000000000001,
   "calibration": [
     {
       "bucket": "70%+",
-      "n": 21,
+      "n": 22,
       "model": 0.75,
-      "realized": 0.8571428571428571,
-      "roi": 0.42952380952380953,
-      "ci_lo": 0.6840871919777547,
-      "ci_hi": 0.9354043845787334,
-      "bayes_mean": 0.8260869565217391,
+      "realized": 0.8636363636363636,
+      "roi": 0.4222727272727273,
+      "ci_lo": 0.6963622984425382,
+      "ci_hi": 0.9383244825096764,
+      "bayes_mean": 0.8333333333333334,
       "verdict": "on-track"
     }
   ],
@@ -42,11 +42,11 @@
   "by_market": [
     {
       "key": "Home or GG",
-      "n": 8,
-      "wins": 7,
+      "n": 9,
+      "wins": 8,
       "losses": 1,
-      "hit": 0.875,
-      "roi": 0.32875
+      "hit": 0.8888888888888888,
+      "roi": 0.3222222222222222
     },
     {
       "key": "Away or GG",
@@ -84,11 +84,11 @@
   "by_tier": [
     {
       "key": "Reliable",
-      "n": 11,
-      "wins": 10,
+      "n": 12,
+      "wins": 11,
       "losses": 1,
-      "hit": 0.9090909090909091,
-      "roi": 0.45
+      "hit": 0.9166666666666666,
+      "roi": 0.43500000000000005
     },
     {
       "key": "Elite",
@@ -117,20 +117,20 @@
       "roi": -0.22499999999999998
     },
     {
+      "key": "Serie A",
+      "n": 3,
+      "wins": 3,
+      "losses": 0,
+      "hit": 1.0,
+      "roi": 0.3533333333333333
+    },
+    {
       "key": "Primera Divisi\u00f3n",
       "n": 2,
       "wins": 2,
       "losses": 0,
       "hit": 1.0,
       "roi": 0.52
-    },
-    {
-      "key": "Serie A",
-      "n": 2,
-      "wins": 2,
-      "losses": 0,
-      "hit": 1.0,
-      "roi": 0.3949999999999999
     },
     {
       "key": "USL Championship",
@@ -253,6 +253,14 @@
       "losses": 0,
       "hit": 1.0,
       "roi": 0.3899999999999999
+    },
+    {
+      "key": "2026-11-02",
+      "n": 1,
+      "wins": 1,
+      "losses": 0,
+      "hit": 1.0,
+      "roi": 0.27
     }
   ],
   "concentration": [
@@ -304,64 +312,40 @@
       "name": "rsa-national-first-division"
     },
     {
-      "league": "uae-pro-league",
-      "n_recent": 60,
-      "recent_avg": 3.4166666666666665,
-      "baseline_avg": 2.9,
-      "delta": 0.5166666666666666,
-      "z_plain": 2.3621736079828377,
-      "z_ewma": 2.916390249218138,
-      "z": 2.916390249218138,
-      "status": "drift",
-      "name": "uae-pro-league"
-    },
-    {
       "league": "aut-bundesliga",
       "n_recent": 60,
-      "recent_avg": 3.3333333333333335,
-      "baseline_avg": 2.6875,
-      "delta": 0.6458333333333335,
-      "z_plain": 3.2258925594071153,
-      "z_ewma": 2.5063200421729053,
-      "z": 2.5063200421729053,
+      "recent_avg": 3.4,
+      "baseline_avg": 2.7125,
+      "delta": 0.6875,
+      "z_plain": 3.477951331327244,
+      "z_ewma": 3.0140415357671277,
+      "z": 3.0140415357671277,
       "status": "drift",
       "name": "aut-bundesliga"
     },
     {
-      "league": "egy-premier-league",
+      "league": "uae-pro-league",
       "n_recent": 60,
-      "recent_avg": 2.183333333333333,
-      "baseline_avg": 2.731707317073171,
-      "delta": -0.5483739837398378,
-      "z_plain": -3.2566590265591846,
-      "z_ewma": -2.496111184151614,
-      "z": -2.496111184151614,
-      "status": "watch",
-      "name": "egy-premier-league"
+      "recent_avg": 3.45,
+      "baseline_avg": 2.9,
+      "delta": 0.5500000000000003,
+      "z_plain": 2.5200996584921795,
+      "z_ewma": 2.9110655697764436,
+      "z": 2.9110655697764436,
+      "status": "drift",
+      "name": "uae-pro-league"
     },
     {
       "league": "nor-eliteserien",
       "n_recent": 60,
-      "recent_avg": 3.7,
-      "baseline_avg": 3.0375,
-      "delta": 0.6625000000000001,
-      "z_plain": 2.948071008536174,
-      "z_ewma": 2.434320328655705,
-      "z": 2.434320328655705,
-      "status": "watch",
+      "recent_avg": 3.783333333333333,
+      "baseline_avg": 3.01875,
+      "delta": 0.7645833333333334,
+      "z_plain": 3.370413195594487,
+      "z_ewma": 2.6951736849667207,
+      "z": 2.6951736849667207,
+      "status": "drift",
       "name": "nor-eliteserien"
-    },
-    {
-      "league": "bel-pro-league",
-      "n_recent": 60,
-      "recent_avg": 3.2333333333333334,
-      "baseline_avg": 2.98125,
-      "delta": 0.2520833333333332,
-      "z_plain": 1.1112261489562199,
-      "z_ewma": 2.4224115076570087,
-      "z": 2.4224115076570087,
-      "status": "watch",
-      "name": "bel-pro-league"
     },
     {
       "league": "chn-csl",
@@ -400,28 +384,16 @@
       "name": "cyp-first-division"
     },
     {
-      "league": "ger-2-bundesliga",
+      "league": "esp-la-liga-2",
       "n_recent": 60,
-      "recent_avg": 2.533333333333333,
-      "baseline_avg": 3.225,
-      "delta": -0.6916666666666669,
-      "z_plain": -2.753650780937802,
-      "z_ewma": -2.0064542728523307,
-      "z": -2.0064542728523307,
+      "recent_avg": 3.066666666666667,
+      "baseline_avg": 2.63125,
+      "delta": 0.4354166666666668,
+      "z_plain": 2.087025155985395,
+      "z_ewma": 1.9192479904656028,
+      "z": 1.9192479904656028,
       "status": "watch",
-      "name": "ger-2-bundesliga"
-    },
-    {
-      "league": "eng-premier-league",
-      "n_recent": 60,
-      "recent_avg": 2.55,
-      "baseline_avg": 2.78125,
-      "delta": -0.23125000000000018,
-      "z_plain": -1.0359815827133492,
-      "z_ewma": -1.9138813862735695,
-      "z": -1.9138813862735695,
-      "status": "watch",
-      "name": "eng-premier-league"
+      "name": "esp-la-liga-2"
     },
     {
       "league": "sco-championship",
@@ -436,16 +408,52 @@
       "name": "sco-championship"
     },
     {
-      "league": "esp-la-liga-2",
+      "league": "por-primeira-liga",
       "n_recent": 60,
-      "recent_avg": 3.066666666666667,
-      "baseline_avg": 2.65,
-      "delta": 0.41666666666666696,
-      "z_plain": 1.9801632259778883,
-      "z_ewma": 1.7748477560183036,
-      "z": 1.7748477560183036,
+      "recent_avg": 2.783333333333333,
+      "baseline_avg": 2.60625,
+      "delta": 0.17708333333333304,
+      "z_plain": 0.8893950376021721,
+      "z_ewma": -1.835088679966439,
+      "z": -1.835088679966439,
       "status": "watch",
-      "name": "esp-la-liga-2"
+      "name": "por-primeira-liga"
+    },
+    {
+      "league": "ger-2-bundesliga",
+      "n_recent": 60,
+      "recent_avg": 2.5166666666666666,
+      "baseline_avg": 3.19375,
+      "delta": -0.6770833333333335,
+      "z_plain": -2.7724425972708753,
+      "z_ewma": -1.8072477385841714,
+      "z": -1.8072477385841714,
+      "status": "watch",
+      "name": "ger-2-bundesliga"
+    },
+    {
+      "league": "tur-super-lig",
+      "n_recent": 60,
+      "recent_avg": 3.1,
+      "baseline_avg": 2.75625,
+      "delta": 0.34375,
+      "z_plain": 1.684037437503507,
+      "z_ewma": 1.7911651713320427,
+      "z": 1.7911651713320427,
+      "status": "watch",
+      "name": "tur-super-lig"
+    },
+    {
+      "league": "rou-liga-2",
+      "n_recent": 60,
+      "recent_avg": 2.7,
+      "baseline_avg": 3.1791044776119404,
+      "delta": -0.4791044776119402,
+      "z_plain": -2.369847879579181,
+      "z_ewma": -1.7619300124716704,
+      "z": -1.7619300124716704,
+      "status": "watch",
+      "name": "rou-liga-2"
     },
     {
       "league": "sau-pro-league",
@@ -472,16 +480,16 @@
       "name": "nzl-national-league"
     },
     {
-      "league": "rou-liga-2",
+      "league": "swe-allsvenskan",
       "n_recent": 60,
-      "recent_avg": 2.7333333333333334,
-      "baseline_avg": 3.1492537313432836,
-      "delta": -0.4159203980099502,
-      "z_plain": -2.053152263617291,
-      "z_ewma": -1.6928190542479125,
-      "z": -1.6928190542479125,
+      "recent_avg": 2.6,
+      "baseline_avg": 2.9375,
+      "delta": -0.3374999999999999,
+      "z_plain": -1.4810881998945122,
+      "z_ewma": -1.7237930855159078,
+      "z": -1.7237930855159078,
       "status": "watch",
-      "name": "rou-liga-2"
+      "name": "swe-allsvenskan"
     },
     {
       "league": "rus-first-league",
@@ -502,10 +510,22 @@
       "baseline_avg": 3.066666666666667,
       "delta": -0.6166666666666667,
       "z_plain": -2.694961210762689,
-      "z_ewma": -1.6282737088173975,
-      "z": -1.6282737088173975,
+      "z_ewma": -1.6421425420256106,
+      "z": -1.6421425420256106,
       "status": "watch",
       "name": "jpn-j3-league"
+    },
+    {
+      "league": "chi-primera",
+      "n_recent": 60,
+      "recent_avg": 2.783333333333333,
+      "baseline_avg": 2.875,
+      "delta": -0.09166666666666679,
+      "z_plain": -0.3974363660067244,
+      "z_ewma": -1.6164711549460293,
+      "z": -1.6164711549460293,
+      "status": "watch",
+      "name": "chi-primera"
     },
     {
       "league": "kor-k-league-2",
@@ -532,30 +552,6 @@
       "name": "est-meistriliiga"
     },
     {
-      "league": "por-primeira-liga",
-      "n_recent": 60,
-      "recent_avg": 2.8666666666666667,
-      "baseline_avg": 2.59375,
-      "delta": 0.2729166666666667,
-      "z_plain": 1.3772855217270876,
-      "z_ewma": -1.4933046412603452,
-      "z": -1.4933046412603452,
-      "status": "stable",
-      "name": "por-primeira-liga"
-    },
-    {
-      "league": "esp-la-liga",
-      "n_recent": 60,
-      "recent_avg": 3.05,
-      "baseline_avg": 2.95,
-      "delta": 0.09999999999999964,
-      "z_plain": 0.4441514060137809,
-      "z_ewma": -1.4505333038152326,
-      "z": -1.4505333038152326,
-      "status": "stable",
-      "name": "esp-la-liga"
-    },
-    {
       "league": "sgp-premier-league",
       "n_recent": 60,
       "recent_avg": 3.4833333333333334,
@@ -580,6 +576,18 @@
       "name": "gua-liga-nacional"
     },
     {
+      "league": "swe-superettan",
+      "n_recent": 60,
+      "recent_avg": 2.466666666666667,
+      "baseline_avg": 3.075,
+      "delta": -0.6083333333333334,
+      "z_plain": -2.588029922676283,
+      "z_ewma": -1.4161430785463316,
+      "z": -1.4161430785463316,
+      "status": "stable",
+      "name": "swe-superettan"
+    },
+    {
       "league": "mex-expansion",
       "n_recent": 60,
       "recent_avg": 3.0166666666666666,
@@ -590,6 +598,18 @@
       "z": -1.3889334361955188,
       "status": "stable",
       "name": "mex-expansion"
+    },
+    {
+      "league": "esp-la-liga",
+      "n_recent": 60,
+      "recent_avg": 2.8333333333333335,
+      "baseline_avg": 3.0,
+      "delta": -0.16666666666666652,
+      "z_plain": -0.6966692079803617,
+      "z_ewma": -1.3667283548675233,
+      "z": -1.3667283548675233,
+      "status": "stable",
+      "name": "esp-la-liga"
     },
     {
       "league": "usa-mls",
@@ -628,6 +648,18 @@
       "name": "idn-super-league"
     },
     {
+      "league": "eng-premier-league",
+      "n_recent": 60,
+      "recent_avg": 2.6,
+      "baseline_avg": 2.775,
+      "delta": -0.17499999999999982,
+      "z_plain": -0.781886510951258,
+      "z_ewma": -1.3313166874589375,
+      "z": -1.3313166874589375,
+      "status": "stable",
+      "name": "eng-premier-league"
+    },
+    {
       "league": "arg-primera-nacional",
       "n_recent": 60,
       "recent_avg": 2.0833333333333335,
@@ -664,40 +696,28 @@
       "name": "eng-league-one"
     },
     {
-      "league": "chi-primera",
+      "league": "bel-pro-league",
       "n_recent": 60,
-      "recent_avg": 2.8333333333333335,
-      "baseline_avg": 2.88125,
-      "delta": -0.04791666666666661,
-      "z_plain": -0.20873123651976183,
-      "z_ewma": -1.2402165705560821,
-      "z": -1.2402165705560821,
+      "recent_avg": 3.216666666666667,
+      "baseline_avg": 2.95625,
+      "delta": 0.26041666666666696,
+      "z_plain": 1.1674443996390174,
+      "z_ewma": 1.2291435443652,
+      "z": 1.2291435443652,
       "status": "stable",
-      "name": "chi-primera"
+      "name": "bel-pro-league"
     },
     {
       "league": "gre-super-league",
       "n_recent": 60,
-      "recent_avg": 2.7333333333333334,
+      "recent_avg": 2.75,
       "baseline_avg": 2.50625,
-      "delta": 0.2270833333333333,
-      "z_plain": 1.1438501539771586,
-      "z_ewma": 1.221782417810388,
-      "z": 1.221782417810388,
+      "delta": 0.2437499999999999,
+      "z_plain": 1.2278024588562158,
+      "z_ewma": 1.2277467797197759,
+      "z": 1.2277467797197759,
       "status": "stable",
       "name": "gre-super-league"
-    },
-    {
-      "league": "swe-allsvenskan",
-      "n_recent": 60,
-      "recent_avg": 2.6333333333333333,
-      "baseline_avg": 2.93125,
-      "delta": -0.2979166666666666,
-      "z_plain": -1.319598980631881,
-      "z_ewma": -1.2217362966451615,
-      "z": -1.2217362966451615,
-      "status": "stable",
-      "name": "swe-allsvenskan"
     },
     {
       "league": "irq-stars-league",
@@ -710,6 +730,30 @@
       "z": -1.1839661930069547,
       "status": "stable",
       "name": "irq-stars-league"
+    },
+    {
+      "league": "par-primera",
+      "n_recent": 60,
+      "recent_avg": 2.4166666666666665,
+      "baseline_avg": 2.45625,
+      "delta": -0.039583333333333304,
+      "z_plain": -0.2067486182613395,
+      "z_ewma": 1.1585618184236253,
+      "z": 1.1585618184236253,
+      "status": "stable",
+      "name": "par-primera"
+    },
+    {
+      "league": "bra-serie-b",
+      "n_recent": 60,
+      "recent_avg": 2.3666666666666667,
+      "baseline_avg": 2.5375,
+      "delta": -0.1708333333333334,
+      "z_plain": -0.9133135482026628,
+      "z_ewma": 1.1456913211947617,
+      "z": 1.1456913211947617,
+      "status": "stable",
+      "name": "bra-serie-b"
     },
     {
       "league": "rsa-premiership",
@@ -730,8 +774,8 @@
       "baseline_avg": 2.76875,
       "delta": -0.4854166666666666,
       "z_plain": -2.3994385571839136,
-      "z_ewma": -1.1103409711314933,
-      "z": -1.1103409711314933,
+      "z_ewma": -1.0827285271695284,
+      "z": -1.0827285271695284,
       "status": "stable",
       "name": "chn-league-one"
     },
@@ -742,8 +786,8 @@
       "baseline_avg": 2.5824175824175826,
       "delta": 0.30091575091575073,
       "z_plain": 1.360602921452424,
-      "z_ewma": 1.0854215481703207,
-      "z": 1.0854215481703207,
+      "z_ewma": 1.0576237995546633,
+      "z": 1.0576237995546633,
       "status": "stable",
       "name": "geo-erovnuli"
     },
@@ -760,16 +804,16 @@
       "name": "col-primera"
     },
     {
-      "league": "bra-serie-b",
+      "league": "pol-ekstraklasa",
       "n_recent": 60,
-      "recent_avg": 2.3666666666666667,
-      "baseline_avg": 2.55,
-      "delta": -0.18333333333333313,
-      "z_plain": -0.9522686652724255,
-      "z_ewma": 1.046751450632348,
-      "z": 1.046751450632348,
+      "recent_avg": 2.966666666666667,
+      "baseline_avg": 2.9672131147540983,
+      "delta": -0.0005464480874315392,
+      "z_plain": -0.0025004532482298778,
+      "z_ewma": -1.0003566569489608,
+      "z": -1.0003566569489608,
       "status": "stable",
-      "name": "bra-serie-b"
+      "name": "pol-ekstraklasa"
     },
     {
       "league": "ned-eerste-divisie",
@@ -844,6 +888,18 @@
       "name": "wal-cymru-premier"
     },
     {
+      "league": "ita-serie-b",
+      "n_recent": 60,
+      "recent_avg": 2.6166666666666667,
+      "baseline_avg": 2.56875,
+      "delta": 0.04791666666666661,
+      "z_plain": 0.2579300938860521,
+      "z_ewma": -0.9322038282716889,
+      "z": -0.9322038282716889,
+      "status": "stable",
+      "name": "ita-serie-b"
+    },
+    {
       "league": "hon-liga-nacional",
       "n_recent": 60,
       "recent_avg": 2.7666666666666666,
@@ -892,42 +948,6 @@
       "name": "chi-primera-b"
     },
     {
-      "league": "rus-premier-league",
-      "n_recent": 60,
-      "recent_avg": 2.6333333333333333,
-      "baseline_avg": 2.5875,
-      "delta": 0.04583333333333339,
-      "z_plain": 0.2324879291036036,
-      "z_ewma": -0.8900416911450872,
-      "z": -0.8900416911450872,
-      "status": "stable",
-      "name": "rus-premier-league"
-    },
-    {
-      "league": "swe-superettan",
-      "n_recent": 60,
-      "recent_avg": 2.466666666666667,
-      "baseline_avg": 3.13125,
-      "delta": -0.6645833333333333,
-      "z_plain": -2.8569078318760766,
-      "z_ewma": -0.8787675387332241,
-      "z": -0.8787675387332241,
-      "status": "stable",
-      "name": "swe-superettan"
-    },
-    {
-      "league": "ecu-liga-pro",
-      "n_recent": 60,
-      "recent_avg": 2.8333333333333335,
-      "baseline_avg": 2.375,
-      "delta": 0.4583333333333335,
-      "z_plain": 2.2231061572575657,
-      "z_ewma": 0.8679356902279093,
-      "z": 0.8679356902279093,
-      "status": "stable",
-      "name": "ecu-liga-pro"
-    },
-    {
       "league": "fin-veikkausliiga",
       "n_recent": 60,
       "recent_avg": 2.6666666666666665,
@@ -938,18 +958,6 @@
       "z": 0.8332121637241813,
       "status": "stable",
       "name": "fin-veikkausliiga"
-    },
-    {
-      "league": "tur-super-lig",
-      "n_recent": 60,
-      "recent_avg": 3.033333333333333,
-      "baseline_avg": 2.7375,
-      "delta": 0.2958333333333334,
-      "z_plain": 1.4576015889157334,
-      "z_ewma": 0.8213825658031491,
-      "z": 0.8213825658031491,
-      "status": "stable",
-      "name": "tur-super-lig"
     },
     {
       "league": "jpn-j1-league",
@@ -976,42 +984,6 @@
       "name": "eng-national-league"
     },
     {
-      "league": "par-primera",
-      "n_recent": 60,
-      "recent_avg": 2.4,
-      "baseline_avg": 2.44375,
-      "delta": -0.04375000000000018,
-      "z_plain": -0.22792577551087262,
-      "z_ewma": 0.7861182157727289,
-      "z": 0.7861182157727289,
-      "status": "stable",
-      "name": "par-primera"
-    },
-    {
-      "league": "ned-eredivisie",
-      "n_recent": 60,
-      "recent_avg": 3.7,
-      "baseline_avg": 3.5875,
-      "delta": 0.11250000000000027,
-      "z_plain": 0.5369530778795379,
-      "z_ewma": 0.7494467007879452,
-      "z": 0.7494467007879452,
-      "status": "stable",
-      "name": "ned-eredivisie"
-    },
-    {
-      "league": "rou-liga-1",
-      "n_recent": 60,
-      "recent_avg": 2.75,
-      "baseline_avg": 2.7111111111111112,
-      "delta": 0.03888888888888875,
-      "z_plain": 0.1731023417661573,
-      "z_ewma": -0.7484455082400044,
-      "z": -0.7484455082400044,
-      "status": "stable",
-      "name": "rou-liga-1"
-    },
-    {
       "league": "bra-serie-a",
       "n_recent": 60,
       "recent_avg": 2.716666666666667,
@@ -1022,18 +994,6 @@
       "z": 0.7378519276498433,
       "status": "stable",
       "name": "bra-serie-a"
-    },
-    {
-      "league": "pol-ekstraklasa",
-      "n_recent": 60,
-      "recent_avg": 3.066666666666667,
-      "baseline_avg": 2.9298245614035086,
-      "delta": 0.13684210526315832,
-      "z_plain": 0.6397719412500618,
-      "z_ewma": -0.7354110316701193,
-      "z": -0.7354110316701193,
-      "status": "stable",
-      "name": "pol-ekstraklasa"
     },
     {
       "league": "srp-superliga",
@@ -1048,16 +1008,28 @@
       "name": "srp-superliga"
     },
     {
-      "league": "fra-ligue-1",
+      "league": "rou-liga-1",
       "n_recent": 60,
-      "recent_avg": 3.15,
-      "baseline_avg": 2.8625,
-      "delta": 0.2875000000000001,
-      "z_plain": 1.2279242382540245,
-      "z_ewma": 0.7262729021105755,
-      "z": 0.7262729021105755,
+      "recent_avg": 2.75,
+      "baseline_avg": 2.7111111111111112,
+      "delta": 0.03888888888888875,
+      "z_plain": 0.1681286829728317,
+      "z_ewma": -0.7240664902587736,
+      "z": -0.7240664902587736,
       "status": "stable",
-      "name": "fra-ligue-1"
+      "name": "rou-liga-1"
+    },
+    {
+      "league": "arg-primera",
+      "n_recent": 60,
+      "recent_avg": 2.3666666666666667,
+      "baseline_avg": 2.40625,
+      "delta": -0.039583333333333304,
+      "z_plain": -0.22080296566929036,
+      "z_ewma": -0.7054124974086824,
+      "z": -0.7054124974086824,
+      "status": "stable",
+      "name": "arg-primera"
     },
     {
       "league": "bul-second-league",
@@ -1066,8 +1038,8 @@
       "baseline_avg": 2.517857142857143,
       "delta": 0.28214285714285703,
       "z_plain": 1.2734809710566235,
-      "z_ewma": -0.7102192047490586,
-      "z": -0.7102192047490586,
+      "z_ewma": -0.7020077388493104,
+      "z": -0.7020077388493104,
       "status": "stable",
       "name": "bul-second-league"
     },
@@ -1090,8 +1062,8 @@
       "baseline_avg": 3.2459016393442623,
       "delta": 0.08743169398907114,
       "z_plain": 0.3591807339139777,
-      "z_ewma": 0.6579601452945767,
-      "z": 0.6579601452945767,
+      "z_ewma": 0.6575306450491288,
+      "z": 0.6575306450491288,
       "status": "stable",
       "name": "ger-3-liga"
     },
@@ -1108,6 +1080,18 @@
       "name": "qat-stars-league"
     },
     {
+      "league": "egy-premier-league",
+      "n_recent": 60,
+      "recent_avg": 2.3666666666666667,
+      "baseline_avg": 2.588235294117647,
+      "delta": -0.2215686274509805,
+      "z_plain": -1.353842070922083,
+      "z_ewma": 0.599440225569583,
+      "z": 0.599440225569583,
+      "status": "stable",
+      "name": "egy-premier-league"
+    },
+    {
       "league": "ken-premier-league",
       "n_recent": 60,
       "recent_avg": 2.066666666666667,
@@ -1118,42 +1102,6 @@
       "z": 0.5441836047534875,
       "status": "stable",
       "name": "ken-premier-league"
-    },
-    {
-      "league": "blr-premier-league",
-      "n_recent": 60,
-      "recent_avg": 2.4833333333333334,
-      "baseline_avg": 2.6305732484076434,
-      "delta": -0.14723991507431,
-      "z_plain": -0.6864990820903741,
-      "z_ewma": 0.5236036091532875,
-      "z": 0.5236036091532875,
-      "status": "stable",
-      "name": "blr-premier-league"
-    },
-    {
-      "league": "per-liga-1",
-      "n_recent": 60,
-      "recent_avg": 2.966666666666667,
-      "baseline_avg": 2.8375,
-      "delta": 0.12916666666666687,
-      "z_plain": 0.5948767334943572,
-      "z_ewma": 0.5074468518371327,
-      "z": 0.5074468518371327,
-      "status": "stable",
-      "name": "per-liga-1"
-    },
-    {
-      "league": "isr-leumit",
-      "n_recent": 60,
-      "recent_avg": 2.933333333333333,
-      "baseline_avg": 3.1818181818181817,
-      "delta": -0.24848484848484853,
-      "z_plain": -1.0069928458730821,
-      "z_ewma": -0.5020165389052264,
-      "z": -0.5020165389052264,
-      "status": "stable",
-      "name": "isr-leumit"
     },
     {
       "league": "kaz-premier-league",
@@ -1168,6 +1116,30 @@
       "name": "kaz-premier-league"
     },
     {
+      "league": "isr-leumit",
+      "n_recent": 60,
+      "recent_avg": 2.933333333333333,
+      "baseline_avg": 3.1818181818181817,
+      "delta": -0.24848484848484853,
+      "z_plain": -1.0069928458730821,
+      "z_ewma": -0.4239428361956486,
+      "z": -0.4239428361956486,
+      "status": "stable",
+      "name": "isr-leumit"
+    },
+    {
+      "league": "ger-bundesliga",
+      "n_recent": 60,
+      "recent_avg": 3.3833333333333333,
+      "baseline_avg": 3.48125,
+      "delta": -0.09791666666666687,
+      "z_plain": -0.45805283988120765,
+      "z_ewma": -0.4107297690277699,
+      "z": -0.4107297690277699,
+      "status": "stable",
+      "name": "ger-bundesliga"
+    },
+    {
       "league": "tha-league-1",
       "n_recent": 60,
       "recent_avg": 2.4166666666666665,
@@ -1180,28 +1152,16 @@
       "name": "tha-league-1"
     },
     {
-      "league": "ger-bundesliga",
-      "n_recent": 60,
-      "recent_avg": 3.45,
-      "baseline_avg": 3.475,
-      "delta": -0.02499999999999991,
-      "z_plain": -0.11722476504752317,
-      "z_ewma": 0.35806524240137066,
-      "z": 0.35806524240137066,
-      "status": "stable",
-      "name": "ger-bundesliga"
-    },
-    {
-      "league": "fra-ligue-2",
+      "league": "ecu-liga-pro",
       "n_recent": 60,
       "recent_avg": 2.783333333333333,
-      "baseline_avg": 2.6375,
-      "delta": 0.14583333333333304,
-      "z_plain": 0.5859309452056607,
-      "z_ewma": 0.353358433341341,
-      "z": 0.353358433341341,
+      "baseline_avg": 2.375,
+      "delta": 0.4083333333333332,
+      "z_plain": 1.9805854855567393,
+      "z_ewma": 0.3546030219957697,
+      "z": 0.3546030219957697,
       "status": "stable",
-      "name": "fra-ligue-2"
+      "name": "ecu-liga-pro"
     },
     {
       "league": "nor-1-divisjon",
@@ -1216,40 +1176,28 @@
       "name": "nor-1-divisjon"
     },
     {
-      "league": "arg-primera",
+      "league": "cze-first-league",
       "n_recent": 60,
-      "recent_avg": 2.4,
-      "baseline_avg": 2.3875,
-      "delta": 0.012499999999999734,
-      "z_plain": 0.07002695896220953,
-      "z_ewma": 0.3243644652423935,
-      "z": 0.3243644652423935,
+      "recent_avg": 2.8333333333333335,
+      "baseline_avg": 2.630434782608696,
+      "delta": 0.2028985507246377,
+      "z_plain": 1.0832930649854629,
+      "z_ewma": -0.3078423544988388,
+      "z": -0.3078423544988388,
       "status": "stable",
-      "name": "arg-primera"
+      "name": "cze-first-league"
     },
     {
-      "league": "ita-serie-a",
+      "league": "fra-ligue-1",
       "n_recent": 60,
-      "recent_avg": 3.283333333333333,
-      "baseline_avg": 2.9,
-      "delta": 0.3833333333333333,
-      "z_plain": 1.8758197672475856,
-      "z_ewma": 0.3000830594437956,
-      "z": 0.3000830594437956,
+      "recent_avg": 3.1,
+      "baseline_avg": 2.83125,
+      "delta": 0.26875000000000027,
+      "z_plain": 1.1664256258353767,
+      "z_ewma": -0.290975652030246,
+      "z": -0.290975652030246,
       "status": "stable",
-      "name": "ita-serie-a"
-    },
-    {
-      "league": "bol-liga-1",
-      "n_recent": 60,
-      "recent_avg": 3.05,
-      "baseline_avg": 3.28125,
-      "delta": -0.23125000000000018,
-      "z_plain": -0.9127635399808363,
-      "z_ewma": -0.28936493512047007,
-      "z": -0.28936493512047007,
-      "status": "stable",
-      "name": "bol-liga-1"
+      "name": "fra-ligue-1"
     },
     {
       "league": "aus-a-league",
@@ -1288,6 +1236,18 @@
       "name": "usa-usl-league-one"
     },
     {
+      "league": "rus-premier-league",
+      "n_recent": 60,
+      "recent_avg": 2.6666666666666665,
+      "baseline_avg": 2.6,
+      "delta": 0.06666666666666643,
+      "z_plain": 0.33742564920777135,
+      "z_ewma": 0.24505306509933467,
+      "z": 0.24505306509933467,
+      "status": "stable",
+      "name": "rus-premier-league"
+    },
+    {
       "league": "uru-primera",
       "n_recent": 60,
       "recent_avg": 2.4833333333333334,
@@ -1300,16 +1260,40 @@
       "name": "uru-primera"
     },
     {
-      "league": "tur-1-lig",
+      "league": "ita-serie-a",
       "n_recent": 60,
-      "recent_avg": 2.716666666666667,
-      "baseline_avg": 2.8412698412698414,
-      "delta": -0.1246031746031746,
-      "z_plain": -0.6155877956688321,
-      "z_ewma": 0.2327227044010182,
-      "z": 0.2327227044010182,
+      "recent_avg": 3.283333333333333,
+      "baseline_avg": 2.91875,
+      "delta": 0.36458333333333304,
+      "z_plain": 1.7895929189134512,
+      "z_ewma": 0.24267282012887623,
+      "z": 0.24267282012887623,
       "status": "stable",
-      "name": "tur-1-lig"
+      "name": "ita-serie-a"
+    },
+    {
+      "league": "pol-1-liga",
+      "n_recent": 60,
+      "recent_avg": 2.9,
+      "baseline_avg": 2.564516129032258,
+      "delta": 0.3354838709677419,
+      "z_plain": 1.6503500660841952,
+      "z_ewma": -0.2080964208981235,
+      "z": -0.2080964208981235,
+      "status": "stable",
+      "name": "pol-1-liga"
+    },
+    {
+      "league": "blr-premier-league",
+      "n_recent": 60,
+      "recent_avg": 2.5166666666666666,
+      "baseline_avg": 2.64375,
+      "delta": -0.12708333333333321,
+      "z_plain": -0.5953482577093958,
+      "z_ewma": 0.2018307447228216,
+      "z": 0.2018307447228216,
+      "status": "stable",
+      "name": "blr-premier-league"
     },
     {
       "league": "mlt-premier-league",
@@ -1342,10 +1326,22 @@
       "baseline_avg": 2.702127659574468,
       "delta": -0.03546099290780136,
       "z_plain": -0.16477427129866176,
-      "z_ewma": 0.15844301370406771,
-      "z": 0.15844301370406771,
+      "z_ewma": 0.16095310399642307,
+      "z": 0.16095310399642307,
       "status": "stable",
       "name": "ukr-persha"
+    },
+    {
+      "league": "srp-first-league",
+      "n_recent": 60,
+      "recent_avg": 2.5833333333333335,
+      "baseline_avg": 2.8372093023255816,
+      "delta": -0.25387596899224807,
+      "z_plain": -1.2067596110556875,
+      "z_ewma": -0.15535216488999673,
+      "z": -0.15535216488999673,
+      "status": "stable",
+      "name": "srp-first-league"
     },
     {
       "league": "lva-virsliga",
@@ -1372,18 +1368,6 @@
       "name": "eng-championship"
     },
     {
-      "league": "srp-first-league",
-      "n_recent": 60,
-      "recent_avg": 2.5833333333333335,
-      "baseline_avg": 2.8372093023255816,
-      "delta": -0.25387596899224807,
-      "z_plain": -1.2067596110556875,
-      "z_ewma": -0.14392574533587055,
-      "z": -0.14392574533587055,
-      "status": "stable",
-      "name": "srp-first-league"
-    },
-    {
       "league": "svn-prvaliga",
       "n_recent": 60,
       "recent_avg": 2.85,
@@ -1396,16 +1380,16 @@
       "name": "svn-prvaliga"
     },
     {
-      "league": "pol-1-liga",
+      "league": "per-liga-1",
       "n_recent": 60,
       "recent_avg": 2.933333333333333,
-      "baseline_avg": 2.4745762711864407,
-      "delta": 0.4587570621468924,
-      "z_plain": 2.281429359554647,
-      "z_ewma": -0.1335287022473979,
-      "z": -0.1335287022473979,
+      "baseline_avg": 2.8625,
+      "delta": 0.0708333333333333,
+      "z_plain": 0.3294616602025159,
+      "z_ewma": -0.11162213083722895,
+      "z": -0.11162213083722895,
       "status": "stable",
-      "name": "pol-1-liga"
+      "name": "per-liga-1"
     },
     {
       "league": "mex-liga-mx",
@@ -1444,16 +1428,28 @@
       "name": "usa-usl"
     },
     {
-      "league": "ita-serie-b",
+      "league": "ned-eredivisie",
       "n_recent": 60,
-      "recent_avg": 2.7333333333333334,
-      "baseline_avg": 2.54375,
-      "delta": 0.18958333333333321,
-      "z_plain": 1.0324119686463415,
-      "z_ewma": 0.07243799432503348,
-      "z": 0.07243799432503348,
+      "recent_avg": 3.683333333333333,
+      "baseline_avg": 3.59375,
+      "delta": 0.08958333333333313,
+      "z_plain": 0.4286916559647278,
+      "z_ewma": -0.08598166384727939,
+      "z": -0.08598166384727939,
       "status": "stable",
-      "name": "ita-serie-b"
+      "name": "ned-eredivisie"
+    },
+    {
+      "league": "bol-liga-1",
+      "n_recent": 60,
+      "recent_avg": 3.05,
+      "baseline_avg": 3.28125,
+      "delta": -0.23125000000000018,
+      "z_plain": -0.9127635399808363,
+      "z_ewma": -0.08076274644595494,
+      "z": -0.08076274644595494,
+      "status": "stable",
+      "name": "bol-liga-1"
     },
     {
       "league": "uzb-super-league",
@@ -1468,6 +1464,18 @@
       "name": "uzb-super-league"
     },
     {
+      "league": "sco-premiership",
+      "n_recent": 60,
+      "recent_avg": 2.8333333333333335,
+      "baseline_avg": 2.85625,
+      "delta": -0.022916666666666696,
+      "z_plain": -0.1003331717977001,
+      "z_ewma": 0.05930692578179648,
+      "z": 0.05930692578179648,
+      "status": "stable",
+      "name": "sco-premiership"
+    },
+    {
       "league": "irl-premier",
       "n_recent": 60,
       "recent_avg": 2.816666666666667,
@@ -1480,16 +1488,28 @@
       "name": "irl-premier"
     },
     {
-      "league": "sco-premiership",
+      "league": "fra-ligue-2",
       "n_recent": 60,
-      "recent_avg": 2.816666666666667,
-      "baseline_avg": 2.84375,
-      "delta": -0.027083333333333126,
-      "z_plain": -0.11770375147558858,
-      "z_ewma": 0.0519457507146411,
-      "z": 0.0519457507146411,
+      "recent_avg": 2.7666666666666666,
+      "baseline_avg": 2.65,
+      "delta": 0.1166666666666667,
+      "z_plain": 0.4666079775302131,
+      "z_ewma": -0.04707129981998144,
+      "z": -0.04707129981998144,
       "status": "stable",
-      "name": "sco-premiership"
+      "name": "fra-ligue-2"
+    },
+    {
+      "league": "den-superliga",
+      "n_recent": 60,
+      "recent_avg": 3.3,
+      "baseline_avg": 2.875,
+      "delta": 0.4249999999999998,
+      "z_plain": 1.8956965148275997,
+      "z_ewma": 0.04079492702639721,
+      "z": 0.04079492702639721,
+      "status": "stable",
+      "name": "den-superliga"
     },
     {
       "league": "jpn-j2-league",
@@ -1504,30 +1524,6 @@
       "name": "jpn-j2-league"
     },
     {
-      "league": "cze-first-league",
-      "n_recent": 60,
-      "recent_avg": 2.85,
-      "baseline_avg": 2.5952380952380953,
-      "delta": 0.25476190476190474,
-      "z_plain": 1.4482894526992067,
-      "z_ewma": -0.03496306003036272,
-      "z": -0.03496306003036272,
-      "status": "stable",
-      "name": "cze-first-league"
-    },
-    {
-      "league": "den-superliga",
-      "n_recent": 60,
-      "recent_avg": 3.283333333333333,
-      "baseline_avg": 2.8875,
-      "delta": 0.39583333333333304,
-      "z_plain": 1.7647258294086143,
-      "z_ewma": -0.021086861106793055,
-      "z": -0.021086861106793055,
-      "status": "stable",
-      "name": "den-superliga"
-    },
-    {
       "league": "svk-second-league",
       "n_recent": 60,
       "recent_avg": 2.816666666666667,
@@ -1538,6 +1534,18 @@
       "z": -0.009885649624857155,
       "status": "stable",
       "name": "svk-second-league"
+    },
+    {
+      "league": "tur-1-lig",
+      "n_recent": 60,
+      "recent_avg": 2.683333333333333,
+      "baseline_avg": 2.873015873015873,
+      "delta": -0.1896825396825399,
+      "z_plain": -0.9608123945529451,
+      "z_ewma": 0.0008974776273605939,
+      "z": 0.0008974776273605939,
+      "status": "stable",
+      "name": "tur-1-lig"
     }
   ],
   "bankroll": {
@@ -1564,7 +1572,8 @@
       107.66,
       108.06,
       108.63,
-      109.02
+      109.02,
+      109.28999999999999
     ],
     "quarter_kelly": [
       100.0,
@@ -1589,7 +1598,8 @@
       337.5892309402159,
       360.7731713750352,
       407.9352442030367,
-      440.63523139454105
+      440.63523139454105,
+      466.18105893463957
     ],
     "bayes_kelly": [
       100.0,
@@ -1614,27 +1624,28 @@
       304.3406160022626,
       322.0456313381942,
       360.3529591858724,
-      385.48208270645944
+      385.48208270645944,
+      404.1586896135874
     ],
     "start": 100.0
   },
   "walk_forward": {
     "generator": "gsis.walkforward.compute",
     "leagues_covered": 144,
-    "eval_slots": 5541,
-    "overall_hit_rate": 111.21,
-    "early_slots": 2839,
-    "late_slots": 2702,
-    "early_hit_rate": 55.56,
-    "late_hit_rate": 59.58,
-    "learning_delta": 4.02,
+    "eval_slots": 5552,
+    "overall_hit_rate": 111.64,
+    "early_slots": 2843,
+    "late_slots": 2709,
+    "early_hit_rate": 55.72,
+    "late_hit_rate": 59.77,
+    "learning_delta": 4.05,
     "prior_ab": {
       "active": true,
-      "leagues": 240,
-      "slots": 4857,
-      "baseline_hit_rate": 57.38,
-      "prior_hit_rate": 57.16,
-      "delta": -0.22,
+      "leagues": 241,
+      "slots": 4878,
+      "baseline_hit_rate": 57.66,
+      "prior_hit_rate": 57.41,
+      "delta": -0.25,
       "baseline_early": null,
       "prior_early": null,
       "delta_early": null,
@@ -1997,17 +2008,17 @@
       "pol-ekstraklasa": {
         "name": "Ekstraklasa",
         "season_id": 16,
-        "slots": 16,
-        "hit_rate": 68.61,
+        "slots": 18,
+        "hit_rate": 66.39,
         "early": {
-          "slots": 8,
-          "hit_rate": 58.06
+          "slots": 9,
+          "hit_rate": 62.41
         },
         "late": {
-          "slots": 8,
-          "hit_rate": 79.17
+          "slots": 9,
+          "hit_rate": 70.37
         },
-        "learning_delta": 21.11
+        "learning_delta": 7.96
       },
       "gre-super-league": {
         "name": "Greek Super League",
@@ -2084,17 +2095,17 @@
       "egy-premier-league": {
         "name": "Egyptian Premier League",
         "season_id": 20,
-        "slots": 17,
-        "hit_rate": 63.27,
+        "slots": 18,
+        "hit_rate": 67.82,
         "early": {
           "slots": 9,
-          "hit_rate": 46.54
+          "hit_rate": 48.8
         },
         "late": {
-          "slots": 8,
-          "hit_rate": 82.08
+          "slots": 9,
+          "hit_rate": 86.85
         },
-        "learning_delta": 35.54
+        "learning_delta": 38.06
       },
       "mar-botola": {
         "name": "Botola Pro",
@@ -2315,24 +2326,24 @@
       "uae-pro-league": {
         "name": "UAE Pro League",
         "season_id": 30,
-        "slots": 21,
-        "hit_rate": 60.52,
+        "slots": 19,
+        "hit_rate": 63.21,
         "early": {
-          "slots": 11,
-          "hit_rate": 61.82
+          "slots": 10,
+          "hit_rate": 64.67
         },
         "late": {
-          "slots": 10,
-          "hit_rate": 59.09
+          "slots": 9,
+          "hit_rate": 61.58
         },
-        "learning_delta": -2.73,
+        "learning_delta": -3.08,
         "prior": {
           "teams": 16,
-          "dates": 23,
-          "slots": 21,
-          "hit_rate": 62.43,
-          "delta": 1.9,
-          "early_delta": 3.64,
+          "dates": 21,
+          "slots": 19,
+          "hit_rate": 63.44,
+          "delta": 0.23,
+          "early_delta": 0.44,
           "late_delta": 0.0
         }
       },
@@ -2912,41 +2923,50 @@
       "cze-first-league": {
         "name": "Czech First League",
         "season_id": 56,
-        "slots": 20,
-        "hit_rate": 47.54,
+        "slots": 15,
+        "hit_rate": 52.64,
         "early": {
-          "slots": 10,
-          "hit_rate": 40.17
+          "slots": 8,
+          "hit_rate": 46.98
         },
         "late": {
-          "slots": 10,
-          "hit_rate": 54.91
+          "slots": 7,
+          "hit_rate": 59.1
         },
-        "learning_delta": 14.74,
+        "learning_delta": 12.12,
         "prior": {
           "teams": 16,
-          "dates": 25,
-          "slots": 20,
-          "hit_rate": 47.87,
-          "delta": 0.33,
-          "early_delta": 0.67,
-          "late_delta": 0.0
+          "dates": 19,
+          "slots": 15,
+          "hit_rate": 49.77,
+          "delta": -2.87,
+          "early_delta": -3.65,
+          "late_delta": -1.98
         }
       },
       "rou-liga-1": {
         "name": "Liga I",
         "season_id": 57,
         "slots": 16,
-        "hit_rate": 52.24,
+        "hit_rate": 52.12,
         "early": {
           "slots": 8,
-          "hit_rate": 34.43
+          "hit_rate": 32.12
         },
         "late": {
           "slots": 8,
-          "hit_rate": 70.05
+          "hit_rate": 72.13
         },
-        "learning_delta": 35.61
+        "learning_delta": 40.01,
+        "prior": {
+          "teams": 16,
+          "dates": 20,
+          "slots": 16,
+          "hit_rate": 52.68,
+          "delta": 0.56,
+          "early_delta": -0.19,
+          "late_delta": 1.3
+        }
       },
       "cro-hnl": {
         "name": "HNL",
@@ -2975,17 +2995,17 @@
       "hun-nb1": {
         "name": "NB I",
         "season_id": 59,
-        "slots": 13,
-        "hit_rate": 40.0,
+        "slots": 15,
+        "hit_rate": 47.89,
         "early": {
-          "slots": 7,
-          "hit_rate": 47.38
+          "slots": 8,
+          "hit_rate": 56.25
         },
         "late": {
-          "slots": 6,
-          "hit_rate": 31.39
+          "slots": 7,
+          "hit_rate": 38.33
         },
-        "learning_delta": -15.99
+        "learning_delta": -17.92
       },
       "fin-veikkausliiga": {
         "name": "Veikkausliiga",
@@ -3014,25 +3034,25 @@
       "por-segunda-liga": {
         "name": "Liga Portugal 2",
         "season_id": 61,
-        "slots": 15,
-        "hit_rate": 46.59,
+        "slots": 16,
+        "hit_rate": 56.45,
         "early": {
           "slots": 8,
-          "hit_rate": 52.64
+          "hit_rate": 59.65
         },
         "late": {
-          "slots": 7,
-          "hit_rate": 39.68
+          "slots": 8,
+          "hit_rate": 53.24
         },
-        "learning_delta": -12.96,
+        "learning_delta": -6.41,
         "prior": {
           "teams": 18,
-          "dates": 24,
-          "slots": 15,
-          "hit_rate": 45.8,
-          "delta": -0.79,
-          "early_delta": -1.48,
-          "late_delta": 0.0
+          "dates": 26,
+          "slots": 16,
+          "hit_rate": 55.12,
+          "delta": -1.33,
+          "early_delta": -3.87,
+          "late_delta": 1.22
         }
       },
       "kaz-premier-league": {
@@ -3135,23 +3155,23 @@
         "name": "1. Lig",
         "season_id": 67,
         "slots": 15,
-        "hit_rate": 60.04,
+        "hit_rate": 64.44,
         "early": {
           "slots": 8,
-          "hit_rate": 56.18
+          "hit_rate": 61.11
         },
         "late": {
           "slots": 7,
-          "hit_rate": 64.44
+          "hit_rate": 68.25
         },
-        "learning_delta": 8.26,
+        "learning_delta": 7.14,
         "prior": {
           "teams": 20,
           "dates": 20,
           "slots": 15,
-          "hit_rate": 60.04,
-          "delta": 0.0,
-          "early_delta": 0.0,
+          "hit_rate": 64.22,
+          "delta": -0.22,
+          "early_delta": -0.42,
           "late_delta": 0.0
         }
       },
@@ -3572,17 +3592,26 @@
       "bul-first-league": {
         "name": "First Professional Football League",
         "season_id": 86,
-        "slots": 16,
-        "hit_rate": 72.14,
+        "slots": 17,
+        "hit_rate": 68.17,
         "early": {
-          "slots": 8,
-          "hit_rate": 72.5
+          "slots": 9,
+          "hit_rate": 75.56
         },
         "late": {
           "slots": 8,
-          "hit_rate": 71.77
+          "hit_rate": 59.86
         },
-        "learning_delta": -0.73
+        "learning_delta": -15.69,
+        "prior": {
+          "teams": 14,
+          "dates": 22,
+          "slots": 17,
+          "hit_rate": 69.33,
+          "delta": 1.16,
+          "early_delta": 0.0,
+          "late_delta": 2.47
+        }
       },
       "svn-prvaliga": {
         "name": "Slovenian PrvaLiga",
@@ -3635,25 +3664,25 @@
       "blr-premier-league": {
         "name": "Belarusian Premier League",
         "season_id": 89,
-        "slots": 21,
-        "hit_rate": 68.37,
+        "slots": 19,
+        "hit_rate": 73.99,
         "early": {
-          "slots": 11,
-          "hit_rate": 61.41
+          "slots": 10,
+          "hit_rate": 63.11
         },
         "late": {
-          "slots": 10,
-          "hit_rate": 76.03
+          "slots": 9,
+          "hit_rate": 86.08
         },
-        "learning_delta": 14.61,
+        "learning_delta": 22.97,
         "prior": {
           "teams": 16,
-          "dates": 23,
-          "slots": 21,
-          "hit_rate": 69.85,
-          "delta": 1.48,
-          "early_delta": -0.2,
-          "late_delta": 3.33
+          "dates": 21,
+          "slots": 19,
+          "hit_rate": 73.52,
+          "delta": -0.47,
+          "early_delta": -0.89,
+          "late_delta": 0.0
         }
       },
       "alb-superiore": {
@@ -3804,16 +3833,16 @@
         "name": "Primera Federaci\u00f3n",
         "season_id": 102,
         "slots": 9,
-        "hit_rate": 54.44,
+        "hit_rate": 59.72,
         "early": {
           "slots": 5,
-          "hit_rate": 56.0
+          "hit_rate": 54.22
         },
         "late": {
           "slots": 4,
-          "hit_rate": 52.5
+          "hit_rate": 66.6
         },
-        "learning_delta": -3.5
+        "learning_delta": 12.38
       },
       "ger-3-liga": {
         "name": "3. Liga",
@@ -3881,25 +3910,25 @@
       "swe-superettan": {
         "name": "Superettan",
         "season_id": 108,
-        "slots": 19,
-        "hit_rate": 66.07,
+        "slots": 22,
+        "hit_rate": 62.71,
         "early": {
-          "slots": 10,
-          "hit_rate": 70.11
+          "slots": 11,
+          "hit_rate": 67.78
         },
         "late": {
-          "slots": 9,
-          "hit_rate": 61.58
+          "slots": 11,
+          "hit_rate": 57.64
         },
-        "learning_delta": -8.53,
+        "learning_delta": -10.13,
         "prior": {
           "teams": 16,
-          "dates": 23,
-          "slots": 19,
-          "hit_rate": 65.66,
-          "delta": -0.41,
-          "early_delta": -0.78,
-          "late_delta": 0.0
+          "dates": 24,
+          "slots": 22,
+          "hit_rate": 62.99,
+          "delta": 0.28,
+          "early_delta": 0.3,
+          "late_delta": 0.25
         }
       },
       "nor-1-divisjon": {
@@ -3929,24 +3958,24 @@
       "pol-1-liga": {
         "name": "I liga",
         "season_id": 110,
-        "slots": 13,
-        "hit_rate": 21.88,
+        "slots": 14,
+        "hit_rate": 18.32,
         "early": {
           "slots": 7,
-          "hit_rate": 30.32
+          "hit_rate": 27.65
         },
         "late": {
-          "slots": 6,
-          "hit_rate": 12.04
+          "slots": 7,
+          "hit_rate": 8.99
         },
-        "learning_delta": -18.28,
+        "learning_delta": -18.65,
         "prior": {
           "teams": 18,
-          "dates": 19,
-          "slots": 13,
-          "hit_rate": 20.17,
-          "delta": -1.71,
-          "early_delta": -3.17,
+          "dates": 20,
+          "slots": 14,
+          "hit_rate": 15.99,
+          "delta": -2.33,
+          "early_delta": -4.66,
           "late_delta": 0.0
         }
       },
@@ -4217,17 +4246,17 @@
       "mkd-second-league": {
         "name": "Macedonian Second Football League",
         "season_id": 122,
-        "slots": 11,
-        "hit_rate": 60.66,
+        "slots": 14,
+        "hit_rate": 69.52,
         "early": {
-          "slots": 6,
-          "hit_rate": 45.93
+          "slots": 7,
+          "hit_rate": 52.14
         },
         "late": {
-          "slots": 5,
-          "hit_rate": 78.33
+          "slots": 7,
+          "hit_rate": 86.9
         },
-        "learning_delta": 32.41
+        "learning_delta": 34.76
       },
       "kos-superleague": {
         "name": "Football Superleague of Kosovo",
@@ -4349,9 +4378,9 @@
           "teams": 16,
           "dates": 24,
           "slots": 17,
-          "hit_rate": 88.59,
-          "delta": -0.46,
-          "early_delta": 0.99,
+          "hit_rate": 87.03,
+          "delta": -2.03,
+          "early_delta": -1.98,
           "late_delta": -2.08
         }
       },
@@ -4383,36 +4412,36 @@
         "name": "Liga II",
         "season_id": 131,
         "slots": 18,
-        "hit_rate": 73.7,
+        "hit_rate": 73.02,
         "early": {
           "slots": 9,
-          "hit_rate": 61.6
+          "hit_rate": 60.86
         },
         "late": {
           "slots": 9,
-          "hit_rate": 85.8
+          "hit_rate": 85.19
         },
-        "learning_delta": 24.2
+        "learning_delta": 24.32
       },
       "srp-first-league": {
         "name": "Serbian First League",
         "season_id": 132,
         "slots": 18,
-        "hit_rate": 67.29,
+        "hit_rate": 67.39,
         "early": {
           "slots": 9,
           "hit_rate": 68.15
         },
         "late": {
           "slots": 9,
-          "hit_rate": 66.43
+          "hit_rate": 66.64
         },
-        "learning_delta": -1.72,
+        "learning_delta": -1.51,
         "prior": {
           "teams": 17,
           "dates": 24,
           "slots": 18,
-          "hit_rate": 67.66,
+          "hit_rate": 67.76,
           "delta": 0.37,
           "early_delta": 0.74,
           "late_delta": 0.0
@@ -4721,26 +4750,17 @@
       "cro-first-league": {
         "name": "First Football League",
         "season_id": 159,
-        "slots": 15,
-        "hit_rate": 38.35,
+        "slots": 17,
+        "hit_rate": 47.3,
         "early": {
-          "slots": 8,
-          "hit_rate": 45.66
+          "slots": 9,
+          "hit_rate": 53.12
         },
         "late": {
-          "slots": 7,
-          "hit_rate": 30.0
+          "slots": 8,
+          "hit_rate": 40.76
         },
-        "learning_delta": -15.66,
-        "prior": {
-          "teams": 16,
-          "dates": 20,
-          "slots": 15,
-          "hit_rate": 36.69,
-          "delta": -1.67,
-          "early_delta": -5.56,
-          "late_delta": 2.78
-        }
+        "learning_delta": -12.35
       },
       "tha-league-2": {
         "name": "Thai League 2",
@@ -4818,16 +4838,16 @@
         "name": "J3 League",
         "season_id": 165,
         "slots": 18,
-        "hit_rate": 52.83,
+        "hit_rate": 53.33,
         "early": {
           "slots": 9,
-          "hit_rate": 44.25
+          "hit_rate": 45.25
         },
         "late": {
           "slots": 9,
           "hit_rate": 61.42
         },
-        "learning_delta": 17.17
+        "learning_delta": 16.17
       },
       "ned-derde-divisie": {
         "name": "Derde Divisie",
@@ -4896,8 +4916,8 @@
   },
   "model_state": {
     "version": 1,
-    "generated_at": "2026-11-07T17:50:08+00:00",
-    "note": "1 active calibration bucket(s) from 22 settled picks \u00b7 5 drifted league(s) \u00b7 141 league(s) with adaptive gate factors \u00b7 159 league(s) with a recursive strength model",
+    "generated_at": "2026-11-07T22:53:52+00:00",
+    "note": "1 active calibration bucket(s) from 22 settled picks \u00b7 6 drifted league(s) \u00b7 141 league(s) with adaptive gate factors \u00b7 159 league(s) with a recursive strength model",
     "calibration": [
       {
         "lo": 0.5,
@@ -4969,8 +4989,9 @@
       "ned-derde-divisie": 1.0907,
       "irn-premier-league": 1.25,
       "rsa-national-first-division": 1.1515,
-      "uae-pro-league": 1.1782,
-      "aut-bundesliga": 1.2403
+      "aut-bundesliga": 1.25,
+      "uae-pro-league": 1.1897,
+      "nor-eliteserien": 1.25
     },
     "weights": {
       "usa-usl": {
@@ -5005,17 +5026,6 @@
           "historical": 0.05743421052631578
         },
         "notes": "Auto-tuned from hit-rate validation (avg_hit=44.7%, action=boost_form, step=0.018, mature_slots=37)."
-      },
-      "par-primera": {
-        "factors": {
-          "position": 0.27486842105263154,
-          "form_last5": 0.25730263157894734,
-          "wdl_rate": 0.22223684210526315,
-          "home_away": 0.09940789473684211,
-          "goal_diff": 0.09940789473684211,
-          "historical": 0.04677631578947369
-        },
-        "notes": "Auto-tuned from hit-rate validation (avg_hit=60.9%, action=boost_position, step=0.022, mature_slots=53)."
       },
       "eng-championship": {
         "factors": {
@@ -5092,7 +5102,7 @@
           "goal_diff": 0.09122807017543859,
           "historical": 0.05263157894736842
         },
-        "notes": "Auto-tuned from hit-rate validation (avg_hit=89.2%, action=boost_position, step=0.040, mature_slots=67)."
+        "notes": "Auto-tuned from hit-rate validation (avg_hit=86.0%, action=boost_position, step=0.040, mature_slots=83)."
       },
       "bra-serie-a": {
         "factors": {
@@ -5116,6 +5126,17 @@
         },
         "notes": "Auto-tuned from hit-rate validation (avg_hit=84.3%, action=boost_position, step=0.040, mature_slots=98)."
       },
+      "aut-bundesliga": {
+        "factors": {
+          "position": 0.28421052631578947,
+          "form_last5": 0.24912280701754383,
+          "wdl_rate": 0.23157894736842105,
+          "home_away": 0.09122807017543859,
+          "goal_diff": 0.09122807017543859,
+          "historical": 0.05263157894736842
+        },
+        "notes": "Auto-tuned from hit-rate validation (avg_hit=82.0%, action=boost_position, step=0.040, mature_slots=112)."
+      },
       "bel-pro-league": {
         "factors": {
           "position": 0.28421052631578947,
@@ -5127,17 +5148,6 @@
         },
         "notes": "Auto-tuned from hit-rate validation (avg_hit=81.9%, action=boost_position, step=0.040, mature_slots=76)."
       },
-      "aut-bundesliga": {
-        "factors": {
-          "position": 0.28421052631578947,
-          "form_last5": 0.24912280701754383,
-          "wdl_rate": 0.23157894736842105,
-          "home_away": 0.09122807017543859,
-          "goal_diff": 0.09122807017543859,
-          "historical": 0.05263157894736842
-        },
-        "notes": "Auto-tuned from hit-rate validation (avg_hit=81.8%, action=boost_position, step=0.040, mature_slots=104)."
-      },
       "esp-la-liga": {
         "factors": {
           "position": 0.28421052631578947,
@@ -5147,7 +5157,7 @@
           "goal_diff": 0.09122807017543859,
           "historical": 0.05263157894736842
         },
-        "notes": "Auto-tuned from hit-rate validation (avg_hit=79.0%, action=boost_position, step=0.040, mature_slots=83)."
+        "notes": "Auto-tuned from hit-rate validation (avg_hit=80.7%, action=boost_position, step=0.040, mature_slots=90)."
       },
       "ecu-liga-pro": {
         "factors": {
@@ -5169,18 +5179,7 @@
           "goal_diff": 0.09122807017543859,
           "historical": 0.05263157894736842
         },
-        "notes": "Auto-tuned from hit-rate validation (avg_hit=76.3%, action=boost_position, step=0.040, mature_slots=63)."
-      },
-      "eng-premier-league": {
-        "factors": {
-          "position": 0.28421052631578947,
-          "form_last5": 0.24912280701754383,
-          "wdl_rate": 0.23157894736842105,
-          "home_away": 0.09122807017543859,
-          "goal_diff": 0.09122807017543859,
-          "historical": 0.05263157894736842
-        },
-        "notes": "Auto-tuned from hit-rate validation (avg_hit=76.1%, action=boost_position, step=0.040, mature_slots=92)."
+        "notes": "Auto-tuned from hit-rate validation (avg_hit=77.4%, action=boost_position, step=0.040, mature_slots=60)."
       },
       "bol-liga-1": {
         "factors": {
@@ -5202,7 +5201,7 @@
           "goal_diff": 0.09122807017543859,
           "historical": 0.05263157894736842
         },
-        "notes": "Auto-tuned from hit-rate validation (avg_hit=75.9%, action=boost_position, step=0.040, mature_slots=98)."
+        "notes": "Auto-tuned from hit-rate validation (avg_hit=74.1%, action=boost_position, step=0.040, mature_slots=114)."
       },
       "hon-liga-nacional": {
         "factors": {
@@ -5224,7 +5223,7 @@
           "goal_diff": 0.09122807017543859,
           "historical": 0.05263157894736842
         },
-        "notes": "Auto-tuned from hit-rate validation (avg_hit=68.3%, action=boost_position, step=0.040, mature_slots=95)."
+        "notes": "Auto-tuned from hit-rate validation (avg_hit=70.6%, action=boost_position, step=0.040, mature_slots=111)."
       },
       "ven-liga-futve": {
         "factors": {
@@ -5248,6 +5247,17 @@
         },
         "notes": "Auto-tuned from hit-rate validation (avg_hit=67.6%, action=boost_position, step=0.039, mature_slots=109)."
       },
+      "eng-premier-league": {
+        "factors": {
+          "position": 0.28355263157894733,
+          "form_last5": 0.24956140350877193,
+          "wdl_rate": 0.23092105263157894,
+          "home_away": 0.09166666666666667,
+          "goal_diff": 0.09166666666666667,
+          "historical": 0.05263157894736842
+        },
+        "notes": "Auto-tuned from hit-rate validation (avg_hit=67.5%, action=boost_position, step=0.039, mature_slots=99)."
+      },
       "jpn-j1-league": {
         "factors": {
           "position": 0.28328947368421054,
@@ -5261,14 +5271,25 @@
       },
       "ita-serie-a": {
         "factors": {
-          "position": 0.28144736842105267,
-          "form_last5": 0.2509649122807017,
-          "wdl_rate": 0.2288157894736842,
-          "home_away": 0.09307017543859648,
-          "goal_diff": 0.09307017543859648,
+          "position": 0.2827631578947368,
+          "form_last5": 0.2500877192982456,
+          "wdl_rate": 0.2301315789473684,
+          "home_away": 0.09219298245614034,
+          "goal_diff": 0.09219298245614034,
           "historical": 0.05263157894736842
         },
-        "notes": "Auto-tuned from hit-rate validation (avg_hit=65.9%, action=boost_position, step=0.035, mature_slots=107)."
+        "notes": "Auto-tuned from hit-rate validation (avg_hit=66.9%, action=boost_position, step=0.037, mature_slots=108)."
+      },
+      "nor-eliteserien": {
+        "factors": {
+          "position": 0.2822368421052631,
+          "form_last5": 0.25043859649122807,
+          "wdl_rate": 0.22960526315789473,
+          "home_away": 0.0925438596491228,
+          "goal_diff": 0.0925438596491228,
+          "historical": 0.05263157894736842
+        },
+        "notes": "Auto-tuned from hit-rate validation (avg_hit=66.5%, action=boost_position, step=0.036, mature_slots=94)."
       },
       "gre-super-league": {
         "factors": {
@@ -5281,16 +5302,27 @@
         },
         "notes": "Auto-tuned from hit-rate validation (avg_hit=65.2%, action=boost_position, step=0.033, mature_slots=86)."
       },
-      "nor-eliteserien": {
+      "sco-premiership": {
         "factors": {
-          "position": 0.2802631578947368,
-          "form_last5": 0.2517543859649123,
-          "wdl_rate": 0.22763157894736843,
-          "home_away": 0.09385964912280703,
-          "goal_diff": 0.09385964912280703,
+          "position": 0.27921052631578946,
+          "form_last5": 0.2524561403508772,
+          "wdl_rate": 0.22657894736842107,
+          "home_away": 0.09456140350877193,
+          "goal_diff": 0.09456140350877193,
+          "historical": 0.05263157894736842
+        },
+        "notes": "Auto-tuned from hit-rate validation (avg_hit=64.2%, action=boost_position, step=0.031, mature_slots=112)."
+      },
+      "den-superliga": {
+        "factors": {
+          "position": 0.2786842105263158,
+          "form_last5": 0.25280701754385965,
+          "wdl_rate": 0.22605263157894737,
+          "home_away": 0.09491228070175439,
+          "goal_diff": 0.09491228070175439,
           "historical": 0.052631578947368425
         },
-        "notes": "Auto-tuned from hit-rate validation (avg_hit=65.0%, action=boost_position, step=0.033, mature_slots=89)."
+        "notes": "Auto-tuned from hit-rate validation (avg_hit=63.8%, action=boost_position, step=0.029, mature_slots=107)."
       },
       "eng-national-league": {
         "factors": {
@@ -5302,6 +5334,17 @@
           "historical": 0.05263157894736842
         },
         "notes": "Auto-tuned from hit-rate validation (avg_hit=62.5%, action=boost_position, step=0.026, mature_slots=111)."
+      },
+      "bra-serie-b": {
+        "factors": {
+          "position": 0.2763157894736842,
+          "form_last5": 0.25438596491228066,
+          "wdl_rate": 0.2236842105263158,
+          "home_away": 0.09649122807017543,
+          "goal_diff": 0.09649122807017543,
+          "historical": 0.05263157894736842
+        },
+        "notes": "Auto-tuned from hit-rate validation (avg_hit=62.0%, action=boost_position, step=0.025, mature_slots=104)."
       },
       "swe-allsvenskan": {
         "factors": {
@@ -5325,60 +5368,16 @@
         },
         "notes": "Auto-tuned from hit-rate validation (avg_hit=61.5%, action=boost_position, step=0.024, mature_slots=111)."
       },
-      "sco-premiership": {
-        "factors": {
-          "position": 0.2755263157894736,
-          "form_last5": 0.2569736842105263,
-          "wdl_rate": 0.22289473684210526,
-          "home_away": 0.09907894736842104,
-          "goal_diff": 0.09907894736842104,
-          "historical": 0.04644736842105263
-        },
-        "notes": "Auto-tuned from hit-rate validation (avg_hit=61.4%, action=boost_position, step=0.023, mature_slots=105)."
-      },
-      "den-superliga": {
-        "factors": {
-          "position": 0.2752631578947368,
-          "form_last5": 0.2571052631578947,
-          "wdl_rate": 0.22263157894736843,
-          "home_away": 0.09921052631578947,
-          "goal_diff": 0.09921052631578947,
-          "historical": 0.046578947368421046
-        },
-        "notes": "Auto-tuned from hit-rate validation (avg_hit=61.2%, action=boost_position, step=0.023, mature_slots=101)."
-      },
       "uae-pro-league": {
         "factors": {
-          "position": 0.27513157894736845,
-          "form_last5": 0.2571710526315789,
-          "wdl_rate": 0.2225,
-          "home_away": 0.09927631578947368,
-          "goal_diff": 0.09927631578947368,
-          "historical": 0.04664473684210527
+          "position": 0.2739473684210526,
+          "form_last5": 0.25776315789473686,
+          "wdl_rate": 0.22131578947368424,
+          "home_away": 0.09986842105263158,
+          "goal_diff": 0.09986842105263158,
+          "historical": 0.04723684210526316
         },
-        "notes": "Auto-tuned from hit-rate validation (avg_hit=61.1%, action=boost_position, step=0.023, mature_slots=109)."
-      },
-      "per-liga-1": {
-        "factors": {
-          "position": 0.27486842105263154,
-          "form_last5": 0.25730263157894734,
-          "wdl_rate": 0.22223684210526315,
-          "home_away": 0.09940789473684211,
-          "goal_diff": 0.09940789473684211,
-          "historical": 0.04677631578947369
-        },
-        "notes": "Auto-tuned from hit-rate validation (avg_hit=60.9%, action=boost_position, step=0.022, mature_slots=117)."
-      },
-      "bra-serie-b": {
-        "factors": {
-          "position": 0.2734210526315789,
-          "form_last5": 0.25802631578947366,
-          "wdl_rate": 0.22078947368421054,
-          "home_away": 0.10013157894736842,
-          "goal_diff": 0.10013157894736842,
-          "historical": 0.0475
-        },
-        "notes": "Auto-tuned from hit-rate validation (avg_hit=59.8%, action=boost_position, step=0.019, mature_slots=98)."
+        "notes": "Auto-tuned from hit-rate validation (avg_hit=60.2%, action=boost_position, step=0.021, mature_slots=100)."
       },
       "mex-expansion": {
         "factors": {
@@ -5391,16 +5390,38 @@
         },
         "notes": "Auto-tuned from hit-rate validation (avg_hit=59.8%, action=boost_position, step=0.019, mature_slots=113)."
       },
+      "per-liga-1": {
+        "factors": {
+          "position": 0.2731578947368421,
+          "form_last5": 0.2581578947368421,
+          "wdl_rate": 0.22052631578947368,
+          "home_away": 0.10026315789473683,
+          "goal_diff": 0.10026315789473683,
+          "historical": 0.047631578947368414
+        },
+        "notes": "Auto-tuned from hit-rate validation (avg_hit=59.6%, action=boost_position, step=0.019, mature_slots=118)."
+      },
       "rus-premier-league": {
         "factors": {
-          "position": 0.2718421052631579,
-          "form_last5": 0.2588157894736842,
-          "wdl_rate": 0.2192105263157895,
-          "home_away": 0.10092105263157895,
-          "goal_diff": 0.10092105263157895,
-          "historical": 0.04828947368421053
+          "position": 0.2731578947368421,
+          "form_last5": 0.2581578947368421,
+          "wdl_rate": 0.22052631578947368,
+          "home_away": 0.10026315789473683,
+          "goal_diff": 0.10026315789473683,
+          "historical": 0.047631578947368414
         },
-        "notes": "Auto-tuned from hit-rate validation (avg_hit=58.6%, action=boost_position, step=0.017, mature_slots=99)."
+        "notes": "Auto-tuned from hit-rate validation (avg_hit=59.6%, action=boost_position, step=0.019, mature_slots=100)."
+      },
+      "par-primera": {
+        "factors": {
+          "position": 0.27157894736842103,
+          "form_last5": 0.2589473684210526,
+          "wdl_rate": 0.21894736842105264,
+          "home_away": 0.10105263157894737,
+          "goal_diff": 0.10105263157894737,
+          "historical": 0.04842105263157895
+        },
+        "notes": "Auto-tuned from hit-rate validation (avg_hit=58.4%, action=boost_position, step=0.016, mature_slots=116)."
       },
       "uru-primera": {
         "factors": {
@@ -5423,17 +5444,6 @@
           "historical": 0.057697368421052636
         },
         "notes": "Auto-tuned from hit-rate validation (avg_hit=44.3%, action=boost_form, step=0.019, mature_slots=88)."
-      },
-      "fra-ligue-1": {
-        "factors": {
-          "position": 0.25052631578947365,
-          "form_last5": 0.2694736842105263,
-          "wdl_rate": 0.19789473684210526,
-          "home_away": 0.11157894736842106,
-          "goal_diff": 0.11157894736842106,
-          "historical": 0.05894736842105263
-        },
-        "notes": "Auto-tuned from hit-rate validation (avg_hit=42.4%, action=boost_form, step=0.024, mature_slots=85)."
       },
       "sco-championship": {
         "factors": {
@@ -5602,9 +5612,9 @@
         "min_gap": 2.34
       },
       "pol-ekstraklasa": {
-        "hit_rate": 68.6,
-        "slots": 16,
-        "learning_delta": 21.11,
+        "hit_rate": 66.4,
+        "slots": 18,
+        "learning_delta": 7.96,
         "min_win": 0.72,
         "min_win_dc": 0.72,
         "min_gap": 2.0
@@ -5634,9 +5644,9 @@
         "min_gap": 2.87
       },
       "egy-premier-league": {
-        "hit_rate": 63.3,
-        "slots": 17,
-        "learning_delta": 35.54,
+        "hit_rate": 67.8,
+        "slots": 18,
+        "learning_delta": 38.06,
         "min_win": 0.72,
         "min_win_dc": 0.72,
         "min_gap": 2.0
@@ -5706,12 +5716,12 @@
         "min_gap": 2.08
       },
       "uae-pro-league": {
-        "hit_rate": 60.5,
-        "slots": 21,
-        "learning_delta": -2.73,
+        "hit_rate": 63.2,
+        "slots": 19,
+        "learning_delta": -3.08,
         "min_win": 0.72,
         "min_win_dc": 0.72,
-        "min_gap": 2.07
+        "min_gap": 2.0
       },
       "aus-a-league": {
         "hit_rate": 53.0,
@@ -5914,17 +5924,17 @@
         "min_gap": 2.52
       },
       "cze-first-league": {
-        "hit_rate": 47.5,
-        "slots": 20,
-        "learning_delta": 14.74,
-        "min_win": 0.733,
-        "min_win_dc": 0.733,
-        "min_gap": 2.72
+        "hit_rate": 52.6,
+        "slots": 15,
+        "learning_delta": 12.12,
+        "min_win": 0.72,
+        "min_win_dc": 0.72,
+        "min_gap": 2.47
       },
       "rou-liga-1": {
-        "hit_rate": 52.2,
+        "hit_rate": 52.1,
         "slots": 16,
-        "learning_delta": 35.61,
+        "learning_delta": 40.01,
         "min_win": 0.72,
         "min_win_dc": 0.72,
         "min_gap": 2.49
@@ -5938,12 +5948,12 @@
         "min_gap": 2.11
       },
       "hun-nb1": {
-        "hit_rate": 40.0,
-        "slots": 13,
-        "learning_delta": -15.99,
-        "min_win": 0.756,
-        "min_win_dc": 0.756,
-        "min_gap": 3.1
+        "hit_rate": 47.9,
+        "slots": 15,
+        "learning_delta": -17.92,
+        "min_win": 0.732,
+        "min_win_dc": 0.732,
+        "min_gap": 2.71
       },
       "fin-veikkausliiga": {
         "hit_rate": 43.0,
@@ -5954,12 +5964,12 @@
         "min_gap": 2.95
       },
       "por-segunda-liga": {
-        "hit_rate": 46.6,
-        "slots": 15,
-        "learning_delta": -12.96,
-        "min_win": 0.736,
-        "min_win_dc": 0.736,
-        "min_gap": 2.77
+        "hit_rate": 56.5,
+        "slots": 16,
+        "learning_delta": -6.41,
+        "min_win": 0.72,
+        "min_win_dc": 0.72,
+        "min_gap": 2.28
       },
       "kaz-premier-league": {
         "hit_rate": 44.5,
@@ -5994,12 +6004,12 @@
         "min_gap": 2.0
       },
       "tur-1-lig": {
-        "hit_rate": 60.0,
+        "hit_rate": 64.4,
         "slots": 15,
-        "learning_delta": 8.26,
+        "learning_delta": 7.14,
         "min_win": 0.72,
         "min_win_dc": 0.72,
-        "min_gap": 2.1
+        "min_gap": 2.0
       },
       "isr-premier-league": {
         "hit_rate": 66.3,
@@ -6146,9 +6156,9 @@
         "min_gap": 2.75
       },
       "bul-first-league": {
-        "hit_rate": 72.1,
-        "slots": 16,
-        "learning_delta": -0.73,
+        "hit_rate": 68.2,
+        "slots": 17,
+        "learning_delta": -15.69,
         "min_win": 0.72,
         "min_win_dc": 0.72,
         "min_gap": 2.0
@@ -6170,9 +6180,9 @@
         "min_gap": 2.8
       },
       "blr-premier-league": {
-        "hit_rate": 68.4,
-        "slots": 21,
-        "learning_delta": 14.61,
+        "hit_rate": 74.0,
+        "slots": 19,
+        "learning_delta": 22.97,
         "min_win": 0.72,
         "min_win_dc": 0.72,
         "min_gap": 2.0
@@ -6226,12 +6236,12 @@
         "min_gap": 2.0
       },
       "esp-primera-rfef": {
-        "hit_rate": 54.4,
+        "hit_rate": 59.7,
         "slots": 9,
-        "learning_delta": -3.5,
+        "learning_delta": 12.38,
         "min_win": 0.72,
         "min_win_dc": 0.72,
-        "min_gap": 2.38
+        "min_gap": 2.11
       },
       "ger-3-liga": {
         "hit_rate": 57.1,
@@ -6258,9 +6268,9 @@
         "min_gap": 2.0
       },
       "swe-superettan": {
-        "hit_rate": 66.1,
-        "slots": 19,
-        "learning_delta": -8.53,
+        "hit_rate": 62.7,
+        "slots": 22,
+        "learning_delta": -10.13,
         "min_win": 0.72,
         "min_win_dc": 0.72,
         "min_gap": 2.0
@@ -6274,9 +6284,9 @@
         "min_gap": 2.4
       },
       "pol-1-liga": {
-        "hit_rate": 21.9,
-        "slots": 13,
-        "learning_delta": -18.28,
+        "hit_rate": 18.3,
+        "slots": 14,
+        "learning_delta": -18.65,
         "min_win": 0.76,
         "min_win_dc": 0.76,
         "min_gap": 3.5
@@ -6370,12 +6380,12 @@
         "min_gap": 2.37
       },
       "mkd-second-league": {
-        "hit_rate": 60.7,
-        "slots": 11,
-        "learning_delta": 32.41,
+        "hit_rate": 69.5,
+        "slots": 14,
+        "learning_delta": 34.76,
         "min_win": 0.72,
         "min_win_dc": 0.72,
-        "min_gap": 2.07
+        "min_gap": 2.0
       },
       "kos-superleague": {
         "hit_rate": 57.0,
@@ -6434,17 +6444,17 @@
         "min_gap": 2.84
       },
       "rou-liga-2": {
-        "hit_rate": 73.7,
+        "hit_rate": 73.0,
         "slots": 18,
-        "learning_delta": 24.2,
+        "learning_delta": 24.32,
         "min_win": 0.72,
         "min_win_dc": 0.72,
         "min_gap": 2.0
       },
       "srp-first-league": {
-        "hit_rate": 67.3,
+        "hit_rate": 67.4,
         "slots": 18,
-        "learning_delta": -1.72,
+        "learning_delta": -1.51,
         "min_win": 0.72,
         "min_win_dc": 0.72,
         "min_gap": 2.0
@@ -6554,12 +6564,12 @@
         "min_gap": 3.16
       },
       "cro-first-league": {
-        "hit_rate": 38.4,
-        "slots": 15,
-        "learning_delta": -15.66,
-        "min_win": 0.76,
-        "min_win_dc": 0.76,
-        "min_gap": 3.18
+        "hit_rate": 47.3,
+        "slots": 17,
+        "learning_delta": -12.35,
+        "min_win": 0.734,
+        "min_win_dc": 0.734,
+        "min_gap": 2.74
       },
       "nic-primera": {
         "hit_rate": 66.7,
@@ -6578,12 +6588,12 @@
         "min_gap": 2.0
       },
       "jpn-j3-league": {
-        "hit_rate": 52.8,
+        "hit_rate": 53.3,
         "slots": 18,
-        "learning_delta": 17.17,
+        "learning_delta": 16.17,
         "min_win": 0.72,
         "min_win_dc": 0.72,
-        "min_gap": 2.46
+        "min_gap": 2.43
       },
       "ned-derde-divisie": {
         "hit_rate": 60.4,
@@ -9154,174 +9164,174 @@
       },
       "pol-ekstraklasa": {
         "league": {
-          "matches": 117,
+          "matches": 121,
           "teams": 18,
-          "mu": 1.0986,
-          "home_adv": 0.0755,
-          "avg_goals": 3.0
+          "mu": 1.0875,
+          "home_adv": 0.0803,
+          "avg_goals": 2.967
         },
         "teams": {
           "250": {
-            "n": 13,
-            "att": 0.045,
-            "def": 0.313,
-            "strength_est": -0.269,
-            "z": -1.49,
+            "n": 14,
+            "att": 0.059,
+            "def": 0.299,
+            "strength_est": -0.24,
+            "z": -1.41,
             "prior": 47.1,
-            "resid_std": 0.88
+            "resid_std": 0.852
           },
           "251": {
             "n": 13,
-            "att": 0.137,
-            "def": 0.304,
-            "strength_est": -0.167,
-            "z": -0.93,
+            "att": 0.145,
+            "def": 0.298,
+            "strength_est": -0.153,
+            "z": -0.89,
             "prior": 48.2,
-            "resid_std": 1.036
+            "resid_std": 1.024
           },
           "252": {
             "n": 12,
-            "att": 0.453,
-            "def": 0.25,
-            "strength_est": 0.202,
-            "z": 1.12,
-            "prior": 52.1,
-            "resid_std": 1.796
+            "att": 0.465,
+            "def": 0.245,
+            "strength_est": 0.22,
+            "z": 1.29,
+            "prior": 52.4,
+            "resid_std": 1.831
           },
           "253": {
             "n": 14,
-            "att": 0.042,
-            "def": 0.066,
-            "strength_est": -0.024,
-            "z": -0.13,
-            "prior": 49.7,
-            "resid_std": 0.742
+            "att": 0.047,
+            "def": 0.058,
+            "strength_est": -0.011,
+            "z": -0.07,
+            "prior": 49.9,
+            "resid_std": 0.726
           },
           "254": {
-            "n": 13,
-            "att": 0.174,
-            "def": -0.02,
-            "strength_est": 0.195,
-            "z": 1.08,
-            "prior": 52.1,
-            "resid_std": 0.88
+            "n": 14,
+            "att": 0.117,
+            "def": 0.024,
+            "strength_est": 0.093,
+            "z": 0.54,
+            "prior": 51.1,
+            "resid_std": 1.02
           },
           "255": {
-            "n": 12,
-            "att": 0.053,
-            "def": 0.211,
-            "strength_est": -0.158,
-            "z": -0.88,
-            "prior": 48.4,
-            "resid_std": 0.833
+            "n": 13,
+            "att": 0.008,
+            "def": 0.131,
+            "strength_est": -0.123,
+            "z": -0.72,
+            "prior": 48.6,
+            "resid_std": 0.893
           },
           "256": {
-            "n": 13,
-            "att": -0.174,
-            "def": 0.025,
-            "strength_est": -0.199,
-            "z": -1.1,
-            "prior": 47.8,
-            "resid_std": 0.649
+            "n": 14,
+            "att": -0.219,
+            "def": -0.002,
+            "strength_est": -0.216,
+            "z": -1.27,
+            "prior": 47.4,
+            "resid_std": 0.84
           },
           "257": {
             "n": 13,
-            "att": -0.146,
-            "def": 0.139,
-            "strength_est": -0.285,
+            "att": -0.14,
+            "def": 0.13,
+            "strength_est": -0.27,
             "z": -1.58,
             "prior": 46.9,
-            "resid_std": 0.86
+            "resid_std": 0.859
           },
           "258": {
             "n": 12,
-            "att": -0.027,
-            "def": -0.009,
-            "strength_est": -0.018,
-            "z": -0.1,
-            "prior": 49.8,
-            "resid_std": 1.05
+            "att": -0.021,
+            "def": -0.012,
+            "strength_est": -0.009,
+            "z": -0.05,
+            "prior": 49.9,
+            "resid_std": 1.037
           },
           "259": {
             "n": 13,
-            "att": 0.175,
-            "def": -0.015,
-            "strength_est": 0.191,
-            "z": 1.06,
-            "prior": 52.1,
-            "resid_std": 1.481
+            "att": 0.181,
+            "def": -0.021,
+            "strength_est": 0.202,
+            "z": 1.19,
+            "prior": 52.3,
+            "resid_std": 1.491
           },
           "260": {
-            "n": 13,
-            "att": -0.085,
-            "def": 0.021,
-            "strength_est": -0.106,
-            "z": -0.59,
-            "prior": 48.8,
-            "resid_std": 1.051
+            "n": 14,
+            "att": -0.017,
+            "def": 0.06,
+            "strength_est": -0.078,
+            "z": -0.45,
+            "prior": 49.1,
+            "resid_std": 1.14
           },
           "261": {
             "n": 14,
-            "att": -0.162,
-            "def": -0.055,
-            "strength_est": -0.107,
-            "z": -0.6,
-            "prior": 48.8,
-            "resid_std": 0.911
+            "att": -0.157,
+            "def": -0.062,
+            "strength_est": -0.094,
+            "z": -0.55,
+            "prior": 48.9,
+            "resid_std": 0.886
           },
           "262": {
             "n": 13,
-            "att": -0.208,
-            "def": -0.072,
-            "strength_est": -0.136,
-            "z": -0.76,
-            "prior": 48.5,
-            "resid_std": 1.036
+            "att": -0.203,
+            "def": -0.078,
+            "strength_est": -0.125,
+            "z": -0.73,
+            "prior": 48.6,
+            "resid_std": 1.02
           },
           "263": {
-            "n": 13,
-            "att": -0.139,
-            "def": -0.302,
-            "strength_est": 0.163,
-            "z": 0.9,
+            "n": 14,
+            "att": -0.105,
+            "def": -0.254,
+            "strength_est": 0.149,
+            "z": 0.87,
             "prior": 51.8,
-            "resid_std": 1.017
+            "resid_std": 0.976
           },
           "264": {
-            "n": 13,
-            "att": -0.082,
-            "def": -0.195,
-            "strength_est": 0.113,
-            "z": 0.62,
-            "prior": 51.2,
-            "resid_std": 0.78
+            "n": 14,
+            "att": -0.121,
+            "def": -0.135,
+            "strength_est": 0.014,
+            "z": 0.08,
+            "prior": 50.2,
+            "resid_std": 0.818
           },
           "265": {
             "n": 14,
-            "att": 0.036,
-            "def": -0.123,
-            "strength_est": 0.159,
-            "z": 0.88,
-            "prior": 51.8,
-            "resid_std": 0.913
+            "att": 0.043,
+            "def": -0.131,
+            "strength_est": 0.173,
+            "z": 1.02,
+            "prior": 52.1,
+            "resid_std": 0.927
           },
           "266": {
-            "n": 13,
-            "att": -0.09,
-            "def": -0.217,
-            "strength_est": 0.127,
-            "z": 0.7,
-            "prior": 51.4,
-            "resid_std": 1.215
+            "n": 14,
+            "att": -0.083,
+            "def": -0.221,
+            "strength_est": 0.138,
+            "z": 0.81,
+            "prior": 51.7,
+            "resid_std": 1.186
           },
           "267": {
             "n": 13,
-            "att": -0.0,
-            "def": -0.319,
-            "strength_est": 0.319,
-            "z": 1.77,
-            "prior": 53.5,
-            "resid_std": 0.804
+            "att": 0.001,
+            "def": -0.328,
+            "strength_est": 0.329,
+            "z": 1.93,
+            "prior": 53.8,
+            "resid_std": 0.738
           }
         }
       },
@@ -9756,237 +9766,255 @@
       },
       "egy-premier-league": {
         "league": {
-          "matches": 101,
-          "teams": 25,
-          "mu": 0.8779,
-          "home_adv": -0.0254,
-          "avg_goals": 2.406
+          "matches": 111,
+          "teams": 27,
+          "mu": 0.9036,
+          "home_adv": -0.0123,
+          "avg_goals": 2.468
         },
         "teams": {
           "316": {
-            "n": 15,
-            "att": 0.123,
-            "def": 0.358,
-            "strength_est": -0.235,
-            "z": -0.92,
-            "prior": 48.0,
-            "resid_std": 0.803
+            "n": 16,
+            "att": 0.114,
+            "def": 0.363,
+            "strength_est": -0.249,
+            "z": -0.93,
+            "prior": 47.9,
+            "resid_std": 0.764
           },
           "317": {
-            "n": 15,
+            "n": 16,
             "att": 0.315,
-            "def": 0.034,
-            "strength_est": 0.281,
-            "z": 1.1,
-            "prior": 52.4,
-            "resid_std": 0.408
+            "def": 0.025,
+            "strength_est": 0.29,
+            "z": 1.09,
+            "prior": 52.5,
+            "resid_std": 0.388
           },
           "318": {
-            "n": 14,
-            "att": 0.331,
-            "def": 0.177,
-            "strength_est": 0.154,
-            "z": 0.6,
-            "prior": 51.2,
-            "resid_std": 0.91
+            "n": 15,
+            "att": 0.304,
+            "def": 0.19,
+            "strength_est": 0.115,
+            "z": 0.43,
+            "prior": 50.9,
+            "resid_std": 0.933
           },
           "319": {
             "n": 9,
-            "att": 0.174,
-            "def": -0.128,
-            "strength_est": 0.301,
-            "z": 1.18,
-            "prior": 51.7,
-            "resid_std": 0.947
+            "att": 0.146,
+            "def": -0.11,
+            "strength_est": 0.256,
+            "z": 0.96,
+            "prior": 51.4,
+            "resid_std": 0.936
           },
           "320": {
             "n": 14,
-            "att": 0.271,
-            "def": -0.061,
-            "strength_est": 0.332,
-            "z": 1.3,
-            "prior": 52.7,
-            "resid_std": 0.971
+            "att": 0.245,
+            "def": -0.044,
+            "strength_est": 0.289,
+            "z": 1.08,
+            "prior": 52.2,
+            "resid_std": 0.972
           },
           "321": {
-            "n": 14,
-            "att": 0.022,
-            "def": 0.105,
-            "strength_est": -0.084,
-            "z": -0.33,
-            "prior": 49.3,
-            "resid_std": 1.103
+            "n": 15,
+            "att": -0.014,
+            "def": 0.095,
+            "strength_est": -0.109,
+            "z": -0.41,
+            "prior": 49.1,
+            "resid_std": 1.072
           },
           "322": {
-            "n": 15,
-            "att": 0.061,
-            "def": -0.138,
-            "strength_est": 0.199,
-            "z": 0.78,
-            "prior": 51.7,
-            "resid_std": 0.757
+            "n": 16,
+            "att": 0.023,
+            "def": -0.13,
+            "strength_est": 0.153,
+            "z": 0.57,
+            "prior": 51.3,
+            "resid_std": 0.747
           },
           "323": {
             "n": 9,
-            "att": 0.161,
-            "def": 0.141,
-            "strength_est": 0.021,
-            "z": 0.08,
-            "prior": 50.1,
-            "resid_std": 0.788
+            "att": 0.134,
+            "def": 0.159,
+            "strength_est": -0.025,
+            "z": -0.09,
+            "prior": 49.9,
+            "resid_std": 0.774
           },
           "324": {
             "n": 9,
-            "att": -0.039,
-            "def": -0.267,
-            "strength_est": 0.227,
-            "z": 0.89,
-            "prior": 51.3,
-            "resid_std": 0.897
+            "att": -0.067,
+            "def": -0.25,
+            "strength_est": 0.182,
+            "z": 0.68,
+            "prior": 51.0,
+            "resid_std": 0.916
           },
           "325": {
             "n": 14,
-            "att": -0.192,
-            "def": -0.069,
-            "strength_est": -0.123,
-            "z": -0.48,
-            "prior": 49.0,
-            "resid_std": 0.666
+            "att": -0.222,
+            "def": -0.046,
+            "strength_est": -0.176,
+            "z": -0.66,
+            "prior": 48.6,
+            "resid_std": 0.665
           },
           "1483": {
             "n": 6,
-            "att": -0.02,
-            "def": 0.178,
-            "strength_est": -0.198,
-            "z": -0.77,
-            "prior": 49.2,
-            "resid_std": 0.579
+            "att": -0.046,
+            "def": 0.197,
+            "strength_est": -0.244,
+            "z": -0.91,
+            "prior": 49.0,
+            "resid_std": 0.574
           },
           "2469": {
-            "n": 5,
-            "att": -0.05,
-            "def": 0.093,
-            "strength_est": -0.143,
-            "z": -0.56,
-            "prior": 49.5,
-            "resid_std": 0.886
+            "n": 6,
+            "att": 0.076,
+            "def": 0.04,
+            "strength_est": 0.035,
+            "z": 0.13,
+            "prior": 50.1,
+            "resid_std": 0.987
           },
           "2470": {
-            "n": 5,
-            "att": -0.139,
-            "def": 0.104,
-            "strength_est": -0.243,
-            "z": -0.95,
-            "prior": 49.2,
-            "resid_std": 0.837
+            "n": 6,
+            "att": 0.001,
+            "def": 0.122,
+            "strength_est": -0.121,
+            "z": -0.45,
+            "prior": 49.5,
+            "resid_std": 0.907
           },
           "2471": {
             "n": 5,
-            "att": -0.045,
-            "def": 0.095,
-            "strength_est": -0.14,
-            "z": -0.55,
-            "prior": 49.5,
-            "resid_std": 0.549
+            "att": -0.081,
+            "def": 0.134,
+            "strength_est": -0.214,
+            "z": -0.8,
+            "prior": 49.3,
+            "resid_std": 0.541
           },
           "2472": {
             "n": 6,
-            "att": 0.196,
-            "def": 0.239,
-            "strength_est": -0.043,
-            "z": -0.17,
-            "prior": 49.8,
-            "resid_std": 1.007
+            "att": 0.18,
+            "def": 0.266,
+            "strength_est": -0.086,
+            "z": -0.32,
+            "prior": 49.7,
+            "resid_std": 1.024
           },
           "2473": {
-            "n": 5,
-            "att": -0.154,
-            "def": 0.107,
-            "strength_est": -0.261,
-            "z": -1.02,
-            "prior": 49.1,
-            "resid_std": 0.808
+            "n": 6,
+            "att": -0.183,
+            "def": 0.062,
+            "strength_est": -0.245,
+            "z": -0.92,
+            "prior": 49.0,
+            "resid_std": 0.754
           },
           "2474": {
             "n": 5,
-            "att": 0.062,
-            "def": 0.111,
-            "strength_est": -0.049,
-            "z": -0.19,
-            "prior": 49.8,
-            "resid_std": 0.845
+            "att": 0.027,
+            "def": 0.151,
+            "strength_est": -0.124,
+            "z": -0.46,
+            "prior": 49.6,
+            "resid_std": 0.872
           },
           "2475": {
             "n": 5,
-            "att": -0.449,
-            "def": -0.145,
-            "strength_est": -0.304,
-            "z": -1.19,
-            "prior": 48.9,
-            "resid_std": 0.243
+            "att": -0.477,
+            "def": -0.124,
+            "strength_est": -0.353,
+            "z": -1.32,
+            "prior": 48.8,
+            "resid_std": 0.249
           },
           "2476": {
             "n": 5,
-            "att": -0.151,
-            "def": -0.163,
-            "strength_est": 0.012,
-            "z": 0.05,
-            "prior": 50.0,
-            "resid_std": 1.126
+            "att": -0.168,
+            "def": -0.143,
+            "strength_est": -0.025,
+            "z": -0.09,
+            "prior": 49.9,
+            "resid_std": 1.193
           },
           "2477": {
-            "n": 6,
-            "att": -0.412,
-            "def": 0.111,
-            "strength_est": -0.523,
-            "z": -2.04,
-            "prior": 47.9,
-            "resid_std": 0.395
+            "n": 7,
+            "att": -0.392,
+            "def": 0.14,
+            "strength_est": -0.532,
+            "z": -1.99,
+            "prior": 47.6,
+            "resid_std": 0.386
           },
           "2478": {
             "n": 3,
-            "att": 0.147,
-            "def": -0.096,
-            "strength_est": 0.243,
-            "z": 0.95,
-            "prior": 50.5,
-            "resid_std": 0.222
+            "att": 0.122,
+            "def": -0.073,
+            "strength_est": 0.194,
+            "z": 0.73,
+            "prior": 50.4,
+            "resid_std": 0.198
           },
           "2479": {
             "n": 2,
-            "att": -0.068,
-            "def": -0.164,
-            "strength_est": 0.096,
-            "z": 0.37,
+            "att": -0.077,
+            "def": -0.142,
+            "strength_est": 0.064,
+            "z": 0.24,
             "prior": 50.1,
-            "resid_std": 1.175
+            "resid_std": 1.024
           },
           "2480": {
-            "n": 6,
-            "att": -0.495,
-            "def": -0.115,
-            "strength_est": -0.38,
-            "z": -1.48,
-            "prior": 48.5,
-            "resid_std": 0.401
+            "n": 7,
+            "att": -0.547,
+            "def": 0.003,
+            "strength_est": -0.551,
+            "z": -2.06,
+            "prior": 47.5,
+            "resid_std": 0.421
           },
           "2889": {
             "n": 5,
-            "att": 0.28,
-            "def": -0.219,
-            "strength_est": 0.498,
-            "z": 1.95,
-            "prior": 51.7,
-            "resid_std": 0.425
+            "att": 0.246,
+            "def": -0.186,
+            "strength_est": 0.432,
+            "z": 1.62,
+            "prior": 51.4,
+            "resid_std": 0.347
           },
           "2890": {
             "n": 5,
-            "att": 0.072,
-            "def": -0.288,
-            "strength_est": 0.36,
-            "z": 1.41,
-            "prior": 51.3,
-            "resid_std": 0.925
+            "att": 0.048,
+            "def": -0.257,
+            "strength_est": 0.305,
+            "z": 1.14,
+            "prior": 51.0,
+            "resid_std": 0.775
+          },
+          "3287": {
+            "n": 5,
+            "att": 0.246,
+            "def": -0.186,
+            "strength_est": 0.432,
+            "z": 1.62,
+            "prior": 51.4,
+            "resid_std": 0.347
+          },
+          "3288": {
+            "n": 5,
+            "att": 0.048,
+            "def": -0.257,
+            "strength_est": 0.305,
+            "z": 1.14,
+            "prior": 51.0,
+            "resid_std": 0.775
           }
         }
       },
@@ -11387,156 +11415,156 @@
       },
       "uae-pro-league": {
         "league": {
-          "matches": 254,
+          "matches": 257,
           "teams": 16,
-          "mu": 1.0947,
-          "home_adv": 0.0083,
-          "avg_goals": 2.988
+          "mu": 1.096,
+          "home_adv": 0.0077,
+          "avg_goals": 2.992
         },
         "teams": {
           "464": {
             "n": 37,
             "att": 0.313,
-            "def": 0.259,
-            "strength_est": 0.054,
-            "z": 0.22,
+            "def": 0.26,
+            "strength_est": 0.053,
+            "z": 0.21,
             "prior": 50.8,
-            "resid_std": 1.047
+            "resid_std": 1.043
           },
           "465": {
-            "n": 36,
-            "att": 0.317,
-            "def": 0.455,
-            "strength_est": -0.137,
-            "z": -0.55,
+            "n": 37,
+            "att": 0.304,
+            "def": 0.438,
+            "strength_est": -0.134,
+            "z": -0.54,
             "prior": 47.9,
-            "resid_std": 1.753
+            "resid_std": 1.736
           },
           "466": {
             "n": 37,
             "att": 0.151,
-            "def": 0.195,
-            "strength_est": -0.044,
+            "def": 0.196,
+            "strength_est": -0.045,
             "z": -0.18,
             "prior": 49.3,
-            "resid_std": 1.15
+            "resid_std": 1.151
           },
           "467": {
             "n": 37,
             "att": 0.066,
-            "def": 0.133,
-            "strength_est": -0.067,
-            "z": -0.27,
-            "prior": 49.0,
-            "resid_std": 1.177
+            "def": 0.134,
+            "strength_est": -0.068,
+            "z": -0.28,
+            "prior": 48.9,
+            "resid_std": 1.175
           },
           "468": {
             "n": 35,
             "att": -0.011,
-            "def": 0.167,
-            "strength_est": -0.178,
+            "def": 0.168,
+            "strength_est": -0.179,
             "z": -0.72,
             "prior": 47.3,
-            "resid_std": 1.2
+            "resid_std": 1.201
           },
           "469": {
             "n": 36,
             "att": -0.017,
-            "def": 0.143,
-            "strength_est": -0.16,
-            "z": -0.64,
-            "prior": 47.6,
-            "resid_std": 0.87
+            "def": 0.144,
+            "strength_est": -0.162,
+            "z": -0.65,
+            "prior": 47.5,
+            "resid_std": 0.871
           },
           "470": {
             "n": 34,
             "att": -0.087,
-            "def": -0.003,
-            "strength_est": -0.084,
+            "def": -0.002,
+            "strength_est": -0.085,
             "z": -0.34,
-            "prior": 48.8,
+            "prior": 48.7,
             "resid_std": 1.175
           },
           "471": {
-            "n": 36,
-            "att": 0.129,
-            "def": -0.02,
-            "strength_est": 0.15,
-            "z": 0.6,
-            "prior": 52.3,
-            "resid_std": 0.999
+            "n": 37,
+            "att": 0.135,
+            "def": -0.008,
+            "strength_est": 0.143,
+            "z": 0.58,
+            "prior": 52.2,
+            "resid_std": 1.014
           },
           "472": {
-            "n": 36,
-            "att": -0.059,
-            "def": -0.144,
-            "strength_est": 0.085,
-            "z": 0.34,
+            "n": 37,
+            "att": -0.053,
+            "def": -0.135,
+            "strength_est": 0.082,
+            "z": 0.33,
             "prior": 51.3,
-            "resid_std": 1.086
+            "resid_std": 1.069
           },
           "473": {
             "n": 37,
             "att": -0.181,
-            "def": -0.054,
-            "strength_est": -0.127,
+            "def": -0.053,
+            "strength_est": -0.128,
             "z": -0.51,
             "prior": 48.0,
-            "resid_std": 1.184
+            "resid_std": 1.183
           },
           "474": {
-            "n": 35,
-            "att": -0.101,
-            "def": -0.08,
-            "strength_est": -0.022,
-            "z": -0.09,
-            "prior": 49.7,
-            "resid_std": 1.043
+            "n": 36,
+            "att": -0.081,
+            "def": -0.072,
+            "strength_est": -0.009,
+            "z": -0.04,
+            "prior": 49.9,
+            "resid_std": 1.054
           },
           "475": {
-            "n": 35,
-            "att": -0.114,
-            "def": -0.162,
-            "strength_est": 0.048,
-            "z": 0.19,
-            "prior": 50.7,
-            "resid_std": 1.078
+            "n": 36,
+            "att": -0.118,
+            "def": -0.175,
+            "strength_est": 0.057,
+            "z": 0.23,
+            "prior": 50.9,
+            "resid_std": 1.062
           },
           "476": {
             "n": 26,
             "att": -0.258,
-            "def": 0.066,
-            "strength_est": -0.324,
-            "z": -1.3,
+            "def": 0.067,
+            "strength_est": -0.325,
+            "z": -1.31,
             "prior": 45.9,
-            "resid_std": 0.849
+            "resid_std": 0.851
           },
           "477": {
             "n": 26,
             "att": -0.247,
-            "def": -0.254,
-            "strength_est": 0.007,
-            "z": 0.03,
+            "def": -0.253,
+            "strength_est": 0.006,
+            "z": 0.02,
             "prior": 50.1,
             "resid_std": 0.756
           },
-          "3288": {
+          "3290": {
             "n": 11,
-            "att": 0.249,
+            "att": 0.248,
             "def": -0.611,
-            "strength_est": 0.86,
+            "strength_est": 0.859,
             "z": 3.46,
             "prior": 56.0,
-            "resid_std": 1.023
+            "resid_std": 1.052
           },
-          "3289": {
-            "n": 14,
-            "att": -0.152,
-            "def": -0.09,
-            "strength_est": -0.062,
+          "3291": {
+            "n": 15,
+            "att": -0.162,
+            "def": -0.099,
+            "strength_est": -0.063,
             "z": -0.25,
-            "prior": 49.5,
-            "resid_std": 1.104
+            "prior": 49.4,
+            "resid_std": 1.074
           }
         }
       },
@@ -16155,156 +16183,156 @@
       },
       "cze-first-league": {
         "league": {
-          "matches": 102,
+          "matches": 106,
           "teams": 16,
-          "mu": 1.0098,
-          "home_adv": 0.01,
+          "mu": 1.0099,
+          "home_adv": 0.0208,
           "avg_goals": 2.745
         },
         "teams": {
           "1045": {
-            "n": 12,
-            "att": -0.387,
-            "def": -0.201,
-            "strength_est": -0.186,
-            "z": -0.95,
-            "prior": 48.3,
-            "resid_std": 0.477
+            "n": 13,
+            "att": -0.298,
+            "def": -0.177,
+            "strength_est": -0.121,
+            "z": -0.62,
+            "prior": 48.8,
+            "resid_std": 0.765
           },
           "1048": {
-            "n": 13,
-            "att": 0.142,
-            "def": 0.083,
-            "strength_est": 0.059,
-            "z": 0.3,
-            "prior": 50.6,
-            "resid_std": 1.173
+            "n": 14,
+            "att": 0.088,
+            "def": -0.051,
+            "strength_est": 0.139,
+            "z": 0.71,
+            "prior": 51.5,
+            "resid_std": 1.131
           },
           "1049": {
             "n": 12,
-            "att": -0.123,
-            "def": -0.079,
-            "strength_est": -0.045,
-            "z": -0.23,
-            "prior": 49.6,
-            "resid_std": 0.885
+            "att": -0.127,
+            "def": -0.076,
+            "strength_est": -0.052,
+            "z": -0.26,
+            "prior": 49.5,
+            "resid_std": 0.872
           },
           "1051": {
-            "n": 13,
-            "att": -0.105,
-            "def": 0.128,
-            "strength_est": -0.233,
-            "z": -1.18,
-            "prior": 47.7,
-            "resid_std": 0.73
+            "n": 14,
+            "att": -0.141,
+            "def": 0.133,
+            "strength_est": -0.274,
+            "z": -1.39,
+            "prior": 47.1,
+            "resid_std": 0.718
           },
           "1055": {
-            "n": 12,
-            "att": -0.061,
-            "def": 0.353,
-            "strength_est": -0.413,
-            "z": -2.1,
-            "prior": 46.1,
-            "resid_std": 1.268
+            "n": 13,
+            "att": -0.072,
+            "def": 0.376,
+            "strength_est": -0.448,
+            "z": -2.28,
+            "prior": 45.5,
+            "resid_std": 1.228
           },
           "1056": {
-            "n": 13,
-            "att": -0.192,
-            "def": -0.263,
-            "strength_est": 0.071,
-            "z": 0.36,
-            "prior": 50.7,
-            "resid_std": 0.748
+            "n": 14,
+            "att": -0.207,
+            "def": -0.213,
+            "strength_est": 0.006,
+            "z": 0.03,
+            "prior": 50.1,
+            "resid_std": 0.744
           },
           "1057": {
-            "n": 13,
-            "att": -0.204,
-            "def": -0.004,
-            "strength_est": -0.2,
-            "z": -1.02,
-            "prior": 48.0,
-            "resid_std": 0.75
+            "n": 14,
+            "att": -0.067,
+            "def": 0.044,
+            "strength_est": -0.111,
+            "z": -0.56,
+            "prior": 48.8,
+            "resid_std": 1.252
           },
           "1058": {
             "n": 13,
-            "att": 0.132,
+            "att": 0.125,
             "def": -0.001,
-            "strength_est": 0.133,
-            "z": 0.67,
+            "strength_est": 0.126,
+            "z": 0.64,
             "prior": 51.3,
-            "resid_std": 1.354
+            "resid_std": 1.406
           },
           "1713": {
             "n": 13,
             "att": 0.47,
-            "def": 0.397,
-            "strength_est": 0.073,
-            "z": 0.37,
+            "def": 0.4,
+            "strength_est": 0.07,
+            "z": 0.35,
             "prior": 50.7,
-            "resid_std": 1.482
+            "resid_std": 1.447
           },
           "1714": {
-            "n": 13,
-            "att": -0.048,
-            "def": -0.03,
-            "strength_est": -0.018,
-            "z": -0.09,
-            "prior": 49.8,
-            "resid_std": 0.938
+            "n": 14,
+            "att": -0.067,
+            "def": -0.09,
+            "strength_est": 0.023,
+            "z": 0.12,
+            "prior": 50.2,
+            "resid_std": 0.956
           },
           "1715": {
             "n": 13,
-            "att": 0.164,
-            "def": 0.103,
-            "strength_est": 0.061,
-            "z": 0.31,
-            "prior": 50.6,
-            "resid_std": 1.101
+            "att": 0.157,
+            "def": 0.106,
+            "strength_est": 0.051,
+            "z": 0.26,
+            "prior": 50.5,
+            "resid_std": 1.094
           },
           "1716": {
             "n": 13,
-            "att": -0.053,
-            "def": -0.01,
-            "strength_est": -0.043,
-            "z": -0.22,
-            "prior": 49.6,
-            "resid_std": 0.802
+            "att": -0.06,
+            "def": -0.008,
+            "strength_est": -0.051,
+            "z": -0.26,
+            "prior": 49.5,
+            "resid_std": 0.777
           },
           "1717": {
             "n": 13,
-            "att": 0.245,
-            "def": 0.155,
-            "strength_est": 0.09,
-            "z": 0.46,
-            "prior": 50.9,
-            "resid_std": 1.4
+            "att": 0.239,
+            "def": 0.158,
+            "strength_est": 0.081,
+            "z": 0.41,
+            "prior": 50.8,
+            "resid_std": 1.377
           },
           "1718": {
             "n": 12,
-            "att": 0.389,
-            "def": -0.121,
-            "strength_est": 0.51,
-            "z": 2.59,
-            "prior": 54.8,
-            "resid_std": 1.406
+            "att": 0.383,
+            "def": -0.117,
+            "strength_est": 0.5,
+            "z": 2.55,
+            "prior": 54.7,
+            "resid_std": 1.389
           },
           "1719": {
             "n": 13,
-            "att": -0.136,
-            "def": -0.234,
-            "strength_est": 0.099,
-            "z": 0.5,
-            "prior": 51.0,
-            "resid_std": 1.158
+            "att": -0.142,
+            "def": -0.233,
+            "strength_est": 0.091,
+            "z": 0.46,
+            "prior": 50.9,
+            "resid_std": 1.169
           },
           "1720": {
-            "n": 13,
-            "att": -0.234,
-            "def": -0.277,
-            "strength_est": 0.043,
-            "z": 0.22,
-            "prior": 50.4,
-            "resid_std": 0.677
+            "n": 14,
+            "att": -0.281,
+            "def": -0.251,
+            "strength_est": -0.03,
+            "z": -0.15,
+            "prior": 49.7,
+            "resid_std": 0.725
           }
         }
       },
@@ -16566,129 +16594,129 @@
       },
       "hun-nb1": {
         "league": {
-          "matches": 65,
+          "matches": 67,
           "teams": 13,
-          "mu": 1.0831,
-          "home_adv": 0.0548,
-          "avg_goals": 2.954
+          "mu": 1.0785,
+          "home_adv": 0.0711,
+          "avg_goals": 2.94
         },
         "teams": {
           "1238": {
             "n": 12,
-            "att": 0.212,
-            "def": -0.128,
-            "strength_est": 0.34,
-            "z": 1.25,
-            "prior": 52.3,
-            "resid_std": 1.082
+            "att": 0.204,
+            "def": -0.119,
+            "strength_est": 0.323,
+            "z": 1.42,
+            "prior": 52.6,
+            "resid_std": 1.072
           },
           "1734": {
-            "n": 12,
-            "att": -0.011,
-            "def": 0.087,
-            "strength_est": -0.098,
-            "z": -0.36,
-            "prior": 49.3,
-            "resid_std": 0.927
+            "n": 13,
+            "att": -0.031,
+            "def": 0.134,
+            "strength_est": -0.165,
+            "z": -0.73,
+            "prior": 48.6,
+            "resid_std": 0.879
           },
           "1735": {
             "n": 7,
-            "att": 0.171,
-            "def": 0.104,
-            "strength_est": 0.067,
-            "z": 0.25,
+            "att": 0.163,
+            "def": 0.113,
+            "strength_est": 0.05,
+            "z": 0.22,
             "prior": 50.3,
-            "resid_std": 0.909
+            "resid_std": 0.888
           },
           "1736": {
             "n": 11,
-            "att": 0.089,
-            "def": 0.026,
-            "strength_est": 0.063,
-            "z": 0.23,
-            "prior": 50.4,
-            "resid_std": 1.522
+            "att": 0.08,
+            "def": 0.036,
+            "strength_est": 0.044,
+            "z": 0.19,
+            "prior": 50.3,
+            "resid_std": 1.526
           },
           "1737": {
             "n": 11,
-            "att": 0.067,
-            "def": 0.019,
-            "strength_est": 0.049,
-            "z": 0.18,
-            "prior": 50.3,
-            "resid_std": 1.538
+            "att": 0.059,
+            "def": 0.028,
+            "strength_est": 0.031,
+            "z": 0.13,
+            "prior": 50.2,
+            "resid_std": 1.536
           },
           "1738": {
             "n": 9,
-            "att": 0.004,
-            "def": 0.263,
-            "strength_est": -0.259,
-            "z": -0.95,
-            "prior": 48.6,
-            "resid_std": 1.0
+            "att": -0.003,
+            "def": 0.273,
+            "strength_est": -0.277,
+            "z": -1.22,
+            "prior": 48.2,
+            "resid_std": 1.014
           },
           "1739": {
-            "n": 10,
-            "att": 0.012,
-            "def": -0.174,
-            "strength_est": 0.186,
-            "z": 0.68,
-            "prior": 51.1,
-            "resid_std": 0.974
+            "n": 11,
+            "att": 0.033,
+            "def": -0.185,
+            "strength_est": 0.218,
+            "z": 0.96,
+            "prior": 51.7,
+            "resid_std": 0.986
           },
           "1740": {
-            "n": 11,
-            "att": -0.2,
-            "def": 0.1,
-            "strength_est": -0.3,
-            "z": -1.11,
-            "prior": 48.1,
-            "resid_std": 0.821
+            "n": 12,
+            "att": -0.253,
+            "def": 0.121,
+            "strength_est": -0.373,
+            "z": -1.64,
+            "prior": 47.0,
+            "resid_std": 0.822
           },
           "1741": {
             "n": 11,
-            "att": 0.19,
-            "def": -0.043,
-            "strength_est": 0.234,
-            "z": 0.86,
-            "prior": 51.5,
-            "resid_std": 1.203
+            "att": 0.178,
+            "def": -0.029,
+            "strength_est": 0.207,
+            "z": 0.91,
+            "prior": 51.6,
+            "resid_std": 1.18
           },
           "1742": {
             "n": 12,
-            "att": -0.134,
-            "def": -0.217,
-            "strength_est": 0.083,
-            "z": 0.31,
-            "prior": 50.6,
-            "resid_std": 0.79
+            "att": -0.15,
+            "def": -0.204,
+            "strength_est": 0.055,
+            "z": 0.24,
+            "prior": 50.4,
+            "resid_std": 0.822
           },
           "1743": {
             "n": 13,
-            "att": -0.059,
-            "def": -0.173,
-            "strength_est": 0.114,
-            "z": 0.42,
+            "att": -0.07,
+            "def": -0.164,
+            "strength_est": 0.094,
+            "z": 0.41,
             "prior": 50.8,
-            "resid_std": 1.546
+            "resid_std": 1.534
           },
           "1744": {
             "n": 8,
-            "att": 0.036,
-            "def": -0.193,
-            "strength_est": 0.23,
-            "z": 0.85,
-            "prior": 51.1,
-            "resid_std": 0.653
+            "att": 0.027,
+            "def": -0.186,
+            "strength_est": 0.213,
+            "z": 0.93,
+            "prior": 51.2,
+            "resid_std": 0.649
           },
           "3230": {
-            "n": 3,
-            "att": -0.378,
-            "def": 0.33,
-            "strength_est": -0.708,
-            "z": -2.61,
-            "prior": 48.5,
-            "resid_std": 0.531
+            "n": 4,
+            "att": -0.236,
+            "def": 0.182,
+            "strength_est": -0.418,
+            "z": -1.83,
+            "prior": 48.7,
+            "resid_std": 0.67
           }
         }
       },
@@ -16813,174 +16841,174 @@
       },
       "por-segunda-liga": {
         "league": {
-          "matches": 72,
+          "matches": 76,
           "teams": 18,
-          "mu": 0.8473,
-          "home_adv": -0.0157,
-          "avg_goals": 2.333
+          "mu": 0.8896,
+          "home_adv": -0.0128,
+          "avg_goals": 2.434
         },
         "teams": {
           "1093": {
             "n": 9,
-            "att": 0.088,
-            "def": -0.022,
-            "strength_est": 0.109,
-            "z": 0.46,
-            "prior": 50.7,
-            "resid_std": 1.015
+            "att": 0.059,
+            "def": 0.005,
+            "strength_est": 0.054,
+            "z": 0.26,
+            "prior": 50.4,
+            "resid_std": 0.962
           },
           "1095": {
-            "n": 8,
-            "att": -0.044,
-            "def": -0.015,
-            "strength_est": -0.03,
-            "z": -0.12,
-            "prior": 49.8,
-            "resid_std": 1.03
+            "n": 9,
+            "att": -0.008,
+            "def": -0.037,
+            "strength_est": 0.029,
+            "z": 0.14,
+            "prior": 50.2,
+            "resid_std": 1.1
           },
           "1096": {
             "n": 9,
-            "att": 0.02,
-            "def": 0.202,
-            "strength_est": -0.182,
-            "z": -0.76,
-            "prior": 48.9,
-            "resid_std": 0.979
+            "att": -0.008,
+            "def": 0.23,
+            "strength_est": -0.237,
+            "z": -1.15,
+            "prior": 48.3,
+            "resid_std": 1.01
           },
           "1097": {
             "n": 9,
-            "att": -0.11,
-            "def": 0.033,
-            "strength_est": -0.142,
-            "z": -0.6,
-            "prior": 49.1,
-            "resid_std": 1.036
+            "att": -0.132,
+            "def": 0.055,
+            "strength_est": -0.187,
+            "z": -0.9,
+            "prior": 48.7,
+            "resid_std": 1.029
           },
           "1098": {
             "n": 4,
-            "att": -0.055,
-            "def": 0.077,
-            "strength_est": -0.132,
-            "z": -0.55,
-            "prior": 49.6,
-            "resid_std": 0.798
+            "att": -0.072,
+            "def": 0.092,
+            "strength_est": -0.164,
+            "z": -0.79,
+            "prior": 49.4,
+            "resid_std": 0.788
           },
           "1099": {
-            "n": 8,
-            "att": -0.12,
-            "def": -0.385,
-            "strength_est": 0.265,
-            "z": 1.11,
-            "prior": 51.5,
-            "resid_std": 0.599
+            "n": 9,
+            "att": -0.079,
+            "def": -0.374,
+            "strength_est": 0.296,
+            "z": 1.43,
+            "prior": 52.1,
+            "resid_std": 0.701
           },
           "1100": {
-            "n": 9,
-            "att": -0.498,
-            "def": -0.007,
-            "strength_est": -0.491,
-            "z": -2.06,
-            "prior": 47.0,
-            "resid_std": 0.614
+            "n": 10,
+            "att": -0.376,
+            "def": -0.068,
+            "strength_est": -0.308,
+            "z": -1.49,
+            "prior": 47.6,
+            "resid_std": 0.989
           },
           "1103": {
-            "n": 8,
-            "att": 0.493,
-            "def": 0.189,
-            "strength_est": 0.304,
-            "z": 1.27,
-            "prior": 51.7,
-            "resid_std": 1.216
+            "n": 9,
+            "att": 0.475,
+            "def": 0.138,
+            "strength_est": 0.337,
+            "z": 1.63,
+            "prior": 52.4,
+            "resid_std": 1.25
           },
           "1107": {
             "n": 9,
-            "att": -0.223,
-            "def": 0.026,
-            "strength_est": -0.249,
-            "z": -1.04,
-            "prior": 48.5,
-            "resid_std": 0.799
+            "att": -0.245,
+            "def": 0.049,
+            "strength_est": -0.293,
+            "z": -1.42,
+            "prior": 47.9,
+            "resid_std": 0.786
           },
           "1750": {
             "n": 8,
-            "att": 0.191,
-            "def": 0.136,
-            "strength_est": 0.055,
-            "z": 0.23,
-            "prior": 50.3,
-            "resid_std": 0.838
+            "att": 0.167,
+            "def": 0.159,
+            "strength_est": 0.007,
+            "z": 0.04,
+            "prior": 50.0,
+            "resid_std": 0.833
           },
           "1751": {
             "n": 9,
-            "att": 0.265,
-            "def": 0.185,
-            "strength_est": 0.081,
-            "z": 0.34,
-            "prior": 50.5,
-            "resid_std": 1.029
+            "att": 0.229,
+            "def": 0.216,
+            "strength_est": 0.013,
+            "z": 0.06,
+            "prior": 50.1,
+            "resid_std": 1.022
           },
           "1752": {
             "n": 8,
-            "att": -0.074,
-            "def": -0.064,
-            "strength_est": -0.011,
-            "z": -0.04,
-            "prior": 49.9,
-            "resid_std": 1.024
+            "att": -0.092,
+            "def": -0.047,
+            "strength_est": -0.045,
+            "z": -0.22,
+            "prior": 49.7,
+            "resid_std": 1.03
           },
           "1753": {
-            "n": 9,
-            "att": 0.265,
-            "def": -0.096,
-            "strength_est": 0.361,
-            "z": 1.51,
-            "prior": 52.2,
-            "resid_std": 1.032
+            "n": 10,
+            "att": 0.201,
+            "def": -0.059,
+            "strength_est": 0.26,
+            "z": 1.26,
+            "prior": 52.0,
+            "resid_std": 1.037
           },
           "1754": {
             "n": 9,
-            "att": 0.252,
-            "def": -0.042,
-            "strength_est": 0.294,
-            "z": 1.23,
-            "prior": 51.8,
-            "resid_std": 0.567
+            "att": 0.213,
+            "def": -0.008,
+            "strength_est": 0.22,
+            "z": 1.07,
+            "prior": 51.6,
+            "resid_std": 0.661
           },
           "1755": {
-            "n": 4,
-            "att": -0.055,
-            "def": 0.346,
-            "strength_est": -0.401,
-            "z": -1.68,
-            "prior": 48.8,
-            "resid_std": 0.931
+            "n": 5,
+            "att": 0.016,
+            "def": 0.207,
+            "strength_est": -0.191,
+            "z": -0.92,
+            "prior": 49.2,
+            "resid_std": 0.844
           },
           "1756": {
-            "n": 8,
-            "att": -0.066,
-            "def": -0.096,
-            "strength_est": 0.029,
-            "z": 0.12,
-            "prior": 50.2,
-            "resid_std": 0.81
+            "n": 9,
+            "att": 0.014,
+            "def": -0.168,
+            "strength_est": 0.182,
+            "z": 0.88,
+            "prior": 51.3,
+            "resid_std": 1.001
           },
           "1757": {
-            "n": 8,
-            "att": -0.203,
-            "def": -0.077,
-            "strength_est": -0.126,
-            "z": -0.53,
-            "prior": 49.3,
-            "resid_std": 0.501
+            "n": 9,
+            "att": -0.211,
+            "def": -0.03,
+            "strength_est": -0.181,
+            "z": -0.88,
+            "prior": 48.7,
+            "resid_std": 0.491
           },
           "1758": {
             "n": 8,
-            "att": -0.125,
-            "def": -0.39,
-            "strength_est": 0.264,
-            "z": 1.11,
-            "prior": 51.5,
-            "resid_std": 0.683
+            "att": -0.152,
+            "def": -0.359,
+            "strength_est": 0.207,
+            "z": 1.0,
+            "prior": 51.3,
+            "resid_std": 0.673
           }
         }
       },
@@ -20526,138 +20554,138 @@
       },
       "bul-first-league": {
         "league": {
-          "matches": 81,
+          "matches": 82,
           "teams": 14,
-          "mu": 0.9762,
-          "home_adv": 0.0633,
-          "avg_goals": 2.654
+          "mu": 0.9824,
+          "home_adv": 0.0614,
+          "avg_goals": 2.671
         },
         "teams": {
           "1522": {
             "n": 12,
             "att": 0.293,
-            "def": 0.426,
-            "strength_est": -0.132,
-            "z": -0.48,
+            "def": 0.43,
+            "strength_est": -0.137,
+            "z": -0.49,
             "prior": 49.1,
-            "resid_std": 1.343
+            "resid_std": 1.346
           },
           "1523": {
             "n": 7,
-            "att": 0.574,
-            "def": 0.266,
-            "strength_est": 0.308,
-            "z": 1.13,
+            "att": 0.573,
+            "def": 0.271,
+            "strength_est": 0.302,
+            "z": 1.09,
             "prior": 51.3,
-            "resid_std": 0.936
+            "resid_std": 0.929
           },
           "1524": {
-            "n": 12,
-            "att": 0.266,
-            "def": 0.245,
-            "strength_est": 0.02,
-            "z": 0.07,
-            "prior": 50.1,
-            "resid_std": 1.231
+            "n": 13,
+            "att": 0.274,
+            "def": 0.216,
+            "strength_est": 0.058,
+            "z": 0.21,
+            "prior": 50.4,
+            "resid_std": 1.196
           },
           "1525": {
-            "n": 12,
-            "att": 0.423,
-            "def": 0.149,
-            "strength_est": 0.273,
-            "z": 1.0,
-            "prior": 51.8,
-            "resid_std": 1.45
+            "n": 13,
+            "att": 0.424,
+            "def": 0.124,
+            "strength_est": 0.299,
+            "z": 1.08,
+            "prior": 52.1,
+            "resid_std": 1.418
           },
           "1526": {
             "n": 12,
-            "att": -0.026,
-            "def": -0.072,
-            "strength_est": 0.046,
-            "z": 0.17,
+            "att": -0.027,
+            "def": -0.068,
+            "strength_est": 0.041,
+            "z": 0.15,
             "prior": 50.3,
-            "resid_std": 0.483
+            "resid_std": 0.49
           },
           "1527": {
             "n": 13,
-            "att": 0.166,
-            "def": -0.098,
-            "strength_est": 0.264,
-            "z": 0.96,
-            "prior": 51.9,
-            "resid_std": 1.116
+            "att": 0.165,
+            "def": -0.093,
+            "strength_est": 0.258,
+            "z": 0.94,
+            "prior": 51.8,
+            "resid_std": 1.127
           },
           "1528": {
             "n": 12,
             "att": -0.332,
-            "def": 0.345,
-            "strength_est": -0.678,
+            "def": 0.349,
+            "strength_est": -0.682,
             "z": -2.47,
             "prior": 45.4,
-            "resid_std": 0.928
+            "resid_std": 0.921
           },
           "1529": {
             "n": 11,
-            "att": -0.141,
-            "def": -0.251,
-            "strength_est": 0.111,
-            "z": 0.4,
+            "att": -0.142,
+            "def": -0.247,
+            "strength_est": 0.104,
+            "z": 0.38,
             "prior": 50.7,
-            "resid_std": 0.986
+            "resid_std": 0.975
           },
           "1530": {
             "n": 14,
-            "att": -0.273,
-            "def": -0.17,
-            "strength_est": -0.102,
-            "z": -0.37,
+            "att": -0.272,
+            "def": -0.166,
+            "strength_est": -0.107,
+            "z": -0.39,
             "prior": 49.2,
-            "resid_std": 0.815
+            "resid_std": 0.809
           },
           "1531": {
             "n": 12,
             "att": -0.196,
-            "def": -0.244,
-            "strength_est": 0.048,
-            "z": 0.18,
+            "def": -0.24,
+            "strength_est": 0.043,
+            "z": 0.16,
             "prior": 50.3,
-            "resid_std": 0.641
+            "resid_std": 0.634
           },
           "1532": {
             "n": 13,
             "att": -0.407,
-            "def": 0.011,
-            "strength_est": -0.418,
-            "z": -1.52,
+            "def": 0.016,
+            "strength_est": -0.423,
+            "z": -1.53,
             "prior": 47.0,
-            "resid_std": 0.585
+            "resid_std": 0.588
           },
           "1533": {
             "n": 13,
             "att": -0.195,
-            "def": -0.093,
-            "strength_est": -0.102,
-            "z": -0.37,
-            "prior": 49.3,
-            "resid_std": 0.919
+            "def": -0.088,
+            "strength_est": -0.106,
+            "z": -0.38,
+            "prior": 49.2,
+            "resid_std": 0.91
           },
           "1534": {
             "n": 6,
-            "att": -0.053,
-            "def": -0.403,
-            "strength_est": 0.35,
-            "z": 1.28,
+            "att": -0.056,
+            "def": -0.398,
+            "strength_est": 0.342,
+            "z": 1.24,
             "prior": 51.3,
-            "resid_std": 0.475
+            "resid_std": 0.468
           },
           "1535": {
             "n": 13,
-            "att": -0.099,
-            "def": -0.11,
-            "strength_est": 0.011,
-            "z": 0.04,
-            "prior": 50.1,
-            "resid_std": 0.706
+            "att": -0.1,
+            "def": -0.106,
+            "strength_est": 0.006,
+            "z": 0.02,
+            "prior": 50.0,
+            "resid_std": 0.709
           }
         }
       },
@@ -20901,156 +20929,156 @@
       },
       "blr-premier-league": {
         "league": {
-          "matches": 217,
+          "matches": 221,
           "teams": 16,
-          "mu": 0.9516,
-          "home_adv": 0.0596,
-          "avg_goals": 2.59
+          "mu": 0.9545,
+          "home_adv": 0.052,
+          "avg_goals": 2.597
         },
         "teams": {
           "1558": {
-            "n": 27,
-            "att": 0.273,
-            "def": 0.249,
-            "strength_est": 0.024,
-            "z": 0.16,
-            "prior": 50.5,
-            "resid_std": 1.068
+            "n": 28,
+            "att": 0.285,
+            "def": 0.226,
+            "strength_est": 0.059,
+            "z": 0.37,
+            "prior": 51.2,
+            "resid_std": 1.043
           },
           "1559": {
-            "n": 27,
-            "att": 0.363,
-            "def": 0.284,
-            "strength_est": 0.08,
-            "z": 0.52,
-            "prior": 51.7,
-            "resid_std": 1.58
+            "n": 28,
+            "att": 0.395,
+            "def": 0.295,
+            "strength_est": 0.101,
+            "z": 0.63,
+            "prior": 52.1,
+            "resid_std": 1.569
           },
           "1560": {
-            "n": 27,
-            "att": 0.263,
-            "def": 0.21,
-            "strength_est": 0.053,
-            "z": 0.35,
-            "prior": 51.1,
-            "resid_std": 1.09
+            "n": 28,
+            "att": 0.252,
+            "def": 0.226,
+            "strength_est": 0.026,
+            "z": 0.16,
+            "prior": 50.5,
+            "resid_std": 1.067
           },
           "1561": {
             "n": 27,
             "att": 0.236,
-            "def": 0.135,
-            "strength_est": 0.102,
-            "z": 0.67,
-            "prior": 52.2,
-            "resid_std": 1.277
+            "def": 0.136,
+            "strength_est": 0.1,
+            "z": 0.62,
+            "prior": 52.0,
+            "resid_std": 1.283
           },
           "1562": {
             "n": 28,
-            "att": 0.062,
-            "def": 0.123,
-            "strength_est": -0.061,
-            "z": -0.4,
+            "att": 0.061,
+            "def": 0.124,
+            "strength_est": -0.063,
+            "z": -0.39,
             "prior": 48.7,
-            "resid_std": 0.969
+            "resid_std": 0.964
           },
           "1563": {
             "n": 27,
-            "att": -0.033,
-            "def": 0.181,
-            "strength_est": -0.214,
-            "z": -1.41,
-            "prior": 45.4,
-            "resid_std": 0.928
+            "att": -0.034,
+            "def": 0.182,
+            "strength_est": -0.216,
+            "z": -1.34,
+            "prior": 45.7,
+            "resid_std": 0.93
           },
           "1564": {
             "n": 27,
-            "att": -0.031,
-            "def": -0.1,
-            "strength_est": 0.069,
-            "z": 0.45,
-            "prior": 51.5,
-            "resid_std": 1.006
+            "att": -0.032,
+            "def": -0.098,
+            "strength_est": 0.066,
+            "z": 0.41,
+            "prior": 51.3,
+            "resid_std": 0.995
           },
           "1565": {
-            "n": 27,
-            "att": -0.088,
-            "def": 0.161,
-            "strength_est": -0.249,
-            "z": -1.64,
-            "prior": 44.7,
-            "resid_std": 1.247
+            "n": 28,
+            "att": -0.106,
+            "def": 0.165,
+            "strength_est": -0.271,
+            "z": -1.68,
+            "prior": 44.5,
+            "resid_std": 1.241
           },
           "1566": {
-            "n": 27,
-            "att": 0.003,
-            "def": -0.007,
-            "strength_est": 0.01,
-            "z": 0.07,
-            "prior": 50.2,
-            "resid_std": 1.063
+            "n": 28,
+            "att": -0.019,
+            "def": -0.004,
+            "strength_est": -0.015,
+            "z": -0.09,
+            "prior": 49.7,
+            "resid_std": 1.067
           },
           "1567": {
             "n": 27,
-            "att": -0.014,
+            "att": -0.015,
             "def": -0.068,
-            "strength_est": 0.054,
-            "z": 0.36,
+            "strength_est": 0.053,
+            "z": 0.33,
             "prior": 51.1,
-            "resid_std": 1.243
+            "resid_std": 1.259
           },
           "1568": {
             "n": 27,
-            "att": -0.076,
-            "def": -0.142,
-            "strength_est": 0.065,
-            "z": 0.43,
-            "prior": 51.4,
-            "resid_std": 1.19
+            "att": -0.077,
+            "def": -0.14,
+            "strength_est": 0.064,
+            "z": 0.4,
+            "prior": 51.3,
+            "resid_std": 1.2
           },
           "1569": {
             "n": 28,
-            "att": -0.194,
-            "def": -0.162,
-            "strength_est": -0.033,
+            "att": -0.195,
+            "def": -0.16,
+            "strength_est": -0.035,
             "z": -0.22,
             "prior": 49.3,
-            "resid_std": 0.981
+            "resid_std": 0.992
           },
           "1570": {
-            "n": 27,
-            "att": -0.297,
-            "def": 0.014,
-            "strength_est": -0.311,
-            "z": -2.05,
-            "prior": 43.4,
-            "resid_std": 0.811
+            "n": 28,
+            "att": -0.292,
+            "def": 0.035,
+            "strength_est": -0.328,
+            "z": -2.03,
+            "prior": 43.3,
+            "resid_std": 0.813
           },
           "1571": {
-            "n": 27,
-            "att": -0.118,
-            "def": -0.269,
-            "strength_est": 0.15,
-            "z": 0.99,
-            "prior": 53.2,
-            "resid_std": 0.851
+            "n": 28,
+            "att": -0.099,
+            "def": -0.283,
+            "strength_est": 0.184,
+            "z": 1.14,
+            "prior": 53.8,
+            "resid_std": 0.88
           },
           "1572": {
             "n": 27,
             "att": -0.16,
-            "def": -0.105,
-            "strength_est": -0.055,
-            "z": -0.36,
-            "prior": 48.8,
-            "resid_std": 1.002
+            "def": -0.104,
+            "strength_est": -0.057,
+            "z": -0.35,
+            "prior": 48.9,
+            "resid_std": 1.016
           },
           "1573": {
-            "n": 27,
-            "att": -0.188,
-            "def": -0.505,
-            "strength_est": 0.318,
-            "z": 2.09,
+            "n": 28,
+            "att": -0.2,
+            "def": -0.532,
+            "strength_est": 0.332,
+            "z": 2.06,
             "prior": 56.8,
-            "resid_std": 1.038
+            "resid_std": 1.019
           }
         }
       },
@@ -22480,192 +22508,192 @@
       },
       "esp-primera-rfef": {
         "league": {
-          "matches": 86,
+          "matches": 89,
           "teams": 20,
-          "mu": 0.9881,
-          "home_adv": 0.0322,
-          "avg_goals": 2.686
+          "mu": 0.9794,
+          "home_adv": 0.0428,
+          "avg_goals": 2.663
         },
         "teams": {
           "798": {
-            "n": 5,
-            "att": 0.038,
-            "def": 0.431,
-            "strength_est": -0.393,
-            "z": -1.24,
-            "prior": 48.9,
-            "resid_std": 1.014
+            "n": 6,
+            "att": 0.013,
+            "def": 0.313,
+            "strength_est": -0.301,
+            "z": -0.96,
+            "prior": 49.0,
+            "resid_std": 0.935
           },
           "1806": {
-            "n": 9,
-            "att": 0.359,
-            "def": 0.011,
+            "n": 10,
+            "att": 0.375,
+            "def": 0.026,
             "strength_est": 0.349,
-            "z": 1.1,
-            "prior": 51.6,
-            "resid_std": 1.222
+            "z": 1.11,
+            "prior": 51.8,
+            "resid_std": 1.213
           },
           "1807": {
             "n": 5,
             "att": 0.101,
-            "def": 0.014,
-            "strength_est": 0.087,
-            "z": 0.28,
-            "prior": 50.2,
-            "resid_std": 1.34
+            "def": 0.008,
+            "strength_est": 0.092,
+            "z": 0.29,
+            "prior": 50.3,
+            "resid_std": 1.362
           },
           "1808": {
             "n": 10,
-            "att": 0.205,
-            "def": 0.21,
-            "strength_est": -0.005,
-            "z": -0.02,
+            "att": 0.207,
+            "def": 0.209,
+            "strength_est": -0.002,
+            "z": -0.01,
             "prior": 50.0,
-            "resid_std": 0.779
+            "resid_std": 0.796
           },
           "1809": {
             "n": 10,
-            "att": -0.284,
-            "def": 0.179,
-            "strength_est": -0.463,
+            "att": -0.28,
+            "def": 0.181,
+            "strength_est": -0.461,
             "z": -1.47,
             "prior": 47.7,
-            "resid_std": 0.599
+            "resid_std": 0.583
           },
           "1810": {
-            "n": 10,
-            "att": 0.249,
-            "def": -0.164,
-            "strength_est": 0.414,
-            "z": 1.31,
-            "prior": 52.1,
-            "resid_std": 1.675
+            "n": 11,
+            "att": 0.182,
+            "def": -0.184,
+            "strength_est": 0.366,
+            "z": 1.16,
+            "prior": 52.0,
+            "resid_std": 1.592
           },
           "1811": {
             "n": 9,
-            "att": -0.049,
+            "att": -0.043,
             "def": 0.07,
-            "strength_est": -0.119,
-            "z": -0.37,
-            "prior": 49.4,
-            "resid_std": 1.096
+            "strength_est": -0.113,
+            "z": -0.36,
+            "prior": 49.5,
+            "resid_std": 1.092
           },
           "1812": {
-            "n": 9,
-            "att": -0.027,
-            "def": 0.219,
-            "strength_est": -0.245,
-            "z": -0.78,
-            "prior": 48.9,
-            "resid_std": 0.624
+            "n": 10,
+            "att": -0.044,
+            "def": 0.251,
+            "strength_est": -0.295,
+            "z": -0.94,
+            "prior": 48.5,
+            "resid_std": 0.628
           },
           "1813": {
             "n": 9,
-            "att": -0.109,
-            "def": 0.043,
+            "att": -0.106,
+            "def": 0.046,
             "strength_est": -0.152,
             "z": -0.48,
             "prior": 49.3,
-            "resid_std": 0.441
+            "resid_std": 0.434
           },
           "1814": {
             "n": 9,
-            "att": -0.023,
-            "def": -0.17,
-            "strength_est": 0.147,
-            "z": 0.46,
+            "att": -0.021,
+            "def": -0.172,
+            "strength_est": 0.151,
+            "z": 0.48,
             "prior": 50.7,
-            "resid_std": 1.12
+            "resid_std": 1.119
           },
           "1815": {
             "n": 10,
-            "att": -0.341,
-            "def": 0.352,
+            "att": -0.338,
+            "def": 0.354,
             "strength_est": -0.692,
-            "z": -2.19,
+            "z": -2.2,
             "prior": 46.5,
-            "resid_std": 0.438
+            "resid_std": 0.441
           },
           "1816": {
             "n": 4,
-            "att": 0.236,
+            "att": 0.241,
             "def": -0.003,
-            "strength_est": 0.239,
-            "z": 0.75,
-            "prior": 50.5,
-            "resid_std": 0.413
+            "strength_est": 0.244,
+            "z": 0.78,
+            "prior": 50.6,
+            "resid_std": 0.426
           },
           "1817": {
-            "n": 9,
-            "att": -0.213,
-            "def": 0.08,
-            "strength_est": -0.293,
-            "z": -0.93,
-            "prior": 48.6,
-            "resid_std": 1.005
+            "n": 10,
+            "att": -0.163,
+            "def": 0.144,
+            "strength_est": -0.307,
+            "z": -0.98,
+            "prior": 48.4,
+            "resid_std": 0.967
           },
           "1818": {
             "n": 11,
-            "att": 0.339,
-            "def": -0.02,
-            "strength_est": 0.36,
-            "z": 1.14,
+            "att": 0.347,
+            "def": -0.021,
+            "strength_est": 0.367,
+            "z": 1.17,
             "prior": 52.0,
-            "resid_std": 1.224
+            "resid_std": 1.238
           },
           "1819": {
             "n": 9,
-            "att": -0.12,
+            "att": -0.116,
             "def": -0.155,
-            "strength_est": 0.035,
-            "z": 0.11,
+            "strength_est": 0.039,
+            "z": 0.12,
             "prior": 50.2,
-            "resid_std": 1.492
+            "resid_std": 1.523
           },
           "1820": {
             "n": 10,
-            "att": 0.137,
-            "def": -0.049,
-            "strength_est": 0.186,
-            "z": 0.59,
-            "prior": 50.9,
-            "resid_std": 1.256
+            "att": 0.142,
+            "def": -0.047,
+            "strength_est": 0.189,
+            "z": 0.6,
+            "prior": 51.0,
+            "resid_std": 1.271
           },
           "1821": {
             "n": 9,
-            "att": 0.362,
+            "att": 0.367,
             "def": -0.087,
-            "strength_est": 0.449,
-            "z": 1.42,
+            "strength_est": 0.454,
+            "z": 1.44,
             "prior": 52.1,
-            "resid_std": 1.362
+            "resid_std": 1.346
           },
           "1822": {
             "n": 8,
-            "att": -0.209,
-            "def": -0.463,
-            "strength_est": 0.254,
-            "z": 0.8,
+            "att": -0.202,
+            "def": -0.46,
+            "strength_est": 0.258,
+            "z": 0.82,
             "prior": 51.1,
-            "resid_std": 0.534
+            "resid_std": 0.562
           },
           "1823": {
             "n": 8,
-            "att": -0.135,
-            "def": -0.326,
-            "strength_est": 0.191,
-            "z": 0.6,
+            "att": -0.136,
+            "def": -0.331,
+            "strength_est": 0.195,
+            "z": 0.62,
             "prior": 50.8,
-            "resid_std": 0.782
+            "resid_std": 0.798
           },
           "1824": {
-            "n": 9,
-            "att": -0.518,
-            "def": -0.171,
-            "strength_est": -0.347,
-            "z": -1.1,
-            "prior": 48.4,
-            "resid_std": 0.532
+            "n": 10,
+            "att": -0.524,
+            "def": -0.142,
+            "strength_est": -0.382,
+            "z": -1.22,
+            "prior": 48.1,
+            "resid_std": 0.51
           }
         }
       },
@@ -23228,156 +23256,156 @@
       },
       "swe-superettan": {
         "league": {
-          "matches": 232,
+          "matches": 240,
           "teams": 16,
-          "mu": 1.0783,
-          "home_adv": 0.0332,
-          "avg_goals": 2.94
+          "mu": 1.0661,
+          "home_adv": 0.0348,
+          "avg_goals": 2.904
         },
         "teams": {
           "1900": {
-            "n": 29,
-            "att": 0.268,
-            "def": 0.403,
-            "strength_est": -0.136,
-            "z": -0.97,
-            "prior": 46.7,
-            "resid_std": 1.361
+            "n": 30,
+            "att": 0.275,
+            "def": 0.406,
+            "strength_est": -0.132,
+            "z": -0.93,
+            "prior": 46.8,
+            "resid_std": 1.336
           },
           "1901": {
-            "n": 29,
-            "att": 0.178,
-            "def": 0.048,
-            "strength_est": 0.13,
-            "z": 0.93,
-            "prior": 53.1,
-            "resid_std": 1.13
+            "n": 30,
+            "att": 0.158,
+            "def": 0.045,
+            "strength_est": 0.113,
+            "z": 0.8,
+            "prior": 52.7,
+            "resid_std": 1.168
           },
           "1902": {
-            "n": 29,
-            "att": -0.077,
-            "def": 0.219,
-            "strength_est": -0.295,
-            "z": -2.11,
-            "prior": 42.9,
-            "resid_std": 1.042
+            "n": 30,
+            "att": -0.088,
+            "def": 0.229,
+            "strength_est": -0.317,
+            "z": -2.23,
+            "prior": 42.3,
+            "resid_std": 1.034
           },
           "1903": {
-            "n": 29,
-            "att": 0.092,
-            "def": 0.086,
-            "strength_est": 0.005,
-            "z": 0.04,
+            "n": 30,
+            "att": 0.098,
+            "def": 0.094,
+            "strength_est": 0.004,
+            "z": 0.03,
             "prior": 50.1,
-            "resid_std": 1.243
+            "resid_std": 1.239
           },
           "1904": {
-            "n": 29,
-            "att": 0.083,
-            "def": 0.133,
-            "strength_est": -0.05,
-            "z": -0.36,
-            "prior": 48.8,
-            "resid_std": 1.135
+            "n": 30,
+            "att": 0.082,
+            "def": 0.126,
+            "strength_est": -0.044,
+            "z": -0.31,
+            "prior": 48.9,
+            "resid_std": 1.113
           },
           "1905": {
-            "n": 29,
-            "att": 0.112,
-            "def": 0.066,
-            "strength_est": 0.046,
-            "z": 0.33,
-            "prior": 51.1,
-            "resid_std": 1.137
-          },
-          "1906": {
-            "n": 29,
-            "att": 0.104,
-            "def": -0.044,
-            "strength_est": 0.148,
-            "z": 1.06,
-            "prior": 53.6,
-            "resid_std": 1.119
-          },
-          "1907": {
-            "n": 29,
-            "att": 0.043,
-            "def": -0.107,
-            "strength_est": 0.15,
-            "z": 1.07,
-            "prior": 53.6,
-            "resid_std": 0.886
-          },
-          "1908": {
-            "n": 29,
-            "att": 0.072,
-            "def": 0.066,
-            "strength_est": 0.006,
-            "z": 0.04,
-            "prior": 50.1,
-            "resid_std": 1.167
-          },
-          "1909": {
-            "n": 29,
-            "att": -0.083,
-            "def": -0.135,
-            "strength_est": 0.052,
-            "z": 0.37,
-            "prior": 51.2,
-            "resid_std": 1.155
-          },
-          "1910": {
-            "n": 29,
-            "att": -0.072,
-            "def": -0.091,
-            "strength_est": 0.019,
+            "n": 30,
+            "att": 0.099,
+            "def": 0.078,
+            "strength_est": 0.021,
             "z": 0.14,
             "prior": 50.5,
-            "resid_std": 1.163
+            "resid_std": 1.135
+          },
+          "1906": {
+            "n": 30,
+            "att": 0.102,
+            "def": -0.046,
+            "strength_est": 0.148,
+            "z": 1.04,
+            "prior": 53.6,
+            "resid_std": 1.113
+          },
+          "1907": {
+            "n": 30,
+            "att": 0.045,
+            "def": -0.134,
+            "strength_est": 0.179,
+            "z": 1.26,
+            "prior": 54.3,
+            "resid_std": 0.87
+          },
+          "1908": {
+            "n": 30,
+            "att": 0.099,
+            "def": 0.062,
+            "strength_est": 0.037,
+            "z": 0.26,
+            "prior": 50.9,
+            "resid_std": 1.164
+          },
+          "1909": {
+            "n": 30,
+            "att": -0.079,
+            "def": -0.115,
+            "strength_est": 0.036,
+            "z": 0.25,
+            "prior": 50.9,
+            "resid_std": 1.139
+          },
+          "1910": {
+            "n": 30,
+            "att": -0.08,
+            "def": -0.1,
+            "strength_est": 0.021,
+            "z": 0.15,
+            "prior": 50.5,
+            "resid_std": 1.144
           },
           "1911": {
-            "n": 29,
-            "att": -0.088,
-            "def": 0.006,
-            "strength_est": -0.094,
-            "z": -0.67,
-            "prior": 47.7,
-            "resid_std": 1.145
+            "n": 30,
+            "att": -0.083,
+            "def": 0.005,
+            "strength_est": -0.088,
+            "z": -0.62,
+            "prior": 47.9,
+            "resid_std": 1.132
           },
           "1912": {
-            "n": 29,
-            "att": -0.168,
-            "def": -0.024,
-            "strength_est": -0.144,
-            "z": -1.03,
-            "prior": 46.5,
-            "resid_std": 0.994
+            "n": 30,
+            "att": -0.162,
+            "def": -0.023,
+            "strength_est": -0.139,
+            "z": -0.98,
+            "prior": 46.7,
+            "resid_std": 0.981
           },
           "1913": {
-            "n": 29,
-            "att": -0.182,
+            "n": 30,
+            "att": -0.178,
             "def": -0.023,
-            "strength_est": -0.159,
-            "z": -1.14,
+            "strength_est": -0.156,
+            "z": -1.09,
             "prior": 46.2,
-            "resid_std": 1.018
+            "resid_std": 1.01
           },
           "1914": {
-            "n": 29,
-            "att": 0.065,
-            "def": -0.222,
-            "strength_est": 0.287,
-            "z": 2.05,
+            "n": 30,
+            "att": 0.064,
+            "def": -0.221,
+            "strength_est": 0.284,
+            "z": 2.0,
             "prior": 56.9,
-            "resid_std": 1.324
+            "resid_std": 1.311
           },
           "1915": {
-            "n": 29,
-            "att": -0.347,
-            "def": -0.381,
-            "strength_est": 0.033,
-            "z": 0.24,
+            "n": 30,
+            "att": -0.352,
+            "def": -0.384,
+            "strength_est": 0.032,
+            "z": 0.23,
             "prior": 50.8,
-            "resid_std": 0.854
+            "resid_std": 0.841
           }
         }
       },
@@ -23538,174 +23566,174 @@
       },
       "pol-1-liga": {
         "league": {
-          "matches": 119,
+          "matches": 122,
           "teams": 18,
-          "mu": 0.9954,
-          "home_adv": 0.0762,
-          "avg_goals": 2.706
+          "mu": 1.0041,
+          "home_adv": 0.0702,
+          "avg_goals": 2.73
         },
         "teams": {
           "1021": {
             "n": 13,
-            "att": -0.021,
-            "def": -0.323,
-            "strength_est": 0.302,
-            "z": 1.42,
-            "prior": 52.8,
-            "resid_std": 1.229
+            "att": -0.029,
+            "def": -0.319,
+            "strength_est": 0.29,
+            "z": 1.39,
+            "prior": 52.7,
+            "resid_std": 1.215
           },
           "1023": {
             "n": 14,
-            "att": -0.099,
-            "def": -0.032,
-            "strength_est": -0.067,
-            "z": -0.31,
-            "prior": 49.4,
-            "resid_std": 1.135
+            "att": -0.104,
+            "def": -0.025,
+            "strength_est": -0.079,
+            "z": -0.38,
+            "prior": 49.2,
+            "resid_std": 1.117
           },
           "1932": {
             "n": 13,
-            "att": -0.051,
-            "def": 0.197,
-            "strength_est": -0.248,
-            "z": -1.16,
-            "prior": 47.7,
-            "resid_std": 0.714
+            "att": -0.058,
+            "def": 0.204,
+            "strength_est": -0.262,
+            "z": -1.25,
+            "prior": 47.5,
+            "resid_std": 0.723
           },
           "1933": {
             "n": 13,
-            "att": 0.041,
-            "def": 0.219,
-            "strength_est": -0.177,
-            "z": -0.83,
-            "prior": 48.4,
-            "resid_std": 1.342
+            "att": 0.036,
+            "def": 0.224,
+            "strength_est": -0.188,
+            "z": -0.9,
+            "prior": 48.2,
+            "resid_std": 1.319
           },
           "1934": {
             "n": 14,
-            "att": 0.025,
-            "def": 0.2,
-            "strength_est": -0.176,
-            "z": -0.82,
-            "prior": 48.3,
-            "resid_std": 0.744
+            "att": 0.018,
+            "def": 0.207,
+            "strength_est": -0.19,
+            "z": -0.91,
+            "prior": 48.1,
+            "resid_std": 0.75
           },
           "1935": {
-            "n": 13,
-            "att": 0.097,
-            "def": -0.021,
-            "strength_est": 0.118,
-            "z": 0.55,
-            "prior": 51.1,
-            "resid_std": 0.595
+            "n": 14,
+            "att": 0.109,
+            "def": -0.04,
+            "strength_est": 0.15,
+            "z": 0.72,
+            "prior": 51.5,
+            "resid_std": 0.602
           },
           "1936": {
-            "n": 13,
-            "att": -0.162,
-            "def": 0.087,
-            "strength_est": -0.249,
-            "z": -1.17,
-            "prior": 47.7,
-            "resid_std": 1.408
+            "n": 14,
+            "att": -0.132,
+            "def": 0.067,
+            "strength_est": -0.2,
+            "z": -0.96,
+            "prior": 48.0,
+            "resid_std": 1.386
           },
           "1937": {
-            "n": 13,
-            "att": 0.087,
-            "def": 0.02,
-            "strength_est": 0.068,
-            "z": 0.32,
+            "n": 14,
+            "att": 0.033,
+            "def": -0.027,
+            "strength_est": 0.061,
+            "z": 0.29,
             "prior": 50.6,
-            "resid_std": 1.039
+            "resid_std": 1.051
           },
           "1938": {
-            "n": 13,
-            "att": 0.098,
-            "def": 0.097,
-            "strength_est": 0.0,
-            "z": 0.0,
-            "prior": 50.0,
-            "resid_std": 0.732
+            "n": 14,
+            "att": 0.14,
+            "def": 0.146,
+            "strength_est": -0.006,
+            "z": -0.03,
+            "prior": 49.9,
+            "resid_std": 0.785
           },
           "1939": {
-            "n": 13,
-            "att": -0.06,
-            "def": 0.059,
-            "strength_est": -0.12,
-            "z": -0.56,
-            "prior": 48.9,
-            "resid_std": 1.08
+            "n": 14,
+            "att": -0.007,
+            "def": 0.07,
+            "strength_est": -0.076,
+            "z": -0.37,
+            "prior": 49.2,
+            "resid_std": 1.127
           },
           "1940": {
             "n": 13,
-            "att": -0.016,
-            "def": 0.211,
-            "strength_est": -0.227,
-            "z": -1.07,
-            "prior": 47.9,
-            "resid_std": 1.086
+            "att": -0.022,
+            "def": 0.218,
+            "strength_est": -0.24,
+            "z": -1.15,
+            "prior": 47.7,
+            "resid_std": 1.082
           },
           "1941": {
             "n": 13,
-            "att": 0.023,
-            "def": -0.238,
-            "strength_est": 0.262,
-            "z": 1.23,
-            "prior": 52.4,
-            "resid_std": 1.239
+            "att": 0.019,
+            "def": -0.23,
+            "strength_est": 0.248,
+            "z": 1.19,
+            "prior": 52.3,
+            "resid_std": 1.25
           },
           "1942": {
             "n": 13,
-            "att": 0.258,
-            "def": -0.127,
-            "strength_est": 0.385,
-            "z": 1.8,
+            "att": 0.251,
+            "def": -0.121,
+            "strength_est": 0.372,
+            "z": 1.78,
             "prior": 53.5,
-            "resid_std": 1.492
+            "resid_std": 1.532
           },
           "1943": {
             "n": 13,
-            "att": -0.104,
-            "def": 0.05,
-            "strength_est": -0.154,
-            "z": -0.72,
-            "prior": 48.6,
-            "resid_std": 0.698
+            "att": -0.109,
+            "def": 0.059,
+            "strength_est": -0.168,
+            "z": -0.8,
+            "prior": 48.4,
+            "resid_std": 0.728
           },
           "1944": {
             "n": 14,
-            "att": -0.282,
-            "def": -0.078,
-            "strength_est": -0.204,
-            "z": -0.96,
-            "prior": 48.0,
-            "resid_std": 0.969
+            "att": -0.289,
+            "def": -0.072,
+            "strength_est": -0.217,
+            "z": -1.04,
+            "prior": 47.8,
+            "resid_std": 0.948
           },
           "1945": {
             "n": 14,
-            "att": 0.033,
-            "def": -0.223,
-            "strength_est": 0.257,
-            "z": 1.2,
-            "prior": 52.5,
-            "resid_std": 1.435
+            "att": 0.027,
+            "def": -0.217,
+            "strength_est": 0.244,
+            "z": 1.17,
+            "prior": 52.4,
+            "resid_std": 1.44
           },
           "1946": {
             "n": 13,
-            "att": 0.202,
-            "def": -0.113,
-            "strength_est": 0.314,
-            "z": 1.47,
-            "prior": 52.9,
-            "resid_std": 1.079
+            "att": 0.195,
+            "def": -0.105,
+            "strength_est": 0.301,
+            "z": 1.44,
+            "prior": 52.8,
+            "resid_std": 1.083
           },
           "1947": {
-            "n": 13,
-            "att": -0.069,
-            "def": 0.015,
-            "strength_est": -0.084,
-            "z": -0.4,
-            "prior": 49.2,
-            "resid_std": 0.953
+            "n": 14,
+            "att": -0.079,
+            "def": -0.038,
+            "strength_est": -0.041,
+            "z": -0.2,
+            "prior": 49.6,
+            "resid_std": 0.918
           }
         }
       },
@@ -25137,138 +25165,138 @@
       },
       "mkd-second-league": {
         "league": {
-          "matches": 52,
+          "matches": 58,
           "teams": 14,
-          "mu": 0.8279,
-          "home_adv": -0.0071,
-          "avg_goals": 2.288
+          "mu": 0.8299,
+          "home_adv": 0.0062,
+          "avg_goals": 2.293
         },
         "teams": {
           "2160": {
-            "n": 8,
-            "att": 0.318,
-            "def": 0.316,
-            "strength_est": 0.002,
-            "z": 0.01,
-            "prior": 50.0,
-            "resid_std": 1.128
+            "n": 9,
+            "att": 0.427,
+            "def": 0.327,
+            "strength_est": 0.1,
+            "z": 0.34,
+            "prior": 50.5,
+            "resid_std": 1.246
           },
           "2161": {
-            "n": 9,
-            "att": 0.192,
-            "def": 0.527,
-            "strength_est": -0.335,
-            "z": -1.07,
+            "n": 10,
+            "att": 0.161,
+            "def": 0.461,
+            "strength_est": -0.3,
+            "z": -1.03,
             "prior": 48.4,
-            "resid_std": 0.968
+            "resid_std": 0.904
           },
           "2162": {
-            "n": 8,
-            "att": 0.447,
-            "def": 0.074,
-            "strength_est": 0.373,
-            "z": 1.19,
-            "prior": 51.6,
-            "resid_std": 0.902
+            "n": 9,
+            "att": 0.344,
+            "def": 0.056,
+            "strength_est": 0.288,
+            "z": 0.99,
+            "prior": 51.5,
+            "resid_std": 1.109
           },
           "2163": {
-            "n": 9,
-            "att": -0.078,
-            "def": 0.114,
-            "strength_est": -0.192,
-            "z": -0.61,
-            "prior": 49.1,
-            "resid_std": 0.468
+            "n": 10,
+            "att": -0.07,
+            "def": 0.126,
+            "strength_est": -0.196,
+            "z": -0.67,
+            "prior": 48.9,
+            "resid_std": 0.711
           },
           "2164": {
-            "n": 2,
-            "att": 0.003,
-            "def": -0.185,
-            "strength_est": 0.188,
-            "z": 0.6,
-            "prior": 50.2,
-            "resid_std": 0.676
+            "n": 3,
+            "att": -0.015,
+            "def": 0.095,
+            "strength_est": -0.11,
+            "z": -0.38,
+            "prior": 49.8,
+            "resid_std": 0.443
           },
           "2165": {
-            "n": 8,
-            "att": 0.099,
-            "def": -0.144,
-            "strength_est": 0.243,
-            "z": 0.78,
-            "prior": 51.0,
-            "resid_std": 1.148
+            "n": 9,
+            "att": 0.041,
+            "def": -0.276,
+            "strength_est": 0.317,
+            "z": 1.09,
+            "prior": 51.6,
+            "resid_std": 0.975
           },
           "2166": {
-            "n": 10,
-            "att": -0.323,
-            "def": 0.225,
-            "strength_est": -0.548,
-            "z": -1.75,
-            "prior": 47.2,
-            "resid_std": 0.715
+            "n": 11,
+            "att": -0.353,
+            "def": 0.137,
+            "strength_est": -0.49,
+            "z": -1.68,
+            "prior": 47.1,
+            "resid_std": 0.676
           },
           "2167": {
-            "n": 4,
-            "att": 0.04,
-            "def": -0.157,
-            "strength_est": 0.196,
-            "z": 0.63,
+            "n": 5,
+            "att": 0.062,
+            "def": -0.115,
+            "strength_est": 0.177,
+            "z": 0.61,
             "prior": 50.5,
-            "resid_std": 1.398
+            "resid_std": 1.366
           },
           "2168": {
-            "n": 7,
-            "att": 0.386,
-            "def": 0.189,
-            "strength_est": 0.197,
-            "z": 0.63,
-            "prior": 50.8,
-            "resid_std": 1.661
+            "n": 8,
+            "att": 0.43,
+            "def": 0.213,
+            "strength_est": 0.217,
+            "z": 0.75,
+            "prior": 51.0,
+            "resid_std": 1.49
           },
           "2169": {
             "n": 9,
-            "att": 0.132,
-            "def": -0.252,
-            "strength_est": 0.384,
-            "z": 1.23,
-            "prior": 51.8,
-            "resid_std": 1.163
+            "att": 0.13,
+            "def": -0.256,
+            "strength_est": 0.386,
+            "z": 1.33,
+            "prior": 51.9,
+            "resid_std": 1.239
           },
           "2170": {
-            "n": 9,
-            "att": -0.319,
-            "def": -0.193,
-            "strength_est": -0.125,
-            "z": -0.4,
-            "prior": 49.4,
-            "resid_std": 0.505
+            "n": 10,
+            "att": -0.235,
+            "def": -0.153,
+            "strength_est": -0.081,
+            "z": -0.28,
+            "prior": 49.6,
+            "resid_std": 0.771
           },
           "2171": {
             "n": 4,
-            "att": -0.154,
-            "def": 0.363,
-            "strength_est": -0.516,
-            "z": -1.65,
+            "att": -0.147,
+            "def": 0.347,
+            "strength_est": -0.494,
+            "z": -1.7,
             "prior": 48.8,
-            "resid_std": 0.622
+            "resid_std": 0.614
           },
           "2172": {
-            "n": 8,
-            "att": -0.242,
-            "def": -0.013,
-            "strength_est": -0.229,
-            "z": -0.73,
-            "prior": 49.0,
-            "resid_std": 1.054
+            "n": 9,
+            "att": -0.266,
+            "def": -0.117,
+            "strength_est": -0.149,
+            "z": -0.51,
+            "prior": 49.2,
+            "resid_std": 0.997
           },
           "2173": {
-            "n": 9,
-            "att": -0.502,
-            "def": -0.865,
-            "strength_est": 0.363,
-            "z": 1.16,
-            "prior": 51.7,
-            "resid_std": 0.289
+            "n": 10,
+            "att": -0.509,
+            "def": -0.843,
+            "strength_est": 0.334,
+            "z": 1.15,
+            "prior": 51.8,
+            "resid_std": 0.299
           }
         }
       },
@@ -29411,156 +29439,156 @@
       },
       "cro-first-league": {
         "league": {
-          "matches": 81,
+          "matches": 88,
           "teams": 16,
-          "mu": 0.8786,
-          "home_adv": 0.0599,
-          "avg_goals": 2.407
+          "mu": 0.8745,
+          "home_adv": 0.0489,
+          "avg_goals": 2.398
         },
         "teams": {
           "3010": {
-            "n": 10,
-            "att": 0.151,
-            "def": 0.147,
-            "strength_est": 0.004,
-            "z": 0.02,
-            "prior": 50.0,
-            "resid_std": 0.966
+            "n": 11,
+            "att": 0.142,
+            "def": 0.191,
+            "strength_est": -0.049,
+            "z": -0.23,
+            "prior": 49.6,
+            "resid_std": 0.963
           },
           "3011": {
-            "n": 11,
-            "att": 0.219,
-            "def": -0.037,
-            "strength_est": 0.256,
-            "z": 1.41,
-            "prior": 52.4,
-            "resid_std": 1.084
+            "n": 12,
+            "att": 0.204,
+            "def": 0.009,
+            "strength_est": 0.195,
+            "z": 0.91,
+            "prior": 51.7,
+            "resid_std": 1.105
           },
           "3012": {
-            "n": 10,
-            "att": 0.126,
-            "def": -0.188,
-            "strength_est": 0.314,
-            "z": 1.73,
-            "prior": 52.8,
-            "resid_std": 1.045
+            "n": 11,
+            "att": 0.234,
+            "def": -0.171,
+            "strength_est": 0.405,
+            "z": 1.9,
+            "prior": 53.3,
+            "resid_std": 1.171
           },
           "3013": {
-            "n": 11,
-            "att": -0.043,
-            "def": 0.132,
-            "strength_est": -0.175,
-            "z": -0.96,
-            "prior": 48.3,
-            "resid_std": 0.633
+            "n": 12,
+            "att": -0.085,
+            "def": 0.135,
+            "strength_est": -0.22,
+            "z": -1.03,
+            "prior": 48.1,
+            "resid_std": 0.624
           },
           "3014": {
             "n": 10,
-            "att": -0.019,
-            "def": -0.237,
-            "strength_est": 0.217,
-            "z": 1.2,
-            "prior": 51.9,
-            "resid_std": 1.148
+            "att": -0.011,
+            "def": -0.24,
+            "strength_est": 0.229,
+            "z": 1.07,
+            "prior": 51.7,
+            "resid_std": 1.143
           },
           "3015": {
-            "n": 11,
-            "att": 0.004,
-            "def": 0.142,
-            "strength_est": -0.138,
-            "z": -0.76,
-            "prior": 48.7,
-            "resid_std": 0.994
+            "n": 12,
+            "att": 0.002,
+            "def": 0.179,
+            "strength_est": -0.177,
+            "z": -0.83,
+            "prior": 48.5,
+            "resid_std": 0.998
           },
           "3016": {
-            "n": 10,
-            "att": 0.061,
-            "def": -0.004,
-            "strength_est": 0.064,
-            "z": 0.35,
-            "prior": 50.6,
-            "resid_std": 0.829
+            "n": 11,
+            "att": 0.059,
+            "def": -0.119,
+            "strength_est": 0.178,
+            "z": 0.84,
+            "prior": 51.4,
+            "resid_std": 0.818
           },
           "3017": {
             "n": 10,
-            "att": -0.035,
-            "def": 0.032,
-            "strength_est": -0.068,
-            "z": -0.37,
-            "prior": 49.4,
-            "resid_std": 1.006
+            "att": -0.029,
+            "def": 0.028,
+            "strength_est": -0.057,
+            "z": -0.27,
+            "prior": 49.6,
+            "resid_std": 0.939
           },
           "3018": {
-            "n": 9,
-            "att": -0.097,
-            "def": 0.053,
-            "strength_est": -0.15,
-            "z": -0.83,
-            "prior": 48.8,
-            "resid_std": 0.871
+            "n": 10,
+            "att": -0.139,
+            "def": 0.008,
+            "strength_est": -0.147,
+            "z": -0.69,
+            "prior": 48.9,
+            "resid_std": 0.855
           },
           "3019": {
-            "n": 11,
-            "att": 0.181,
-            "def": 0.106,
-            "strength_est": 0.076,
-            "z": 0.42,
-            "prior": 50.7,
-            "resid_std": 1.503
+            "n": 13,
+            "att": 0.216,
+            "def": 0.103,
+            "strength_est": 0.113,
+            "z": 0.53,
+            "prior": 51.0,
+            "resid_std": 1.573
           },
           "3020": {
-            "n": 11,
-            "att": -0.036,
-            "def": -0.148,
-            "strength_est": 0.112,
-            "z": 0.62,
-            "prior": 51.1,
-            "resid_std": 1.025
+            "n": 12,
+            "att": -0.043,
+            "def": -0.245,
+            "strength_est": 0.202,
+            "z": 0.95,
+            "prior": 51.7,
+            "resid_std": 0.979
           },
           "3021": {
-            "n": 12,
-            "att": -0.051,
-            "def": -0.069,
-            "strength_est": 0.017,
-            "z": 0.09,
-            "prior": 50.2,
-            "resid_std": 0.57
+            "n": 13,
+            "att": -0.048,
+            "def": -0.011,
+            "strength_est": -0.037,
+            "z": -0.18,
+            "prior": 49.7,
+            "resid_std": 0.558
           },
           "3022": {
-            "n": 10,
-            "att": -0.029,
-            "def": 0.161,
-            "strength_est": -0.191,
-            "z": -1.05,
-            "prior": 48.3,
-            "resid_std": 0.893
+            "n": 11,
+            "att": 0.018,
+            "def": 0.194,
+            "strength_est": -0.176,
+            "z": -0.83,
+            "prior": 48.6,
+            "resid_std": 0.818
           },
           "3023": {
             "n": 11,
-            "att": 0.006,
-            "def": -0.085,
-            "strength_est": 0.091,
-            "z": 0.5,
-            "prior": 50.9,
-            "resid_std": 0.746
+            "att": 0.009,
+            "def": -0.086,
+            "strength_est": 0.095,
+            "z": 0.44,
+            "prior": 50.8,
+            "resid_std": 0.837
           },
           "3024": {
-            "n": 4,
-            "att": -0.341,
-            "def": 0.073,
-            "strength_est": -0.414,
-            "z": -2.28,
-            "prior": 48.3,
-            "resid_std": 0.622
+            "n": 5,
+            "att": -0.397,
+            "def": 0.087,
+            "strength_est": -0.485,
+            "z": -2.27,
+            "prior": 48.0,
+            "resid_std": 0.652
           },
           "3025": {
-            "n": 11,
-            "att": -0.097,
-            "def": -0.079,
-            "strength_est": -0.018,
-            "z": -0.1,
-            "prior": 49.8,
-            "resid_std": 1.088
+            "n": 12,
+            "att": -0.131,
+            "def": -0.063,
+            "strength_est": -0.068,
+            "z": -0.32,
+            "prior": 49.4,
+            "resid_std": 1.009
           }
         }
       },
@@ -31026,7 +31054,7 @@
     "coverage": {
       "eng-premier-league": {
         "form_feed": true,
-        "match_events": 1171,
+        "match_events": 1172,
         "espn": true,
         "espn_code": "eng.1",
         "wiki": true,
@@ -31071,7 +31099,7 @@
       },
       "esp-la-liga": {
         "form_feed": true,
-        "match_events": 1177,
+        "match_events": 1179,
         "espn": true,
         "espn_code": "esp.1",
         "wiki": true,
@@ -31080,7 +31108,7 @@
       },
       "esp-la-liga-2": {
         "form_feed": true,
-        "match_events": 1138,
+        "match_events": 1140,
         "espn": true,
         "espn_code": "esp.2",
         "wiki": true,
@@ -31089,7 +31117,7 @@
       },
       "esp-primera-rfef": {
         "form_feed": true,
-        "match_events": 86,
+        "match_events": 89,
         "espn": false,
         "espn_code": null,
         "wiki": true,
@@ -31098,7 +31126,7 @@
       },
       "ita-serie-a": {
         "form_feed": true,
-        "match_events": 1194,
+        "match_events": 1196,
         "espn": true,
         "espn_code": "ita.1",
         "wiki": true,
@@ -31107,7 +31135,7 @@
       },
       "ita-serie-b": {
         "form_feed": true,
-        "match_events": 1064,
+        "match_events": 1066,
         "espn": true,
         "espn_code": "ita.2",
         "wiki": true,
@@ -31125,7 +31153,7 @@
       },
       "ger-bundesliga": {
         "form_feed": true,
-        "match_events": 955,
+        "match_events": 956,
         "espn": true,
         "espn_code": "ger.1",
         "wiki": true,
@@ -31134,7 +31162,7 @@
       },
       "ger-2-bundesliga": {
         "form_feed": true,
-        "match_events": 721,
+        "match_events": 722,
         "espn": true,
         "espn_code": "ger.2",
         "wiki": true,
@@ -31152,7 +31180,7 @@
       },
       "fra-ligue-1": {
         "form_feed": true,
-        "match_events": 923,
+        "match_events": 925,
         "espn": true,
         "espn_code": "fra.1",
         "wiki": true,
@@ -31161,7 +31189,7 @@
       },
       "fra-ligue-2": {
         "form_feed": true,
-        "match_events": 701,
+        "match_events": 703,
         "espn": true,
         "espn_code": "fra.2",
         "wiki": true,
@@ -31170,7 +31198,7 @@
       },
       "ned-eredivisie": {
         "form_feed": true,
-        "match_events": 936,
+        "match_events": 938,
         "espn": true,
         "espn_code": "ned.1",
         "wiki": true,
@@ -31197,7 +31225,7 @@
       },
       "por-primeira-liga": {
         "form_feed": true,
-        "match_events": 761,
+        "match_events": 763,
         "espn": true,
         "espn_code": "por.1",
         "wiki": true,
@@ -31206,7 +31234,7 @@
       },
       "bel-pro-league": {
         "form_feed": true,
-        "match_events": 810,
+        "match_events": 813,
         "espn": true,
         "espn_code": "bel.1",
         "wiki": true,
@@ -31215,7 +31243,7 @@
       },
       "sco-premiership": {
         "form_feed": true,
-        "match_events": 575,
+        "match_events": 577,
         "espn": true,
         "espn_code": "sco.1",
         "wiki": true,
@@ -31242,7 +31270,7 @@
       },
       "tur-super-lig": {
         "form_feed": true,
-        "match_events": 808,
+        "match_events": 810,
         "espn": true,
         "espn_code": "tur.1",
         "wiki": true,
@@ -31296,7 +31324,7 @@
       },
       "aut-bundesliga": {
         "form_feed": true,
-        "match_events": 503,
+        "match_events": 505,
         "espn": true,
         "espn_code": "aut.1",
         "wiki": true,
@@ -31314,7 +31342,7 @@
       },
       "den-superliga": {
         "form_feed": true,
-        "match_events": 460,
+        "match_events": 461,
         "espn": true,
         "espn_code": "den.1",
         "wiki": true,
@@ -31332,7 +31360,7 @@
       },
       "swe-allsvenskan": {
         "form_feed": true,
-        "match_events": 697,
+        "match_events": 699,
         "espn": true,
         "espn_code": "swe.1",
         "wiki": true,
@@ -31341,7 +31369,7 @@
       },
       "swe-superettan": {
         "form_feed": true,
-        "match_events": 232,
+        "match_events": 240,
         "espn": false,
         "espn_code": null,
         "wiki": true,
@@ -31350,7 +31378,7 @@
       },
       "nor-eliteserien": {
         "form_feed": true,
-        "match_events": 592,
+        "match_events": 593,
         "espn": true,
         "espn_code": "nor.1",
         "wiki": true,
@@ -31368,7 +31396,7 @@
       },
       "pol-ekstraklasa": {
         "form_feed": true,
-        "match_events": 117,
+        "match_events": 121,
         "espn": false,
         "espn_code": null,
         "wiki": true,
@@ -31377,7 +31405,7 @@
       },
       "pol-1-liga": {
         "form_feed": true,
-        "match_events": 119,
+        "match_events": 122,
         "espn": false,
         "espn_code": null,
         "wiki": true,
@@ -31458,7 +31486,7 @@
       },
       "gre-super-league": {
         "form_feed": true,
-        "match_events": 522,
+        "match_events": 523,
         "espn": true,
         "espn_code": "gre.1",
         "wiki": true,
@@ -31485,7 +31513,7 @@
       },
       "cze-first-league": {
         "form_feed": true,
-        "match_events": 102,
+        "match_events": 106,
         "espn": false,
         "espn_code": null,
         "wiki": true,
@@ -31539,7 +31567,7 @@
       },
       "cro-first-league": {
         "form_feed": true,
-        "match_events": 81,
+        "match_events": 88,
         "espn": false,
         "espn_code": null,
         "wiki": true,
@@ -31548,7 +31576,7 @@
       },
       "hun-nb1": {
         "form_feed": true,
-        "match_events": 65,
+        "match_events": 67,
         "espn": false,
         "espn_code": null,
         "wiki": true,
@@ -31575,7 +31603,7 @@
       },
       "por-segunda-liga": {
         "form_feed": true,
-        "match_events": 72,
+        "match_events": 76,
         "espn": false,
         "espn_code": null,
         "wiki": true,
@@ -31593,7 +31621,7 @@
       },
       "rus-premier-league": {
         "form_feed": true,
-        "match_events": 641,
+        "match_events": 642,
         "espn": true,
         "espn_code": "rus.1",
         "wiki": true,
@@ -31692,7 +31720,7 @@
       },
       "bul-first-league": {
         "form_feed": true,
-        "match_events": 81,
+        "match_events": 82,
         "espn": false,
         "espn_code": null,
         "wiki": true,
@@ -31737,7 +31765,7 @@
       },
       "blr-premier-league": {
         "form_feed": true,
-        "match_events": 217,
+        "match_events": 221,
         "espn": false,
         "espn_code": null,
         "wiki": true,
@@ -31800,7 +31828,7 @@
       },
       "mkd-second-league": {
         "form_feed": true,
-        "match_events": 52,
+        "match_events": 58,
         "espn": false,
         "espn_code": null,
         "wiki": true,
@@ -31881,7 +31909,7 @@
       },
       "egy-premier-league": {
         "form_feed": true,
-        "match_events": 101,
+        "match_events": 111,
         "espn": false,
         "espn_code": null,
         "wiki": true,
@@ -32142,7 +32170,7 @@
       },
       "uae-pro-league": {
         "form_feed": true,
-        "match_events": 254,
+        "match_events": 257,
         "espn": false,
         "espn_code": null,
         "wiki": true,
@@ -32367,7 +32395,7 @@
       },
       "bra-serie-b": {
         "form_feed": true,
-        "match_events": 1123,
+        "match_events": 1125,
         "espn": true,
         "espn_code": "bra.2",
         "wiki": true,
@@ -32376,7 +32404,7 @@
       },
       "arg-primera": {
         "form_feed": true,
-        "match_events": 1409,
+        "match_events": 1414,
         "espn": true,
         "espn_code": "arg.1",
         "wiki": true,
@@ -32412,7 +32440,7 @@
       },
       "chi-primera": {
         "form_feed": true,
-        "match_events": 658,
+        "match_events": 660,
         "espn": true,
         "espn_code": "chi.1",
         "wiki": false,
@@ -32430,7 +32458,7 @@
       },
       "ecu-liga-pro": {
         "form_feed": true,
-        "match_events": 1037,
+        "match_events": 1038,
         "espn": true,
         "espn_code": "ecu.1",
         "wiki": true,
@@ -32448,7 +32476,7 @@
       },
       "par-primera": {
         "form_feed": true,
-        "match_events": 679,
+        "match_events": 680,
         "espn": true,
         "espn_code": "par.1",
         "wiki": false,
@@ -32484,7 +32512,7 @@
       },
       "per-liga-1": {
         "form_feed": true,
-        "match_events": 804,
+        "match_events": 806,
         "espn": true,
         "espn_code": "per.1",
         "wiki": true,
@@ -32502,7 +32530,7 @@
       },
       "bol-liga-1": {
         "form_feed": true,
-        "match_events": 612,
+        "match_events": 613,
         "espn": true,
         "espn_code": "bol.1",
         "wiki": false,
@@ -32579,7 +32607,7 @@
   },
   "reactive": {
     "calibration_active": 1,
-    "drift_leagues": 5,
-    "tuned_recipes": 46
+    "drift_leagues": 6,
+    "tuned_recipes": 45
   }
 }

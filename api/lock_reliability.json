@@ -1,12 +1,12 @@
 {
   "generator": "lock_reliability",
-  "candidates": 8016,
-  "published_locks_dc_route": 230,
+  "candidates": 8030,
+  "published_locks_dc_route": 234,
   "bands": [
     {
       "band": "lock >=80%",
       "n": 88,
-      "model_mean": 0.8348,
+      "model_mean": 0.8342,
       "win_rate": 0.8636,
       "win_ci": [
         0.7907141737666454,
@@ -19,17 +19,17 @@
     },
     {
       "band": "70-80%",
-      "n": 142,
-      "model_mean": 0.7681,
-      "win_rate": 0.8028,
+      "n": 146,
+      "model_mean": 0.7677,
+      "win_rate": 0.8082,
       "win_ci": [
-        0.7415392952381505,
-        0.8509537308201953
+        0.7483006064036855,
+        0.8551228353063884
       ],
-      "draw_rate": 0.1408,
-      "upset_rate": 0.0563,
-      "non_win_rate": 0.1972,
-      "calibration_gap_pp": 3.5
+      "draw_rate": 0.1301,
+      "upset_rate": 0.0616,
+      "non_win_rate": 0.1918,
+      "calibration_gap_pp": 4.1
     },
     {
       "band": "66-70% (cut by the 0.70 floor)",
@@ -41,17 +41,17 @@
     }
   ],
   "autopsy": {
-    "published_picks": 230,
+    "published_picks": 234,
     "false_locks": 40,
-    "upset_locks": 10,
+    "upset_locks": 11,
     "false_locks_with_form_warning": 0,
-    "form_warning_fired_anywhere": 317,
+    "form_warning_fired_anywhere": 318,
     "note": "The form tripwire runs at ADMISSION, so a flagged candidate is shaved below the gate and never becomes a pick; that is why published false locks carry no form warning. blind_adj>0 is a constant (no injury feed) and cannot discriminate."
   },
-  "overall_upset_rate": 0.0435,
+  "overall_upset_rate": 0.047,
   "overall_upset_ci": [
-    0.026931247961487832,
-    0.07232312992218087
+    0.02972534043651337,
+    0.07629001774977212
   ],
   "leagues": [
     {
@@ -177,14 +177,14 @@
     },
     {
       "code": "uae-pro-league",
-      "n": 4,
-      "false_lock_rate": 0.5,
+      "n": 5,
+      "false_lock_rate": 0.4,
       "upset_rate": 0.0,
       "upset_ci": [
-        0.010206218313010485,
-        0.4507197283469412
+        0.008512444610846069,
+        0.39303776899708265
       ],
-      "upset_posterior": 0.167
+      "upset_posterior": 0.143
     },
     {
       "code": "per-liga-1",

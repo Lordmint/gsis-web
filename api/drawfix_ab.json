@@ -1,14 +1,14 @@
 {
   "generator": "drawfix_ab",
   "adjust_pp": 0.0,
-  "n_settled": 22,
+  "n_settled": 23,
   "n_relined": 0,
-  "n_same": 22,
+  "n_same": 23,
   "transitions": {},
-  "loss_rate_historical": 0.1364,
-  "resolvable_set": 22,
-  "loss_rate_corrected_resolvable": 0.1364,
-  "loss_rate_corrected_worst_case": 0.1364,
+  "loss_rate_historical": 0.1304,
+  "resolvable_set": 23,
+  "loss_rate_corrected_resolvable": 0.1304,
+  "loss_rate_corrected_worst_case": 0.1304,
   "historical_losses": 3,
   "corrected_losses_resolvable": 3,
   "corrected_losses_worst_case": 3,
@@ -61,9 +61,9 @@
     },
     {
       "week": "2026-11-02",
-      "settled": 0,
+      "settled": 1,
       "relined": 0,
-      "same": 0
+      "same": 1
     }
   ],
   "rows": [
@@ -395,6 +395,21 @@
       "counterfactual_verdict": "W",
       "score": "2-1",
       "odds": 1.39,
+      "reproduces": true
+    },
+    {
+      "week": "2026-11-02",
+      "strong": "AS Roma",
+      "weak": "Sassuolo",
+      "is_home": true,
+      "historical_market": "Home or GG",
+      "uncorrected_market": "Home or GG",
+      "corrected_market": "Home or GG",
+      "relined": false,
+      "historical_verdict": "W",
+      "counterfactual_verdict": "W",
+      "score": "3-0",
+      "odds": 1.27,
       "reproduces": true
     }
   ]
