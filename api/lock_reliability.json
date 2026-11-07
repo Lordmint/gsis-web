@@ -1,35 +1,35 @@
 {
   "generator": "lock_reliability",
-  "candidates": 7832,
-  "published_locks_dc_route": 214,
+  "candidates": 8005,
+  "published_locks_dc_route": 230,
   "bands": [
     {
       "band": "lock >=80%",
-      "n": 48,
-      "model_mean": 0.8312,
-      "win_rate": 0.9167,
+      "n": 87,
+      "model_mean": 0.8355,
+      "win_rate": 0.8621,
       "win_ci": [
-        0.8228521180325192,
-        0.9589241382802725
+        0.7884418624987413,
+        0.9103491632804874
       ],
-      "draw_rate": 0.0625,
-      "upset_rate": 0.0208,
-      "non_win_rate": 0.0833,
-      "calibration_gap_pp": 8.5
+      "draw_rate": 0.1149,
+      "upset_rate": 0.023,
+      "non_win_rate": 0.1379,
+      "calibration_gap_pp": 2.7
     },
     {
       "band": "70-80%",
-      "n": 166,
-      "model_mean": 0.7546,
-      "win_rate": 0.8193,
+      "n": 143,
+      "model_mean": 0.7681,
+      "win_rate": 0.7972,
       "win_ci": [
-        0.7643261118741058,
-        0.8623460608741562
+        0.7357231641257922,
+        0.8458736440924879
       ],
-      "draw_rate": 0.1265,
-      "upset_rate": 0.0542,
-      "non_win_rate": 0.1807,
-      "calibration_gap_pp": 6.5
+      "draw_rate": 0.1399,
+      "upset_rate": 0.0629,
+      "non_win_rate": 0.2028,
+      "calibration_gap_pp": 2.9
     },
     {
       "band": "66-70% (cut by the 0.70 floor)",
@@ -41,17 +41,17 @@
     }
   ],
   "autopsy": {
-    "published_picks": 214,
-    "false_locks": 34,
-    "upset_locks": 10,
+    "published_picks": 230,
+    "false_locks": 41,
+    "upset_locks": 11,
     "false_locks_with_form_warning": 0,
-    "form_warning_fired_anywhere": 306,
+    "form_warning_fired_anywhere": 317,
     "note": "The form tripwire runs at ADMISSION, so a flagged candidate is shaved below the gate and never becomes a pick; that is why published false locks carry no form warning. blind_adj>0 is a constant (no injury feed) and cannot discriminate."
   },
-  "overall_upset_rate": 0.0467,
+  "overall_upset_rate": 0.0478,
   "overall_upset_ci": [
-    0.02895383661836686,
-    0.07761685693999526
+    0.03024474953818499,
+    0.07759010202402944
   ],
   "leagues": [
     {
@@ -133,25 +133,25 @@
     },
     {
       "code": "ned-eredivisie",
-      "n": 6,
-      "false_lock_rate": 0.333,
+      "n": 7,
+      "false_lock_rate": 0.286,
       "upset_rate": 0.0,
       "upset_ci": [
-        0.0073008319790136885,
-        0.34816365513116054
+        0.006391150954544036,
+        0.3123439780663676
       ],
-      "upset_posterior": 0.125
+      "upset_posterior": 0.111
     },
     {
       "code": "por-primeira-liga",
-      "n": 8,
-      "false_lock_rate": 0.125,
+      "n": 9,
+      "false_lock_rate": 0.111,
       "upset_rate": 0.0,
       "upset_ci": [
-        0.005683044988047151,
-        0.2831288355631133
+        0.005116196891822855,
+        0.2588655508930521
       ],
-      "upset_posterior": 0.1
+      "upset_posterior": 0.091
     },
     {
       "code": "bel-pro-league",
@@ -174,6 +174,17 @@
         0.39303776899708265
       ],
       "upset_posterior": 0.143
+    },
+    {
+      "code": "uae-pro-league",
+      "n": 4,
+      "false_lock_rate": 0.5,
+      "upset_rate": 0.0,
+      "upset_ci": [
+        0.010206218313010485,
+        0.4507197283469412
+      ],
+      "upset_posterior": 0.167
     },
     {
       "code": "per-liga-1",
@@ -265,14 +276,25 @@
     },
     {
       "code": "lva-virsliga",
-      "n": 12,
-      "false_lock_rate": 0.083,
+      "n": 14,
+      "false_lock_rate": 0.143,
       "upset_rate": 0.0,
       "upset_ci": [
-        0.003937864227643768,
-        0.20581666518655056
+        0.0034137129465897434,
+        0.18103627252208437
       ],
-      "upset_posterior": 0.071
+      "upset_posterior": 0.062
+    },
+    {
+      "code": "rus-first-league",
+      "n": 4,
+      "false_lock_rate": 0.25,
+      "upset_rate": 0.0,
+      "upset_ci": [
+        0.010206218313010485,
+        0.4507197283469412
+      ],
+      "upset_posterior": 0.167
     },
     {
       "code": "kos-superleague",
@@ -287,14 +309,14 @@
     },
     {
       "code": "sco-league-one",
-      "n": 5,
+      "n": 4,
       "false_lock_rate": 0.0,
       "upset_rate": 0.0,
       "upset_ci": [
-        0.008512444610846069,
-        0.39303776899708265
+        0.010206218313010485,
+        0.4507197283469412
       ],
-      "upset_posterior": 0.143
+      "upset_posterior": 0.167
     }
   ]
 }
