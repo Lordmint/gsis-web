@@ -4,10 +4,10 @@
     "name": "Belarusian Premier League",
     "total_slots": 117,
     "evaluated_slots": 90,
-    "mature_slots": 5,
-    "total_matches": 117,
+    "mature_slots": 6,
+    "total_matches": 119,
     "avg_hit": 100.0,
-    "confidence": 0.04
+    "confidence": 0.05
   },
   {
     "league": "rsa-premiership",
@@ -33,19 +33,19 @@
     "league": "por-segunda-liga",
     "name": "Liga Portugal 2",
     "total_slots": 117,
-    "evaluated_slots": 59,
-    "mature_slots": 15,
-    "total_matches": 110,
-    "avg_hit": 96.4,
-    "confidence": 0.13
+    "evaluated_slots": 61,
+    "mature_slots": 16,
+    "total_matches": 114,
+    "avg_hit": 96.6,
+    "confidence": 0.14
   },
   {
     "league": "mkd-first-league",
     "name": "Macedonian First Football League",
     "total_slots": 112,
-    "evaluated_slots": 94,
+    "evaluated_slots": 95,
     "mature_slots": 18,
-    "total_matches": 148,
+    "total_matches": 150,
     "avg_hit": 96.3,
     "confidence": 0.16
   },
@@ -53,19 +53,19 @@
     "league": "mkd-second-league",
     "name": "Macedonian Second Football League",
     "total_slots": 111,
-    "evaluated_slots": 84,
-    "mature_slots": 23,
-    "total_matches": 148,
-    "avg_hit": 92.5,
-    "confidence": 0.21
+    "evaluated_slots": 85,
+    "mature_slots": 25,
+    "total_matches": 155,
+    "avg_hit": 91.0,
+    "confidence": 0.23
   },
   {
     "league": "ukr-premier-league",
     "name": "Ukrainian Premier League",
     "total_slots": 123,
-    "evaluated_slots": 78,
+    "evaluated_slots": 80,
     "mature_slots": 34,
-    "total_matches": 178,
+    "total_matches": 180,
     "avg_hit": 89.4,
     "confidence": 0.28
   },
@@ -73,9 +73,9 @@
     "league": "egy-premier-league",
     "name": "Egyptian Premier League",
     "total_slots": 128,
-    "evaluated_slots": 75,
+    "evaluated_slots": 77,
     "mature_slots": 4,
-    "total_matches": 98,
+    "total_matches": 100,
     "avg_hit": 88.9,
     "confidence": 0.03
   },
@@ -110,12 +110,22 @@
     "confidence": 0.75
   },
   {
+    "league": "kor-k-league-2",
+    "name": "K League 2",
+    "total_slots": 115,
+    "evaluated_slots": 105,
+    "mature_slots": 26,
+    "total_matches": 204,
+    "avg_hit": 83.0,
+    "confidence": 0.23
+  },
+  {
     "league": "aut-bundesliga",
     "name": "Austrian Bundesliga",
     "total_slots": 126,
-    "evaluated_slots": 124,
+    "evaluated_slots": 123,
     "mature_slots": 112,
-    "total_matches": 503,
+    "total_matches": 502,
     "avg_hit": 82.0,
     "confidence": 0.89
   },
@@ -130,6 +140,16 @@
     "confidence": 0.6
   },
   {
+    "league": "sco-league-one",
+    "name": "Scottish League One",
+    "total_slots": 84,
+    "evaluated_slots": 70,
+    "mature_slots": 18,
+    "total_matches": 127,
+    "avg_hit": 81.8,
+    "confidence": 0.21
+  },
+  {
     "league": "isr-premier-league",
     "name": "Ligat ha'Al",
     "total_slots": 123,
@@ -140,52 +160,42 @@
     "confidence": 0.15
   },
   {
-    "league": "kor-k-league-2",
-    "name": "K League 2",
-    "total_slots": 115,
-    "evaluated_slots": 85,
-    "mature_slots": 26,
-    "total_matches": 165,
-    "avg_hit": 81.0,
-    "confidence": 0.23
-  },
-  {
     "league": "esp-la-liga",
     "name": "La Liga",
     "total_slots": 134,
-    "evaluated_slots": 116,
+    "evaluated_slots": 115,
     "mature_slots": 90,
-    "total_matches": 388,
+    "total_matches": 387,
     "avg_hit": 80.7,
     "confidence": 0.67
+  },
+  {
+    "league": "bol-liga-1",
+    "name": "Liga Profesional Boliviana",
+    "total_slots": 123,
+    "evaluated_slots": 120,
+    "mature_slots": 106,
+    "total_matches": 463,
+    "avg_hit": 78.9,
+    "confidence": 0.86
   },
   {
     "league": "chn-league-one",
     "name": "Chinese League One",
     "total_slots": 110,
-    "evaluated_slots": 43,
+    "evaluated_slots": 45,
     "mature_slots": 15,
-    "total_matches": 88,
+    "total_matches": 90,
     "avg_hit": 78.9,
     "confidence": 0.14
-  },
-  {
-    "league": "sco-league-one",
-    "name": "Scottish League One",
-    "total_slots": 84,
-    "evaluated_slots": 55,
-    "mature_slots": 11,
-    "total_matches": 86,
-    "avg_hit": 78.4,
-    "confidence": 0.13
   },
   {
     "league": "ukr-persha",
     "name": "Ukrainian First League",
     "total_slots": 111,
-    "evaluated_slots": 65,
+    "evaluated_slots": 66,
     "mature_slots": 22,
-    "total_matches": 126,
+    "total_matches": 127,
     "avg_hit": 77.9,
     "confidence": 0.2
   },
@@ -193,9 +203,9 @@
     "league": "bul-first-league",
     "name": "First Professional Football League",
     "total_slots": 117,
-    "evaluated_slots": 29,
+    "evaluated_slots": 31,
     "mature_slots": 4,
-    "total_matches": 48,
+    "total_matches": 50,
     "avg_hit": 77.8,
     "confidence": 0.03
   },
@@ -204,10 +214,10 @@
     "name": "Latvian Higher League",
     "total_slots": 114,
     "evaluated_slots": 45,
-    "mature_slots": 2,
-    "total_matches": 67,
+    "mature_slots": 3,
+    "total_matches": 68,
     "avg_hit": 77.8,
-    "confidence": 0.02
+    "confidence": 0.03
   },
   {
     "league": "pol-ekstraklasa",
@@ -223,9 +233,9 @@
     "league": "tha-league-2",
     "name": "Thai League 2",
     "total_slots": 93,
-    "evaluated_slots": 39,
+    "evaluated_slots": 41,
     "mature_slots": 19,
-    "total_matches": 88,
+    "total_matches": 90,
     "avg_hit": 77.8,
     "confidence": 0.2
   },
@@ -243,71 +253,61 @@
     "league": "rou-liga-1",
     "name": "Liga I",
     "total_slots": 122,
-    "evaluated_slots": 91,
-    "mature_slots": 60,
-    "total_matches": 322,
-    "avg_hit": 77.4,
-    "confidence": 0.49
-  },
-  {
-    "league": "bol-liga-1",
-    "name": "Liga Profesional Boliviana",
-    "total_slots": 123,
-    "evaluated_slots": 120,
-    "mature_slots": 99,
-    "total_matches": 425,
-    "avg_hit": 76.0,
-    "confidence": 0.8
-  },
-  {
-    "league": "uzb-super-league",
-    "name": "Uzbekistan Super League",
-    "total_slots": 108,
-    "evaluated_slots": 94,
-    "mature_slots": 42,
-    "total_matches": 253,
-    "avg_hit": 74.6,
-    "confidence": 0.39
+    "evaluated_slots": 93,
+    "mature_slots": 62,
+    "total_matches": 332,
+    "avg_hit": 77.3,
+    "confidence": 0.51
   },
   {
     "league": "tur-super-lig",
     "name": "Süper Lig",
     "total_slots": 127,
-    "evaluated_slots": 125,
+    "evaluated_slots": 123,
     "mature_slots": 114,
-    "total_matches": 516,
+    "total_matches": 514,
     "avg_hit": 74.1,
     "confidence": 0.9
+  },
+  {
+    "league": "uzb-super-league",
+    "name": "Uzbekistan Super League",
+    "total_slots": 108,
+    "evaluated_slots": 95,
+    "mature_slots": 45,
+    "total_matches": 264,
+    "avg_hit": 73.6,
+    "confidence": 0.42
   },
   {
     "league": "hon-liga-nacional",
     "name": "Liga Nacional de Honduras",
     "total_slots": 121,
-    "evaluated_slots": 114,
-    "mature_slots": 110,
-    "total_matches": 489,
-    "avg_hit": 73.3,
-    "confidence": 0.91
+    "evaluated_slots": 115,
+    "mature_slots": 111,
+    "total_matches": 506,
+    "avg_hit": 72.1,
+    "confidence": 0.92
   },
   {
     "league": "tur-1-lig",
     "name": "1. Lig",
     "total_slots": 121,
-    "evaluated_slots": 42,
+    "evaluated_slots": 43,
     "mature_slots": 3,
-    "total_matches": 59,
-    "avg_hit": 73.3,
+    "total_matches": 63,
+    "avg_hit": 69.7,
     "confidence": 0.02
   },
   {
     "league": "arg-primera",
     "name": "Argentine Primera División",
     "total_slots": 130,
-    "evaluated_slots": 125,
-    "mature_slots": 111,
-    "total_matches": 514,
-    "avg_hit": 70.6,
-    "confidence": 0.85
+    "evaluated_slots": 124,
+    "mature_slots": 121,
+    "total_matches": 536,
+    "avg_hit": 68.8,
+    "confidence": 0.93
   },
   {
     "league": "ven-liga-futve",
@@ -315,8 +315,8 @@
     "total_slots": 123,
     "evaluated_slots": 120,
     "mature_slots": 120,
-    "total_matches": 576,
-    "avg_hit": 67.9,
+    "total_matches": 584,
+    "avg_hit": 68.4,
     "confidence": 0.98
   },
   {
@@ -333,29 +333,19 @@
     "league": "eng-premier-league",
     "name": "English Premier League",
     "total_slots": 134,
-    "evaluated_slots": 113,
+    "evaluated_slots": 111,
     "mature_slots": 99,
-    "total_matches": 444,
+    "total_matches": 442,
     "avg_hit": 67.5,
     "confidence": 0.74
-  },
-  {
-    "league": "jpn-j1-league",
-    "name": "J1 League",
-    "total_slots": 131,
-    "evaluated_slots": 123,
-    "mature_slots": 111,
-    "total_matches": 533,
-    "avg_hit": 67.3,
-    "confidence": 0.85
   },
   {
     "league": "ita-serie-a",
     "name": "Serie A",
     "total_slots": 135,
-    "evaluated_slots": 113,
+    "evaluated_slots": 112,
     "mature_slots": 108,
-    "total_matches": 498,
+    "total_matches": 497,
     "avg_hit": 66.9,
     "confidence": 0.8
   },
@@ -370,12 +360,22 @@
     "confidence": 0.03
   },
   {
+    "league": "jpn-j2-league",
+    "name": "J2 League",
+    "total_slots": 114,
+    "evaluated_slots": 108,
+    "mature_slots": 46,
+    "total_matches": 237,
+    "avg_hit": 66.7,
+    "confidence": 0.4
+  },
+  {
     "league": "nor-eliteserien",
     "name": "Eliteserien",
     "total_slots": 126,
-    "evaluated_slots": 123,
+    "evaluated_slots": 122,
     "mature_slots": 94,
-    "total_matches": 401,
+    "total_matches": 400,
     "avg_hit": 66.5,
     "confidence": 0.75
   },
@@ -383,9 +383,9 @@
     "league": "geo-erovnuli",
     "name": "Erovnuli Liga",
     "total_slots": 119,
-    "evaluated_slots": 95,
+    "evaluated_slots": 96,
     "mature_slots": 24,
-    "total_matches": 192,
+    "total_matches": 194,
     "avg_hit": 66.3,
     "confidence": 0.2
   },
@@ -393,21 +393,21 @@
     "league": "srp-first-league",
     "name": "Serbian First League",
     "total_slots": 111,
-    "evaluated_slots": 56,
-    "mature_slots": 37,
-    "total_matches": 155,
+    "evaluated_slots": 57,
+    "mature_slots": 38,
+    "total_matches": 158,
     "avg_hit": 66.2,
-    "confidence": 0.33
+    "confidence": 0.34
   },
   {
-    "league": "jpn-j2-league",
-    "name": "J2 League",
-    "total_slots": 114,
-    "evaluated_slots": 108,
-    "mature_slots": 45,
-    "total_matches": 235,
-    "avg_hit": 66.1,
-    "confidence": 0.39
+    "league": "jpn-j1-league",
+    "name": "J1 League",
+    "total_slots": 131,
+    "evaluated_slots": 123,
+    "mature_slots": 117,
+    "total_matches": 565,
+    "avg_hit": 65.6,
+    "confidence": 0.89
   },
   {
     "league": "gre-super-league",
@@ -423,9 +423,9 @@
     "league": "sco-premiership",
     "name": "Scottish Premiership",
     "total_slots": 126,
-    "evaluated_slots": 124,
+    "evaluated_slots": 123,
     "mature_slots": 112,
-    "total_matches": 504,
+    "total_matches": 503,
     "avg_hit": 64.2,
     "confidence": 0.89
   },
@@ -433,11 +433,21 @@
     "league": "den-superliga",
     "name": "Danish Superliga",
     "total_slots": 126,
-    "evaluated_slots": 124,
+    "evaluated_slots": 123,
     "mature_slots": 107,
-    "total_matches": 475,
+    "total_matches": 474,
     "avg_hit": 63.8,
     "confidence": 0.85
+  },
+  {
+    "league": "bra-serie-b",
+    "name": "Campeonato Brasileiro Série B",
+    "total_slots": 130,
+    "evaluated_slots": 123,
+    "mature_slots": 119,
+    "total_matches": 542,
+    "avg_hit": 63.7,
+    "confidence": 0.92
   },
   {
     "league": "eng-national-league",
@@ -448,16 +458,6 @@
     "total_matches": 461,
     "avg_hit": 62.5,
     "confidence": 0.92
-  },
-  {
-    "league": "bra-serie-b",
-    "name": "Campeonato Brasileiro Série B",
-    "total_slots": 130,
-    "evaluated_slots": 124,
-    "mature_slots": 104,
-    "total_matches": 505,
-    "avg_hit": 62.0,
-    "confidence": 0.8
   },
   {
     "league": "swe-allsvenskan",
@@ -473,9 +473,9 @@
     "league": "ger-bundesliga",
     "name": "Bundesliga",
     "total_slots": 131,
-    "evaluated_slots": 126,
+    "evaluated_slots": 123,
     "mature_slots": 111,
-    "total_matches": 501,
+    "total_matches": 498,
     "avg_hit": 61.5,
     "confidence": 0.85
   },
@@ -493,61 +493,61 @@
     "league": "uae-pro-league",
     "name": "UAE Pro League",
     "total_slots": 124,
-    "evaluated_slots": 115,
-    "mature_slots": 100,
-    "total_matches": 482,
-    "avg_hit": 60.2,
-    "confidence": 0.81
+    "evaluated_slots": 116,
+    "mature_slots": 103,
+    "total_matches": 492,
+    "avg_hit": 60.4,
+    "confidence": 0.83
+  },
+  {
+    "league": "chn-csl",
+    "name": "Chinese Super League",
+    "total_slots": 127,
+    "evaluated_slots": 119,
+    "mature_slots": 89,
+    "total_matches": 363,
+    "avg_hit": 60.3,
+    "confidence": 0.7
   },
   {
     "league": "hun-nb1",
     "name": "NB I",
     "total_slots": 124,
-    "evaluated_slots": 52,
+    "evaluated_slots": 53,
     "mature_slots": 5,
-    "total_matches": 86,
+    "total_matches": 87,
     "avg_hit": 60.0,
     "confidence": 0.04
-  },
-  {
-    "league": "mex-expansion",
-    "name": "Liga de Expansión MX",
-    "total_slots": 123,
-    "evaluated_slots": 116,
-    "mature_slots": 113,
-    "total_matches": 503,
-    "avg_hit": 59.8,
-    "confidence": 0.92
   },
   {
     "league": "per-liga-1",
     "name": "Liga 1",
     "total_slots": 123,
     "evaluated_slots": 121,
-    "mature_slots": 118,
-    "total_matches": 550,
-    "avg_hit": 59.6,
-    "confidence": 0.96
+    "mature_slots": 120,
+    "total_matches": 572,
+    "avg_hit": 60.0,
+    "confidence": 0.98
   },
   {
     "league": "rus-premier-league",
     "name": "Russian Premier League",
     "total_slots": 122,
-    "evaluated_slots": 118,
+    "evaluated_slots": 117,
     "mature_slots": 100,
-    "total_matches": 466,
+    "total_matches": 465,
     "avg_hit": 59.6,
     "confidence": 0.82
   },
   {
-    "league": "par-primera",
-    "name": "Primera División",
-    "total_slots": 124,
-    "evaluated_slots": 121,
-    "mature_slots": 116,
-    "total_matches": 539,
-    "avg_hit": 58.4,
-    "confidence": 0.94
+    "league": "mex-expansion",
+    "name": "Liga de Expansión MX",
+    "total_slots": 123,
+    "evaluated_slots": 118,
+    "mature_slots": 115,
+    "total_matches": 530,
+    "avg_hit": 59.3,
+    "confidence": 0.93
   },
   {
     "league": "uru-primera",
@@ -563,11 +563,21 @@
     "league": "ger-2-bundesliga",
     "name": "2. Bundesliga",
     "total_slots": 129,
-    "evaluated_slots": 126,
+    "evaluated_slots": 123,
     "mature_slots": 117,
-    "total_matches": 509,
+    "total_matches": 506,
     "avg_hit": 57.6,
     "confidence": 0.91
+  },
+  {
+    "league": "par-primera",
+    "name": "Primera División",
+    "total_slots": 124,
+    "evaluated_slots": 120,
+    "mature_slots": 118,
+    "total_matches": 554,
+    "avg_hit": 57.0,
+    "confidence": 0.95
   },
   {
     "league": "esp-primera-rfef",
@@ -575,7 +585,7 @@
     "total_slots": 114,
     "evaluated_slots": 84,
     "mature_slots": 7,
-    "total_matches": 133,
+    "total_matches": 134,
     "avg_hit": 56.1,
     "confidence": 0.06
   },
@@ -583,9 +593,9 @@
     "league": "aus-a-league",
     "name": "A-League Men",
     "total_slots": 128,
-    "evaluated_slots": 109,
+    "evaluated_slots": 107,
     "mature_slots": 40,
-    "total_matches": 286,
+    "total_matches": 284,
     "avg_hit": 55.6,
     "confidence": 0.31
   },
@@ -600,24 +610,24 @@
     "confidence": 0.18
   },
   {
+    "league": "azr-premier-league",
+    "name": "Azerbaijan Premier League",
+    "total_slots": 114,
+    "evaluated_slots": 73,
+    "mature_slots": 10,
+    "total_matches": 109,
+    "avg_hit": 54.8,
+    "confidence": 0.09
+  },
+  {
     "league": "col-primera",
     "name": "Categoría Primera A",
     "total_slots": 126,
-    "evaluated_slots": 123,
-    "mature_slots": 115,
-    "total_matches": 554,
-    "avg_hit": 54.5,
-    "confidence": 0.91
-  },
-  {
-    "league": "crc-primera",
-    "name": "Costa Rican Primera División",
-    "total_slots": 124,
-    "evaluated_slots": 113,
-    "mature_slots": 108,
-    "total_matches": 503,
-    "avg_hit": 52.7,
-    "confidence": 0.87
+    "evaluated_slots": 125,
+    "mature_slots": 122,
+    "total_matches": 589,
+    "avg_hit": 54.2,
+    "confidence": 0.97
   },
   {
     "league": "esp-la-liga-2",
@@ -633,31 +643,51 @@
     "league": "fra-ligue-2",
     "name": "Ligue 2",
     "total_slots": 129,
-    "evaluated_slots": 124,
+    "evaluated_slots": 123,
     "mature_slots": 118,
-    "total_matches": 535,
+    "total_matches": 534,
     "avg_hit": 52.6,
     "confidence": 0.91
   },
   {
-    "league": "ind-isl",
-    "name": "Indian Super League",
-    "total_slots": 120,
-    "evaluated_slots": 58,
-    "mature_slots": 46,
-    "total_matches": 224,
-    "avg_hit": 51.9,
-    "confidence": 0.38
+    "league": "crc-primera",
+    "name": "Costa Rican Primera División",
+    "total_slots": 124,
+    "evaluated_slots": 115,
+    "mature_slots": 110,
+    "total_matches": 515,
+    "avg_hit": 52.0,
+    "confidence": 0.89
   },
   {
     "league": "jor-pro-league",
     "name": "Jordanian Pro League",
     "total_slots": 114,
-    "evaluated_slots": 62,
-    "mature_slots": 41,
-    "total_matches": 196,
+    "evaluated_slots": 64,
+    "mature_slots": 44,
+    "total_matches": 202,
+    "avg_hit": 52.0,
+    "confidence": 0.39
+  },
+  {
+    "league": "ind-isl",
+    "name": "Indian Super League",
+    "total_slots": 120,
+    "evaluated_slots": 57,
+    "mature_slots": 46,
+    "total_matches": 223,
+    "avg_hit": 51.9,
+    "confidence": 0.38
+  },
+  {
+    "league": "usa-mls",
+    "name": "Major League Soccer",
+    "total_slots": 134,
+    "evaluated_slots": 122,
+    "mature_slots": 122,
+    "total_matches": 579,
     "avg_hit": 51.8,
-    "confidence": 0.36
+    "confidence": 0.91
   },
   {
     "league": "eng-league-two",
@@ -670,24 +700,14 @@
     "confidence": 0.84
   },
   {
-    "league": "azr-premier-league",
-    "name": "Azerbaijan Premier League",
-    "total_slots": 114,
-    "evaluated_slots": 71,
-    "mature_slots": 8,
-    "total_matches": 104,
-    "avg_hit": 50.7,
-    "confidence": 0.07
-  },
-  {
-    "league": "usa-usl",
-    "name": "USL Championship",
-    "total_slots": 124,
-    "evaluated_slots": 113,
-    "mature_slots": 82,
-    "total_matches": 394,
-    "avg_hit": 50.4,
-    "confidence": 0.66
+    "league": "cze-first-league",
+    "name": "Czech First League",
+    "total_slots": 122,
+    "evaluated_slots": 33,
+    "mature_slots": 3,
+    "total_matches": 43,
+    "avg_hit": 50.0,
+    "confidence": 0.02
   },
   {
     "league": "sui-challenge-league",
@@ -708,16 +728,6 @@
     "total_matches": 339,
     "avg_hit": 49.9,
     "confidence": 0.74
-  },
-  {
-    "league": "usa-mls",
-    "name": "Major League Soccer",
-    "total_slots": 134,
-    "evaluated_slots": 122,
-    "mature_slots": 117,
-    "total_matches": 546,
-    "avg_hit": 49.9,
-    "confidence": 0.87
   },
   {
     "league": "arg-primera-nacional",
@@ -750,16 +760,6 @@
     "confidence": 0.69
   },
   {
-    "league": "chn-csl",
-    "name": "Chinese Super League",
-    "total_slots": 127,
-    "evaluated_slots": 110,
-    "mature_slots": 51,
-    "total_matches": 250,
-    "avg_hit": 49.5,
-    "confidence": 0.4
-  },
-  {
     "league": "ita-serie-b",
     "name": "Serie B",
     "total_slots": 131,
@@ -768,6 +768,16 @@
     "total_matches": 579,
     "avg_hit": 48.9,
     "confidence": 0.93
+  },
+  {
+    "league": "usa-usl",
+    "name": "USL Championship",
+    "total_slots": 124,
+    "evaluated_slots": 115,
+    "mature_slots": 83,
+    "total_matches": 412,
+    "avg_hit": 48.9,
+    "confidence": 0.67
   },
   {
     "league": "eng-league-one",
@@ -783,9 +793,9 @@
     "league": "eng-championship",
     "name": "EFL Championship",
     "total_slots": 129,
-    "evaluated_slots": 120,
+    "evaluated_slots": 117,
     "mature_slots": 111,
-    "total_matches": 530,
+    "total_matches": 527,
     "avg_hit": 47.9,
     "confidence": 0.86
   },
@@ -803,9 +813,9 @@
     "league": "fra-ligue-1",
     "name": "Ligue 1",
     "total_slots": 130,
-    "evaluated_slots": 115,
+    "evaluated_slots": 114,
     "mature_slots": 93,
-    "total_matches": 382,
+    "total_matches": 381,
     "avg_hit": 46.4,
     "confidence": 0.72
   },
@@ -813,29 +823,29 @@
     "league": "vnm-vleague",
     "name": "V.League 1",
     "total_slots": 114,
-    "evaluated_slots": 103,
-    "mature_slots": 42,
-    "total_matches": 261,
-    "avg_hit": 45.6,
-    "confidence": 0.37
+    "evaluated_slots": 104,
+    "mature_slots": 43,
+    "total_matches": 265,
+    "avg_hit": 45.4,
+    "confidence": 0.38
   },
   {
     "league": "cro-first-league",
     "name": "First Football League",
     "total_slots": 93,
-    "evaluated_slots": 36,
+    "evaluated_slots": 37,
     "mature_slots": 10,
-    "total_matches": 85,
-    "avg_hit": 44.7,
+    "total_matches": 87,
+    "avg_hit": 44.4,
     "confidence": 0.11
   },
   {
     "league": "fin-veikkausliiga",
     "name": "Veikkausliiga",
     "total_slots": 120,
-    "evaluated_slots": 74,
+    "evaluated_slots": 76,
     "mature_slots": 8,
-    "total_matches": 101,
+    "total_matches": 103,
     "avg_hit": 44.4,
     "confidence": 0.07
   },
@@ -853,21 +863,21 @@
     "league": "irn-premier-league",
     "name": "Persian Gulf Pro League",
     "total_slots": 99,
-    "evaluated_slots": 67,
-    "mature_slots": 2,
-    "total_matches": 90,
+    "evaluated_slots": 68,
+    "mature_slots": 3,
+    "total_matches": 92,
     "avg_hit": 44.4,
-    "confidence": 0.02
+    "confidence": 0.03
   },
   {
     "league": "jpn-j3-league",
     "name": "J3 League",
     "total_slots": 84,
-    "evaluated_slots": 34,
-    "mature_slots": 4,
-    "total_matches": 42,
+    "evaluated_slots": 36,
+    "mature_slots": 5,
+    "total_matches": 46,
     "avg_hit": 44.4,
-    "confidence": 0.05
+    "confidence": 0.06
   },
   {
     "league": "ned-eredivisie",
@@ -880,74 +890,54 @@
     "confidence": 0.68
   },
   {
-    "league": "cze-first-league",
-    "name": "Czech First League",
-    "total_slots": 122,
-    "evaluated_slots": 32,
-    "mature_slots": 2,
-    "total_matches": 41,
-    "avg_hit": 42.9,
-    "confidence": 0.02
-  },
-  {
-    "league": "sco-championship",
-    "name": "Scottish Championship",
-    "total_slots": 124,
-    "evaluated_slots": 117,
-    "mature_slots": 112,
-    "total_matches": 525,
-    "avg_hit": 42.0,
-    "confidence": 0.9
+    "league": "slv-primera",
+    "name": "Salvadoran Primera División",
+    "total_slots": 126,
+    "evaluated_slots": 125,
+    "mature_slots": 117,
+    "total_matches": 563,
+    "avg_hit": 43.5,
+    "confidence": 0.93
   },
   {
     "league": "mex-liga-mx",
     "name": "Liga MX",
     "total_slots": 126,
-    "evaluated_slots": 123,
-    "mature_slots": 118,
-    "total_matches": 549,
-    "avg_hit": 41.9,
-    "confidence": 0.94
+    "evaluated_slots": 125,
+    "mature_slots": 121,
+    "total_matches": 573,
+    "avg_hit": 43.3,
+    "confidence": 0.96
+  },
+  {
+    "league": "sco-championship",
+    "name": "Scottish Championship",
+    "total_slots": 124,
+    "evaluated_slots": 116,
+    "mature_slots": 112,
+    "total_matches": 524,
+    "avg_hit": 42.0,
+    "confidence": 0.9
   },
   {
     "league": "kos-superleague",
     "name": "Football Superleague of Kosovo",
     "total_slots": 111,
-    "evaluated_slots": 55,
-    "mature_slots": 22,
-    "total_matches": 131,
-    "avg_hit": 41.8,
-    "confidence": 0.2
-  },
-  {
-    "league": "slv-primera",
-    "name": "Salvadoran Primera División",
-    "total_slots": 126,
-    "evaluated_slots": 123,
-    "mature_slots": 116,
-    "total_matches": 544,
-    "avg_hit": 41.8,
-    "confidence": 0.92
+    "evaluated_slots": 56,
+    "mature_slots": 23,
+    "total_matches": 134,
+    "avg_hit": 41.9,
+    "confidence": 0.21
   },
   {
     "league": "gua-liga-nacional",
     "name": "Liga Nacional de Guatemala",
     "total_slots": 119,
-    "evaluated_slots": 116,
-    "mature_slots": 111,
-    "total_matches": 530,
+    "evaluated_slots": 115,
+    "mature_slots": 112,
+    "total_matches": 537,
     "avg_hit": 35.2,
-    "confidence": 0.93
-  },
-  {
-    "league": "kor-k-league",
-    "name": "K League 1",
-    "total_slots": 124,
-    "evaluated_slots": 91,
-    "mature_slots": 43,
-    "total_matches": 275,
-    "avg_hit": 35.1,
-    "confidence": 0.35
+    "confidence": 0.94
   },
   {
     "league": "mar-botola",
@@ -963,9 +953,9 @@
     "league": "mda-liga-1",
     "name": "Moldovan Liga 1",
     "total_slots": 111,
-    "evaluated_slots": 74,
+    "evaluated_slots": 75,
     "mature_slots": 24,
-    "total_matches": 158,
+    "total_matches": 159,
     "avg_hit": 33.3,
     "confidence": 0.22
   },
@@ -974,18 +964,18 @@
     "name": "Serbian SuperLiga",
     "total_slots": 117,
     "evaluated_slots": 49,
-    "mature_slots": 5,
-    "total_matches": 68,
+    "mature_slots": 6,
+    "total_matches": 70,
     "avg_hit": 33.3,
-    "confidence": 0.04
+    "confidence": 0.05
   },
   {
     "league": "svk-first-league",
     "name": "Slovak First Football League",
     "total_slots": 114,
-    "evaluated_slots": 49,
+    "evaluated_slots": 51,
     "mature_slots": 16,
-    "total_matches": 101,
+    "total_matches": 103,
     "avg_hit": 32.8,
     "confidence": 0.14
   },
@@ -993,20 +983,30 @@
     "league": "alb-superiore",
     "name": "Kategoria Superiore",
     "total_slots": 114,
-    "evaluated_slots": 91,
+    "evaluated_slots": 94,
     "mature_slots": 23,
-    "total_matches": 158,
+    "total_matches": 162,
     "avg_hit": 30.9,
     "confidence": 0.2
+  },
+  {
+    "league": "kor-k-league",
+    "name": "K League 1",
+    "total_slots": 124,
+    "evaluated_slots": 116,
+    "mature_slots": 62,
+    "total_matches": 348,
+    "avg_hit": 29.8,
+    "confidence": 0.5
   },
   {
     "league": "tun-ligue-1",
     "name": "Tunisian Ligue Professionnelle 1",
     "total_slots": 114,
-    "evaluated_slots": 91,
+    "evaluated_slots": 92,
     "mature_slots": 28,
-    "total_matches": 186,
-    "avg_hit": 28.5,
+    "total_matches": 188,
+    "avg_hit": 29.3,
     "confidence": 0.25
   },
   {
@@ -1015,7 +1015,7 @@
     "total_slots": 111,
     "evaluated_slots": 28,
     "mature_slots": 19,
-    "total_matches": 75,
+    "total_matches": 76,
     "avg_hit": 27.3,
     "confidence": 0.17
   },
@@ -1025,7 +1025,7 @@
     "total_slots": 117,
     "evaluated_slots": 49,
     "mature_slots": 22,
-    "total_matches": 131,
+    "total_matches": 133,
     "avg_hit": 20.7,
     "confidence": 0.19
   },
@@ -1033,9 +1033,9 @@
     "league": "arm-premier-league",
     "name": "Armenian Premier League",
     "total_slots": 102,
-    "evaluated_slots": 58,
+    "evaluated_slots": 59,
     "mature_slots": 0,
-    "total_matches": 67,
+    "total_matches": 70,
     "avg_hit": null,
     "confidence": 0.0
   },
@@ -1083,9 +1083,9 @@
     "league": "ger-3-liga",
     "name": "3. Liga",
     "total_slots": 114,
-    "evaluated_slots": 21,
+    "evaluated_slots": 22,
     "mature_slots": 0,
-    "total_matches": 32,
+    "total_matches": 33,
     "avg_hit": null,
     "confidence": 0.0
   },
@@ -1123,9 +1123,9 @@
     "league": "ind-i-league",
     "name": "I-League",
     "total_slots": 120,
-    "evaluated_slots": 87,
+    "evaluated_slots": 86,
     "mature_slots": 0,
-    "total_matches": 173,
+    "total_matches": 172,
     "avg_hit": null,
     "confidence": 0.0
   },
@@ -1213,9 +1213,9 @@
     "league": "pol-1-liga",
     "name": "I liga",
     "total_slots": 114,
-    "evaluated_slots": 72,
+    "evaluated_slots": 73,
     "mature_slots": 0,
-    "total_matches": 83,
+    "total_matches": 85,
     "avg_hit": null,
     "confidence": 0.0
   },
@@ -1253,9 +1253,9 @@
     "league": "sui-super-league",
     "name": "Swiss Super League",
     "total_slots": 123,
-    "evaluated_slots": 78,
+    "evaluated_slots": 80,
     "mature_slots": 0,
-    "total_matches": 81,
+    "total_matches": 84,
     "avg_hit": null,
     "confidence": 0.0
   },
@@ -1263,9 +1263,9 @@
     "league": "svk-second-league",
     "name": "Slovak Second Football League",
     "total_slots": 72,
-    "evaluated_slots": 58,
+    "evaluated_slots": 60,
     "mature_slots": 0,
-    "total_matches": 84,
+    "total_matches": 88,
     "avg_hit": null,
     "confidence": 0.0
   },
@@ -1275,7 +1275,7 @@
     "total_slots": 118,
     "evaluated_slots": 39,
     "mature_slots": 0,
-    "total_matches": 58,
+    "total_matches": 60,
     "avg_hit": null,
     "confidence": 0.0
   },
