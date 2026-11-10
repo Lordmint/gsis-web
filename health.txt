@@ -74,7 +74,7 @@ Competitions:
   irl-first-division: ok | entities=10 events=81
   nir-premiership: ok | entities=12 events=17
   nir-championship: ok | entities=16 events=14
-  srp-superliga: ok | entities=14 events=97
+  srp-superliga: ok | entities=14 events=104
   srp-first-league: ok | entities=16 events=128
   bul-first-league: ok | entities=14 events=83
   bul-second-league: ok | entities=18 events=125
@@ -263,10 +263,10 @@ Wikipedia data validation (results grid vs standings table):
       IK Sirius: grid(P27 W17 D4 L6 GF56 GA35) vs standings (P28 W18 D4 L6 GF58 GA35)
       Djurgårdens IF: grid(P27 W16 D3 L8 GF55 GA26) vs standings (P28 W16 D4 L8 GF56 GA27)
   swe-superettan: OK | teams=16 matches=240 checked=16 issues=0
-  nor-eliteserien: MISMATCH | teams=16 matches=188 checked=16 issues=14
-      Bodø/Glimt: grid(P24 W18 D2 L4 GF58 GA23) vs standings (P25 W19 D2 L4 GF61 GA23)
+  nor-eliteserien: MISMATCH | teams=16 matches=188 checked=16 issues=16
+      Viking: grid(P25 W19 D2 L4 GF64 GA26) vs standings (P26 W20 D2 L4 GF69 GA27)
+      Bodø/Glimt: grid(P24 W18 D2 L4 GF58 GA23) vs standings (P26 W20 D2 L4 GF63 GA23)
       Rosenborg: grid(P25 W13 D4 L8 GF49 GA32) vs standings (P26 W14 D4 L8 GF53 GA32)
-      Molde: grid(P24 W12 D4 L8 GF55 GA38) vs standings (P25 W13 D4 L8 GF59 GA39)
   nor-1-divisjon: MISMATCH | teams=16 matches=171 checked=16 issues=16
       Strømsgodset: grid(P20 W11 D6 L3 GF51 GA28) vs standings (P30 W20 D6 L4 GF82 GA36)
       Haugesund: grid(P21 W15 D1 L5 GF64 GA36) vs standings (P30 W21 D2 L7 GF86 GA51)
@@ -353,7 +353,7 @@ Wikipedia data validation (results grid vs standings table):
       Cork City: grid(P17 W12 D3 L2 GF31 GA10) vs standings (P36 W23 D6 L7 GF74 GA35)
       UCD: grid(P9 W6 D1 L2 GF16 GA7) vs standings (P36 W16 D8 L12 GF67 GA51)
       Bray Wanderers: grid(P17 W6 D6 L5 GF30 GA23) vs standings (P36 W15 D9 L12 GF67 GA53)
-  srp-superliga: OK | teams=14 matches=97 checked=14 issues=0
+  srp-superliga: OK | teams=14 matches=104 checked=14 issues=0
   srp-first-league: OK | teams=16 matches=128 checked=16 issues=0
   bul-first-league: MISMATCH | teams=14 matches=83 checked=14 issues=12
       CSKA Sofia: grid(P7 W6 D1 L0 GF19 GA5) vs standings (P14 W10 D4 L0 GF32 GA9)
@@ -658,14 +658,14 @@ Prediction validation (top-3 vs next-5, mature≥3 matches):
   mar-botola: avg hit=39.3% | mature=31 matches=158 conf=25%
   gua-liga-nacional: avg hit=36.9% | mature=114 matches=549 conf=96%
   mda-liga-1: avg hit=33.3% | mature=24 matches=163 conf=22%
-  srp-superliga: avg hit=33.3% | mature=8 matches=74 conf=7%
+  srp-superliga: avg hit=32.6% | mature=13 matches=154 conf=11%
   alb-superiore: avg hit=31.0% | mature=24 matches=169 conf=21%
   tun-ligue-1: avg hit=30.8% | mature=28 matches=192 conf=25%
   kor-k-league: avg hit=29.8% | mature=62 matches=348 conf=50%
   hun-nb1: avg hit=24.7% | mature=18 matches=112 conf=15%
   irq-stars-league: avg hit=20.7% | mature=22 matches=135 conf=19%
   pol-1-liga: avg hit=0.0% | mature=3 matches=96 conf=3%
-  Overall: 107 leagues mature, avg hit=61.1%
+  Overall: 107 leagues mature, avg hit=61.0%
 
 Recipe tuning:
   por-primeira-liga: boost_position — over target (hit=90.0% > 52%) → lean into position/wdl (Δ +38.0pt)
