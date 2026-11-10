@@ -30,7 +30,7 @@ Competitions:
   tur-1-lig: ok | entities=20 events=123
   sui-super-league: ok | entities=12 events=76
   sui-challenge-league: ok | entities=10 events=64
-  isr-premier-league: ok | entities=14 events=1
+  isr-premier-league: ok | entities=14 events=4
   isr-leumit: ok | entities=16 events=98
   aut-bundesliga: ok | entities=12 events=165
   aut-2-liga: ok | entities=16 events=76
@@ -68,7 +68,7 @@ Competitions:
   rus-premier-league: ok | entities=16 events=208
   rus-first-league: ok | entities=18 events=154
   cyp-first-division: ok | entities=14 events=136
-  wal-cymru-premier: ok | entities=12 events=1
+  wal-cymru-premier: ok | entities=12 events=4
   mlt-premier-league: ok | entities=12 events=1
   irl-premier: ok | entities=10 events=90
   irl-first-division: ok | entities=10 events=81
@@ -166,7 +166,7 @@ Competitions:
   uru-segunda: ok | entities=14 events=16
   per-liga-1: ok | entities=18 events=297
   per-liga-2: ok | entities=9 events=0
-  bol-liga-1: ok | entities=16 events=199
+  bol-liga-1: ok | entities=16 events=200
   ven-liga-futve: ok | entities=8 events=226
   ven-segunda: ok | entities=9 events=14
   arg-primera-b-metropolitana: ok | entities=22 events=462
@@ -378,8 +378,8 @@ Wikipedia data validation (results grid vs standings table):
       Teuta: grid(P10 W6 D2 L2 GF14 GA4) vs standings (P11 W6 D2 L3 GF14 GA5)
       Elbasani: grid(P10 W2 D5 L3 GF11 GA12) vs standings (P11 W3 D5 L3 GF13 GA13)
   geo-erovnuli: MISMATCH | teams=10 matches=152 checked=10 issues=9
-      Dinamo Tbilisi: grid(P31 W15 D10 L6 GF50 GA31) vs standings (P32 W16 D10 L6 GF52 GA32)
       Iberia 1999: grid(P30 W16 D5 L9 GF43 GA32) vs standings (P32 W18 D5 L9 GF46 GA33)
+      Dinamo Tbilisi: grid(P31 W15 D10 L6 GF50 GA31) vs standings (P32 W16 D10 L6 GF52 GA32)
       Rustavi: grid(P30 W15 D7 L8 GF38 GA27) vs standings (P32 W16 D8 L8 GF40 GA28)
   ltu-toplyga: MISMATCH | teams=10 matches=72 checked=9 issues=9
       Kauno Žalgiris: grid(P16 W7 D6 L3 GF31 GA14) vs standings (P32 W16 D10 L6 GF62 GA25)
@@ -408,10 +408,10 @@ Wikipedia data validation (results grid vs standings table):
   mda-liga-1: GRID-LAG (1 round(s) behind) | teams=6 matches=38 checked=6 issues=2
       Iskra Rîbnița: grid(P12 W7 D1 L4 GF25 GA13) vs standings (P13 W8 D1 L4 GF27 GA14)
       Zimbru-2 Chișinău[a]: grid(P12 W5 D1 L6 GF21 GA24) vs standings (P13 W5 D1 L7 GF22 GA26)
-  gha-premier-league: MISMATCH | teams=18 matches=54 checked=18 issues=18
-      Medeama: grid(P7 W3 D3 L1 GF10 GA7) vs standings (P9 W5 D3 L1 GF15 GA8)
-      Samartex: grid(P7 W3 D3 L1 GF8 GA5) vs standings (P9 W5 D3 L1 GF10 GA5)
-      Hearts of Oak: grid(P7 W3 D2 L2 GF7 GA3) vs standings (P9 W5 D2 L2 GF9 GA3)
+  gha-premier-league: MISMATCH | teams=18 matches=60 checked=18 issues=18
+      Medeama: grid(P8 W4 D3 L1 GF11 GA7) vs standings (P10 W6 D3 L1 GF16 GA8)
+      Hearts of Oak: grid(P8 W4 D2 L2 GF10 GA3) vs standings (P10 W6 D2 L2 GF12 GA3)
+      Port City FC: grid(P3 W2 D1 L0 GF6 GA3) vs standings (P10 W5 D3 L2 GF12 GA7)
   egy-premier-league: MISMATCH | teams=20 matches=51 checked=20 issues=2
       Modern Sport: grid(P6 W4 D1 L1 GF9 GA4) vs standings (P5 W3 D1 L1 GF7 GA4)
       Al Ittihad: grid(P6 W3 D1 L2 GF6 GA5) vs standings (P5 W3 D1 L1 GF6 GA3)
