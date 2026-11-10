@@ -1,4 +1,4 @@
-GSIS Run — 2026-11-09
+GSIS Run — 2026-11-10
 Status: OK
 API calls used: 0
 Competitions:
@@ -66,7 +66,7 @@ Competitions:
   por-segunda-liga: ok | entities=18 events=76
   bel-challenger-pro-league: ok | entities=15 events=0
   rus-premier-league: ok | entities=16 events=208
-  rus-first-league: ok | entities=18 events=153
+  rus-first-league: ok | entities=18 events=154
   cyp-first-division: ok | entities=14 events=136
   wal-cymru-premier: ok | entities=12 events=1
   mlt-premier-league: ok | entities=12 events=1
@@ -154,13 +154,13 @@ Competitions:
   bra-serie-b: ok | entities=20 events=370
   arg-primera: ok | entities=30 events=490
   arg-primera-nacional: ok | entities=36 events=647
-  col-primera: ok | entities=20 events=382
+  col-primera: ok | entities=20 events=383
   col-primera-b: ok | entities=16 events=4
   chi-primera: ok | entities=16 events=216
   chi-primera-b: ok | entities=16 events=219
   ecu-liga-pro: ok | entities=16 events=287
   ecu-serie-b: ok | entities=12 events=9
-  par-primera: ok | entities=12 events=245
+  par-primera: ok | entities=12 events=246
   par-intermedia: ok | entities=16 events=18
   uru-primera: ok | entities=16 events=281
   uru-segunda: ok | entities=14 events=16
@@ -335,7 +335,7 @@ Wikipedia data validation (results grid vs standings table):
       Vizela: grid(P9 W3 D3 L3 GF11 GA11) vs standings (P10 W4 D3 L3 GF12 GA11)
   bel-challenger-pro-league: no validation data
   rus-premier-league: OK | teams=16 matches=240 checked=16 issues=0
-  rus-first-league: OK | teams=18 matches=153 checked=18 issues=0
+  rus-first-league: OK | teams=18 matches=154 checked=18 issues=0
   cyp-first-division: MISMATCH | teams=14 matches=58 checked=14 issues=6
       AEL Limassol: grid(P8 W5 D0 L3 GF12 GA13) vs standings (P9 W6 D0 L3 GF14 GA14)
       APOEL: grid(P8 W4 D2 L2 GF17 GA10) vs standings (P9 W5 D2 L2 GF21 GA11)
@@ -421,7 +421,7 @@ Wikipedia data validation (results grid vs standings table):
       Raja CA: grid(P6 W3 D2 L1 GF6 GA4) vs standings (P7 W3 D3 L1 GF7 GA5)
       AS FAR: grid(P5 W2 D2 L1 GF6 GA4) vs standings (P6 W3 D2 L1 GF9 GA5)
   rsa-premiership: OK | teams=16 matches=73 checked=16 issues=0
-  ngr-npfl: MISMATCH | teams=20 matches=111 checked=20 issues=7
+  ngr-npfl: MISMATCH | teams=20 matches=112 checked=20 issues=7
       Enugu Rangers: grid(P6 W5 D1 L0 GF9 GA3) vs standings (P11 W7 D3 L1 GF17 GA10)
       Barau: grid(P11 W4 D6 L1 GF12 GA8) vs standings (P12 W4 D7 L1 GF14 GA10)
       Rivers United: grid(P10 W4 D5 L1 GF14 GA4) vs standings (P11 W4 D6 L1 GF15 GA5)
@@ -538,9 +538,9 @@ Wikipedia data validation (results grid vs standings table):
       Godoy Cruz: grid(P34 W18 D9 L7 GF51 GA31) vs standings (P36 W19 D9 L8 GF53 GA33)
       Ferro Carril Oeste: grid(P34 W17 D9 L8 GF34 GA30) vs standings (P36 W19 D9 L8 GF38 GA31)
       Deportivo Morón: grid(P34 W17 D7 L10 GF51 GA35) vs standings (P36 W18 D7 L11 GF53 GA37)
-  col-primera: MISMATCH | teams=20 matches=369 checked=20 issues=20
+  col-primera: MISMATCH | teams=20 matches=370 checked=20 issues=20
       Atlético Nacional: grid(P37 W25 D4 L8 GF72 GA32) vs standings (P19 W13 D1 L5 GF35 GA15)
-      Junior: grid(P36 W14 D9 L13 GF54 GA51) vs standings (P19 W11 D2 L6 GF31 GA24)
+      Junior: grid(P37 W15 D9 L13 GF56 GA51) vs standings (P19 W11 D2 L6 GF31 GA24)
       Deportivo Pasto: grid(P37 W14 D7 L16 GF42 GA54) vs standings (P19 W10 D4 L5 GF29 GA25)
   chi-primera-b: MISMATCH | teams=16 matches=219 checked=16 issues=15
       Cobreloa: grid(P28 W14 D9 L5 GF50 GA30) vs standings (P29 W15 D9 L5 GF52 GA30)
@@ -558,80 +558,81 @@ Wikipedia data validation (results grid vs standings table):
       Auckland City: grid(P25 W16 D4 L5 GF60 GA23) vs standings (P22 W14 D3 L5 GF51 GA19)
 
 Prediction validation (top-3 vs next-5, mature≥3 matches):
-  blr-premier-league: avg hit=100.0% | mature=6 matches=119 conf=5%
   rsa-premiership: avg hit=100.0% | mature=11 matches=221 conf=9%
   wal-cymru-premier: avg hit=100.0% | mature=3 matches=52 conf=2%
-  por-segunda-liga: avg hit=96.8% | mature=17 matches=119 conf=15%
-  mkd-first-league: avg hit=96.3% | mature=18 matches=154 conf=16%
+  blr-premier-league: avg hit=97.2% | mature=8 matches=122 conf=7%
+  por-segunda-liga: avg hit=97.0% | mature=18 matches=123 conf=15%
+  mkd-first-league: avg hit=96.3% | mature=18 matches=156 conf=16%
   por-primeira-liga: avg hit=90.0% | mature=113 matches=419 conf=88%
-  mkd-second-league: avg hit=89.8% | mature=27 matches=162 conf=24%
-  egy-premier-league: avg hit=88.9% | mature=4 matches=102 conf=3%
+  egy-premier-league: avg hit=88.9% | mature=4 matches=104 conf=3%
+  mkd-second-league: avg hit=88.8% | mature=29 matches=169 conf=26%
   bra-serie-a: avg hit=85.7% | mature=70 matches=313 conf=55%
   sau-pro-league: avg hit=84.3% | mature=98 matches=408 conf=75%
   aut-bundesliga: avg hit=83.6% | mature=119 matches=538 conf=94%
-  kor-k-league-2: avg hit=83.0% | mature=26 matches=207 conf=23%
-  ukr-persha: avg hit=82.2% | mature=22 matches=177 conf=20%
-  sco-league-one: avg hit=81.8% | mature=18 matches=128 conf=21%
+  kor-k-league-2: avg hit=83.0% | mature=26 matches=210 conf=23%
+  ukr-persha: avg hit=82.2% | mature=22 matches=179 conf=20%
+  sco-league-one: avg hit=81.8% | mature=18 matches=129 conf=21%
   bel-pro-league: avg hit=81.2% | mature=120 matches=457 conf=94%
   isr-premier-league: avg hit=81.1% | mature=19 matches=101 conf=15%
-  chn-league-one: avg hit=78.9% | mature=15 matches=92 conf=14%
-  bih-premijer: avg hit=77.8% | mature=20 matches=127 conf=18%
-  bul-first-league: avg hit=77.8% | mature=4 matches=51 conf=3%
-  lva-virsliga: avg hit=77.8% | mature=4 matches=107 conf=4%
+  chn-league-one: avg hit=78.9% | mature=15 matches=94 conf=14%
+  bih-premijer: avg hit=77.8% | mature=20 matches=128 conf=18%
+  bul-first-league: avg hit=77.8% | mature=4 matches=54 conf=3%
+  lva-virsliga: avg hit=77.8% | mature=5 matches=109 conf=4%
   pol-ekstraklasa: avg hit=77.8% | mature=13 matches=78 conf=10%
-  tha-league-2: avg hit=77.8% | mature=19 matches=94 conf=20%
-  ukr-premier-league: avg hit=77.4% | mature=43 matches=242 conf=35%
+  tha-league-2: avg hit=77.8% | mature=19 matches=95 conf=20%
+  ukr-premier-league: avg hit=77.4% | mature=43 matches=245 conf=35%
   esp-la-liga: avg hit=77.0% | mature=105 matches=474 conf=78%
-  rou-liga-1: avg hit=77.0% | mature=64 matches=343 conf=52%
+  rou-liga-1: avg hit=76.8% | mature=66 matches=353 conf=54%
   ecu-liga-pro: avg hit=76.0% | mature=73 matches=336 conf=59%
   tur-super-lig: avg hit=75.7% | mature=121 matches=540 conf=95%
-  uzb-super-league: avg hit=74.7% | mature=53 matches=301 conf=49%
+  uzb-super-league: avg hit=74.6% | mature=56 matches=314 conf=52%
   bol-liga-1: avg hit=74.3% | mature=120 matches=538 conf=98%
-  jpn-j2-league: avg hit=72.9% | mature=48 matches=306 conf=42%
+  jpn-j2-league: avg hit=73.0% | mature=48 matches=307 conf=42%
+  sui-super-league: avg hit=72.7% | mature=3 matches=177 conf=2%
   hon-liga-nacional: avg hit=71.7% | mature=114 matches=535 conf=94%
   eng-premier-league: avg hit=69.4% | mature=106 matches=478 conf=79%
   arg-primera: avg hit=68.8% | mature=121 matches=535 conf=93%
   nor-eliteserien: avg hit=67.9% | mature=114 matches=501 conf=90%
   ned-eerste-divisie: avg hit=67.6% | mature=109 matches=499 conf=86%
   ven-liga-futve: avg hit=67.5% | mature=120 matches=599 conf=98%
-  geo-erovnuli: avg hit=67.3% | mature=25 matches=200 conf=21%
+  geo-erovnuli: avg hit=67.3% | mature=25 matches=204 conf=21%
   ita-serie-a: avg hit=67.1% | mature=112 matches=529 conf=83%
   chi-primera-b: avg hit=66.7% | mature=3 matches=49 conf=3%
-  tur-1-lig: avg hit=66.7% | mature=3 matches=67 conf=2%
-  srp-first-league: avg hit=66.2% | mature=39 matches=161 conf=35%
+  srp-first-league: avg hit=66.2% | mature=40 matches=165 conf=36%
   gre-super-league: avg hit=66.1% | mature=114 matches=501 conf=88%
   jpn-j1-league: avg hit=65.6% | mature=117 matches=564 conf=89%
   den-superliga: avg hit=65.1% | mature=121 matches=546 conf=96%
-  cze-first-league: avg hit=65.0% | mature=6 matches=55 conf=5%
+  cze-first-league: avg hit=65.0% | mature=6 matches=58 conf=5%
+  tur-1-lig: avg hit=64.4% | mature=4 matches=71 conf=3%
   chi-primera: avg hit=64.1% | mature=122 matches=460 conf=97%
   bra-serie-b: avg hit=63.7% | mature=119 matches=542 conf=92%
   ger-bundesliga: avg hit=63.7% | mature=118 matches=533 conf=90%
   eng-national-league: avg hit=62.5% | mature=111 matches=461 conf=92%
   rus-premier-league: avg hit=62.0% | mature=113 matches=511 conf=93%
+  jpn-j3-league: avg hit=61.4% | mature=5 matches=82 conf=6%
   nzl-national-league: avg hit=61.0% | mature=34 matches=257 conf=28%
   sco-premiership: avg hit=60.9% | mature=120 matches=554 conf=95%
-  uae-pro-league: avg hit=60.6% | mature=106 matches=503 conf=85%
+  uae-pro-league: avg hit=60.8% | mature=108 matches=511 conf=87%
   chn-csl: avg hit=60.3% | mature=89 matches=360 conf=70%
-  per-liga-1: avg hit=59.9% | mature=120 matches=574 conf=98%
+  per-liga-1: avg hit=59.9% | mature=120 matches=573 conf=98%
   mex-expansion: avg hit=59.7% | mature=116 matches=552 conf=94%
   swe-allsvenskan: avg hit=58.5% | mature=123 matches=583 conf=98%
-  jpn-j3-league: avg hit=58.3% | mature=4 matches=76 conf=5%
+  rus-first-league: avg hit=58.3% | mature=8 matches=98 conf=7%
   uru-primera: avg hit=58.0% | mature=93 matches=434 conf=76%
-  par-primera: avg hit=57.5% | mature=120 matches=564 conf=97%
+  par-primera: avg hit=57.0% | mature=120 matches=569 conf=97%
   ger-2-bundesliga: avg hit=56.4% | mature=117 matches=532 conf=91%
-  esp-primera-rfef: avg hit=56.1% | mature=7 matches=142 conf=6%
+  esp-primera-rfef: avg hit=56.1% | mature=7 matches=146 conf=6%
   aus-a-league: avg hit=55.6% | mature=40 matches=284 conf=31%
-  swe-superettan: avg hit=55.6% | mature=20 matches=110 conf=18%
-  col-primera: avg hit=54.4% | mature=122 matches=591 conf=97%
+  swe-superettan: avg hit=55.6% | mature=20 matches=111 conf=18%
+  col-primera: avg hit=54.4% | mature=122 matches=589 conf=97%
   esp-la-liga-2: avg hit=54.3% | mature=103 matches=496 conf=80%
   crc-primera: avg hit=54.1% | mature=112 matches=535 conf=90%
   fra-ligue-2: avg hit=52.6% | mature=118 matches=534 conf=91%
-  rus-first-league: avg hit=52.4% | mature=7 matches=97 conf=6%
-  usa-usl-league-one: avg hit=52.3% | mature=91 matches=447 conf=75%
-  kos-superleague: avg hit=52.2% | mature=34 matches=173 conf=31%
-  jor-pro-league: avg hit=52.0% | mature=52 matches=222 conf=46%
+  usa-usl-league-one: avg hit=52.3% | mature=91 matches=446 conf=75%
+  kos-superleague: avg hit=52.2% | mature=34 matches=175 conf=31%
   ind-isl: avg hit=51.9% | mature=46 matches=223 conf=38%
   usa-mls: avg hit=51.8% | mature=122 matches=579 conf=91%
+  jor-pro-league: avg hit=51.6% | mature=53 matches=229 conf=46%
   eng-league-two: avg hit=51.5% | mature=103 matches=504 conf=84%
   arg-primera-nacional: avg hit=49.8% | mature=98 matches=474 conf=75%
   arg-primera-b-metropolitana: avg hit=49.7% | mature=90 matches=433 conf=74%
@@ -642,28 +643,29 @@ Prediction validation (top-3 vs next-5, mature≥3 matches):
   ned-eredivisie: avg hit=47.9% | mature=111 matches=492 conf=85%
   lux-division-of-honour: avg hit=47.4% | mature=6 matches=80 conf=5%
   fra-ligue-1: avg hit=46.8% | mature=109 matches=480 conf=84%
-  bul-second-league: avg hit=46.0% | mature=23 matches=112 conf=21%
-  vnm-vleague: avg hit=45.2% | mature=43 matches=269 conf=38%
-  sui-challenge-league: avg hit=44.7% | mature=28 matches=160 conf=25%
+  bul-second-league: avg hit=46.3% | mature=24 matches=113 conf=22%
+  vnm-vleague: avg hit=45.0% | mature=44 matches=273 conf=39%
+  sui-challenge-league: avg hit=44.7% | mature=29 matches=163 conf=25%
   gha-premier-league: avg hit=44.4% | mature=12 matches=56 conf=9%
-  irn-premier-league: avg hit=44.4% | mature=4 matches=94 conf=4%
-  cro-first-league: avg hit=44.2% | mature=10 matches=89 conf=11%
+  irn-premier-league: avg hit=44.4% | mature=5 matches=96 conf=5%
+  cro-first-league: avg hit=43.9% | mature=10 matches=92 conf=11%
+  azr-premier-league: avg hit=43.4% | mature=25 matches=138 conf=22%
   slv-primera: avg hit=43.1% | mature=119 matches=576 conf=94%
-  mex-liga-mx: avg hit=42.7% | mature=122 matches=585 conf=97%
+  mex-liga-mx: avg hit=42.7% | mature=122 matches=584 conf=97%
   sco-championship: avg hit=42.0% | mature=112 matches=524 conf=90%
-  svk-first-league: avg hit=41.8% | mature=22 matches=118 conf=19%
-  azr-premier-league: avg hit=41.0% | mature=23 matches=132 conf=20%
-  fin-veikkausliiga: avg hit=40.9% | mature=18 matches=201 conf=15%
-  mar-botola: avg hit=38.8% | mature=31 matches=158 conf=25%
-  gua-liga-nacional: avg hit=36.9% | mature=114 matches=550 conf=96%
-  mda-liga-1: avg hit=33.3% | mature=24 matches=161 conf=22%
-  srp-superliga: avg hit=33.3% | mature=7 matches=72 conf=6%
-  alb-superiore: avg hit=30.9% | mature=23 matches=164 conf=20%
-  tun-ligue-1: avg hit=30.0% | mature=28 matches=190 conf=25%
+  svk-first-league: avg hit=41.8% | mature=22 matches=120 conf=19%
+  fin-veikkausliiga: avg hit=40.9% | mature=18 matches=206 conf=15%
+  mar-botola: avg hit=39.3% | mature=31 matches=158 conf=25%
+  gua-liga-nacional: avg hit=36.9% | mature=114 matches=549 conf=96%
+  mda-liga-1: avg hit=33.3% | mature=24 matches=163 conf=22%
+  srp-superliga: avg hit=33.3% | mature=8 matches=74 conf=7%
+  alb-superiore: avg hit=31.0% | mature=24 matches=169 conf=21%
+  tun-ligue-1: avg hit=30.8% | mature=28 matches=192 conf=25%
   kor-k-league: avg hit=29.8% | mature=62 matches=348 conf=50%
-  hun-nb1: avg hit=24.7% | mature=18 matches=111 conf=15%
-  irq-stars-league: avg hit=20.7% | mature=22 matches=134 conf=19%
-  Overall: 105 leagues mature, avg hit=61.5%
+  hun-nb1: avg hit=24.7% | mature=18 matches=112 conf=15%
+  irq-stars-league: avg hit=20.7% | mature=22 matches=135 conf=19%
+  pol-1-liga: avg hit=0.0% | mature=3 matches=96 conf=3%
+  Overall: 107 leagues mature, avg hit=61.1%
 
 Recipe tuning:
   por-primeira-liga: boost_position — over target (hit=90.0% > 52%) → lean into position/wdl (Δ +38.0pt)
@@ -672,12 +674,12 @@ Recipe tuning:
   aut-bundesliga: boost_position — over target (hit=83.6% > 52%) → lean into position/wdl (Δ +31.6pt)
   bel-pro-league: boost_position — over target (hit=81.2% > 52%) → lean into position/wdl (Δ +29.2pt)
   esp-la-liga: boost_position — over target (hit=77.0% > 52%) → lean into position/wdl (Δ +25.0pt)
-  rou-liga-1: boost_position — over target (hit=77.0% > 52%) → lean into position/wdl (Δ +25.0pt)
+  rou-liga-1: boost_position — over target (hit=76.8% > 52%) → lean into position/wdl (Δ +24.8pt)
   ecu-liga-pro: boost_position — over target (hit=76.0% > 52%) → lean into position/wdl (Δ +24.0pt)
   tur-super-lig: boost_position — over target (hit=75.7% > 52%) → lean into position/wdl (Δ +23.7pt)
-  uzb-super-league: boost_position — over target (hit=74.7% > 52%) → lean into position/wdl (Δ +22.7pt)
+  uzb-super-league: boost_position — over target (hit=74.6% > 52%) → lean into position/wdl (Δ +22.6pt)
   bol-liga-1: boost_position — over target (hit=74.3% > 52%) → lean into position/wdl (Δ +22.3pt)
-  jpn-j2-league: boost_position — over target (hit=72.9% > 52%) → lean into position/wdl (Δ +20.9pt)
+  jpn-j2-league: boost_position — over target (hit=73.0% > 52%) → lean into position/wdl (Δ +21.0pt)
   hon-liga-nacional: boost_position — over target (hit=71.7% > 52%) → lean into position/wdl (Δ +19.7pt)
   eng-premier-league: boost_position — over target (hit=69.4% > 52%) → lean into position/wdl (Δ +17.4pt)
   arg-primera: boost_position — over target (hit=68.8% > 52%) → lean into position/wdl (Δ +16.8pt)
@@ -694,7 +696,7 @@ Recipe tuning:
   eng-national-league: boost_position — over target (hit=62.5% > 52%) → lean into position/wdl (Δ +10.5pt)
   rus-premier-league: boost_position — over target (hit=62.0% > 52%) → lean into position/wdl (Δ +10.0pt)
   sco-premiership: boost_position — over target (hit=60.9% > 52%) → lean into position/wdl (Δ +8.9pt)
-  uae-pro-league: boost_position — over target (hit=60.6% > 52%) → lean into position/wdl (Δ +8.6pt)
+  uae-pro-league: boost_position — over target (hit=60.8% > 52%) → lean into position/wdl (Δ +8.8pt)
   chn-csl: boost_position — over target (hit=60.3% > 52%) → lean into position/wdl (Δ +8.3pt)
   per-liga-1: boost_position — over target (hit=59.9% > 52%) → lean into position/wdl (Δ +7.9pt)
   mex-expansion: boost_position — over target (hit=59.7% > 52%) → lean into position/wdl (Δ +7.7pt)
