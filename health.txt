@@ -30,7 +30,7 @@ Competitions:
   tur-1-lig: ok | entities=20 events=123
   sui-super-league: ok | entities=12 events=76
   sui-challenge-league: ok | entities=10 events=64
-  isr-premier-league: ok | entities=14 events=4
+  isr-premier-league: ok | entities=14 events=2
   isr-leumit: ok | entities=16 events=98
   aut-bundesliga: ok | entities=12 events=165
   aut-2-liga: ok | entities=16 events=76
@@ -68,7 +68,7 @@ Competitions:
   rus-premier-league: ok | entities=16 events=208
   rus-first-league: ok | entities=18 events=154
   cyp-first-division: ok | entities=14 events=136
-  wal-cymru-premier: ok | entities=12 events=4
+  wal-cymru-premier: ok | entities=12 events=1
   mlt-premier-league: ok | entities=12 events=1
   irl-premier: ok | entities=10 events=90
   irl-first-division: ok | entities=10 events=81
@@ -143,7 +143,7 @@ Competitions:
   mex-liga-mx: ok | entities=18 events=310
   can-cpl: ok | entities=8 events=55
   mex-expansion: ok | entities=16 events=248
-  slv-primera: ok | entities=12 events=259
+  slv-primera: ok | entities=12 events=260
   crc-primera: ok | entities=10 events=176
   gua-liga-nacional: ok | entities=12 events=259
   hon-liga-nacional: ok | entities=12 events=209
@@ -650,7 +650,7 @@ Prediction validation (top-3 vs next-5, mature≥3 matches):
   gha-premier-league: avg hit=44.4% | mature=12 matches=56 conf=9%
   irn-premier-league: avg hit=44.4% | mature=6 matches=98 conf=6%
   cro-first-league: avg hit=43.7% | mature=10 matches=95 conf=11%
-  slv-primera: avg hit=42.9% | mature=119 matches=586 conf=94%
+  slv-primera: avg hit=43.5% | mature=119 matches=593 conf=94%
   mex-liga-mx: avg hit=42.7% | mature=122 matches=584 conf=97%
   sco-championship: avg hit=42.0% | mature=112 matches=524 conf=90%
   svk-first-league: avg hit=41.8% | mature=22 matches=123 conf=19%
@@ -702,7 +702,7 @@ Recipe tuning:
   mex-expansion: boost_position — over target (hit=59.7% > 52%) → lean into position/wdl (Δ +7.7pt)
   swe-allsvenskan: boost_position — over target (hit=58.5% > 52%) → lean into position/wdl (Δ +6.5pt)
   uru-primera: boost_position — over target (hit=58.0% > 52%) → lean into position/wdl (Δ +6.0pt)
-  slv-primera: boost_form — under target (hit=42.9% < 52%) → lean into form/goal-diff (Δ -9.1pt)
+  slv-primera: boost_form — under target (hit=43.5% < 52%) → lean into form/goal-diff (Δ -8.5pt)
   mex-liga-mx: boost_form — under target (hit=42.7% < 52%) → lean into form/goal-diff (Δ -9.3pt)
   sco-championship: boost_form — under target (hit=42.0% < 52%) → lean into form/goal-diff (Δ -10.0pt)
   gua-liga-nacional: boost_form — under target (hit=36.9% < 52%) → lean into form/goal-diff (Δ -15.1pt)
