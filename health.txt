@@ -31,7 +31,7 @@ Competitions:
   sui-super-league: ok | entities=12 events=76
   sui-challenge-league: ok | entities=10 events=64
   isr-premier-league: ok | entities=14 events=2
-  isr-leumit: ok | entities=16 events=98
+  isr-leumit: ok | entities=16 events=101
   aut-bundesliga: ok | entities=12 events=165
   aut-2-liga: ok | entities=16 events=76
   den-superliga: ok | entities=12 events=168
@@ -238,10 +238,10 @@ Wikipedia data validation (results grid vs standings table):
   isr-premier-league: MISMATCH | teams=14 matches=70 checked=14 issues=2
       Maccabi Netanya: grid(P10 W3 D5 L2 GF14 GA9) vs standings (P10 W4 D4 L2 GF16 GA8)
       Hapoel Petah Tikva: grid(P10 W2 D1 L7 GF6 GA15) vs standings (P10 W2 D0 L8 GF5 GA17)
-  isr-leumit: MISMATCH | teams=16 matches=98 checked=16 issues=8
+  isr-leumit: MISMATCH | teams=16 matches=101 checked=16 issues=8
       Hapoel Kfar Shalem: grid(P12 W8 D2 L2 GF26 GA20) vs standings (P13 W9 D2 L2 GF30 GA20)
       Hapoel Ra'anana: grid(P12 W7 D1 L4 GF24 GA16) vs standings (P13 W8 D1 L4 GF27 GA17)
-      Hapoel Afula: grid(P11 W6 D3 L2 GF16 GA10) vs standings (P12 W6 D3 L3 GF19 GA15)
+      Hapoel Afula: grid(P12 W7 D3 L2 GF19 GA11) vs standings (P13 W7 D3 L3 GF22 GA16)
   aut-bundesliga: MISMATCH | teams=12 matches=63 checked=12 issues=11
       SK Rapid: grid(P11 W10 D0 L1 GF38 GA9) vs standings (P12 W11 D0 L1 GF39 GA9)
       Red Bull Salzburg: grid(P11 W8 D3 L0 GF30 GA9) vs standings (P12 W9 D3 L0 GF33 GA9)
@@ -478,10 +478,10 @@ Wikipedia data validation (results grid vs standings table):
       Sharjah: grid(P11 W11 D0 L0 GF32 GA11) vs standings (P7 W5 D0 L2 GF15 GA8)
       Al Jazira: grid(P12 W3 D4 L5 GF16 GA18) vs standings (P6 W4 D2 L0 GF13 GA4)
       Shabab Al Ahli: grid(P12 W9 D2 L1 GF24 GA7) vs standings (P7 W4 D1 L2 GF12 GA7)
-  irq-stars-league: MISMATCH | teams=20 matches=130 checked=20 issues=6
-      Al-Karma: grid(P13 W8 D4 L1 GF23 GA11) vs standings (P13 W9 D3 L1 GF23 GA10)
+  irq-stars-league: MISMATCH | teams=20 matches=130 checked=20 issues=5
       Al-Naft: grid(P12 W6 D4 L2 GF14 GA7) vs standings (P13 W7 D4 L2 GF15 GA7)
       Al-Gharraf: grid(P13 W3 D5 L5 GF9 GA15) vs standings (P13 W3 D5 L5 GF10 GA16)
+      Al-Karkh: grid(P13 W3 D3 L7 GF16 GA21) vs standings (P13 W3 D4 L6 GF17 GA20)
   jor-pro-league: OK | teams=10 matches=40 checked=10 issues=0
   kuw-premier: MISMATCH | teams=12 matches=19 checked=12 issues=12
       Kuwait: grid(P4 W3 D1 L0 GF11 GA3) vs standings (P7 W6 D1 L0 GF28 GA6)
