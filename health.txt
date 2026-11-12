@@ -30,7 +30,7 @@ Competitions:
   tur-1-lig: ok | entities=20 events=123
   sui-super-league: ok | entities=12 events=76
   sui-challenge-league: ok | entities=10 events=64
-  isr-premier-league: ok | entities=14 events=2
+  isr-premier-league: ok | entities=14 events=3
   isr-leumit: ok | entities=16 events=101
   aut-bundesliga: ok | entities=12 events=165
   aut-2-liga: ok | entities=16 events=76
@@ -126,7 +126,7 @@ Competitions:
   tha-league-2: ok | entities=18 events=85
   idn-super-league: ok | entities=18 events=170
   qat-stars-league: ok | entities=12 events=132
-  uae-pro-league: ok | entities=14 events=79
+  uae-pro-league: ok | entities=14 events=83
   irq-stars-league: ok | entities=20 events=130
   jor-pro-league: ok | entities=10 events=40
   kuw-premier: ok | entities=12 events=19
@@ -142,8 +142,8 @@ Competitions:
   usa-usl-league-one: ok | entities=17 events=276
   mex-liga-mx: ok | entities=18 events=310
   can-cpl: ok | entities=8 events=55
-  mex-expansion: ok | entities=16 events=248
-  slv-primera: ok | entities=12 events=261
+  mex-expansion: ok | entities=16 events=249
+  slv-primera: ok | entities=12 events=262
   crc-primera: ok | entities=10 events=176
   gua-liga-nacional: ok | entities=12 events=259
   hon-liga-nacional: ok | entities=12 events=209
@@ -474,10 +474,10 @@ Wikipedia data validation (results grid vs standings table):
   qat-stars-league: MISMATCH | teams=12 matches=132 checked=12 issues=2
       Qatar SC: grid(P22 W8 D5 L9 GF32 GA36) vs standings (P22 W9 D5 L8 GF34 GA32)
       Al-Wakrah: grid(P22 W8 D6 L8 GF36 GA34) vs standings (P22 W7 D6 L9 GF32 GA36)
-  uae-pro-league: MISMATCH | teams=14 matches=79 checked=14 issues=14
+  uae-pro-league: MISMATCH | teams=14 matches=83 checked=14 issues=14
+      Al Jazira: grid(P13 W4 D4 L5 GF18 GA19) vs standings (P7 W5 D2 L0 GF15 GA5)
       Sharjah: grid(P11 W11 D0 L0 GF32 GA11) vs standings (P7 W5 D0 L2 GF15 GA8)
-      Al Jazira: grid(P12 W3 D4 L5 GF16 GA18) vs standings (P6 W4 D2 L0 GF13 GA4)
-      Shabab Al Ahli: grid(P12 W9 D2 L1 GF24 GA7) vs standings (P7 W4 D1 L2 GF12 GA7)
+      Al Ain: grid(P13 W5 D3 L5 GF20 GA21) vs standings (P7 W4 D2 L1 GF12 GA7)
   irq-stars-league: MISMATCH | teams=20 matches=130 checked=20 issues=5
       Al-Naft: grid(P12 W6 D4 L2 GF14 GA7) vs standings (P13 W7 D4 L2 GF15 GA7)
       Al-Gharraf: grid(P13 W3 D5 L5 GF9 GA15) vs standings (P13 W3 D5 L5 GF10 GA16)
@@ -607,16 +607,16 @@ Prediction validation (top-3 vs next-5, mature≥3 matches):
   chi-primera: avg hit=64.1% | mature=122 matches=460 conf=97%
   bra-serie-b: avg hit=63.7% | mature=119 matches=542 conf=92%
   ger-bundesliga: avg hit=63.7% | mature=118 matches=533 conf=90%
+  uae-pro-league: avg hit=63.1% | mature=112 matches=538 conf=90%
   eng-national-league: avg hit=62.5% | mature=111 matches=461 conf=92%
   rus-premier-league: avg hit=62.0% | mature=113 matches=511 conf=93%
   tur-1-lig: avg hit=61.9% | mature=6 matches=79 conf=5%
-  uae-pro-league: avg hit=61.2% | mature=111 matches=525 conf=90%
   nzl-national-league: avg hit=61.0% | mature=34 matches=257 conf=28%
   sco-premiership: avg hit=60.9% | mature=120 matches=554 conf=95%
   jpn-j3-league: avg hit=60.5% | mature=7 matches=96 conf=8%
   chn-csl: avg hit=60.3% | mature=89 matches=360 conf=70%
   per-liga-1: avg hit=59.9% | mature=120 matches=573 conf=98%
-  mex-expansion: avg hit=59.7% | mature=116 matches=552 conf=94%
+  mex-expansion: avg hit=59.2% | mature=116 matches=563 conf=94%
   swe-allsvenskan: avg hit=58.5% | mature=123 matches=583 conf=98%
   uru-primera: avg hit=58.0% | mature=93 matches=434 conf=76%
   par-primera: avg hit=57.0% | mature=120 matches=569 conf=97%
@@ -650,7 +650,7 @@ Prediction validation (top-3 vs next-5, mature≥3 matches):
   gha-premier-league: avg hit=44.4% | mature=12 matches=56 conf=9%
   irn-premier-league: avg hit=44.4% | mature=7 matches=100 conf=7%
   cro-first-league: avg hit=43.7% | mature=10 matches=98 conf=11%
-  slv-primera: avg hit=43.5% | mature=119 matches=592 conf=94%
+  slv-primera: avg hit=43.3% | mature=121 matches=600 conf=96%
   mex-liga-mx: avg hit=42.7% | mature=122 matches=584 conf=97%
   sco-championship: avg hit=42.0% | mature=112 matches=524 conf=90%
   svk-first-league: avg hit=41.8% | mature=22 matches=125 conf=19%
@@ -693,16 +693,16 @@ Recipe tuning:
   chi-primera: boost_position — over target (hit=64.1% > 52%) → lean into position/wdl (Δ +12.1pt)
   bra-serie-b: boost_position — over target (hit=63.7% > 52%) → lean into position/wdl (Δ +11.7pt)
   ger-bundesliga: boost_position — over target (hit=63.7% > 52%) → lean into position/wdl (Δ +11.7pt)
+  uae-pro-league: boost_position — over target (hit=63.1% > 52%) → lean into position/wdl (Δ +11.1pt)
   eng-national-league: boost_position — over target (hit=62.5% > 52%) → lean into position/wdl (Δ +10.5pt)
   rus-premier-league: boost_position — over target (hit=62.0% > 52%) → lean into position/wdl (Δ +10.0pt)
-  uae-pro-league: boost_position — over target (hit=61.2% > 52%) → lean into position/wdl (Δ +9.2pt)
   sco-premiership: boost_position — over target (hit=60.9% > 52%) → lean into position/wdl (Δ +8.9pt)
   chn-csl: boost_position — over target (hit=60.3% > 52%) → lean into position/wdl (Δ +8.3pt)
   per-liga-1: boost_position — over target (hit=59.9% > 52%) → lean into position/wdl (Δ +7.9pt)
-  mex-expansion: boost_position — over target (hit=59.7% > 52%) → lean into position/wdl (Δ +7.7pt)
+  mex-expansion: boost_position — over target (hit=59.2% > 52%) → lean into position/wdl (Δ +7.2pt)
   swe-allsvenskan: boost_position — over target (hit=58.5% > 52%) → lean into position/wdl (Δ +6.5pt)
   uru-primera: boost_position — over target (hit=58.0% > 52%) → lean into position/wdl (Δ +6.0pt)
-  slv-primera: boost_form — under target (hit=43.5% < 52%) → lean into form/goal-diff (Δ -8.5pt)
+  slv-primera: boost_form — under target (hit=43.3% < 52%) → lean into form/goal-diff (Δ -8.7pt)
   mex-liga-mx: boost_form — under target (hit=42.7% < 52%) → lean into form/goal-diff (Δ -9.3pt)
   sco-championship: boost_form — under target (hit=42.0% < 52%) → lean into form/goal-diff (Δ -10.0pt)
   gua-liga-nacional: boost_form — under target (hit=36.9% < 52%) → lean into form/goal-diff (Δ -15.1pt)

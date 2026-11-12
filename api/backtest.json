@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-12T01:46:44.033709+00:00",
+  "generated_at": "2026-11-12T18:25:07.040470+00:00",
   "weeks": [
     "2026-09-14",
     "2026-09-21",
@@ -282,8 +282,8 @@
       "baseline_avg": 2.8974358974358974,
       "delta": -0.8141025641025639,
       "z_plain": -5.213738088885434,
-      "z_ewma": -3.7251408863684494,
-      "z": -3.7251408863684494,
+      "z_ewma": -3.6906153715126093,
+      "z": -3.6906153715126093,
       "status": "drift",
       "name": "mar-botola"
     },
@@ -306,8 +306,8 @@
       "baseline_avg": 1.6333333333333333,
       "delta": 0.5166666666666666,
       "z_plain": 3.4525377780177675,
-      "z_ewma": 3.5556114200589444,
-      "z": 3.5556114200589444,
+      "z_ewma": 3.5371363834666028,
+      "z": 3.5371363834666028,
       "status": "drift",
       "name": "irn-premier-league"
     },
@@ -338,12 +338,12 @@
     {
       "league": "uae-pro-league",
       "n_recent": 60,
-      "recent_avg": 3.45,
-      "baseline_avg": 2.9,
-      "delta": 0.5500000000000003,
-      "z_plain": 2.5200996584921795,
-      "z_ewma": 2.9110655697764436,
-      "z": 2.9110655697764436,
+      "recent_avg": 3.433333333333333,
+      "baseline_avg": 2.9125,
+      "delta": 0.520833333333333,
+      "z_plain": 2.412141465912941,
+      "z_ewma": 2.9111326662753156,
+      "z": 2.9111326662753156,
       "status": "drift",
       "name": "uae-pro-league"
     },
@@ -432,18 +432,6 @@
       "name": "esp-la-liga"
     },
     {
-      "league": "rou-liga-2",
-      "n_recent": 60,
-      "recent_avg": 2.6,
-      "baseline_avg": 3.2133333333333334,
-      "delta": -0.6133333333333333,
-      "z_plain": -2.975997494282018,
-      "z_ewma": -1.9121378150037494,
-      "z": -1.9121378150037494,
-      "status": "watch",
-      "name": "rou-liga-2"
-    },
-    {
       "league": "sco-championship",
       "n_recent": 60,
       "recent_avg": 2.4166666666666665,
@@ -468,14 +456,26 @@
       "name": "gua-liga-nacional"
     },
     {
+      "league": "rou-liga-2",
+      "n_recent": 60,
+      "recent_avg": 2.6,
+      "baseline_avg": 3.2133333333333334,
+      "delta": -0.6133333333333333,
+      "z_plain": -2.975997494282018,
+      "z_ewma": -1.8899346322376018,
+      "z": -1.8899346322376018,
+      "status": "watch",
+      "name": "rou-liga-2"
+    },
+    {
       "league": "irq-stars-league",
       "n_recent": 60,
       "recent_avg": 2.0,
       "baseline_avg": 2.3194444444444446,
       "delta": -0.31944444444444464,
       "z_plain": -1.7275902857864456,
-      "z_ewma": -1.8168060075107246,
-      "z": -1.8168060075107246,
+      "z_ewma": -1.8414777909621123,
+      "z": -1.8414777909621123,
       "status": "watch",
       "name": "irq-stars-league"
     },
@@ -510,8 +510,8 @@
       "baseline_avg": 2.8484848484848486,
       "delta": -0.331818181818182,
       "z_plain": -1.584110109734975,
-      "z_ewma": -1.699084906395666,
-      "z": -1.699084906395666,
+      "z_ewma": -1.7098267886372682,
+      "z": -1.7098267886372682,
       "status": "watch",
       "name": "esp-primera-rfef"
     },
@@ -564,6 +564,18 @@
       "name": "tur-super-lig"
     },
     {
+      "league": "rus-first-league",
+      "n_recent": 60,
+      "recent_avg": 2.4166666666666665,
+      "baseline_avg": 2.851063829787234,
+      "delta": -0.4343971631205674,
+      "z_plain": -2.0777099525533322,
+      "z_ewma": -1.3648132378749935,
+      "z": -1.3648132378749935,
+      "status": "stable",
+      "name": "rus-first-league"
+    },
+    {
       "league": "ngr-npfl",
       "n_recent": 60,
       "recent_avg": 2.466666666666667,
@@ -582,8 +594,8 @@
       "baseline_avg": 2.91,
       "delta": -0.34333333333333327,
       "z_plain": -1.4787859320568495,
-      "z_ewma": -1.3600336818226966,
-      "z": -1.3600336818226966,
+      "z_ewma": -1.3507343919162909,
+      "z": -1.3507343919162909,
       "status": "stable",
       "name": "jpn-j3-league"
     },
@@ -598,18 +610,6 @@
       "z": 1.3438994508781628,
       "status": "stable",
       "name": "idn-super-league"
-    },
-    {
-      "league": "rus-first-league",
-      "n_recent": 60,
-      "recent_avg": 2.433333333333333,
-      "baseline_avg": 2.8404255319148937,
-      "delta": -0.40709219858156054,
-      "z_plain": -1.9443569032402432,
-      "z_ewma": -1.3382008025444834,
-      "z": -1.3382008025444834,
-      "status": "stable",
-      "name": "rus-first-league"
     },
     {
       "league": "arg-primera-nacional",
@@ -648,14 +648,26 @@
       "name": "eng-league-one"
     },
     {
+      "league": "slv-primera",
+      "n_recent": 60,
+      "recent_avg": 2.8666666666666667,
+      "baseline_avg": 2.54375,
+      "delta": 0.3229166666666665,
+      "z_plain": 1.6143850376012396,
+      "z_ewma": 1.300053982939774,
+      "z": 1.300053982939774,
+      "status": "stable",
+      "name": "slv-primera"
+    },
+    {
       "league": "swe-superettan",
       "n_recent": 60,
       "recent_avg": 2.45,
       "baseline_avg": 3.08125,
       "delta": -0.6312499999999996,
       "z_plain": -2.688474547104566,
-      "z_ewma": -1.28586896740737,
-      "z": -1.28586896740737,
+      "z_ewma": -1.2966961766575136,
+      "z": -1.2966961766575136,
       "status": "stable",
       "name": "swe-superettan"
     },
@@ -690,8 +702,8 @@
       "baseline_avg": 2.5652173913043477,
       "delta": 0.33478260869565224,
       "z_plain": 1.515032870262222,
-      "z_ewma": 1.206481949207685,
-      "z": 1.206481949207685,
+      "z_ewma": 1.1825308357713564,
+      "z": 1.1825308357713564,
       "status": "stable",
       "name": "geo-erovnuli"
     },
@@ -746,26 +758,14 @@
     {
       "league": "kor-k-league-2",
       "n_recent": 60,
-      "recent_avg": 2.75,
-      "baseline_avg": 2.775,
-      "delta": -0.02499999999999991,
-      "z_plain": -0.12060775591974576,
-      "z_ewma": 1.056067567474534,
-      "z": 1.056067567474534,
+      "recent_avg": 2.783333333333333,
+      "baseline_avg": 2.7625,
+      "delta": 0.020833333333333037,
+      "z_plain": 0.10161885612274647,
+      "z_ewma": 1.0341960713419764,
+      "z": 1.0341960713419764,
       "status": "stable",
       "name": "kor-k-league-2"
-    },
-    {
-      "league": "jpn-j2-league",
-      "n_recent": 60,
-      "recent_avg": 2.65,
-      "baseline_avg": 2.48,
-      "delta": 0.16999999999999993,
-      "z_plain": 0.8205520194157736,
-      "z_ewma": 1.0106059374001544,
-      "z": 1.0106059374001544,
-      "status": "stable",
-      "name": "jpn-j2-league"
     },
     {
       "league": "mys-super-league",
@@ -778,18 +778,6 @@
       "z": 0.9805203998365517,
       "status": "stable",
       "name": "mys-super-league"
-    },
-    {
-      "league": "chn-league-one",
-      "n_recent": 60,
-      "recent_avg": 2.3333333333333335,
-      "baseline_avg": 2.75,
-      "delta": -0.4166666666666665,
-      "z_plain": -2.055511505932381,
-      "z_ewma": -0.9665372825953696,
-      "z": -0.9665372825953696,
-      "status": "stable",
-      "name": "chn-league-one"
     },
     {
       "league": "isr-premier-league",
@@ -828,16 +816,28 @@
       "name": "usa-usl"
     },
     {
-      "league": "slv-primera",
+      "league": "chn-league-one",
       "n_recent": 60,
-      "recent_avg": 2.8,
-      "baseline_avg": 2.55625,
-      "delta": 0.2437499999999999,
-      "z_plain": 1.228619645561342,
-      "z_ewma": 0.9454134877669702,
-      "z": 0.9454134877669702,
+      "recent_avg": 2.3333333333333335,
+      "baseline_avg": 2.75,
+      "delta": -0.4166666666666665,
+      "z_plain": -2.055511505932381,
+      "z_ewma": -0.9502843454271097,
+      "z": -0.9502843454271097,
       "status": "stable",
-      "name": "slv-primera"
+      "name": "chn-league-one"
+    },
+    {
+      "league": "jpn-j2-league",
+      "n_recent": 60,
+      "recent_avg": 2.6,
+      "baseline_avg": 2.51,
+      "delta": 0.0900000000000003,
+      "z_plain": 0.4343843373549702,
+      "z_ewma": 0.9378884062459283,
+      "z": 0.9378884062459283,
+      "status": "stable",
+      "name": "jpn-j2-league"
     },
     {
       "league": "wal-cymru-premier",
@@ -918,8 +918,8 @@
       "baseline_avg": 2.8153846153846156,
       "delta": -0.0820512820512822,
       "z_plain": -0.33988803006721013,
-      "z_ewma": -0.8424899387566317,
-      "z": -0.8424899387566317,
+      "z_ewma": -0.8784676420850298,
+      "z": -0.8784676420850298,
       "status": "stable",
       "name": "bul-second-league"
     },
@@ -978,8 +978,8 @@
       "baseline_avg": 2.890625,
       "delta": 0.19270833333333348,
       "z_plain": 0.8728931041657653,
-      "z_ewma": -0.7715030376124172,
-      "z": -0.7715030376124172,
+      "z_ewma": -0.7666980060768198,
+      "z": -0.7666980060768198,
       "status": "stable",
       "name": "pol-ekstraklasa"
     },
@@ -1002,8 +1002,8 @@
       "baseline_avg": 2.7111111111111112,
       "delta": 0.03888888888888875,
       "z_plain": 0.1731023417661573,
-      "z_ewma": -0.7498381512221529,
-      "z": -0.7498381512221529,
+      "z_ewma": -0.7499640740497655,
+      "z": -0.7499640740497655,
       "status": "stable",
       "name": "rou-liga-1"
     },
@@ -1018,6 +1018,18 @@
       "z": 0.7378519276498433,
       "status": "stable",
       "name": "bra-serie-a"
+    },
+    {
+      "league": "mex-expansion",
+      "n_recent": 60,
+      "recent_avg": 3.066666666666667,
+      "baseline_avg": 2.95625,
+      "delta": 0.11041666666666705,
+      "z_plain": 0.5137364423990874,
+      "z_ewma": -0.6499952609243916,
+      "z": -0.6499952609243916,
+      "status": "stable",
+      "name": "mex-expansion"
     },
     {
       "league": "qat-stars-league",
@@ -1086,22 +1098,10 @@
       "baseline_avg": 2.606060606060606,
       "delta": 0.19393939393939386,
       "z_plain": 0.9350982986649333,
-      "z_ewma": -0.5003481448064323,
-      "z": -0.5003481448064323,
+      "z_ewma": -0.49856881444586176,
+      "z": -0.49856881444586176,
       "status": "stable",
       "name": "pol-1-liga"
-    },
-    {
-      "league": "srp-superliga",
-      "n_recent": 60,
-      "recent_avg": 2.6666666666666665,
-      "baseline_avg": 2.4347826086956523,
-      "delta": 0.2318840579710142,
-      "z_plain": 1.0065215795821885,
-      "z_ewma": 0.4840605073904367,
-      "z": 0.4840605073904367,
-      "status": "stable",
-      "name": "srp-superliga"
     },
     {
       "league": "kaz-premier-league",
@@ -1116,16 +1116,16 @@
       "name": "kaz-premier-league"
     },
     {
-      "league": "mex-expansion",
+      "league": "svn-prvaliga",
       "n_recent": 60,
-      "recent_avg": 3.0833333333333335,
-      "baseline_avg": 2.975,
-      "delta": 0.10833333333333339,
-      "z_plain": 0.4988595573590203,
-      "z_ewma": -0.46829622043776004,
-      "z": -0.46829622043776004,
+      "recent_avg": 2.8333333333333335,
+      "baseline_avg": 2.8529411764705883,
+      "delta": -0.019607843137254832,
+      "z_plain": -0.09141644593077052,
+      "z_ewma": -0.4751253545144952,
+      "z": -0.4751253545144952,
       "status": "stable",
-      "name": "mex-expansion"
+      "name": "svn-prvaliga"
     },
     {
       "league": "cze-first-league",
@@ -1134,8 +1134,8 @@
       "baseline_avg": 2.68,
       "delta": 0.13666666666666671,
       "z_plain": 0.7305850641978873,
-      "z_ewma": 0.4636548087028255,
-      "z": 0.4636548087028255,
+      "z_ewma": 0.4664584567399742,
+      "z": 0.4664584567399742,
       "status": "stable",
       "name": "cze-first-league"
     },
@@ -1152,6 +1152,18 @@
       "name": "kor-k-league"
     },
     {
+      "league": "srp-superliga",
+      "n_recent": 60,
+      "recent_avg": 2.6666666666666665,
+      "baseline_avg": 2.4347826086956523,
+      "delta": 0.2318840579710142,
+      "z_plain": 1.0065215795821885,
+      "z_ewma": 0.45135269367755715,
+      "z": 0.45135269367755715,
+      "status": "stable",
+      "name": "srp-superliga"
+    },
+    {
       "league": "eng-premier-league",
       "n_recent": 60,
       "recent_avg": 2.683333333333333,
@@ -1162,18 +1174,6 @@
       "z": 0.4446271083744207,
       "status": "stable",
       "name": "eng-premier-league"
-    },
-    {
-      "league": "svn-prvaliga",
-      "n_recent": 60,
-      "recent_avg": 2.8333333333333335,
-      "baseline_avg": 2.8529411764705883,
-      "delta": -0.019607843137254832,
-      "z_plain": -0.09141644593077052,
-      "z_ewma": -0.4430573100328861,
-      "z": -0.4430573100328861,
-      "status": "stable",
-      "name": "svn-prvaliga"
     },
     {
       "league": "crc-primera",
@@ -1248,26 +1248,14 @@
       "name": "nor-1-divisjon"
     },
     {
-      "league": "isr-leumit",
-      "n_recent": 60,
-      "recent_avg": 2.95,
-      "baseline_avg": 3.1463414634146343,
-      "delta": -0.1963414634146341,
-      "z_plain": -0.8274746359469339,
-      "z_ewma": -0.3190367864908994,
-      "z": -0.3190367864908994,
-      "status": "stable",
-      "name": "isr-leumit"
-    },
-    {
       "league": "ger-3-liga",
       "n_recent": 60,
-      "recent_avg": 3.3333333333333335,
-      "baseline_avg": 3.2063492063492065,
-      "delta": 0.12698412698412698,
-      "z_plain": 0.5241754445680025,
-      "z_ewma": 0.3109929689423132,
-      "z": 0.3109929689423132,
+      "recent_avg": 3.316666666666667,
+      "baseline_avg": 3.2222222222222223,
+      "delta": 0.09444444444444455,
+      "z_plain": 0.39113730067348784,
+      "z_ewma": 0.32036597793857224,
+      "z": 0.32036597793857224,
       "status": "stable",
       "name": "ger-3-liga"
     },
@@ -1308,28 +1296,28 @@
       "name": "bel-pro-league"
     },
     {
-      "league": "svk-second-league",
-      "n_recent": 60,
-      "recent_avg": 2.8666666666666667,
-      "baseline_avg": 2.774193548387097,
-      "delta": 0.09247311827956972,
-      "z_plain": 0.4059133391791189,
-      "z_ewma": 0.23892277294942293,
-      "z": 0.23892277294942293,
-      "status": "stable",
-      "name": "svk-second-league"
-    },
-    {
       "league": "tur-1-lig",
       "n_recent": 60,
       "recent_avg": 2.716666666666667,
       "baseline_avg": 2.8412698412698414,
       "delta": -0.1246031746031746,
       "z_plain": -0.6155877956688321,
-      "z_ewma": 0.23313298315307812,
-      "z": 0.23313298315307812,
+      "z_ewma": 0.24078115267725356,
+      "z": 0.24078115267725356,
       "status": "stable",
       "name": "tur-1-lig"
+    },
+    {
+      "league": "svk-second-league",
+      "n_recent": 60,
+      "recent_avg": 2.8666666666666667,
+      "baseline_avg": 2.774193548387097,
+      "delta": 0.09247311827956972,
+      "z_plain": 0.4059133391791189,
+      "z_ewma": 0.23814505489843274,
+      "z": 0.23814505489843274,
+      "status": "stable",
+      "name": "svk-second-league"
     },
     {
       "league": "usa-usl-league-one",
@@ -1344,6 +1332,30 @@
       "name": "usa-usl-league-one"
     },
     {
+      "league": "isr-leumit",
+      "n_recent": 60,
+      "recent_avg": 2.9833333333333334,
+      "baseline_avg": 3.097560975609756,
+      "delta": -0.11422764227642279,
+      "z_plain": -0.4877898862859879,
+      "z_ewma": -0.2218252294541933,
+      "z": -0.2218252294541933,
+      "status": "stable",
+      "name": "isr-leumit"
+    },
+    {
+      "league": "uzb-super-league",
+      "n_recent": 60,
+      "recent_avg": 2.8,
+      "baseline_avg": 2.517730496453901,
+      "delta": 0.2822695035460989,
+      "z_plain": 1.3688139677202373,
+      "z_ewma": 0.21824283412764914,
+      "z": 0.21824283412764914,
+      "status": "stable",
+      "name": "uzb-super-league"
+    },
+    {
       "league": "ger-2-bundesliga",
       "n_recent": 60,
       "recent_avg": 2.6,
@@ -1354,18 +1366,6 @@
       "z": -0.20919677536265288,
       "status": "stable",
       "name": "ger-2-bundesliga"
-    },
-    {
-      "league": "uzb-super-league",
-      "n_recent": 60,
-      "recent_avg": 2.7666666666666666,
-      "baseline_avg": 2.5319148936170213,
-      "delta": 0.23475177304964534,
-      "z_plain": 1.1417454374216023,
-      "z_ewma": 0.18333513909997204,
-      "z": 0.18333513909997204,
-      "status": "stable",
-      "name": "uzb-super-league"
     },
     {
       "league": "mlt-premier-league",
@@ -1386,8 +1386,8 @@
       "baseline_avg": 2.66,
       "delta": -0.010000000000000231,
       "z_plain": -0.0473340481794599,
-      "z_ewma": -0.16676939226997353,
-      "z": -0.16676939226997353,
+      "z_ewma": -0.17229942435938347,
+      "z": -0.17229942435938347,
       "status": "stable",
       "name": "ukr-persha"
     },
@@ -1434,8 +1434,8 @@
       "baseline_avg": 2.8372093023255816,
       "delta": -0.25387596899224807,
       "z_plain": -1.2067596110556875,
-      "z_ewma": -0.13931717367001467,
-      "z": -0.13931717367001467,
+      "z_ewma": -0.14047282311280648,
+      "z": -0.14047282311280648,
       "status": "stable",
       "name": "srp-first-league"
     },
@@ -1450,18 +1450,6 @@
       "z": 0.11328012820753125,
       "status": "stable",
       "name": "aus-a-league"
-    },
-    {
-      "league": "lva-virsliga",
-      "n_recent": 60,
-      "recent_avg": 3.216666666666667,
-      "baseline_avg": 2.809090909090909,
-      "delta": 0.4075757575757577,
-      "z_plain": 1.7158897714373937,
-      "z_ewma": -0.07030670107867057,
-      "z": -0.07030670107867057,
-      "status": "stable",
-      "name": "lva-virsliga"
     },
     {
       "league": "rus-premier-league",
@@ -1488,16 +1476,16 @@
       "name": "irl-premier"
     },
     {
-      "league": "blr-premier-league",
+      "league": "lva-virsliga",
       "n_recent": 60,
-      "recent_avg": 2.4833333333333334,
-      "baseline_avg": 2.68125,
-      "delta": -0.19791666666666652,
-      "z_plain": -0.9145918195530426,
-      "z_ewma": 0.0508983621126614,
-      "z": 0.0508983621126614,
+      "recent_avg": 3.216666666666667,
+      "baseline_avg": 2.809090909090909,
+      "delta": 0.4075757575757577,
+      "z_plain": 1.7158897714373937,
+      "z_ewma": -0.05211192809262776,
+      "z": -0.05211192809262776,
       "status": "stable",
-      "name": "blr-premier-league"
+      "name": "lva-virsliga"
     },
     {
       "league": "fra-ligue-2",
@@ -1510,6 +1498,18 @@
       "z": -0.04707129981998144,
       "status": "stable",
       "name": "fra-ligue-2"
+    },
+    {
+      "league": "blr-premier-league",
+      "n_recent": 60,
+      "recent_avg": 2.4833333333333334,
+      "baseline_avg": 2.68125,
+      "delta": -0.19791666666666652,
+      "z_plain": -0.9145918195530426,
+      "z_ewma": 0.04113850576821206,
+      "z": 0.04113850576821206,
+      "status": "stable",
+      "name": "blr-premier-league"
     },
     {
       "league": "gre-super-league",
@@ -1656,20 +1656,20 @@
   "walk_forward": {
     "generator": "gsis.walkforward.compute",
     "leagues_covered": 143,
-    "eval_slots": 5569,
-    "overall_hit_rate": 111.72,
-    "early_slots": 2854,
+    "eval_slots": 5565,
+    "overall_hit_rate": 111.74,
+    "early_slots": 2850,
     "late_slots": 2715,
-    "early_hit_rate": 55.4,
-    "late_hit_rate": 59.88,
-    "learning_delta": 4.48,
+    "early_hit_rate": 55.45,
+    "late_hit_rate": 59.86,
+    "learning_delta": 4.41,
     "prior_ab": {
       "active": true,
-      "leagues": 241,
-      "slots": 4902,
-      "baseline_hit_rate": 57.38,
-      "prior_hit_rate": 57.18,
-      "delta": -0.2,
+      "leagues": 242,
+      "slots": 4912,
+      "baseline_hit_rate": 57.45,
+      "prior_hit_rate": 57.25,
+      "delta": -0.21,
       "baseline_early": null,
       "prior_early": null,
       "delta_early": null,
@@ -1913,21 +1913,21 @@
         "name": "Swiss Super League",
         "season_id": 11,
         "slots": 15,
-        "hit_rate": 59.61,
+        "hit_rate": 60.28,
         "early": {
           "slots": 8,
           "hit_rate": 58.44
         },
         "late": {
           "slots": 7,
-          "hit_rate": 60.95
+          "hit_rate": 62.38
         },
-        "learning_delta": 2.51,
+        "learning_delta": 3.94,
         "prior": {
           "teams": 12,
           "dates": 20,
           "slots": 15,
-          "hit_rate": 63.15,
+          "hit_rate": 63.81,
           "delta": 3.54,
           "early_delta": 7.64,
           "late_delta": -1.15
@@ -2033,23 +2033,23 @@
         "name": "Ekstraklasa",
         "season_id": 16,
         "slots": 19,
-        "hit_rate": 51.18,
+        "hit_rate": 55.19,
         "early": {
           "slots": 10,
-          "hit_rate": 53.91
+          "hit_rate": 61.54
         },
         "late": {
           "slots": 9,
           "hit_rate": 48.15
         },
-        "learning_delta": -5.76,
+        "learning_delta": -13.39,
         "prior": {
           "teams": 18,
           "dates": 24,
           "slots": 19,
-          "hit_rate": 49.78,
-          "delta": -1.4,
-          "early_delta": -2.67,
+          "hit_rate": 54.14,
+          "delta": -1.05,
+          "early_delta": -2.0,
           "late_delta": 0.0
         }
       },
@@ -2335,23 +2335,23 @@
       "uae-pro-league": {
         "name": "UAE Pro League",
         "season_id": 30,
-        "slots": 19,
-        "hit_rate": 63.21,
+        "slots": 20,
+        "hit_rate": 61.75,
         "early": {
           "slots": 10,
           "hit_rate": 64.67
         },
         "late": {
-          "slots": 9,
-          "hit_rate": 61.58
+          "slots": 10,
+          "hit_rate": 58.84
         },
-        "learning_delta": -3.08,
+        "learning_delta": -5.82,
         "prior": {
           "teams": 16,
           "dates": 21,
-          "slots": 19,
-          "hit_rate": 63.44,
-          "delta": 0.23,
+          "slots": 20,
+          "hit_rate": 61.98,
+          "delta": 0.22,
           "early_delta": 0.44,
           "late_delta": 0.0
         }
@@ -2933,48 +2933,48 @@
         "name": "Czech First League",
         "season_id": 56,
         "slots": 17,
-        "hit_rate": 51.97,
+        "hit_rate": 51.08,
         "early": {
           "slots": 9,
-          "hit_rate": 42.31
+          "hit_rate": 40.65
         },
         "late": {
           "slots": 8,
           "hit_rate": 62.82
         },
-        "learning_delta": 20.51,
+        "learning_delta": 22.18,
         "prior": {
           "teams": 16,
           "dates": 21,
           "slots": 17,
-          "hit_rate": 51.57,
-          "delta": -0.39,
-          "early_delta": -0.74,
+          "hit_rate": 51.48,
+          "delta": 0.39,
+          "early_delta": 0.74,
           "late_delta": 0.0
         }
       },
       "rou-liga-1": {
         "name": "Liga I",
         "season_id": 57,
-        "slots": 16,
-        "hit_rate": 55.23,
+        "slots": 17,
+        "hit_rate": 55.4,
         "early": {
-          "slots": 8,
-          "hit_rate": 36.56
+          "slots": 9,
+          "hit_rate": 38.97
         },
         "late": {
           "slots": 8,
           "hit_rate": 73.89
         },
-        "learning_delta": 37.33,
+        "learning_delta": 34.92,
         "prior": {
           "teams": 16,
-          "dates": 20,
-          "slots": 16,
-          "hit_rate": 53.23,
-          "delta": -1.99,
-          "early_delta": -2.18,
-          "late_delta": -1.81
+          "dates": 21,
+          "slots": 17,
+          "hit_rate": 54.31,
+          "delta": -1.09,
+          "early_delta": -2.8,
+          "late_delta": 0.83
         }
       },
       "cro-hnl": {
@@ -3004,24 +3004,24 @@
       "hun-nb1": {
         "name": "NB I",
         "season_id": 59,
-        "slots": 17,
-        "hit_rate": 52.06,
+        "slots": 16,
+        "hit_rate": 51.46,
         "early": {
-          "slots": 9,
-          "hit_rate": 59.26
+          "slots": 8,
+          "hit_rate": 55.83
         },
         "late": {
           "slots": 8,
-          "hit_rate": 43.96
+          "hit_rate": 47.08
         },
-        "learning_delta": -15.3,
+        "learning_delta": -8.75,
         "prior": {
           "teams": 13,
-          "dates": 25,
-          "slots": 17,
-          "hit_rate": 52.3,
-          "delta": 0.25,
-          "early_delta": 0.46,
+          "dates": 24,
+          "slots": 16,
+          "hit_rate": 51.72,
+          "delta": 0.26,
+          "early_delta": 0.52,
           "late_delta": 0.0
         }
       },
@@ -3053,21 +3053,21 @@
         "name": "Liga Portugal 2",
         "season_id": 61,
         "slots": 16,
-        "hit_rate": 57.3,
+        "hit_rate": 59.84,
         "early": {
           "slots": 8,
-          "hit_rate": 54.88
+          "hit_rate": 54.75
         },
         "late": {
           "slots": 8,
-          "hit_rate": 59.72
+          "hit_rate": 64.93
         },
-        "learning_delta": 4.84,
+        "learning_delta": 10.19,
         "prior": {
           "teams": 18,
           "dates": 26,
           "slots": 16,
-          "hit_rate": 57.17,
+          "hit_rate": 59.7,
           "delta": -0.13,
           "early_delta": -1.48,
           "late_delta": 1.22
@@ -3172,22 +3172,22 @@
       "tur-1-lig": {
         "name": "1. Lig",
         "season_id": 67,
-        "slots": 15,
-        "hit_rate": 60.41,
+        "slots": 16,
+        "hit_rate": 59.76,
         "early": {
           "slots": 8,
           "hit_rate": 56.18
         },
         "late": {
-          "slots": 7,
-          "hit_rate": 65.24
+          "slots": 8,
+          "hit_rate": 63.33
         },
-        "learning_delta": 9.06,
+        "learning_delta": 7.15,
         "prior": {
           "teams": 20,
           "dates": 20,
-          "slots": 15,
-          "hit_rate": 60.41,
+          "slots": 16,
+          "hit_rate": 59.76,
           "delta": 0.0,
           "early_delta": 0.0,
           "late_delta": 0.0
@@ -3587,23 +3587,23 @@
         "name": "Serbian SuperLiga",
         "season_id": 85,
         "slots": 19,
-        "hit_rate": 49.63,
+        "hit_rate": 50.99,
         "early": {
           "slots": 10,
-          "hit_rate": 32.92
+          "hit_rate": 35.67
         },
         "late": {
           "slots": 9,
-          "hit_rate": 68.21
+          "hit_rate": 68.02
         },
-        "learning_delta": 35.29,
+        "learning_delta": 32.36,
         "prior": {
           "teams": 14,
           "dates": 21,
           "slots": 19,
-          "hit_rate": 49.06,
-          "delta": -0.57,
-          "early_delta": -1.08,
+          "hit_rate": 50.64,
+          "delta": -0.35,
+          "early_delta": -0.67,
           "late_delta": 0.0
         }
       },
@@ -3626,45 +3626,45 @@
         "name": "Slovenian PrvaLiga",
         "season_id": 87,
         "slots": 21,
-        "hit_rate": 55.74,
+        "hit_rate": 56.64,
         "early": {
           "slots": 11,
-          "hit_rate": 49.29
+          "hit_rate": 49.9
         },
         "late": {
           "slots": 10,
-          "hit_rate": 62.83
+          "hit_rate": 64.06
         },
-        "learning_delta": 13.54,
+        "learning_delta": 14.16,
         "prior": {
           "teams": 12,
           "dates": 23,
           "slots": 21,
-          "hit_rate": 54.37,
-          "delta": -1.38,
-          "early_delta": 0.0,
-          "late_delta": -2.89
+          "hit_rate": 55.53,
+          "delta": -1.11,
+          "early_delta": -1.21,
+          "late_delta": -1.0
         }
       },
       "svk-first-league": {
         "name": "Slovak First Football League",
         "season_id": 88,
         "slots": 14,
-        "hit_rate": 45.06,
+        "hit_rate": 44.82,
         "early": {
           "slots": 7,
-          "hit_rate": 45.71
+          "hit_rate": 45.24
         },
         "late": {
           "slots": 7,
           "hit_rate": 44.4
         },
-        "learning_delta": -1.31,
+        "learning_delta": -0.83,
         "prior": {
           "teams": 12,
           "dates": 20,
           "slots": 14,
-          "hit_rate": 44.58,
+          "hit_rate": 44.35,
           "delta": -0.48,
           "early_delta": -0.95,
           "late_delta": 0.0
@@ -3698,21 +3698,21 @@
         "name": "Kategoria Superiore",
         "season_id": 90,
         "slots": 12,
-        "hit_rate": 44.85,
+        "hit_rate": 40.79,
         "early": {
           "slots": 6,
-          "hit_rate": 58.21
+          "hit_rate": 50.11
         },
         "late": {
           "slots": 6,
           "hit_rate": 31.48
         },
-        "learning_delta": -26.73,
+        "learning_delta": -18.63,
         "prior": {
           "teams": 10,
           "dates": 16,
           "slots": 12,
-          "hit_rate": 44.14,
+          "hit_rate": 40.08,
           "delta": -0.71,
           "early_delta": -1.42,
           "late_delta": 0.0
@@ -3746,21 +3746,21 @@
         "name": "Iraq Stars League",
         "season_id": 94,
         "slots": 21,
-        "hit_rate": 44.11,
+        "hit_rate": 44.16,
         "early": {
           "slots": 11,
           "hit_rate": 61.97
         },
         "late": {
           "slots": 10,
-          "hit_rate": 24.46
+          "hit_rate": 24.57
         },
-        "learning_delta": -37.51,
+        "learning_delta": -37.4,
         "prior": {
           "teams": 20,
           "dates": 25,
           "slots": 21,
-          "hit_rate": 45.22,
+          "hit_rate": 45.27,
           "delta": 1.11,
           "early_delta": 2.12,
           "late_delta": 0.0
@@ -3770,21 +3770,21 @@
         "name": "Jordanian Pro League",
         "season_id": 95,
         "slots": 14,
-        "hit_rate": 49.8,
+        "hit_rate": 49.47,
         "early": {
           "slots": 7,
           "hit_rate": 37.3
         },
         "late": {
           "slots": 7,
-          "hit_rate": 62.3
+          "hit_rate": 61.64
         },
-        "learning_delta": 25.0,
+        "learning_delta": 24.34,
         "prior": {
           "teams": 10,
           "dates": 23,
           "slots": 14,
-          "hit_rate": 49.8,
+          "hit_rate": 49.47,
           "delta": 0.0,
           "early_delta": 0.0,
           "late_delta": 0.0
@@ -3842,45 +3842,45 @@
         "name": "Primera Federaci\u00f3n",
         "season_id": 102,
         "slots": 10,
-        "hit_rate": 52.5,
+        "hit_rate": 49.64,
         "early": {
           "slots": 5,
           "hit_rate": 38.0
         },
         "late": {
           "slots": 5,
-          "hit_rate": 67.0
+          "hit_rate": 61.28
         },
-        "learning_delta": 29.0,
+        "learning_delta": 23.28,
         "prior": {
           "teams": 20,
           "dates": 18,
           "slots": 10,
-          "hit_rate": 49.69,
-          "delta": -2.81,
+          "hit_rate": 47.44,
+          "delta": -2.19,
           "early_delta": -3.78,
-          "late_delta": -1.83
+          "late_delta": -0.61
         }
       },
       "ger-3-liga": {
         "name": "3. Liga",
         "season_id": 104,
         "slots": 13,
-        "hit_rate": 61.9,
+        "hit_rate": 62.54,
         "early": {
           "slots": 7,
-          "hit_rate": 56.79
+          "hit_rate": 57.98
         },
         "late": {
           "slots": 6,
           "hit_rate": 67.87
         },
-        "learning_delta": 11.08,
+        "learning_delta": 9.89,
         "prior": {
           "teams": 20,
           "dates": 22,
           "slots": 13,
-          "hit_rate": 59.34,
+          "hit_rate": 59.98,
           "delta": -2.56,
           "early_delta": 0.0,
           "late_delta": -5.56
@@ -3890,24 +3890,24 @@
         "name": "Swiss Challenge League",
         "season_id": 105,
         "slots": 21,
-        "hit_rate": 49.91,
+        "hit_rate": 50.01,
         "early": {
           "slots": 11,
           "hit_rate": 50.81
         },
         "late": {
           "slots": 10,
-          "hit_rate": 48.92
+          "hit_rate": 49.14
         },
-        "learning_delta": -1.89,
+        "learning_delta": -1.67,
         "prior": {
           "teams": 10,
           "dates": 23,
           "slots": 21,
-          "hit_rate": 49.93,
-          "delta": 0.03,
+          "hit_rate": 50.25,
+          "delta": 0.24,
           "early_delta": 0.05,
-          "late_delta": 0.0
+          "late_delta": 0.44
         }
       },
       "aut-2-liga": {
@@ -3937,25 +3937,25 @@
       "swe-superettan": {
         "name": "Superettan",
         "season_id": 108,
-        "slots": 22,
-        "hit_rate": 63.38,
+        "slots": 21,
+        "hit_rate": 63.62,
         "early": {
           "slots": 11,
           "hit_rate": 69.8
         },
         "late": {
-          "slots": 11,
-          "hit_rate": 56.97
+          "slots": 10,
+          "hit_rate": 56.83
         },
-        "learning_delta": -12.83,
+        "learning_delta": -12.96,
         "prior": {
           "teams": 16,
           "dates": 24,
-          "slots": 22,
-          "hit_rate": 63.16,
-          "delta": -0.23,
+          "slots": 21,
+          "hit_rate": 63.39,
+          "delta": -0.24,
           "early_delta": -0.71,
-          "late_delta": 0.25
+          "late_delta": 0.28
         }
       },
       "nor-1-divisjon": {
@@ -3985,24 +3985,24 @@
       "pol-1-liga": {
         "name": "I liga",
         "season_id": 110,
-        "slots": 17,
-        "hit_rate": 19.61,
+        "slots": 16,
+        "hit_rate": 20.0,
         "early": {
-          "slots": 9,
-          "hit_rate": 20.83
+          "slots": 8,
+          "hit_rate": 24.38
         },
         "late": {
           "slots": 8,
-          "hit_rate": 18.23
+          "hit_rate": 15.62
         },
-        "learning_delta": -2.6,
+        "learning_delta": -8.75,
         "prior": {
           "teams": 18,
           "dates": 21,
-          "slots": 17,
-          "hit_rate": 19.87,
-          "delta": 0.26,
-          "early_delta": 0.49,
+          "slots": 16,
+          "hit_rate": 19.44,
+          "delta": -0.56,
+          "early_delta": -1.11,
           "late_delta": 0.0
         }
       },
@@ -4058,23 +4058,23 @@
         "name": "Latvian Higher League",
         "season_id": 113,
         "slots": 21,
-        "hit_rate": 74.66,
+        "hit_rate": 74.55,
         "early": {
           "slots": 11,
-          "hit_rate": 66.06
+          "hit_rate": 66.67
         },
         "late": {
           "slots": 10,
-          "hit_rate": 84.11
+          "hit_rate": 83.22
         },
-        "learning_delta": 18.05,
+        "learning_delta": 16.56,
         "prior": {
           "teams": 10,
           "dates": 22,
           "slots": 21,
-          "hit_rate": 75.61,
-          "delta": 0.95,
-          "early_delta": 1.82,
+          "hit_rate": 75.08,
+          "delta": 0.53,
+          "early_delta": 1.01,
           "late_delta": 0.0
         }
       },
@@ -4154,21 +4154,21 @@
         "name": "J2 League",
         "season_id": 117,
         "slots": 21,
-        "hit_rate": 41.82,
+        "hit_rate": 41.5,
         "early": {
           "slots": 11,
-          "hit_rate": 32.02
+          "hit_rate": 31.41
         },
         "late": {
           "slots": 10,
           "hit_rate": 52.59
         },
-        "learning_delta": 20.57,
+        "learning_delta": 21.18,
         "prior": {
           "teams": 20,
           "dates": 24,
           "slots": 21,
-          "hit_rate": 41.82,
+          "hit_rate": 41.5,
           "delta": 0.0,
           "early_delta": 0.0,
           "late_delta": 0.0
@@ -4178,24 +4178,24 @@
         "name": "K League 2",
         "season_id": 118,
         "slots": 20,
-        "hit_rate": 58.61,
+        "hit_rate": 58.06,
         "early": {
           "slots": 10,
           "hit_rate": 54.56
         },
         "late": {
           "slots": 10,
-          "hit_rate": 62.67
+          "hit_rate": 61.56
         },
-        "learning_delta": 8.11,
+        "learning_delta": 7.0,
         "prior": {
           "teams": 17,
           "dates": 21,
           "slots": 20,
-          "hit_rate": 57.28,
-          "delta": -1.33,
+          "hit_rate": 57.39,
+          "delta": -0.67,
           "early_delta": -1.33,
-          "late_delta": -1.33
+          "late_delta": 0.0
         }
       },
       "chi-primera-b": {
@@ -4250,21 +4250,21 @@
         "name": "Macedonian First Football League",
         "season_id": 121,
         "slots": 21,
-        "hit_rate": 55.32,
+        "hit_rate": 55.95,
         "early": {
           "slots": 11,
-          "hit_rate": 36.57
+          "hit_rate": 37.78
         },
         "late": {
           "slots": 10,
           "hit_rate": 75.94
         },
-        "learning_delta": 39.38,
+        "learning_delta": 38.17,
         "prior": {
           "teams": 10,
           "dates": 24,
           "slots": 21,
-          "hit_rate": 54.42,
+          "hit_rate": 55.05,
           "delta": -0.9,
           "early_delta": -1.72,
           "late_delta": 0.0
@@ -4274,36 +4274,36 @@
         "name": "Macedonian Second Football League",
         "season_id": 122,
         "slots": 17,
-        "hit_rate": 64.54,
+        "hit_rate": 64.22,
         "early": {
           "slots": 9,
           "hit_rate": 44.44
         },
         "late": {
           "slots": 8,
-          "hit_rate": 87.15
+          "hit_rate": 86.46
         },
-        "learning_delta": 42.71
+        "learning_delta": 42.01
       },
       "kos-superleague": {
         "name": "Football Superleague of Kosovo",
         "season_id": 123,
         "slots": 20,
-        "hit_rate": 51.71,
+        "hit_rate": 50.49,
         "early": {
           "slots": 10,
-          "hit_rate": 52.0
+          "hit_rate": 49.72
         },
         "late": {
           "slots": 10,
-          "hit_rate": 51.42
+          "hit_rate": 51.25
         },
-        "learning_delta": -0.58,
+        "learning_delta": 1.53,
         "prior": {
           "teams": 10,
           "dates": 23,
           "slots": 20,
-          "hit_rate": 50.71,
+          "hit_rate": 49.49,
           "delta": -1.0,
           "early_delta": -2.0,
           "late_delta": 0.0
@@ -4400,53 +4400,62 @@
           "slots": 6,
           "hit_rate": 74.72
         },
-        "learning_delta": 2.63
+        "learning_delta": 2.63,
+        "prior": {
+          "teams": 16,
+          "dates": 20,
+          "slots": 13,
+          "hit_rate": 69.52,
+          "delta": -3.79,
+          "early_delta": -2.91,
+          "late_delta": -4.81
+        }
       },
       "ukr-persha": {
         "name": "Ukrainian First League",
         "season_id": 129,
         "slots": 16,
-        "hit_rate": 37.67,
+        "hit_rate": 39.24,
         "early": {
           "slots": 8,
           "hit_rate": 26.6
         },
         "late": {
           "slots": 8,
-          "hit_rate": 48.75
+          "hit_rate": 51.88
         },
-        "learning_delta": 22.15,
+        "learning_delta": 25.28,
         "prior": {
           "teams": 16,
           "dates": 23,
           "slots": 16,
-          "hit_rate": 36.63,
-          "delta": -1.04,
+          "hit_rate": 39.86,
+          "delta": 0.62,
           "early_delta": 1.25,
-          "late_delta": -3.33
+          "late_delta": 0.0
         }
       },
       "rou-liga-2": {
         "name": "Liga II",
         "season_id": 131,
-        "slots": 19,
-        "hit_rate": 65.15,
+        "slots": 18,
+        "hit_rate": 63.58,
         "early": {
-          "slots": 10,
-          "hit_rate": 55.17
+          "slots": 9,
+          "hit_rate": 55.56
         },
         "late": {
           "slots": 9,
-          "hit_rate": 76.23
+          "hit_rate": 71.6
         },
-        "learning_delta": 21.07,
+        "learning_delta": 16.05,
         "prior": {
           "teams": 22,
           "dates": 26,
-          "slots": 19,
-          "hit_rate": 67.78,
-          "delta": 2.63,
-          "early_delta": 5.0,
+          "slots": 18,
+          "hit_rate": 65.8,
+          "delta": 2.22,
+          "early_delta": 4.44,
           "late_delta": 0.0
         }
       },
@@ -4454,23 +4463,23 @@
         "name": "Serbian First League",
         "season_id": 132,
         "slots": 18,
-        "hit_rate": 66.36,
+        "hit_rate": 66.91,
         "early": {
           "slots": 9,
-          "hit_rate": 64.85
+          "hit_rate": 65.96
         },
         "late": {
           "slots": 9,
           "hit_rate": 67.87
         },
-        "learning_delta": 3.02,
+        "learning_delta": 1.91,
         "prior": {
           "teams": 17,
           "dates": 24,
           "slots": 18,
-          "hit_rate": 68.25,
-          "delta": 1.89,
-          "early_delta": 3.58,
+          "hit_rate": 67.88,
+          "delta": 0.97,
+          "early_delta": 1.73,
           "late_delta": 0.21
         }
       },
@@ -4478,21 +4487,21 @@
         "name": "Second Professional Football League",
         "season_id": 133,
         "slots": 22,
-        "hit_rate": 50.2,
+        "hit_rate": 49.09,
         "early": {
           "slots": 11,
           "hit_rate": 53.33
         },
         "late": {
           "slots": 11,
-          "hit_rate": 47.07
+          "hit_rate": 44.85
         },
-        "learning_delta": -6.26,
+        "learning_delta": -8.48,
         "prior": {
           "teams": 18,
           "dates": 24,
           "slots": 22,
-          "hit_rate": 47.93,
+          "hit_rate": 46.82,
           "delta": -2.27,
           "early_delta": -4.55,
           "late_delta": 0.0
@@ -4526,45 +4535,45 @@
         "name": "Uzbekistan Super League",
         "season_id": 135,
         "slots": 19,
-        "hit_rate": 60.27,
+        "hit_rate": 63.55,
         "early": {
           "slots": 10,
-          "hit_rate": 51.78
+          "hit_rate": 56.22
         },
         "late": {
           "slots": 9,
-          "hit_rate": 69.71
+          "hit_rate": 71.69
         },
-        "learning_delta": 17.93,
+        "learning_delta": 15.47,
         "prior": {
           "teams": 16,
           "dates": 22,
           "slots": 19,
-          "hit_rate": 58.64,
-          "delta": -1.64,
+          "hit_rate": 61.09,
+          "delta": -2.46,
           "early_delta": -0.89,
-          "late_delta": -2.47
+          "late_delta": -4.2
         }
       },
       "arm-premier-league": {
         "name": "Armenian Premier League",
         "season_id": 137,
         "slots": 20,
-        "hit_rate": 72.12,
+        "hit_rate": 72.46,
         "early": {
           "slots": 10,
-          "hit_rate": 61.75
+          "hit_rate": 62.42
         },
         "late": {
           "slots": 10,
           "hit_rate": 82.5
         },
-        "learning_delta": 20.75,
+        "learning_delta": 20.08,
         "prior": {
           "teams": 12,
           "dates": 27,
           "slots": 20,
-          "hit_rate": 71.0,
+          "hit_rate": 71.33,
           "delta": -1.12,
           "early_delta": -2.25,
           "late_delta": 0.0
@@ -4712,13 +4721,13 @@
         "hit_rate": 49.26,
         "early": {
           "slots": 8,
-          "hit_rate": 43.19
+          "hit_rate": 42.5
         },
         "late": {
           "slots": 7,
-          "hit_rate": 56.19
+          "hit_rate": 56.98
         },
-        "learning_delta": 13.0
+        "learning_delta": 14.48
       },
       "fin-ykkosliiga": {
         "name": "Ykk\u00f6sliiga",
@@ -4778,31 +4787,31 @@
         "name": "First Football League",
         "season_id": 159,
         "slots": 17,
-        "hit_rate": 46.0,
+        "hit_rate": 45.75,
         "early": {
           "slots": 9,
           "hit_rate": 53.12
         },
         "late": {
           "slots": 8,
-          "hit_rate": 37.99
+          "hit_rate": 37.47
         },
-        "learning_delta": -15.13
+        "learning_delta": -15.65
       },
       "tha-league-2": {
         "name": "Thai League 2",
         "season_id": 160,
-        "slots": 7,
-        "hit_rate": 58.02,
+        "slots": 6,
+        "hit_rate": 62.22,
         "early": {
-          "slots": 4,
-          "hit_rate": 47.64
+          "slots": 3,
+          "hit_rate": 52.59
         },
         "late": {
           "slots": 3,
           "hit_rate": 71.85
         },
-        "learning_delta": 24.21
+        "learning_delta": 19.26
       },
       "nic-primera": {
         "name": "Liga Primera de Nicaragua",
@@ -4832,21 +4841,21 @@
         "name": "Scottish League One",
         "season_id": 164,
         "slots": 20,
-        "hit_rate": 64.05,
+        "hit_rate": 63.88,
         "early": {
           "slots": 10,
           "hit_rate": 49.99
         },
         "late": {
           "slots": 10,
-          "hit_rate": 78.11
+          "hit_rate": 77.78
         },
-        "learning_delta": 28.12,
+        "learning_delta": 27.79,
         "prior": {
           "teams": 10,
           "dates": 22,
           "slots": 20,
-          "hit_rate": 62.25,
+          "hit_rate": 62.09,
           "delta": -1.8,
           "early_delta": 3.07,
           "late_delta": -6.67
@@ -4856,16 +4865,16 @@
         "name": "J3 League",
         "season_id": 165,
         "slots": 20,
-        "hit_rate": 56.53,
+        "hit_rate": 55.96,
         "early": {
           "slots": 10,
-          "hit_rate": 43.2
+          "hit_rate": 43.04
         },
         "late": {
           "slots": 10,
-          "hit_rate": 69.86
+          "hit_rate": 68.89
         },
-        "learning_delta": 26.66
+        "learning_delta": 25.85
       },
       "ned-derde-divisie": {
         "name": "Derde Divisie",
@@ -4895,16 +4904,16 @@
         "name": "Slovak Second Football League",
         "season_id": 305,
         "slots": 17,
-        "hit_rate": 54.66,
+        "hit_rate": 52.9,
         "early": {
           "slots": 9,
-          "hit_rate": 53.33
+          "hit_rate": 50.0
         },
         "late": {
           "slots": 8,
           "hit_rate": 56.16
         },
-        "learning_delta": 2.82
+        "learning_delta": 6.16
       },
       "can-cpl": {
         "name": "Canadian Premier League",
@@ -4934,7 +4943,7 @@
   },
   "model_state": {
     "version": 1,
-    "generated_at": "2026-11-12T01:37:47+00:00",
+    "generated_at": "2026-11-12T18:16:46+00:00",
     "note": "1 active calibration bucket(s) from 19 settled picks \u00b7 8 drifted league(s) \u00b7 141 league(s) with adaptive gate factors \u00b7 159 league(s) with a recursive strength model",
     "calibration": [
       {
@@ -5009,7 +5018,7 @@
       "irn-premier-league": 1.25,
       "rsa-national-first-division": 1.1515,
       "aut-bundesliga": 1.25,
-      "uae-pro-league": 1.1897,
+      "uae-pro-league": 1.1788,
       "ned-eredivisie": 1.1103,
       "nor-eliteserien": 1.25
     },
@@ -5388,6 +5397,17 @@
         },
         "notes": "Auto-tuned from hit-rate validation (avg_hit=63.7%, action=boost_position, step=0.029, mature_slots=118)."
       },
+      "uae-pro-league": {
+        "factors": {
+          "position": 0.2777631578947368,
+          "form_last5": 0.25342105263157894,
+          "wdl_rate": 0.2251315789473684,
+          "home_away": 0.09552631578947368,
+          "goal_diff": 0.09552631578947368,
+          "historical": 0.05263157894736842
+        },
+        "notes": "Auto-tuned from hit-rate validation (avg_hit=63.1%, action=boost_position, step=0.028, mature_slots=112)."
+      },
       "eng-national-league": {
         "factors": {
           "position": 0.2769736842105263,
@@ -5409,17 +5429,6 @@
           "historical": 0.05263157894736842
         },
         "notes": "Auto-tuned from hit-rate validation (avg_hit=62.0%, action=boost_position, step=0.025, mature_slots=113)."
-      },
-      "uae-pro-league": {
-        "factors": {
-          "position": 0.2752631578947368,
-          "form_last5": 0.2571052631578947,
-          "wdl_rate": 0.22263157894736843,
-          "home_away": 0.09921052631578947,
-          "goal_diff": 0.09921052631578947,
-          "historical": 0.046578947368421046
-        },
-        "notes": "Auto-tuned from hit-rate validation (avg_hit=61.2%, action=boost_position, step=0.023, mature_slots=111)."
       },
       "sco-premiership": {
         "factors": {
@@ -5456,14 +5465,14 @@
       },
       "mex-expansion": {
         "factors": {
-          "position": 0.2732894736842105,
-          "form_last5": 0.2580921052631579,
-          "wdl_rate": 0.2206578947368421,
-          "home_away": 0.10019736842105263,
-          "goal_diff": 0.10019736842105263,
-          "historical": 0.04756578947368421
+          "position": 0.2726315789473684,
+          "form_last5": 0.25842105263157894,
+          "wdl_rate": 0.22,
+          "home_away": 0.10052631578947367,
+          "goal_diff": 0.10052631578947367,
+          "historical": 0.04789473684210526
         },
-        "notes": "Auto-tuned from hit-rate validation (avg_hit=59.7%, action=boost_position, step=0.019, mature_slots=116)."
+        "notes": "Auto-tuned from hit-rate validation (avg_hit=59.2%, action=boost_position, step=0.018, mature_slots=116)."
       },
       "swe-allsvenskan": {
         "factors": {
@@ -5489,14 +5498,14 @@
       },
       "slv-primera": {
         "factors": {
-          "position": 0.2519736842105263,
-          "form_last5": 0.26875,
-          "wdl_rate": 0.1993421052631579,
-          "home_away": 0.11085526315789473,
-          "goal_diff": 0.11085526315789473,
-          "historical": 0.05822368421052631
+          "position": 0.25171052631578944,
+          "form_last5": 0.26888157894736836,
+          "wdl_rate": 0.19907894736842105,
+          "home_away": 0.11098684210526315,
+          "goal_diff": 0.11098684210526315,
+          "historical": 0.05835526315789474
         },
-        "notes": "Auto-tuned from hit-rate validation (avg_hit=43.5%, action=boost_form, step=0.021, mature_slots=119)."
+        "notes": "Auto-tuned from hit-rate validation (avg_hit=43.3%, action=boost_form, step=0.022, mature_slots=121)."
       },
       "mex-liga-mx": {
         "factors": {
@@ -5625,12 +5634,12 @@
         "min_gap": 2.0
       },
       "sui-super-league": {
-        "hit_rate": 59.6,
+        "hit_rate": 60.3,
         "slots": 15,
-        "learning_delta": 2.51,
+        "learning_delta": 3.94,
         "min_win": 0.72,
         "min_win_dc": 0.72,
-        "min_gap": 2.12
+        "min_gap": 2.09
       },
       "aut-bundesliga": {
         "hit_rate": 58.6,
@@ -5665,12 +5674,12 @@
         "min_gap": 2.34
       },
       "pol-ekstraklasa": {
-        "hit_rate": 51.2,
+        "hit_rate": 55.2,
         "slots": 19,
-        "learning_delta": -5.76,
-        "min_win": 0.722,
-        "min_win_dc": 0.722,
-        "min_gap": 2.54
+        "learning_delta": -13.39,
+        "min_win": 0.72,
+        "min_win_dc": 0.72,
+        "min_gap": 2.34
       },
       "gre-super-league": {
         "hit_rate": 56.8,
@@ -5769,12 +5778,12 @@
         "min_gap": 2.08
       },
       "uae-pro-league": {
-        "hit_rate": 63.2,
-        "slots": 19,
-        "learning_delta": -3.08,
+        "hit_rate": 61.8,
+        "slots": 20,
+        "learning_delta": -5.82,
         "min_win": 0.72,
         "min_win_dc": 0.72,
-        "min_gap": 2.0
+        "min_gap": 2.01
       },
       "aus-a-league": {
         "hit_rate": 53.0,
@@ -5977,20 +5986,20 @@
         "min_gap": 2.52
       },
       "cze-first-league": {
-        "hit_rate": 52.0,
+        "hit_rate": 51.1,
         "slots": 17,
-        "learning_delta": 20.51,
-        "min_win": 0.72,
-        "min_win_dc": 0.72,
-        "min_gap": 2.5
+        "learning_delta": 22.18,
+        "min_win": 0.723,
+        "min_win_dc": 0.723,
+        "min_gap": 2.55
       },
       "rou-liga-1": {
-        "hit_rate": 55.2,
-        "slots": 16,
-        "learning_delta": 37.33,
+        "hit_rate": 55.4,
+        "slots": 17,
+        "learning_delta": 34.92,
         "min_win": 0.72,
         "min_win_dc": 0.72,
-        "min_gap": 2.34
+        "min_gap": 2.33
       },
       "cro-hnl": {
         "hit_rate": 59.9,
@@ -6001,12 +6010,12 @@
         "min_gap": 2.11
       },
       "hun-nb1": {
-        "hit_rate": 52.1,
-        "slots": 17,
-        "learning_delta": -15.3,
-        "min_win": 0.72,
-        "min_win_dc": 0.72,
-        "min_gap": 2.5
+        "hit_rate": 51.5,
+        "slots": 16,
+        "learning_delta": -8.75,
+        "min_win": 0.722,
+        "min_win_dc": 0.722,
+        "min_gap": 2.53
       },
       "fin-veikkausliiga": {
         "hit_rate": 44.0,
@@ -6017,12 +6026,12 @@
         "min_gap": 2.9
       },
       "por-segunda-liga": {
-        "hit_rate": 57.3,
+        "hit_rate": 59.8,
         "slots": 16,
-        "learning_delta": 4.84,
+        "learning_delta": 10.19,
         "min_win": 0.72,
         "min_win_dc": 0.72,
-        "min_gap": 2.24
+        "min_gap": 2.11
       },
       "kaz-premier-league": {
         "hit_rate": 44.5,
@@ -6057,12 +6066,12 @@
         "min_gap": 2.0
       },
       "tur-1-lig": {
-        "hit_rate": 60.4,
-        "slots": 15,
-        "learning_delta": 9.06,
+        "hit_rate": 59.8,
+        "slots": 16,
+        "learning_delta": 7.15,
         "min_win": 0.72,
         "min_win_dc": 0.72,
-        "min_gap": 2.08
+        "min_gap": 2.11
       },
       "isr-premier-league": {
         "hit_rate": 66.3,
@@ -6201,12 +6210,12 @@
         "min_gap": 2.66
       },
       "srp-superliga": {
-        "hit_rate": 49.6,
+        "hit_rate": 51.0,
         "slots": 19,
-        "learning_delta": 35.29,
-        "min_win": 0.727,
-        "min_win_dc": 0.727,
-        "min_gap": 2.62
+        "learning_delta": 32.36,
+        "min_win": 0.723,
+        "min_win_dc": 0.723,
+        "min_gap": 2.55
       },
       "bul-first-league": {
         "hit_rate": 64.3,
@@ -6217,20 +6226,20 @@
         "min_gap": 2.0
       },
       "svn-prvaliga": {
-        "hit_rate": 55.7,
+        "hit_rate": 56.6,
         "slots": 21,
-        "learning_delta": 13.54,
+        "learning_delta": 14.16,
         "min_win": 0.72,
         "min_win_dc": 0.72,
-        "min_gap": 2.31
+        "min_gap": 2.27
       },
       "svk-first-league": {
-        "hit_rate": 45.1,
+        "hit_rate": 44.8,
         "slots": 14,
-        "learning_delta": -1.31,
-        "min_win": 0.741,
-        "min_win_dc": 0.741,
-        "min_gap": 2.85
+        "learning_delta": -0.83,
+        "min_win": 0.742,
+        "min_win_dc": 0.742,
+        "min_gap": 2.86
       },
       "blr-premier-league": {
         "hit_rate": 72.9,
@@ -6241,12 +6250,12 @@
         "min_gap": 2.0
       },
       "alb-superiore": {
-        "hit_rate": 44.9,
+        "hit_rate": 40.8,
         "slots": 12,
-        "learning_delta": -26.73,
-        "min_win": 0.741,
-        "min_win_dc": 0.741,
-        "min_gap": 2.86
+        "learning_delta": -18.63,
+        "min_win": 0.754,
+        "min_win_dc": 0.754,
+        "min_gap": 3.06
       },
       "geo-erovnuli": {
         "hit_rate": 55.6,
@@ -6257,20 +6266,20 @@
         "min_gap": 2.32
       },
       "irq-stars-league": {
-        "hit_rate": 44.1,
+        "hit_rate": 44.2,
         "slots": 21,
-        "learning_delta": -37.51,
+        "learning_delta": -37.4,
         "min_win": 0.744,
         "min_win_dc": 0.744,
         "min_gap": 2.89
       },
       "jor-pro-league": {
-        "hit_rate": 49.8,
+        "hit_rate": 49.5,
         "slots": 14,
-        "learning_delta": 25.0,
-        "min_win": 0.727,
-        "min_win_dc": 0.727,
-        "min_gap": 2.61
+        "learning_delta": 24.34,
+        "min_win": 0.728,
+        "min_win_dc": 0.728,
+        "min_gap": 2.63
       },
       "usa-usl": {
         "hit_rate": 55.5,
@@ -6289,25 +6298,25 @@
         "min_gap": 2.0
       },
       "esp-primera-rfef": {
-        "hit_rate": 52.5,
+        "hit_rate": 49.6,
         "slots": 10,
-        "learning_delta": 29.0,
-        "min_win": 0.72,
-        "min_win_dc": 0.72,
-        "min_gap": 2.48
+        "learning_delta": 23.28,
+        "min_win": 0.727,
+        "min_win_dc": 0.727,
+        "min_gap": 2.62
       },
       "ger-3-liga": {
-        "hit_rate": 61.9,
+        "hit_rate": 62.5,
         "slots": 13,
-        "learning_delta": 11.08,
+        "learning_delta": 9.89,
         "min_win": 0.72,
         "min_win_dc": 0.72,
         "min_gap": 2.0
       },
       "sui-challenge-league": {
-        "hit_rate": 49.9,
+        "hit_rate": 50.0,
         "slots": 21,
-        "learning_delta": -1.89,
+        "learning_delta": -1.67,
         "min_win": 0.726,
         "min_win_dc": 0.726,
         "min_gap": 2.6
@@ -6321,9 +6330,9 @@
         "min_gap": 2.0
       },
       "swe-superettan": {
-        "hit_rate": 63.4,
-        "slots": 22,
-        "learning_delta": -12.83,
+        "hit_rate": 63.6,
+        "slots": 21,
+        "learning_delta": -12.96,
         "min_win": 0.72,
         "min_win_dc": 0.72,
         "min_gap": 2.0
@@ -6337,9 +6346,9 @@
         "min_gap": 2.4
       },
       "pol-1-liga": {
-        "hit_rate": 19.6,
-        "slots": 17,
-        "learning_delta": -2.6,
+        "hit_rate": 20.0,
+        "slots": 16,
+        "learning_delta": -8.75,
         "min_win": 0.76,
         "min_win_dc": 0.76,
         "min_gap": 3.5
@@ -6361,9 +6370,9 @@
         "min_gap": 2.0
       },
       "lva-virsliga": {
-        "hit_rate": 74.7,
+        "hit_rate": 74.5,
         "slots": 21,
-        "learning_delta": 18.05,
+        "learning_delta": 16.56,
         "min_win": 0.72,
         "min_win_dc": 0.72,
         "min_gap": 2.0
@@ -6393,20 +6402,20 @@
         "min_gap": 2.35
       },
       "jpn-j2-league": {
-        "hit_rate": 41.8,
+        "hit_rate": 41.5,
         "slots": 21,
-        "learning_delta": 20.57,
+        "learning_delta": 21.18,
         "min_win": 0.751,
         "min_win_dc": 0.751,
-        "min_gap": 3.01
+        "min_gap": 3.02
       },
       "kor-k-league-2": {
-        "hit_rate": 58.6,
+        "hit_rate": 58.1,
         "slots": 20,
-        "learning_delta": 8.11,
+        "learning_delta": 7.0,
         "min_win": 0.72,
         "min_win_dc": 0.72,
-        "min_gap": 2.17
+        "min_gap": 2.2
       },
       "chi-primera-b": {
         "hit_rate": 45.9,
@@ -6425,28 +6434,28 @@
         "min_gap": 3.03
       },
       "mkd-first-league": {
-        "hit_rate": 55.3,
+        "hit_rate": 56.0,
         "slots": 21,
-        "learning_delta": 39.38,
+        "learning_delta": 38.17,
         "min_win": 0.72,
         "min_win_dc": 0.72,
-        "min_gap": 2.33
+        "min_gap": 2.3
       },
       "mkd-second-league": {
-        "hit_rate": 64.5,
+        "hit_rate": 64.2,
         "slots": 17,
-        "learning_delta": 42.71,
+        "learning_delta": 42.01,
         "min_win": 0.72,
         "min_win_dc": 0.72,
         "min_gap": 2.0
       },
       "kos-superleague": {
-        "hit_rate": 51.7,
+        "hit_rate": 50.5,
         "slots": 20,
-        "learning_delta": -0.58,
-        "min_win": 0.721,
-        "min_win_dc": 0.721,
-        "min_gap": 2.51
+        "learning_delta": 1.53,
+        "min_win": 0.725,
+        "min_win_dc": 0.725,
+        "min_gap": 2.58
       },
       "lux-national-division": {
         "hit_rate": 87.1,
@@ -6489,36 +6498,36 @@
         "min_gap": 2.0
       },
       "ukr-persha": {
-        "hit_rate": 37.7,
+        "hit_rate": 39.2,
         "slots": 16,
-        "learning_delta": 22.15,
-        "min_win": 0.76,
-        "min_win_dc": 0.76,
-        "min_gap": 3.22
+        "learning_delta": 25.28,
+        "min_win": 0.758,
+        "min_win_dc": 0.758,
+        "min_gap": 3.14
       },
       "rou-liga-2": {
-        "hit_rate": 65.2,
-        "slots": 19,
-        "learning_delta": 21.07,
+        "hit_rate": 63.6,
+        "slots": 18,
+        "learning_delta": 16.05,
         "min_win": 0.72,
         "min_win_dc": 0.72,
         "min_gap": 2.0
       },
       "srp-first-league": {
-        "hit_rate": 66.4,
+        "hit_rate": 66.9,
         "slots": 18,
-        "learning_delta": 3.02,
+        "learning_delta": 1.91,
         "min_win": 0.72,
         "min_win_dc": 0.72,
         "min_gap": 2.0
       },
       "bul-second-league": {
-        "hit_rate": 50.2,
+        "hit_rate": 49.1,
         "slots": 22,
-        "learning_delta": -6.26,
-        "min_win": 0.725,
-        "min_win_dc": 0.725,
-        "min_gap": 2.59
+        "learning_delta": -8.48,
+        "min_win": 0.729,
+        "min_win_dc": 0.729,
+        "min_gap": 2.65
       },
       "chn-league-one": {
         "hit_rate": 60.0,
@@ -6529,17 +6538,17 @@
         "min_gap": 2.1
       },
       "uzb-super-league": {
-        "hit_rate": 60.3,
+        "hit_rate": 63.5,
         "slots": 19,
-        "learning_delta": 17.93,
+        "learning_delta": 15.47,
         "min_win": 0.72,
         "min_win_dc": 0.72,
-        "min_gap": 2.09
+        "min_gap": 2.0
       },
       "arm-premier-league": {
-        "hit_rate": 72.1,
+        "hit_rate": 72.5,
         "slots": 20,
-        "learning_delta": 20.75,
+        "learning_delta": 20.08,
         "min_win": 0.72,
         "min_win_dc": 0.72,
         "min_gap": 2.0
@@ -6587,7 +6596,7 @@
       "irn-premier-league": {
         "hit_rate": 49.3,
         "slots": 15,
-        "learning_delta": 13.0,
+        "learning_delta": 14.48,
         "min_win": 0.728,
         "min_win_dc": 0.728,
         "min_gap": 2.64
@@ -6617,12 +6626,12 @@
         "min_gap": 3.16
       },
       "cro-first-league": {
-        "hit_rate": 46.0,
+        "hit_rate": 45.8,
         "slots": 17,
-        "learning_delta": -15.13,
-        "min_win": 0.738,
-        "min_win_dc": 0.738,
-        "min_gap": 2.8
+        "learning_delta": -15.65,
+        "min_win": 0.739,
+        "min_win_dc": 0.739,
+        "min_gap": 2.81
       },
       "nic-primera": {
         "hit_rate": 66.7,
@@ -6633,20 +6642,20 @@
         "min_gap": 2.0
       },
       "sco-league-one": {
-        "hit_rate": 64.0,
+        "hit_rate": 63.9,
         "slots": 20,
-        "learning_delta": 28.12,
+        "learning_delta": 27.79,
         "min_win": 0.72,
         "min_win_dc": 0.72,
         "min_gap": 2.0
       },
       "jpn-j3-league": {
-        "hit_rate": 56.5,
+        "hit_rate": 56.0,
         "slots": 20,
-        "learning_delta": 26.66,
+        "learning_delta": 25.85,
         "min_win": 0.72,
         "min_win_dc": 0.72,
-        "min_gap": 2.27
+        "min_gap": 2.3
       },
       "ned-derde-divisie": {
         "hit_rate": 60.4,
@@ -6657,12 +6666,12 @@
         "min_gap": 2.08
       },
       "svk-second-league": {
-        "hit_rate": 54.7,
+        "hit_rate": 52.9,
         "slots": 17,
-        "learning_delta": 2.82,
+        "learning_delta": 6.16,
         "min_win": 0.72,
         "min_win_dc": 0.72,
-        "min_gap": 2.37
+        "min_gap": 2.46
       },
       "can-cpl": {
         "hit_rate": 86.2,
@@ -11468,156 +11477,156 @@
       },
       "uae-pro-league": {
         "league": {
-          "matches": 257,
+          "matches": 260,
           "teams": 16,
-          "mu": 1.096,
-          "home_adv": 0.0077,
-          "avg_goals": 2.992
+          "mu": 1.0948,
+          "home_adv": 0.0105,
+          "avg_goals": 2.988
         },
         "teams": {
           "464": {
-            "n": 37,
-            "att": 0.313,
-            "def": 0.26,
-            "strength_est": 0.053,
-            "z": 0.21,
-            "prior": 50.8,
-            "resid_std": 1.043
+            "n": 38,
+            "att": 0.294,
+            "def": 0.274,
+            "strength_est": 0.02,
+            "z": 0.08,
+            "prior": 50.3,
+            "resid_std": 1.059
           },
           "465": {
             "n": 37,
-            "att": 0.304,
-            "def": 0.438,
-            "strength_est": -0.134,
-            "z": -0.54,
-            "prior": 47.9,
-            "resid_std": 1.736
+            "att": 0.306,
+            "def": 0.436,
+            "strength_est": -0.13,
+            "z": -0.53,
+            "prior": 48.0,
+            "resid_std": 1.764
           },
           "466": {
-            "n": 37,
-            "att": 0.151,
-            "def": 0.196,
-            "strength_est": -0.045,
-            "z": -0.18,
-            "prior": 49.3,
-            "resid_std": 1.151
+            "n": 38,
+            "att": 0.146,
+            "def": 0.184,
+            "strength_est": -0.039,
+            "z": -0.16,
+            "prior": 49.4,
+            "resid_std": 1.139
           },
           "467": {
-            "n": 37,
-            "att": 0.066,
-            "def": 0.134,
-            "strength_est": -0.068,
-            "z": -0.28,
-            "prior": 48.9,
-            "resid_std": 1.175
+            "n": 38,
+            "att": 0.076,
+            "def": 0.139,
+            "strength_est": -0.064,
+            "z": -0.26,
+            "prior": 49.0,
+            "resid_std": 1.164
           },
           "468": {
-            "n": 35,
-            "att": -0.011,
-            "def": 0.168,
-            "strength_est": -0.179,
-            "z": -0.72,
-            "prior": 47.3,
-            "resid_std": 1.201
+            "n": 36,
+            "att": -0.024,
+            "def": 0.188,
+            "strength_est": -0.212,
+            "z": -0.86,
+            "prior": 46.7,
+            "resid_std": 1.189
           },
           "469": {
-            "n": 36,
-            "att": -0.017,
-            "def": 0.144,
-            "strength_est": -0.162,
-            "z": -0.65,
-            "prior": 47.5,
-            "resid_std": 0.871
+            "n": 37,
+            "att": 0.007,
+            "def": 0.148,
+            "strength_est": -0.141,
+            "z": -0.57,
+            "prior": 47.8,
+            "resid_std": 0.87
           },
           "470": {
             "n": 34,
-            "att": -0.087,
+            "att": -0.083,
             "def": -0.002,
-            "strength_est": -0.085,
-            "z": -0.34,
-            "prior": 48.7,
-            "resid_std": 1.175
+            "strength_est": -0.081,
+            "z": -0.33,
+            "prior": 48.8,
+            "resid_std": 1.176
           },
           "471": {
             "n": 37,
-            "att": 0.135,
-            "def": -0.008,
-            "strength_est": 0.143,
-            "z": 0.58,
-            "prior": 52.2,
-            "resid_std": 1.014
+            "att": 0.138,
+            "def": -0.009,
+            "strength_est": 0.146,
+            "z": 0.59,
+            "prior": 52.3,
+            "resid_std": 1.016
           },
           "472": {
             "n": 37,
-            "att": -0.053,
-            "def": -0.135,
-            "strength_est": 0.082,
-            "z": 0.33,
-            "prior": 51.3,
-            "resid_std": 1.069
+            "att": -0.049,
+            "def": -0.136,
+            "strength_est": 0.087,
+            "z": 0.35,
+            "prior": 51.4,
+            "resid_std": 1.071
           },
           "473": {
             "n": 37,
-            "att": -0.181,
-            "def": -0.053,
-            "strength_est": -0.128,
-            "z": -0.51,
-            "prior": 48.0,
-            "resid_std": 1.183
+            "att": -0.178,
+            "def": -0.055,
+            "strength_est": -0.123,
+            "z": -0.5,
+            "prior": 48.1,
+            "resid_std": 1.195
           },
           "474": {
             "n": 36,
-            "att": -0.081,
+            "att": -0.078,
             "def": -0.072,
-            "strength_est": -0.009,
-            "z": -0.04,
+            "strength_est": -0.005,
+            "z": -0.02,
             "prior": 49.9,
-            "resid_std": 1.054
+            "resid_std": 1.065
           },
           "475": {
             "n": 36,
-            "att": -0.118,
-            "def": -0.175,
-            "strength_est": 0.057,
-            "z": 0.23,
+            "att": -0.115,
+            "def": -0.176,
+            "strength_est": 0.06,
+            "z": 0.24,
             "prior": 50.9,
-            "resid_std": 1.062
+            "resid_std": 1.053
           },
           "476": {
             "n": 26,
-            "att": -0.258,
+            "att": -0.254,
             "def": 0.067,
-            "strength_est": -0.325,
-            "z": -1.31,
+            "strength_est": -0.321,
+            "z": -1.3,
             "prior": 45.9,
-            "resid_std": 0.851
+            "resid_std": 0.858
           },
           "477": {
             "n": 26,
-            "att": -0.247,
+            "att": -0.244,
             "def": -0.253,
-            "strength_est": 0.006,
-            "z": 0.02,
+            "strength_est": 0.01,
+            "z": 0.04,
             "prior": 50.1,
-            "resid_std": 0.756
+            "resid_std": 0.755
           },
           "3290": {
-            "n": 11,
-            "att": 0.248,
-            "def": -0.611,
-            "strength_est": 0.859,
-            "z": 3.46,
-            "prior": 56.0,
-            "resid_std": 1.052
+            "n": 12,
+            "att": 0.218,
+            "def": -0.636,
+            "strength_est": 0.854,
+            "z": 3.45,
+            "prior": 56.4,
+            "resid_std": 1.02
           },
           "3291": {
             "n": 15,
-            "att": -0.162,
-            "def": -0.099,
-            "strength_est": -0.063,
-            "z": -0.25,
-            "prior": 49.4,
-            "resid_std": 1.074
+            "att": -0.158,
+            "def": -0.098,
+            "strength_est": -0.06,
+            "z": -0.24,
+            "prior": 49.5,
+            "resid_std": 1.082
           }
         }
       },
@@ -32223,7 +32232,7 @@
       },
       "uae-pro-league": {
         "form_feed": true,
-        "match_events": 257,
+        "match_events": 260,
         "espn": false,
         "espn_code": null,
         "wiki": true,
@@ -32367,7 +32376,7 @@
       },
       "mex-expansion": {
         "form_feed": true,
-        "match_events": 714,
+        "match_events": 715,
         "espn": true,
         "espn_code": "mex.2",
         "wiki": true,
@@ -32376,7 +32385,7 @@
       },
       "slv-primera": {
         "form_feed": true,
-        "match_events": 631,
+        "match_events": 632,
         "espn": true,
         "espn_code": "slv.1",
         "wiki": true,
