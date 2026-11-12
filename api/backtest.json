@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-12T18:25:07.040470+00:00",
+  "generated_at": "2026-11-12T19:01:27.124913+00:00",
   "weeks": [
     "2026-09-14",
     "2026-09-21",
@@ -4943,8 +4943,8 @@
   },
   "model_state": {
     "version": 1,
-    "generated_at": "2026-11-12T18:16:46+00:00",
-    "note": "1 active calibration bucket(s) from 19 settled picks \u00b7 8 drifted league(s) \u00b7 141 league(s) with adaptive gate factors \u00b7 159 league(s) with a recursive strength model",
+    "generated_at": "2026-11-12T18:52:55+00:00",
+    "note": "1 active calibration bucket(s) from 23 settled picks \u00b7 8 drifted league(s) \u00b7 141 league(s) with adaptive gate factors \u00b7 159 league(s) with a recursive strength model",
     "calibration": [
       {
         "lo": 0.5,
@@ -5001,14 +5001,14 @@
       {
         "lo": 0.7,
         "hi": 1.01,
-        "n": 19,
-        "wins": 15,
+        "n": 23,
+        "wins": 19,
         "pushes": 1,
-        "realized": 0.8158,
+        "realized": 0.8478,
         "model_mid": 0.8,
-        "delta": 0.0158,
-        "delta_shrunk": 0.0088,
-        "sigma": 0.0088,
+        "delta": 0.0478,
+        "delta_shrunk": 0.0289,
+        "sigma": 0.0289,
         "active": true
       }
     ],
@@ -6058,9 +6058,9 @@
         "min_gap": 2.6
       },
       "uru-primera": {
-        "hit_rate": 64.4,
-        "slots": 21,
-        "learning_delta": 3.28,
+        "hit_rate": 63.8,
+        "slots": 22,
+        "learning_delta": 1.92,
         "min_win": 0.72,
         "min_win_dc": 0.72,
         "min_gap": 2.0
@@ -6146,36 +6146,36 @@
         "min_gap": 2.0
       },
       "crc-primera": {
-        "hit_rate": 61.4,
-        "slots": 24,
-        "learning_delta": -9.24,
+        "hit_rate": 58.0,
+        "slots": 22,
+        "learning_delta": -5.96,
         "min_win": 0.72,
         "min_win_dc": 0.72,
-        "min_gap": 2.03
+        "min_gap": 2.2
       },
       "gua-liga-nacional": {
-        "hit_rate": 48.2,
-        "slots": 22,
-        "learning_delta": -5.18,
-        "min_win": 0.731,
-        "min_win_dc": 0.731,
-        "min_gap": 2.69
+        "hit_rate": 50.0,
+        "slots": 19,
+        "learning_delta": -5.13,
+        "min_win": 0.726,
+        "min_win_dc": 0.726,
+        "min_gap": 2.6
       },
       "hon-liga-nacional": {
-        "hit_rate": 51.1,
-        "slots": 24,
-        "learning_delta": 19.8,
-        "min_win": 0.723,
-        "min_win_dc": 0.723,
-        "min_gap": 2.54
+        "hit_rate": 49.3,
+        "slots": 22,
+        "learning_delta": 18.62,
+        "min_win": 0.728,
+        "min_win_dc": 0.728,
+        "min_gap": 2.63
       },
       "arg-primera-b-metropolitana": {
-        "hit_rate": 61.0,
+        "hit_rate": 60.6,
         "slots": 23,
-        "learning_delta": 9.44,
+        "learning_delta": 8.69,
         "min_win": 0.72,
         "min_win_dc": 0.72,
-        "min_gap": 2.05
+        "min_gap": 2.07
       },
       "eng-league-one": {
         "hit_rate": 55.5,
@@ -6282,12 +6282,12 @@
         "min_gap": 2.63
       },
       "usa-usl": {
-        "hit_rate": 55.5,
-        "slots": 21,
-        "learning_delta": -8.96,
+        "hit_rate": 55.2,
+        "slots": 22,
+        "learning_delta": -9.21,
         "min_win": 0.72,
         "min_win_dc": 0.72,
-        "min_gap": 2.32
+        "min_gap": 2.34
       },
       "usa-usl-league-one": {
         "hit_rate": 66.3,
@@ -15910,336 +15910,381 @@
       },
       "arg-primera-nacional": {
         "league": {
-          "matches": 670,
-          "teams": 36,
-          "mu": 0.5719,
-          "home_adv": 0.1281,
-          "avg_goals": 1.772
+          "matches": 675,
+          "teams": 41,
+          "mu": 0.577,
+          "home_adv": 0.1662,
+          "avg_goals": 1.781
         },
         "teams": {
           "575": {
             "n": 44,
-            "att": 0.133,
-            "def": 0.009,
-            "strength_est": 0.124,
-            "z": 0.82,
-            "prior": 53.4,
-            "resid_std": 0.942
+            "att": 0.105,
+            "def": 0.038,
+            "strength_est": 0.067,
+            "z": 0.27,
+            "prior": 51.1,
+            "resid_std": 0.932
           },
           "583": {
             "n": 37,
-            "att": 0.157,
-            "def": 0.141,
-            "strength_est": 0.016,
-            "z": 0.1,
-            "prior": 50.4,
-            "resid_std": 0.95
+            "att": 0.131,
+            "def": 0.172,
+            "strength_est": -0.041,
+            "z": -0.16,
+            "prior": 49.4,
+            "resid_std": 0.956
           },
           "588": {
             "n": 38,
-            "att": -0.09,
-            "def": 0.08,
-            "strength_est": -0.17,
-            "z": -1.13,
-            "prior": 45.6,
+            "att": -0.119,
+            "def": 0.11,
+            "strength_est": -0.229,
+            "z": -0.9,
+            "prior": 46.5,
             "resid_std": 0.726
           },
           "979": {
             "n": 39,
-            "att": 0.096,
-            "def": 0.103,
-            "strength_est": -0.007,
-            "z": -0.05,
-            "prior": 49.8,
-            "resid_std": 1.035
+            "att": 0.069,
+            "def": 0.133,
+            "strength_est": -0.064,
+            "z": -0.25,
+            "prior": 49.0,
+            "resid_std": 1.029
           },
           "982": {
-            "n": 38,
-            "att": -0.105,
-            "def": -0.092,
-            "strength_est": -0.013,
-            "z": -0.08,
-            "prior": 49.7,
-            "resid_std": 0.734
+            "n": 39,
+            "att": -0.129,
+            "def": -0.063,
+            "strength_est": -0.066,
+            "z": -0.26,
+            "prior": 49.0,
+            "resid_std": 0.737
           },
           "983": {
             "n": 34,
-            "att": 0.216,
-            "def": -0.151,
-            "strength_est": 0.366,
-            "z": 2.43,
-            "prior": 58.9,
-            "resid_std": 1.136
+            "att": 0.19,
+            "def": -0.124,
+            "strength_est": 0.314,
+            "z": 1.24,
+            "prior": 54.6,
+            "resid_std": 1.138
           },
           "984": {
-            "n": 37,
-            "att": 0.027,
-            "def": 0.11,
-            "strength_est": -0.083,
-            "z": -0.55,
+            "n": 38,
+            "att": 0.0,
+            "def": 0.134,
+            "strength_est": -0.134,
+            "z": -0.53,
             "prior": 47.9,
-            "resid_std": 0.969
+            "resid_std": 0.96
           },
           "985": {
             "n": 35,
-            "att": -0.022,
-            "def": 0.008,
-            "strength_est": -0.03,
-            "z": -0.2,
-            "prior": 49.3,
-            "resid_std": 0.785
+            "att": -0.05,
+            "def": 0.036,
+            "strength_est": -0.087,
+            "z": -0.34,
+            "prior": 48.7,
+            "resid_std": 0.775
+          },
+          "986": {
+            "n": 1,
+            "att": 0.377,
+            "def": -0.546,
+            "strength_est": 0.923,
+            "z": 3.64,
+            "prior": 50.7,
+            "resid_std": 0.0
           },
           "987": {
             "n": 39,
-            "att": 0.054,
-            "def": 0.118,
-            "strength_est": -0.064,
-            "z": -0.42,
-            "prior": 48.3,
-            "resid_std": 1.108
+            "att": 0.026,
+            "def": 0.148,
+            "strength_est": -0.122,
+            "z": -0.48,
+            "prior": 48.1,
+            "resid_std": 1.116
           },
           "988": {
-            "n": 38,
-            "att": -0.088,
-            "def": -0.066,
-            "strength_est": -0.022,
-            "z": -0.15,
-            "prior": 49.4,
-            "resid_std": 0.825
+            "n": 39,
+            "att": -0.098,
+            "def": -0.052,
+            "strength_est": -0.046,
+            "z": -0.18,
+            "prior": 49.3,
+            "resid_std": 0.843
           },
           "989": {
             "n": 41,
-            "att": 0.202,
-            "def": 0.091,
-            "strength_est": 0.111,
-            "z": 0.74,
-            "prior": 53.0,
-            "resid_std": 1.101
+            "att": 0.176,
+            "def": 0.121,
+            "strength_est": 0.055,
+            "z": 0.22,
+            "prior": 50.9,
+            "resid_std": 1.092
           },
           "990": {
             "n": 38,
-            "att": -0.132,
-            "def": 0.053,
-            "strength_est": -0.184,
-            "z": -1.22,
-            "prior": 45.2,
-            "resid_std": 0.9
+            "att": -0.162,
+            "def": 0.082,
+            "strength_est": -0.244,
+            "z": -0.96,
+            "prior": 46.3,
+            "resid_std": 0.89
           },
           "991": {
             "n": 38,
-            "att": -0.092,
-            "def": 0.199,
-            "strength_est": -0.291,
-            "z": -1.93,
-            "prior": 42.5,
-            "resid_std": 0.8
+            "att": -0.122,
+            "def": 0.23,
+            "strength_est": -0.351,
+            "z": -1.38,
+            "prior": 44.6,
+            "resid_std": 0.794
           },
           "993": {
             "n": 35,
-            "att": -0.073,
-            "def": 0.041,
-            "strength_est": -0.114,
-            "z": -0.76,
-            "prior": 47.2,
-            "resid_std": 0.636
+            "att": -0.101,
+            "def": 0.07,
+            "strength_est": -0.171,
+            "z": -0.67,
+            "prior": 47.5,
+            "resid_std": 0.628
           },
           "994": {
-            "n": 39,
-            "att": 0.012,
-            "def": 0.163,
-            "strength_est": -0.151,
-            "z": -1.0,
-            "prior": 46.1,
-            "resid_std": 1.008
+            "n": 40,
+            "att": -0.0,
+            "def": 0.173,
+            "strength_est": -0.173,
+            "z": -0.68,
+            "prior": 47.3,
+            "resid_std": 1.01
           },
           "995": {
             "n": 35,
-            "att": 0.042,
-            "def": 0.007,
-            "strength_est": 0.035,
-            "z": 0.23,
-            "prior": 50.9,
-            "resid_std": 0.955
+            "att": 0.015,
+            "def": 0.035,
+            "strength_est": -0.02,
+            "z": -0.08,
+            "prior": 49.7,
+            "resid_std": 0.957
           },
           "1360": {
             "n": 34,
-            "att": -0.221,
-            "def": -0.014,
-            "strength_est": -0.206,
-            "z": -1.37,
-            "prior": 45.0,
-            "resid_std": 0.688
+            "att": -0.251,
+            "def": 0.013,
+            "strength_est": -0.264,
+            "z": -1.04,
+            "prior": 46.2,
+            "resid_std": 0.68
           },
           "1362": {
             "n": 34,
-            "att": -0.109,
-            "def": -0.07,
-            "strength_est": -0.039,
-            "z": -0.26,
-            "prior": 49.0,
-            "resid_std": 0.681
+            "att": -0.138,
+            "def": -0.043,
+            "strength_est": -0.095,
+            "z": -0.37,
+            "prior": 48.6,
+            "resid_std": 0.682
           },
           "1376": {
             "n": 38,
-            "att": -0.045,
-            "def": -0.177,
-            "strength_est": 0.132,
-            "z": 0.88,
-            "prior": 53.4,
-            "resid_std": 0.93
+            "att": -0.074,
+            "def": -0.15,
+            "strength_est": 0.076,
+            "z": 0.3,
+            "prior": 51.2,
+            "resid_std": 0.921
           },
           "1377": {
             "n": 39,
-            "att": -0.171,
-            "def": -0.244,
-            "strength_est": 0.074,
-            "z": 0.49,
-            "prior": 51.9,
-            "resid_std": 0.779
+            "att": -0.201,
+            "def": -0.218,
+            "strength_est": 0.017,
+            "z": 0.07,
+            "prior": 50.3,
+            "resid_std": 0.782
           },
           "2560": {
             "n": 38,
-            "att": -0.085,
-            "def": -0.193,
-            "strength_est": 0.108,
-            "z": 0.72,
-            "prior": 52.8,
-            "resid_std": 0.716
+            "att": -0.115,
+            "def": -0.166,
+            "strength_est": 0.052,
+            "z": 0.2,
+            "prior": 50.8,
+            "resid_std": 0.726
           },
           "2561": {
             "n": 34,
-            "att": -0.036,
-            "def": -0.161,
-            "strength_est": 0.125,
-            "z": 0.83,
-            "prior": 53.1,
-            "resid_std": 0.677
+            "att": -0.064,
+            "def": -0.135,
+            "strength_est": 0.071,
+            "z": 0.28,
+            "prior": 51.0,
+            "resid_std": 0.678
           },
           "2562": {
             "n": 43,
-            "att": 0.07,
-            "def": 0.132,
-            "strength_est": -0.062,
-            "z": -0.41,
-            "prior": 48.3,
-            "resid_std": 0.967
+            "att": 0.042,
+            "def": 0.162,
+            "strength_est": -0.12,
+            "z": -0.47,
+            "prior": 48.0,
+            "resid_std": 0.966
           },
           "2563": {
             "n": 37,
-            "att": 0.087,
-            "def": 0.154,
-            "strength_est": -0.067,
-            "z": -0.44,
-            "prior": 48.3,
-            "resid_std": 1.036
+            "att": 0.06,
+            "def": 0.184,
+            "strength_est": -0.123,
+            "z": -0.49,
+            "prior": 48.1,
+            "resid_std": 1.042
           },
           "2564": {
             "n": 35,
-            "att": -0.02,
-            "def": 0.072,
-            "strength_est": -0.092,
-            "z": -0.61,
-            "prior": 47.7,
-            "resid_std": 0.793
+            "att": -0.048,
+            "def": 0.101,
+            "strength_est": -0.149,
+            "z": -0.59,
+            "prior": 47.8,
+            "resid_std": 0.785
           },
           "2565": {
             "n": 40,
-            "att": 0.124,
-            "def": 0.137,
-            "strength_est": -0.013,
-            "z": -0.09,
-            "prior": 49.7,
-            "resid_std": 1.043
+            "att": 0.098,
+            "def": 0.166,
+            "strength_est": -0.069,
+            "z": -0.27,
+            "prior": 48.9,
+            "resid_std": 1.033
           },
           "2566": {
             "n": 39,
-            "att": -0.112,
-            "def": -0.133,
-            "strength_est": 0.021,
-            "z": 0.14,
-            "prior": 50.6,
+            "att": -0.141,
+            "def": -0.105,
+            "strength_est": -0.036,
+            "z": -0.14,
+            "prior": 49.4,
             "resid_std": 0.859
           },
           "2568": {
             "n": 38,
-            "att": -0.043,
-            "def": -0.008,
-            "strength_est": -0.035,
-            "z": -0.23,
-            "prior": 49.1,
-            "resid_std": 0.718
+            "att": -0.072,
+            "def": 0.021,
+            "strength_est": -0.093,
+            "z": -0.37,
+            "prior": 48.6,
+            "resid_std": 0.723
           },
           "2570": {
             "n": 38,
-            "att": -0.044,
-            "def": 0.125,
-            "strength_est": -0.169,
-            "z": -1.12,
-            "prior": 45.6,
-            "resid_std": 0.897
+            "att": -0.073,
+            "def": 0.155,
+            "strength_est": -0.228,
+            "z": -0.9,
+            "prior": 46.5,
+            "resid_std": 0.894
           },
           "2571": {
             "n": 34,
-            "att": 0.103,
-            "def": -0.152,
-            "strength_est": 0.255,
-            "z": 1.69,
-            "prior": 56.2,
-            "resid_std": 0.872
+            "att": 0.077,
+            "def": -0.125,
+            "strength_est": 0.202,
+            "z": 0.8,
+            "prior": 52.9,
+            "resid_std": 0.881
           },
           "2572": {
-            "n": 34,
-            "att": 0.027,
-            "def": -0.115,
-            "strength_est": 0.142,
-            "z": 0.94,
-            "prior": 53.5,
-            "resid_std": 1.148
+            "n": 35,
+            "att": 0.001,
+            "def": -0.086,
+            "strength_est": 0.087,
+            "z": 0.34,
+            "prior": 51.3,
+            "resid_std": 1.127
           },
           "2573": {
             "n": 39,
-            "att": -0.085,
-            "def": 0.149,
-            "strength_est": -0.234,
-            "z": -1.55,
-            "prior": 43.9,
-            "resid_std": 0.751
+            "att": -0.114,
+            "def": 0.18,
+            "strength_est": -0.294,
+            "z": -1.16,
+            "prior": 45.4,
+            "resid_std": 0.753
           },
           "2574": {
             "n": 34,
-            "att": 0.044,
-            "def": -0.253,
-            "strength_est": 0.297,
-            "z": 1.97,
-            "prior": 57.2,
-            "resid_std": 0.884
+            "att": 0.017,
+            "def": -0.227,
+            "strength_est": 0.244,
+            "z": 0.96,
+            "prior": 53.5,
+            "resid_std": 0.89
           },
           "2575": {
             "n": 34,
-            "att": 0.087,
-            "def": -0.196,
-            "strength_est": 0.283,
-            "z": 1.88,
-            "prior": 56.9,
-            "resid_std": 1.173
+            "att": 0.06,
+            "def": -0.17,
+            "strength_est": 0.231,
+            "z": 0.91,
+            "prior": 53.3,
+            "resid_std": 1.179
           },
           "2576": {
             "n": 39,
-            "att": 0.112,
-            "def": 0.19,
-            "strength_est": -0.078,
-            "z": -0.52,
-            "prior": 48.0,
+            "att": 0.086,
+            "def": 0.22,
+            "strength_est": -0.134,
+            "z": -0.53,
+            "prior": 47.9,
             "resid_std": 0.889
           },
           "2577": {
             "n": 34,
-            "att": -0.021,
-            "def": -0.055,
-            "strength_est": 0.034,
-            "z": 0.22,
-            "prior": 50.8,
-            "resid_std": 0.809
+            "att": -0.049,
+            "def": -0.027,
+            "strength_est": -0.022,
+            "z": -0.09,
+            "prior": 49.7,
+            "resid_std": 0.797
+          },
+          "2580": {
+            "n": 1,
+            "att": 0.552,
+            "def": -0.371,
+            "strength_est": 0.923,
+            "z": 3.64,
+            "prior": 50.7,
+            "resid_std": 0.0
+          },
+          "2585": {
+            "n": 1,
+            "att": 0.012,
+            "def": -0.03,
+            "strength_est": 0.042,
+            "z": 0.16,
+            "prior": 50.0,
+            "resid_std": 0.0
+          },
+          "2588": {
+            "n": 1,
+            "att": 0.036,
+            "def": -0.006,
+            "strength_est": 0.042,
+            "z": 0.16,
+            "prior": 50.0,
+            "resid_std": 0.0
+          },
+          "2816": {
+            "n": 1,
+            "att": -0.011,
+            "def": -0.039,
+            "strength_est": 0.028,
+            "z": 0.11,
+            "prior": 50.0,
+            "resid_std": 0.0
           }
         }
       },
@@ -17076,147 +17121,165 @@
       },
       "bel-challenger-pro-league": {
         "league": {
-          "matches": 47,
-          "teams": 15,
-          "mu": 1.2738,
-          "home_adv": -0.1699,
-          "avg_goals": 3.574
+          "matches": 51,
+          "teams": 17,
+          "mu": 1.2667,
+          "home_adv": -0.1612,
+          "avg_goals": 3.549
         },
         "teams": {
+          "1762": {
+            "n": 4,
+            "att": -0.276,
+            "def": -0.236,
+            "strength_est": -0.039,
+            "z": -0.09,
+            "prior": 49.9,
+            "resid_std": 0.796
+          },
           "1767": {
             "n": 9,
-            "att": 0.202,
-            "def": -0.309,
-            "strength_est": 0.511,
-            "z": 1.16,
-            "prior": 51.7,
-            "resid_std": 1.063
+            "att": 0.206,
+            "def": -0.31,
+            "strength_est": 0.516,
+            "z": 1.25,
+            "prior": 51.8,
+            "resid_std": 1.049
+          },
+          "1768": {
+            "n": 4,
+            "att": 0.21,
+            "def": 0.249,
+            "strength_est": -0.039,
+            "z": -0.09,
+            "prior": 49.9,
+            "resid_std": 1.155
           },
           "1770": {
             "n": 7,
-            "att": -0.136,
-            "def": -0.234,
-            "strength_est": 0.098,
-            "z": 0.22,
+            "att": -0.132,
+            "def": -0.235,
+            "strength_est": 0.103,
+            "z": 0.25,
             "prior": 50.3,
-            "resid_std": 0.73
+            "resid_std": 0.737
           },
           "2718": {
             "n": 6,
-            "att": 0.323,
-            "def": 0.161,
-            "strength_est": 0.162,
-            "z": 0.37,
+            "att": 0.327,
+            "def": 0.16,
+            "strength_est": 0.167,
+            "z": 0.41,
             "prior": 50.4,
-            "resid_std": 2.325
+            "resid_std": 2.306
           },
           "2719": {
             "n": 5,
-            "att": -0.1,
+            "att": -0.096,
             "def": 0.541,
-            "strength_est": -0.641,
-            "z": -1.46,
-            "prior": 48.7,
-            "resid_std": 0.508
+            "strength_est": -0.636,
+            "z": -1.54,
+            "prior": 48.6,
+            "resid_std": 0.501
           },
           "2720": {
             "n": 5,
-            "att": 0.086,
-            "def": 0.37,
-            "strength_est": -0.284,
-            "z": -0.65,
+            "att": 0.091,
+            "def": 0.369,
+            "strength_est": -0.278,
+            "z": -0.67,
             "prior": 49.4,
-            "resid_std": 0.954
+            "resid_std": 0.936
           },
           "2721": {
             "n": 5,
-            "att": 0.056,
-            "def": 0.257,
-            "strength_est": -0.202,
-            "z": -0.46,
+            "att": 0.059,
+            "def": 0.256,
+            "strength_est": -0.197,
+            "z": -0.48,
             "prior": 49.6,
-            "resid_std": 0.61
+            "resid_std": 0.617
           },
           "2722": {
             "n": 4,
-            "att": -0.236,
-            "def": 0.477,
-            "strength_est": -0.713,
-            "z": -1.62,
+            "att": -0.232,
+            "def": 0.476,
+            "strength_est": -0.708,
+            "z": -1.71,
             "prior": 48.8,
-            "resid_std": 1.203
+            "resid_std": 1.192
           },
           "2723": {
             "n": 7,
-            "att": 0.309,
-            "def": -0.321,
-            "strength_est": 0.63,
-            "z": 1.43,
-            "prior": 51.7,
-            "resid_std": 0.769
+            "att": 0.313,
+            "def": -0.323,
+            "strength_est": 0.636,
+            "z": 1.54,
+            "prior": 51.8,
+            "resid_std": 0.77
           },
           "2724": {
             "n": 6,
-            "att": -0.353,
+            "att": -0.349,
             "def": 0.115,
-            "strength_est": -0.469,
-            "z": -1.07,
-            "prior": 48.9,
-            "resid_std": 0.821
+            "strength_est": -0.463,
+            "z": -1.12,
+            "prior": 48.8,
+            "resid_std": 0.823
           },
           "2725": {
             "n": 7,
-            "att": 0.205,
-            "def": -0.24,
-            "strength_est": 0.445,
-            "z": 1.01,
-            "prior": 51.2,
-            "resid_std": 0.79
+            "att": 0.21,
+            "def": -0.241,
+            "strength_est": 0.451,
+            "z": 1.09,
+            "prior": 51.3,
+            "resid_std": 0.782
           },
           "2726": {
             "n": 8,
-            "att": 0.243,
-            "def": -0.213,
-            "strength_est": 0.456,
-            "z": 1.04,
-            "prior": 51.4,
-            "resid_std": 0.83
+            "att": 0.247,
+            "def": -0.214,
+            "strength_est": 0.461,
+            "z": 1.12,
+            "prior": 51.5,
+            "resid_std": 0.832
           },
           "2727": {
             "n": 6,
-            "att": -0.079,
-            "def": 0.036,
-            "strength_est": -0.116,
-            "z": -0.26,
+            "att": -0.075,
+            "def": 0.035,
+            "strength_est": -0.11,
+            "z": -0.27,
             "prior": 49.7,
-            "resid_std": 0.642
+            "resid_std": 0.653
           },
           "2728": {
             "n": 5,
-            "att": -0.389,
+            "att": -0.384,
             "def": 0.026,
-            "strength_est": -0.416,
-            "z": -0.95,
-            "prior": 49.2,
-            "resid_std": 0.631
+            "strength_est": -0.41,
+            "z": -0.99,
+            "prior": 49.1,
+            "resid_std": 0.639
           },
           "2729": {
             "n": 7,
-            "att": -0.182,
-            "def": -0.13,
-            "strength_est": -0.052,
-            "z": -0.12,
+            "att": -0.178,
+            "def": -0.131,
+            "strength_est": -0.047,
+            "z": -0.11,
             "prior": 49.9,
-            "resid_std": 0.195
+            "resid_std": 0.186
           },
           "2730": {
             "n": 7,
-            "att": 0.053,
-            "def": -0.537,
-            "strength_est": 0.589,
-            "z": 1.34,
-            "prior": 51.6,
-            "resid_std": 0.669
+            "att": 0.057,
+            "def": -0.538,
+            "strength_est": 0.595,
+            "z": 1.44,
+            "prior": 51.7,
+            "resid_std": 0.683
           }
         }
       },
@@ -17642,156 +17705,210 @@
       },
       "uru-primera": {
         "league": {
-          "matches": 297,
-          "teams": 16,
-          "mu": 0.8897,
-          "home_adv": 0.0328,
-          "avg_goals": 2.434
+          "matches": 302,
+          "teams": 22,
+          "mu": 0.8935,
+          "home_adv": 0.075,
+          "avg_goals": 2.444
         },
         "teams": {
           "578": {
             "n": 37,
-            "att": -0.018,
-            "def": -0.119,
-            "strength_est": 0.101,
-            "z": 0.77,
-            "prior": 53.0,
-            "resid_std": 1.147
+            "att": -0.043,
+            "def": -0.089,
+            "strength_est": 0.046,
+            "z": 0.22,
+            "prior": 50.9,
+            "resid_std": 1.131
+          },
+          "1172": {
+            "n": 1,
+            "att": 0.213,
+            "def": -0.223,
+            "strength_est": 0.436,
+            "z": 2.13,
+            "prior": 50.4,
+            "resid_std": 0.0
           },
           "1173": {
             "n": 37,
-            "att": -0.045,
-            "def": -0.067,
-            "strength_est": 0.023,
-            "z": 0.17,
-            "prior": 50.7,
-            "resid_std": 0.834
+            "att": -0.071,
+            "def": -0.037,
+            "strength_est": -0.034,
+            "z": -0.17,
+            "prior": 49.4,
+            "resid_std": 0.845
           },
           "1174": {
             "n": 37,
-            "att": -0.114,
-            "def": -0.066,
-            "strength_est": -0.048,
-            "z": -0.37,
-            "prior": 48.6,
-            "resid_std": 1.068
+            "att": -0.141,
+            "def": -0.036,
+            "strength_est": -0.105,
+            "z": -0.51,
+            "prior": 48.0,
+            "resid_std": 1.06
           },
           "1175": {
             "n": 37,
-            "att": 0.017,
-            "def": 0.038,
-            "strength_est": -0.021,
-            "z": -0.16,
-            "prior": 49.4,
-            "resid_std": 0.796
+            "att": -0.007,
+            "def": 0.071,
+            "strength_est": -0.078,
+            "z": -0.38,
+            "prior": 48.5,
+            "resid_std": 0.821
           },
           "1176": {
             "n": 38,
-            "att": 0.337,
-            "def": 0.381,
-            "strength_est": -0.044,
-            "z": -0.33,
-            "prior": 48.7,
-            "resid_std": 1.046
+            "att": 0.318,
+            "def": 0.418,
+            "strength_est": -0.1,
+            "z": -0.49,
+            "prior": 48.1,
+            "resid_std": 1.062
           },
           "1178": {
             "n": 37,
-            "att": -0.185,
-            "def": -0.088,
-            "strength_est": -0.097,
-            "z": -0.73,
-            "prior": 47.2,
-            "resid_std": 0.839
+            "att": -0.213,
+            "def": -0.058,
+            "strength_est": -0.154,
+            "z": -0.75,
+            "prior": 47.1,
+            "resid_std": 0.838
           },
           "1179": {
             "n": 37,
-            "att": 0.018,
-            "def": 0.064,
-            "strength_est": -0.046,
-            "z": -0.35,
-            "prior": 48.7,
-            "resid_std": 0.929
+            "att": -0.007,
+            "def": 0.097,
+            "strength_est": -0.103,
+            "z": -0.5,
+            "prior": 48.1,
+            "resid_std": 0.912
           },
           "1180": {
-            "n": 38,
-            "att": 0.493,
-            "def": 0.16,
-            "strength_est": 0.333,
-            "z": 2.53,
-            "prior": 59.9,
-            "resid_std": 1.666
+            "n": 39,
+            "att": 0.464,
+            "def": 0.192,
+            "strength_est": 0.272,
+            "z": 1.33,
+            "prior": 55.2,
+            "resid_std": 1.648
           },
           "1181": {
-            "n": 37,
-            "att": -0.047,
-            "def": -0.054,
-            "strength_est": 0.006,
-            "z": 0.05,
-            "prior": 50.2,
-            "resid_std": 0.915
+            "n": 38,
+            "att": -0.06,
+            "def": -0.02,
+            "strength_est": -0.04,
+            "z": -0.2,
+            "prior": 49.2,
+            "resid_std": 0.927
           },
           "1182": {
             "n": 37,
-            "att": -0.029,
-            "def": -0.195,
-            "strength_est": 0.166,
-            "z": 1.26,
-            "prior": 54.9,
-            "resid_std": 1.149
+            "att": -0.055,
+            "def": -0.167,
+            "strength_est": 0.112,
+            "z": 0.55,
+            "prior": 52.1,
+            "resid_std": 1.146
           },
           "1183": {
-            "n": 37,
-            "att": -0.106,
-            "def": 0.15,
-            "strength_est": -0.256,
-            "z": -1.95,
-            "prior": 42.5,
-            "resid_std": 1.052
+            "n": 38,
+            "att": -0.133,
+            "def": 0.168,
+            "strength_est": -0.301,
+            "z": -1.47,
+            "prior": 44.3,
+            "resid_std": 1.031
           },
           "1185": {
-            "n": 37,
-            "att": 0.134,
-            "def": 0.075,
-            "strength_est": 0.058,
-            "z": 0.44,
-            "prior": 51.7,
-            "resid_std": 1.101
+            "n": 38,
+            "att": 0.114,
+            "def": 0.108,
+            "strength_est": 0.005,
+            "z": 0.03,
+            "prior": 50.1,
+            "resid_std": 1.076
           },
           "1186": {
             "n": 37,
-            "att": -0.091,
-            "def": 0.109,
-            "strength_est": -0.2,
-            "z": -1.52,
-            "prior": 44.2,
-            "resid_std": 1.079
+            "att": -0.117,
+            "def": 0.141,
+            "strength_est": -0.259,
+            "z": -1.26,
+            "prior": 45.1,
+            "resid_std": 1.086
           },
           "1193": {
             "n": 37,
-            "att": -0.124,
-            "def": -0.168,
-            "strength_est": 0.044,
-            "z": 0.33,
-            "prior": 51.3,
-            "resid_std": 0.827
+            "att": -0.152,
+            "def": -0.139,
+            "strength_est": -0.012,
+            "z": -0.06,
+            "prior": 49.8,
+            "resid_std": 0.826
+          },
+          "2080": {
+            "n": 1,
+            "att": -0.107,
+            "def": -0.295,
+            "strength_est": 0.188,
+            "z": 0.92,
+            "prior": 50.2,
+            "resid_std": 0.0
+          },
+          "2082": {
+            "n": 1,
+            "att": -0.064,
+            "def": 0.337,
+            "strength_est": -0.401,
+            "z": -1.96,
+            "prior": 49.6,
+            "resid_std": 0.0
+          },
+          "2083": {
+            "n": 1,
+            "att": -0.091,
+            "def": -0.204,
+            "strength_est": 0.113,
+            "z": 0.55,
+            "prior": 50.1,
+            "resid_std": 0.0
+          },
+          "2084": {
+            "n": 1,
+            "att": 0.232,
+            "def": -0.204,
+            "strength_est": 0.436,
+            "z": 2.13,
+            "prior": 50.4,
+            "resid_std": 0.0
+          },
+          "2085": {
+            "n": 1,
+            "att": 0.213,
+            "def": 0.1,
+            "strength_est": 0.113,
+            "z": 0.55,
+            "prior": 50.1,
+            "resid_std": 0.0
           },
           "2938": {
             "n": 37,
-            "att": -0.128,
-            "def": -0.116,
-            "strength_est": -0.012,
-            "z": -0.09,
-            "prior": 49.6,
-            "resid_std": 0.994
+            "att": -0.155,
+            "def": -0.086,
+            "strength_est": -0.069,
+            "z": -0.34,
+            "prior": 48.7,
+            "resid_std": 1.005
           },
           "2945": {
             "n": 37,
-            "att": -0.112,
-            "def": -0.104,
-            "strength_est": -0.008,
-            "z": -0.06,
-            "prior": 49.8,
-            "resid_std": 0.85
+            "att": -0.139,
+            "def": -0.074,
+            "strength_est": -0.065,
+            "z": -0.32,
+            "prior": 48.8,
+            "resid_std": 0.838
           }
         }
       },
@@ -19086,486 +19203,765 @@
       },
       "crc-primera": {
         "league": {
-          "matches": 193,
-          "teams": 10,
-          "mu": 0.9698,
-          "home_adv": 0.1043,
-          "avg_goals": 2.637
+          "matches": 217,
+          "teams": 19,
+          "mu": 1.0087,
+          "home_adv": 0.1397,
+          "avg_goals": 2.742
         },
         "teams": {
           "541": {
             "n": 36,
-            "att": -0.098,
-            "def": -0.416,
-            "strength_est": 0.318,
-            "z": 1.81,
-            "prior": 56.9,
-            "resid_std": 1.014
+            "att": -0.143,
+            "def": -0.369,
+            "strength_est": 0.226,
+            "z": 0.89,
+            "prior": 53.4,
+            "resid_std": 1.019
           },
           "1326": {
             "n": 44,
-            "att": 0.219,
-            "def": 0.122,
-            "strength_est": 0.097,
-            "z": 0.55,
-            "prior": 52.3,
-            "resid_std": 0.966
+            "att": 0.179,
+            "def": 0.176,
+            "strength_est": 0.003,
+            "z": 0.01,
+            "prior": 50.1,
+            "resid_std": 0.954
           },
           "1327": {
             "n": 40,
-            "att": 0.134,
-            "def": -0.022,
-            "strength_est": 0.156,
-            "z": 0.89,
-            "prior": 53.6,
-            "resid_std": 1.075
+            "att": 0.092,
+            "def": 0.03,
+            "strength_est": 0.062,
+            "z": 0.25,
+            "prior": 51.0,
+            "resid_std": 1.108
           },
           "1328": {
-            "n": 43,
-            "att": 0.084,
-            "def": 0.185,
-            "strength_est": -0.102,
-            "z": -0.58,
-            "prior": 47.6,
-            "resid_std": 1.315
+            "n": 46,
+            "att": 0.047,
+            "def": 0.212,
+            "strength_est": -0.165,
+            "z": -0.65,
+            "prior": 47.2,
+            "resid_std": 1.282
           },
           "1329": {
             "n": 43,
-            "att": 0.08,
-            "def": 0.22,
-            "strength_est": -0.14,
-            "z": -0.8,
-            "prior": 46.7,
-            "resid_std": 0.997
+            "att": 0.037,
+            "def": 0.275,
+            "strength_est": -0.238,
+            "z": -0.94,
+            "prior": 46.1,
+            "resid_std": 0.986
           },
           "1330": {
             "n": 36,
-            "att": -0.176,
-            "def": 0.015,
-            "strength_est": -0.19,
-            "z": -1.09,
-            "prior": 45.9,
-            "resid_std": 0.814
+            "att": -0.221,
+            "def": 0.068,
+            "strength_est": -0.289,
+            "z": -1.14,
+            "prior": 45.7,
+            "resid_std": 0.823
           },
           "1331": {
-            "n": 36,
-            "att": -0.242,
-            "def": -0.087,
-            "strength_est": -0.155,
-            "z": -0.89,
-            "prior": 46.6,
-            "resid_std": 0.953
+            "n": 43,
+            "att": -0.227,
+            "def": -0.103,
+            "strength_est": -0.124,
+            "z": -0.49,
+            "prior": 48.0,
+            "resid_std": 0.94
           },
           "1332": {
             "n": 36,
-            "att": -0.064,
-            "def": -0.029,
-            "strength_est": -0.035,
-            "z": -0.2,
-            "prior": 49.3,
-            "resid_std": 1.157
+            "att": -0.108,
+            "def": 0.023,
+            "strength_est": -0.131,
+            "z": -0.52,
+            "prior": 48.0,
+            "resid_std": 1.148
           },
           "1333": {
             "n": 36,
-            "att": -0.109,
-            "def": 0.066,
-            "strength_est": -0.174,
-            "z": -0.99,
-            "prior": 46.2,
-            "resid_std": 1.163
+            "att": -0.154,
+            "def": 0.119,
+            "strength_est": -0.273,
+            "z": -1.08,
+            "prior": 45.9,
+            "resid_std": 1.16
+          },
+          "2086": {
+            "n": 5,
+            "att": 0.38,
+            "def": 0.084,
+            "strength_est": 0.296,
+            "z": 1.17,
+            "prior": 51.0,
+            "resid_std": 1.102
+          },
+          "2087": {
+            "n": 7,
+            "att": 0.102,
+            "def": -0.004,
+            "strength_est": 0.106,
+            "z": 0.42,
+            "prior": 50.5,
+            "resid_std": 1.047
+          },
+          "2088": {
+            "n": 3,
+            "att": 0.487,
+            "def": 0.072,
+            "strength_est": 0.415,
+            "z": 1.64,
+            "prior": 50.9,
+            "resid_std": 0.877
+          },
+          "2089": {
+            "n": 1,
+            "att": -0.262,
+            "def": 0.126,
+            "strength_est": -0.388,
+            "z": -1.54,
+            "prior": 49.7,
+            "resid_std": 0.0
+          },
+          "2090": {
+            "n": 4,
+            "att": -0.218,
+            "def": -0.364,
+            "strength_est": 0.146,
+            "z": 0.58,
+            "prior": 50.4,
+            "resid_std": 0.379
+          },
+          "2091": {
+            "n": 6,
+            "att": 0.12,
+            "def": -0.054,
+            "strength_est": 0.175,
+            "z": 0.69,
+            "prior": 50.7,
+            "resid_std": 1.23
+          },
+          "2092": {
+            "n": 5,
+            "att": 0.134,
+            "def": -0.127,
+            "strength_est": 0.261,
+            "z": 1.03,
+            "prior": 50.9,
+            "resid_std": 1.415
+          },
+          "2093": {
+            "n": 2,
+            "att": -0.189,
+            "def": -0.468,
+            "strength_est": 0.279,
+            "z": 1.1,
+            "prior": 50.4,
+            "resid_std": 0.06
           },
           "2138": {
-            "n": 36,
-            "att": 0.171,
-            "def": -0.054,
-            "strength_est": 0.225,
-            "z": 1.28,
-            "prior": 54.9,
-            "resid_std": 1.229
+            "n": 40,
+            "att": 0.157,
+            "def": 0.02,
+            "strength_est": 0.137,
+            "z": 0.54,
+            "prior": 52.2,
+            "resid_std": 1.19
+          },
+          "2139": {
+            "n": 1,
+            "att": -0.213,
+            "def": 0.284,
+            "strength_est": -0.498,
+            "z": -1.97,
+            "prior": 49.6,
+            "resid_std": 0.0
           }
         }
       },
       "gua-liga-nacional": {
         "league": {
-          "matches": 135,
-          "teams": 10,
-          "mu": 0.815,
-          "home_adv": 0.2698,
-          "avg_goals": 2.259
+          "matches": 162,
+          "teams": 21,
+          "mu": 0.9163,
+          "home_adv": 0.3472,
+          "avg_goals": 2.5
         },
         "teams": {
           "1336": {
-            "n": 27,
-            "att": 0.184,
-            "def": 0.0,
-            "strength_est": 0.184,
-            "z": 1.16,
-            "prior": 53.7,
-            "resid_std": 0.912
+            "n": 32,
+            "att": 0.119,
+            "def": 0.075,
+            "strength_est": 0.045,
+            "z": 0.16,
+            "prior": 50.6,
+            "resid_std": 0.867
           },
           "1337": {
             "n": 33,
-            "att": 0.166,
-            "def": 0.153,
-            "strength_est": 0.013,
-            "z": 0.08,
-            "prior": 50.3,
-            "resid_std": 1.183
+            "att": 0.07,
+            "def": 0.292,
+            "strength_est": -0.223,
+            "z": -0.77,
+            "prior": 47.2,
+            "resid_std": 1.154
+          },
+          "1338": {
+            "n": 2,
+            "att": -0.145,
+            "def": 0.037,
+            "strength_est": -0.182,
+            "z": -0.63,
+            "prior": 49.8,
+            "resid_std": 0.582
           },
           "1339": {
             "n": 24,
-            "att": -0.115,
-            "def": -0.111,
-            "strength_est": -0.004,
-            "z": -0.03,
-            "prior": 49.9,
-            "resid_std": 0.748
+            "att": -0.221,
+            "def": 0.019,
+            "strength_est": -0.24,
+            "z": -0.83,
+            "prior": 47.5,
+            "resid_std": 0.745
           },
           "1340": {
-            "n": 33,
-            "att": -0.138,
-            "def": 0.196,
-            "strength_est": -0.333,
-            "z": -2.1,
-            "prior": 42.4,
-            "resid_std": 1.007
+            "n": 36,
+            "att": -0.172,
+            "def": 0.295,
+            "strength_est": -0.467,
+            "z": -1.62,
+            "prior": 43.9,
+            "resid_std": 1.029
           },
           "1341": {
             "n": 14,
-            "att": -0.16,
-            "def": -0.234,
-            "strength_est": 0.074,
-            "z": 0.47,
-            "prior": 51.0,
-            "resid_std": 0.859
+            "att": -0.266,
+            "def": -0.109,
+            "strength_est": -0.157,
+            "z": -0.54,
+            "prior": 48.9,
+            "resid_std": 0.847
           },
           "1342": {
             "n": 29,
-            "att": -0.039,
-            "def": 0.195,
-            "strength_est": -0.235,
-            "z": -1.48,
-            "prior": 45.0,
-            "resid_std": 1.221
+            "att": -0.141,
+            "def": 0.335,
+            "strength_est": -0.476,
+            "z": -1.65,
+            "prior": 44.4,
+            "resid_std": 1.208
+          },
+          "1343": {
+            "n": 4,
+            "att": 0.059,
+            "def": -0.278,
+            "strength_est": 0.337,
+            "z": 1.17,
+            "prior": 50.9,
+            "resid_std": 1.514
           },
           "1344": {
             "n": 28,
-            "att": 0.0,
-            "def": -0.08,
-            "strength_est": 0.08,
-            "z": 0.5,
-            "prior": 51.7,
-            "resid_std": 1.085
+            "att": -0.102,
+            "def": 0.05,
+            "strength_est": -0.152,
+            "z": -0.53,
+            "prior": 48.3,
+            "resid_std": 1.094
           },
           "1345": {
             "n": 27,
-            "att": 0.043,
-            "def": -0.046,
-            "strength_est": 0.089,
-            "z": 0.56,
-            "prior": 51.8,
-            "resid_std": 1.139
+            "att": -0.057,
+            "def": 0.084,
+            "strength_est": -0.142,
+            "z": -0.49,
+            "prior": 48.4,
+            "resid_std": 1.144
           },
           "1346": {
-            "n": 27,
-            "att": 0.159,
-            "def": -0.014,
-            "strength_est": 0.173,
-            "z": 1.09,
-            "prior": 53.5,
-            "resid_std": 1.099
+            "n": 32,
+            "att": 0.077,
+            "def": 0.093,
+            "strength_est": -0.016,
+            "z": -0.06,
+            "prior": 49.8,
+            "resid_std": 1.044
+          },
+          "2108": {
+            "n": 5,
+            "att": 0.414,
+            "def": 0.164,
+            "strength_est": 0.25,
+            "z": 0.87,
+            "prior": 50.8,
+            "resid_std": 0.723
+          },
+          "2109": {
+            "n": 4,
+            "att": 0.076,
+            "def": 0.286,
+            "strength_est": -0.21,
+            "z": -0.73,
+            "prior": 49.5,
+            "resid_std": 0.419
+          },
+          "2110": {
+            "n": 2,
+            "att": -0.258,
+            "def": -0.141,
+            "strength_est": -0.117,
+            "z": -0.41,
+            "prior": 49.8,
+            "resid_std": 0.453
+          },
+          "2111": {
+            "n": 9,
+            "att": 0.1,
+            "def": -0.165,
+            "strength_est": 0.265,
+            "z": 0.92,
+            "prior": 51.4,
+            "resid_std": 0.704
+          },
+          "2112": {
+            "n": 5,
+            "att": 0.271,
+            "def": -0.255,
+            "strength_est": 0.526,
+            "z": 1.83,
+            "prior": 51.6,
+            "resid_std": 1.036
+          },
+          "2113": {
+            "n": 2,
+            "att": 0.128,
+            "def": -0.029,
+            "strength_est": 0.158,
+            "z": 0.55,
+            "prior": 50.2,
+            "resid_std": 0.614
+          },
+          "2114": {
+            "n": 3,
+            "att": 0.114,
+            "def": -0.195,
+            "strength_est": 0.309,
+            "z": 1.07,
+            "prior": 50.6,
+            "resid_std": 0.863
+          },
+          "2748": {
+            "n": 3,
+            "att": 0.062,
+            "def": -0.243,
+            "strength_est": 0.305,
+            "z": 1.06,
+            "prior": 50.6,
+            "resid_std": 0.789
+          },
+          "2749": {
+            "n": 2,
+            "att": 0.076,
+            "def": -0.389,
+            "strength_est": 0.465,
+            "z": 1.61,
+            "prior": 50.6,
+            "resid_std": 0.042
           },
           "3171": {
             "n": 28,
-            "att": -0.1,
-            "def": -0.059,
-            "strength_est": -0.041,
-            "z": -0.26,
-            "prior": 49.2,
-            "resid_std": 0.904
+            "att": -0.205,
+            "def": 0.075,
+            "strength_est": -0.279,
+            "z": -0.97,
+            "prior": 46.8,
+            "resid_std": 0.924
           }
         }
       },
       "hon-liga-nacional": {
         "league": {
-          "matches": 141,
-          "teams": 9,
-          "mu": 0.962,
-          "home_adv": 0.1239,
-          "avg_goals": 2.617
+          "matches": 173,
+          "teams": 19,
+          "mu": 1.0247,
+          "home_adv": 0.2317,
+          "avg_goals": 2.786
         },
         "teams": {
           "1348": {
             "n": 33,
-            "att": 0.054,
-            "def": 0.06,
-            "strength_est": -0.006,
-            "z": -0.04,
-            "prior": 49.9,
-            "resid_std": 1.017
+            "att": -0.03,
+            "def": 0.172,
+            "strength_est": -0.202,
+            "z": -0.76,
+            "prior": 47.3,
+            "resid_std": 0.969
           },
           "1349": {
             "n": 34,
-            "att": -0.067,
-            "def": 0.118,
-            "strength_est": -0.186,
-            "z": -1.24,
-            "prior": 45.4,
-            "resid_std": 1.077
+            "att": -0.154,
+            "def": 0.232,
+            "strength_est": -0.386,
+            "z": -1.45,
+            "prior": 44.7,
+            "resid_std": 1.104
           },
           "1350": {
             "n": 40,
-            "att": 0.219,
-            "def": 0.162,
-            "strength_est": 0.057,
-            "z": 0.38,
-            "prior": 51.5,
-            "resid_std": 1.194
+            "att": 0.141,
+            "def": 0.278,
+            "strength_est": -0.138,
+            "z": -0.52,
+            "prior": 47.9,
+            "resid_std": 1.167
           },
           "1351": {
-            "n": 36,
-            "att": 0.307,
-            "def": 0.071,
-            "strength_est": 0.235,
-            "z": 1.58,
-            "prior": 56.0,
-            "resid_std": 1.008
+            "n": 45,
+            "att": 0.242,
+            "def": 0.168,
+            "strength_est": 0.074,
+            "z": 0.28,
+            "prior": 51.2,
+            "resid_std": 1.014
+          },
+          "1352": {
+            "n": 7,
+            "att": 0.02,
+            "def": 0.094,
+            "strength_est": -0.074,
+            "z": -0.28,
+            "prior": 49.7,
+            "resid_std": 1.073
           },
           "1353": {
-            "n": 33,
-            "att": -0.038,
-            "def": 0.138,
-            "strength_est": -0.176,
-            "z": -1.18,
-            "prior": 45.7,
-            "resid_std": 1.082
+            "n": 40,
+            "att": -0.115,
+            "def": 0.218,
+            "strength_est": -0.333,
+            "z": -1.25,
+            "prior": 45.0,
+            "resid_std": 1.029
           },
           "1356": {
             "n": 30,
-            "att": -0.206,
-            "def": -0.068,
-            "strength_est": -0.138,
-            "z": -0.92,
-            "prior": 46.8,
-            "resid_std": 0.841
+            "att": -0.297,
+            "def": 0.04,
+            "strength_est": -0.337,
+            "z": -1.26,
+            "prior": 45.7,
+            "resid_std": 0.821
+          },
+          "1357": {
+            "n": 2,
+            "att": -0.171,
+            "def": -0.565,
+            "strength_est": 0.394,
+            "z": 1.48,
+            "prior": 50.6,
+            "resid_std": 0.025
           },
           "1358": {
-            "n": 16,
+            "n": 20,
             "att": -0.217,
-            "def": -0.131,
-            "strength_est": -0.085,
-            "z": -0.57,
-            "prior": 48.7,
-            "resid_std": 0.699
+            "def": -0.108,
+            "strength_est": -0.108,
+            "z": -0.41,
+            "prior": 48.9,
+            "resid_std": 0.742
+          },
+          "2101": {
+            "n": 7,
+            "att": -0.0,
+            "def": -0.038,
+            "strength_est": 0.038,
+            "z": 0.14,
+            "prior": 50.2,
+            "resid_std": 0.641
+          },
+          "2102": {
+            "n": 8,
+            "att": 0.096,
+            "def": 0.143,
+            "strength_est": -0.047,
+            "z": -0.18,
+            "prior": 49.8,
+            "resid_std": 1.26
+          },
+          "2103": {
+            "n": 7,
+            "att": 0.283,
+            "def": -0.039,
+            "strength_est": 0.322,
+            "z": 1.21,
+            "prior": 51.4,
+            "resid_std": 0.626
+          },
+          "2104": {
+            "n": 3,
+            "att": -0.132,
+            "def": 0.106,
+            "strength_est": -0.238,
+            "z": -0.89,
+            "prior": 49.5,
+            "resid_std": 0.18
+          },
+          "2105": {
+            "n": 3,
+            "att": 0.476,
+            "def": -0.18,
+            "strength_est": 0.655,
+            "z": 2.46,
+            "prior": 51.4,
+            "resid_std": 1.395
+          },
+          "2106": {
+            "n": 2,
+            "att": 0.063,
+            "def": -0.245,
+            "strength_est": 0.308,
+            "z": 1.15,
+            "prior": 50.4,
+            "resid_std": 0.173
+          },
+          "2107": {
+            "n": 3,
+            "att": 0.059,
+            "def": -0.145,
+            "strength_est": 0.203,
+            "z": 0.76,
+            "prior": 50.4,
+            "resid_std": 0.306
+          },
+          "2750": {
+            "n": 2,
+            "att": -0.038,
+            "def": 0.007,
+            "strength_est": -0.045,
+            "z": -0.17,
+            "prior": 49.9,
+            "resid_std": 0.081
           },
           "3057": {
             "n": 30,
-            "att": -0.113,
-            "def": -0.207,
-            "strength_est": 0.094,
-            "z": 0.63,
-            "prior": 52.2,
-            "resid_std": 0.946
+            "att": -0.203,
+            "def": -0.103,
+            "strength_est": -0.099,
+            "z": -0.37,
+            "prior": 48.7,
+            "resid_std": 0.99
           },
           "3173": {
             "n": 30,
-            "att": 0.061,
-            "def": -0.143,
-            "strength_est": 0.204,
-            "z": 1.37,
-            "prior": 54.7,
-            "resid_std": 1.244
+            "att": -0.023,
+            "def": -0.037,
+            "strength_est": 0.013,
+            "z": 0.05,
+            "prior": 50.2,
+            "resid_std": 1.231
           }
         }
       },
       "arg-primera-b-metropolitana": {
         "league": {
-          "matches": 393,
-          "teams": 20,
-          "mu": 0.6634,
-          "home_adv": 0.1062,
-          "avg_goals": 1.941
+          "matches": 396,
+          "teams": 21,
+          "mu": 0.6702,
+          "home_adv": 0.1415,
+          "avg_goals": 1.955
         },
         "teams": {
           "980": {
             "n": 43,
-            "att": 0.002,
-            "def": 0.054,
-            "strength_est": -0.052,
-            "z": -0.33,
-            "prior": 48.6,
-            "resid_std": 0.887
+            "att": -0.023,
+            "def": 0.084,
+            "strength_est": -0.107,
+            "z": -0.4,
+            "prior": 48.4,
+            "resid_std": 0.883
           },
           "986": {
             "n": 38,
-            "att": -0.177,
-            "def": -0.124,
-            "strength_est": -0.053,
-            "z": -0.33,
-            "prior": 48.7,
-            "resid_std": 0.796
+            "att": -0.203,
+            "def": -0.095,
+            "strength_est": -0.107,
+            "z": -0.4,
+            "prior": 48.5,
+            "resid_std": 0.798
           },
           "1344": {
             "n": 38,
-            "att": 0.035,
-            "def": 0.039,
-            "strength_est": -0.004,
-            "z": -0.03,
-            "prior": 49.9,
-            "resid_std": 0.859
+            "att": 0.011,
+            "def": 0.069,
+            "strength_est": -0.058,
+            "z": -0.22,
+            "prior": 49.2,
+            "resid_std": 0.863
           },
           "1359": {
             "n": 42,
-            "att": 0.214,
-            "def": -0.066,
-            "strength_est": 0.28,
-            "z": 1.78,
-            "prior": 57.3,
-            "resid_std": 1.064
+            "att": 0.191,
+            "def": -0.037,
+            "strength_est": 0.229,
+            "z": 0.85,
+            "prior": 53.5,
+            "resid_std": 1.061
           },
           "1363": {
             "n": 38,
-            "att": -0.283,
-            "def": 0.101,
-            "strength_est": -0.385,
-            "z": -2.44,
-            "prior": 40.5,
-            "resid_std": 0.693
+            "att": -0.31,
+            "def": 0.131,
+            "strength_est": -0.441,
+            "z": -1.64,
+            "prior": 43.6,
+            "resid_std": 0.689
           },
           "1364": {
-            "n": 38,
-            "att": -0.076,
-            "def": -0.098,
-            "strength_est": 0.023,
-            "z": 0.14,
-            "prior": 50.6,
-            "resid_std": 0.886
+            "n": 39,
+            "att": -0.1,
+            "def": -0.068,
+            "strength_est": -0.032,
+            "z": -0.12,
+            "prior": 49.5,
+            "resid_std": 0.869
           },
           "1366": {
-            "n": 42,
-            "att": 0.301,
-            "def": 0.083,
-            "strength_est": 0.218,
-            "z": 1.38,
-            "prior": 55.7,
-            "resid_std": 1.089
+            "n": 43,
+            "att": 0.286,
+            "def": 0.085,
+            "strength_est": 0.201,
+            "z": 0.75,
+            "prior": 53.1,
+            "resid_std": 1.086
           },
           "1367": {
-            "n": 38,
-            "att": -0.059,
-            "def": -0.193,
-            "strength_est": 0.134,
-            "z": 0.85,
-            "prior": 53.3,
-            "resid_std": 0.778
+            "n": 39,
+            "att": -0.083,
+            "def": -0.161,
+            "strength_est": 0.078,
+            "z": 0.29,
+            "prior": 51.1,
+            "resid_std": 0.764
           },
           "1368": {
             "n": 38,
-            "att": -0.149,
-            "def": -0.042,
-            "strength_est": -0.107,
-            "z": -0.68,
-            "prior": 47.4,
-            "resid_std": 0.708
+            "att": -0.174,
+            "def": -0.013,
+            "strength_est": -0.162,
+            "z": -0.6,
+            "prior": 47.7,
+            "resid_std": 0.701
           },
           "1369": {
             "n": 40,
-            "att": 0.103,
-            "def": -0.052,
-            "strength_est": 0.156,
-            "z": 0.99,
-            "prior": 53.9,
-            "resid_std": 0.96
+            "att": 0.079,
+            "def": -0.023,
+            "strength_est": 0.102,
+            "z": 0.38,
+            "prior": 51.5,
+            "resid_std": 0.964
           },
           "1370": {
             "n": 40,
-            "att": 0.053,
-            "def": -0.054,
-            "strength_est": 0.107,
-            "z": 0.68,
-            "prior": 52.7,
-            "resid_std": 1.125
+            "att": 0.029,
+            "def": -0.025,
+            "strength_est": 0.054,
+            "z": 0.2,
+            "prior": 50.8,
+            "resid_std": 1.12
           },
           "1371": {
-            "n": 38,
-            "att": -0.104,
-            "def": -0.098,
-            "strength_est": -0.007,
-            "z": -0.04,
-            "prior": 49.8,
-            "resid_std": 0.936
+            "n": 39,
+            "att": -0.117,
+            "def": -0.075,
+            "strength_est": -0.042,
+            "z": -0.16,
+            "prior": 49.4,
+            "resid_std": 0.921
           },
           "1372": {
             "n": 38,
-            "att": -0.122,
-            "def": 0.085,
-            "strength_est": -0.206,
-            "z": -1.31,
-            "prior": 44.9,
-            "resid_std": 0.877
+            "att": -0.147,
+            "def": 0.115,
+            "strength_est": -0.262,
+            "z": -0.97,
+            "prior": 46.2,
+            "resid_std": 0.873
           },
           "1373": {
             "n": 43,
-            "att": 0.163,
-            "def": 0.24,
-            "strength_est": -0.077,
+            "att": 0.14,
+            "def": 0.271,
+            "strength_est": -0.131,
             "z": -0.49,
             "prior": 48.0,
-            "resid_std": 0.938
+            "resid_std": 0.935
           },
           "1374": {
-            "n": 38,
-            "att": -0.092,
-            "def": 0.056,
-            "strength_est": -0.148,
-            "z": -0.94,
-            "prior": 46.3,
-            "resid_std": 0.945
+            "n": 39,
+            "att": -0.086,
+            "def": 0.072,
+            "strength_est": -0.158,
+            "z": -0.59,
+            "prior": 47.7,
+            "resid_std": 0.988
           },
           "1375": {
             "n": 38,
-            "att": -0.021,
-            "def": 0.04,
-            "strength_est": -0.061,
-            "z": -0.39,
-            "prior": 48.5,
-            "resid_std": 0.847
+            "att": -0.046,
+            "def": 0.07,
+            "strength_est": -0.116,
+            "z": -0.43,
+            "prior": 48.3,
+            "resid_std": 0.855
           },
           "1378": {
             "n": 38,
-            "att": 0.027,
-            "def": -0.248,
-            "strength_est": 0.274,
-            "z": 1.74,
-            "prior": 56.8,
-            "resid_std": 0.844
+            "att": 0.002,
+            "def": -0.22,
+            "strength_est": 0.222,
+            "z": 0.83,
+            "prior": 53.2,
+            "resid_std": 0.847
+          },
+          "2094": {
+            "n": 1,
+            "att": 0.437,
+            "def": -0.546,
+            "strength_est": 0.983,
+            "z": 3.65,
+            "prior": 50.7,
+            "resid_std": 0.0
           },
           "2567": {
             "n": 40,
-            "att": 0.098,
-            "def": 0.121,
-            "strength_est": -0.023,
-            "z": -0.14,
-            "prior": 49.4,
-            "resid_std": 1.092
+            "att": 0.074,
+            "def": 0.151,
+            "strength_est": -0.077,
+            "z": -0.28,
+            "prior": 48.9,
+            "resid_std": 1.095
           },
           "2569": {
             "n": 40,
-            "att": 0.163,
-            "def": 0.213,
-            "strength_est": -0.05,
-            "z": -0.32,
-            "prior": 48.7,
-            "resid_std": 0.863
+            "att": 0.14,
+            "def": 0.245,
+            "strength_est": -0.105,
+            "z": -0.39,
+            "prior": 48.4,
+            "resid_std": 0.866
           },
           "2938": {
             "n": 38,
-            "att": -0.076,
-            "def": -0.057,
-            "strength_est": -0.019,
-            "z": -0.12,
-            "prior": 49.5,
-            "resid_std": 0.938
+            "att": -0.101,
+            "def": -0.028,
+            "strength_est": -0.074,
+            "z": -0.27,
+            "prior": 48.9,
+            "resid_std": 0.941
           }
         }
       },
@@ -22269,210 +22665,246 @@
       },
       "usa-usl": {
         "league": {
-          "matches": 351,
-          "teams": 22,
-          "mu": 0.9636,
-          "home_adv": 0.0892,
-          "avg_goals": 2.621
+          "matches": 358,
+          "teams": 26,
+          "mu": 0.9685,
+          "home_adv": 0.0869,
+          "avg_goals": 2.634
         },
         "teams": {
           "1452": {
-            "n": 34,
-            "att": 0.268,
-            "def": 0.141,
-            "strength_est": 0.127,
-            "z": 0.77,
-            "prior": 52.8,
-            "resid_std": 1.563
+            "n": 35,
+            "att": 0.273,
+            "def": 0.159,
+            "strength_est": 0.115,
+            "z": 0.46,
+            "prior": 51.7,
+            "resid_std": 1.544
           },
           "1453": {
-            "n": 32,
-            "att": 0.084,
-            "def": -0.095,
-            "strength_est": 0.179,
-            "z": 1.08,
-            "prior": 53.8,
-            "resid_std": 1.035
+            "n": 33,
+            "att": 0.106,
+            "def": -0.082,
+            "strength_est": 0.188,
+            "z": 0.76,
+            "prior": 52.7,
+            "resid_std": 1.021
           },
           "1454": {
             "n": 32,
-            "att": 0.183,
-            "def": 0.021,
-            "strength_est": 0.162,
-            "z": 0.97,
-            "prior": 53.5,
-            "resid_std": 1.295
-          },
-          "1455": {
-            "n": 32,
-            "att": -0.026,
-            "def": 0.258,
-            "strength_est": -0.284,
-            "z": -1.71,
-            "prior": 43.9,
-            "resid_std": 1.237
-          },
-          "1456": {
-            "n": 32,
-            "att": 0.447,
-            "def": 0.041,
-            "strength_est": 0.406,
-            "z": 2.44,
-            "prior": 58.7,
-            "resid_std": 1.648
-          },
-          "1457": {
-            "n": 31,
-            "att": -0.246,
-            "def": -0.475,
-            "strength_est": 0.229,
-            "z": 1.38,
-            "prior": 54.8,
-            "resid_std": 0.739
-          },
-          "1458": {
-            "n": 31,
-            "att": 0.055,
-            "def": 0.175,
-            "strength_est": -0.12,
-            "z": -0.73,
-            "prior": 47.5,
-            "resid_std": 1.034
-          },
-          "1459": {
-            "n": 31,
-            "att": 0.014,
-            "def": -0.042,
-            "strength_est": 0.057,
-            "z": 0.34,
-            "prior": 51.2,
-            "resid_std": 1.245
-          },
-          "1460": {
-            "n": 31,
-            "att": -0.02,
-            "def": 0.097,
-            "strength_est": -0.117,
-            "z": -0.71,
-            "prior": 47.5,
-            "resid_std": 1.016
-          },
-          "1461": {
-            "n": 31,
-            "att": -0.095,
-            "def": -0.085,
-            "strength_est": -0.01,
-            "z": -0.06,
-            "prior": 49.8,
-            "resid_std": 0.812
-          },
-          "1462": {
-            "n": 35,
             "att": 0.197,
             "def": 0.04,
             "strength_est": 0.157,
-            "z": 0.94,
-            "prior": 53.5,
-            "resid_std": 1.36
+            "z": 0.63,
+            "prior": 52.3,
+            "resid_std": 1.3
+          },
+          "1455": {
+            "n": 33,
+            "att": 0.001,
+            "def": 0.274,
+            "strength_est": -0.273,
+            "z": -1.1,
+            "prior": 46.0,
+            "resid_std": 1.233
+          },
+          "1456": {
+            "n": 32,
+            "att": 0.461,
+            "def": 0.06,
+            "strength_est": 0.401,
+            "z": 1.62,
+            "prior": 55.8,
+            "resid_std": 1.645
+          },
+          "1457": {
+            "n": 31,
+            "att": -0.232,
+            "def": -0.456,
+            "strength_est": 0.224,
+            "z": 0.91,
+            "prior": 53.2,
+            "resid_std": 0.742
+          },
+          "1458": {
+            "n": 32,
+            "att": 0.066,
+            "def": 0.178,
+            "strength_est": -0.111,
+            "z": -0.45,
+            "prior": 48.4,
+            "resid_std": 1.021
+          },
+          "1459": {
+            "n": 32,
+            "att": 0.037,
+            "def": -0.032,
+            "strength_est": 0.069,
+            "z": 0.28,
+            "prior": 51.0,
+            "resid_std": 1.224
+          },
+          "1460": {
+            "n": 31,
+            "att": -0.006,
+            "def": 0.116,
+            "strength_est": -0.123,
+            "z": -0.5,
+            "prior": 48.3,
+            "resid_std": 1.021
+          },
+          "1461": {
+            "n": 31,
+            "att": -0.081,
+            "def": -0.066,
+            "strength_est": -0.015,
+            "z": -0.06,
+            "prior": 49.8,
+            "resid_std": 0.813
+          },
+          "1462": {
+            "n": 35,
+            "att": 0.211,
+            "def": 0.06,
+            "strength_est": 0.152,
+            "z": 0.61,
+            "prior": 52.3,
+            "resid_std": 1.359
+          },
+          "1464": {
+            "n": 1,
+            "att": -0.101,
+            "def": 0.177,
+            "strength_est": -0.277,
+            "z": -1.12,
+            "prior": 49.8,
+            "resid_std": 0.0
+          },
+          "2115": {
+            "n": 1,
+            "att": -0.065,
+            "def": 0.278,
+            "strength_est": -0.343,
+            "z": -1.39,
+            "prior": 49.7,
+            "resid_std": 0.0
           },
           "2117": {
-            "n": 31,
-            "att": -0.241,
-            "def": -0.061,
-            "strength_est": -0.18,
-            "z": -1.08,
-            "prior": 46.2,
-            "resid_std": 0.744
+            "n": 32,
+            "att": -0.209,
+            "def": -0.066,
+            "strength_est": -0.143,
+            "z": -0.58,
+            "prior": 47.9,
+            "resid_std": 0.745
           },
           "2118": {
             "n": 33,
-            "att": -0.011,
-            "def": 0.046,
-            "strength_est": -0.057,
-            "z": -0.35,
-            "prior": 48.8,
-            "resid_std": 1.029
+            "att": 0.003,
+            "def": 0.066,
+            "strength_est": -0.063,
+            "z": -0.25,
+            "prior": 49.1,
+            "resid_std": 1.024
           },
           "2119": {
-            "n": 34,
-            "att": 0.064,
-            "def": 0.137,
-            "strength_est": -0.073,
-            "z": -0.44,
-            "prior": 48.4,
-            "resid_std": 1.257
+            "n": 35,
+            "att": 0.091,
+            "def": 0.155,
+            "strength_est": -0.064,
+            "z": -0.26,
+            "prior": 49.0,
+            "resid_std": 1.303
           },
           "2120": {
-            "n": 31,
-            "att": 0.073,
-            "def": 0.088,
-            "strength_est": -0.015,
-            "z": -0.09,
-            "prior": 49.7,
-            "resid_std": 1.219
+            "n": 32,
+            "att": 0.083,
+            "def": 0.108,
+            "strength_est": -0.025,
+            "z": -0.1,
+            "prior": 49.6,
+            "resid_std": 1.201
           },
           "2121": {
-            "n": 31,
-            "att": -0.127,
-            "def": -0.065,
-            "strength_est": -0.062,
-            "z": -0.38,
-            "prior": 48.7,
-            "resid_std": 1.069
+            "n": 32,
+            "att": -0.112,
+            "def": -0.04,
+            "strength_est": -0.072,
+            "z": -0.29,
+            "prior": 49.0,
+            "resid_std": 1.053
           },
           "2122": {
-            "n": 31,
-            "att": -0.092,
-            "def": -0.125,
-            "strength_est": 0.033,
-            "z": 0.2,
-            "prior": 50.7,
-            "resid_std": 0.905
+            "n": 32,
+            "att": -0.049,
+            "def": -0.115,
+            "strength_est": 0.066,
+            "z": 0.27,
+            "prior": 51.0,
+            "resid_std": 0.95
           },
           "2123": {
             "n": 31,
-            "att": -0.127,
-            "def": -0.048,
-            "strength_est": -0.079,
-            "z": -0.47,
-            "prior": 48.3,
-            "resid_std": 1.045
+            "att": -0.112,
+            "def": -0.028,
+            "strength_est": -0.084,
+            "z": -0.34,
+            "prior": 48.8,
+            "resid_std": 1.044
           },
           "2125": {
             "n": 32,
-            "att": -0.129,
-            "def": 0.094,
-            "strength_est": -0.224,
-            "z": -1.35,
-            "prior": 45.2,
-            "resid_std": 0.938
+            "att": -0.115,
+            "def": 0.114,
+            "strength_est": -0.229,
+            "z": -0.93,
+            "prior": 46.7,
+            "resid_std": 0.936
+          },
+          "2127": {
+            "n": 1,
+            "att": -0.157,
+            "def": 0.106,
+            "strength_est": -0.263,
+            "z": -1.06,
+            "prior": 49.8,
+            "resid_std": 0.0
+          },
+          "2128": {
+            "n": 1,
+            "att": -0.064,
+            "def": -0.924,
+            "strength_est": 0.86,
+            "z": 3.48,
+            "prior": 50.7,
+            "resid_std": 0.0
           },
           "2617": {
             "n": 33,
-            "att": 0.064,
-            "def": 0.002,
-            "strength_est": 0.062,
-            "z": 0.37,
-            "prior": 51.4,
-            "resid_std": 0.896
+            "att": 0.079,
+            "def": 0.023,
+            "strength_est": 0.056,
+            "z": 0.23,
+            "prior": 50.8,
+            "resid_std": 0.895
           },
           "2618": {
             "n": 32,
-            "att": -0.092,
-            "def": -0.16,
-            "strength_est": 0.068,
-            "z": 0.41,
-            "prior": 51.5,
-            "resid_std": 1.034
+            "att": -0.077,
+            "def": -0.14,
+            "strength_est": 0.062,
+            "z": 0.25,
+            "prior": 50.9,
+            "resid_std": 1.03
           },
           "2619": {
             "n": 31,
-            "att": -0.243,
-            "def": 0.015,
-            "strength_est": -0.258,
-            "z": -1.55,
-            "prior": 44.6,
-            "resid_std": 0.945
+            "att": -0.229,
+            "def": 0.035,
+            "strength_est": -0.264,
+            "z": -1.07,
+            "prior": 46.3,
+            "resid_std": 0.949
           }
         }
       },
@@ -31674,7 +32106,7 @@
       },
       "bel-challenger-pro-league": {
         "form_feed": true,
-        "match_events": 47,
+        "match_events": 51,
         "espn": false,
         "espn_code": null,
         "wiki": true,
@@ -32340,7 +32772,7 @@
       },
       "usa-usl": {
         "form_feed": true,
-        "match_events": 1135,
+        "match_events": 1142,
         "espn": true,
         "espn_code": "usa.usl.1",
         "wiki": true,
@@ -32394,7 +32826,7 @@
       },
       "crc-primera": {
         "form_feed": true,
-        "match_events": 617,
+        "match_events": 641,
         "espn": true,
         "espn_code": "crc.1",
         "wiki": false,
@@ -32403,7 +32835,7 @@
       },
       "gua-liga-nacional": {
         "form_feed": true,
-        "match_events": 703,
+        "match_events": 730,
         "espn": true,
         "espn_code": "gua.1",
         "wiki": false,
@@ -32412,7 +32844,7 @@
       },
       "hon-liga-nacional": {
         "form_feed": true,
-        "match_events": 611,
+        "match_events": 643,
         "espn": true,
         "espn_code": "hon.1",
         "wiki": false,
@@ -32475,7 +32907,7 @@
       },
       "arg-primera-nacional": {
         "form_feed": true,
-        "match_events": 1948,
+        "match_events": 1953,
         "espn": true,
         "espn_code": "arg.2",
         "wiki": true,
@@ -32556,7 +32988,7 @@
       },
       "uru-primera": {
         "form_feed": true,
-        "match_events": 896,
+        "match_events": 901,
         "espn": true,
         "espn_code": "uru.1",
         "wiki": false,
@@ -32619,7 +33051,7 @@
       },
       "arg-primera-b-metropolitana": {
         "form_feed": true,
-        "match_events": 1300,
+        "match_events": 1303,
         "espn": true,
         "espn_code": "arg.3",
         "wiki": false,
@@ -32637,11 +33069,11 @@
       }
     },
     "calibration_prior": {
-      "slope": 0.8254,
-      "intercept": -0.0261,
+      "slope": 0.822,
+      "intercept": -0.0213,
       "kappa": 40.0,
       "points": 8,
-      "samples": 8003,
+      "samples": 8094,
       "source": "gate_backtest.calibration_curve (Elo route, no look-ahead)",
       "caveat": "fitted on the pick-gate replay's Elo-from-strength route, not the live DC-priced route, so it is a PRIOR: the live buckets override it as soon as they hold more settled evidence of their own. Not applied to published probabilities or to selection until that trade-off is signed off.",
       "applied": false,
@@ -32654,14 +33086,14 @@
       "adjust_pp": 0.0,
       "refuted": true,
       "reason": "grid over-predicts draws; no correction applied",
-      "slots": 7954,
+      "slots": 8044,
       "elo_diagnostic": {
         "route": "p_draw",
         "applied": false,
         "adjust_pp": 0.0,
         "refuted": true,
-        "reason": "pooled draw rate lies inside the realized 90% interval \u2014 no measurable bias to correct",
-        "slots": 8003
+        "reason": "band errors disagree in sign (50% agreement) \u2014 a slope, which a flat draw correction cannot fix",
+        "slots": 8094
       },
       "scope": "market selection only (not the pick gate)",
       "reline": false
