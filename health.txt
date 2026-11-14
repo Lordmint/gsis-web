@@ -175,17 +175,17 @@ Competitions:
 Wikipedia data validation (results grid vs standings table):
   eng-premier-league: OK | teams=20 matches=100 checked=20 issues=0
   eng-championship: OK | teams=24 matches=180 checked=24 issues=0
-  eng-league-one: OK | teams=24 matches=158 checked=24 issues=0
-  eng-league-two: OK | teams=24 matches=164 checked=24 issues=0
-  eng-national-league: OK | teams=24 matches=189 checked=24 issues=0
+  eng-league-one: OK | teams=24 matches=163 checked=24 issues=0
+  eng-league-two: OK | teams=24 matches=173 checked=24 issues=0
+  eng-national-league: OK | teams=24 matches=200 checked=24 issues=0
   esp-la-liga: MISMATCH | teams=20 matches=102 checked=20 issues=14
       Barcelona: grid(P11 W10 D0 L1 GF41 GA11) vs standings (P12 W11 D0 L1 GF48 GA13)
       Atlético Madrid: grid(P11 W8 D1 L2 GF22 GA10) vs standings (P12 W9 D1 L2 GF23 GA10)
       Real Sociedad: grid(P10 W6 D0 L4 GF18 GA18) vs standings (P12 W7 D1 L4 GF21 GA20)
-  esp-la-liga-2: MISMATCH | teams=22 matches=132 checked=22 issues=11
-      Castellón: grid(P11 W7 D3 L1 GF19 GA5) vs standings (P12 W8 D3 L1 GF23 GA5)
+  esp-la-liga-2: MISMATCH | teams=22 matches=133 checked=22 issues=12
+      Castellón: grid(P12 W8 D3 L1 GF20 GA5) vs standings (P13 W9 D3 L1 GF24 GA5)
       Granada: grid(P11 W6 D2 L3 GF18 GA14) vs standings (P12 W7 D2 L3 GF20 GA14)
-      Sporting Gijón: grid(P6 W3 D1 L2 GF6 GA6) vs standings (P13 W7 D1 L5 GF14 GA15)
+      Sporting Gijón: grid(P6 W3 D1 L2 GF6 GA6) vs standings (P14 W7 D2 L5 GF16 GA17)
   esp-primera-rfef: MISMATCH | teams=20 matches=94 checked=20 issues=17
       Lugo: grid(P10 W8 D1 L1 GF18 GA9) vs standings (P11 W9 D1 L1 GF19 GA9)
       UD Logroñés: grid(P10 W7 D1 L2 GF21 GA13) vs standings (P11 W7 D2 L2 GF22 GA14)
@@ -295,8 +295,8 @@ Wikipedia data validation (results grid vs standings table):
       Alashkert: grid(P12 W6 D4 L2 GF25 GA12) vs standings (P13 W7 D4 L2 GF28 GA12)
       Shirak: grid(P12 W3 D2 L7 GF12 GA15) vs standings (P13 W4 D2 L7 GF14 GA16)
   gre-super-league: OK | teams=14 matches=69 checked=14 issues=0
-  ukr-premier-league: OK | teams=16 matches=88 checked=16 issues=0
-  ukr-persha: MISMATCH | teams=16 matches=111 checked=16 issues=8
+  ukr-premier-league: OK | teams=16 matches=89 checked=16 issues=0
+  ukr-persha: MISMATCH | teams=16 matches=112 checked=16 issues=8
       Ahrobiznes Volochysk: grid(P13 W7 D2 L4 GF19 GA16) vs standings (P14 W8 D2 L4 GF22 GA16)
       Kulykiv-Bilka: grid(P14 W6 D4 L4 GF27 GA17) vs standings (P15 W7 D4 L4 GF29 GA18)
       Poltava: grid(P14 W6 D3 L5 GF21 GA14) vs standings (P15 W7 D3 L5 GF25 GA14)
@@ -360,7 +360,7 @@ Wikipedia data validation (results grid vs standings table):
       Levski Sofia: grid(P12 W10 D2 L0 GF25 GA5) vs standings (P13 W10 D2 L1 GF25 GA8)
       CSKA 1948: grid(P13 W9 D2 L2 GF31 GA13) vs standings (P14 W9 D2 L3 GF33 GA16)
   bul-second-league: MISMATCH | teams=18 matches=125 checked=18 issues=12
-      Chernomorets Burgas: grid(P7 W4 D2 L1 GF11 GA5) vs standings (P15 W8 D5 L2 GF27 GA13)
+      Chernomorets Burgas: grid(P7 W4 D2 L1 GF11 GA5) vs standings (P16 W9 D5 L2 GF30 GA14)
       Vihren: grid(P14 W8 D4 L2 GF28 GA13) vs standings (P15 W8 D5 L2 GF29 GA14)
       Fratria Varna: grid(P13 W7 D3 L3 GF22 GA12) vs standings (P14 W7 D4 L3 GF24 GA14)
   svn-prvaliga: OK | teams=10 matches=74 checked=10 issues=0
