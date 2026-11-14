@@ -176,20 +176,20 @@ Wikipedia data validation (results grid vs standings table):
   eng-premier-league: OK | teams=20 matches=100 checked=20 issues=0
   eng-championship: OK | teams=24 matches=180 checked=24 issues=0
   eng-league-one: OK | teams=24 matches=163 checked=24 issues=0
-  eng-league-two: OK | teams=24 matches=173 checked=24 issues=0
+  eng-league-two: OK | teams=24 matches=174 checked=24 issues=0
   eng-national-league: OK | teams=24 matches=200 checked=24 issues=0
   esp-la-liga: MISMATCH | teams=20 matches=102 checked=20 issues=14
       Barcelona: grid(P11 W10 D0 L1 GF41 GA11) vs standings (P12 W11 D0 L1 GF48 GA13)
       Atlético Madrid: grid(P11 W8 D1 L2 GF22 GA10) vs standings (P12 W9 D1 L2 GF23 GA10)
       Real Sociedad: grid(P10 W6 D0 L4 GF18 GA18) vs standings (P12 W7 D1 L4 GF21 GA20)
-  esp-la-liga-2: MISMATCH | teams=22 matches=133 checked=22 issues=12
+  esp-la-liga-2: MISMATCH | teams=22 matches=136 checked=22 issues=12
       Castellón: grid(P12 W8 D3 L1 GF20 GA5) vs standings (P13 W9 D3 L1 GF24 GA5)
       Granada: grid(P11 W6 D2 L3 GF18 GA14) vs standings (P12 W7 D2 L3 GF20 GA14)
       Sporting Gijón: grid(P6 W3 D1 L2 GF6 GA6) vs standings (P14 W7 D2 L5 GF16 GA17)
-  esp-primera-rfef: MISMATCH | teams=20 matches=94 checked=20 issues=17
+  esp-primera-rfef: MISMATCH | teams=20 matches=95 checked=20 issues=18
       Lugo: grid(P10 W8 D1 L1 GF18 GA9) vs standings (P11 W9 D1 L1 GF19 GA9)
       UD Logroñés: grid(P10 W7 D1 L2 GF21 GA13) vs standings (P11 W7 D2 L2 GF22 GA14)
-      Pontevedra: grid(P10 W5 D3 L2 GF12 GA8) vs standings (P11 W5 D3 L3 GF13 GA11)
+      Mérida: grid(P11 W5 D1 L5 GF19 GA15) vs standings (P12 W6 D1 L5 GF21 GA15)
   ita-serie-a: OK | teams=20 matches=111 checked=20 issues=0
   ita-serie-b: OK | teams=20 matches=110 checked=20 issues=0
   ita-serie-c: no validation data
@@ -208,7 +208,7 @@ Wikipedia data validation (results grid vs standings table):
       Nice: grid(P9 W4 D2 L3 GF10 GA10) vs standings (P10 W5 D2 L3 GF15 GA12)
   fra-ligue-2: OK | teams=18 matches=108 checked=18 issues=0
   ned-eredivisie: OK | teams=18 matches=108 checked=18 issues=0
-  ned-eerste-divisie: OK | teams=20 matches=139 checked=20 issues=0
+  ned-eerste-divisie: OK | teams=20 matches=146 checked=20 issues=0
   por-primeira-liga: MISMATCH | teams=18 matches=98 checked=18 issues=4
       Porto: grid(P11 W11 D0 L0 GF26 GA5) vs standings (P11 W11 D0 L0 GF27 GA5)
       Moreirense: grid(P10 W3 D2 L5 GF11 GA17) vs standings (P11 W4 D2 L5 GF13 GA18)
@@ -218,8 +218,8 @@ Wikipedia data validation (results grid vs standings table):
       Club Brugge: grid(P10 W9 D0 L1 GF26 GA8) vs standings (P11 W9 D1 L1 GF27 GA9)
       Gent: grid(P8 W7 D1 L0 GF18 GA4) vs standings (P11 W9 D1 L1 GF20 GA6)
   sco-premiership: OK | teams=12 matches=75 checked=12 issues=0
-  sco-championship: OK | teams=10 matches=69 checked=10 issues=0
-  sco-league-one: OK | teams=10 matches=69 checked=10 issues=0
+  sco-championship: OK | teams=10 matches=73 checked=10 issues=0
+  sco-league-one: OK | teams=10 matches=74 checked=10 issues=0
   tur-super-lig: MISMATCH | teams=18 matches=93 checked=18 issues=8
       Galatasaray: grid(P10 W8 D1 L1 GF23 GA12) vs standings (P11 W9 D1 L1 GF27 GA15)
       Amedspor: grid(P6 W6 D0 L0 GF19 GA4) vs standings (P11 W7 D2 L2 GF28 GA15)
@@ -421,9 +421,9 @@ Wikipedia data validation (results grid vs standings table):
       Raja CA: grid(P6 W3 D2 L1 GF6 GA4) vs standings (P7 W3 D3 L1 GF7 GA5)
       AS FAR: grid(P5 W2 D2 L1 GF6 GA4) vs standings (P6 W3 D2 L1 GF9 GA5)
   rsa-premiership: OK | teams=16 matches=73 checked=16 issues=0
-  ngr-npfl: MISMATCH | teams=20 matches=112 checked=20 issues=7
+  ngr-npfl: MISMATCH | teams=20 matches=115 checked=20 issues=7
       Enugu Rangers: grid(P6 W5 D1 L0 GF9 GA3) vs standings (P11 W7 D3 L1 GF17 GA10)
-      Barau: grid(P11 W4 D6 L1 GF12 GA8) vs standings (P12 W4 D7 L1 GF14 GA10)
+      Barau: grid(P12 W4 D7 L1 GF12 GA8) vs standings (P13 W4 D8 L1 GF14 GA10)
       Rivers United: grid(P10 W4 D5 L1 GF14 GA4) vs standings (P11 W4 D6 L1 GF15 GA5)
   rsa-national-first-division: MISMATCH | teams=16 matches=28 checked=16 issues=16
       Cape Town City: grid(P4 W2 D1 L1 GF6 GA4) vs standings (P10 W6 D3 L1 GF16 GA9)
@@ -526,10 +526,10 @@ Wikipedia data validation (results grid vs standings table):
       FAS: grid(P16 W8 D5 L3 GF28 GA18) vs standings (P19 W9 D6 L4 GF31 GA21)
       Águila: grid(P16 W7 D5 L4 GF31 GA24) vs standings (P19 W8 D6 L5 GF36 GA27)
   bra-serie-a: OK | teams=20 matches=339 checked=20 issues=0
-  bra-serie-b: MISMATCH | teams=20 matches=149 checked=20 issues=20
-      Novorizontino: grid(P25 W13 D8 L4 GF47 GA22) vs standings (P37 W20 D10 L7 GF66 GA32)
-      Juventude: grid(P8 W4 D2 L2 GF11 GA5) vs standings (P37 W19 D11 L7 GF49 GA26)
-      Vila Nova: grid(P25 W10 D6 L9 GF34 GA31) vs standings (P37 W19 D9 L9 GF53 GA38)
+  bra-serie-b: MISMATCH | teams=20 matches=152 checked=20 issues=20
+      Novorizontino: grid(P26 W14 D8 L4 GF48 GA22) vs standings (P38 W21 D10 L7 GF67 GA32)
+      Juventude: grid(P8 W4 D2 L2 GF11 GA5) vs standings (P38 W20 D11 L7 GF51 GA26)
+      Vila Nova: grid(P26 W10 D6 L10 GF34 GA32) vs standings (P38 W19 D9 L10 GF53 GA39)
   arg-primera: MISMATCH | teams=15 matches=202 checked=15 issues=15
       Estudiantes: grid(P31 W11 D6 L14 GF34 GA30) vs standings (P16 W9 D4 L3 GF19 GA7)
       Boca Juniors: grid(P27 W14 D10 L3 GF41 GA22) vs standings (P16 W8 D6 L2 GF22 GA9)
@@ -538,8 +538,8 @@ Wikipedia data validation (results grid vs standings table):
       Godoy Cruz: grid(P34 W18 D9 L7 GF51 GA31) vs standings (P36 W19 D9 L8 GF53 GA33)
       Ferro Carril Oeste: grid(P34 W17 D9 L8 GF34 GA30) vs standings (P36 W19 D9 L8 GF38 GA31)
       Deportivo Morón: grid(P34 W17 D7 L10 GF51 GA35) vs standings (P36 W18 D7 L11 GF53 GA37)
-  col-primera: MISMATCH | teams=20 matches=373 checked=20 issues=20
-      Atlético Nacional: grid(P37 W25 D4 L8 GF72 GA32) vs standings (P19 W13 D1 L5 GF35 GA15)
+  col-primera: MISMATCH | teams=20 matches=380 checked=20 issues=20
+      Atlético Nacional: grid(P38 W25 D5 L8 GF73 GA33) vs standings (P19 W13 D1 L5 GF35 GA15)
       Junior: grid(P38 W16 D9 L13 GF57 GA51) vs standings (P19 W11 D2 L6 GF31 GA24)
       Deportivo Pasto: grid(P38 W14 D7 L17 GF42 GA55) vs standings (P19 W10 D4 L5 GF29 GA25)
   chi-primera-b: MISMATCH | teams=16 matches=219 checked=16 issues=15
