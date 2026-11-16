@@ -181,10 +181,7 @@ Competitions:
   nzl-national-league: ok (resumed: already completed this snapshot) | entities=12 events=139
 
 Wikipedia data validation (results grid vs standings table):
-  eng-premier-league: MISMATCH | teams=22 matches=95 checked=20 issues=6
-      [115: grid(P5 W4 D0 L1 GF11 GA7) vs standings (P10 W7 D0 L3 GF21 GA13)
-      Liverpool: grid(P9 W5 D3 L1 GF14 GA7) vs standings (P10 W5 D3 L2 GF14 GA10)
-      Aston Villa: grid(P9 W2 D5 L2 GF16 GA16) vs standings (P10 W3 D5 L2 GF18 GA17)
+  eng-premier-league: OK | teams=20 matches=100 checked=20 issues=0
   eng-championship: OK | teams=24 matches=180 checked=24 issues=0
   eng-league-one: OK | teams=24 matches=163 checked=24 issues=0
   eng-league-two: OK | teams=24 matches=174 checked=24 issues=0
@@ -350,10 +347,10 @@ Wikipedia data validation (results grid vs standings table):
       KTP: grid(P7 W3 D2 L2 GF8 GA8) vs standings (P27 W18 D5 L4 GF48 GA26)
       PK-35: grid(P18 W10 D5 L3 GF28 GA13) vs standings (P27 W15 D7 L5 GF44 GA23)
       Haka: grid(P19 W10 D4 L5 GF33 GA18) vs standings (P27 W14 D5 L8 GF51 GA31)
-  por-segunda-liga: MISMATCH | teams=18 matches=76 checked=18 issues=11
-      Penafiel: grid(P9 W7 D1 L1 GF21 GA8) vs standings (P10 W7 D1 L2 GF22 GA10)
-      Lusitânia Lourosa: grid(P8 W4 D4 L0 GF13 GA7) vs standings (P9 W5 D4 L0 GF15 GA8)
-      Vizela: grid(P9 W3 D3 L3 GF11 GA11) vs standings (P10 W4 D3 L3 GF12 GA11)
+  por-segunda-liga: MISMATCH | teams=18 matches=76 checked=18 issues=18
+      Penafiel: grid(P9 W7 D1 L1 GF21 GA8) vs standings (P11 W7 D1 L3 GF23 GA12)
+      Lusitânia Lourosa: grid(P8 W4 D4 L0 GF13 GA7) vs standings (P11 W6 D4 L1 GF17 GA10)
+      Sporting CP B: grid(P9 W7 D0 L2 GF15 GA7) vs standings (P10 W7 D1 L2 GF16 GA8)
   bel-challenger-pro-league: no validation data
   rus-premier-league: OK | teams=16 matches=240 checked=16 issues=0
   rus-first-league: OK | teams=18 matches=154 checked=18 issues=0
@@ -433,9 +430,10 @@ Wikipedia data validation (results grid vs standings table):
       Medeama: grid(P8 W4 D3 L1 GF11 GA7) vs standings (P10 W6 D3 L1 GF16 GA8)
       Hearts of Oak: grid(P8 W4 D2 L2 GF10 GA3) vs standings (P10 W6 D2 L2 GF12 GA3)
       Port City FC: grid(P3 W2 D1 L0 GF6 GA3) vs standings (P10 W5 D3 L2 GF12 GA7)
-  egy-premier-league: MISMATCH | teams=20 matches=51 checked=20 issues=2
-      Modern Sport: grid(P6 W4 D1 L1 GF9 GA4) vs standings (P5 W3 D1 L1 GF7 GA4)
-      Al Ittihad: grid(P6 W3 D1 L2 GF6 GA5) vs standings (P5 W3 D1 L1 GF6 GA3)
+  egy-premier-league: MISMATCH | teams=20 matches=51 checked=20 issues=20
+      Pyramids: grid(P5 W5 D0 L0 GF9 GA1) vs standings (P8 W8 D0 L0 GF19 GA4)
+      Al Ahly: grid(P5 W4 D1 L0 GF9 GA3) vs standings (P8 W6 D2 L0 GF15 GA6)
+      Zamalek: grid(P5 W4 D1 L0 GF8 GA1) vs standings (P8 W6 D1 L1 GF11 GA4)
   zim-premier-league: no validation data
   mar-botola: MISMATCH | teams=16 matches=48 checked=16 issues=8
       KAC Marrakech: grid(P5 W5 D0 L0 GF7 GA2) vs standings (P7 W5 D1 L1 GF10 GA6)
