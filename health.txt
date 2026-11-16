@@ -130,7 +130,7 @@ Competitions:
   tha-league-2: ok (resumed: already completed this snapshot) | entities=18 events=85
   idn-super-league: ok (resumed: already completed this snapshot) | entities=18 events=170
   qat-stars-league: ok (resumed: already completed this snapshot) | entities=12 events=132
-  uae-pro-league: ok | entities=14 events=83
+  uae-pro-league: ok (resumed: already completed this snapshot) | entities=14 events=182
   irq-stars-league: ok (resumed: already completed this snapshot) | entities=20 events=130
   jor-pro-league: ok (resumed: already completed this snapshot) | entities=10 events=40
   kuw-premier: ok (resumed: already completed this snapshot) | entities=12 events=19
@@ -314,7 +314,7 @@ Wikipedia data validation (results grid vs standings table):
       Shirak: grid(P12 W3 D2 L7 GF12 GA15) vs standings (P13 W4 D2 L7 GF14 GA16)
   gre-super-league: OK | teams=14 matches=69 checked=14 issues=0
   ukr-premier-league: OK | teams=16 matches=89 checked=16 issues=0
-  ukr-persha: MISMATCH | teams=16 matches=114 checked=16 issues=8
+  ukr-persha: MISMATCH | teams=16 matches=115 checked=16 issues=8
       Ahrobiznes Volochysk: grid(P14 W8 D2 L4 GF23 GA17) vs standings (P15 W9 D2 L4 GF26 GA17)
       Kulykiv-Bilka: grid(P14 W6 D4 L4 GF27 GA17) vs standings (P15 W7 D4 L4 GF29 GA18)
       Poltava: grid(P15 W6 D3 L6 GF22 GA18) vs standings (P16 W7 D3 L6 GF26 GA18)
@@ -377,10 +377,10 @@ Wikipedia data validation (results grid vs standings table):
       CSKA Sofia: grid(P7 W6 D1 L0 GF19 GA5) vs standings (P14 W10 D4 L0 GF32 GA9)
       Levski Sofia: grid(P12 W10 D2 L0 GF25 GA5) vs standings (P13 W10 D2 L1 GF25 GA8)
       CSKA 1948: grid(P13 W9 D2 L2 GF31 GA13) vs standings (P14 W9 D2 L3 GF33 GA16)
-  bul-second-league: MISMATCH | teams=18 matches=125 checked=18 issues=12
+  bul-second-league: MISMATCH | teams=18 matches=133 checked=18 issues=12
+      Vihren: grid(P15 W9 D4 L2 GF31 GA13) vs standings (P16 W9 D5 L2 GF32 GA14)
       Chernomorets Burgas: grid(P7 W4 D2 L1 GF11 GA5) vs standings (P16 W9 D5 L2 GF30 GA14)
-      Vihren: grid(P14 W8 D4 L2 GF28 GA13) vs standings (P15 W8 D5 L2 GF29 GA14)
-      Fratria Varna: grid(P13 W7 D3 L3 GF22 GA12) vs standings (P14 W7 D4 L3 GF24 GA14)
+      Fratria Varna: grid(P14 W8 D3 L3 GF25 GA14) vs standings (P15 W8 D4 L3 GF27 GA16)
   svn-prvaliga: OK | teams=10 matches=74 checked=10 issues=0
   svk-first-league: MISMATCH | teams=12 matches=76 checked=12 issues=9
       DAC Dunajská Streda: grid(P6 W5 D1 L0 GF19 GA4) vs standings (P14 W12 D2 L0 GF42 GA9)
@@ -440,10 +440,10 @@ Wikipedia data validation (results grid vs standings table):
       Raja CA: grid(P6 W3 D2 L1 GF6 GA4) vs standings (P7 W3 D3 L1 GF7 GA5)
       AS FAR: grid(P5 W2 D2 L1 GF6 GA4) vs standings (P6 W3 D2 L1 GF9 GA5)
   rsa-premiership: OK | teams=16 matches=73 checked=16 issues=0
-  ngr-npfl: MISMATCH | teams=20 matches=115 checked=20 issues=7
+  ngr-npfl: MISMATCH | teams=20 matches=121 checked=20 issues=7
       Enugu Rangers: grid(P6 W5 D1 L0 GF9 GA3) vs standings (P11 W7 D3 L1 GF17 GA10)
+      Rivers United: grid(P12 W4 D7 L1 GF16 GA6) vs standings (P13 W4 D8 L1 GF17 GA7)
       Barau: grid(P12 W4 D7 L1 GF12 GA8) vs standings (P13 W4 D8 L1 GF14 GA10)
-      Rivers United: grid(P10 W4 D5 L1 GF14 GA4) vs standings (P11 W4 D6 L1 GF15 GA5)
   rsa-national-first-division: MISMATCH | teams=16 matches=28 checked=16 issues=16
       Cape Town City: grid(P4 W2 D1 L1 GF6 GA4) vs standings (P10 W6 D3 L1 GF16 GA9)
       Magesi: grid(P4 W4 D0 L0 GF6 GA1) vs standings (P10 W6 D3 L1 GF13 GA6)
@@ -615,7 +615,7 @@ Prediction validation (top-3 vs next-5, mature≥3 matches):
   ukr-persha: avg hit=66.7% | mature=16 matches=90 conf=25%
   rus-premier-league: avg hit=66.5% | mature=44 matches=166 conf=70%
   jpn-j1-league: avg hit=65.9% | mature=43 matches=194 conf=68%
-  uae-pro-league: avg hit=65.7% | mature=40 matches=183 conf=63%
+  uae-pro-league: avg hit=65.7% | mature=40 matches=183 conf=62%
   chi-primera: avg hit=64.6% | mature=47 matches=160 conf=75%
   ven-liga-futve: avg hit=64.4% | mature=45 matches=225 conf=75%
   ger-2-bundesliga: avg hit=64.2% | mature=42 matches=158 conf=67%
