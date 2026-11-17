@@ -137,12 +137,12 @@ Competitions:
   lbn-premier: ok | entities=12 events=0
   vnm-vleague: ok | entities=14 events=49
   hkg-premier: ok | entities=11 events=33
-  uzb-super-league: ok | entities=16 events=201
+  uzb-super-league: ok | entities=16 events=202
   uzb-pro-league: ok | entities=14 events=0
   irn-premier-league: ok | entities=18 events=90
   aus-a-league: ok | entities=12 events=124
   usa-mls: ok | entities=30 events=511
-  usa-usl: ok | entities=25 events=384
+  usa-usl: ok | entities=25 events=385
   usa-usl-league-one: ok | entities=17 events=278
   usa-nwsl: ok | entities=16 events=246
   usa-usl-super-league: ok | entities=8 events=113
@@ -512,8 +512,8 @@ Wikipedia data validation (results grid vs standings table):
       Lee Man: grid(P5 W4 D0 L1 GF12 GA5) vs standings (P7 W6 D0 L1 GF15 GA6)
       Kitchee: grid(P5 W4 D1 L0 GF15 GA4) vs standings (P6 W5 D1 L0 GF19 GA5)
       Southern: grid(P4 W2 D0 L2 GF8 GA10) vs standings (P6 W3 D0 L3 GF11 GA11)
-  uzb-super-league: MISMATCH | teams=16 matches=201 checked=16 issues=15
-      Neftchi: grid(P25 W18 D4 L3 GF59 GA22) vs standings (P26 W19 D4 L3 GF61 GA23)
+  uzb-super-league: MISMATCH | teams=16 matches=202 checked=16 issues=15
+      Neftchi: grid(P26 W19 D4 L3 GF63 GA22) vs standings (P27 W20 D4 L3 GF65 GA23)
       Pakhtakor: grid(P26 W16 D8 L2 GF45 GA25) vs standings (P27 W17 D8 L2 GF48 GA26)
       Navbahor: grid(P26 W16 D7 L3 GF44 GA22) vs standings (P27 W16 D7 L4 GF46 GA25)
   uzb-pro-league: no validation data
@@ -654,11 +654,11 @@ Prediction validation (top-3 vs next-5, mature≥3 matches):
   sco-championship: avg hit=37.6% | mature=48 matches=225 conf=73%
   alb-superiore: avg hit=33.3% | mature=3 matches=56 conf=5%
   mar-botola: avg hit=33.3% | mature=6 matches=46 conf=9%
-  usa-usl: avg hit=25.2% | mature=15 matches=100 conf=23%
+  usa-usl: avg hit=30.4% | mature=16 matches=114 conf=24%
   irq-stars-league: avg hit=22.2% | mature=6 matches=34 conf=9%
   kor-k-league: avg hit=11.1% | mature=4 matches=72 conf=6%
   mda-liga-1: avg hit=11.1% | mature=4 matches=33 conf=6%
-  Overall: 71 leagues mature, avg hit=59.6%
+  Overall: 71 leagues mature, avg hit=59.7%
 
 Recipe tuning:
   bra-serie-a: boost_position — over target (hit=91.3% > 52%) → lean into position/wdl (Δ +39.3pt)
