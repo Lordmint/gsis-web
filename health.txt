@@ -129,7 +129,7 @@ Competitions:
   tha-league-1: ok (resumed: already completed this snapshot) | entities=16 events=120
   tha-league-2: ok (resumed: already completed this snapshot) | entities=18 events=85
   idn-super-league: ok (resumed: already completed this snapshot) | entities=18 events=170
-  qat-stars-league: ok | entities=12 events=48
+  qat-stars-league: ok | entities=12 events=54
   uae-pro-league: ok | entities=14 events=83
   irq-stars-league: ok (resumed: already completed this snapshot) | entities=20 events=130
   jor-pro-league: ok (resumed: already completed this snapshot) | entities=10 events=40
@@ -426,10 +426,10 @@ Wikipedia data validation (results grid vs standings table):
   mda-liga-1: GRID-LAG (1 round(s) behind) | teams=6 matches=38 checked=6 issues=2
       Iskra Rîbnița: grid(P12 W7 D1 L4 GF25 GA13) vs standings (P13 W8 D1 L4 GF27 GA14)
       Zimbru-2 Chișinău[a]: grid(P12 W5 D1 L6 GF21 GA24) vs standings (P13 W5 D1 L7 GF22 GA26)
-  gha-premier-league: MISMATCH | teams=18 matches=60 checked=18 issues=18
-      Medeama: grid(P8 W4 D3 L1 GF11 GA7) vs standings (P10 W6 D3 L1 GF16 GA8)
-      Hearts of Oak: grid(P8 W4 D2 L2 GF10 GA3) vs standings (P10 W6 D2 L2 GF12 GA3)
-      Port City FC: grid(P3 W2 D1 L0 GF6 GA3) vs standings (P10 W5 D3 L2 GF12 GA7)
+  gha-premier-league: MISMATCH | teams=18 matches=67 checked=18 issues=18
+      Medeama: grid(P9 W5 D3 L1 GF13 GA8) vs standings (P11 W7 D3 L1 GF18 GA9)
+      Hearts of Oak: grid(P9 W4 D3 L2 GF10 GA3) vs standings (P11 W6 D3 L2 GF12 GA3)
+      Port City FC: grid(P3 W2 D1 L0 GF6 GA3) vs standings (P11 W6 D3 L2 GF15 GA8)
   egy-premier-league: MISMATCH | teams=20 matches=51 checked=20 issues=20
       Pyramids: grid(P5 W5 D0 L0 GF9 GA1) vs standings (P8 W8 D0 L0 GF19 GA4)
       Al Ahly: grid(P5 W4 D1 L0 GF9 GA3) vs standings (P8 W6 D2 L0 GF15 GA6)
@@ -488,7 +488,7 @@ Wikipedia data validation (results grid vs standings table):
       Dewa United Banten: grid(P8 W5 D2 L1 GF14 GA12) vs standings (P9 W6 D2 L1 GF16 GA12)
       Bali United: grid(P8 W5 D1 L2 GF20 GA8) vs standings (P9 W6 D1 L2 GF26 GA9)
       Madura United: grid(P8 W5 D1 L2 GF14 GA10) vs standings (P9 W6 D1 L2 GF16 GA10)
-  qat-stars-league: OK | teams=12 matches=48 checked=12 issues=0
+  qat-stars-league: OK | teams=12 matches=54 checked=12 issues=0
   uae-pro-league: MISMATCH | teams=14 matches=83 checked=14 issues=14
       Al Jazira: grid(P13 W4 D4 L5 GF18 GA19) vs standings (P7 W5 D2 L0 GF15 GA5)
       Sharjah: grid(P11 W11 D0 L0 GF32 GA11) vs standings (P7 W5 D0 L2 GF15 GA8)
